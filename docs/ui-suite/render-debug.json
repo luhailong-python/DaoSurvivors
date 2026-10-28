@@ -1,0 +1,77 @@
+{
+  "verifiedAt": "2026-10-26T11:05:19.318Z",
+  "purpose": "Art/UI state rendering, not game logic or Unity verification",
+  "browser": "134.0.3124.83",
+  "baseResolution": [
+    1920,
+    1080
+  ],
+  "records": [
+    {
+      "id": "01-startup",
+      "file": "designs/ui-suite/screens/01-startup.png",
+      "sha256": "7d69db237af7f1769ea707d85650113c026531c46bce9558ca72dad15ee40cd0",
+      "layout": "designs/ui-suite/layouts/01-startup.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "04-main-menu",
+      "file": "designs/ui-suite/screens/04-main-menu.png",
+      "sha256": "46b4f605f428a561529de0262a67ac6b40c4a4859680cc05890dbcf5fc70f104",
+      "layout": "designs/ui-suite/layouts/04-main-menu.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "16-powerup-overview",
+      "file": "designs/ui-suite/screens/16-powerup-overview.png",
+      "sha256": "e245498e8c0073e7caaa3e17ee411242c5236d5fc0bbe85e79b6b4419747a45c",
+      "layout": "designs/ui-suite/layouts/16-powerup-overview.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "18-powerup-insufficient",
+      "file": "designs/ui-suite/screens/18-powerup-insufficient.png",
+      "sha256": "5953a56621e204231c47adccd0602f95c4167ca7792b6156979cf0e89aa49238",
+      "layout": "designs/ui-suite/layouts/18-powerup-insufficient.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "21-settings-audio",
+      "file": "designs/ui-suite/screens/21-settings-audio.png",
+      "sha256": "543a207eb13870b74bf9d1a756601f41bf85afc9fa2f884cfe9213b2bdd7e2d7",
+      "layout": "designs/ui-suite/layouts/21-settings-audio.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    }
+  ],
+  "responsive": [],
+  "sourceFiles": [
+    {
+      "file": "designs/ui-suite/preview/index.html",
+      "sha256": "dade60d8b5af92760aeae2e6e770787dfde25d5e769153d82c07328082cb680a"
+    },
+    {
+      "file": "designs/ui-suite/preview/style.css",
+      "sha256": "d08c0f4c1332e056541c3d33374f0bb2f39a432c91ce6b544d54a5d400770dbd"
+    },
+    {
+      "file": "designs/ui-suite/preview/menu.css",
+      "sha256": "8f8623180d3c60ecdf0bfaba3722d032a8d28a842990cb54e8851fd6c43c4417"
+    },
+    {
+      "file": "designs/ui-suite/preview/suite.js",
+      "sha256": "3a80bf5e61411e92dcf7e6baa8a5d1384a1efff4ebb61e0049cfb1cd85ec65b9"
+    },
+    {
+      "file": "designs/ui-suite/preview/menu.js",
+      "sha256": "dd4ebce69ba4c21f274a1691a24f9b177967c7018de1b12d888f0cae1916a5fd"
+    }
+  ],
+  "scriptErrors": [],
+  "failures": [],
+  "status": "passed"
+}

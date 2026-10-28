@@ -1,0 +1,144 @@
+{
+  "generatedAt": "2026-10-21T07:18:13.2799480+00:00",
+  "sha256": "a2719dc166d794db10f0de40d739c802ffa0439ee57f3bcd5c147ce6569a9388",
+  "references": [
+    {
+      "file": "E:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "role": "Authoritative approved Daoist chibi hand-painted UI style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "file": "E:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "role": "Authoritative approved jade, ivory, thin warm-gold frame and rounded forms",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    },
+    {
+      "file": "E:\\work\\image\\designs\\class-skills-20260928\\icons-style-20261021\\style-anchor.png",
+      "role": "Approved batch anchor for border, pale silk background, clouds, painting and proportions",
+      "sha256": "69f4c537a9dea5a8f44a5b69f815a516a97e19cc958141cdfa45392a7fed6e27",
+      "submittedPath": "E:/work/image/designs/class-skills-20260928/icons-style-20261021/icons/1101.png"
+    }
+  ],
+  "tool": "image_gen.imagegen",
+  "unverifiedReason": "Host managed; tool exposes no model or quality selector and returned no verifiable model or quality metadata. Configured target and prompt do not establish actual API variant or quality.",
+  "submittedParameters": {
+    "quality": null,
+    "promptFile": "../prompts/1202.txt",
+    "transparent_background": false,
+    "model": null,
+    "referenced_image_paths": [
+      "E:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "E:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "E:/work/image/designs/class-skills-20260928/icons-style-20261021/icons/1101.png"
+    ]
+  },
+  "route": "builtin",
+  "visualReview": {
+    "status": "passed",
+    "reviewedAt": "2026-10-21T10:06:40.424531+01:00",
+    "reviewSizes": [
+      1254,
+      288,
+      74
+    ],
+    "reviewedSha256": "a2719dc166d794db10f0de40d739c802ffa0439ee57f3bcd5c147ce6569a9388",
+    "semanticStatus": "acceptable",
+    "notes": "Three large purple-blue lightning streams terminate at three separate cloud nodes on a jade array; clear three-target magic attack.",
+    "styleNotes": "Thin jade-gold border and light ivory silk field match the accepted UI family.",
+    "cornerRgb": [
+      [
+        244,
+        235,
+        212
+      ],
+      [
+        243,
+        234,
+        209
+      ],
+      [
+        245,
+        236,
+        215
+      ],
+      [
+        244,
+        235,
+        210
+      ]
+    ],
+    "requiredFixes": [],
+    "optionalNotes": [
+      "The exact duration and percentage are left to skill text; the icon communicates the skill family and primary effect."
+    ]
+  },
+  "generatedAtEvidence": "UTC time when successful built-in tool result was persisted; tool did not disclose generation timestamp",
+  "height": 1254,
+  "width": 1254,
+  "skillId": 1202,
+  "format": "PNG",
+  "actualModel": null,
+  "file": "icons/1202.png",
+  "nativeDimensions": [
+    1254,
+    1254
+  ],
+  "sourceFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a15d1c-ed48-71c3-ab6c-d20e05c7f064\\exec-8b72e0a0-2b79-401e-b191-9fe13a651e66.png",
+  "exportDimensions": [
+    1254,
+    1254
+  ],
+  "evidence": [
+    {
+      "file": "records/1202.tool-response.json",
+      "fields": [
+        "output_hint",
+        "sourceFile",
+        "completedAt"
+      ]
+    }
+  ],
+  "actualQuality": null,
+  "operation": "Successful built-in generated PNG copied byte-for-byte as the versioned production candidate; no crop, scaling, compositing or repainting",
+  "prompt": "prompts/1202.txt",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-10",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "semanticIntent": "布下雷阵，对选中敌人及其他敌方造成法术伤害，最多3个目标。技能等级越高，伤害越高。",
+  "visualReviewHistory": [
+    {
+      "reviewedAt": "2026-10-21T07:18:13.2799480+00:00",
+      "status": "passed",
+      "notes": "Viewed output: three separate lavender-white electrical ribbons terminate in three distinct cloud impact nodes on the jade circular array. Pale corners and jade/ivory painting match anchor. Ribbons are stylized soft thunder energy rather than hard jagged bolts."
+    }
+  ],
+  "name": "紫霄雷阵",
+  "semanticLabel": "三目标雷击",
+  "pathBase": "icons-style-20261021 directory unless an absolute path is given",
+  "finalVisualReview": {
+    "status": "passed",
+    "reviewedAt": "2026-10-22T02:35:03.141139-04:00",
+    "sizes": [
+      38,
+      45,
+      50,
+      60,
+      74,
+      160,
+      288
+    ],
+    "evidence": "qa/visual-review.json",
+    "reviewedSha256": "a2719dc166d794db10f0de40d739c802ffa0439ee57f3bcd5c147ce6569a9388"
+  }
+}

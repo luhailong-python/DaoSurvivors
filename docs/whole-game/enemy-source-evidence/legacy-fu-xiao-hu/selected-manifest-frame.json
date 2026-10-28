@@ -1,0 +1,76 @@
+{
+  "originalManifest": "designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/manifest.json",
+  "originalManifestSHA256": "4035ffebcced69aa0e8418d3c2cd0e11bb17c58cbaaf5ac9dea17e16667719f7",
+  "selection": "runtime/attack/E/01.png",
+  "selectedFrameRecord": {
+    "file": "runtime/attack/E/01.png",
+    "action": "attack",
+    "direction": "E",
+    "frame": 1,
+    "width": 1024,
+    "height": 1024,
+    "durationMs": 30,
+    "pivot": [
+      0.5,
+      0.08
+    ],
+    "anchorTopLeftPx": [
+      512,
+      942
+    ],
+    "event": null,
+    "sha256": "3f4e0639c59e43ff3bd50bd26e903a5977a5e68910eff6a43d13a4454252a3ce",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visibleBboxAlphaGT16": [
+      129,
+      103,
+      884,
+      942
+    ],
+    "sourceRecord": "runtime/attack/E/01.png.generation.json",
+    "visualStatus": "reviewed",
+    "pixelSHA256": "ce58456230cd51eb8509fbf84735554cf1334898f9c74eeab538a5e2925b3b7d",
+    "visualReviewRecord": "records/visual-review.json"
+  },
+  "sourcePackageMetadata": {
+    "character": "符小虎",
+    "slug": "legacy-fu-xiao-hu",
+    "generatedAt": "2026-10-05T19:35:40.848423+00:00",
+    "expectedFrameCount": 68,
+    "actualFrameCount": 68,
+    "status": "complete-assets-reviewed",
+    "directions": {
+      "E": "three-quarter front facing lower right",
+      "W": "true three-quarter rear facing upper left"
+    },
+    "coordinateSystem": "exported 1024 canvas; no per-frame alignment",
+    "transform": {
+      "E": {
+        "resize": [
+          1024,
+          1024
+        ],
+        "translationPx": [
+          0,
+          -15
+        ]
+      },
+      "W": {
+        "resize": [
+          1024,
+          1024
+        ],
+        "translationPx": [
+          0,
+          -4
+        ]
+      }
+    },
+    "clientIntegration": "not-performed",
+    "visualReviewRecord": "records/visual-review.json"
+  },
+  "snapshotPurpose": "Only selected single frame is adopted; metadata of 68-frame original is historical context, not a claim this task copies or validates all 68."
+}

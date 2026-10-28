@@ -1,0 +1,922 @@
+{
+  "schemaVersion": 1,
+  "verifiedOn": "2026-10-28",
+  "recordedAtUtc": "2026-10-28T09:30:36.091942+00:00",
+  "projectRoot": "E:\\work\\image\\DaoSurvivors",
+  "artReferenceReadOnly": true,
+  "referenceGame": {
+    "url": "https://github.com/Roo-Roo-Roo/survivors-roguelike-kit",
+    "commit": "3f905381d73a34b516030528b8ef6743868b9e52"
+  },
+  "sourceRequirements": {
+    "bodyStates": [
+      "Idle",
+      "Run"
+    ],
+    "facing": "PlayerMovement flipslocalScale.x whenhorizontalinput changes; eight directions are not required",
+    "hit": "PlayerHit invokes material flash; no bodyHit state required",
+    "death": "PlayerHit fades materialAlpha and shadow; no bodyDeath state required"
+  },
+  "referenceCode": [
+    "Assets/RGame/RoguelikeKit/Scripts/Game/Player/Animator/PlayerAnim.cs",
+    "Assets/RGame/RoguelikeKit/Scripts/Game/Player/Movement/PlayerMovement.cs",
+    "Assets/RGame/RoguelikeKit/Scripts/Game/Player/Hit/PlayerHit.cs"
+  ],
+  "players": [
+    {
+      "id": "hero",
+      "uiMaster": "art/characters/hero.png",
+      "identity": "金发带、棕短刺发、玉绿金边白袍、白灯笼裤、青白靴、太极葫芦",
+      "matchedExistingActions": false,
+      "status": "needs_new_same_identity_rig_art",
+      "evidence": [
+        "qdao_chibi_game_pack_v4/README.md explicitly describes static only",
+        "q_daoist_character_pack_4096/README.md explicitly describes static portraits",
+        "qdao_original_roster_v14_hd/action-remake-20261001/characters/00_reference_topright_boy contains manifestonly and0PNG"
+      ],
+      "required": [
+        "Idle",
+        "Run"
+      ],
+      "doNotUse": "Do not restore oldGit or treat4096resampledstill as animation."
+    },
+    {
+      "id": "sword",
+      "uiMaster": "art/characters/sword.png",
+      "identity": "24_lu_dongbin，黑髻白剑簪、青黑马甲白袍黑裤、背剑红穗与腰间葫芦",
+      "matchedExistingActions": true,
+      "status": "exported_existing_locomotion",
+      "source": "F:\\work\\image\\qdao_chibi_roster_v12\\candidate-stable-body\\24_lu_dongbin",
+      "identityEvidence": {
+        "currentUiMasterSha256": "ea2228db505fbc057da4b4056d08e9bd00ddc0832921e1b37b148ac703b43989",
+        "sourcePortraitBaselineV11Sha256": "ea2228db505fbc057da4b4056d08e9bd00ddc0832921e1b37b148ac703b43989",
+        "matches": true,
+        "visualReview": "Viewed UI master, source portrait, Eidle, all8E/Wwalk poses as strips; same identity and clothing, authored alternating legs/arms."
+      },
+      "availableSource": "8direction×8walk+8idle+8strips+portrait=81PNG",
+      "selectedExport": "18frames E/W (idle1+run8 each) plus2compatibilitystrips",
+      "animation": "art/whole-game/players/sword/animation.json",
+      "frames": [
+        {
+          "file": "art/whole-game/players/sword/idle/E.png",
+          "sha256": "097c68cf31fa891f4c85ee14704aeafbf8458b8e7961b96597d6f77d9d614225",
+          "sourceRelativeToArtRepository": "qdao_chibi_roster_v12/candidate-stable-body/24_lu_dongbin/idle/E.png",
+          "sourceAbsolute": "F:\\work\\image\\qdao_chibi_roster_v12\\candidate-stable-body\\24_lu_dongbin\\idle\\E.png",
+          "operation": "byte-for-byte copy; no scaling, crop, alignment, AI edit or new generation in this project",
+          "sourceManifestEntryHashMatches": true,
+          "pixelInfo": {
+            "canvas": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBoundsXYXY": [
+              180,
+              84,
+              331,
+              473
+            ]
+          },
+          "rootPx": [
+            256,
+            471
+          ],
+          "pivotNormalizedBottomLeft": [
+            0.5,
+            0.080078125
+          ],
+          "spriteTypeRecommendation": "Single",
+          "action": "idle",
+          "facing": "E",
+          "phase": 1
+        },
+        {
+          "file": "art/whole-game/players/sword/run/E/01.png",
+          "sha256": "f19bf8e1b4b36715be57b60a4e8075563e8b07626f70c4e2a8ac707b5867775a",
+          "sourceRelativeToArtRepository": "qdao_chibi_roster_v12/candidate-stable-body/24_lu_dongbin/walk/E/01.png",
+          "sourceAbsolute": "F:\\work\\image\\qdao_chibi_roster_v12\\candidate-stable-body\\24_lu_dongbin\\walk\\E\\01.png",
+          "operation": "byte-for-byte copy; no scaling, crop, alignment, AI edit or new generation in this project",
+          "sourceManifestEntryHashMatches": true,
+          "pixelInfo": {
+            "canvas": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBoundsXYXY": [
+              173,
+              84,
+              349,
+              480
+            ]
+          },
+          "rootPx": [
+            256,
+            471
+          ],
+          "pivotNormalizedBottomLeft": [
+            0.5,
+            0.080078125
+          ],
+          "spriteTypeRecommendation": "Single",
+          "action": "run",
+          "facing": "E",
+          "phase": 1
+        },
+        {
+          "file": "art/whole-game/players/sword/run/E/02.png",
+          "sha256": "94cdf75dd549f6331c0f095fdcb24a79eb139ff56595e7127f41344c15a2234f",
+          "sourceRelativeToArtRepository": "qdao_chibi_roster_v12/candidate-stable-body/24_lu_dongbin/walk/E/02.png",
+          "sourceAbsolute": "F:\\work\\image\\qdao_chibi_roster_v12\\candidate-stable-body\\24_lu_dongbin\\walk\\E\\02.png",
+          "operation": "byte-for-byte copy; no scaling, crop, alignment, AI edit or new generation in this project",
+          "sourceManifestEntryHashMatches": true,
+          "pixelInfo": {
+            "canvas": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBoundsXYXY": [
+              172,
+              84,
+              337,
+              480
+            ]
+          },
+          "rootPx": [
+            256,
+            471
+          ],
+          "pivotNormalizedBottomLeft": [
+            0.5,
+            0.080078125
+          ],
+          "spriteTypeRecommendation": "Single",
+          "action": "run",
+          "facing": "E",
+          "phase": 2
+        },
+        {
+          "file": "art/whole-game/players/sword/run/E/03.png",
+          "sha256": "a7814e495f42dfa241fbcb30a6e8114888113588427ee4d9d2ae0b26a1f9d3f6",
+          "sourceRelativeToArtRepository": "qdao_chibi_roster_v12/candidate-stable-body/24_lu_dongbin/walk/E/03.png",
+          "sourceAbsolute": "F:\\work\\image\\qdao_chibi_roster_v12\\candidate-stable-body\\24_lu_dongbin\\walk\\E\\03.png",
+          "operation": "byte-for-byte copy; no scaling, crop, alignment, AI edit or new generation in this project",
+          "sourceManifestEntryHashMatches": true,
+          "pixelInfo": {
+            "canvas": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBoundsXYXY": [
+              176,
+              84,
+              332,
+              479
+            ]
+          },
+          "rootPx": [
+            256,
+            471
+          ],
+          "pivotNormalizedBottomLeft": [
+            0.5,
+            0.080078125
+          ],
+          "spriteTypeRecommendation": "Single",
+          "action": "run",
+          "facing": "E",
+          "phase": 3
+        },
+        {
+          "file": "art/whole-game/players/sword/run/E/04.png",
+          "sha256": "f6f85a942a52cc8dc8486e6505176a42e0488699fc81388decf58d61490ff509",
+          "sourceRelativeToArtRepository": "qdao_chibi_roster_v12/candidate-stable-body/24_lu_dongbin/walk/E/04.png",
+          "sourceAbsolute": "F:\\work\\image\\qdao_chibi_roster_v12\\candidate-stable-body\\24_lu_dongbin\\walk\\E\\04.png",
+          "operation": "byte-for-byte copy; no scaling, crop, alignment, AI edit or new generation in this project",
+          "sourceManifestEntryHashMatches": true,
+          "pixelInfo": {
+            "canvas": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBoundsXYXY": [
+              173,
+              84,
+              346,
+              478
+            ]
+          },
+          "rootPx": [
+            256,
+            471
+          ],
+          "pivotNormalizedBottomLeft": [
+            0.5,
+            0.080078125
+          ],
+          "spriteTypeRecommendation": "Single",
+          "action": "run",
+          "facing": "E",
+          "phase": 4
+        },
+        {
+          "file": "art/whole-game/players/sword/run/E/05.png",
+          "sha256": "901e410792df250c33f7cfeda52a078af34852a1efa9b1992beee01c54266752",
+          "sourceRelativeToArtRepository": "qdao_chibi_roster_v12/candidate-stable-body/24_lu_dongbin/walk/E/05.png",
+          "sourceAbsolute": "F:\\work\\image\\qdao_chibi_roster_v12\\candidate-stable-body\\24_lu_dongbin\\walk\\E\\05.png",
+          "operation": "byte-for-byte copy; no scaling, crop, alignment, AI edit or new generation in this project",
+          "sourceManifestEntryHashMatches": true,
+          "pixelInfo": {
+            "canvas": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBoundsXYXY": [
+              172,
+              84,
+              349,
+              476
+            ]
+          },
+          "rootPx": [
+            256,
+            471
+          ],
+          "pivotNormalizedBottomLeft": [
+            0.5,
+            0.080078125
+          ],
+          "spriteTypeRecommendation": "Single",
+          "action": "run",
+          "facing": "E",
+          "phase": 5
+        },
+        {
+          "file": "art/whole-game/players/sword/run/E/06.png",
+          "sha256": "337aec17052f5771390dbdd142b1bc2ee7d57405f14cd5f8322d7ca18af6dd63",
+          "sourceRelativeToArtRepository": "qdao_chibi_roster_v12/candidate-stable-body/24_lu_dongbin/walk/E/06.png",
+          "sourceAbsolute": "F:\\work\\image\\qdao_chibi_roster_v12\\candidate-stable-body\\24_lu_dongbin\\walk\\E\\06.png",
+          "operation": "byte-for-byte copy; no scaling, crop, alignment, AI edit or new generation in this project",
+          "sourceManifestEntryHashMatches": true,
+          "pixelInfo": {
+            "canvas": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBoundsXYXY": [
+              167,
+              84,
+              338,
+              474
+            ]
+          },
+          "rootPx": [
+            256,
+            471
+          ],
+          "pivotNormalizedBottomLeft": [
+            0.5,
+            0.080078125
+          ],
+          "spriteTypeRecommendation": "Single",
+          "action": "run",
+          "facing": "E",
+          "phase": 6
+        },
+        {
+          "file": "art/whole-game/players/sword/run/E/07.png",
+          "sha256": "e4669e334376640304f0d116f2e26a447955f221697df2215293c28f717aca12",
+          "sourceRelativeToArtRepository": "qdao_chibi_roster_v12/candidate-stable-body/24_lu_dongbin/walk/E/07.png",
+          "sourceAbsolute": "F:\\work\\image\\qdao_chibi_roster_v12\\candidate-stable-body\\24_lu_dongbin\\walk\\E\\07.png",
+          "operation": "byte-for-byte copy; no scaling, crop, alignment, AI edit or new generation in this project",
+          "sourceManifestEntryHashMatches": true,
+          "pixelInfo": {
+            "canvas": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBoundsXYXY": [
+              173,
+              84,
+              331,
+              476
+            ]
+          },
+          "rootPx": [
+            256,
+            471
+          ],
+          "pivotNormalizedBottomLeft": [
+            0.5,
+            0.080078125
+          ],
+          "spriteTypeRecommendation": "Single",
+          "action": "run",
+          "facing": "E",
+          "phase": 7
+        },
+        {
+          "file": "art/whole-game/players/sword/run/E/08.png",
+          "sha256": "a082707f2c518de38419239b3e4db87d5050a75facd5c6c318222b7019357015",
+          "sourceRelativeToArtRepository": "qdao_chibi_roster_v12/candidate-stable-body/24_lu_dongbin/walk/E/08.png",
+          "sourceAbsolute": "F:\\work\\image\\qdao_chibi_roster_v12\\candidate-stable-body\\24_lu_dongbin\\walk\\E\\08.png",
+          "operation": "byte-for-byte copy; no scaling, crop, alignment, AI edit or new generation in this project",
+          "sourceManifestEntryHashMatches": true,
+          "pixelInfo": {
+            "canvas": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBoundsXYXY": [
+              172,
+              84,
+              363,
+              476
+            ]
+          },
+          "rootPx": [
+            256,
+            471
+          ],
+          "pivotNormalizedBottomLeft": [
+            0.5,
+            0.080078125
+          ],
+          "spriteTypeRecommendation": "Single",
+          "action": "run",
+          "facing": "E",
+          "phase": 8
+        },
+        {
+          "file": "art/whole-game/players/sword/run/E/strip.png",
+          "sha256": "59361d3ba1147222dc4f88732b0ab3cb8be88cfbddb535a5e16017ea1a12f509",
+          "sourceRelativeToArtRepository": "qdao_chibi_roster_v12/candidate-stable-body/24_lu_dongbin/walk/E/strip.png",
+          "operation": "byte-for-byte copy of existing8×512strip",
+          "canvas": [
+            4096,
+            512
+          ],
+          "spriteTypeRecommendation": "Multiple",
+          "sliceRectanglesXYWH": [
+            [
+              0,
+              0,
+              512,
+              512
+            ],
+            [
+              512,
+              0,
+              512,
+              512
+            ],
+            [
+              1024,
+              0,
+              512,
+              512
+            ],
+            [
+              1536,
+              0,
+              512,
+              512
+            ],
+            [
+              2048,
+              0,
+              512,
+              512
+            ],
+            [
+              2560,
+              0,
+              512,
+              512
+            ],
+            [
+              3072,
+              0,
+              512,
+              512
+            ],
+            [
+              3584,
+              0,
+              512,
+              512
+            ]
+          ],
+          "isFrame": false
+        },
+        {
+          "file": "art/whole-game/players/sword/idle/W.png",
+          "sha256": "767a3ece285207644a65354aafd468cde8409e77200c8f7d935d9bd35fd72668",
+          "sourceRelativeToArtRepository": "qdao_chibi_roster_v12/candidate-stable-body/24_lu_dongbin/idle/W.png",
+          "sourceAbsolute": "F:\\work\\image\\qdao_chibi_roster_v12\\candidate-stable-body\\24_lu_dongbin\\idle\\W.png",
+          "operation": "byte-for-byte copy; no scaling, crop, alignment, AI edit or new generation in this project",
+          "sourceManifestEntryHashMatches": true,
+          "pixelInfo": {
+            "canvas": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBoundsXYXY": [
+              183,
+              79,
+              325,
+              473
+            ]
+          },
+          "rootPx": [
+            256,
+            471
+          ],
+          "pivotNormalizedBottomLeft": [
+            0.5,
+            0.080078125
+          ],
+          "spriteTypeRecommendation": "Single",
+          "action": "idle",
+          "facing": "W",
+          "phase": 1
+        },
+        {
+          "file": "art/whole-game/players/sword/run/W/01.png",
+          "sha256": "fafa35120ab58fb0127a91a4044917bb7df04b0c00ad7ad09fde8f3630e144f8",
+          "sourceRelativeToArtRepository": "qdao_chibi_roster_v12/candidate-stable-body/24_lu_dongbin/walk/W/01.png",
+          "sourceAbsolute": "F:\\work\\image\\qdao_chibi_roster_v12\\candidate-stable-body\\24_lu_dongbin\\walk\\W\\01.png",
+          "operation": "byte-for-byte copy; no scaling, crop, alignment, AI edit or new generation in this project",
+          "sourceManifestEntryHashMatches": true,
+          "pixelInfo": {
+            "canvas": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBoundsXYXY": [
+              162,
+              79,
+              339,
+              476
+            ]
+          },
+          "rootPx": [
+            256,
+            471
+          ],
+          "pivotNormalizedBottomLeft": [
+            0.5,
+            0.080078125
+          ],
+          "spriteTypeRecommendation": "Single",
+          "action": "run",
+          "facing": "W",
+          "phase": 1
+        },
+        {
+          "file": "art/whole-game/players/sword/run/W/02.png",
+          "sha256": "922b9cac546bf73359fb58b7b91f128120ec28124aeb9f901f7a926ed70ffb89",
+          "sourceRelativeToArtRepository": "qdao_chibi_roster_v12/candidate-stable-body/24_lu_dongbin/walk/W/02.png",
+          "sourceAbsolute": "F:\\work\\image\\qdao_chibi_roster_v12\\candidate-stable-body\\24_lu_dongbin\\walk\\W\\02.png",
+          "operation": "byte-for-byte copy; no scaling, crop, alignment, AI edit or new generation in this project",
+          "sourceManifestEntryHashMatches": true,
+          "pixelInfo": {
+            "canvas": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBoundsXYXY": [
+              182,
+              79,
+              325,
+              475
+            ]
+          },
+          "rootPx": [
+            256,
+            471
+          ],
+          "pivotNormalizedBottomLeft": [
+            0.5,
+            0.080078125
+          ],
+          "spriteTypeRecommendation": "Single",
+          "action": "run",
+          "facing": "W",
+          "phase": 2
+        },
+        {
+          "file": "art/whole-game/players/sword/run/W/03.png",
+          "sha256": "703282b8ac7f8beb8189934def179806de0668ef1311b90825eb00a3285f1a7b",
+          "sourceRelativeToArtRepository": "qdao_chibi_roster_v12/candidate-stable-body/24_lu_dongbin/walk/W/03.png",
+          "sourceAbsolute": "F:\\work\\image\\qdao_chibi_roster_v12\\candidate-stable-body\\24_lu_dongbin\\walk\\W\\03.png",
+          "operation": "byte-for-byte copy; no scaling, crop, alignment, AI edit or new generation in this project",
+          "sourceManifestEntryHashMatches": true,
+          "pixelInfo": {
+            "canvas": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBoundsXYXY": [
+              183,
+              79,
+              323,
+              475
+            ]
+          },
+          "rootPx": [
+            256,
+            471
+          ],
+          "pivotNormalizedBottomLeft": [
+            0.5,
+            0.080078125
+          ],
+          "spriteTypeRecommendation": "Single",
+          "action": "run",
+          "facing": "W",
+          "phase": 3
+        },
+        {
+          "file": "art/whole-game/players/sword/run/W/04.png",
+          "sha256": "1c00c24bc75643ecd900f145a455e79e0398172e885b7cfee269d7bae129a02d",
+          "sourceRelativeToArtRepository": "qdao_chibi_roster_v12/candidate-stable-body/24_lu_dongbin/walk/W/04.png",
+          "sourceAbsolute": "F:\\work\\image\\qdao_chibi_roster_v12\\candidate-stable-body\\24_lu_dongbin\\walk\\W\\04.png",
+          "operation": "byte-for-byte copy; no scaling, crop, alignment, AI edit or new generation in this project",
+          "sourceManifestEntryHashMatches": true,
+          "pixelInfo": {
+            "canvas": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBoundsXYXY": [
+              161,
+              79,
+              324,
+              475
+            ]
+          },
+          "rootPx": [
+            256,
+            471
+          ],
+          "pivotNormalizedBottomLeft": [
+            0.5,
+            0.080078125
+          ],
+          "spriteTypeRecommendation": "Single",
+          "action": "run",
+          "facing": "W",
+          "phase": 4
+        },
+        {
+          "file": "art/whole-game/players/sword/run/W/05.png",
+          "sha256": "0621bb288277b43ec69c437124a319b6fe25e33196734848ab9522381b52b6cd",
+          "sourceRelativeToArtRepository": "qdao_chibi_roster_v12/candidate-stable-body/24_lu_dongbin/walk/W/05.png",
+          "sourceAbsolute": "F:\\work\\image\\qdao_chibi_roster_v12\\candidate-stable-body\\24_lu_dongbin\\walk\\W\\05.png",
+          "operation": "byte-for-byte copy; no scaling, crop, alignment, AI edit or new generation in this project",
+          "sourceManifestEntryHashMatches": true,
+          "pixelInfo": {
+            "canvas": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBoundsXYXY": [
+              160,
+              79,
+              327,
+              472
+            ]
+          },
+          "rootPx": [
+            256,
+            471
+          ],
+          "pivotNormalizedBottomLeft": [
+            0.5,
+            0.080078125
+          ],
+          "spriteTypeRecommendation": "Single",
+          "action": "run",
+          "facing": "W",
+          "phase": 5
+        },
+        {
+          "file": "art/whole-game/players/sword/run/W/06.png",
+          "sha256": "fef979e3d9e112c79f4addfb20ac1e46ba9a3eb7dcba5ce258d0acffc5ddadec",
+          "sourceRelativeToArtRepository": "qdao_chibi_roster_v12/candidate-stable-body/24_lu_dongbin/walk/W/06.png",
+          "sourceAbsolute": "F:\\work\\image\\qdao_chibi_roster_v12\\candidate-stable-body\\24_lu_dongbin\\walk\\W\\06.png",
+          "operation": "byte-for-byte copy; no scaling, crop, alignment, AI edit or new generation in this project",
+          "sourceManifestEntryHashMatches": true,
+          "pixelInfo": {
+            "canvas": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBoundsXYXY": [
+              173,
+              79,
+              327,
+              475
+            ]
+          },
+          "rootPx": [
+            256,
+            471
+          ],
+          "pivotNormalizedBottomLeft": [
+            0.5,
+            0.080078125
+          ],
+          "spriteTypeRecommendation": "Single",
+          "action": "run",
+          "facing": "W",
+          "phase": 6
+        },
+        {
+          "file": "art/whole-game/players/sword/run/W/07.png",
+          "sha256": "b432b9f4ccc1123399ea85e086f613c01cb0fad979627a729ed8a2731f762624",
+          "sourceRelativeToArtRepository": "qdao_chibi_roster_v12/candidate-stable-body/24_lu_dongbin/walk/W/07.png",
+          "sourceAbsolute": "F:\\work\\image\\qdao_chibi_roster_v12\\candidate-stable-body\\24_lu_dongbin\\walk\\W\\07.png",
+          "operation": "byte-for-byte copy; no scaling, crop, alignment, AI edit or new generation in this project",
+          "sourceManifestEntryHashMatches": true,
+          "pixelInfo": {
+            "canvas": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBoundsXYXY": [
+              183,
+              79,
+              323,
+              473
+            ]
+          },
+          "rootPx": [
+            256,
+            471
+          ],
+          "pivotNormalizedBottomLeft": [
+            0.5,
+            0.080078125
+          ],
+          "spriteTypeRecommendation": "Single",
+          "action": "run",
+          "facing": "W",
+          "phase": 7
+        },
+        {
+          "file": "art/whole-game/players/sword/run/W/08.png",
+          "sha256": "7154e836d83aa87ec51168d4bafb5448de81a716fb64cea2293966b4583af893",
+          "sourceRelativeToArtRepository": "qdao_chibi_roster_v12/candidate-stable-body/24_lu_dongbin/walk/W/08.png",
+          "sourceAbsolute": "F:\\work\\image\\qdao_chibi_roster_v12\\candidate-stable-body\\24_lu_dongbin\\walk\\W\\08.png",
+          "operation": "byte-for-byte copy; no scaling, crop, alignment, AI edit or new generation in this project",
+          "sourceManifestEntryHashMatches": true,
+          "pixelInfo": {
+            "canvas": [
+              512,
+              512
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBoundsXYXY": [
+              162,
+              79,
+              323,
+              475
+            ]
+          },
+          "rootPx": [
+            256,
+            471
+          ],
+          "pivotNormalizedBottomLeft": [
+            0.5,
+            0.080078125
+          ],
+          "spriteTypeRecommendation": "Single",
+          "action": "run",
+          "facing": "W",
+          "phase": 8
+        },
+        {
+          "file": "art/whole-game/players/sword/run/W/strip.png",
+          "sha256": "606f9e66cc79fbc1310ea8882aa8ec0aad563ca1c7e2710054be4013e5e88046",
+          "sourceRelativeToArtRepository": "qdao_chibi_roster_v12/candidate-stable-body/24_lu_dongbin/walk/W/strip.png",
+          "operation": "byte-for-byte copy of existing8×512strip",
+          "canvas": [
+            4096,
+            512
+          ],
+          "spriteTypeRecommendation": "Multiple",
+          "sliceRectanglesXYWH": [
+            [
+              0,
+              0,
+              512,
+              512
+            ],
+            [
+              512,
+              0,
+              512,
+              512
+            ],
+            [
+              1024,
+              0,
+              512,
+              512
+            ],
+            [
+              1536,
+              0,
+              512,
+              512
+            ],
+            [
+              2048,
+              0,
+              512,
+              512
+            ],
+            [
+              2560,
+              0,
+              512,
+              512
+            ],
+            [
+              3072,
+              0,
+              512,
+              512
+            ],
+            [
+              3584,
+              0,
+              512,
+              512
+            ]
+          ],
+          "isFrame": false
+        }
+      ]
+    },
+    {
+      "id": "healer",
+      "uiMaster": "art/characters/healer.png",
+      "identity": "29_he_xiangu，黑髻白莲簪玉穗、青绿粉莲短袍、深绿短裤、白靴、背后粉莲苞",
+      "matchedExistingActions": false,
+      "status": "needs_new_same_identity_rig_art",
+      "rejectedCandidates": [
+        {
+          "path": "qdao_chibi_roster_v12/candidate-natural-body/29_he_xiangu",
+          "realPngCount": 81,
+          "reason": "Samehistoricalidentity but revisedplainmintlongcoat,longtrousers,andivoryshoes; conflicts with current shortpinklotusoutfit. SourceREADME explicitly describes this costume revision."
+        },
+        {
+          "path": "qdao_original_roster_v14_hd/action-remake-20261001/characters/03_lotus_healer_girl",
+          "realPngCount": 144,
+          "reason": "ActualE01 viewed:brownlonghair,goldcrown,longpinkdress,lanternandbottle; different character identity, not UIHeXiangu."
+        }
+      ],
+      "required": [
+        "Idle",
+        "Run"
+      ]
+    }
+  ],
+  "newProductionContract": {
+    "artSource": "builtin image_gen for sixnativeRGBA bodyparts, then deterministic layered skeleton art compositing; no video generation",
+    "parts": [
+      "head",
+      "torso",
+      "near_arm",
+      "far_arm",
+      "near_leg",
+      "far_leg"
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "rootPx": [
+      256,
+      470
+    ],
+    "pivotPerPart": "Native pixel joint chosen manually after inspecting actual image",
+    "scalePerPart": "Calibrate actual native part sizes to one character proportion; not equal-size stretching",
+    "drawOrder": [
+      "far_leg",
+      "far_arm",
+      "torso",
+      "near_leg",
+      "near_arm",
+      "head"
+    ],
+    "locomotion": "Independent opposite arm/leg phases, swing clearance and alternating support; no whole-still bob substitute",
+    "clips": {
+      "Idle": {
+        "frames": 16,
+        "frameMs": 60
+      },
+      "Run": {
+        "frames": 16,
+        "frameMs": 60
+      }
+    },
+    "timingNote": "960ms is a new art suggestion; no assertion about original source clip duration."
+  },
+  "constraints": [
+    "Do not alter art/characters or UIreferences.",
+    "NoFwrites,oldGitrestore,Gitmutation,paidvideo,toolsinstallationorUnitycode."
+  ],
+  "evidenceCopiedTo": "docs/whole-game/player-sword-source/"
+}

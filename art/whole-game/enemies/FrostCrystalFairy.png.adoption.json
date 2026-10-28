@@ -1,0 +1,146 @@
+{
+  "sourceKey": "FrostCrystalFairy",
+  "displayName": "月弦师幻身",
+  "sourceIdentity": "月弦师",
+  "role": "Boss远程",
+  "identity": "靛蓝象牙丝衣月弦仙灵；雪色弹体",
+  "artSource": "existing",
+  "adoptionType": "reskin; direct byte copy",
+  "sourceArtRepository": {
+    "path": "F:\\work\\image",
+    "remote": "https://luyuacpp.visualstudio.com/image/_git/image"
+  },
+  "sourceArtPath": "designs/creature-combat-20261005/pets/12-yuexianshi/runtime/attack/E/01.png",
+  "destination": "art/whole-game/enemies/FrostCrystalFairy.png",
+  "sourceSHA256": "15069725e57c876838aa41dfbe19a65d53fb740a1df695f2abab5c34d0ab535c",
+  "sha256": "15069725e57c876838aa41dfbe19a65d53fb740a1df695f2abab5c34d0ab535c",
+  "copyVerified": true,
+  "canvas": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "realAlpha": true,
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "zeroPixels": 559304,
+    "partialPixels": 487577,
+    "opaquePixels": 1695,
+    "visibleBBoxAlphaAtLeast16": [
+      81,
+      53,
+      950,
+      959
+    ],
+    "visibleEdgePixelsAlphaAtLeast16": 0,
+    "edgePixelsAnyAlpha": 0
+  },
+  "pivotBottomLeft": [
+    0.5,
+    0.08
+  ],
+  "anchorTopLeftPx": [
+    512,
+    942
+  ],
+  "anchorKind": "source logical ground anchor; not exact every-foot contact",
+  "facing": "three-quarter front, down-right; x mirror allowed for source movement",
+  "suggestedVisibleHeightAt1080": 170,
+  "spriteType": "Single",
+  "meshType": "FullRect",
+  "borderLTRB": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "filterMode": "Bilinear",
+  "wrapMode": "Clamp",
+  "mipmaps": false,
+  "colourSpace": "sRGB",
+  "generationModel": null,
+  "generationQuality": null,
+  "generationEvidenceNote": "Historical source generation evidence is preserved. No generation or AI edit occurred during this adoption. Configuration targets never establish actual model/quality.",
+  "sourceRecords": [
+    {
+      "source": "designs/creature-combat-20261005/pets/12-yuexianshi/records/attack-E/01.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/12-yuexianshi/01-source-record-01.json",
+      "sha256": "bc36dd34c76bd6f45361d932682ee3c75923f1adaffe637109426ba9af4588ed"
+    }
+  ],
+  "selectedManifestSnapshot": "docs/whole-game/enemy-source-evidence/12-yuexianshi/selected-manifest-frame.json",
+  "sourceGamePrefab": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/FrostCrystalFairy.prefab",
+  "sourceGameSpritePaths": [
+    "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/FrostCrystalFairy.png"
+  ],
+  "review": {
+    "fullSourceImageViewed": true,
+    "adoptedDate": "2026-10-28",
+    "visibleClippingCheck": "pass",
+    "identityCheck": "pass; distinct existing Daoist chibi identity",
+    "engineValidation": "not-run; Unity import and motion integration remain next phase",
+    "finalLightDarkLineup": "accepted; identity, anatomy, implements and tails/wings intact, distinct readable silhouettes"
+  },
+  "historicalNativeSize": [
+    1254,
+    1254
+  ],
+  "historicalNativeSizeBasis": "Source README and selected source record; final1024PNG was an earlier full-canvas export, this adoption does not resample.",
+  "sourceEvidenceDependencies": [
+    {
+      "source": "designs/creature-combat-20261005/pets/12-yuexianshi/records/attack-E/01.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/12-yuexianshi/dependencies/records/attack-E/01.generation.json",
+      "sha256": "bc36dd34c76bd6f45361d932682ee3c75923f1adaffe637109426ba9af4588ed"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/12-yuexianshi/prompts/attack-E/01.guardfix-20261008.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/12-yuexianshi/dependencies/prompts/attack-E/01.guardfix-20261008.txt",
+      "sha256": "c4b328348c782e000713271546cb8e3adfae1913e39e2290bc32cdce35ee5f9c"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/12-yuexianshi/records/guardfix-20261008-measurements.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/12-yuexianshi/dependencies/records/guardfix-20261008-measurements.json",
+      "sha256": "13a2a0634636e440221ff12f7d13554b7343fce85725a994e08fd4c2a6780685"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/12-yuexianshi/records/attack-E/01.pre-guardfix-20261008.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/12-yuexianshi/dependencies/records/attack-E/01.pre-guardfix-20261008.generation.json",
+      "sha256": "0547320417e4dedf922cf528d1985ce819f67e8dde9ac3f7345912a0933e3c5e"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/12-yuexianshi/records/attack-E/01.guardfix-20261008.receipt.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/12-yuexianshi/dependencies/records/attack-E/01.guardfix-20261008.receipt.json",
+      "sha256": "ddec7888aca73c9aa5fd404f9b7ceb17f2f815905f8029f5d50943d680855d45"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/12-yuexianshi/cleanup-guardfix.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/12-yuexianshi/dependencies/cleanup-guardfix.json",
+      "sha256": "fcfe123447399362776db4621cf48e6551e89b516120cc0e5358e50ee1dd5988"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/12-yuexianshi/prompts/attack-E/01.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/12-yuexianshi/dependencies/prompts/attack-E/01.txt",
+      "sha256": "1b34b8a415122ba2b0b9245a35f119af5ae92c82a8858c1e186eec6c759e730a"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/12-yuexianshi/records/attack-E/01.receipt.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/12-yuexianshi/dependencies/records/attack-E/01.receipt.json",
+      "sha256": "251323b6af28eb52a7597a7f9dde7bccd9d68ff5aeb061832d654ffedebb8ed0"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/12-yuexianshi/cleanup.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/12-yuexianshi/dependencies/cleanup.json",
+      "sha256": "c69fef7b435d66b560ea835504d92a9fa34088e0ebc19d2808bc5cca9f2a1947"
+    }
+  ],
+  "sourceFrameWarnings": [],
+  "generationConfigTarget": {
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "basis": "Historical source configuration, not actual returned metadata and not a new generation."
+  },
+  "sourceManifestSHAMatches": true
+}

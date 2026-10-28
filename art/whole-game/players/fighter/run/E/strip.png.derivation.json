@@ -1,0 +1,71 @@
+{
+  "file": "art/whole-game/players/fighter/run/E/strip.png",
+  "sha256": "3a282fe532175b50d1310b466d92bae866ca8869890808d9d477a8e4bdead59e",
+  "derivedFrom": [
+    {
+      "file": "art/whole-game/players/fighter/run/E/01.png",
+      "sha256": "7ba69d051f6af170171db44a2d37e67932c62bb4bee10a52a58fe25f6432cd71"
+    },
+    {
+      "file": "art/whole-game/players/fighter/run/E/02.png",
+      "sha256": "d35977c7e3f0667359af733bc6523a5d3f9038547bcc7cd8bf99eaf3d15d21be"
+    },
+    {
+      "file": "art/whole-game/players/fighter/run/E/03.png",
+      "sha256": "849434ac87d794aef2edf927f9ec96d190185464eb40b2dcd0962c3a4ed75237"
+    },
+    {
+      "file": "art/whole-game/players/fighter/run/E/04.png",
+      "sha256": "a64c81678db68e3095de53635cdced792bdcb350a508febb132f1cca88686c9d"
+    },
+    {
+      "file": "art/whole-game/players/fighter/run/E/05.png",
+      "sha256": "f89bb53807d2defe6d64e2bcf8eda50fa1a45bbdca387ad3e361209fb3fefe08"
+    },
+    {
+      "file": "art/whole-game/players/fighter/run/E/06.png",
+      "sha256": "1e422ad64f561e038d10ab771da39c060424fab6a49ba5eff0e884268468a35d"
+    },
+    {
+      "file": "art/whole-game/players/fighter/run/E/07.png",
+      "sha256": "4ef2e5b6c50ccdbb6f5ad5f4ae71dc2713af20e76827131a1585824aad55e0ac"
+    },
+    {
+      "file": "art/whole-game/players/fighter/run/E/08.png",
+      "sha256": "3aecab81012b7eecc40f80fb5abcae7c7512689197580e983313c2a31d1599ca"
+    },
+    {
+      "file": "art/whole-game/players/fighter/run/E/09.png",
+      "sha256": "840283d810dfb4029e096b51f5774151ac26349e1da6bfb33e2038529312f8d0"
+    },
+    {
+      "file": "art/whole-game/players/fighter/run/E/10.png",
+      "sha256": "029b5bae0c6a0f04d004a1e0702209f1824ce3d9e37a22b0f4962ba1d1d4bf77"
+    },
+    {
+      "file": "art/whole-game/players/fighter/run/E/11.png",
+      "sha256": "b40e7f94f485cb632a61b7d8739d1e4870ac42b0e96e47691d2680e03bb139d2"
+    },
+    {
+      "file": "art/whole-game/players/fighter/run/E/12.png",
+      "sha256": "aa3ea9196d5c1c0f9dad284ce52f133ecf8347a6cc22f754d5f0d523c51cce6e"
+    },
+    {
+      "file": "art/whole-game/players/fighter/run/E/13.png",
+      "sha256": "bbc6c8ff5c264b296afa50f17081bd0f6636dbc8c5cc423009c8666bcfe2fb2e"
+    },
+    {
+      "file": "art/whole-game/players/fighter/run/E/14.png",
+      "sha256": "3f47aa1dd2a1ee3deb18b03d536ffabac00f9cdbc717463bb751a70c726a0f86"
+    },
+    {
+      "file": "art/whole-game/players/fighter/run/E/15.png",
+      "sha256": "311ca6e5df85a6985a5a1d1fa76c7144062afcd94f2a4857d58ac81a757d776e"
+    },
+    {
+      "file": "art/whole-game/players/fighter/run/E/16.png",
+      "sha256": "5acb5086d03adc4761948d7eb236071e97827b966e62af74ee4782c65e6ee3a4"
+    }
+  ],
+  "operation": "horizontal chronological concatenation;16 cells512x512; no resampling"
+}

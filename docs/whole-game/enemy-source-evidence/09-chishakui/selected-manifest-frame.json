@@ -1,0 +1,89 @@
+{
+  "originalManifest": "designs/creature-combat-20261005/pets/09-chishakui/manifest.json",
+  "originalManifestSHA256": "af476b3a665a9a45165140c082b43ffaed8df786806b400dd61a5b0c1ab9caab",
+  "selection": "runtime/attack/E/01.png",
+  "selectedFrameRecord": {
+    "file": "runtime/attack/E/01.png",
+    "action": "attack",
+    "direction": "E",
+    "frame": 1,
+    "width": 1024,
+    "height": 1024,
+    "durationMs": 30,
+    "pivot": [
+      0.5,
+      0.08
+    ],
+    "nominalAnchorTopOrigin": [
+      512,
+      942
+    ],
+    "event": null,
+    "sha256": "10b94f4410a51204629340ea423b1b33c36d04a01eb4df1c672e6b0b3db70bd8",
+    "rgbaPixelSha256": "fc2ddd064cd59846476f540e7a84698c88156bb9c44748696c10ddb41ab5e241",
+    "alpha": {
+      "extrema": [
+        0,
+        255
+      ],
+      "bbox": [
+        0,
+        46,
+        926,
+        987
+      ],
+      "transparentPixels": 608967,
+      "partialPixels": 438421,
+      "opaquePixels": 1188,
+      "visibleBboxThreshold16": [
+        177,
+        68,
+        901,
+        979
+      ],
+      "edgeMaximum": 1,
+      "edgeTraceNote": "Preserved native low-alpha trace; no visible clipping detected"
+    },
+    "generationRecord": "runtime/attack/E/01.png.generation.json",
+    "sourceReceipt": "records/attack-E-01.receipt.json",
+    "visualStatus": "static-reviewed; dynamic-unverified"
+  },
+  "sourcePackageMetadata": {
+    "schemaVersion": 1,
+    "character": "赤砂魁",
+    "slug": "09-chishakui",
+    "createdAt": "2026-10-08T11:49:47.767075+00:00",
+    "expectedFrames": 68,
+    "actualFrames": 68,
+    "directions": {
+      "E": "three-quarter front, down-right",
+      "W": "independently drawn three-quarter back, up-left"
+    },
+    "anatomy": {
+      "arms": 2,
+      "legs": 2,
+      "wings": 0,
+      "visibleTail": 0,
+      "hammerHand": "anatomical-right",
+      "kiln": "one, strapped to center back"
+    },
+    "export": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "transform": "whole native square canvas uniformly resized to 1024; no per-frame alignment or crop",
+      "nominalAnchor": [
+        512,
+        942
+      ],
+      "pivot": [
+        0.5,
+        0.08
+      ]
+    },
+    "clientIntegration": "not-performed",
+    "visualReviewRecord": "records/final-visual-review.json"
+  },
+  "snapshotPurpose": "Only selected single frame is adopted; metadata of 68-frame original is historical context, not a claim this task copies or validates all 68."
+}

@@ -1,0 +1,7 @@
+{
+  "file": "designs/whole-game/players/sword-run-review.gif",
+  "operation": "Display-size four-column light/dark composite of copiedE/W phases, quantizedGIF preview only",
+  "frames": 8,
+  "frameDurationMs": 60,
+  "sha256": "d18f7e92fa7ab0c408398134d9b50c4031f5aba7d562be144b59a5108134b37d"
+}

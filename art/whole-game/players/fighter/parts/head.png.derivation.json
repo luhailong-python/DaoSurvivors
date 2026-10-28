@@ -1,0 +1,39 @@
+{
+  "part": "head",
+  "file": "art/whole-game/players/fighter/parts/head.png",
+  "sha256": "d0dbfb5b00ab472e5e6fea3cb40eb2265810bc0ff9e0f5122e0c945bf7d28f6f",
+  "nativeSize": [
+    583,
+    449
+  ],
+  "sourceCrop": [
+    14,
+    76,
+    597,
+    525
+  ],
+  "nativePivot": [
+    264,
+    428
+  ],
+  "pivotAtlas": [
+    278,
+    504
+  ],
+  "displayScale": 0.43,
+  "bindJoint": [
+    256,
+    244
+  ],
+  "mirrorAroundJoint": false,
+  "parent": "torso",
+  "derivedFrom": {
+    "file": "art/whole-game/sheets/player-fighter-rig-v1.png",
+    "sha256": "b010ba474c774038ae8facf7ff76f5d3fd7cf3415efa9d156adecb20505a4e97",
+    "generationRecord": "art/whole-game/sheets/player-fighter-rig-v1.png.generation.json"
+  },
+  "operation": "component-ownership crop; native RGBA retained; alpha hygiene removes disconnected <=16 haze outside3px contour",
+  "removedAlphaPixels": 461798,
+  "actualModel": null,
+  "actualQuality": null
+}

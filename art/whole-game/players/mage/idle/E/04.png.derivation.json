@@ -1,0 +1,120 @@
+{
+  "file": "art/whole-game/players/mage/idle/E/04.png",
+  "sha256": "eada13453314cfeb45090a9fb0b7827254ccea1ea100279436572335f3dd4761",
+  "bbox": [
+    152,
+    72,
+    366,
+    471
+  ],
+  "durationMs": 60,
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "derivedFrom": [
+    {
+      "file": "art/whole-game/players/mage/parts/head.png",
+      "sha256": "6b6f3107622572fcba399508996be268018fc56ea8d239d16e4ee199e6600a9c"
+    },
+    {
+      "file": "art/whole-game/players/mage/parts/torso.png",
+      "sha256": "9d64941458fd7c5b12ea3fc8d0ca3e5897e2a783b8e0b2bb8e378c5d96930555"
+    },
+    {
+      "file": "art/whole-game/players/mage/parts/far_arm.png",
+      "sha256": "071a4302cbf6b944e9d4a1fbe559d8f0a84f2f724fc8381c55eeb1b26b05552d"
+    },
+    {
+      "file": "art/whole-game/players/mage/parts/near_arm.png",
+      "sha256": "ec966e20672b3657a025997d71a3c67cf7d675a40063af60486342c4869c6e86"
+    },
+    {
+      "file": "art/whole-game/players/mage/parts/far_leg.png",
+      "sha256": "d43108e3f1eb02aa7346a7cc4a120fde082f73f630a1d44ac02d37f10b0c73a4"
+    },
+    {
+      "file": "art/whole-game/players/mage/parts/near_leg.png",
+      "sha256": "b067aef2ec652358107c3f4a8c88d504cbc10706983417ce608b03df0729871c"
+    }
+  ],
+  "operation": "premultiplied-alpha affine cutout composite of6 existing painted parts",
+  "pose": {
+    "head": {
+      "joint": [
+        258.063,
+        248.406
+      ],
+      "angle": 0.779,
+      "stretch": [
+        1,
+        1
+      ]
+    },
+    "torso": {
+      "joint": [
+        258.16,
+        243.407
+      ],
+      "angle": 1.109,
+      "stretch": [
+        1,
+        1.0110865543901355
+      ]
+    },
+    "far_arm": {
+      "joint": [
+        229.7,
+        266.86
+      ],
+      "angle": -0.295,
+      "stretch": [
+        1,
+        1
+      ]
+    },
+    "near_arm": {
+      "joint": [
+        286.709,
+        266.964
+      ],
+      "angle": 2.513,
+      "stretch": [
+        1,
+        1
+      ]
+    },
+    "far_leg": {
+      "joint": [
+        241.686,
+        371.112
+      ],
+      "angle": 1.571,
+      "stretch": [
+        1,
+        0.925849115798572
+      ],
+      "contact": "standing",
+      "soleY": 471
+    },
+    "near_leg": {
+      "joint": [
+        275.679,
+        371.77
+      ],
+      "angle": 1.571,
+      "stretch": [
+        1,
+        0.9168439726497923
+      ],
+      "contact": "standing",
+      "soleY": 471
+    }
+  },
+  "root": [
+    256,
+    471
+  ],
+  "actualModel": null,
+  "actualQuality": null
+}

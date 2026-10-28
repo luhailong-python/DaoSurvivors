@@ -1,0 +1,2128 @@
+{
+  "schemaVersion": 1,
+  "status": "ground_art_accepted_numeric_and_visual",
+  "scope": "36 horizontal + 36 vertical combinations; reference-adjacency proof, not a claim of zero RGB step or source atlas tileability",
+  "checks": [
+    {
+      "id": "all_6x6_horizontal_and_vertical_edge_reference_mismatches",
+      "status": "pass",
+      "value": 0,
+      "threshold": 0,
+      "files": [
+        "art/whole-game/terrain/v1/ground-01.png",
+        "art/whole-game/terrain/v1/ground-02.png",
+        "art/whole-game/terrain/v1/ground-03.png",
+        "art/whole-game/terrain/v1/ground-04.png",
+        "art/whole-game/terrain/v1/ground-05.png",
+        "art/whole-game/terrain/v1/ground-06.png"
+      ]
+    },
+    {
+      "id": "horizontal_join_to_nearby_ratio",
+      "status": "pass",
+      "value": 0.9943420076212431,
+      "threshold": 1.5,
+      "files": [
+        "art/whole-game/terrain/v1/ground-01.png",
+        "art/whole-game/terrain/v1/ground-02.png",
+        "art/whole-game/terrain/v1/ground-03.png",
+        "art/whole-game/terrain/v1/ground-04.png",
+        "art/whole-game/terrain/v1/ground-05.png",
+        "art/whole-game/terrain/v1/ground-06.png"
+      ]
+    },
+    {
+      "id": "vertical_join_to_nearby_ratio",
+      "status": "pass",
+      "value": 0.9974060712552862,
+      "threshold": 1.5,
+      "files": [
+        "art/whole-game/terrain/v1/ground-01.png",
+        "art/whole-game/terrain/v1/ground-02.png",
+        "art/whole-game/terrain/v1/ground-03.png",
+        "art/whole-game/terrain/v1/ground-04.png",
+        "art/whole-game/terrain/v1/ground-05.png",
+        "art/whole-game/terrain/v1/ground-06.png"
+      ]
+    },
+    {
+      "id": "maximum_inner_collar_cut_mean_RGB_error",
+      "status": "pass",
+      "value": 4.706380367279053,
+      "threshold": 25,
+      "files": [
+        "art/whole-game/terrain/v1/ground-01.png",
+        "art/whole-game/terrain/v1/ground-02.png",
+        "art/whole-game/terrain/v1/ground-03.png",
+        "art/whole-game/terrain/v1/ground-04.png",
+        "art/whole-game/terrain/v1/ground-05.png",
+        "art/whole-game/terrain/v1/ground-06.png"
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "axis": "horizontal",
+      "firstTile": 1,
+      "secondTile": 1,
+      "files": [
+        "art/whole-game/terrain/v1/ground-01.png",
+        "art/whole-game/terrain/v1/ground-01.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.179036140441895,
+        "joinMaxAbsoluteRGBStep": 44.0,
+        "nearbyMeanAbsoluteRGBStep": 5.369852542877197,
+        "joinToNearbyRatio": 1.5231398022820792
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 1,
+      "secondTile": 2,
+      "files": [
+        "art/whole-game/terrain/v1/ground-01.png",
+        "art/whole-game/terrain/v1/ground-02.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.35546875,
+        "joinMaxAbsoluteRGBStep": 40.0,
+        "nearbyMeanAbsoluteRGBStep": 5.469156742095947,
+        "joinToNearbyRatio": 1.5277435158674808
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 1,
+      "secondTile": 3,
+      "files": [
+        "art/whole-game/terrain/v1/ground-01.png",
+        "art/whole-game/terrain/v1/ground-03.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.458333015441895,
+        "joinMaxAbsoluteRGBStep": 57.0,
+        "nearbyMeanAbsoluteRGBStep": 5.490580081939697,
+        "joinToNearbyRatio": 1.5405171929399777
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 1,
+      "secondTile": 4,
+      "files": [
+        "art/whole-game/terrain/v1/ground-01.png",
+        "art/whole-game/terrain/v1/ground-04.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.754557609558105,
+        "joinMaxAbsoluteRGBStep": 41.0,
+        "nearbyMeanAbsoluteRGBStep": 5.4346923828125,
+        "joinToNearbyRatio": 1.610865343040363
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 1,
+      "secondTile": 5,
+      "files": [
+        "art/whole-game/terrain/v1/ground-01.png",
+        "art/whole-game/terrain/v1/ground-05.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 9.475260734558105,
+        "joinMaxAbsoluteRGBStep": 46.0,
+        "nearbyMeanAbsoluteRGBStep": 5.443115234375,
+        "joinToNearbyRatio": 1.740779007344696
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 1,
+      "secondTile": 6,
+      "files": [
+        "art/whole-game/terrain/v1/ground-01.png",
+        "art/whole-game/terrain/v1/ground-06.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.919270515441895,
+        "joinMaxAbsoluteRGBStep": 44.0,
+        "nearbyMeanAbsoluteRGBStep": 5.560750484466553,
+        "joinToNearbyRatio": 1.6039688420397678
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 2,
+      "secondTile": 1,
+      "files": [
+        "art/whole-game/terrain/v1/ground-02.png",
+        "art/whole-game/terrain/v1/ground-01.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.452473640441895,
+        "joinMaxAbsoluteRGBStep": 38.0,
+        "nearbyMeanAbsoluteRGBStep": 5.391214847564697,
+        "joinToNearbyRatio": 1.567823557293403
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 2,
+      "secondTile": 2,
+      "files": [
+        "art/whole-game/terrain/v1/ground-02.png",
+        "art/whole-game/terrain/v1/ground-02.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 9.713541984558105,
+        "joinMaxAbsoluteRGBStep": 48.0,
+        "nearbyMeanAbsoluteRGBStep": 5.490519046783447,
+        "joinToNearbyRatio": 1.769148217462002
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 2,
+      "secondTile": 3,
+      "files": [
+        "art/whole-game/terrain/v1/ground-02.png",
+        "art/whole-game/terrain/v1/ground-03.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.62890625,
+        "joinMaxAbsoluteRGBStep": 38.0,
+        "nearbyMeanAbsoluteRGBStep": 5.511942386627197,
+        "joinToNearbyRatio": 1.384068575990358
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 2,
+      "secondTile": 4,
+      "files": [
+        "art/whole-game/terrain/v1/ground-02.png",
+        "art/whole-game/terrain/v1/ground-04.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.444661140441895,
+        "joinMaxAbsoluteRGBStep": 49.0,
+        "nearbyMeanAbsoluteRGBStep": 5.4560546875,
+        "joinToNearbyRatio": 1.5477596219460354
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 2,
+      "secondTile": 5,
+      "files": [
+        "art/whole-game/terrain/v1/ground-02.png",
+        "art/whole-game/terrain/v1/ground-05.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 9.430989265441895,
+        "joinMaxAbsoluteRGBStep": 46.0,
+        "nearbyMeanAbsoluteRGBStep": 5.4644775390625,
+        "joinToNearbyRatio": 1.7258720889645929
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 2,
+      "secondTile": 6,
+      "files": [
+        "art/whole-game/terrain/v1/ground-02.png",
+        "art/whole-game/terrain/v1/ground-06.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.924479484558105,
+        "joinMaxAbsoluteRGBStep": 44.0,
+        "nearbyMeanAbsoluteRGBStep": 5.582112789154053,
+        "joinToNearbyRatio": 1.598763733670558
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 3,
+      "secondTile": 1,
+      "files": [
+        "art/whole-game/terrain/v1/ground-03.png",
+        "art/whole-game/terrain/v1/ground-01.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.482421875,
+        "joinMaxAbsoluteRGBStep": 36.0,
+        "nearbyMeanAbsoluteRGBStep": 5.181905269622803,
+        "joinToNearbyRatio": 1.443951883656232
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 3,
+      "secondTile": 2,
+      "files": [
+        "art/whole-game/terrain/v1/ground-03.png",
+        "art/whole-game/terrain/v1/ground-02.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.928385734558105,
+        "joinMaxAbsoluteRGBStep": 59.0,
+        "nearbyMeanAbsoluteRGBStep": 5.281209468841553,
+        "joinToNearbyRatio": 1.6905948887720543
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 3,
+      "secondTile": 3,
+      "files": [
+        "art/whole-game/terrain/v1/ground-03.png",
+        "art/whole-game/terrain/v1/ground-03.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.401041984558105,
+        "joinMaxAbsoluteRGBStep": 37.0,
+        "nearbyMeanAbsoluteRGBStep": 5.302632808685303,
+        "joinToNearbyRatio": 1.584315242571171
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 3,
+      "secondTile": 4,
+      "files": [
+        "art/whole-game/terrain/v1/ground-03.png",
+        "art/whole-game/terrain/v1/ground-04.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.735025882720947,
+        "joinMaxAbsoluteRGBStep": 32.0,
+        "nearbyMeanAbsoluteRGBStep": 5.246744632720947,
+        "joinToNearbyRatio": 1.474252403000903
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 3,
+      "secondTile": 5,
+      "files": [
+        "art/whole-game/terrain/v1/ground-03.png",
+        "art/whole-game/terrain/v1/ground-05.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.91015625,
+        "joinMaxAbsoluteRGBStep": 42.0,
+        "nearbyMeanAbsoluteRGBStep": 5.255167484283447,
+        "joinToNearbyRatio": 1.6955037639899155
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 3,
+      "secondTile": 6,
+      "files": [
+        "art/whole-game/terrain/v1/ground-03.png",
+        "art/whole-game/terrain/v1/ground-06.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.114583015441895,
+        "joinMaxAbsoluteRGBStep": 34.0,
+        "nearbyMeanAbsoluteRGBStep": 5.372802734375,
+        "joinToNearbyRatio": 1.5103072672899531
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 4,
+      "secondTile": 1,
+      "files": [
+        "art/whole-game/terrain/v1/ground-04.png",
+        "art/whole-game/terrain/v1/ground-01.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.647786140441895,
+        "joinMaxAbsoluteRGBStep": 59.0,
+        "nearbyMeanAbsoluteRGBStep": 5.539835453033447,
+        "joinToNearbyRatio": 1.5610185922953048
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 4,
+      "secondTile": 2,
+      "files": [
+        "art/whole-game/terrain/v1/ground-04.png",
+        "art/whole-game/terrain/v1/ground-02.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 9.944010734558105,
+        "joinMaxAbsoluteRGBStep": 58.0,
+        "nearbyMeanAbsoluteRGBStep": 5.639139652252197,
+        "joinToNearbyRatio": 1.7633914653251406
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 4,
+      "secondTile": 3,
+      "files": [
+        "art/whole-game/terrain/v1/ground-04.png",
+        "art/whole-game/terrain/v1/ground-03.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.765625,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 5.660562992095947,
+        "joinToNearbyRatio": 1.5485429651149127
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 4,
+      "secondTile": 4,
+      "files": [
+        "art/whole-game/terrain/v1/ground-04.png",
+        "art/whole-game/terrain/v1/ground-04.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.809245109558105,
+        "joinMaxAbsoluteRGBStep": 52.0,
+        "nearbyMeanAbsoluteRGBStep": 5.60467529296875,
+        "joinToNearbyRatio": 1.571767256634759
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 4,
+      "secondTile": 5,
+      "files": [
+        "art/whole-game/terrain/v1/ground-04.png",
+        "art/whole-game/terrain/v1/ground-05.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.70703125,
+        "joinMaxAbsoluteRGBStep": 48.0,
+        "nearbyMeanAbsoluteRGBStep": 5.61309814453125,
+        "joinToNearbyRatio": 1.3730440928614147
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 4,
+      "secondTile": 6,
+      "files": [
+        "art/whole-game/terrain/v1/ground-04.png",
+        "art/whole-game/terrain/v1/ground-06.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.89453125,
+        "joinMaxAbsoluteRGBStep": 57.0,
+        "nearbyMeanAbsoluteRGBStep": 5.730733394622803,
+        "joinToNearbyRatio": 1.552075561279088
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 5,
+      "secondTile": 1,
+      "files": [
+        "art/whole-game/terrain/v1/ground-05.png",
+        "art/whole-game/terrain/v1/ground-01.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.867838859558105,
+        "joinMaxAbsoluteRGBStep": 43.0,
+        "nearbyMeanAbsoluteRGBStep": 5.457560062408447,
+        "joinToNearbyRatio": 1.6248724261670675
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 5,
+      "secondTile": 2,
+      "files": [
+        "art/whole-game/terrain/v1/ground-05.png",
+        "art/whole-game/terrain/v1/ground-02.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 10.12890625,
+        "joinMaxAbsoluteRGBStep": 43.0,
+        "nearbyMeanAbsoluteRGBStep": 5.556864261627197,
+        "joinToNearbyRatio": 1.8227737394891823
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 5,
+      "secondTile": 3,
+      "files": [
+        "art/whole-game/terrain/v1/ground-05.png",
+        "art/whole-game/terrain/v1/ground-03.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.94140625,
+        "joinMaxAbsoluteRGBStep": 49.0,
+        "nearbyMeanAbsoluteRGBStep": 5.578287601470947,
+        "joinToNearbyRatio": 1.6028944523481052
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 5,
+      "secondTile": 4,
+      "files": [
+        "art/whole-game/terrain/v1/ground-05.png",
+        "art/whole-game/terrain/v1/ground-04.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.751953125,
+        "joinMaxAbsoluteRGBStep": 49.0,
+        "nearbyMeanAbsoluteRGBStep": 5.52239990234375,
+        "joinToNearbyRatio": 1.5848097348556018
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 5,
+      "secondTile": 5,
+      "files": [
+        "art/whole-game/terrain/v1/ground-05.png",
+        "art/whole-game/terrain/v1/ground-05.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 9.70703125,
+        "joinMaxAbsoluteRGBStep": 40.0,
+        "nearbyMeanAbsoluteRGBStep": 5.53082275390625,
+        "joinToNearbyRatio": 1.755079069048854
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 5,
+      "secondTile": 6,
+      "files": [
+        "art/whole-game/terrain/v1/ground-05.png",
+        "art/whole-game/terrain/v1/ground-06.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.29296875,
+        "joinMaxAbsoluteRGBStep": 48.0,
+        "nearbyMeanAbsoluteRGBStep": 5.648458003997803,
+        "joinToNearbyRatio": 1.2911433075785044
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 6,
+      "secondTile": 1,
+      "files": [
+        "art/whole-game/terrain/v1/ground-06.png",
+        "art/whole-game/terrain/v1/ground-01.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.542317867279053,
+        "joinMaxAbsoluteRGBStep": 35.0,
+        "nearbyMeanAbsoluteRGBStep": 5.33917236328125,
+        "joinToNearbyRatio": 1.412638018421985
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 6,
+      "secondTile": 2,
+      "files": [
+        "art/whole-game/terrain/v1/ground-06.png",
+        "art/whole-game/terrain/v1/ground-02.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.86328125,
+        "joinMaxAbsoluteRGBStep": 45.0,
+        "nearbyMeanAbsoluteRGBStep": 5.4384765625,
+        "joinToNearbyRatio": 1.6297360387861375
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 6,
+      "secondTile": 3,
+      "files": [
+        "art/whole-game/terrain/v1/ground-06.png",
+        "art/whole-game/terrain/v1/ground-03.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.756510257720947,
+        "joinMaxAbsoluteRGBStep": 39.0,
+        "nearbyMeanAbsoluteRGBStep": 5.45989990234375,
+        "joinToNearbyRatio": 1.4206323186238892
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 6,
+      "secondTile": 4,
+      "files": [
+        "art/whole-game/terrain/v1/ground-06.png",
+        "art/whole-game/terrain/v1/ground-04.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.599609375,
+        "joinMaxAbsoluteRGBStep": 32.0,
+        "nearbyMeanAbsoluteRGBStep": 5.404012203216553,
+        "joinToNearbyRatio": 1.4062901949918976
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 6,
+      "secondTile": 5,
+      "files": [
+        "art/whole-game/terrain/v1/ground-06.png",
+        "art/whole-game/terrain/v1/ground-05.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.12890625,
+        "joinMaxAbsoluteRGBStep": 40.0,
+        "nearbyMeanAbsoluteRGBStep": 5.412435054779053,
+        "joinToNearbyRatio": 1.5018944648254702
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "horizontal",
+      "firstTile": 6,
+      "secondTile": 6,
+      "files": [
+        "art/whole-game/terrain/v1/ground-06.png",
+        "art/whole-game/terrain/v1/ground-06.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.069010734558105,
+        "joinMaxAbsoluteRGBStep": 35.0,
+        "nearbyMeanAbsoluteRGBStep": 5.530069828033447,
+        "joinToNearbyRatio": 1.4591155239404152
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 6.149739742279053,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 6.184732913970947,
+        "joinToNearbyRatio": 0.9943420076212431
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 1,
+      "secondTile": 1,
+      "files": [
+        "art/whole-game/terrain/v1/ground-01.png",
+        "art/whole-game/terrain/v1/ground-01.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.21875,
+        "joinMaxAbsoluteRGBStep": 31.0,
+        "nearbyMeanAbsoluteRGBStep": 5.665608882904053,
+        "joinToNearbyRatio": 1.2741348986836247
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 1,
+      "secondTile": 2,
+      "files": [
+        "art/whole-game/terrain/v1/ground-01.png",
+        "art/whole-game/terrain/v1/ground-02.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.532552242279053,
+        "joinMaxAbsoluteRGBStep": 34.0,
+        "nearbyMeanAbsoluteRGBStep": 5.61614990234375,
+        "joinToNearbyRatio": 1.341230624762267
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 1,
+      "secondTile": 3,
+      "files": [
+        "art/whole-game/terrain/v1/ground-01.png",
+        "art/whole-game/terrain/v1/ground-03.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.429036617279053,
+        "joinMaxAbsoluteRGBStep": 44.0,
+        "nearbyMeanAbsoluteRGBStep": 5.736714839935303,
+        "joinToNearbyRatio": 1.2949984136500736
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 1,
+      "secondTile": 4,
+      "files": [
+        "art/whole-game/terrain/v1/ground-01.png",
+        "art/whole-game/terrain/v1/ground-04.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.3359375,
+        "joinMaxAbsoluteRGBStep": 37.0,
+        "nearbyMeanAbsoluteRGBStep": 5.584330081939697,
+        "joinToNearbyRatio": 1.3136647354935524
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 1,
+      "secondTile": 5,
+      "files": [
+        "art/whole-game/terrain/v1/ground-01.png",
+        "art/whole-game/terrain/v1/ground-05.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.98828125,
+        "joinMaxAbsoluteRGBStep": 53.0,
+        "nearbyMeanAbsoluteRGBStep": 5.584635257720947,
+        "joinToNearbyRatio": 1.6094661218158155
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 1,
+      "secondTile": 6,
+      "files": [
+        "art/whole-game/terrain/v1/ground-01.png",
+        "art/whole-game/terrain/v1/ground-06.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.639323234558105,
+        "joinMaxAbsoluteRGBStep": 65.0,
+        "nearbyMeanAbsoluteRGBStep": 5.602294921875,
+        "joinToNearbyRatio": 1.5421043260012202
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 2,
+      "secondTile": 1,
+      "files": [
+        "art/whole-game/terrain/v1/ground-02.png",
+        "art/whole-game/terrain/v1/ground-01.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.145833015441895,
+        "joinMaxAbsoluteRGBStep": 34.0,
+        "nearbyMeanAbsoluteRGBStep": 5.714701175689697,
+        "joinToNearbyRatio": 1.4254171416861159
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 2,
+      "secondTile": 2,
+      "files": [
+        "art/whole-game/terrain/v1/ground-02.png",
+        "art/whole-game/terrain/v1/ground-02.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.6171875,
+        "joinMaxAbsoluteRGBStep": 37.0,
+        "nearbyMeanAbsoluteRGBStep": 5.665242671966553,
+        "joinToNearbyRatio": 1.3445474344271782
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 2,
+      "secondTile": 3,
+      "files": [
+        "art/whole-game/terrain/v1/ground-02.png",
+        "art/whole-game/terrain/v1/ground-03.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.550130367279053,
+        "joinMaxAbsoluteRGBStep": 39.0,
+        "nearbyMeanAbsoluteRGBStep": 5.785807132720947,
+        "joinToNearbyRatio": 1.3049398630279576
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 2,
+      "secondTile": 4,
+      "files": [
+        "art/whole-game/terrain/v1/ground-02.png",
+        "art/whole-game/terrain/v1/ground-04.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.111979484558105,
+        "joinMaxAbsoluteRGBStep": 40.0,
+        "nearbyMeanAbsoluteRGBStep": 5.6334228515625,
+        "joinToNearbyRatio": 1.4399734758607987
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 2,
+      "secondTile": 5,
+      "files": [
+        "art/whole-game/terrain/v1/ground-02.png",
+        "art/whole-game/terrain/v1/ground-05.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.26171875,
+        "joinMaxAbsoluteRGBStep": 38.0,
+        "nearbyMeanAbsoluteRGBStep": 5.63372802734375,
+        "joinToNearbyRatio": 1.2889721894196289
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 2,
+      "secondTile": 6,
+      "files": [
+        "art/whole-game/terrain/v1/ground-02.png",
+        "art/whole-game/terrain/v1/ground-06.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.53515625,
+        "joinMaxAbsoluteRGBStep": 47.0,
+        "nearbyMeanAbsoluteRGBStep": 5.651387691497803,
+        "joinToNearbyRatio": 1.510276186296804
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 3,
+      "secondTile": 1,
+      "files": [
+        "art/whole-game/terrain/v1/ground-03.png",
+        "art/whole-game/terrain/v1/ground-01.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.301432132720947,
+        "joinMaxAbsoluteRGBStep": 36.0,
+        "nearbyMeanAbsoluteRGBStep": 5.6297607421875,
+        "joinToNearbyRatio": 1.2969347130521043
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 3,
+      "secondTile": 2,
+      "files": [
+        "art/whole-game/terrain/v1/ground-03.png",
+        "art/whole-game/terrain/v1/ground-02.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.662109375,
+        "joinMaxAbsoluteRGBStep": 37.0,
+        "nearbyMeanAbsoluteRGBStep": 5.580301761627197,
+        "joinToNearbyRatio": 1.3730636267178775
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 3,
+      "secondTile": 3,
+      "files": [
+        "art/whole-game/terrain/v1/ground-03.png",
+        "art/whole-game/terrain/v1/ground-03.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.640625,
+        "joinMaxAbsoluteRGBStep": 36.0,
+        "nearbyMeanAbsoluteRGBStep": 5.70086669921875,
+        "joinToNearbyRatio": 1.3402567369356444
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 3,
+      "secondTile": 4,
+      "files": [
+        "art/whole-game/terrain/v1/ground-03.png",
+        "art/whole-game/terrain/v1/ground-04.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.274088859558105,
+        "joinMaxAbsoluteRGBStep": 41.0,
+        "nearbyMeanAbsoluteRGBStep": 5.548482418060303,
+        "joinToNearbyRatio": 1.4912345820229973
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 3,
+      "secondTile": 5,
+      "files": [
+        "art/whole-game/terrain/v1/ground-03.png",
+        "art/whole-game/terrain/v1/ground-05.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.998046875,
+        "joinMaxAbsoluteRGBStep": 48.0,
+        "nearbyMeanAbsoluteRGBStep": 5.548787593841553,
+        "joinToNearbyRatio": 1.621623953489711
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 3,
+      "secondTile": 6,
+      "files": [
+        "art/whole-game/terrain/v1/ground-03.png",
+        "art/whole-game/terrain/v1/ground-06.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.534505367279053,
+        "joinMaxAbsoluteRGBStep": 55.0,
+        "nearbyMeanAbsoluteRGBStep": 5.566446781158447,
+        "joinToNearbyRatio": 1.3535574242409316
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 4,
+      "secondTile": 1,
+      "files": [
+        "art/whole-game/terrain/v1/ground-04.png",
+        "art/whole-game/terrain/v1/ground-01.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.111979007720947,
+        "joinMaxAbsoluteRGBStep": 27.0,
+        "nearbyMeanAbsoluteRGBStep": 5.55908203125,
+        "joinToNearbyRatio": 1.2793441377086079
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 4,
+      "secondTile": 2,
+      "files": [
+        "art/whole-game/terrain/v1/ground-04.png",
+        "art/whole-game/terrain/v1/ground-02.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.084635257720947,
+        "joinMaxAbsoluteRGBStep": 38.0,
+        "nearbyMeanAbsoluteRGBStep": 5.509623050689697,
+        "joinToNearbyRatio": 1.2858656921790845
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 4,
+      "secondTile": 3,
+      "files": [
+        "art/whole-game/terrain/v1/ground-04.png",
+        "art/whole-game/terrain/v1/ground-03.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.660807132720947,
+        "joinMaxAbsoluteRGBStep": 42.0,
+        "nearbyMeanAbsoluteRGBStep": 5.63018798828125,
+        "joinToNearbyRatio": 1.3606663132148085
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 4,
+      "secondTile": 4,
+      "files": [
+        "art/whole-game/terrain/v1/ground-04.png",
+        "art/whole-game/terrain/v1/ground-04.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.161458015441895,
+        "joinMaxAbsoluteRGBStep": 42.0,
+        "nearbyMeanAbsoluteRGBStep": 5.477803707122803,
+        "joinToNearbyRatio": 1.4899142889748913
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 4,
+      "secondTile": 5,
+      "files": [
+        "art/whole-game/terrain/v1/ground-04.png",
+        "art/whole-game/terrain/v1/ground-05.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 9.606770515441895,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 5.478108882904053,
+        "joinToNearbyRatio": 1.7536654931088478
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 4,
+      "secondTile": 6,
+      "files": [
+        "art/whole-game/terrain/v1/ground-04.png",
+        "art/whole-game/terrain/v1/ground-06.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.408854484558105,
+        "joinMaxAbsoluteRGBStep": 68.0,
+        "nearbyMeanAbsoluteRGBStep": 5.495768070220947,
+        "joinToNearbyRatio": 1.530059925585623
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 5,
+      "secondTile": 1,
+      "files": [
+        "art/whole-game/terrain/v1/ground-05.png",
+        "art/whole-game/terrain/v1/ground-01.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.30078125,
+        "joinMaxAbsoluteRGBStep": 31.0,
+        "nearbyMeanAbsoluteRGBStep": 5.594258785247803,
+        "joinToNearbyRatio": 1.3050488957093545
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 5,
+      "secondTile": 2,
+      "files": [
+        "art/whole-game/terrain/v1/ground-05.png",
+        "art/whole-game/terrain/v1/ground-02.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 6.916666507720947,
+        "joinMaxAbsoluteRGBStep": 29.0,
+        "nearbyMeanAbsoluteRGBStep": 5.5447998046875,
+        "joinToNearbyRatio": 1.2474150107049293
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 5,
+      "secondTile": 3,
+      "files": [
+        "art/whole-game/terrain/v1/ground-05.png",
+        "art/whole-game/terrain/v1/ground-03.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.419921875,
+        "joinMaxAbsoluteRGBStep": 37.0,
+        "nearbyMeanAbsoluteRGBStep": 5.665364742279053,
+        "joinToNearbyRatio": 1.3096988830440468
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 5,
+      "secondTile": 4,
+      "files": [
+        "art/whole-game/terrain/v1/ground-05.png",
+        "art/whole-game/terrain/v1/ground-04.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.10546875,
+        "joinMaxAbsoluteRGBStep": 31.0,
+        "nearbyMeanAbsoluteRGBStep": 5.512979984283447,
+        "joinToNearbyRatio": 1.4702518008603858
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 5,
+      "secondTile": 5,
+      "files": [
+        "art/whole-game/terrain/v1/ground-05.png",
+        "art/whole-game/terrain/v1/ground-05.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.87890625,
+        "joinMaxAbsoluteRGBStep": 56.0,
+        "nearbyMeanAbsoluteRGBStep": 5.513285160064697,
+        "joinToNearbyRatio": 1.6104565594237843
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 5,
+      "secondTile": 6,
+      "files": [
+        "art/whole-game/terrain/v1/ground-05.png",
+        "art/whole-game/terrain/v1/ground-06.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.09375,
+        "joinMaxAbsoluteRGBStep": 58.0,
+        "nearbyMeanAbsoluteRGBStep": 5.53094482421875,
+        "joinToNearbyRatio": 1.4633575740186937
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 6,
+      "secondTile": 1,
+      "files": [
+        "art/whole-game/terrain/v1/ground-06.png",
+        "art/whole-game/terrain/v1/ground-01.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.828125,
+        "joinMaxAbsoluteRGBStep": 29.0,
+        "nearbyMeanAbsoluteRGBStep": 5.49139404296875,
+        "joinToNearbyRatio": 1.4255260028231318
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 6,
+      "secondTile": 2,
+      "files": [
+        "art/whole-game/terrain/v1/ground-06.png",
+        "art/whole-game/terrain/v1/ground-02.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 6.989583492279053,
+        "joinMaxAbsoluteRGBStep": 32.0,
+        "nearbyMeanAbsoluteRGBStep": 5.441935062408447,
+        "joinToNearbyRatio": 1.284393035220391
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 6,
+      "secondTile": 3,
+      "files": [
+        "art/whole-game/terrain/v1/ground-06.png",
+        "art/whole-game/terrain/v1/ground-03.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 7.033203125,
+        "joinMaxAbsoluteRGBStep": 36.0,
+        "nearbyMeanAbsoluteRGBStep": 5.5625,
+        "joinToNearbyRatio": 1.2643960674157304
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 6,
+      "secondTile": 4,
+      "files": [
+        "art/whole-game/terrain/v1/ground-06.png",
+        "art/whole-game/terrain/v1/ground-04.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.442708015441895,
+        "joinMaxAbsoluteRGBStep": 35.0,
+        "nearbyMeanAbsoluteRGBStep": 5.410115718841553,
+        "joinToNearbyRatio": 1.5605411148672619
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 6,
+      "secondTile": 5,
+      "files": [
+        "art/whole-game/terrain/v1/ground-06.png",
+        "art/whole-game/terrain/v1/ground-05.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 9.407551765441895,
+        "joinMaxAbsoluteRGBStep": 47.0,
+        "nearbyMeanAbsoluteRGBStep": 5.410420894622803,
+        "joinToNearbyRatio": 1.7387837191726947
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    },
+    {
+      "axis": "vertical",
+      "firstTile": 6,
+      "secondTile": 6,
+      "files": [
+        "art/whole-game/terrain/v1/ground-06.png",
+        "art/whole-game/terrain/v1/ground-06.png"
+      ],
+      "sourceRawJoin": {
+        "joinMeanAbsoluteRGBStep": 8.518229484558105,
+        "joinMaxAbsoluteRGBStep": 61.0,
+        "nearbyMeanAbsoluteRGBStep": 5.428080081939697,
+        "joinToNearbyRatio": 1.5692895749456517
+      },
+      "adaptedJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "referenceNaturalJoin": {
+        "joinMeanAbsoluteRGBStep": 7.768229007720947,
+        "joinMaxAbsoluteRGBStep": 63.0,
+        "nearbyMeanAbsoluteRGBStep": 7.788431644439697,
+        "joinToNearbyRatio": 0.9974060712552862
+      },
+      "sharedCollarReferenceChannelMismatches": 0
+    }
+  ],
+  "visualReview": {
+    "status": "passed_ground_art_review",
+    "reviewedOn": "2026-10-28",
+    "timeZone": "America/New_York",
+    "reviewer": "art_manifest",
+    "actualImagesViewed": [
+      {
+        "file": "designs/whole-game/scenes/v1/six-tiles.png",
+        "sha256": "cf17697ae8bd3f51506d8107ee1d53a43f3a939e7322f2eed846c9df72df9f30"
+      },
+      {
+        "file": "designs/whole-game/scenes/v1/mixed-variants.png",
+        "sha256": "e0828d526ed70495df953cb1f30529fbcb5713601c27c81cb29ce00ff8e59c7c"
+      },
+      {
+        "file": "designs/whole-game/scenes/v1/mixed-before-adaptation.png",
+        "sha256": "a6e237c8eadb9a3cb85fe8934b7c28e7bf971d78e93823fcdd7bee49687734d1"
+      },
+      {
+        "file": "designs/whole-game/scenes/v1/horizontal-all-36-pairs.png",
+        "sha256": "f09fd054b53d3138a2937baf5c7c792f7273fac6428bc785e09765491939f216"
+      },
+      {
+        "file": "designs/whole-game/scenes/v1/vertical-all-36-pairs.png",
+        "sha256": "3edb7bdaa4ce07ff194422bb6c9f1353ae9ec82a7ea5d0fb3d9a8b292eb80aee"
+      },
+      {
+        "file": "designs/whole-game/scenes/v1/map1-overview.png",
+        "sha256": "b69a8b40b5e1e775f727e11a148039bd61f270b41c59a42c490593dd1acecf0b"
+      },
+      {
+        "file": "designs/whole-game/scenes/v1/camera-scale-ground.png",
+        "sha256": "759d056b6c544fff6e432f4b8b4ee88eb87c5e31a7759379d04ab6d5961e28f7"
+      }
+    ],
+    "observations": [
+      "Six coherent shallow gray/green hand-painted ground variants, central moss/stone, bamboo leaf, flower and lichen motifs stay intact.",
+      "Shared outer edges show no straight bright/dark seams in all 36 horizontal and all 36 vertical joins.",
+      "Native camera scale retains quiet ground readability; no players or HUD baked into tiles.",
+      "The 200/3/3/1/1/3 source weights make the plain tile dominate. The whole-map overview has the expected repeated stone grain; this does not represent a new authored 100x100 painting."
+    ],
+    "notCovered": [
+      "Unity material filtering, import, camera, movement/collision and runtime validation",
+      "Representative actor/prop composite pending separate art resources"
+    ]
+  },
+  "warningPolicy": "Report each WARN/FAIL with its exact id/value/threshold/files; never flatten a warning to all checks passed."
+}

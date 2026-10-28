@@ -1,0 +1,1528 @@
+{
+  "schemaVersion": 1,
+  "sheet": "art/whole-game/sheets/world-combat-v1.png",
+  "sheetSha256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "art_source": "host_image",
+  "route": "builtin image_gen; slicing is native deterministic crop/padding only",
+  "nominalGrid": [
+    4,
+    4
+  ],
+  "nominalCellSize": [
+    384,
+    256
+  ],
+  "ownership": {
+    "rowEdges": [
+      0,
+      256,
+      520,
+      758,
+      1024
+    ],
+    "columnEdgesByRow": [
+      [
+        0,
+        438,
+        803,
+        1150,
+        1536
+      ],
+      [
+        0,
+        416,
+        786,
+        1150,
+        1536
+      ],
+      [
+        0,
+        383,
+        764,
+        1150,
+        1536
+      ],
+      [
+        0,
+        415,
+        792,
+        1174,
+        1536
+      ]
+    ],
+    "method": "Inspected transparent-alpha valleys; row-specific rectangles tile the full native canvas exactly once. Sword tip belongs to row0col0 through x437, not nominal x383.",
+    "alphaThresholdForComponentQC": 8,
+    "minComponentAreaForCrossingQC": 64
+  },
+  "rawSheetQC": {
+    "status": "fail",
+    "record": "docs/production/world-combat-v1-qc/sheet-qc.json",
+    "reportedChecks": [
+      {
+        "id": "cross_cell_components",
+        "status": "fail",
+        "value": 4,
+        "threshold": 0,
+        "files": [
+          "art/whole-game/sheets/world-combat-v1.png"
+        ]
+      },
+      {
+        "id": "cross_cell_visible",
+        "status": "fail",
+        "value": 5,
+        "threshold": 0,
+        "files": [
+          "art/whole-game/sheets/world-combat-v1.png"
+        ]
+      },
+      {
+        "id": "boundary_band",
+        "status": "warn",
+        "value": 815,
+        "threshold": 0,
+        "files": [
+          "art/whole-game/sheets/world-combat-v1.png"
+        ]
+      },
+      {
+        "id": "safe_frame",
+        "status": "warn",
+        "value": 15,
+        "threshold": 0,
+        "files": [
+          "art/whole-game/sheets/world-combat-v1.png"
+        ]
+      },
+      {
+        "id": "faint_specks",
+        "status": "warn",
+        "value": {
+          "floor_px": 344286,
+          "detached_components": 18
+        },
+        "threshold": 0,
+        "files": [
+          "art/whole-game/sheets/world-combat-v1.png"
+        ]
+      }
+    ],
+    "note": "Nominal grid failed. It was not used for adopted cuts; keep original failures as source-layout evidence."
+  },
+  "slicedAssetQC": {
+    "status": "accepted_pixel_ownership_and_actual_light_dark_visual_review_with_retained_raw_grid_findings",
+    "componentCrossings": [],
+    "allSourceAlphaPixelsAssignedExactlyOnce": true,
+    "sumAlphaSource": 81406827,
+    "sumAlphaOutputs": 81406827,
+    "sourceNonzeroAlphaPixels": 831586,
+    "outputNonzeroAlphaPixels": 831586,
+    "all16PNG512RGBA": true,
+    "allVisibleCanvasEdgesClear": true,
+    "resampling": "none",
+    "matteCleaning": "none; faint native alpha is retained",
+    "engineValidation": "not-performed"
+  },
+  "files": [
+    {
+      "file": "art/whole-game/fx/skill-nearest.png",
+      "key": "ToNearestSkill",
+      "label": "追星御剑",
+      "sha256": "a1e48a787a3ee7e1e873432de3e93cc2d4ec2fa5083196fc6fe63f066b45ea5f",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "alphaPixels": {
+        "zero": 222482,
+        "nonzero": 39662,
+        "visibleGreaterThan8": 21254
+      },
+      "derivedFrom": {
+        "file": "art/whole-game/sheets/world-combat-v1.png",
+        "sha256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+        "generationRecord": "art/whole-game/sheets/world-combat-v1.png.generation.json"
+      },
+      "operation": {
+        "kind": "native ownership crop + transparent padding",
+        "cropRectXYXY": [
+          0,
+          0,
+          438,
+          256
+        ],
+        "placementXY": [
+          20,
+          114
+        ],
+        "nativeCropSize": [
+          438,
+          256
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          40,
+          94,
+          431,
+          191
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained including faint native halo/specks"
+      },
+      "pivotBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "Single",
+      "meshType": "FullRect",
+      "filterMode": "Bilinear",
+      "wrapMode": "Clamp",
+      "mipmaps": false,
+      "colourSpace": "sRGB",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "defaultDirection": "+X (right)",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow native atlas generation record; this slicing did not call an image model.",
+      "validation": {
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "visibleBBox": [
+          60,
+          208,
+          451,
+          305
+        ],
+        "visualReview": "accepted; complete subject, no neighbour contamination, clean visible margins, readable on reviewed light/dark backgrounds",
+        "Unity": "not-tested"
+      }
+    },
+    {
+      "file": "art/whole-game/fx/skill-bothside.png",
+      "key": "BothSideSkill",
+      "label": "两仪斩",
+      "sha256": "5b4e2b13245ea25d6db6272224e4af40fb8c7fcb0925dbca50b979dc2e187df5",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "alphaPixels": {
+        "zero": 201771,
+        "nonzero": 60373,
+        "visibleGreaterThan8": 31455
+      },
+      "derivedFrom": {
+        "file": "art/whole-game/sheets/world-combat-v1.png",
+        "sha256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+        "generationRecord": "art/whole-game/sheets/world-combat-v1.png.generation.json"
+      },
+      "operation": {
+        "kind": "native ownership crop + transparent padding",
+        "cropRectXYXY": [
+          438,
+          0,
+          803,
+          256
+        ],
+        "placementXY": [
+          82,
+          110
+        ],
+        "nativeCropSize": [
+          365,
+          256
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          12,
+          63,
+          335,
+          228
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained including faint native halo/specks"
+      },
+      "pivotBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "Single",
+      "meshType": "FullRect",
+      "filterMode": "Bilinear",
+      "wrapMode": "Clamp",
+      "mipmaps": false,
+      "colourSpace": "sRGB",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "defaultDirection": "+X (right)",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow native atlas generation record; this slicing did not call an image model.",
+      "validation": {
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "visibleBBox": [
+          94,
+          173,
+          417,
+          338
+        ],
+        "visualReview": "accepted; complete subject, no neighbour contamination, clean visible margins, readable on reviewed light/dark backgrounds",
+        "Unity": "not-tested"
+      }
+    },
+    {
+      "file": "art/whole-game/fx/skill-bouncing.png",
+      "key": "BouncingSkill",
+      "label": "流珠引",
+      "sha256": "4e8b14c762c502c3852b4a1a50612aad7d08fa1aba82226d2d183ba7a696433d",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "alphaPixels": {
+        "zero": 211197,
+        "nonzero": 50947,
+        "visibleGreaterThan8": 26117
+      },
+      "derivedFrom": {
+        "file": "art/whole-game/sheets/world-combat-v1.png",
+        "sha256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+        "generationRecord": "art/whole-game/sheets/world-combat-v1.png.generation.json"
+      },
+      "operation": {
+        "kind": "native ownership crop + transparent padding",
+        "cropRectXYXY": [
+          803,
+          0,
+          1150,
+          256
+        ],
+        "placementXY": [
+          84,
+          110
+        ],
+        "nativeCropSize": [
+          347,
+          256
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          54,
+          63,
+          291,
+          230
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained including faint native halo/specks"
+      },
+      "pivotBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "Single",
+      "meshType": "FullRect",
+      "filterMode": "Bilinear",
+      "wrapMode": "Clamp",
+      "mipmaps": false,
+      "colourSpace": "sRGB",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "defaultDirection": "radial/standing; see asset role",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow native atlas generation record; this slicing did not call an image model.",
+      "validation": {
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "visibleBBox": [
+          138,
+          173,
+          375,
+          340
+        ],
+        "visualReview": "accepted; complete subject, no neighbour contamination, clean visible margins, readable on reviewed light/dark backgrounds",
+        "Unity": "not-tested"
+      }
+    },
+    {
+      "file": "art/whole-game/fx/skill-chain.png",
+      "key": "ChainSkill",
+      "label": "连星诀",
+      "sha256": "52018c65a9fd6de5293c4877db341570d25d5025a7f51b5d1f959b6477f668c5",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "alphaPixels": {
+        "zero": 218653,
+        "nonzero": 43491,
+        "visibleGreaterThan8": 19239
+      },
+      "derivedFrom": {
+        "file": "art/whole-game/sheets/world-combat-v1.png",
+        "sha256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+        "generationRecord": "art/whole-game/sheets/world-combat-v1.png.generation.json"
+      },
+      "operation": {
+        "kind": "native ownership crop + transparent padding",
+        "cropRectXYXY": [
+          1150,
+          0,
+          1536,
+          256
+        ],
+        "placementXY": [
+          66,
+          113
+        ],
+        "nativeCropSize": [
+          386,
+          256
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          56,
+          84,
+          325,
+          202
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained including faint native halo/specks"
+      },
+      "pivotBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "Single",
+      "meshType": "FullRect",
+      "filterMode": "Bilinear",
+      "wrapMode": "Clamp",
+      "mipmaps": false,
+      "colourSpace": "sRGB",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "defaultDirection": "+X (right)",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow native atlas generation record; this slicing did not call an image model.",
+      "validation": {
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "visibleBBox": [
+          122,
+          197,
+          391,
+          315
+        ],
+        "visualReview": "accepted; complete subject, no neighbour contamination, clean visible margins, readable on reviewed light/dark backgrounds",
+        "Unity": "not-tested"
+      }
+    },
+    {
+      "file": "art/whole-game/fx/skill-circle.png",
+      "key": "CircularAttackSkill",
+      "label": "太极震",
+      "sha256": "0b429861f4ab49585b08bd7ad23343bce9e088ea5aa2abc17e49ca2cb050286f",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "alphaPixels": {
+        "zero": 202523,
+        "nonzero": 59621,
+        "visibleGreaterThan8": 22252
+      },
+      "derivedFrom": {
+        "file": "art/whole-game/sheets/world-combat-v1.png",
+        "sha256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+        "generationRecord": "art/whole-game/sheets/world-combat-v1.png.generation.json"
+      },
+      "operation": {
+        "kind": "native ownership crop + transparent padding",
+        "cropRectXYXY": [
+          0,
+          256,
+          416,
+          520
+        ],
+        "placementXY": [
+          36,
+          120
+        ],
+        "nativeCropSize": [
+          416,
+          264
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          60,
+          69,
+          379,
+          204
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained including faint native halo/specks"
+      },
+      "pivotBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "Single",
+      "meshType": "FullRect",
+      "filterMode": "Bilinear",
+      "wrapMode": "Clamp",
+      "mipmaps": false,
+      "colourSpace": "sRGB",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "defaultDirection": "+X (right)",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow native atlas generation record; this slicing did not call an image model.",
+      "validation": {
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "visibleBBox": [
+          96,
+          189,
+          415,
+          324
+        ],
+        "visualReview": "accepted; complete subject, no neighbour contamination, clean visible margins, readable on reviewed light/dark backgrounds",
+        "Unity": "not-tested"
+      }
+    },
+    {
+      "file": "art/whole-game/fx/skill-orbit.png",
+      "key": "CircularMotionSkill",
+      "label": "葫芦巡天",
+      "sha256": "b59e0911638920a23fc6d44c73f1719e407fe43b586bbcf079db0de98abcbaeb",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "alphaPixels": {
+        "zero": 196639,
+        "nonzero": 65505,
+        "visibleGreaterThan8": 35494
+      },
+      "derivedFrom": {
+        "file": "art/whole-game/sheets/world-combat-v1.png",
+        "sha256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+        "generationRecord": "art/whole-game/sheets/world-combat-v1.png.generation.json"
+      },
+      "operation": {
+        "kind": "native ownership crop + transparent padding",
+        "cropRectXYXY": [
+          416,
+          256,
+          786,
+          520
+        ],
+        "placementXY": [
+          60,
+          122
+        ],
+        "nativeCropSize": [
+          370,
+          264
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          61,
+          33,
+          330,
+          235
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained including faint native halo/specks"
+      },
+      "pivotBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "Single",
+      "meshType": "FullRect",
+      "filterMode": "Bilinear",
+      "wrapMode": "Clamp",
+      "mipmaps": false,
+      "colourSpace": "sRGB",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "defaultDirection": "+X (right)",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow native atlas generation record; this slicing did not call an image model.",
+      "validation": {
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "visibleBBox": [
+          121,
+          155,
+          390,
+          357
+        ],
+        "visualReview": "accepted; complete subject, no neighbour contamination, clean visible margins, readable on reviewed light/dark backgrounds",
+        "Unity": "not-tested"
+      }
+    },
+    {
+      "file": "art/whole-game/fx/skill-fourcorner.png",
+      "key": "FourCornerSkill",
+      "label": "四象符",
+      "sha256": "301860babb9dd6e3f583d641b24cb65588330bd3aff3218daba289e765fd9307",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "alphaPixels": {
+        "zero": 202149,
+        "nonzero": 59995,
+        "visibleGreaterThan8": 22210
+      },
+      "derivedFrom": {
+        "file": "art/whole-game/sheets/world-combat-v1.png",
+        "sha256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+        "generationRecord": "art/whole-game/sheets/world-combat-v1.png.generation.json"
+      },
+      "operation": {
+        "kind": "native ownership crop + transparent padding",
+        "cropRectXYXY": [
+          786,
+          256,
+          1150,
+          520
+        ],
+        "placementXY": [
+          79,
+          115
+        ],
+        "nativeCropSize": [
+          364,
+          264
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          20,
+          75,
+          334,
+          207
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained including faint native halo/specks"
+      },
+      "pivotBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "Single",
+      "meshType": "FullRect",
+      "filterMode": "Bilinear",
+      "wrapMode": "Clamp",
+      "mipmaps": false,
+      "colourSpace": "sRGB",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "defaultDirection": "+X (right)",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow native atlas generation record; this slicing did not call an image model.",
+      "validation": {
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "visibleBBox": [
+          99,
+          190,
+          413,
+          322
+        ],
+        "visualReview": "accepted; complete subject, no neighbour contamination, clean visible margins, readable on reviewed light/dark backgrounds",
+        "Unity": "not-tested"
+      }
+    },
+    {
+      "file": "art/whole-game/fx/skill-scope.png",
+      "key": "InsideScopeSkill",
+      "label": "八卦阵",
+      "sha256": "3b9601d31060e850e7a681ba633bc3ffcfa77f45d8ae6693e36813740c2eec8f",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "alphaPixels": {
+        "zero": 191776,
+        "nonzero": 70368,
+        "visibleGreaterThan8": 38245
+      },
+      "derivedFrom": {
+        "file": "art/whole-game/sheets/world-combat-v1.png",
+        "sha256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+        "generationRecord": "art/whole-game/sheets/world-combat-v1.png.generation.json"
+      },
+      "operation": {
+        "kind": "native ownership crop + transparent padding",
+        "cropRectXYXY": [
+          1150,
+          256,
+          1536,
+          520
+        ],
+        "placementXY": [
+          66,
+          126
+        ],
+        "nativeCropSize": [
+          386,
+          264
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          59,
+          1,
+          322,
+          258
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained including faint native halo/specks"
+      },
+      "pivotBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "Single",
+      "meshType": "FullRect",
+      "filterMode": "Bilinear",
+      "wrapMode": "Clamp",
+      "mipmaps": false,
+      "colourSpace": "sRGB",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "defaultDirection": "radial/standing; see asset role",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow native atlas generation record; this slicing did not call an image model.",
+      "validation": {
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "visibleBBox": [
+          125,
+          127,
+          388,
+          384
+        ],
+        "visualReview": "accepted; complete subject, no neighbour contamination, clean visible margins, readable on reviewed light/dark backgrounds",
+        "Unity": "not-tested"
+      }
+    },
+    {
+      "file": "art/whole-game/fx/skill-random.png",
+      "key": "RandomSkill",
+      "label": "落花令",
+      "sha256": "5f39fc1e2f138e88da0198c9555c20eeb5b7199d3a4eb10d35db0301d0dcb0dc",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "alphaPixels": {
+        "zero": 202575,
+        "nonzero": 59569,
+        "visibleGreaterThan8": 32726
+      },
+      "derivedFrom": {
+        "file": "art/whole-game/sheets/world-combat-v1.png",
+        "sha256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+        "generationRecord": "art/whole-game/sheets/world-combat-v1.png.generation.json"
+      },
+      "operation": {
+        "kind": "native ownership crop + transparent padding",
+        "cropRectXYXY": [
+          0,
+          520,
+          383,
+          758
+        ],
+        "placementXY": [
+          54,
+          143
+        ],
+        "nativeCropSize": [
+          383,
+          238
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          67,
+          10,
+          338,
+          216
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained including faint native halo/specks"
+      },
+      "pivotBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "Single",
+      "meshType": "FullRect",
+      "filterMode": "Bilinear",
+      "wrapMode": "Clamp",
+      "mipmaps": false,
+      "colourSpace": "sRGB",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "defaultDirection": "radial/standing; see asset role",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow native atlas generation record; this slicing did not call an image model.",
+      "validation": {
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "visibleBBox": [
+          121,
+          153,
+          392,
+          359
+        ],
+        "visualReview": "accepted; complete subject, no neighbour contamination, clean visible margins, readable on reviewed light/dark backgrounds",
+        "Unity": "not-tested"
+      }
+    },
+    {
+      "file": "art/whole-game/fx/enemy-blue.png",
+      "key": "BlueMagic",
+      "label": "青蓝敌弹",
+      "sha256": "15d19ee1965e2d7779fbeea7cc0510f60577f7624d05c74db1e47b5169a4fdcf",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "alphaPixels": {
+        "zero": 213274,
+        "nonzero": 48870,
+        "visibleGreaterThan8": 30758
+      },
+      "derivedFrom": {
+        "file": "art/whole-game/sheets/world-combat-v1.png",
+        "sha256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+        "generationRecord": "art/whole-game/sheets/world-combat-v1.png.generation.json"
+      },
+      "operation": {
+        "kind": "native ownership crop + transparent padding",
+        "cropRectXYXY": [
+          383,
+          520,
+          764,
+          758
+        ],
+        "placementXY": [
+          60,
+          141
+        ],
+        "nativeCropSize": [
+          381,
+          238
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          41,
+          40,
+          351,
+          190
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained including faint native halo/specks"
+      },
+      "pivotBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "Single",
+      "meshType": "FullRect",
+      "filterMode": "Bilinear",
+      "wrapMode": "Clamp",
+      "mipmaps": false,
+      "colourSpace": "sRGB",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "defaultDirection": "+X (right)",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow native atlas generation record; this slicing did not call an image model.",
+      "validation": {
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "visibleBBox": [
+          101,
+          181,
+          411,
+          331
+        ],
+        "visualReview": "accepted; complete subject, no neighbour contamination, clean visible margins, readable on reviewed light/dark backgrounds",
+        "Unity": "not-tested"
+      }
+    },
+    {
+      "file": "art/whole-game/fx/enemy-pink.png",
+      "key": "PinkMagic",
+      "label": "桃粉敌弹",
+      "sha256": "efb24955e1c4e79d5c09194eb714a1dc2f9734945fa9ca0b18b7c24b80270957",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "alphaPixels": {
+        "zero": 214726,
+        "nonzero": 47418,
+        "visibleGreaterThan8": 32283
+      },
+      "derivedFrom": {
+        "file": "art/whole-game/sheets/world-combat-v1.png",
+        "sha256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+        "generationRecord": "art/whole-game/sheets/world-combat-v1.png.generation.json"
+      },
+      "operation": {
+        "kind": "native ownership crop + transparent padding",
+        "cropRectXYXY": [
+          764,
+          520,
+          1150,
+          758
+        ],
+        "placementXY": [
+          64,
+          140
+        ],
+        "nativeCropSize": [
+          386,
+          238
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          25,
+          38,
+          358,
+          193
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained including faint native halo/specks"
+      },
+      "pivotBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "Single",
+      "meshType": "FullRect",
+      "filterMode": "Bilinear",
+      "wrapMode": "Clamp",
+      "mipmaps": false,
+      "colourSpace": "sRGB",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "defaultDirection": "+X (right)",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow native atlas generation record; this slicing did not call an image model.",
+      "validation": {
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "visibleBBox": [
+          89,
+          178,
+          422,
+          333
+        ],
+        "visualReview": "accepted; complete subject, no neighbour contamination, clean visible margins, readable on reviewed light/dark backgrounds",
+        "Unity": "not-tested"
+      }
+    },
+    {
+      "file": "art/whole-game/fx/enemy-red.png",
+      "key": "RedMagic",
+      "label": "朱红敌弹",
+      "sha256": "4cfe0ae900c47f2ccb9b5708b57617a3763bda893a7bfcbc7985a43ca3473f79",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alphaPixels": {
+        "zero": 219260,
+        "nonzero": 42884,
+        "visibleGreaterThan8": 28042
+      },
+      "derivedFrom": {
+        "file": "art/whole-game/sheets/world-combat-v1.png",
+        "sha256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+        "generationRecord": "art/whole-game/sheets/world-combat-v1.png.generation.json"
+      },
+      "operation": {
+        "kind": "native ownership crop + transparent padding",
+        "cropRectXYXY": [
+          1150,
+          520,
+          1536,
+          758
+        ],
+        "placementXY": [
+          62,
+          138
+        ],
+        "nativeCropSize": [
+          386,
+          238
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          53,
+          43,
+          336,
+          193
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained including faint native halo/specks"
+      },
+      "pivotBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "Single",
+      "meshType": "FullRect",
+      "filterMode": "Bilinear",
+      "wrapMode": "Clamp",
+      "mipmaps": false,
+      "colourSpace": "sRGB",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "defaultDirection": "+X (right)",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow native atlas generation record; this slicing did not call an image model.",
+      "validation": {
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "visibleBBox": [
+          115,
+          181,
+          398,
+          331
+        ],
+        "visualReview": "accepted; complete subject, no neighbour contamination, clean visible margins, readable on reviewed light/dark backgrounds",
+        "Unity": "not-tested"
+      }
+    },
+    {
+      "file": "art/whole-game/fx/enemy-green.png",
+      "key": "GreenMagic",
+      "label": "青藤敌弹",
+      "sha256": "0497964c043cdcf737f5671b5530c1ee960158dd87f6b8acb5b35e258793339c",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "alphaPixels": {
+        "zero": 212923,
+        "nonzero": 49221,
+        "visibleGreaterThan8": 28827
+      },
+      "derivedFrom": {
+        "file": "art/whole-game/sheets/world-combat-v1.png",
+        "sha256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+        "generationRecord": "art/whole-game/sheets/world-combat-v1.png.generation.json"
+      },
+      "operation": {
+        "kind": "native ownership crop + transparent padding",
+        "cropRectXYXY": [
+          0,
+          758,
+          415,
+          1024
+        ],
+        "placementXY": [
+          42,
+          148
+        ],
+        "nativeCropSize": [
+          415,
+          266
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          45,
+          40,
+          384,
+          175
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained including faint native halo/specks"
+      },
+      "pivotBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "Single",
+      "meshType": "FullRect",
+      "filterMode": "Bilinear",
+      "wrapMode": "Clamp",
+      "mipmaps": false,
+      "colourSpace": "sRGB",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "defaultDirection": "+X (right)",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow native atlas generation record; this slicing did not call an image model.",
+      "validation": {
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "visibleBBox": [
+          87,
+          188,
+          426,
+          323
+        ],
+        "visualReview": "accepted; complete subject, no neighbour contamination, clean visible margins, readable on reviewed light/dark backgrounds",
+        "Unity": "not-tested"
+      }
+    },
+    {
+      "file": "art/whole-game/fx/enemy-snow.png",
+      "key": "SnowMagic",
+      "label": "霜雪敌弹",
+      "sha256": "df485a87482a809a315efa2f960bfeacb9528bd6843d954832edc80b867fe5fe",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "alphaPixels": {
+        "zero": 218378,
+        "nonzero": 43766,
+        "visibleGreaterThan8": 26922
+      },
+      "derivedFrom": {
+        "file": "art/whole-game/sheets/world-combat-v1.png",
+        "sha256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+        "generationRecord": "art/whole-game/sheets/world-combat-v1.png.generation.json"
+      },
+      "operation": {
+        "kind": "native ownership crop + transparent padding",
+        "cropRectXYXY": [
+          415,
+          758,
+          792,
+          1024
+        ],
+        "placementXY": [
+          85,
+          150
+        ],
+        "nativeCropSize": [
+          377,
+          266
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          19,
+          23,
+          323,
+          188
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained including faint native halo/specks"
+      },
+      "pivotBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "Single",
+      "meshType": "FullRect",
+      "filterMode": "Bilinear",
+      "wrapMode": "Clamp",
+      "mipmaps": false,
+      "colourSpace": "sRGB",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "defaultDirection": "+X (right)",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow native atlas generation record; this slicing did not call an image model.",
+      "validation": {
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "visibleBBox": [
+          104,
+          173,
+          408,
+          338
+        ],
+        "visualReview": "accepted; complete subject, no neighbour contamination, clean visible margins, readable on reviewed light/dark backgrounds",
+        "Unity": "not-tested"
+      }
+    },
+    {
+      "file": "art/whole-game/fx/pickup-suck.png",
+      "key": "Suck",
+      "label": "吸灵玉环",
+      "sha256": "0830830256ab903087a4e3aa3fb40bd1daa266244abedc74317d64b2a212693b",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "alphaPixels": {
+        "zero": 208187,
+        "nonzero": 53957,
+        "visibleGreaterThan8": 31212
+      },
+      "derivedFrom": {
+        "file": "art/whole-game/sheets/world-combat-v1.png",
+        "sha256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+        "generationRecord": "art/whole-game/sheets/world-combat-v1.png.generation.json"
+      },
+      "operation": {
+        "kind": "native ownership crop + transparent padding",
+        "cropRectXYXY": [
+          792,
+          758,
+          1174,
+          1024
+        ],
+        "placementXY": [
+          66,
+          152
+        ],
+        "nativeCropSize": [
+          382,
+          266
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          52,
+          8,
+          328,
+          200
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained including faint native halo/specks"
+      },
+      "pivotBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "Single",
+      "meshType": "FullRect",
+      "filterMode": "Bilinear",
+      "wrapMode": "Clamp",
+      "mipmaps": false,
+      "colourSpace": "sRGB",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "defaultDirection": "radial/standing; see asset role",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow native atlas generation record; this slicing did not call an image model.",
+      "validation": {
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "visibleBBox": [
+          118,
+          160,
+          394,
+          352
+        ],
+        "visualReview": "accepted; complete subject, no neighbour contamination, clean visible margins, readable on reviewed light/dark backgrounds",
+        "Unity": "not-tested"
+      }
+    },
+    {
+      "file": "art/whole-game/fx/prop-urn.png",
+      "key": "Prop",
+      "label": "可破灵瓮",
+      "sha256": "950408cf8436d4d09ad1fe4e42b4e59de7326f7d935655170462df2bab2df819",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alphaPixels": {
+        "zero": 226205,
+        "nonzero": 35939,
+        "visibleGreaterThan8": 27175
+      },
+      "derivedFrom": {
+        "file": "art/whole-game/sheets/world-combat-v1.png",
+        "sha256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+        "generationRecord": "art/whole-game/sheets/world-combat-v1.png.generation.json"
+      },
+      "operation": {
+        "kind": "native ownership crop + transparent padding",
+        "cropRectXYXY": [
+          1174,
+          758,
+          1536,
+          1024
+        ],
+        "placementXY": [
+          72,
+          158
+        ],
+        "nativeCropSize": [
+          362,
+          266
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          83,
+          3,
+          286,
+          193
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained including faint native halo/specks"
+      },
+      "pivotBottomLeft": [
+        0.5,
+        0.314453
+      ],
+      "spriteType": "Single",
+      "meshType": "FullRect",
+      "filterMode": "Bilinear",
+      "wrapMode": "Clamp",
+      "mipmaps": false,
+      "colourSpace": "sRGB",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "defaultDirection": "radial/standing; see asset role",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow native atlas generation record; this slicing did not call an image model.",
+      "validation": {
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "visibleBBox": [
+          155,
+          161,
+          358,
+          351
+        ],
+        "visualReview": "accepted; complete subject, no neighbour contamination, clean visible margins, readable on reviewed light/dark backgrounds",
+        "Unity": "not-tested"
+      }
+    }
+  ],
+  "sharedEliteHalo": {
+    "file": "art/whole-game/fx/elite-halo.png",
+    "sha256": "3b9601d31060e850e7a681ba633bc3ffcfa77f45d8ae6693e36813740c2eec8f",
+    "derivedFrom": {
+      "file": "art/whole-game/fx/skill-scope.png",
+      "sha256": "3b9601d31060e850e7a681ba633bc3ffcfa77f45d8ae6693e36813740c2eec8f",
+      "derivationRecord": "art/whole-game/fx/skill-scope.png.derivation.json"
+    },
+    "operation": "byte-for-byte reuse; no image generation, recolouring, resampling or alpha change",
+    "canvas": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "pivotBottomLeft": [
+      0.5,
+      0.5
+    ],
+    "borderLTRB": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "spriteType": "Single",
+    "suggestedMaterialTint": "#E7BA54",
+    "tintStatus": "Unity material suggestion only; not baked into PNG and not engine-validated",
+    "actualModel": null,
+    "actualQuality": null
+  },
+  "notes": [
+    "512x512 is a padded delivery canvas; native visible details are not upscaled.",
+    "The two crescents are one paired BothSideSkill texture by deliberate prompt, not two separately controllable images.",
+    "Texture previews are not Unity gameplay screenshots."
+  ],
+  "visualReviewRecord": "docs/whole-game/world-combat-visual-review.json"
+}

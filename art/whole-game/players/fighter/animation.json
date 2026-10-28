@@ -1,0 +1,3102 @@
+{
+  "schemaVersion": 1,
+  "character": "fighter",
+  "name": "青云小道",
+  "portrait": {
+    "file": "art/characters/hero.png",
+    "sha256": "de0c3e6d71d7c3dbbfed313e7971b2b8220e27d3e79aafa617b225d3e322706d"
+  },
+  "artSource": "existing native-image-generated sixpart kit; mechanical cutout animation",
+  "notNewPerFrameGeneration": true,
+  "canvas": [
+    512,
+    512
+  ],
+  "root": [
+    256,
+    471
+  ],
+  "unitySuggestedPivot": [
+    0.5,
+    0.080078125
+  ],
+  "actions": {
+    "idle": {
+      "frames": [
+        {
+          "file": "art/whole-game/players/fighter/idle/E/01.png",
+          "sha256": "774d6506a63fda087fe509b8bb7fd12ae616fc7dc98a8883e0a15f759e0a26c7",
+          "bbox": [
+            142,
+            60,
+            392,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/02.png",
+          "sha256": "cedc43f53fed95a92a110f54fc76f5fee73a7caace2a677a300f30cfe730fa9d",
+          "bbox": [
+            144,
+            61,
+            394,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/03.png",
+          "sha256": "1a7bcb5f005b1802bc16bd85ce41be387edb7d9b878598838dd21819fcddb96d",
+          "bbox": [
+            145,
+            61,
+            395,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/04.png",
+          "sha256": "6c7b13694688333bba8b102ac0bfa6c699ae271aecaceb0185e4af23adc19656",
+          "bbox": [
+            146,
+            61,
+            395,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/05.png",
+          "sha256": "aba7e78ec7eb845ee1fdd0241486d96b0089d5cfc2ed8d905b0a65d63708e942",
+          "bbox": [
+            146,
+            61,
+            396,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/06.png",
+          "sha256": "916e6b940def498f458ba8430d047937e952df45698911fa3b73385e7253252f",
+          "bbox": [
+            147,
+            61,
+            396,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/07.png",
+          "sha256": "56454e31ae39a72cd491a7e7ea59a71da6f30b6b242b706339d3d174057c22f3",
+          "bbox": [
+            146,
+            61,
+            395,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/08.png",
+          "sha256": "c11c82f0e10cfe7f0430ebfa6d08903bcd2c37cf27479a96f9cba3c2ffe6d0a5",
+          "bbox": [
+            145,
+            61,
+            394,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/09.png",
+          "sha256": "12133e5008417516c3420e771214f7029d506f88215964a0a78554672b42605b",
+          "bbox": [
+            143,
+            60,
+            393,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/10.png",
+          "sha256": "65909df46a40be957493aecb20b6272a0f981d12b8e0489209a5fcb6854d92a3",
+          "bbox": [
+            142,
+            60,
+            392,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/11.png",
+          "sha256": "9fd4877e3551bc4841df3c69f67a9fd288f9c82369bdea96dcd4fe1079e2d1cb",
+          "bbox": [
+            141,
+            59,
+            391,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/12.png",
+          "sha256": "16f1c0bc3a1a907817675b47a4164a8a70fd49dbf5f8c136162e43f5f61b28ed",
+          "bbox": [
+            140,
+            59,
+            390,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/13.png",
+          "sha256": "1191110f414f64c7dd0dd32b94486e1070e24a94160c0ba3ca9775bb979d0b6c",
+          "bbox": [
+            139,
+            59,
+            389,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/14.png",
+          "sha256": "4dd04034a81f26beb021c7d482911d9eeefee786f479bf61d646a04dc67b79d0",
+          "bbox": [
+            139,
+            59,
+            390,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/15.png",
+          "sha256": "647ba42ce50eceb0cd185a8555d346f12e877db3bda864c138440b42b2e5b5e9",
+          "bbox": [
+            139,
+            59,
+            390,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/16.png",
+          "sha256": "176d600a2f1f137a48e4b9d2590bcce9051b22fa1d84963190268dd350e17c24",
+          "bbox": [
+            140,
+            60,
+            391,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "poses": [
+        {
+          "head": {
+            "joint": [
+              256.0,
+              244.0
+            ],
+            "angle": -0.384,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              256.0,
+              240.0
+            ],
+            "angle": 0.0,
+            "stretch": [
+              1,
+              1.0
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              224.0,
+              258.0
+            ],
+            "angle": 0.779,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              287.0,
+              258.0
+            ],
+            "angle": -0.779,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.0,
+              364.0
+            ],
+            "angle": 0.0,
+            "stretch": [
+              1,
+              0.9907407407407407
+            ],
+            "contact": "standing",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              278.0,
+              366.0
+            ],
+            "angle": 0.0,
+            "stretch": [
+              1,
+              1.0096153846153846
+            ],
+            "contact": "standing",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              256.885,
+              244.578
+            ],
+            "angle": 0.029,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              256.917,
+              240.578
+            ],
+            "angle": 0.459,
+            "stretch": [
+              1,
+              1.004592201188381
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              224.774,
+              258.321
+            ],
+            "angle": 0.474,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              287.772,
+              258.826
+            ],
+            "angle": 0.445,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              239.924,
+              364.445
+            ],
+            "angle": 0.651,
+            "stretch": [
+              1,
+              0.9815760779894843
+            ],
+            "contact": "standing",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              277.907,
+              366.75
+            ],
+            "angle": 0.651,
+            "stretch": [
+              1,
+              1.0
+            ],
+            "contact": "standing",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              257.628,
+              245.073
+            ],
+            "angle": 0.437,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              257.687,
+              241.073
+            ],
+            "angle": 0.849,
+            "stretch": [
+              1,
+              1.0084852813742387
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              225.424,
+              258.597
+            ],
+            "angle": 0.097,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              288.417,
+              259.53
+            ],
+            "angle": 1.6,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              239.853,
+              364.823
+            ],
+            "angle": 1.202,
+            "stretch": [
+              1,
+              0.9725217826688889
+            ],
+            "contact": "standing",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              277.819,
+              367.385
+            ],
+            "angle": 1.202,
+            "stretch": [
+              1,
+              0.9904411288004168
+            ],
+            "contact": "standing",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              258.121,
+              245.406
+            ],
+            "angle": 0.779,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              258.198,
+              241.407
+            ],
+            "angle": 1.109,
+            "stretch": [
+              1,
+              1.0110865543901355
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              225.856,
+              258.785
+            ],
+            "angle": -0.295,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              288.844,
+              260.004
+            ],
+            "angle": 2.513,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              239.802,
+              365.074
+            ],
+            "angle": 1.571,
+            "stretch": [
+              1,
+              0.9724582905286399
+            ],
+            "contact": "standing",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              277.756,
+              367.809
+            ],
+            "angle": 1.571,
+            "stretch": [
+              1,
+              0.9809869363360662
+            ],
+            "contact": "standing",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              258.293,
+              245.524
+            ],
+            "angle": 1.002,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              258.377,
+              241.525
+            ],
+            "angle": 1.2,
+            "stretch": [
+              1,
+              1.012
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              226.007,
+              258.851
+            ],
+            "angle": -0.642,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              288.993,
+              260.17
+            ],
+            "angle": 3.042,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              239.784,
+              365.163
+            ],
+            "angle": 1.7,
+            "stretch": [
+              1,
+              0.9724359410571447
+            ],
+            "contact": "standing",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              277.733,
+              367.958
+            ],
+            "angle": 1.7,
+            "stretch": [
+              1,
+              0.9809599984434061
+            ],
+            "contact": "standing",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              258.121,
+              245.406
+            ],
+            "angle": 1.073,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              258.198,
+              241.407
+            ],
+            "angle": 1.109,
+            "stretch": [
+              1,
+              1.0110865543901355
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              225.856,
+              258.785
+            ],
+            "angle": -0.891,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              288.844,
+              260.004
+            ],
+            "angle": 3.109,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              239.802,
+              365.074
+            ],
+            "angle": 1.571,
+            "stretch": [
+              1,
+              0.9724582905286399
+            ],
+            "contact": "standing",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              277.756,
+              367.809
+            ],
+            "angle": 1.571,
+            "stretch": [
+              1,
+              0.9809869363360662
+            ],
+            "contact": "standing",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              257.628,
+              245.073
+            ],
+            "angle": 0.98,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              257.687,
+              241.073
+            ],
+            "angle": 0.849,
+            "stretch": [
+              1,
+              1.0084852813742387
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              225.424,
+              258.597
+            ],
+            "angle": -1.005,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              288.417,
+              259.53
+            ],
+            "angle": 2.702,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              239.853,
+              364.823
+            ],
+            "angle": 1.202,
+            "stretch": [
+              1,
+              0.9725217826688889
+            ],
+            "contact": "standing",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              277.819,
+              367.385
+            ],
+            "angle": 1.202,
+            "stretch": [
+              1,
+              0.9904411288004168
+            ],
+            "contact": "standing",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              256.885,
+              244.578
+            ],
+            "angle": 0.738,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              256.917,
+              240.578
+            ],
+            "angle": 0.459,
+            "stretch": [
+              1,
+              1.004592201188381
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              224.774,
+              258.321
+            ],
+            "angle": -0.965,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              287.772,
+              258.826
+            ],
+            "angle": 1.884,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              239.924,
+              364.445
+            ],
+            "angle": 0.651,
+            "stretch": [
+              1,
+              0.9815760779894843
+            ],
+            "contact": "standing",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              277.907,
+              366.75
+            ],
+            "angle": 0.651,
+            "stretch": [
+              1,
+              1.0
+            ],
+            "contact": "standing",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              256.0,
+              244.0
+            ],
+            "angle": 0.384,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              256.0,
+              240.0
+            ],
+            "angle": 0.0,
+            "stretch": [
+              1,
+              1.0
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              224.0,
+              258.0
+            ],
+            "angle": -0.779,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              287.0,
+              258.0
+            ],
+            "angle": 0.779,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.0,
+              364.0
+            ],
+            "angle": 0.0,
+            "stretch": [
+              1,
+              0.9907407407407407
+            ],
+            "contact": "standing",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              278.0,
+              366.0
+            ],
+            "angle": 0.0,
+            "stretch": [
+              1,
+              1.0096153846153846
+            ],
+            "contact": "standing",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              255.106,
+              243.43
+            ],
+            "angle": -0.029,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              255.074,
+              239.43
+            ],
+            "angle": -0.459,
+            "stretch": [
+              1,
+              0.9954077988116189
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              223.219,
+              257.686
+            ],
+            "angle": -0.474,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              286.217,
+              257.181
+            ],
+            "angle": -0.445,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.068,
+              363.554
+            ],
+            "angle": -0.651,
+            "stretch": [
+              1,
+              0.9907788257875286
+            ],
+            "contact": "standing",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              278.083,
+              365.249
+            ],
+            "angle": -0.651,
+            "stretch": [
+              1,
+              1.0192769809730855
+            ],
+            "contact": "standing",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              254.34,
+              242.952
+            ],
+            "angle": -0.437,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              254.281,
+              238.952
+            ],
+            "angle": -0.849,
+            "stretch": [
+              1,
+              0.9915147186257615
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              222.551,
+              257.424
+            ],
+            "angle": -0.097,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              285.544,
+              256.491
+            ],
+            "angle": -1.6,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.119,
+              363.175
+            ],
+            "angle": -1.202,
+            "stretch": [
+              1,
+              1.0
+            ],
+            "contact": "standing",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              278.145,
+              364.612
+            ],
+            "angle": -1.202,
+            "stretch": [
+              1,
+              1.0290170335865956
+            ],
+            "contact": "standing",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              253.826,
+              242.635
+            ],
+            "angle": -0.779,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              253.748,
+              238.636
+            ],
+            "angle": -1.109,
+            "stretch": [
+              1,
+              0.9889134456098646
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              222.102,
+              257.252
+            ],
+            "angle": 0.295,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              285.091,
+              256.033
+            ],
+            "angle": -2.513,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.15,
+              362.922
+            ],
+            "angle": -1.571,
+            "stretch": [
+              1,
+              1.0
+            ],
+            "contact": "standing",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              278.182,
+              364.187
+            ],
+            "angle": -1.571,
+            "stretch": [
+              1,
+              1.0288980353691126
+            ],
+            "contact": "standing",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              253.644,
+              242.525
+            ],
+            "angle": -1.002,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              253.56,
+              238.526
+            ],
+            "angle": -1.2,
+            "stretch": [
+              1,
+              0.988
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              221.944,
+              257.192
+            ],
+            "angle": 0.642,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              284.93,
+              255.872
+            ],
+            "angle": -3.042,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.161,
+              362.833
+            ],
+            "angle": -1.7,
+            "stretch": [
+              1,
+              1.0
+            ],
+            "contact": "standing",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              278.194,
+              364.037
+            ],
+            "angle": -1.7,
+            "stretch": [
+              1,
+              1.038848976033056
+            ],
+            "contact": "standing",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              253.826,
+              242.635
+            ],
+            "angle": -1.073,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              253.748,
+              238.636
+            ],
+            "angle": -1.109,
+            "stretch": [
+              1,
+              0.9889134456098646
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              222.102,
+              257.252
+            ],
+            "angle": 0.891,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              285.091,
+              256.033
+            ],
+            "angle": -3.109,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.15,
+              362.922
+            ],
+            "angle": -1.571,
+            "stretch": [
+              1,
+              1.0
+            ],
+            "contact": "standing",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              278.182,
+              364.187
+            ],
+            "angle": -1.571,
+            "stretch": [
+              1,
+              1.0288980353691126
+            ],
+            "contact": "standing",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              254.34,
+              242.952
+            ],
+            "angle": -0.98,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              254.281,
+              238.952
+            ],
+            "angle": -0.849,
+            "stretch": [
+              1,
+              0.9915147186257615
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              222.551,
+              257.424
+            ],
+            "angle": 1.005,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              285.544,
+              256.491
+            ],
+            "angle": -2.702,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.119,
+              363.175
+            ],
+            "angle": -1.202,
+            "stretch": [
+              1,
+              1.0
+            ],
+            "contact": "standing",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              278.145,
+              364.612
+            ],
+            "angle": -1.202,
+            "stretch": [
+              1,
+              1.0290170335865956
+            ],
+            "contact": "standing",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              255.106,
+              243.43
+            ],
+            "angle": -0.738,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              255.074,
+              239.43
+            ],
+            "angle": -0.459,
+            "stretch": [
+              1,
+              0.9954077988116189
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              223.219,
+              257.686
+            ],
+            "angle": 0.965,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              286.217,
+              257.181
+            ],
+            "angle": -1.884,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.068,
+              363.554
+            ],
+            "angle": -0.651,
+            "stretch": [
+              1,
+              0.9907788257875286
+            ],
+            "contact": "standing",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              278.083,
+              365.249
+            ],
+            "angle": -0.651,
+            "stretch": [
+              1,
+              1.0192769809730855
+            ],
+            "contact": "standing",
+            "soleY": 471
+          }
+        }
+      ],
+      "strip": "art/whole-game/players/fighter/idle/E/strip.png",
+      "west": "mirror each frame horizontally",
+      "review": [
+        "designs/whole-game/players/fighter-idle-poses.jpg",
+        "designs/whole-game/players/fighter-idle-review.gif"
+      ],
+      "fps": 16.6666667,
+      "cycleMs": 960,
+      "loop": true
+    },
+    "run": {
+      "frames": [
+        {
+          "file": "art/whole-game/players/fighter/run/E/01.png",
+          "sha256": "7ba69d051f6af170171db44a2d37e67932c62bb4bee10a52a58fe25f6432cd71",
+          "bbox": [
+            130,
+            55,
+            381,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/02.png",
+          "sha256": "d35977c7e3f0667359af733bc6523a5d3f9038547bcc7cd8bf99eaf3d15d21be",
+          "bbox": [
+            133,
+            56,
+            391,
+            472
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/03.png",
+          "sha256": "849434ac87d794aef2edf927f9ec96d190185464eb40b2dcd0962c3a4ed75237",
+          "bbox": [
+            125,
+            57,
+            399,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/04.png",
+          "sha256": "a64c81678db68e3095de53635cdced792bdcb350a508febb132f1cca88686c9d",
+          "bbox": [
+            119,
+            60,
+            403,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/05.png",
+          "sha256": "f89bb53807d2defe6d64e2bcf8eda50fa1a45bbdca387ad3e361209fb3fefe08",
+          "bbox": [
+            117,
+            61,
+            403,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/06.png",
+          "sha256": "1e422ad64f561e038d10ab771da39c060424fab6a49ba5eff0e884268468a35d",
+          "bbox": [
+            118,
+            60,
+            400,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/07.png",
+          "sha256": "4ef2e5b6c50ccdbb6f5ad5f4ae71dc2713af20e76827131a1585824aad55e0ac",
+          "bbox": [
+            124,
+            58,
+            396,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/08.png",
+          "sha256": "3aecab81012b7eecc40f80fb5abcae7c7512689197580e983313c2a31d1599ca",
+          "bbox": [
+            130,
+            56,
+            390,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/09.png",
+          "sha256": "840283d810dfb4029e096b51f5774151ac26349e1da6bfb33e2038529312f8d0",
+          "bbox": [
+            132,
+            55,
+            382,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/10.png",
+          "sha256": "029b5bae0c6a0f04d004a1e0702209f1824ce3d9e37a22b0f4962ba1d1d4bf77",
+          "bbox": [
+            133,
+            56,
+            384,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/11.png",
+          "sha256": "b40e7f94f485cb632a61b7d8739d1e4870ac42b0e96e47691d2680e03bb139d2",
+          "bbox": [
+            134,
+            58,
+            385,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/12.png",
+          "sha256": "aa3ea9196d5c1c0f9dad284ce52f133ecf8347a6cc22f754d5f0d523c51cce6e",
+          "bbox": [
+            132,
+            60,
+            383,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/13.png",
+          "sha256": "bbc6c8ff5c264b296afa50f17081bd0f6636dbc8c5cc423009c8666bcfe2fb2e",
+          "bbox": [
+            129,
+            61,
+            382,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/14.png",
+          "sha256": "3f47aa1dd2a1ee3deb18b03d536ffabac00f9cdbc717463bb751a70c726a0f86",
+          "bbox": [
+            126,
+            61,
+            378,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/15.png",
+          "sha256": "311ca6e5df85a6985a5a1d1fa76c7144062afcd94f2a4857d58ac81a757d776e",
+          "bbox": [
+            125,
+            59,
+            377,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/16.png",
+          "sha256": "5acb5086d03adc4761948d7eb236071e97827b966e62af74ee4782c65e6ee3a4",
+          "bbox": [
+            126,
+            56,
+            378,
+            471
+          ],
+          "durationMs": 60,
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "poses": [
+        {
+          "head": {
+            "joint": [
+              245.803,
+              238.445
+            ],
+            "angle": -1.834,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              245.454,
+              234.46
+            ],
+            "angle": -5.0,
+            "stretch": [
+              1,
+              1.0
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              215.145,
+              255.181
+            ],
+            "angle": -5.0,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              277.905,
+              249.69
+            ],
+            "angle": -5.0,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.322,
+              359.383
+            ],
+            "angle": -5.0,
+            "stretch": [
+              1,
+              1.0371688750292762
+            ],
+            "contact": "support",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              278.352,
+              347.064
+            ],
+            "angle": -5.0,
+            "stretch": [
+              1,
+              0.9607598666800147
+            ],
+            "contact": "swing",
+            "soleY": 445
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              248.022,
+              239.153
+            ],
+            "angle": -0.996,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              247.748,
+              235.162
+            ],
+            "angle": -3.939,
+            "stretch": [
+              1,
+              1.0042426406871192
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              217.06,
+              255.318
+            ],
+            "angle": 4.862,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              279.911,
+              250.99
+            ],
+            "angle": -12.741,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.304,
+              359.969
+            ],
+            "angle": -12.741,
+            "stretch": [
+              1,
+              1.0673740362218438
+            ],
+            "contact": "support",
+            "soleY": 472
+          },
+          "near_leg": {
+            "joint": [
+              278.352,
+              349.191
+            ],
+            "angle": 4.862,
+            "stretch": [
+              1,
+              0.9157376674053668
+            ],
+            "contact": "swing",
+            "soleY": 447
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              249.04,
+              241.213
+            ],
+            "angle": -0.311,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              248.796,
+              237.22
+            ],
+            "angle": -3.5,
+            "stretch": [
+              1,
+              1.006
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              217.955,
+              257.14
+            ],
+            "angle": 12.763,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              280.837,
+              253.294
+            ],
+            "angle": -19.763,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.396,
+              361.966
+            ],
+            "angle": -19.763,
+            "stretch": [
+              1,
+              1.0791809408061657
+            ],
+            "contact": "support",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              278.447,
+              353.864
+            ],
+            "angle": 12.763,
+            "stretch": [
+              1,
+              0.8992999828150924
+            ],
+            "contact": "swing",
+            "soleY": 453
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              248.314,
+              243.386
+            ],
+            "angle": 0.068,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              248.039,
+              239.395
+            ],
+            "angle": -3.939,
+            "stretch": [
+              1,
+              1.0042426406871192
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              217.351,
+              259.551
+            ],
+            "angle": 17.31,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              280.202,
+              255.223
+            ],
+            "angle": -25.189,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.596,
+              364.201
+            ],
+            "angle": -25.189,
+            "stretch": [
+              1,
+              1.092025798090959
+            ],
+            "contact": "support",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              278.643,
+              359.376
+            ],
+            "angle": 17.31,
+            "stretch": [
+              1,
+              0.9096913937636019
+            ],
+            "contact": "swing",
+            "soleY": 461
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              246.326,
+              244.422
+            ],
+            "angle": 0.132,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              245.977,
+              240.438
+            ],
+            "angle": -5.0,
+            "stretch": [
+              1,
+              1.0
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              215.668,
+              261.158
+            ],
+            "angle": 18.0,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              278.428,
+              255.667
+            ],
+            "angle": -28.0,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.845,
+              365.36
+            ],
+            "angle": -28.0,
+            "stretch": [
+              1,
+              1.104559028961128
+            ],
+            "contact": "support",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              278.875,
+              364.041
+            ],
+            "angle": 18.0,
+            "stretch": [
+              1,
+              0.9639507409208262
+            ],
+            "contact": "swing",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              244.188,
+              243.747
+            ],
+            "angle": -0.015,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              243.765,
+              239.769
+            ],
+            "angle": -6.061,
+            "stretch": [
+              1,
+              0.9957573593128807
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              213.845,
+              261.047
+            ],
+            "angle": 15.189,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              276.493,
+              254.395
+            ],
+            "angle": -27.31,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.947,
+              360.556
+            ],
+            "angle": -27.31,
+            "stretch": [
+              1,
+              1.0414747212474327
+            ],
+            "contact": "swing",
+            "soleY": 461
+          },
+          "near_leg": {
+            "joint": [
+              278.946,
+              362.742
+            ],
+            "angle": 15.189,
+            "stretch": [
+              1,
+              0.9818607332689919
+            ],
+            "contact": "support",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              243.095,
+              241.733
+            ],
+            "angle": -0.235,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              242.642,
+              237.759
+            ],
+            "angle": -6.5,
+            "stretch": [
+              1,
+              0.994
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              212.885,
+              259.265
+            ],
+            "angle": 9.763,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              275.48,
+              252.134
+            ],
+            "angle": -22.763,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.782,
+              354.995
+            ],
+            "angle": -22.763,
+            "stretch": [
+              1,
+              0.9800010983474197
+            ],
+            "contact": "swing",
+            "soleY": 453
+          },
+          "near_leg": {
+            "joint": [
+              278.764,
+              360.458
+            ],
+            "angle": 9.763,
+            "stretch": [
+              1,
+              1.018426064739334
+            ],
+            "contact": "support",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              243.74,
+              239.528
+            ],
+            "angle": -0.447,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              243.317,
+              235.55
+            ],
+            "angle": -6.061,
+            "stretch": [
+              1,
+              0.9957573593128807
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              213.397,
+              256.828
+            ],
+            "angle": 2.741,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              276.045,
+              250.176
+            ],
+            "angle": -14.862,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.499,
+              350.384
+            ],
+            "angle": -14.862,
+            "stretch": [
+              1,
+              0.9324431093062413
+            ],
+            "contact": "swing",
+            "soleY": 447
+          },
+          "near_leg": {
+            "joint": [
+              278.498,
+              358.523
+            ],
+            "angle": 2.741,
+            "stretch": [
+              1,
+              1.0663651996805106
+            ],
+            "contact": "support",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              245.803,
+              238.445
+            ],
+            "angle": -0.666,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              245.454,
+              234.46
+            ],
+            "angle": -5.0,
+            "stretch": [
+              1,
+              1.0
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              215.145,
+              255.181
+            ],
+            "angle": -5.0,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              277.905,
+              249.69
+            ],
+            "angle": -5.0,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.322,
+              348.383
+            ],
+            "angle": -5.0,
+            "stretch": [
+              1,
+              0.8977855936694903
+            ],
+            "contact": "swing",
+            "soleY": 445
+          },
+          "near_leg": {
+            "joint": [
+              278.352,
+              358.064
+            ],
+            "angle": -5.0,
+            "stretch": [
+              1,
+              1.1079103666299597
+            ],
+            "contact": "support",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              248.022,
+              239.153
+            ],
+            "angle": -0.974,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              247.748,
+              235.162
+            ],
+            "angle": -3.939,
+            "stretch": [
+              1,
+              1.0042426406871192
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              217.06,
+              255.318
+            ],
+            "angle": -12.741,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              279.911,
+              250.99
+            ],
+            "angle": 4.862,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.304,
+              349.806
+            ],
+            "angle": 4.862,
+            "stretch": [
+              1,
+              0.8901038060495052
+            ],
+            "contact": "swing",
+            "soleY": 447
+          },
+          "near_leg": {
+            "joint": [
+              278.352,
+              359.353
+            ],
+            "angle": -12.741,
+            "stretch": [
+              1,
+              1.1449494858986267
+            ],
+            "contact": "support",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              249.04,
+              241.213
+            ],
+            "angle": -1.439,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              248.796,
+              237.22
+            ],
+            "angle": -3.5,
+            "stretch": [
+              1,
+              1.006
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              217.955,
+              257.14
+            ],
+            "angle": -19.763,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              280.837,
+              253.294
+            ],
+            "angle": 12.763,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.396,
+              354.187
+            ],
+            "angle": 12.763,
+            "stretch": [
+              1,
+              0.8908141469538555
+            ],
+            "contact": "swing",
+            "soleY": 453
+          },
+          "near_leg": {
+            "joint": [
+              278.447,
+              361.642
+            ],
+            "angle": -19.763,
+            "stretch": [
+              1,
+              1.1840663714668784
+            ],
+            "contact": "support",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              248.314,
+              243.386
+            ],
+            "angle": -2.038,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              248.039,
+              239.395
+            ],
+            "angle": -3.939,
+            "stretch": [
+              1,
+              1.0042426406871192
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              217.351,
+              259.551
+            ],
+            "angle": -25.189,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              280.202,
+              255.223
+            ],
+            "angle": 17.31,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.596,
+              359.992
+            ],
+            "angle": 17.31,
+            "stretch": [
+              1,
+              0.9091867821955238
+            ],
+            "contact": "swing",
+            "soleY": 461
+          },
+          "near_leg": {
+            "joint": [
+              278.643,
+              363.586
+            ],
+            "angle": -25.189,
+            "stretch": [
+              1,
+              1.2125997875354275
+            ],
+            "contact": "support",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              246.326,
+              244.422
+            ],
+            "angle": -2.632,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              245.977,
+              240.438
+            ],
+            "angle": -5.0,
+            "stretch": [
+              1,
+              1.0
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              215.668,
+              261.158
+            ],
+            "angle": -28.0,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              278.428,
+              255.667
+            ],
+            "angle": 18.0,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.845,
+              365.36
+            ],
+            "angle": 18.0,
+            "stretch": [
+              1,
+              0.9544816330876814
+            ],
+            "contact": "swing",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              278.875,
+              364.041
+            ],
+            "angle": -28.0,
+            "stretch": [
+              1,
+              1.230100215833035
+            ],
+            "contact": "support",
+            "soleY": 471
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              244.188,
+              243.747
+            ],
+            "angle": -3.015,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              243.765,
+              239.769
+            ],
+            "angle": -6.061,
+            "stretch": [
+              1,
+              0.9957573593128807
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              213.845,
+              261.047
+            ],
+            "angle": -27.31,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              276.493,
+              254.395
+            ],
+            "angle": 15.189,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.947,
+              364.765
+            ],
+            "angle": 15.189,
+            "stretch": [
+              1,
+              0.9637138086579266
+            ],
+            "contact": "support",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              278.946,
+              358.532
+            ],
+            "angle": -27.31,
+            "stretch": [
+              1,
+              1.171492154972138
+            ],
+            "contact": "swing",
+            "soleY": 461
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              243.095,
+              241.733
+            ],
+            "angle": -3.015,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              242.642,
+              237.759
+            ],
+            "angle": -6.5,
+            "stretch": [
+              1,
+              0.994
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              212.885,
+              259.265
+            ],
+            "angle": -22.763,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              275.48,
+              252.134
+            ],
+            "angle": 9.763,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.782,
+              362.773
+            ],
+            "angle": 9.763,
+            "stretch": [
+              1,
+              0.981855677464109
+            ],
+            "contact": "support",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              278.764,
+              352.68
+            ],
+            "angle": -22.763,
+            "stretch": [
+              1,
+              1.1107173627092863
+            ],
+            "contact": "swing",
+            "soleY": 453
+          }
+        },
+        {
+          "head": {
+            "joint": [
+              243.74,
+              239.528
+            ],
+            "angle": -2.584,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "torso": {
+            "joint": [
+              243.317,
+              235.55
+            ],
+            "angle": -6.061,
+            "stretch": [
+              1,
+              0.9957573593128807
+            ]
+          },
+          "far_arm": {
+            "joint": [
+              213.397,
+              256.828
+            ],
+            "angle": -14.862,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "near_arm": {
+            "joint": [
+              276.045,
+              250.176
+            ],
+            "angle": 2.741,
+            "stretch": [
+              1,
+              1
+            ]
+          },
+          "far_leg": {
+            "joint": [
+              240.499,
+              360.546
+            ],
+            "angle": 2.741,
+            "stretch": [
+              1,
+              1.0091362833318764
+            ],
+            "contact": "support",
+            "soleY": 471
+          },
+          "near_leg": {
+            "joint": [
+              278.498,
+              348.36
+            ],
+            "angle": -14.862,
+            "stretch": [
+              1,
+              1.0313677459544377
+            ],
+            "contact": "swing",
+            "soleY": 447
+          }
+        }
+      ],
+      "strip": "art/whole-game/players/fighter/run/E/strip.png",
+      "west": "mirror each frame horizontally",
+      "review": [
+        "designs/whole-game/players/fighter-run-poses.jpg",
+        "designs/whole-game/players/fighter-run-review.gif"
+      ],
+      "fps": 16.6666667,
+      "cycleMs": 960,
+      "loop": true
+    }
+  },
+  "parts": [
+    {
+      "part": "head",
+      "file": "art/whole-game/players/fighter/parts/head.png",
+      "sha256": "d0dbfb5b00ab472e5e6fea3cb40eb2265810bc0ff9e0f5122e0c945bf7d28f6f",
+      "nativeSize": [
+        583,
+        449
+      ],
+      "sourceCrop": [
+        14,
+        76,
+        597,
+        525
+      ],
+      "nativePivot": [
+        264,
+        428
+      ],
+      "pivotAtlas": [
+        278,
+        504
+      ],
+      "displayScale": 0.43,
+      "bindJoint": [
+        256,
+        244
+      ],
+      "mirrorAroundJoint": false,
+      "parent": "torso",
+      "derivedFrom": {
+        "file": "art/whole-game/sheets/player-fighter-rig-v1.png",
+        "sha256": "b010ba474c774038ae8facf7ff76f5d3fd7cf3415efa9d156adecb20505a4e97",
+        "generationRecord": "art/whole-game/sheets/player-fighter-rig-v1.png.generation.json"
+      },
+      "operation": "component-ownership crop; native RGBA retained; alpha hygiene removes disconnected <=16 haze outside3px contour",
+      "removedAlphaPixels": 461798,
+      "actualModel": null,
+      "actualQuality": null
+    },
+    {
+      "part": "torso",
+      "file": "art/whole-game/players/fighter/parts/torso.png",
+      "sha256": "4133cbd086e4d885ca4790523387f28b2d2dc3bc0875ebba27c9195f89563420",
+      "nativeSize": [
+        592,
+        401
+      ],
+      "sourceCrop": [
+        589,
+        94,
+        1181,
+        495
+      ],
+      "nativePivot": [
+        260,
+        32
+      ],
+      "pivotAtlas": [
+        849,
+        126
+      ],
+      "displayScale": 0.33,
+      "bindJoint": [
+        256,
+        240
+      ],
+      "mirrorAroundJoint": false,
+      "parent": "root",
+      "derivedFrom": {
+        "file": "art/whole-game/sheets/player-fighter-rig-v2.png",
+        "sha256": "025aa1fdefb5b54d190a3ceedd30be4dfd6022af41301394478f909838403ee0",
+        "generationRecord": "art/whole-game/sheets/player-fighter-rig-v2.png.generation.json"
+      },
+      "operation": "component-ownership crop; native RGBA retained; alpha hygiene removes disconnected <=16 haze outside3px contour",
+      "removedAlphaPixels": 465964,
+      "actualModel": null,
+      "actualQuality": null
+    },
+    {
+      "part": "far_arm",
+      "file": "art/whole-game/players/fighter/parts/far_arm.png",
+      "sha256": "25a969a65eb7766662d4acaa01255f3d36240dce76f09a1d4718bc639637555b",
+      "nativeSize": [
+        315,
+        373
+      ],
+      "sourceCrop": [
+        1188,
+        126,
+        1503,
+        499
+      ],
+      "nativePivot": [
+        58,
+        39
+      ],
+      "pivotAtlas": [
+        1246,
+        165
+      ],
+      "displayScale": 0.29,
+      "bindJoint": [
+        224,
+        258
+      ],
+      "mirrorAroundJoint": true,
+      "parent": "torso",
+      "derivedFrom": {
+        "file": "art/whole-game/sheets/player-fighter-rig-v2.png",
+        "sha256": "025aa1fdefb5b54d190a3ceedd30be4dfd6022af41301394478f909838403ee0",
+        "generationRecord": "art/whole-game/sheets/player-fighter-rig-v2.png.generation.json"
+      },
+      "operation": "component-ownership crop; native RGBA retained; alpha hygiene removes disconnected <=16 haze outside3px contour",
+      "removedAlphaPixels": 545335,
+      "actualModel": null,
+      "actualQuality": null
+    },
+    {
+      "part": "near_arm",
+      "file": "art/whole-game/players/fighter/parts/near_arm.png",
+      "sha256": "63a41afab4151c4dd44c1154866f0d0581bebd9b55980cd83ee2100f780ffee3",
+      "nativeSize": [
+        425,
+        402
+      ],
+      "sourceCrop": [
+        133,
+        560,
+        558,
+        962
+      ],
+      "nativePivot": [
+        93,
+        52
+      ],
+      "pivotAtlas": [
+        226,
+        612
+      ],
+      "displayScale": 0.285,
+      "bindJoint": [
+        287,
+        258
+      ],
+      "mirrorAroundJoint": false,
+      "parent": "torso",
+      "derivedFrom": {
+        "file": "art/whole-game/sheets/player-fighter-rig-v2.png",
+        "sha256": "025aa1fdefb5b54d190a3ceedd30be4dfd6022af41301394478f909838403ee0",
+        "generationRecord": "art/whole-game/sheets/player-fighter-rig-v2.png.generation.json"
+      },
+      "operation": "component-ownership crop; native RGBA retained; alpha hygiene removes disconnected <=16 haze outside3px contour",
+      "removedAlphaPixels": 510165,
+      "actualModel": null,
+      "actualQuality": null
+    },
+    {
+      "part": "far_leg",
+      "file": "art/whole-game/players/fighter/parts/far_leg.png",
+      "sha256": "f2b12f1074fca4587e5d85bbd4e090abb3ff1f5ff79d58c5dbc87511a87ea96a",
+      "nativeSize": [
+        231,
+        408
+      ],
+      "sourceCrop": [
+        676,
+        545,
+        907,
+        953
+      ],
+      "nativePivot": [
+        98,
+        34
+      ],
+      "pivotAtlas": [
+        774,
+        579
+      ],
+      "displayScale": 0.29,
+      "bindJoint": [
+        240,
+        364
+      ],
+      "mirrorAroundJoint": false,
+      "parent": "torso",
+      "derivedFrom": {
+        "file": "art/whole-game/sheets/player-fighter-rig-v2.png",
+        "sha256": "025aa1fdefb5b54d190a3ceedd30be4dfd6022af41301394478f909838403ee0",
+        "generationRecord": "art/whole-game/sheets/player-fighter-rig-v2.png.generation.json"
+      },
+      "operation": "component-ownership crop; native RGBA retained; alpha hygiene removes disconnected <=16 haze outside3px contour",
+      "removedAlphaPixels": 534094,
+      "actualModel": null,
+      "actualQuality": null
+    },
+    {
+      "part": "near_leg",
+      "file": "art/whole-game/players/fighter/parts/near_leg.png",
+      "sha256": "133122923e1602ae52160a704e97710ee4aa711bc31d596c22eace98867d5292",
+      "nativeSize": [
+        290,
+        397
+      ],
+      "sourceCrop": [
+        1160,
+        545,
+        1450,
+        942
+      ],
+      "nativePivot": [
+        104,
+        37
+      ],
+      "pivotAtlas": [
+        1264,
+        582
+      ],
+      "displayScale": 0.29,
+      "bindJoint": [
+        278,
+        366
+      ],
+      "mirrorAroundJoint": false,
+      "parent": "torso",
+      "derivedFrom": {
+        "file": "art/whole-game/sheets/player-fighter-rig-v2.png",
+        "sha256": "025aa1fdefb5b54d190a3ceedd30be4dfd6022af41301394478f909838403ee0",
+        "generationRecord": "art/whole-game/sheets/player-fighter-rig-v2.png.generation.json"
+      },
+      "operation": "component-ownership crop; native RGBA retained; alpha hygiene removes disconnected <=16 haze outside3px contour",
+      "removedAlphaPixels": 533795,
+      "actualModel": null,
+      "actualQuality": null
+    }
+  ],
+  "layerOrder": [
+    "far_arm",
+    "far_leg",
+    "near_leg",
+    "torso",
+    "near_arm",
+    "head"
+  ],
+  "timingNote": "960ms art proposal; not a measured copy of source Animator duration",
+  "unityIntegration": "not-performed",
+  "qa": [
+    {
+      "action": "idle",
+      "analyticLoopSeamMaxChannelDifference": 0,
+      "adjacentLastFirstMeanChannelDifference": 4.9281,
+      "distinctFrames": 16,
+      "artAcceptance": "pending visual and playback review"
+    },
+    {
+      "action": "run",
+      "analyticLoopSeamMaxChannelDifference": 0,
+      "adjacentLastFirstMeanChannelDifference": 9.9007,
+      "distinctFrames": 16,
+      "artAcceptance": "pending visual and playback review"
+    }
+  ],
+  "visualStatus": "pending"
+}

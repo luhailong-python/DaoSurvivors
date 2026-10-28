@@ -1,0 +1,1721 @@
+{
+  "schemaVersion": 1,
+  "exportedAtUtc": "2026-10-26T11:07:20.775Z",
+  "projectDirectory": "E:\\work\\image\\DaoSurvivors",
+  "purpose": "Transparent native UI control-state export for the art-only phase",
+  "exporter": {
+    "script": "tools/export-control-states.cjs",
+    "scriptSha256": "3e423792186bd4996fb0e36109dd3dddc2771f50fcbd94e156df26f3d80ee91f",
+    "nodeVersion": "v25.2.1",
+    "playwrightVersion": "1.62.1",
+    "browserExecutable": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+    "browserVersion": "134.0.3124.83"
+  },
+  "outputDirectory": "art/common/controls",
+  "sameCanvasAndPivotWithinEveryFamily": true,
+  "sourceRecordsPreserved": true,
+  "sourcePngsModified": false,
+  "overwrittenExistingPngs": 0,
+  "notes": [
+    "normal/selected are exact source-byte copies.",
+    "locked is an exact copy of existing disabled art with a baked lock; semantic reuse is declared.",
+    "pressed/disabled are native DOM/CSS state composites, not AI generation or new painting.",
+    "All rendered images use the native source canvas, deviceScaleFactor 1, no transform and no resampling size change.",
+    "No dynamic text or base64 media payload is stored in this record."
+  ],
+  "assets": [
+    {
+      "family": "primary_button",
+      "state": "normal",
+      "output": "art/common/controls/primary_button_normal.png",
+      "sha256": "6f352d7c3b21ae2d1b5d2d0cce08ab5f0d31b951362ce6f7d8f93547b5080777",
+      "source": "art/common/states/primary_button_normal.png",
+      "sourceSha256": "6f352d7c3b21ae2d1b5d2d0cce08ab5f0d31b951362ce6f7d8f93547b5080777",
+      "dimensions": [
+        460,
+        112
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "canvasAnchorTopLeftPx": [
+        230,
+        56
+      ],
+      "pixelInspection": {
+        "dimensions": [
+          460,
+          112
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "transparentPixels": 12704,
+        "nonzeroAlphaPixels": 38816,
+        "alphaBoundsTopLeftExclusiveRightBottom": [
+          3,
+          3,
+          457,
+          109
+        ],
+        "outermostEdgeMaximumAlpha": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "hasRealTransparency": true
+      },
+      "operation": {
+        "type": "source-copy",
+        "tool": "filesystem byte copy",
+        "exactImageCss": "display:block;width:460px;height:112px;filter:none;opacity:1;transform:none;image-rendering:auto;",
+        "stylesheet": "html,body{margin:0;padding:0;width:460px;height:112px;background:transparent;overflow:hidden;}body{zoom:1;}",
+        "filter": "none",
+        "opacity": 1,
+        "deviceScaleFactor": 1,
+        "outputScale": "css",
+        "omitBackground": true,
+        "crop": null,
+        "resize": null,
+        "translation": [
+          0,
+          0
+        ],
+        "generatedByAi": false,
+        "increasedNativeDetail": false
+      },
+      "layoutEvidence": null,
+      "semanticReuse": null,
+      "sourceEvidence": {
+        "record": "docs/art-extension-sources.json",
+        "sourceEntryOutput": "art/common/states/primary_button_normal.png",
+        "referenceRepositorySource": "qdao_ui_redesign_v5/components/png/primary_button_normal.png",
+        "originalEvidence": [
+          "qdao_ui_redesign_v5/components/README.md",
+          "qdao_ui_redesign_v5/components/manifest.json",
+          "qdao_ui_style_recut_v10/source-map.common.json"
+        ]
+      },
+      "qualityProvenance": {
+        "actualModel": null,
+        "actualQuality": null,
+        "note": "Quality and model trace to the existing source artwork. Browser/native UI state composition does not call an image model or create new painted detail."
+      },
+      "containsDynamicText": false,
+      "nineSliceFromSourceManifest": {
+        "left": 82,
+        "top": 30,
+        "right": 82,
+        "bottom": 34,
+        "center": {
+          "x": 82,
+          "y": 30,
+          "width": 296,
+          "height": 48
+        }
+      }
+    },
+    {
+      "family": "primary_button",
+      "state": "pressed",
+      "output": "art/common/controls/primary_button_pressed.png",
+      "sha256": "6b2953e8451adbbb1189074a8a1593bbfc26d6bb5e4fc67c11e9a461639c8e26",
+      "source": "art/common/states/primary_button_normal.png",
+      "sourceSha256": "6f352d7c3b21ae2d1b5d2d0cce08ab5f0d31b951362ce6f7d8f93547b5080777",
+      "dimensions": [
+        460,
+        112
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "canvasAnchorTopLeftPx": [
+        230,
+        56
+      ],
+      "pixelInspection": {
+        "dimensions": [
+          460,
+          112
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "transparentPixels": 12704,
+        "nonzeroAlphaPixels": 38816,
+        "alphaBoundsTopLeftExclusiveRightBottom": [
+          3,
+          3,
+          457,
+          109
+        ],
+        "outermostEdgeMaximumAlpha": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "hasRealTransparency": true
+      },
+      "operation": {
+        "type": "native-ui-state-composite",
+        "tool": "Playwright / Microsoft Edge DOM-CSS screenshot",
+        "exactImageCss": "display:block;width:460px;height:112px;filter:brightness(0.82) saturate(0.95);opacity:1;transform:none;image-rendering:auto;",
+        "stylesheet": "html,body{margin:0;padding:0;width:460px;height:112px;background:transparent;overflow:hidden;}body{zoom:1;}",
+        "filter": "brightness(0.82) saturate(0.95)",
+        "opacity": 1,
+        "deviceScaleFactor": 1,
+        "outputScale": "css",
+        "omitBackground": true,
+        "crop": null,
+        "resize": null,
+        "translation": [
+          0,
+          0
+        ],
+        "generatedByAi": false,
+        "increasedNativeDetail": false
+      },
+      "layoutEvidence": {
+        "naturalWidth": 460,
+        "naturalHeight": 112,
+        "x": 0,
+        "y": 0,
+        "width": 460,
+        "height": 112,
+        "devicePixelRatio": 1,
+        "filter": "brightness(0.82) saturate(0.95)",
+        "opacity": "1",
+        "dynamicText": ""
+      },
+      "semanticReuse": null,
+      "sourceEvidence": {
+        "record": "docs/art-extension-sources.json",
+        "sourceEntryOutput": "art/common/states/primary_button_normal.png",
+        "referenceRepositorySource": "qdao_ui_redesign_v5/components/png/primary_button_normal.png",
+        "originalEvidence": [
+          "qdao_ui_redesign_v5/components/README.md",
+          "qdao_ui_redesign_v5/components/manifest.json",
+          "qdao_ui_style_recut_v10/source-map.common.json"
+        ]
+      },
+      "qualityProvenance": {
+        "actualModel": null,
+        "actualQuality": null,
+        "note": "Quality and model trace to the existing source artwork. Browser/native UI state composition does not call an image model or create new painted detail."
+      },
+      "containsDynamicText": false,
+      "nineSliceFromSourceManifest": {
+        "left": 82,
+        "top": 30,
+        "right": 82,
+        "bottom": 34,
+        "center": {
+          "x": 82,
+          "y": 30,
+          "width": 296,
+          "height": 48
+        }
+      }
+    },
+    {
+      "family": "primary_button",
+      "state": "selected",
+      "output": "art/common/controls/primary_button_selected.png",
+      "sha256": "48c2336c9c4ca74f389a0c58752e111a1161cfe67e9539ace39ce51694f39d26",
+      "source": "art/common/states/primary_button_selected.png",
+      "sourceSha256": "48c2336c9c4ca74f389a0c58752e111a1161cfe67e9539ace39ce51694f39d26",
+      "dimensions": [
+        460,
+        112
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "canvasAnchorTopLeftPx": [
+        230,
+        56
+      ],
+      "pixelInspection": {
+        "dimensions": [
+          460,
+          112
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "transparentPixels": 12642,
+        "nonzeroAlphaPixels": 38878,
+        "alphaBoundsTopLeftExclusiveRightBottom": [
+          3,
+          3,
+          457,
+          109
+        ],
+        "outermostEdgeMaximumAlpha": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "hasRealTransparency": true
+      },
+      "operation": {
+        "type": "source-copy",
+        "tool": "filesystem byte copy",
+        "exactImageCss": "display:block;width:460px;height:112px;filter:none;opacity:1;transform:none;image-rendering:auto;",
+        "stylesheet": "html,body{margin:0;padding:0;width:460px;height:112px;background:transparent;overflow:hidden;}body{zoom:1;}",
+        "filter": "none",
+        "opacity": 1,
+        "deviceScaleFactor": 1,
+        "outputScale": "css",
+        "omitBackground": true,
+        "crop": null,
+        "resize": null,
+        "translation": [
+          0,
+          0
+        ],
+        "generatedByAi": false,
+        "increasedNativeDetail": false
+      },
+      "layoutEvidence": null,
+      "semanticReuse": null,
+      "sourceEvidence": {
+        "record": "docs/art-extension-sources.json",
+        "sourceEntryOutput": "art/common/states/primary_button_selected.png",
+        "referenceRepositorySource": "qdao_ui_redesign_v5/components/png/primary_button_selected.png",
+        "originalEvidence": [
+          "qdao_ui_redesign_v5/components/README.md",
+          "qdao_ui_redesign_v5/components/manifest.json",
+          "qdao_ui_style_recut_v10/source-map.common.json"
+        ]
+      },
+      "qualityProvenance": {
+        "actualModel": null,
+        "actualQuality": null,
+        "note": "Quality and model trace to the existing source artwork. Browser/native UI state composition does not call an image model or create new painted detail."
+      },
+      "containsDynamicText": false,
+      "nineSliceFromSourceManifest": {
+        "left": 82,
+        "top": 30,
+        "right": 82,
+        "bottom": 34,
+        "center": {
+          "x": 82,
+          "y": 30,
+          "width": 296,
+          "height": 48
+        }
+      }
+    },
+    {
+      "family": "primary_button",
+      "state": "disabled",
+      "output": "art/common/controls/primary_button_disabled.png",
+      "sha256": "9609c84fe40c1cd5baed94da74ef79fc1b1687bf6925df295bf5e08ccceadaa6",
+      "source": "art/common/states/primary_button_normal.png",
+      "sourceSha256": "6f352d7c3b21ae2d1b5d2d0cce08ab5f0d31b951362ce6f7d8f93547b5080777",
+      "dimensions": [
+        460,
+        112
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "canvasAnchorTopLeftPx": [
+        230,
+        56
+      ],
+      "pixelInspection": {
+        "dimensions": [
+          460,
+          112
+        ],
+        "alphaExtrema": [
+          0,
+          122
+        ],
+        "transparentPixels": 12850,
+        "nonzeroAlphaPixels": 38670,
+        "alphaBoundsTopLeftExclusiveRightBottom": [
+          3,
+          3,
+          457,
+          109
+        ],
+        "outermostEdgeMaximumAlpha": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "hasRealTransparency": true
+      },
+      "operation": {
+        "type": "native-ui-state-composite",
+        "tool": "Playwright / Microsoft Edge DOM-CSS screenshot",
+        "exactImageCss": "display:block;width:460px;height:112px;filter:grayscale(0.7);opacity:0.48;transform:none;image-rendering:auto;",
+        "stylesheet": "html,body{margin:0;padding:0;width:460px;height:112px;background:transparent;overflow:hidden;}body{zoom:1;}",
+        "filter": "grayscale(0.7)",
+        "opacity": 0.48,
+        "deviceScaleFactor": 1,
+        "outputScale": "css",
+        "omitBackground": true,
+        "crop": null,
+        "resize": null,
+        "translation": [
+          0,
+          0
+        ],
+        "generatedByAi": false,
+        "increasedNativeDetail": false
+      },
+      "layoutEvidence": {
+        "naturalWidth": 460,
+        "naturalHeight": 112,
+        "x": 0,
+        "y": 0,
+        "width": 460,
+        "height": 112,
+        "devicePixelRatio": 1,
+        "filter": "grayscale(0.7)",
+        "opacity": "0.48",
+        "dynamicText": ""
+      },
+      "semanticReuse": "Normal source rendered with opacity 0.48 and grayscale 0.7; this generic disabled state has no baked lock.",
+      "sourceEvidence": {
+        "record": "docs/art-extension-sources.json",
+        "sourceEntryOutput": "art/common/states/primary_button_normal.png",
+        "referenceRepositorySource": "qdao_ui_redesign_v5/components/png/primary_button_normal.png",
+        "originalEvidence": [
+          "qdao_ui_redesign_v5/components/README.md",
+          "qdao_ui_redesign_v5/components/manifest.json",
+          "qdao_ui_style_recut_v10/source-map.common.json"
+        ]
+      },
+      "qualityProvenance": {
+        "actualModel": null,
+        "actualQuality": null,
+        "note": "Quality and model trace to the existing source artwork. Browser/native UI state composition does not call an image model or create new painted detail."
+      },
+      "containsDynamicText": false,
+      "nineSliceFromSourceManifest": {
+        "left": 82,
+        "top": 30,
+        "right": 82,
+        "bottom": 34,
+        "center": {
+          "x": 82,
+          "y": 30,
+          "width": 296,
+          "height": 48
+        }
+      }
+    },
+    {
+      "family": "primary_button",
+      "state": "locked",
+      "output": "art/common/controls/primary_button_locked.png",
+      "sha256": "25a53724f4a5c20efa3bb9b7e885478c92cc475775ac42f430fcc0c685351f8e",
+      "source": "art/common/states/primary_button_disabled.png",
+      "sourceSha256": "25a53724f4a5c20efa3bb9b7e885478c92cc475775ac42f430fcc0c685351f8e",
+      "dimensions": [
+        460,
+        112
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "canvasAnchorTopLeftPx": [
+        230,
+        56
+      ],
+      "pixelInspection": {
+        "dimensions": [
+          460,
+          112
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "transparentPixels": 14419,
+        "nonzeroAlphaPixels": 37101,
+        "alphaBoundsTopLeftExclusiveRightBottom": [
+          3,
+          4,
+          456,
+          105
+        ],
+        "outermostEdgeMaximumAlpha": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "hasRealTransparency": true
+      },
+      "operation": {
+        "type": "source-copy-semantic-reuse",
+        "tool": "filesystem byte copy",
+        "exactImageCss": "display:block;width:460px;height:112px;filter:none;opacity:1;transform:none;image-rendering:auto;",
+        "stylesheet": "html,body{margin:0;padding:0;width:460px;height:112px;background:transparent;overflow:hidden;}body{zoom:1;}",
+        "filter": "none",
+        "opacity": 1,
+        "deviceScaleFactor": 1,
+        "outputScale": "css",
+        "omitBackground": true,
+        "crop": null,
+        "resize": null,
+        "translation": [
+          0,
+          0
+        ],
+        "generatedByAi": false,
+        "increasedNativeDetail": false
+      },
+      "layoutEvidence": null,
+      "semanticReuse": "Existing source disabled artwork includes a lock. Reused byte-for-byte specifically as locked; no new locked painting or separate AI edit is claimed.",
+      "sourceEvidence": {
+        "record": "docs/art-extension-sources.json",
+        "sourceEntryOutput": "art/common/states/primary_button_disabled.png",
+        "referenceRepositorySource": "qdao_ui_redesign_v5/components/png/primary_button_disabled.png",
+        "originalEvidence": [
+          "qdao_ui_redesign_v5/components/README.md",
+          "qdao_ui_redesign_v5/components/manifest.json",
+          "qdao_ui_style_recut_v10/source-map.common.json"
+        ]
+      },
+      "qualityProvenance": {
+        "actualModel": null,
+        "actualQuality": null,
+        "note": "Quality and model trace to the existing source artwork. Browser/native UI state composition does not call an image model or create new painted detail."
+      },
+      "containsDynamicText": false,
+      "nineSliceFromSourceManifest": {
+        "left": 82,
+        "top": 30,
+        "right": 82,
+        "bottom": 34,
+        "center": {
+          "x": 82,
+          "y": 30,
+          "width": 296,
+          "height": 48
+        }
+      }
+    },
+    {
+      "family": "tab",
+      "state": "normal",
+      "output": "art/common/controls/tab_normal.png",
+      "sha256": "739afbf15673e6818831744e3d17223597a5340db81f758f769dbca5ad834c50",
+      "source": "art/common/states/tab_normal.png",
+      "sourceSha256": "739afbf15673e6818831744e3d17223597a5340db81f758f769dbca5ad834c50",
+      "dimensions": [
+        360,
+        114
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "canvasAnchorTopLeftPx": [
+        180,
+        57
+      ],
+      "pixelInspection": {
+        "dimensions": [
+          360,
+          114
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "transparentPixels": 8539,
+        "nonzeroAlphaPixels": 32501,
+        "alphaBoundsTopLeftExclusiveRightBottom": [
+          3,
+          3,
+          357,
+          111
+        ],
+        "outermostEdgeMaximumAlpha": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "hasRealTransparency": true
+      },
+      "operation": {
+        "type": "source-copy",
+        "tool": "filesystem byte copy",
+        "exactImageCss": "display:block;width:360px;height:114px;filter:none;opacity:1;transform:none;image-rendering:auto;",
+        "stylesheet": "html,body{margin:0;padding:0;width:360px;height:114px;background:transparent;overflow:hidden;}body{zoom:1;}",
+        "filter": "none",
+        "opacity": 1,
+        "deviceScaleFactor": 1,
+        "outputScale": "css",
+        "omitBackground": true,
+        "crop": null,
+        "resize": null,
+        "translation": [
+          0,
+          0
+        ],
+        "generatedByAi": false,
+        "increasedNativeDetail": false
+      },
+      "layoutEvidence": null,
+      "semanticReuse": null,
+      "sourceEvidence": {
+        "record": "docs/art-extension-sources.json",
+        "sourceEntryOutput": "art/common/states/tab_normal.png",
+        "referenceRepositorySource": "qdao_ui_redesign_v5/components/png/tab_normal.png",
+        "originalEvidence": [
+          "qdao_ui_redesign_v5/components/README.md",
+          "qdao_ui_redesign_v5/components/manifest.json",
+          "qdao_ui_style_recut_v10/source-map.common.json"
+        ]
+      },
+      "qualityProvenance": {
+        "actualModel": null,
+        "actualQuality": null,
+        "note": "Quality and model trace to the existing source artwork. Browser/native UI state composition does not call an image model or create new painted detail."
+      },
+      "containsDynamicText": false,
+      "nineSliceFromSourceManifest": {
+        "left": 82,
+        "top": 30,
+        "right": 82,
+        "bottom": 34,
+        "center": {
+          "x": 82,
+          "y": 30,
+          "width": 196,
+          "height": 50
+        }
+      }
+    },
+    {
+      "family": "tab",
+      "state": "pressed",
+      "output": "art/common/controls/tab_pressed.png",
+      "sha256": "885db2e57837989c9fc6a1a55346b2428083f538b4e31b55cf70dd7009dce68b",
+      "source": "art/common/states/tab_normal.png",
+      "sourceSha256": "739afbf15673e6818831744e3d17223597a5340db81f758f769dbca5ad834c50",
+      "dimensions": [
+        360,
+        114
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "canvasAnchorTopLeftPx": [
+        180,
+        57
+      ],
+      "pixelInspection": {
+        "dimensions": [
+          360,
+          114
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "transparentPixels": 8539,
+        "nonzeroAlphaPixels": 32501,
+        "alphaBoundsTopLeftExclusiveRightBottom": [
+          3,
+          3,
+          357,
+          111
+        ],
+        "outermostEdgeMaximumAlpha": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "hasRealTransparency": true
+      },
+      "operation": {
+        "type": "native-ui-state-composite",
+        "tool": "Playwright / Microsoft Edge DOM-CSS screenshot",
+        "exactImageCss": "display:block;width:360px;height:114px;filter:brightness(0.82) saturate(0.95);opacity:1;transform:none;image-rendering:auto;",
+        "stylesheet": "html,body{margin:0;padding:0;width:360px;height:114px;background:transparent;overflow:hidden;}body{zoom:1;}",
+        "filter": "brightness(0.82) saturate(0.95)",
+        "opacity": 1,
+        "deviceScaleFactor": 1,
+        "outputScale": "css",
+        "omitBackground": true,
+        "crop": null,
+        "resize": null,
+        "translation": [
+          0,
+          0
+        ],
+        "generatedByAi": false,
+        "increasedNativeDetail": false
+      },
+      "layoutEvidence": {
+        "naturalWidth": 360,
+        "naturalHeight": 114,
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 114,
+        "devicePixelRatio": 1,
+        "filter": "brightness(0.82) saturate(0.95)",
+        "opacity": "1",
+        "dynamicText": ""
+      },
+      "semanticReuse": null,
+      "sourceEvidence": {
+        "record": "docs/art-extension-sources.json",
+        "sourceEntryOutput": "art/common/states/tab_normal.png",
+        "referenceRepositorySource": "qdao_ui_redesign_v5/components/png/tab_normal.png",
+        "originalEvidence": [
+          "qdao_ui_redesign_v5/components/README.md",
+          "qdao_ui_redesign_v5/components/manifest.json",
+          "qdao_ui_style_recut_v10/source-map.common.json"
+        ]
+      },
+      "qualityProvenance": {
+        "actualModel": null,
+        "actualQuality": null,
+        "note": "Quality and model trace to the existing source artwork. Browser/native UI state composition does not call an image model or create new painted detail."
+      },
+      "containsDynamicText": false,
+      "nineSliceFromSourceManifest": {
+        "left": 82,
+        "top": 30,
+        "right": 82,
+        "bottom": 34,
+        "center": {
+          "x": 82,
+          "y": 30,
+          "width": 196,
+          "height": 50
+        }
+      }
+    },
+    {
+      "family": "tab",
+      "state": "selected",
+      "output": "art/common/controls/tab_selected.png",
+      "sha256": "e6a73b3841ba899b9599ce7790b52edbfb5993a0e63897afc8b61742b1f49e5a",
+      "source": "art/common/states/tab_selected.png",
+      "sourceSha256": "e6a73b3841ba899b9599ce7790b52edbfb5993a0e63897afc8b61742b1f49e5a",
+      "dimensions": [
+        360,
+        114
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "canvasAnchorTopLeftPx": [
+        180,
+        57
+      ],
+      "pixelInspection": {
+        "dimensions": [
+          360,
+          114
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "transparentPixels": 10303,
+        "nonzeroAlphaPixels": 30737,
+        "alphaBoundsTopLeftExclusiveRightBottom": [
+          3,
+          3,
+          355,
+          111
+        ],
+        "outermostEdgeMaximumAlpha": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "hasRealTransparency": true
+      },
+      "operation": {
+        "type": "source-copy",
+        "tool": "filesystem byte copy",
+        "exactImageCss": "display:block;width:360px;height:114px;filter:none;opacity:1;transform:none;image-rendering:auto;",
+        "stylesheet": "html,body{margin:0;padding:0;width:360px;height:114px;background:transparent;overflow:hidden;}body{zoom:1;}",
+        "filter": "none",
+        "opacity": 1,
+        "deviceScaleFactor": 1,
+        "outputScale": "css",
+        "omitBackground": true,
+        "crop": null,
+        "resize": null,
+        "translation": [
+          0,
+          0
+        ],
+        "generatedByAi": false,
+        "increasedNativeDetail": false
+      },
+      "layoutEvidence": null,
+      "semanticReuse": null,
+      "sourceEvidence": {
+        "record": "docs/art-extension-sources.json",
+        "sourceEntryOutput": "art/common/states/tab_selected.png",
+        "referenceRepositorySource": "qdao_ui_redesign_v5/components/png/tab_selected.png",
+        "originalEvidence": [
+          "qdao_ui_redesign_v5/components/README.md",
+          "qdao_ui_redesign_v5/components/manifest.json",
+          "qdao_ui_style_recut_v10/source-map.common.json"
+        ]
+      },
+      "qualityProvenance": {
+        "actualModel": null,
+        "actualQuality": null,
+        "note": "Quality and model trace to the existing source artwork. Browser/native UI state composition does not call an image model or create new painted detail."
+      },
+      "containsDynamicText": false,
+      "nineSliceFromSourceManifest": {
+        "left": 82,
+        "top": 30,
+        "right": 82,
+        "bottom": 34,
+        "center": {
+          "x": 82,
+          "y": 30,
+          "width": 196,
+          "height": 50
+        }
+      }
+    },
+    {
+      "family": "tab",
+      "state": "disabled",
+      "output": "art/common/controls/tab_disabled.png",
+      "sha256": "495bb8847313791f0aff2cf4b5b5df22ec41b7cfa10416f5b41e1bd74d36a510",
+      "source": "art/common/states/tab_normal.png",
+      "sourceSha256": "739afbf15673e6818831744e3d17223597a5340db81f758f769dbca5ad834c50",
+      "dimensions": [
+        360,
+        114
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "canvasAnchorTopLeftPx": [
+        180,
+        57
+      ],
+      "pixelInspection": {
+        "dimensions": [
+          360,
+          114
+        ],
+        "alphaExtrema": [
+          0,
+          122
+        ],
+        "transparentPixels": 8892,
+        "nonzeroAlphaPixels": 32148,
+        "alphaBoundsTopLeftExclusiveRightBottom": [
+          3,
+          3,
+          357,
+          111
+        ],
+        "outermostEdgeMaximumAlpha": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "hasRealTransparency": true
+      },
+      "operation": {
+        "type": "native-ui-state-composite",
+        "tool": "Playwright / Microsoft Edge DOM-CSS screenshot",
+        "exactImageCss": "display:block;width:360px;height:114px;filter:grayscale(0.7);opacity:0.48;transform:none;image-rendering:auto;",
+        "stylesheet": "html,body{margin:0;padding:0;width:360px;height:114px;background:transparent;overflow:hidden;}body{zoom:1;}",
+        "filter": "grayscale(0.7)",
+        "opacity": 0.48,
+        "deviceScaleFactor": 1,
+        "outputScale": "css",
+        "omitBackground": true,
+        "crop": null,
+        "resize": null,
+        "translation": [
+          0,
+          0
+        ],
+        "generatedByAi": false,
+        "increasedNativeDetail": false
+      },
+      "layoutEvidence": {
+        "naturalWidth": 360,
+        "naturalHeight": 114,
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 114,
+        "devicePixelRatio": 1,
+        "filter": "grayscale(0.7)",
+        "opacity": "0.48",
+        "dynamicText": ""
+      },
+      "semanticReuse": "Normal source rendered with opacity 0.48 and grayscale 0.7; this generic disabled state has no baked lock.",
+      "sourceEvidence": {
+        "record": "docs/art-extension-sources.json",
+        "sourceEntryOutput": "art/common/states/tab_normal.png",
+        "referenceRepositorySource": "qdao_ui_redesign_v5/components/png/tab_normal.png",
+        "originalEvidence": [
+          "qdao_ui_redesign_v5/components/README.md",
+          "qdao_ui_redesign_v5/components/manifest.json",
+          "qdao_ui_style_recut_v10/source-map.common.json"
+        ]
+      },
+      "qualityProvenance": {
+        "actualModel": null,
+        "actualQuality": null,
+        "note": "Quality and model trace to the existing source artwork. Browser/native UI state composition does not call an image model or create new painted detail."
+      },
+      "containsDynamicText": false,
+      "nineSliceFromSourceManifest": {
+        "left": 82,
+        "top": 30,
+        "right": 82,
+        "bottom": 34,
+        "center": {
+          "x": 82,
+          "y": 30,
+          "width": 196,
+          "height": 50
+        }
+      }
+    },
+    {
+      "family": "tab",
+      "state": "locked",
+      "output": "art/common/controls/tab_locked.png",
+      "sha256": "46ee8527d434fe48c31c93cb7ea835e226ec61188b762de1bfb5a38a94ce694c",
+      "source": "art/common/states/tab_disabled.png",
+      "sourceSha256": "46ee8527d434fe48c31c93cb7ea835e226ec61188b762de1bfb5a38a94ce694c",
+      "dimensions": [
+        360,
+        114
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "canvasAnchorTopLeftPx": [
+        180,
+        57
+      ],
+      "pixelInspection": {
+        "dimensions": [
+          360,
+          114
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "transparentPixels": 11859,
+        "nonzeroAlphaPixels": 29181,
+        "alphaBoundsTopLeftExclusiveRightBottom": [
+          3,
+          4,
+          356,
+          107
+        ],
+        "outermostEdgeMaximumAlpha": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "hasRealTransparency": true
+      },
+      "operation": {
+        "type": "source-copy-semantic-reuse",
+        "tool": "filesystem byte copy",
+        "exactImageCss": "display:block;width:360px;height:114px;filter:none;opacity:1;transform:none;image-rendering:auto;",
+        "stylesheet": "html,body{margin:0;padding:0;width:360px;height:114px;background:transparent;overflow:hidden;}body{zoom:1;}",
+        "filter": "none",
+        "opacity": 1,
+        "deviceScaleFactor": 1,
+        "outputScale": "css",
+        "omitBackground": true,
+        "crop": null,
+        "resize": null,
+        "translation": [
+          0,
+          0
+        ],
+        "generatedByAi": false,
+        "increasedNativeDetail": false
+      },
+      "layoutEvidence": null,
+      "semanticReuse": "Existing source disabled artwork includes a lock. Reused byte-for-byte specifically as locked; no new locked painting or separate AI edit is claimed.",
+      "sourceEvidence": {
+        "record": "docs/art-extension-sources.json",
+        "sourceEntryOutput": "art/common/states/tab_disabled.png",
+        "referenceRepositorySource": "qdao_ui_redesign_v5/components/png/tab_disabled.png",
+        "originalEvidence": [
+          "qdao_ui_redesign_v5/components/README.md",
+          "qdao_ui_redesign_v5/components/manifest.json",
+          "qdao_ui_style_recut_v10/source-map.common.json"
+        ]
+      },
+      "qualityProvenance": {
+        "actualModel": null,
+        "actualQuality": null,
+        "note": "Quality and model trace to the existing source artwork. Browser/native UI state composition does not call an image model or create new painted detail."
+      },
+      "containsDynamicText": false,
+      "nineSliceFromSourceManifest": {
+        "left": 82,
+        "top": 30,
+        "right": 82,
+        "bottom": 34,
+        "center": {
+          "x": 82,
+          "y": 30,
+          "width": 196,
+          "height": 50
+        }
+      }
+    },
+    {
+      "family": "list_row",
+      "state": "normal",
+      "output": "art/common/controls/list_row_normal.png",
+      "sha256": "cd8415446563f7b0b2f7583fc77f6467c0e04b3b4cd68856adb8d0d1f6500892",
+      "source": "art/common/states/list_row_normal.png",
+      "sourceSha256": "cd8415446563f7b0b2f7583fc77f6467c0e04b3b4cd68856adb8d0d1f6500892",
+      "dimensions": [
+        360,
+        96
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "canvasAnchorTopLeftPx": [
+        180,
+        48
+      ],
+      "pixelInspection": {
+        "dimensions": [
+          360,
+          96
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "transparentPixels": 4850,
+        "nonzeroAlphaPixels": 29710,
+        "alphaBoundsTopLeftExclusiveRightBottom": [
+          3,
+          3,
+          357,
+          93
+        ],
+        "outermostEdgeMaximumAlpha": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "hasRealTransparency": true
+      },
+      "operation": {
+        "type": "source-copy",
+        "tool": "filesystem byte copy",
+        "exactImageCss": "display:block;width:360px;height:96px;filter:none;opacity:1;transform:none;image-rendering:auto;",
+        "stylesheet": "html,body{margin:0;padding:0;width:360px;height:96px;background:transparent;overflow:hidden;}body{zoom:1;}",
+        "filter": "none",
+        "opacity": 1,
+        "deviceScaleFactor": 1,
+        "outputScale": "css",
+        "omitBackground": true,
+        "crop": null,
+        "resize": null,
+        "translation": [
+          0,
+          0
+        ],
+        "generatedByAi": false,
+        "increasedNativeDetail": false
+      },
+      "layoutEvidence": null,
+      "semanticReuse": null,
+      "sourceEvidence": {
+        "record": "docs/art-extension-sources.json",
+        "sourceEntryOutput": "art/common/states/list_row_normal.png",
+        "referenceRepositorySource": "qdao_ui_redesign_v5/components/png/list_row_normal.png",
+        "originalEvidence": [
+          "qdao_ui_redesign_v5/components/README.md",
+          "qdao_ui_redesign_v5/components/manifest.json",
+          "qdao_ui_style_recut_v10/source-map.common.json"
+        ]
+      },
+      "qualityProvenance": {
+        "actualModel": null,
+        "actualQuality": null,
+        "note": "Quality and model trace to the existing source artwork. Browser/native UI state composition does not call an image model or create new painted detail."
+      },
+      "containsDynamicText": false,
+      "nineSliceFromSourceManifest": {
+        "left": 82,
+        "top": 27,
+        "right": 82,
+        "bottom": 31,
+        "center": {
+          "x": 82,
+          "y": 27,
+          "width": 196,
+          "height": 38
+        }
+      }
+    },
+    {
+      "family": "list_row",
+      "state": "pressed",
+      "output": "art/common/controls/list_row_pressed.png",
+      "sha256": "d9975c8e10717e1de37c8f3336260041036e1c624abf6bfa77cf9ad52a51b3d4",
+      "source": "art/common/states/list_row_normal.png",
+      "sourceSha256": "cd8415446563f7b0b2f7583fc77f6467c0e04b3b4cd68856adb8d0d1f6500892",
+      "dimensions": [
+        360,
+        96
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "canvasAnchorTopLeftPx": [
+        180,
+        48
+      ],
+      "pixelInspection": {
+        "dimensions": [
+          360,
+          96
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "transparentPixels": 4850,
+        "nonzeroAlphaPixels": 29710,
+        "alphaBoundsTopLeftExclusiveRightBottom": [
+          3,
+          3,
+          357,
+          93
+        ],
+        "outermostEdgeMaximumAlpha": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "hasRealTransparency": true
+      },
+      "operation": {
+        "type": "native-ui-state-composite",
+        "tool": "Playwright / Microsoft Edge DOM-CSS screenshot",
+        "exactImageCss": "display:block;width:360px;height:96px;filter:brightness(0.82) saturate(0.95);opacity:1;transform:none;image-rendering:auto;",
+        "stylesheet": "html,body{margin:0;padding:0;width:360px;height:96px;background:transparent;overflow:hidden;}body{zoom:1;}",
+        "filter": "brightness(0.82) saturate(0.95)",
+        "opacity": 1,
+        "deviceScaleFactor": 1,
+        "outputScale": "css",
+        "omitBackground": true,
+        "crop": null,
+        "resize": null,
+        "translation": [
+          0,
+          0
+        ],
+        "generatedByAi": false,
+        "increasedNativeDetail": false
+      },
+      "layoutEvidence": {
+        "naturalWidth": 360,
+        "naturalHeight": 96,
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 96,
+        "devicePixelRatio": 1,
+        "filter": "brightness(0.82) saturate(0.95)",
+        "opacity": "1",
+        "dynamicText": ""
+      },
+      "semanticReuse": null,
+      "sourceEvidence": {
+        "record": "docs/art-extension-sources.json",
+        "sourceEntryOutput": "art/common/states/list_row_normal.png",
+        "referenceRepositorySource": "qdao_ui_redesign_v5/components/png/list_row_normal.png",
+        "originalEvidence": [
+          "qdao_ui_redesign_v5/components/README.md",
+          "qdao_ui_redesign_v5/components/manifest.json",
+          "qdao_ui_style_recut_v10/source-map.common.json"
+        ]
+      },
+      "qualityProvenance": {
+        "actualModel": null,
+        "actualQuality": null,
+        "note": "Quality and model trace to the existing source artwork. Browser/native UI state composition does not call an image model or create new painted detail."
+      },
+      "containsDynamicText": false,
+      "nineSliceFromSourceManifest": {
+        "left": 82,
+        "top": 27,
+        "right": 82,
+        "bottom": 31,
+        "center": {
+          "x": 82,
+          "y": 27,
+          "width": 196,
+          "height": 38
+        }
+      }
+    },
+    {
+      "family": "list_row",
+      "state": "selected",
+      "output": "art/common/controls/list_row_selected.png",
+      "sha256": "841a8bba5c31946986af399ddfe5abf1d2c9879467e8a2cfe98e6cd7babee925",
+      "source": "art/common/states/list_row_selected.png",
+      "sourceSha256": "841a8bba5c31946986af399ddfe5abf1d2c9879467e8a2cfe98e6cd7babee925",
+      "dimensions": [
+        360,
+        96
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "canvasAnchorTopLeftPx": [
+        180,
+        48
+      ],
+      "pixelInspection": {
+        "dimensions": [
+          360,
+          96
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "transparentPixels": 5121,
+        "nonzeroAlphaPixels": 29439,
+        "alphaBoundsTopLeftExclusiveRightBottom": [
+          3,
+          3,
+          357,
+          92
+        ],
+        "outermostEdgeMaximumAlpha": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "hasRealTransparency": true
+      },
+      "operation": {
+        "type": "source-copy",
+        "tool": "filesystem byte copy",
+        "exactImageCss": "display:block;width:360px;height:96px;filter:none;opacity:1;transform:none;image-rendering:auto;",
+        "stylesheet": "html,body{margin:0;padding:0;width:360px;height:96px;background:transparent;overflow:hidden;}body{zoom:1;}",
+        "filter": "none",
+        "opacity": 1,
+        "deviceScaleFactor": 1,
+        "outputScale": "css",
+        "omitBackground": true,
+        "crop": null,
+        "resize": null,
+        "translation": [
+          0,
+          0
+        ],
+        "generatedByAi": false,
+        "increasedNativeDetail": false
+      },
+      "layoutEvidence": null,
+      "semanticReuse": null,
+      "sourceEvidence": {
+        "record": "docs/art-extension-sources.json",
+        "sourceEntryOutput": "art/common/states/list_row_selected.png",
+        "referenceRepositorySource": "qdao_ui_redesign_v5/components/png/list_row_selected.png",
+        "originalEvidence": [
+          "qdao_ui_redesign_v5/components/README.md",
+          "qdao_ui_redesign_v5/components/manifest.json",
+          "qdao_ui_style_recut_v10/source-map.common.json"
+        ]
+      },
+      "qualityProvenance": {
+        "actualModel": null,
+        "actualQuality": null,
+        "note": "Quality and model trace to the existing source artwork. Browser/native UI state composition does not call an image model or create new painted detail."
+      },
+      "containsDynamicText": false,
+      "nineSliceFromSourceManifest": {
+        "left": 82,
+        "top": 27,
+        "right": 82,
+        "bottom": 31,
+        "center": {
+          "x": 82,
+          "y": 27,
+          "width": 196,
+          "height": 38
+        }
+      }
+    },
+    {
+      "family": "list_row",
+      "state": "disabled",
+      "output": "art/common/controls/list_row_disabled.png",
+      "sha256": "eaea89ec3a4a646b503f5f723f13affec30b3e38d3000b3e3e85bf23cb7b13b9",
+      "source": "art/common/states/list_row_normal.png",
+      "sourceSha256": "cd8415446563f7b0b2f7583fc77f6467c0e04b3b4cd68856adb8d0d1f6500892",
+      "dimensions": [
+        360,
+        96
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "canvasAnchorTopLeftPx": [
+        180,
+        48
+      ],
+      "pixelInspection": {
+        "dimensions": [
+          360,
+          96
+        ],
+        "alphaExtrema": [
+          0,
+          122
+        ],
+        "transparentPixels": 5280,
+        "nonzeroAlphaPixels": 29280,
+        "alphaBoundsTopLeftExclusiveRightBottom": [
+          3,
+          3,
+          357,
+          93
+        ],
+        "outermostEdgeMaximumAlpha": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "hasRealTransparency": true
+      },
+      "operation": {
+        "type": "native-ui-state-composite",
+        "tool": "Playwright / Microsoft Edge DOM-CSS screenshot",
+        "exactImageCss": "display:block;width:360px;height:96px;filter:grayscale(0.7);opacity:0.48;transform:none;image-rendering:auto;",
+        "stylesheet": "html,body{margin:0;padding:0;width:360px;height:96px;background:transparent;overflow:hidden;}body{zoom:1;}",
+        "filter": "grayscale(0.7)",
+        "opacity": 0.48,
+        "deviceScaleFactor": 1,
+        "outputScale": "css",
+        "omitBackground": true,
+        "crop": null,
+        "resize": null,
+        "translation": [
+          0,
+          0
+        ],
+        "generatedByAi": false,
+        "increasedNativeDetail": false
+      },
+      "layoutEvidence": {
+        "naturalWidth": 360,
+        "naturalHeight": 96,
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 96,
+        "devicePixelRatio": 1,
+        "filter": "grayscale(0.7)",
+        "opacity": "0.48",
+        "dynamicText": ""
+      },
+      "semanticReuse": "Normal source rendered with opacity 0.48 and grayscale 0.7; this generic disabled state has no baked lock.",
+      "sourceEvidence": {
+        "record": "docs/art-extension-sources.json",
+        "sourceEntryOutput": "art/common/states/list_row_normal.png",
+        "referenceRepositorySource": "qdao_ui_redesign_v5/components/png/list_row_normal.png",
+        "originalEvidence": [
+          "qdao_ui_redesign_v5/components/README.md",
+          "qdao_ui_redesign_v5/components/manifest.json",
+          "qdao_ui_style_recut_v10/source-map.common.json"
+        ]
+      },
+      "qualityProvenance": {
+        "actualModel": null,
+        "actualQuality": null,
+        "note": "Quality and model trace to the existing source artwork. Browser/native UI state composition does not call an image model or create new painted detail."
+      },
+      "containsDynamicText": false,
+      "nineSliceFromSourceManifest": {
+        "left": 82,
+        "top": 27,
+        "right": 82,
+        "bottom": 31,
+        "center": {
+          "x": 82,
+          "y": 27,
+          "width": 196,
+          "height": 38
+        }
+      }
+    },
+    {
+      "family": "list_row",
+      "state": "locked",
+      "output": "art/common/controls/list_row_locked.png",
+      "sha256": "e392bb4bc9180cd9c3eb99d8b67aeb961cbc739dc02500c19474d4d3317b6ed1",
+      "source": "art/common/states/list_row_disabled.png",
+      "sourceSha256": "e392bb4bc9180cd9c3eb99d8b67aeb961cbc739dc02500c19474d4d3317b6ed1",
+      "dimensions": [
+        360,
+        96
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "canvasAnchorTopLeftPx": [
+        180,
+        48
+      ],
+      "pixelInspection": {
+        "dimensions": [
+          360,
+          96
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "transparentPixels": 10717,
+        "nonzeroAlphaPixels": 23843,
+        "alphaBoundsTopLeftExclusiveRightBottom": [
+          3,
+          3,
+          356,
+          90
+        ],
+        "outermostEdgeMaximumAlpha": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "hasRealTransparency": true
+      },
+      "operation": {
+        "type": "source-copy-semantic-reuse",
+        "tool": "filesystem byte copy",
+        "exactImageCss": "display:block;width:360px;height:96px;filter:none;opacity:1;transform:none;image-rendering:auto;",
+        "stylesheet": "html,body{margin:0;padding:0;width:360px;height:96px;background:transparent;overflow:hidden;}body{zoom:1;}",
+        "filter": "none",
+        "opacity": 1,
+        "deviceScaleFactor": 1,
+        "outputScale": "css",
+        "omitBackground": true,
+        "crop": null,
+        "resize": null,
+        "translation": [
+          0,
+          0
+        ],
+        "generatedByAi": false,
+        "increasedNativeDetail": false
+      },
+      "layoutEvidence": null,
+      "semanticReuse": "Existing source disabled artwork includes a lock. Reused byte-for-byte specifically as locked; no new locked painting or separate AI edit is claimed.",
+      "sourceEvidence": {
+        "record": "docs/art-extension-sources.json",
+        "sourceEntryOutput": "art/common/states/list_row_disabled.png",
+        "referenceRepositorySource": "qdao_ui_redesign_v5/components/png/list_row_disabled.png",
+        "originalEvidence": [
+          "qdao_ui_redesign_v5/components/README.md",
+          "qdao_ui_redesign_v5/components/manifest.json",
+          "qdao_ui_style_recut_v10/source-map.common.json"
+        ]
+      },
+      "qualityProvenance": {
+        "actualModel": null,
+        "actualQuality": null,
+        "note": "Quality and model trace to the existing source artwork. Browser/native UI state composition does not call an image model or create new painted detail."
+      },
+      "containsDynamicText": false,
+      "nineSliceFromSourceManifest": {
+        "left": 82,
+        "top": 27,
+        "right": 82,
+        "bottom": 31,
+        "center": {
+          "x": 82,
+          "y": 27,
+          "width": 196,
+          "height": 38
+        }
+      }
+    }
+  ],
+  "validation": {
+    "pngCount": 15,
+    "realAlpha": "passed",
+    "nativeCanvas": "passed",
+    "samePivot": "passed",
+    "noDynamicText": "passed",
+    "copiedStateBytesPreserved": "passed",
+    "renderedStateCount": 6
+  },
+  "independentVerification": {
+    "verifiedAtUtc": "2026-10-26T11:10:37.609184+00:00",
+    "tool": "Pillow 12.2.0 read-only decode plus SHA256",
+    "files": [
+      {
+        "output": "art/common/controls/primary_button_normal.png",
+        "mode": "RGBA",
+        "dimensions": [
+          460,
+          112
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "sha256Matches": true
+      },
+      {
+        "output": "art/common/controls/primary_button_pressed.png",
+        "mode": "RGBA",
+        "dimensions": [
+          460,
+          112
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "sha256Matches": true
+      },
+      {
+        "output": "art/common/controls/primary_button_selected.png",
+        "mode": "RGBA",
+        "dimensions": [
+          460,
+          112
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "sha256Matches": true
+      },
+      {
+        "output": "art/common/controls/primary_button_disabled.png",
+        "mode": "RGBA",
+        "dimensions": [
+          460,
+          112
+        ],
+        "alphaExtrema": [
+          0,
+          122
+        ],
+        "sha256Matches": true
+      },
+      {
+        "output": "art/common/controls/primary_button_locked.png",
+        "mode": "RGBA",
+        "dimensions": [
+          460,
+          112
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "sha256Matches": true
+      },
+      {
+        "output": "art/common/controls/tab_normal.png",
+        "mode": "RGBA",
+        "dimensions": [
+          360,
+          114
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "sha256Matches": true
+      },
+      {
+        "output": "art/common/controls/tab_pressed.png",
+        "mode": "RGBA",
+        "dimensions": [
+          360,
+          114
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "sha256Matches": true
+      },
+      {
+        "output": "art/common/controls/tab_selected.png",
+        "mode": "RGBA",
+        "dimensions": [
+          360,
+          114
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "sha256Matches": true
+      },
+      {
+        "output": "art/common/controls/tab_disabled.png",
+        "mode": "RGBA",
+        "dimensions": [
+          360,
+          114
+        ],
+        "alphaExtrema": [
+          0,
+          122
+        ],
+        "sha256Matches": true
+      },
+      {
+        "output": "art/common/controls/tab_locked.png",
+        "mode": "RGBA",
+        "dimensions": [
+          360,
+          114
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "sha256Matches": true
+      },
+      {
+        "output": "art/common/controls/list_row_normal.png",
+        "mode": "RGBA",
+        "dimensions": [
+          360,
+          96
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "sha256Matches": true
+      },
+      {
+        "output": "art/common/controls/list_row_pressed.png",
+        "mode": "RGBA",
+        "dimensions": [
+          360,
+          96
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "sha256Matches": true
+      },
+      {
+        "output": "art/common/controls/list_row_selected.png",
+        "mode": "RGBA",
+        "dimensions": [
+          360,
+          96
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "sha256Matches": true
+      },
+      {
+        "output": "art/common/controls/list_row_disabled.png",
+        "mode": "RGBA",
+        "dimensions": [
+          360,
+          96
+        ],
+        "alphaExtrema": [
+          0,
+          122
+        ],
+        "sha256Matches": true
+      },
+      {
+        "output": "art/common/controls/list_row_locked.png",
+        "mode": "RGBA",
+        "dimensions": [
+          360,
+          96
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "sha256Matches": true
+      }
+    ],
+    "result": "passed"
+  },
+  "visualReview": {
+    "reviewedBy": "reference_audit",
+    "allSixCssDerivedStatesViewed": true,
+    "lockedPrimarySampleViewed": true,
+    "observations": "Pressed is visibly darker, generic disabled is desaturated/translucent with no lock, and the semantically reused locked source includes its fixed lock glyph. Canvas and declared pivot remain unchanged. Source normal/selected/locked bytes remain exact copies."
+  }
+}

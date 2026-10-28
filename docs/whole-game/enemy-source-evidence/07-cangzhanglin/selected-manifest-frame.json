@@ -1,0 +1,170 @@
+{
+  "originalManifest": "designs/creature-combat-20261005/pets/07-cangzhanglin/manifest.json",
+  "originalManifestSHA256": "bb96f5bac493d1579d429363941678a78089dd49fbdbcb5beb8c30d697b2498b",
+  "selection": "runtime/attack/E/01.png",
+  "selectedFrameRecord": {
+    "frame": 1,
+    "action": "attack",
+    "direction": "E",
+    "file": "runtime/attack/E/01.png",
+    "durationMs": 30,
+    "pivot": [
+      0.5,
+      0.08
+    ],
+    "anchorTopLeft": [
+      512,
+      942
+    ],
+    "event": null,
+    "exists": true,
+    "sha256": "7bd3d64c12e40764a506d9515fbf60c5fd7ad7a331738510fb5938d7d1f2759b",
+    "visualStatus": "reviewed-with-notes",
+    "clientIntegration": "not-tested",
+    "errors": [],
+    "warnings": [
+      "actual-model-or-quality-undisclosed-null-preserved"
+    ],
+    "width": 1024,
+    "height": 1024,
+    "mode": "RGBA",
+    "format": "PNG",
+    "pixelSha256": "876544f454a72e4867108da33eab58e21116a1b9d1fba19d911424fe1cca8868",
+    "alpha": {
+      "extrema": [
+        0,
+        255
+      ],
+      "transparentPixels": 568023,
+      "opaquePixels": 1751,
+      "partialPixels": 478802,
+      "bbox": [
+        32,
+        60,
+        980,
+        958
+      ]
+    },
+    "sourceRecord": "records/attack-E-01.generation.json",
+    "sourceRecordSha256": "7316c92ad90fdf456e35232311d57b0bddb9b34c58032276f5bd481c73c9be53",
+    "recordMatchMethod": "final-png-sha256",
+    "generation": {
+      "targetModel": "gpt-image-2.5-sunburst",
+      "targetQuality": "max",
+      "submittedModel": null,
+      "submittedQuality": null,
+      "actualModel": null,
+      "actualQuality": null,
+      "generatedAt": "2026-10-05T11:21:20.937378+00:00",
+      "tool": "image_gen.imagegen",
+      "route": "builtin",
+      "unverifiedReason": "宿主管理，工具没有 model/quality 选择器，返回未披露，原生PNG无可核实版本元数据。"
+    },
+    "recordedVisualReview": "pending-group-review",
+    "operation": {
+      "type": "whole-canvas-uniform-export",
+      "sourceCanvas": [
+        1254,
+        1254
+      ],
+      "resizedCanvas": [
+        960,
+        960
+      ],
+      "destinationCanvas": [
+        1024,
+        1024
+      ],
+      "offset": [
+        32,
+        6
+      ],
+      "resampling": "Lanczos",
+      "perFrameAlignment": false
+    },
+    "derivedFrom": {
+      "file": "C:\\Users\\luyua\\.codex\\generated_images\\01a10bb4-d756-73d3-a4cf-a813c995b702\\exec-8062beb9-4494-474b-96e8-448996a52dbd.png",
+      "sha256": "826f664e864da3ba47a246fb87ce54bba9f019add9f546cb44867afeaf03b691"
+    },
+    "prompt": {
+      "valid": true,
+      "kind": "file",
+      "file": "prompts/attack-E-01.txt",
+      "sha256": "c3c50cd772f4dd30ab353592a5d0322933ff4c77d88d09ce439959aca29f0007"
+    },
+    "evidence": {
+      "valid": true,
+      "files": [
+        {
+          "file": "records/attack-E-01.receipt.txt",
+          "exists": true,
+          "sha256": "8f91aefe86c31c08570b1c81f271e1d26399e7b195aad5377e1ad10a38c52f5b"
+        }
+      ],
+      "inlineFields": []
+    },
+    "references": [
+      {
+        "file": "D:/work/image/designs/pets-xianling-20260924/source/07-cangzhanglin-E.png",
+        "role": "original E identity and anatomy",
+        "exists": true,
+        "permittedScope": true,
+        "recordedSha256": "299886bd419cc3cc576f55ed6577b69001d18e01464372091fb38fac453fbf1e",
+        "sha256": "299886bd419cc3cc576f55ed6577b69001d18e01464372091fb38fac453fbf1e"
+      },
+      {
+        "file": "D:/work/image/designs/pets-xianling-20260924/source/07-cangzhanglin-W.png",
+        "role": "original W identity and anatomy",
+        "exists": true,
+        "permittedScope": true,
+        "recordedSha256": "b4c3333ac8790d06de71ed52b403cadbe2e7bade8419150e464e80d656fed663",
+        "sha256": "b4c3333ac8790d06de71ed52b403cadbe2e7bade8419150e464e80d656fed663"
+      },
+      {
+        "file": "D:/work/image/designs/attribute-panels/v2-painted/01-character-ui-no-affinity.png",
+        "role": "main approved painting and material style",
+        "exists": true,
+        "permittedScope": true,
+        "recordedSha256": "e64a817c55b59cf5cc47533428f2e560c64a83f3577067a6fb5969244baf3d6b",
+        "sha256": "e64a817c55b59cf5cc47533428f2e560c64a83f3577067a6fb5969244baf3d6b"
+      },
+      {
+        "file": "C:/Users/luyua/.codex/generated_images/01a10bb4-d756-73d3-a4cf-a813c995b702/exec-ff8de444-e0a5-4766-8cc5-34f8473eb59b.png",
+        "role": "previous independent AI frame for fixed camera, identity and pose continuity",
+        "exists": true,
+        "permittedScope": true,
+        "recordedSha256": "fc588d97edddf5517418db33d945192c1bd87579a80fc0c56725d8e884efb208",
+        "sha256": "fc588d97edddf5517418db33d945192c1bd87579a80fc0c56725d8e884efb208"
+      }
+    ]
+  },
+  "sourcePackageMetadata": {
+    "schemaVersion": 1,
+    "pet": "苍嶂麟",
+    "slug": "07-cangzhanglin",
+    "generatedAt": "2026-10-08T06:40:38.892080+00:00",
+    "expectedFrames": 68,
+    "presentFrames": 68,
+    "canvas": [
+      1024,
+      1024
+    ],
+    "pivot": [
+      0.5,
+      0.08
+    ],
+    "anchorTopLeft": [
+      512,
+      942
+    ],
+    "directions": {
+      "E": "斜前朝右下",
+      "W": "真斜后朝左上"
+    },
+    "technicalPassed": true,
+    "visualStatus": "reviewed-with-notes",
+    "visualReviewRecord": "qa/final-review.json",
+    "clientIntegration": "not-tested"
+  },
+  "snapshotPurpose": "Only selected single frame is adopted; metadata of 68-frame original is historical context, not a claim this task copies or validates all 68."
+}

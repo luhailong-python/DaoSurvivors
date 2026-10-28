@@ -1,0 +1,85 @@
+{
+  "file": "art/whole-game/fx/enemy-snow.png",
+  "key": "SnowMagic",
+  "label": "霜雪敌弹",
+  "sha256": "df485a87482a809a315efa2f960bfeacb9528bd6843d954832edc80b867fe5fe",
+  "canvas": [
+    512,
+    512
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    253
+  ],
+  "alphaPixels": {
+    "zero": 218378,
+    "nonzero": 43766,
+    "visibleGreaterThan8": 26922
+  },
+  "derivedFrom": {
+    "file": "art/whole-game/sheets/world-combat-v1.png",
+    "sha256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+    "generationRecord": "art/whole-game/sheets/world-combat-v1.png.generation.json"
+  },
+  "operation": {
+    "kind": "native ownership crop + transparent padding",
+    "cropRectXYXY": [
+      415,
+      758,
+      792,
+      1024
+    ],
+    "placementXY": [
+      85,
+      150
+    ],
+    "nativeCropSize": [
+      377,
+      266
+    ],
+    "visibleAlphaGreaterThan8BBoxInCrop": [
+      19,
+      23,
+      323,
+      188
+    ],
+    "resampled": false,
+    "alphaModified": false,
+    "sourcePixelsPreserved": true,
+    "componentFiltering": "none; all source alpha pixels retained including faint native halo/specks"
+  },
+  "pivotBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "spriteType": "Single",
+  "meshType": "FullRect",
+  "filterMode": "Bilinear",
+  "wrapMode": "Clamp",
+  "mipmaps": false,
+  "colourSpace": "sRGB",
+  "borderLTRB": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "defaultDirection": "+X (right)",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow native atlas generation record; this slicing did not call an image model.",
+  "validation": {
+    "pixelCopyMatchesSource": true,
+    "ownershipComponentCrossings": 0,
+    "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+    "visibleBBox": [
+      104,
+      173,
+      408,
+      338
+    ],
+    "visualReview": "accepted; complete subject, no neighbour contamination, clean visible margins, readable on reviewed light/dark backgrounds",
+    "Unity": "not-tested"
+  }
+}

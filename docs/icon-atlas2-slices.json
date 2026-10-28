@@ -1,0 +1,1348 @@
+{
+  "schemaVersion": 1,
+  "sheet": "art/sheets/combat-icons-v2.png",
+  "sheetSha256": "05d581937553a9f835792500253073a01335bc29ab6efa45f5851de59ac0ea9d",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "art_source": "host_image",
+  "route": "builtin image_gen",
+  "gridRounding": "Generated icons overflow nominal 4x4; row-specific ownership rectangles used instead of equal-grid cuts.",
+  "rawSheetQC": {
+    "status": "fail",
+    "record": "docs/production/combat-icons-v2-qc/sheet-qc.json",
+    "reportedChecks": [
+      {
+        "id": "cross_cell_components",
+        "status": "fail",
+        "value": 5,
+        "threshold": 0,
+        "files": [
+          "art/sheets/combat-icons-v2.png"
+        ]
+      },
+      {
+        "id": "cross_cell_visible",
+        "status": "fail",
+        "value": 5,
+        "threshold": 0,
+        "files": [
+          "art/sheets/combat-icons-v2.png"
+        ]
+      },
+      {
+        "id": "boundary_band",
+        "status": "warn",
+        "value": 567,
+        "threshold": 0,
+        "files": [
+          "art/sheets/combat-icons-v2.png"
+        ]
+      },
+      {
+        "id": "safe_frame",
+        "status": "warn",
+        "value": 16,
+        "threshold": 0,
+        "files": [
+          "art/sheets/combat-icons-v2.png"
+        ]
+      },
+      {
+        "id": "faint_specks",
+        "status": "warn",
+        "value": {
+          "floor_px": 200309,
+          "detached_components": 40
+        },
+        "threshold": 0,
+        "files": [
+          "art/sheets/combat-icons-v2.png"
+        ]
+      }
+    ]
+  },
+  "slicedAssetQC": {
+    "status": "passed_pixel_ownership_and_visual_review",
+    "componentAlphaThreshold": 8,
+    "componentMinArea": 64,
+    "componentCrossings": [],
+    "allSourceAlphaPixelsAssignedExactlyOnce": true,
+    "sumAlphaSource": 148193277,
+    "sumAlphaOutputs": 148193277,
+    "resampling": "none",
+    "matteCleaning": "none; faint native alpha is preserved",
+    "remainingLimit": "Native faint haze/specks preserved; Unity runtime import and display validation are pending the next phase. A 512x512 canvas is padded native content, not newly generated 512x512 detail."
+  },
+  "files": [
+    {
+      "file": "art/icons/skill-bothside.png",
+      "key": "BothSideSkill",
+      "label": "双向道法",
+      "sha256": "9ab746013985416372a7ba184a92f3feaccfaf5ceeb6271c385ec248dba21e19",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/combat-icons-v2.png",
+        "sha256": "05d581937553a9f835792500253073a01335bc29ab6efa45f5851de59ac0ea9d",
+        "generationRecord": "art/sheets/combat-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          0,
+          0,
+          326,
+          323
+        ],
+        "placementXY": [
+          82,
+          73
+        ],
+        "nativeCropSize": [
+          326,
+          323
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          45,
+          78,
+          303,
+          288
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/skill-bouncing.png",
+      "key": "BouncingSkill",
+      "label": "弹跳道法",
+      "sha256": "321aa70a2fa954f041030cbb1e49cc7d9472d5bca63274c0d695bbdb99329883",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/combat-icons-v2.png",
+        "sha256": "05d581937553a9f835792500253073a01335bc29ab6efa45f5851de59ac0ea9d",
+        "generationRecord": "art/sheets/combat-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          326,
+          0,
+          634,
+          323
+        ],
+        "placementXY": [
+          95,
+          78
+        ],
+        "nativeCropSize": [
+          308,
+          323
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          24,
+          60,
+          298,
+          295
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/skill-chain.png",
+      "key": "ChainSkill",
+      "label": "连锁道法",
+      "sha256": "9875f453f7a4ab6c11edb5e9c9368d4620c084c361f3eb056e57c13201d85dd3",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/combat-icons-v2.png",
+        "sha256": "05d581937553a9f835792500253073a01335bc29ab6efa45f5851de59ac0ea9d",
+        "generationRecord": "art/sheets/combat-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          634,
+          0,
+          915,
+          323
+        ],
+        "placementXY": [
+          116,
+          70
+        ],
+        "nativeCropSize": [
+          281,
+          323
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          10,
+          51,
+          270,
+          321
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/skill-circle.png",
+      "key": "CircularAttackSkill",
+      "label": "环形攻击",
+      "sha256": "05793c758a93af6cf6e9efe49c7a62bab1dc87f89f0aba06034edbcec0737142",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/combat-icons-v2.png",
+        "sha256": "05d581937553a9f835792500253073a01335bc29ab6efa45f5851de59ac0ea9d",
+        "generationRecord": "art/sheets/combat-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          915,
+          0,
+          1254,
+          323
+        ],
+        "placementXY": [
+          94,
+          71
+        ],
+        "nativeCropSize": [
+          339,
+          323
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          12,
+          59,
+          313,
+          311
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/skill-orbit.png",
+      "key": "CircularMotionSkill",
+      "label": "环绕法器",
+      "sha256": "fe90465466c6166945f74561c9b5bef2279541547d3c3bd5c58cdff56f80d446",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/combat-icons-v2.png",
+        "sha256": "05d581937553a9f835792500253073a01335bc29ab6efa45f5851de59ac0ea9d",
+        "generationRecord": "art/sheets/combat-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          0,
+          323,
+          334,
+          616
+        ],
+        "placementXY": [
+          83,
+          111
+        ],
+        "nativeCropSize": [
+          334,
+          293
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          36,
+          9,
+          310,
+          281
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/skill-fourcorner.png",
+      "key": "FourCornerSkill",
+      "label": "四向符法",
+      "sha256": "f992585b2cb4dc2d33db9266e867fbcb6b442b8603647d3ced1a521eee58a4e5",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/combat-icons-v2.png",
+        "sha256": "05d581937553a9f835792500253073a01335bc29ab6efa45f5851de59ac0ea9d",
+        "generationRecord": "art/sheets/combat-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          334,
+          323,
+          622,
+          616
+        ],
+        "placementXY": [
+          103,
+          108
+        ],
+        "nativeCropSize": [
+          288,
+          293
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          26,
+          26,
+          280,
+          271
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/skill-scope.png",
+      "key": "InsideScopeSkill",
+      "label": "区域法阵",
+      "sha256": "f0939925d1ae99b5db2992372ee05c80fd9653e98717bb7db08992773a84d9d7",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/combat-icons-v2.png",
+        "sha256": "05d581937553a9f835792500253073a01335bc29ab6efa45f5851de59ac0ea9d",
+        "generationRecord": "art/sheets/combat-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          622,
+          323,
+          940,
+          616
+        ],
+        "placementXY": [
+          98,
+          106
+        ],
+        "nativeCropSize": [
+          318,
+          293
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          10,
+          26,
+          306,
+          275
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/skill-random.png",
+      "key": "RandomSkill",
+      "label": "随机投射",
+      "sha256": "b4009fdaf1f1c1ab3ca3cd89c7de657c42b5bfe5d70d15f45ab1731d823c4139",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/combat-icons-v2.png",
+        "sha256": "05d581937553a9f835792500253073a01335bc29ab6efa45f5851de59ac0ea9d",
+        "generationRecord": "art/sheets/combat-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          940,
+          323,
+          1254,
+          616
+        ],
+        "placementXY": [
+          110,
+          106
+        ],
+        "nativeCropSize": [
+          314,
+          293
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          13,
+          26,
+          278,
+          274
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/skill-nearest.png",
+      "key": "ToNearestSkill",
+      "label": "追踪飞剑",
+      "sha256": "f3fd73c4d6cdd82f85e3663e032b34d07402737f8c96efb817a3987dadd1fbae",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/combat-icons-v2.png",
+        "sha256": "05d581937553a9f835792500253073a01335bc29ab6efa45f5851de59ac0ea9d",
+        "generationRecord": "art/sheets/combat-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          0,
+          616,
+          320,
+          914
+        ],
+        "placementXY": [
+          86,
+          98
+        ],
+        "nativeCropSize": [
+          320,
+          298
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          45,
+          21,
+          295,
+          295
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/treasure-closed.png",
+      "key": "TreasureClosed",
+      "label": "未开宝箱",
+      "sha256": "ad5cc72fa0992ac253d8cea99efbcab82944eb86bb78794063e475e4cd1579c5",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/combat-icons-v2.png",
+        "sha256": "05d581937553a9f835792500253073a01335bc29ab6efa45f5851de59ac0ea9d",
+        "generationRecord": "art/sheets/combat-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          320,
+          616,
+          627,
+          914
+        ],
+        "placementXY": [
+          97,
+          96
+        ],
+        "nativeCropSize": [
+          307,
+          298
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          25,
+          46,
+          293,
+          274
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/treasure-open.png",
+      "key": "TreasureOpen",
+      "label": "已开宝箱",
+      "sha256": "d6f46aac63551e0a8a3f70362eceafb641d96186ebf8a7e170e214644685531f",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/combat-icons-v2.png",
+        "sha256": "05d581937553a9f835792500253073a01335bc29ab6efa45f5851de59ac0ea9d",
+        "generationRecord": "art/sheets/combat-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          627,
+          616,
+          933,
+          914
+        ],
+        "placementXY": [
+          106,
+          104
+        ],
+        "nativeCropSize": [
+          306,
+          298
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          15,
+          19,
+          285,
+          285
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/moneybag.png",
+      "key": "MoneyBag",
+      "label": "钱袋",
+      "sha256": "89344076398a52130d3a6cc9d86231fa92a9580c2750e9e651da1a2826c05dfe",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/combat-icons-v2.png",
+        "sha256": "05d581937553a9f835792500253073a01335bc29ab6efa45f5851de59ac0ea9d",
+        "generationRecord": "art/sheets/combat-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          933,
+          616,
+          1254,
+          914
+        ],
+        "placementXY": [
+          99,
+          98
+        ],
+        "nativeCropSize": [
+          321,
+          298
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          23,
+          30,
+          291,
+          287
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/healing.png",
+      "key": "Healing",
+      "label": "回复物",
+      "sha256": "5707d2f448176aec89aabe4c6f3a77bdd1bace967f18404cdb748c195827021d",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/combat-icons-v2.png",
+        "sha256": "05d581937553a9f835792500253073a01335bc29ab6efa45f5851de59ac0ea9d",
+        "generationRecord": "art/sheets/combat-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          0,
+          914,
+          322,
+          1254
+        ],
+        "placementXY": [
+          82,
+          109
+        ],
+        "nativeCropSize": [
+          322,
+          340
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          54,
+          18,
+          293,
+          276
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/buff-burn.png",
+      "key": "Burn",
+      "label": "灼烧",
+      "sha256": "65552ddf260a259cdd61fd3cb6dd5934ff48bf30ed73daf4353f462da0ae6280",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/combat-icons-v2.png",
+        "sha256": "05d581937553a9f835792500253073a01335bc29ab6efa45f5851de59ac0ea9d",
+        "generationRecord": "art/sheets/combat-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          322,
+          914,
+          618,
+          1254
+        ],
+        "placementXY": [
+          104,
+          107
+        ],
+        "nativeCropSize": [
+          296,
+          340
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          30,
+          5,
+          274,
+          293
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/buff-freeze.png",
+      "key": "Freeze",
+      "label": "冰冻",
+      "sha256": "e8652e912bd4def6532102dbed7b86ceb31f1cfb300e4b157efe8b00b9ae05ce",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/combat-icons-v2.png",
+        "sha256": "05d581937553a9f835792500253073a01335bc29ab6efa45f5851de59ac0ea9d",
+        "generationRecord": "art/sheets/combat-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          618,
+          914,
+          929,
+          1254
+        ],
+        "placementXY": [
+          98,
+          100
+        ],
+        "nativeCropSize": [
+          311,
+          340
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          23,
+          20,
+          294,
+          292
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/buff-slow.png",
+      "key": "Slow",
+      "label": "减速",
+      "sha256": "a8e662f3fed3367ac6fb9c73cb5d6d3c1e4dae96cb427b562542caa166620a98",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/combat-icons-v2.png",
+        "sha256": "05d581937553a9f835792500253073a01335bc29ab6efa45f5851de59ac0ea9d",
+        "generationRecord": "art/sheets/combat-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          929,
+          914,
+          1254,
+          1254
+        ],
+        "placementXY": [
+          102,
+          92
+        ],
+        "nativeCropSize": [
+          325,
+          340
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          17,
+          37,
+          292,
+          292
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    }
+  ],
+  "visualReview": {
+    "reviewed": true,
+    "reviewer": "kit_system_audit",
+    "method": "Actual view_image inspection of both 16-icon contact sheets on light ivory and dark jade, plus original 512x512 ChainSkill and Burn outputs",
+    "contactSheets": [
+      "art/sheets/combat-icons-v2-review-light.png",
+      "art/sheets/combat-icons-v2-review-dark.png"
+    ],
+    "visibleNeighborFragments": false,
+    "visibleClippedTrailsOrExtremities": false,
+    "retainedSoftGlowAndSmoke": true,
+    "nativeTransparentPixelsPreserved": true,
+    "notes": "All sixteen semantic icons identifiable; centered framing and native soft trails retained. Original very faint alpha haze/specks were preserved without matte cleanup. Raw equal-grid QC remains failed; only the ownership-rectangle slices are accepted. Closed/open treasure differ in presentation; native figures are static icons, not animation frames."
+  },
+  "reviewCompositions": [
+    {
+      "file": "art/sheets/combat-icons-v2-review-light.png",
+      "sha256": "f12d73554d5b249ca4f143688312dbf5c5c573bae97097b41286652687d1ad4a",
+      "size": [
+        1024,
+        1120
+      ],
+      "mode": "RGB",
+      "kind": "QA contact sheet, not runtime icon",
+      "derivedFrom": [
+        {
+          "file": "art/icons/skill-bothside.png",
+          "sha256": "9ab746013985416372a7ba184a92f3feaccfaf5ceeb6271c385ec248dba21e19"
+        },
+        {
+          "file": "art/icons/skill-bouncing.png",
+          "sha256": "321aa70a2fa954f041030cbb1e49cc7d9472d5bca63274c0d695bbdb99329883"
+        },
+        {
+          "file": "art/icons/skill-chain.png",
+          "sha256": "9875f453f7a4ab6c11edb5e9c9368d4620c084c361f3eb056e57c13201d85dd3"
+        },
+        {
+          "file": "art/icons/skill-circle.png",
+          "sha256": "05793c758a93af6cf6e9efe49c7a62bab1dc87f89f0aba06034edbcec0737142"
+        },
+        {
+          "file": "art/icons/skill-orbit.png",
+          "sha256": "fe90465466c6166945f74561c9b5bef2279541547d3c3bd5c58cdff56f80d446"
+        },
+        {
+          "file": "art/icons/skill-fourcorner.png",
+          "sha256": "f992585b2cb4dc2d33db9266e867fbcb6b442b8603647d3ced1a521eee58a4e5"
+        },
+        {
+          "file": "art/icons/skill-scope.png",
+          "sha256": "f0939925d1ae99b5db2992372ee05c80fd9653e98717bb7db08992773a84d9d7"
+        },
+        {
+          "file": "art/icons/skill-random.png",
+          "sha256": "b4009fdaf1f1c1ab3ca3cd89c7de657c42b5bfe5d70d15f45ab1731d823c4139"
+        },
+        {
+          "file": "art/icons/skill-nearest.png",
+          "sha256": "f3fd73c4d6cdd82f85e3663e032b34d07402737f8c96efb817a3987dadd1fbae"
+        },
+        {
+          "file": "art/icons/treasure-closed.png",
+          "sha256": "ad5cc72fa0992ac253d8cea99efbcab82944eb86bb78794063e475e4cd1579c5"
+        },
+        {
+          "file": "art/icons/treasure-open.png",
+          "sha256": "d6f46aac63551e0a8a3f70362eceafb641d96186ebf8a7e170e214644685531f"
+        },
+        {
+          "file": "art/icons/moneybag.png",
+          "sha256": "89344076398a52130d3a6cc9d86231fa92a9580c2750e9e651da1a2826c05dfe"
+        },
+        {
+          "file": "art/icons/healing.png",
+          "sha256": "5707d2f448176aec89aabe4c6f3a77bdd1bace967f18404cdb748c195827021d"
+        },
+        {
+          "file": "art/icons/buff-burn.png",
+          "sha256": "65552ddf260a259cdd61fd3cb6dd5934ff48bf30ed73daf4353f462da0ae6280"
+        },
+        {
+          "file": "art/icons/buff-freeze.png",
+          "sha256": "e8652e912bd4def6532102dbed7b86ceb31f1cfb300e4b157efe8b00b9ae05ce"
+        },
+        {
+          "file": "art/icons/buff-slow.png",
+          "sha256": "a8e662f3fed3367ac6fb9c73cb5d6d3c1e4dae96cb427b562542caa166620a98"
+        }
+      ],
+      "operation": {
+        "layout": "4x4, 256x280 display cells with native font labels",
+        "iconPreviewResizeFrom": [
+          512,
+          512
+        ],
+        "iconPreviewResizeTo": [
+          256,
+          256
+        ],
+        "resampler": "LANCZOS",
+        "background": "light",
+        "newModelCall": false
+      }
+    },
+    {
+      "file": "art/sheets/combat-icons-v2-review-dark.png",
+      "sha256": "321bd172343d43cc710991fe22b94e8fc8b568296e212137c4ebff82882dfa7b",
+      "size": [
+        1024,
+        1120
+      ],
+      "mode": "RGB",
+      "kind": "QA contact sheet, not runtime icon",
+      "derivedFrom": [
+        {
+          "file": "art/icons/skill-bothside.png",
+          "sha256": "9ab746013985416372a7ba184a92f3feaccfaf5ceeb6271c385ec248dba21e19"
+        },
+        {
+          "file": "art/icons/skill-bouncing.png",
+          "sha256": "321aa70a2fa954f041030cbb1e49cc7d9472d5bca63274c0d695bbdb99329883"
+        },
+        {
+          "file": "art/icons/skill-chain.png",
+          "sha256": "9875f453f7a4ab6c11edb5e9c9368d4620c084c361f3eb056e57c13201d85dd3"
+        },
+        {
+          "file": "art/icons/skill-circle.png",
+          "sha256": "05793c758a93af6cf6e9efe49c7a62bab1dc87f89f0aba06034edbcec0737142"
+        },
+        {
+          "file": "art/icons/skill-orbit.png",
+          "sha256": "fe90465466c6166945f74561c9b5bef2279541547d3c3bd5c58cdff56f80d446"
+        },
+        {
+          "file": "art/icons/skill-fourcorner.png",
+          "sha256": "f992585b2cb4dc2d33db9266e867fbcb6b442b8603647d3ced1a521eee58a4e5"
+        },
+        {
+          "file": "art/icons/skill-scope.png",
+          "sha256": "f0939925d1ae99b5db2992372ee05c80fd9653e98717bb7db08992773a84d9d7"
+        },
+        {
+          "file": "art/icons/skill-random.png",
+          "sha256": "b4009fdaf1f1c1ab3ca3cd89c7de657c42b5bfe5d70d15f45ab1731d823c4139"
+        },
+        {
+          "file": "art/icons/skill-nearest.png",
+          "sha256": "f3fd73c4d6cdd82f85e3663e032b34d07402737f8c96efb817a3987dadd1fbae"
+        },
+        {
+          "file": "art/icons/treasure-closed.png",
+          "sha256": "ad5cc72fa0992ac253d8cea99efbcab82944eb86bb78794063e475e4cd1579c5"
+        },
+        {
+          "file": "art/icons/treasure-open.png",
+          "sha256": "d6f46aac63551e0a8a3f70362eceafb641d96186ebf8a7e170e214644685531f"
+        },
+        {
+          "file": "art/icons/moneybag.png",
+          "sha256": "89344076398a52130d3a6cc9d86231fa92a9580c2750e9e651da1a2826c05dfe"
+        },
+        {
+          "file": "art/icons/healing.png",
+          "sha256": "5707d2f448176aec89aabe4c6f3a77bdd1bace967f18404cdb748c195827021d"
+        },
+        {
+          "file": "art/icons/buff-burn.png",
+          "sha256": "65552ddf260a259cdd61fd3cb6dd5934ff48bf30ed73daf4353f462da0ae6280"
+        },
+        {
+          "file": "art/icons/buff-freeze.png",
+          "sha256": "e8652e912bd4def6532102dbed7b86ceb31f1cfb300e4b157efe8b00b9ae05ce"
+        },
+        {
+          "file": "art/icons/buff-slow.png",
+          "sha256": "a8e662f3fed3367ac6fb9c73cb5d6d3c1e4dae96cb427b562542caa166620a98"
+        }
+      ],
+      "operation": {
+        "layout": "4x4, 256x280 display cells with native font labels",
+        "iconPreviewResizeFrom": [
+          512,
+          512
+        ],
+        "iconPreviewResizeTo": [
+          256,
+          256
+        ],
+        "resampler": "LANCZOS",
+        "background": "dark",
+        "newModelCall": false
+      }
+    }
+  ]
+}

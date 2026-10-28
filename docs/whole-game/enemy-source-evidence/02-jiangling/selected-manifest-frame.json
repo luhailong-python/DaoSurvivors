@@ -1,0 +1,171 @@
+{
+  "originalManifest": "designs/creature-combat-20261005/pets/02-jiangling/manifest.json",
+  "originalManifestSHA256": "2c901e041b7b65517cf6a65f2b634003d957de385584503f4ebf649dedec765d",
+  "selection": "runtime/attack/E/01.png",
+  "selectedFrameRecord": {
+    "action": "attack",
+    "direction": "E",
+    "frame": 1,
+    "file": "runtime/attack/E/01.png",
+    "durationMs": 30,
+    "pivot": [
+      0.5,
+      0.08
+    ],
+    "event": null,
+    "present": true,
+    "errors": [],
+    "warnings": [
+      "reference_outside_audit_scope:reference:3"
+    ],
+    "visual": {
+      "stillReview": "reviewed",
+      "sequenceReview": "ordered-contact-sheet-reviewed; native-live-playback-sampled-normal-and-0.25",
+      "clientReview": "not_tested",
+      "evidence": "qa/E-hit-attack-visual.json",
+      "sequenceEvidence": "qa/native-playback-review.json"
+    },
+    "sha256": "0d532a7961ad2440de5054e013048bbe38e5025b05094079e45d7ac28fb23b0a",
+    "width": 1024,
+    "height": 1024,
+    "mode": "RGBA",
+    "format": "PNG",
+    "alpha": {
+      "min": 0,
+      "max": 255,
+      "transparentPixels": 589508,
+      "opaquePixels": 1820,
+      "partialPixels": 457248,
+      "transparentFraction": 0.562199
+    },
+    "contentBoundsAlphaAbove8": [
+      25,
+      51,
+      998,
+      980
+    ],
+    "transparentMarginsLTRB": [
+      25,
+      51,
+      26,
+      44
+    ],
+    "rgbaPixelSha256": "5bd4a3d1540ae34f81339d4d338b54a51acaffe86a8fa55b51c2464c1684dfa6",
+    "visiblePixelSha256": "e1d07a02852cd976df37f70dbc8a4f140cf04ced211e100d6535a7e9d10d8259",
+    "sourceRecord": {
+      "path": "runtime/attack/E/01.png.generation.json",
+      "sha256": "7411b9ebd7dae4b701aa6bbdfc877d764c4deb55a84fc6e1497199e1396c316f",
+      "status": "checked",
+      "references": [
+        {
+          "kind": "prompt",
+          "path": "prompts/attack-E-01.txt",
+          "exists": true
+        },
+        {
+          "kind": "evidence:receipt",
+          "path": "receipts/attack-E-01.json",
+          "exists": true
+        },
+        {
+          "kind": "reference:0",
+          "path": "D:/work/image/designs/pets-xianling-20260924/source/02-jiangling-E.png",
+          "exists": true
+        },
+        {
+          "kind": "reference:1",
+          "path": "D:/work/image/designs/pets-xianling-20260924/source/02-jiangling-W.png",
+          "exists": true
+        },
+        {
+          "kind": "reference:2",
+          "path": "D:/work/image/designs/attribute-panels/v2-painted/01-character-ui-no-affinity.png",
+          "exists": true
+        },
+        {
+          "kind": "reference:3",
+          "path": "C:\\Users\\luyua\\.codex\\generated_images\\01a10bb2-4b0a-7590-8f85-c50fcf1b419f\\exec-a8431599-cc41-485a-b93d-ea076ce4ffc8.png",
+          "status": "outside_audit_scope"
+        }
+      ],
+      "actualModelQualityStatus": "unconfirmed",
+      "actualModel": null,
+      "actualQuality": null,
+      "configTarget": {
+        "schema_version": 1,
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "max",
+        "builtin_product": "ChatGPT Images 2.5",
+        "selection": "latest_verified",
+        "preferred_route": "builtin",
+        "verified_on": "2026-10-04",
+        "sources": {
+          "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+          "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+        }
+      }
+    }
+  },
+  "sourcePackageMetadata": {
+    "schemaVersion": 1,
+    "pet": "02-jiangling",
+    "name": "绛铃",
+    "generatedAt": "2026-10-08T06:30:32.316323+00:00",
+    "deliveryStatus": "assets_complete_native_playback_reviewed",
+    "technicalStatus": "passed",
+    "frameCount": 68,
+    "expectedFrameCount": 68,
+    "canvas": {
+      "width": 1024,
+      "height": 1024,
+      "format": "PNG",
+      "mode": "RGBA"
+    },
+    "coordinates": {
+      "pivot": [
+        0.5,
+        0.08
+      ],
+      "pivotOrigin": "bottom-left",
+      "neutralAnchorTopLeftPx": [
+        512,
+        942
+      ],
+      "alignment": "single_uniform_export_transform_per_direction; no per-frame foot realignment"
+    },
+    "directions": {
+      "E": "斜前朝右下",
+      "W": "斜后朝左上"
+    },
+    "actions": {
+      "hit": {
+        "framesPerDirection": 6,
+        "durationMs": 40,
+        "totalDurationMs": 240,
+        "eventFrame": 3,
+        "event": "impact"
+      },
+      "attack": {
+        "framesPerDirection": 12,
+        "durationMs": 30,
+        "totalDurationMs": 360,
+        "eventFrame": 7,
+        "event": "attack"
+      },
+      "cast": {
+        "framesPerDirection": 16,
+        "durationMs": 45,
+        "totalDurationMs": 720,
+        "eventFrame": 10,
+        "event": "cast"
+      }
+    },
+    "technicalReport": "qa/technical-check.json",
+    "preview": "preview.html",
+    "nativePreview": "preview-native.cmd",
+    "visualReview": "qa/visual-review.json; independent_record: qa/native-playback-review.json; native live playback sampled at 1x and 0.25x",
+    "clientReview": "not_tested",
+    "sourceAudit": "qa/source-audit.json"
+  },
+  "snapshotPurpose": "Only selected single frame is adopted; metadata of 68-frame original is historical context, not a claim this task copies or validates all 68."
+}

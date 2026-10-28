@@ -1,0 +1,126 @@
+{
+  "sourceKey": "Fairy",
+  "displayName": "岚铎仙幻身",
+  "sourceIdentity": "岚铎仙",
+  "role": "最终Boss远程",
+  "identity": "持玉铎与玉槌的仙灵；朱红弹体",
+  "artSource": "existing",
+  "adoptionType": "reskin; direct byte copy",
+  "sourceArtRepository": {
+    "path": "F:\\work\\image",
+    "remote": "https://luyuacpp.visualstudio.com/image/_git/image"
+  },
+  "sourceArtPath": "designs/creature-combat-20261005/pets/15-landuoxian/runtime/attack/E/01.png",
+  "destination": "art/whole-game/enemies/Fairy.png",
+  "sourceSHA256": "33fdac90c217111d5b57bead28417d6074523acb8305fd9237c981ccc6ae21d5",
+  "sha256": "33fdac90c217111d5b57bead28417d6074523acb8305fd9237c981ccc6ae21d5",
+  "copyVerified": true,
+  "canvas": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "realAlpha": true,
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "zeroPixels": 650446,
+    "partialPixels": 397227,
+    "opaquePixels": 903,
+    "visibleBBoxAlphaAtLeast16": [
+      98,
+      104,
+      943,
+      930
+    ],
+    "visibleEdgePixelsAlphaAtLeast16": 0,
+    "edgePixelsAnyAlpha": 0
+  },
+  "pivotBottomLeft": [
+    0.5,
+    0.08
+  ],
+  "anchorTopLeftPx": [
+    512,
+    942
+  ],
+  "anchorKind": "source logical ground anchor; not exact every-foot contact",
+  "facing": "three-quarter front, down-right; x mirror allowed for source movement",
+  "suggestedVisibleHeightAt1080": 170,
+  "spriteType": "Single",
+  "meshType": "FullRect",
+  "borderLTRB": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "filterMode": "Bilinear",
+  "wrapMode": "Clamp",
+  "mipmaps": false,
+  "colourSpace": "sRGB",
+  "generationModel": null,
+  "generationQuality": null,
+  "generationEvidenceNote": "Historical source generation evidence is preserved. No generation or AI edit occurred during this adoption. Configuration targets never establish actual model/quality.",
+  "sourceRecords": [
+    {
+      "source": "designs/creature-combat-20261005/pets/15-landuoxian/runtime/attack/E/01.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/15-landuoxian/01-source-record-01.json",
+      "sha256": "9f018bed058647a30be86d40cad087805525d0734e6371f11e94f694a7d95e0f"
+    }
+  ],
+  "selectedManifestSnapshot": "docs/whole-game/enemy-source-evidence/15-landuoxian/selected-manifest-frame.json",
+  "sourceGamePrefab": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/Fairy.prefab",
+  "sourceGameSpritePaths": [
+    "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Fairy.png"
+  ],
+  "review": {
+    "fullSourceImageViewed": true,
+    "adoptedDate": "2026-10-28",
+    "visibleClippingCheck": "pass",
+    "identityCheck": "pass; distinct existing Daoist chibi identity",
+    "engineValidation": "not-run; Unity import and motion integration remain next phase",
+    "finalLightDarkLineup": "accepted; identity, anatomy, implements and tails/wings intact, distinct readable silhouettes"
+  },
+  "historicalNativeSize": [
+    1254,
+    1254
+  ],
+  "historicalNativeSizeBasis": "Source README and selected source record; final1024PNG was an earlier full-canvas export, this adoption does not resample.",
+  "sourceEvidenceDependencies": [
+    {
+      "source": "designs/creature-combat-20261005/pets/15-landuoxian/runtime/attack/E/01.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/15-landuoxian/dependencies/runtime/attack/E/01.png.generation.json",
+      "sha256": "9f018bed058647a30be86d40cad087805525d0734e6371f11e94f694a7d95e0f"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/15-landuoxian/provenance/attack/E/01.prompt.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/15-landuoxian/dependencies/provenance/attack/E/01.prompt.txt",
+      "sha256": "a885ee0656c137b1b87ccbc486d6e2f039f11b57dce92c9e5161717ce7e58330"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/15-landuoxian/cleanup.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/15-landuoxian/dependencies/cleanup.json",
+      "sha256": "44ed30302259f6be31a65e1d1fe479d14db6c2b5907e9579c63c68edf51a12a6"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/15-landuoxian/provenance/attack/E/01.receipt.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/15-landuoxian/dependencies/provenance/attack/E/01.receipt.json",
+      "sha256": "5f57ba7644b848b04425c343bee3bbe82fabb33ca1c4d20bb07c3e0b6b9ea12d"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/15-landuoxian/visual-review.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/15-landuoxian/dependencies/visual-review.json",
+      "sha256": "238896b4e189ee77185ef2383d5c8a040b549e4282dbd474a871290304d69d83"
+    }
+  ],
+  "sourceFrameWarnings": [],
+  "generationConfigTarget": {
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "basis": "Historical source configuration, not actual returned metadata and not a new generation."
+  },
+  "sourceManifestSHAMatches": true
+}

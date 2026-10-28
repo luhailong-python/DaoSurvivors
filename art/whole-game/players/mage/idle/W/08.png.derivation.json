@@ -1,0 +1,9 @@
+{
+  "file": "art/whole-game/players/mage/idle/W/08.png",
+  "sha256": "ccf2b6be7ff93c2afe088bf6a2621ab7a8417972e39f6ce9300ee7e952f2ac6a",
+  "derivedFrom": {
+    "file": "art/whole-game/players/mage/idle/E/08.png",
+    "sha256": "11674a8b9212b90f44f9043722465ca537de74c864772f4fa0f6879c1af64da5"
+  },
+  "operation": "exact horizontal reflection; fixed512x512 canvas; chronological frame retained"
+}

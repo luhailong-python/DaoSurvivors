@@ -1,0 +1,25 @@
+Use case: ui-mockup. Asset type: high-definition 4 by 4 Daoist fantasy GAME ICON ATLAS, TRUE TRANSPARENT BACKGROUND, square 2048x2048 or highest native square detail.
+Input 1 and input 2 are primary VISUAL STYLE references for the premium jade-green, warm ivory, delicate gold and rounded hand-painted Chinese Daoist chibi game aesthetic. Input 3 is the companion attribute icon atlas; match its exquisite hand-painted finish, scale and material style. Do not copy captions, UI windows or exact subjects from the references.
+Make EXACTLY SIXTEEN individual icons in an exact 4 columns x 4 rows uniform grid. One icon centered in each cell; each occupies at most 64% of its cell width and height, leaving broad transparent space on every side. Keep all parts and wisps completely inside their OWN CELL. No cell borders, no background plaques, no circles enclosing every icon, no text, NO letters, NO numbers, no labels, no watermark. Actual native alpha around and BETWEEN icons; never a painted checkerboard. Clear readable silhouettes at 96 pixels, warm jade/ivory/gold primary color, painterly soft bevels and restrained light, no plastic shine or flat-vector look.
+Exact row-major order:
+ROW 1:
+1. BOTH-SIDE SPELL: two short jade crescent blades pointing in opposite left/right directions around a tiny gold taiji bead.
+2. BOUNCING SPELL: a pink-ivory spirit pearl with two short curved jade ricochet trails. Compact, not crossing the cell.
+3. CHAIN SPELL: three glowing jade beads linked by delicate gold lightning.
+4. CIRCULAR ATTACK: a jade taiji medallion releasing one compact ivory-gold radial shock ring.
+ROW 2:
+5. ORBIT SPELL: three small jade-and-gold gourd charms revolving around a compact cloud ring.
+6. FOUR-CORNER SPELL: four golden talisman slips pointing at the four diagonal directions around one jade center.
+7. AREA FORMATION: an ivory-jade octagonal Daoist formation disc with a tiny jade light pillar, abstract engraved ornament without readable letters.
+8. RANDOM PROJECTILES: four soft pink jade lotus petals flying outward in different directions with short gold trails, compact silhouette.
+ROW 3:
+9. HOMING SWORD: elegant jade flying sword aimed diagonally upward with a small curved golden homing trail.
+10. CLOSED TREASURE CHEST: a rounded warm wood chest with thick jade corner guards, gold cloud inlays and a tiny red tassel, lid closed.
+11. OPEN TREASURE CHEST: the SAME style wooden jade chest with lid open and warm golden light and two gold coins inside.
+12. MONEY BAG: a rounded ivory-and-gold cloth pouch with a jade taiji seal and a tied red cord, not a modern dollar bag.
+ROW 4:
+13. HEALING PICKUP: a small ivory-jade medicine bowl holding two warm red pills and one tiny green leaf.
+14. BURN STATUS: a compact friendly curling orange-gold flame with a jade spark at its base.
+15. FREEZE STATUS: a delicate pale blue ice crystal snowflake with rounded frosted jade tips, very clean silhouette.
+16. SLOW STATUS: a jade sandal lightly wrapped by one looping gold cloud cord, a small hanging ivory bead.
+Important: these sixteen icons form a companion set for all nine real attack patterns, treasure rewards, healing and buff explanations. Icons are separate game-ready artwork with no baked game copy. Use generous identical empty alpha margins, exact ordering and no extra objects.

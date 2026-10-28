@@ -1,0 +1,9 @@
+{
+  "file": "art/whole-game/players/mage/idle/W/strip.png",
+  "sha256": "6781ccc3e643976e622b7a931b6cac753d0fd84901c053a23ff405da79c98225",
+  "derivedFrom": {
+    "file": "art/whole-game/players/mage/idle/E/strip.png",
+    "sha256": "57deed5693bcc8e1a431cfba4d5a74c7196e937c20f275c1ab71525ad3541c3c"
+  },
+  "operation": "each of16 chronological cells reflected horizontally; frame order unchanged"
+}

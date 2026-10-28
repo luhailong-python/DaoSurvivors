@@ -1,0 +1,869 @@
+{
+  "id": "29-upgrade-new",
+  "viewport": [
+    1920,
+    1080
+  ],
+  "designSize": [
+    1920,
+    1080
+  ],
+  "textRegions": [
+    {
+      "text": "56",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "color": "rgb(165, 115, 50)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1260,
+          "y": 350,
+          "width": 33.31,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "text": "青云小道",
+      "tag": "STRONG",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "rgb(36, 75, 57)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 180,
+          "y": 53.5,
+          "width": 96,
+          "height": 32
+        }
+      ]
+    },
+    {
+      "text": "Lv. 6",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "17px",
+      "fontWeight": "700",
+      "color": "rgb(36, 75, 57)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 535.27,
+          "y": 51.5,
+          "width": 44.73,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "text": "翠竹幽谷 · 初境",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(135, 147, 110)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 871.63,
+          "y": 56,
+          "width": 138.73,
+          "height": 21
+        }
+      ]
+    },
+    {
+      "text": "02 : 48",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "42px",
+      "fontWeight": "500",
+      "color": "rgb(36, 75, 57)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 858.13,
+          "y": 80,
+          "width": 165.73,
+          "height": 61
+        }
+      ]
+    },
+    {
+      "text": "气血",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(135, 147, 110)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1357,
+          "y": 56.84,
+          "width": 30,
+          "height": 21
+        }
+      ]
+    },
+    {
+      "text": "94 / 100",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "27px",
+      "fontWeight": "500",
+      "color": "rgb(36, 75, 57)",
+      "alignment": "center",
+      "lineHeight": "51.3px",
+      "rects": [
+        {
+          "x": 1323.19,
+          "y": 83.84,
+          "width": 97.61,
+          "height": 39
+        }
+      ]
+    },
+    {
+      "text": "本局金币",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(135, 147, 110)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1505,
+          "y": 56.84,
+          "width": 60,
+          "height": 21
+        }
+      ]
+    },
+    {
+      "text": "240",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "27px",
+      "fontWeight": "500",
+      "color": "rgb(36, 75, 57)",
+      "alignment": "center",
+      "lineHeight": "51.3px",
+      "rects": [
+        {
+          "x": 1512.52,
+          "y": 83.84,
+          "width": 44.97,
+          "height": 39
+        }
+      ]
+    },
+    {
+      "text": "击败妖灵",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(135, 147, 110)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1668,
+          "y": 56.84,
+          "width": 60,
+          "height": 21
+        }
+      ]
+    },
+    {
+      "text": "268",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "27px",
+      "fontWeight": "500",
+      "color": "rgb(36, 75, 57)",
+      "alignment": "center",
+      "lineHeight": "51.3px",
+      "rects": [
+        {
+          "x": 1675.52,
+          "y": 83.84,
+          "width": 44.97,
+          "height": 39
+        }
+      ]
+    },
+    {
+      "text": "Ⅱ",
+      "tag": "BUTTON",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "color": "rgb(255, 237, 189)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1809.5,
+          "y": 71,
+          "width": 30,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "text": "法",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(115, 133, 104)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 60,
+          "y": 221.5,
+          "width": 14,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "text": "Lv.1",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "color": "rgb(255, 239, 185)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 136.98,
+          "y": 247,
+          "width": 20.02,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "text": "Lv.2",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "color": "rgb(255, 239, 185)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 212.98,
+          "y": 247,
+          "width": 20.02,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "text": "Lv.3",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "color": "rgb(255, 239, 185)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 288.98,
+          "y": 247,
+          "width": 20.02,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "text": "诀",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(115, 133, 104)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 60,
+          "y": 299.5,
+          "width": 14,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "text": "Lv.1",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "color": "rgb(255, 239, 185)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 136.98,
+          "y": 325,
+          "width": 20.02,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "text": "Lv.2",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "color": "rgb(255, 239, 185)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 212.98,
+          "y": 325,
+          "width": 20.02,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "text": "收集灵气，领悟道法；留心走位与气血。",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "color": "rgb(111, 129, 98)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 70,
+          "y": 1007,
+          "width": 306,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "text": "WASD / 方向键移动 · 法术自动御敌",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "color": "rgb(111, 129, 98)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1577,
+          "y": 1007,
+          "width": 273,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "text": "灵光乍现",
+      "tag": "DIV",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "38px",
+      "fontWeight": "400",
+      "color": "rgb(255, 241, 192)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 870,
+          "y": 210,
+          "width": 180,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "text": "修为精进，请择一道法。",
+      "tag": "P",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "21px",
+      "fontWeight": "400",
+      "color": "rgb(110, 129, 100)",
+      "alignment": "center",
+      "lineHeight": "35.7px",
+      "rects": [
+        {
+          "x": 844.5,
+          "y": 341,
+          "width": 231,
+          "height": 30
+        }
+      ]
+    },
+    {
+      "text": "新道法 · 主动",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(142, 135, 94)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 470.3,
+          "y": 429.69,
+          "width": 112.73,
+          "height": 21
+        }
+      ]
+    },
+    {
+      "text": "连星诀",
+      "tag": "H3",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "29px",
+      "fontWeight": "500",
+      "color": "rgb(36, 75, 57)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 478.66,
+          "y": 605.69,
+          "width": 96,
+          "height": 42
+        }
+      ]
+    },
+    {
+      "text": "法力在妖灵之间接续连锁",
+      "tag": "P",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "color": "rgb(122, 132, 104)",
+      "alignment": "center",
+      "lineHeight": "34.2px",
+      "rects": [
+        {
+          "x": 422.16,
+          "y": 659.69,
+          "width": 209,
+          "height": 27
+        }
+      ]
+    },
+    {
+      "text": "领悟此法",
+      "tag": "BUTTON",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "21px",
+      "fontWeight": "400",
+      "color": "rgb(255, 241, 196)",
+      "alignment": "center",
+      "lineHeight": "27.3px",
+      "rects": [
+        {
+          "x": 478.66,
+          "y": 741.03,
+          "width": 96,
+          "height": 30
+        }
+      ]
+    },
+    {
+      "text": "新心诀 · 被动",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(142, 135, 94)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 903.63,
+          "y": 429.69,
+          "width": 112.73,
+          "height": 21
+        }
+      ]
+    },
+    {
+      "text": "养元",
+      "tag": "H3",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "29px",
+      "fontWeight": "500",
+      "color": "rgb(36, 75, 57)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 927.98,
+          "y": 605.69,
+          "width": 64,
+          "height": 42
+        }
+      ]
+    },
+    {
+      "text": "提高本局气血上限",
+      "tag": "P",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "color": "rgb(122, 132, 104)",
+      "alignment": "center",
+      "lineHeight": "34.2px",
+      "rects": [
+        {
+          "x": 883.98,
+          "y": 659.69,
+          "width": 152,
+          "height": 27
+        }
+      ]
+    },
+    {
+      "text": "领悟此法",
+      "tag": "BUTTON",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "21px",
+      "fontWeight": "400",
+      "color": "rgb(255, 241, 196)",
+      "alignment": "center",
+      "lineHeight": "27.3px",
+      "rects": [
+        {
+          "x": 911.98,
+          "y": 741.03,
+          "width": 96,
+          "height": 30
+        }
+      ]
+    },
+    {
+      "text": "新道法 · 主动",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(142, 135, 94)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1336.95,
+          "y": 429.69,
+          "width": 112.73,
+          "height": 21
+        }
+      ]
+    },
+    {
+      "text": "四象符",
+      "tag": "H3",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "29px",
+      "fontWeight": "500",
+      "color": "rgb(36, 75, 57)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1345.31,
+          "y": 605.69,
+          "width": 96,
+          "height": 42
+        }
+      ]
+    },
+    {
+      "text": "向四角释放符箓投射物",
+      "tag": "P",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "color": "rgb(122, 132, 104)",
+      "alignment": "center",
+      "lineHeight": "34.2px",
+      "rects": [
+        {
+          "x": 1298.31,
+          "y": 659.69,
+          "width": 190,
+          "height": 27
+        }
+      ]
+    },
+    {
+      "text": "领悟此法",
+      "tag": "BUTTON",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "21px",
+      "fontWeight": "400",
+      "color": "rgb(255, 241, 196)",
+      "alignment": "center",
+      "lineHeight": "27.3px",
+      "rects": [
+        {
+          "x": 1345.31,
+          "y": 741.03,
+          "width": 96,
+          "height": 30
+        }
+      ]
+    },
+    {
+      "text": "只选一项 · 领悟期间历练已暂停",
+      "tag": "P",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "color": "rgb(143, 146, 117)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 821.19,
+          "y": 822.69,
+          "width": 277.63,
+          "height": 25
+        }
+      ]
+    }
+  ],
+  "imageLayers": [
+    {
+      "asset": "art/illustrations/arena-v1.png",
+      "naturalSize": [
+        1672,
+        941
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/characters/enemy-tiger.png",
+      "naturalSize": [
+        1024,
+        1024
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/characters/enemy-lantern.png",
+      "naturalSize": [
+        1024,
+        1024
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/characters/enemy-tiger.png",
+      "naturalSize": [
+        1024,
+        1024
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/characters/enemy-lantern.png",
+      "naturalSize": [
+        1024,
+        1024
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/characters/enemy-tiger.png",
+      "naturalSize": [
+        1024,
+        1024
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/characters/enemy-lantern.png",
+      "naturalSize": [
+        1024,
+        1024
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/characters/hero.png",
+      "naturalSize": [
+        1024,
+        1024
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/skill-nearest.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/exp.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/exp.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/exp.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/exp.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/exp.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/characters/hero.png",
+      "naturalSize": [
+        1024,
+        1024
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/skill-nearest.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/skill-bothside.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/skill-bouncing.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-might.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-armor.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/skill-chain.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-hpmax.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/skill-fourcorner.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    }
+  ],
+  "overflowText": [],
+  "renderOperation": "Browser DOM layout and compositing; not AI image generation or Unity runtime.",
+  "artSources": [
+    "art/illustrations/arena-v1.png",
+    "art/characters/enemy-tiger.png",
+    "art/characters/enemy-lantern.png",
+    "art/characters/hero.png",
+    "art/icons/skill-nearest.png",
+    "art/icons/exp.png",
+    "art/icons/skill-bothside.png",
+    "art/icons/skill-bouncing.png",
+    "art/icons/attr-might.png",
+    "art/icons/attr-armor.png",
+    "art/icons/skill-chain.png",
+    "art/icons/attr-hpmax.png",
+    "art/icons/skill-fourcorner.png",
+    "art/common/main_frame.png",
+    "art/common/title_plate.png",
+    "art/common/button_primary.png",
+    "art/common/button_secondary.png"
+  ],
+  "screenSha256": "018b02ecee1966af3694a7f40b1e3f7c901197e892841a1df6c855a6705870c1"
+}

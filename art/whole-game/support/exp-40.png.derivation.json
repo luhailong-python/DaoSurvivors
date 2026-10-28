@@ -1,0 +1,19 @@
+{
+  "file": "art/whole-game/support/exp-40.png",
+  "source": "E:\\work\\image\\DaoSurvivors\\art\\icons\\exp.png",
+  "sourceSha256": "e613158afd46563bfa0e3536ed1c798e0e3b3a66d1a37a228382e40fc1c56b37",
+  "operation": "byte-copy",
+  "newGeneration": false,
+  "newAIEdit": false,
+  "canvas": [
+    512,
+    512
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "zeroAlphaPixels": 217494,
+  "sha256": "e613158afd46563bfa0e3536ed1c798e0e3b3a66d1a37a228382e40fc1c56b37"
+}

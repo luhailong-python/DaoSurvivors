@@ -1,0 +1,39 @@
+{
+  "part": "far_arm",
+  "file": "art/whole-game/players/fighter/parts/far_arm.png",
+  "sha256": "25a969a65eb7766662d4acaa01255f3d36240dce76f09a1d4718bc639637555b",
+  "nativeSize": [
+    315,
+    373
+  ],
+  "sourceCrop": [
+    1188,
+    126,
+    1503,
+    499
+  ],
+  "nativePivot": [
+    58,
+    39
+  ],
+  "pivotAtlas": [
+    1246,
+    165
+  ],
+  "displayScale": 0.29,
+  "bindJoint": [
+    224,
+    258
+  ],
+  "mirrorAroundJoint": true,
+  "parent": "torso",
+  "derivedFrom": {
+    "file": "art/whole-game/sheets/player-fighter-rig-v2.png",
+    "sha256": "025aa1fdefb5b54d190a3ceedd30be4dfd6022af41301394478f909838403ee0",
+    "generationRecord": "art/whole-game/sheets/player-fighter-rig-v2.png.generation.json"
+  },
+  "operation": "component-ownership crop; native RGBA retained; alpha hygiene removes disconnected <=16 haze outside3px contour",
+  "removedAlphaPixels": 545335,
+  "actualModel": null,
+  "actualQuality": null
+}

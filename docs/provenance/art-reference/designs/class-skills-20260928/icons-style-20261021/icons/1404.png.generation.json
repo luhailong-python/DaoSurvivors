@@ -1,0 +1,106 @@
+{
+  "file": "icons/1404.png",
+  "skillId": 1404,
+  "name": "缚岚止步",
+  "semanticIntent": "对1名敌人造成物理伤害，并降低其速度，初阶降低25%，持续2回合；减速从下一回合排序生效，技能等级越高效果越强。",
+  "sha256": "f8439b90e5b96c235d7ada739857663a30c5f1a20bad3310fb68de92c7cd0a05",
+  "generatedAt": "2026-10-21T03:51:12.849859-04:00",
+  "generatedAtEvidence": "Local completion and recording time, not a model-provided timestamp",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensions": [
+    1254,
+    1254
+  ],
+  "exportDimensions": [
+    1254,
+    1254
+  ],
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-21",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "E:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "E:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "E:\\work\\image\\designs\\class-skills-20260928\\icons-style-20261021\\icons\\1101.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host managed; tool has no model or quality selectors and returns no verified model or quality metadata.",
+  "evidence": [
+    {
+      "file": "records/1404.tool-response.json",
+      "fields": [
+        "output_hint"
+      ]
+    }
+  ],
+  "prompt": "prompts/1404.txt",
+  "references": [
+    {
+      "file": "../../mail-ui-v1/01-mail-event.png",
+      "role": "authoritative mail UI style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "file": "../../team-ui-v2/team-ui-v2.png",
+      "role": "authoritative team UI style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    },
+    {
+      "file": "E:\\work\\image\\designs\\class-skills-20260928\\icons-style-20261021\\style-anchor.png",
+      "role": "same-set border, palette and illustration style anchor",
+      "sha256": "69f4c537a9dea5a8f44a5b69f815a516a97e19cc958141cdfa45392a7fed6e27",
+      "submittedPath": "icons/1101.png"
+    }
+  ],
+  "sourceFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a15d68-520d-76d1-8aa6-6e0d08dc6fce\\exec-a790013e-3e06-482c-9f02-5b5c4ff4a4fa.png",
+  "operation": "Native generated PNG copied byte-for-byte; no crop, resize, repaint or synthesis by code.",
+  "visualReview": {
+    "status": "passed",
+    "reviewedAt": "2026-10-21T08:58:56.346469+01:00",
+    "nativeOutputViewed": true,
+    "checkedDisplaySizes": [
+      74,
+      288
+    ],
+    "notes": "One footprint tightly bound by teal wind-cord; the halted step expresses slowing one enemy. Individually viewed tool output and 74px/288px contact sheet; ivory corners, quiet border and readable dominant silhouette."
+  },
+  "semanticLabel": "缚足减速",
+  "pathBase": "icons-style-20261021 directory unless an absolute path is given",
+  "finalVisualReview": {
+    "status": "passed",
+    "reviewedAt": "2026-10-22T02:35:03.141139-04:00",
+    "sizes": [
+      38,
+      45,
+      50,
+      60,
+      74,
+      160,
+      288
+    ],
+    "evidence": "qa/visual-review.json",
+    "reviewedSha256": "f8439b90e5b96c235d7ada739857663a30c5f1a20bad3310fb68de92c7cd0a05"
+  }
+}

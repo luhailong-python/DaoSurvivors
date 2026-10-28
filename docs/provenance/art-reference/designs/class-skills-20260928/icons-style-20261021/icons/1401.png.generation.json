@@ -1,0 +1,141 @@
+{
+  "file": "icons/1401.png",
+  "skillId": 1401,
+  "name": "逐影穿云",
+  "sha256": "7f18f5ec66c80bdb0c500bdf26ed4bf42404cee55dc879a7d510a534c3c9cafd",
+  "generatedAt": "2026-10-22T01:16:18.807997-04:00",
+  "generatedAtEvidence": "Time of persisting successful built-in edit; tool does not expose an exact model timestamp",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensions": [
+    1254,
+    1254
+  ],
+  "exportDimensions": [
+    1254,
+    1254
+  ],
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "E:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "E:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "E:\\work\\image\\designs\\class-skills-20260928\\icons-style-20261021\\icons\\1401.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host managed; tool exposes neither model/quality selectors nor verified returned model or quality metadata.",
+  "evidence": [
+    {
+      "file": "records/1401-corners.tool-response.json",
+      "fields": [
+        "output_hint",
+        "sourceFile"
+      ]
+    }
+  ],
+  "prompt": "prompts/1401-corners.txt",
+  "references": [
+    {
+      "file": "../../mail-ui-v1/01-mail-event.png",
+      "role": "authoritative mail UI style",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "file": "../../team-ui-v2/team-ui-v2.png",
+      "role": "authoritative team UI style",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    },
+    {
+      "file": "icons/1401.png",
+      "role": "edit target before corner correction; current path now contains output",
+      "sha256": "006817edea507680980f9409c5a20edb71969f5d465e527bb0dab691229b3bb7",
+      "beforeRecord": "records/1401-before-corners.generation.json",
+      "originalToolSourceFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a15d27-112d-7732-a88c-f5a5bcea7f6f\\exec-68edb3b1-9697-4922-a877-2f5a128300e2.png"
+    }
+  ],
+  "sourceFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a16200-51f9-7212-be0b-d1fc42dbc633\\exec-07240ee4-77f8-4efa-8e09-2fc9ead9672c.png",
+  "operation": "Built-in AI edit changed the black exterior corners to warm ivory; native PNG copied byte-for-byte without local pixel edits.",
+  "visualReview": {
+    "status": "passed",
+    "reviewedAt": "2026-10-22T01:23:51.274121-04:00",
+    "reviewSizes": [
+      1254,
+      288,
+      74
+    ],
+    "reviewedSha256": "7f18f5ec66c80bdb0c500bdf26ed4bf42404cee55dc879a7d510a534c3c9cafd",
+    "cornerRgb": [
+      [
+        244,
+        233,
+        209
+      ],
+      [
+        246,
+        235,
+        210
+      ],
+      [
+        246,
+        235,
+        213
+      ],
+      [
+        245,
+        234,
+        209
+      ]
+    ],
+    "notes": "Viewed native edit and 288px/74px contact sheet. Opaque warm ivory exterior corners replace black; jade blade through clouds / three feather projectiles and three impact points remain visually intact and distinguishable. Thin gold frame and soft silk palette preserved."
+  },
+  "semanticIntent": "追风穿云，对1名敌人造成物理伤害。技能等级越高，伤害越高。",
+  "visualReviewHistory": [
+    {
+      "status": "pending"
+    }
+  ],
+  "editTarget": {
+    "file": "icons/1401.png",
+    "sha256": "006817edea507680980f9409c5a20edb71969f5d465e527bb0dab691229b3bb7",
+    "generationRecord": "records/1401-before-corners.generation.json"
+  },
+  "semanticLabel": "单体疾刺",
+  "pathBase": "icons-style-20261021 directory unless an absolute path is given",
+  "finalVisualReview": {
+    "status": "passed",
+    "reviewedAt": "2026-10-22T02:35:03.141139-04:00",
+    "sizes": [
+      38,
+      45,
+      50,
+      60,
+      74,
+      160,
+      288
+    ],
+    "evidence": "qa/visual-review.json",
+    "reviewedSha256": "7f18f5ec66c80bdb0c500bdf26ed4bf42404cee55dc879a7d510a534c3c9cafd"
+  }
+}

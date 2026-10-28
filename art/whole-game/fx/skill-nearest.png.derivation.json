@@ -1,0 +1,85 @@
+{
+  "file": "art/whole-game/fx/skill-nearest.png",
+  "key": "ToNearestSkill",
+  "label": "追星御剑",
+  "sha256": "a1e48a787a3ee7e1e873432de3e93cc2d4ec2fa5083196fc6fe63f066b45ea5f",
+  "canvas": [
+    512,
+    512
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    253
+  ],
+  "alphaPixels": {
+    "zero": 222482,
+    "nonzero": 39662,
+    "visibleGreaterThan8": 21254
+  },
+  "derivedFrom": {
+    "file": "art/whole-game/sheets/world-combat-v1.png",
+    "sha256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+    "generationRecord": "art/whole-game/sheets/world-combat-v1.png.generation.json"
+  },
+  "operation": {
+    "kind": "native ownership crop + transparent padding",
+    "cropRectXYXY": [
+      0,
+      0,
+      438,
+      256
+    ],
+    "placementXY": [
+      20,
+      114
+    ],
+    "nativeCropSize": [
+      438,
+      256
+    ],
+    "visibleAlphaGreaterThan8BBoxInCrop": [
+      40,
+      94,
+      431,
+      191
+    ],
+    "resampled": false,
+    "alphaModified": false,
+    "sourcePixelsPreserved": true,
+    "componentFiltering": "none; all source alpha pixels retained including faint native halo/specks"
+  },
+  "pivotBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "spriteType": "Single",
+  "meshType": "FullRect",
+  "filterMode": "Bilinear",
+  "wrapMode": "Clamp",
+  "mipmaps": false,
+  "colourSpace": "sRGB",
+  "borderLTRB": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "defaultDirection": "+X (right)",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow native atlas generation record; this slicing did not call an image model.",
+  "validation": {
+    "pixelCopyMatchesSource": true,
+    "ownershipComponentCrossings": 0,
+    "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+    "visibleBBox": [
+      60,
+      208,
+      451,
+      305
+    ],
+    "visualReview": "accepted; complete subject, no neighbour contamination, clean visible margins, readable on reviewed light/dark backgrounds",
+    "Unity": "not-tested"
+  }
+}

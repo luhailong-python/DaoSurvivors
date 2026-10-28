@@ -1,0 +1,67 @@
+{
+  "file": "art/icons/exp.png",
+  "key": "Exp",
+  "label": "经验",
+  "sha256": "e613158afd46563bfa0e3536ed1c798e0e3b3a66d1a37a228382e40fc1c56b37",
+  "canvas": [
+    512,
+    512
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "derivedFrom": {
+    "file": "art/sheets/attribute-icons-v2.png",
+    "sha256": "cfdf30c000bf9e3243734f45376188b472eb95beeb9b9abce851ab82223ae521",
+    "generationRecord": "art/sheets/attribute-icons-v2.png.generation.json"
+  },
+  "operation": {
+    "kind": "native crop + transparent padding",
+    "cropRectXYXY": [
+      961,
+      928,
+      1254,
+      1254
+    ],
+    "placementXY": [
+      118,
+      96
+    ],
+    "nativeCropSize": [
+      293,
+      326
+    ],
+    "visibleAlphaGreaterThan8BBoxInCrop": [
+      14,
+      30,
+      262,
+      291
+    ],
+    "resampled": false,
+    "alphaModified": false,
+    "sourcePixelsPreserved": true,
+    "componentFiltering": "none; all source alpha pixels retained"
+  },
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "spriteTypeRecommendation": "Single",
+  "borderLTRB": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+  "validation": {
+    "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+    "pixelCopyMatchesSource": true,
+    "ownershipComponentCrossings": 0,
+    "visualReviewed": true
+  }
+}

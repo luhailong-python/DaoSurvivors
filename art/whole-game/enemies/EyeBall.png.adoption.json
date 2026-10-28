@@ -1,0 +1,121 @@
+{
+  "sourceKey": "EyeBall",
+  "displayName": "符小虎幻身",
+  "sourceIdentity": "符小虎",
+  "role": "普通近战",
+  "identity": "额符杏金虎；延续已用试敌形象",
+  "artSource": "existing",
+  "adoptionType": "reskin; direct byte copy",
+  "sourceArtRepository": {
+    "path": "F:\\work\\image",
+    "remote": "https://luyuacpp.visualstudio.com/image/_git/image"
+  },
+  "sourceArtPath": "designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/runtime/attack/E/01.png",
+  "destination": "art/whole-game/enemies/EyeBall.png",
+  "sourceSHA256": "3f4e0639c59e43ff3bd50bd26e903a5977a5e68910eff6a43d13a4454252a3ce",
+  "sha256": "3f4e0639c59e43ff3bd50bd26e903a5977a5e68910eff6a43d13a4454252a3ce",
+  "copyVerified": true,
+  "canvas": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "realAlpha": true,
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "zeroPixels": 588825,
+    "partialPixels": 459333,
+    "opaquePixels": 418,
+    "visibleBBoxAlphaAtLeast16": [
+      129,
+      103,
+      884,
+      942
+    ],
+    "visibleEdgePixelsAlphaAtLeast16": 0,
+    "edgePixelsAnyAlpha": 0
+  },
+  "pivotBottomLeft": [
+    0.5,
+    0.08
+  ],
+  "anchorTopLeftPx": [
+    512,
+    942
+  ],
+  "anchorKind": "source logical ground anchor; not exact every-foot contact",
+  "facing": "three-quarter front, down-right; x mirror allowed for source movement",
+  "suggestedVisibleHeightAt1080": 110,
+  "spriteType": "Single",
+  "meshType": "FullRect",
+  "borderLTRB": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "filterMode": "Bilinear",
+  "wrapMode": "Clamp",
+  "mipmaps": false,
+  "colourSpace": "sRGB",
+  "generationModel": null,
+  "generationQuality": null,
+  "generationEvidenceNote": "Historical source generation evidence is preserved. No generation or AI edit occurred during this adoption. Configuration targets never establish actual model/quality.",
+  "sourceRecords": [
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/runtime/attack/E/01.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-fu-xiao-hu/01-source-record-01.json",
+      "sha256": "660efa4818359b240a385c43d6bc3c614031c220df946f8468cfa7b8a40f2215"
+    }
+  ],
+  "selectedManifestSnapshot": "docs/whole-game/enemy-source-evidence/legacy-fu-xiao-hu/selected-manifest-frame.json",
+  "sourceGamePrefab": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/EyeBall/EyeBall.prefab",
+  "sourceGameSpritePaths": [
+    "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Eyeball.png"
+  ],
+  "review": {
+    "fullSourceImageViewed": true,
+    "adoptedDate": "2026-10-28",
+    "visibleClippingCheck": "pass",
+    "identityCheck": "pass; distinct existing Daoist chibi identity",
+    "engineValidation": "not-run; Unity import and motion integration remain next phase",
+    "finalLightDarkLineup": "accepted; identity, anatomy, implements and tails/wings intact, distinct readable silhouettes"
+  },
+  "historicalNativeSize": [
+    1254,
+    1254
+  ],
+  "historicalNativeSizeBasis": "Source README and selected source record; final1024PNG was an earlier full-canvas export, this adoption does not resample.",
+  "sourceEvidenceDependencies": [
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/runtime/attack/E/01.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-fu-xiao-hu/dependencies/runtime/attack/E/01.png.generation.json",
+      "sha256": "660efa4818359b240a385c43d6bc3c614031c220df946f8468cfa7b8a40f2215"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/records/attack-E-01.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-fu-xiao-hu/dependencies/records/attack-E-01.generation.json",
+      "sha256": "7ba737f7cc9b29ae1047cefd81f4ab4c1d4800680a5bd6a79877df2b33769070"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/records/attack-E-01.prompt.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-fu-xiao-hu/dependencies/records/attack-E-01.prompt.txt",
+      "sha256": "7403e40ad506e4db4e57bbdc14ef51c5fa196fb4d67315be78c1f7480390b28b"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/records/attack-E-01.receipt.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-fu-xiao-hu/dependencies/records/attack-E-01.receipt.json",
+      "sha256": "786d45f16946a486541d05f887881480fecb4280e89d082f28948551b81e57e6"
+    }
+  ],
+  "sourceFrameWarnings": [],
+  "generationConfigTarget": {
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "basis": "Historical source configuration, not actual returned metadata and not a new generation."
+  },
+  "sourceManifestSHAMatches": true
+}

@@ -1,0 +1,118 @@
+{
+  "reviewedOn": "2026-10-26",
+  "timezone": "America/New_York",
+  "reviewer": "independent visual QA subagent",
+  "artifactType": "browser DOM UI design previews",
+  "isUnityRuntimeEvidence": false,
+  "status": "passed",
+  "recheck": {
+    "method": "Reopened the updated settings, victory and defeat PNGs with view_image at original detail. Rehashed all nine files; the other six hashes are unchanged from their first visual review.",
+    "result": "passed",
+    "openVisualFindings": 0
+  },
+  "scope": {
+    "method": "All nine PNGs were individually opened with view_image at original detail and visually inspected.",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "screenshotsViewed": 9,
+    "otherResolutions": "Not independently visually inspected in this review; the separate browser layout report owns its 27 viewport checks."
+  },
+  "styleReferences": [
+    "F:/work/image/designs/mail-ui-v1/01-mail-event.png",
+    "F:/work/image/designs/team-ui-v2/team-ui-v2.png"
+  ],
+  "overall": {
+    "clippedChineseText": false,
+    "overlappingText": false,
+    "outOfBoundsButtons": false,
+    "missingImages": false,
+    "blockingVisualDefects": false,
+    "styleVerdict": "通过：玉绿与青绿主色、象牙纸面、细暖金、圆润云纹牌及手绘Q版人物延续两张主参考；正文与动态文字保持原生可读层级。"
+  },
+  "screens": [
+    {
+      "file": "designs/ui-v1/previews/01-home-1920x1080.png",
+      "sha256": "09f9b630b2df7b5fc33e53b66c797d36001b506c6a537f287cd6f4c78f97197d",
+      "visuallyViewed": true,
+      "layout": "passed",
+      "notes": "主标题、选角、三张关卡卡片及出战按钮完整；选中玉绿状态与次级米白按钮层级清楚。"
+    },
+    {
+      "file": "designs/ui-v1/previews/02-cultivation-1920x1080.png",
+      "sha256": "ee58977271ebcb7908b464b9ce89a0c26707cf935e828821a78d3ddf39ee4d4b",
+      "visuallyViewed": true,
+      "layout": "passed",
+      "notes": "三条修行卡片、图标、阶数及40灵石按钮均清楚，无截字或重叠。"
+    },
+    {
+      "file": "designs/ui-v1/previews/03-codex-1920x1080.png",
+      "sha256": "e6d13a275372aff205ea09e6090f92fe52393461eed7e658d075013988b60ba9",
+      "visuallyViewed": true,
+      "layout": "passed",
+      "notes": "三名道友与三类灵物完整显示，名称与说明未越出卡片；人物保持身份差异。"
+    },
+    {
+      "file": "designs/ui-v1/previews/04-battle-1920x1080.png",
+      "sha256": "b9c37b06fceb277fb30703d030fc3def385915e7a6d426c685e0bb13cbc53635",
+      "visuallyViewed": true,
+      "layout": "passed",
+      "notes": "战斗HUD、计时、气血、击败数及底部法术说明完整；中央角色与小妖轮廓清楚，场地信息区未被装饰遮挡。"
+    },
+    {
+      "file": "designs/ui-v1/previews/05-upgrade-1920x1080.png",
+      "sha256": "f9b51afea019a66aa19aa2368131a3da3ee12cf77360ad1d0280ed30f7ed9977",
+      "visuallyViewed": true,
+      "layout": "passed",
+      "notes": "三张升级选择卡片的名称、数值说明、快捷键及暂停提示完整；绿色强调状态清楚。"
+    },
+    {
+      "file": "designs/ui-v1/previews/06-pause-1920x1080.png",
+      "sha256": "c65991cf816ff5c2b88922edf442aff8461f7976f8c02b6d36d3f2ad6ada103a",
+      "visuallyViewed": true,
+      "layout": "passed",
+      "notes": "暂停标题、状态文字及三个操作按钮完整；遮罩让弹窗获得清楚焦点。"
+    },
+    {
+      "file": "designs/ui-v1/previews/07-settings-1920x1080.png",
+      "sha256": "49c6f95216c00d5ee3f35ec1e90b8551ca8c2090f3857d5744119af4b87a527f",
+      "visuallyViewed": true,
+      "layout": "passed",
+      "notes": "设置标题、关闭钮、音效及特效开关、说明和底部操作完整；没有文字覆盖开关。"
+    },
+    {
+      "file": "designs/ui-v1/previews/08-result-1920x1080.png",
+      "sha256": "1766ee435e672d824624abe60401c8ebe49f4f011b350e53758c9a27a696a78b",
+      "visuallyViewed": true,
+      "layout": "passed",
+      "notes": "结算主标题、三项统计、灵石奖励及返回按钮均完整；复查确认背景与结算均为01:30、Lv.9、击败156，V1已修复。"
+    },
+    {
+      "file": "designs/ui-v1/previews/09-defeat-1920x1080.png",
+      "sha256": "1d9a72b0e8c70f5f638a9aa1a4da261bc7db7dbad35a8cfa352137dd8380956a",
+      "visuallyViewed": true,
+      "layout": "passed",
+      "notes": "失败标题、失败说明、三项统计及返回按钮均完整；复查确认背景气血已为0/120、血条清空，时间00:42及Lv.5与结算一致，V1已修复。"
+    }
+  ],
+  "findings": [
+    {
+      "id": "V1",
+      "severity": "minor",
+      "status": "resolved_and_visually_rechecked",
+      "category": "state-consistency",
+      "files": [
+        "designs/ui-v1/previews/08-result-1920x1080.png",
+        "designs/ui-v1/previews/09-defeat-1920x1080.png"
+      ],
+      "observation": "胜利结算显示历练时长01:30，但模糊背景HUD仍为00:42；失败结算写气血耗尽，但模糊背景HUD仍为94/120。",
+      "suggestedFix": "生成胜利结算预览前将背景HUD时间同步至01:30；生成失败结算预览前将背景HUD气血同步至0/120。结算统计与背景可见状态采用同一套示例快照。",
+      "verifiedResolution": "已复看更新后的08-result与09-defeat：胜利背景HUD时间、等级、击败数与结算一致；失败背景HUD气血为0/120且血条清空。不存在待修视觉项。"
+    }
+  ],
+  "limitations": [
+    "This review verifies the delivered browser-rendered design PNGs only. It does not establish Unity compilation, PlayMode behavior, final engine rendering or gameplay correctness.",
+    "Numbers in the previews are design sample data; they are not online or actual gameplay results."
+  ]
+}

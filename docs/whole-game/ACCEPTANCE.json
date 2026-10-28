@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-28T10:37:40.128887+00:00",
+  "clientDate": "2026-10-28",
+  "clientTimezone": "America/New_York",
+  "status": "accepted_art_only",
+  "scope": "Complete actual-source-required local game art; offline visual/action/technical acceptance only",
+  "missingRequiredArt": [],
+  "evidence": [
+    {
+      "file": "art/manifest.json",
+      "sha256": "571e4ae6d3f02d0b6d1590ba9907b43c274a0f346dd249eea96d7176ef57530f"
+    },
+    {
+      "file": "docs/ui-suite/current-delivery-audit.json",
+      "sha256": "0af7f8d8e9a46d673a02b0260ec1f581fdfe2a13da9f2335c9023d37b9bbbd18"
+    },
+    {
+      "file": "docs/whole-game/player-actions-final-review.json",
+      "sha256": "728a07b178ef25e13bd0b8d4211f2cc9483c08969ab2e7ec6b7c0162e71b38f7"
+    },
+    {
+      "file": "docs/whole-game/final-review-independent.json",
+      "sha256": "7f19a718a36a24da99af12f1b23a64ca485d37e6535c7a1f0ec60ed86141209c"
+    },
+    {
+      "file": "docs/whole-game/enemies-visual-review.json",
+      "sha256": "cd173b0e85b0601b60f65db4310c59ad68c1ab930dadb7a0ca92fae4bf19e12e"
+    },
+    {
+      "file": "art/whole-game/terrain/v1/seam-qa.json",
+      "sha256": "04e154f11d75dcef25f6c5360d90d5e20221d9546fe725dfe1a6a6cdfdb5a579"
+    },
+    {
+      "file": "docs/whole-game/world-combat-visual-review.json",
+      "sha256": "031085203f99f31cd53eccbd34e8c9b3c39375022e7b54cbff064fc118fa9401"
+    },
+    {
+      "file": "docs/whole-game/world-support-visual-review.json",
+      "sha256": "2651f1c0b82c5f2de93fa7e74d006b0feac9bd5acc3ec3690fe09118a9492c2b"
+    },
+    {
+      "file": "docs/whole-game/support-audit-current.json",
+      "sha256": "c7c3dc372a60354873f852df8187c24e251aa658bfe3fe118f49fdb6d65095e4"
+    },
+    {
+      "file": "docs/whole-game/ART_COVERAGE.json",
+      "sha256": "e8fc730dfe1ee13c041191ec8b6d4193bf027fe0a8f1dfb2d6c518dd335c2446"
+    },
+    {
+      "file": "docs/whole-game/ART_COVERAGE.md",
+      "sha256": "f138e4e0d4eb5ba40df51988adf5f5bc8b83232836508f879caa9e646d4828cf"
+    },
+    {
+      "file": "docs/whole-game/ACCEPTANCE.md",
+      "sha256": "0f3350d19243542b93a5918f0d426555a068ddc84ff7671ba6db7e059fdace11"
+    },
+    {
+      "file": "docs/whole-game/UNITY_ART_IMPORT.md",
+      "sha256": "0d5f3e7c8dda8cc4c39ffe6af915e4a2efaa88e88336f754eafa68c9b2829f50"
+    },
+    {
+      "file": "docs/whole-game/index.html",
+      "sha256": "a45b94ec422e6fcd7ba4a3a20865d9af688c144835d87a11bc619d3823a87acd"
+    },
+    {
+      "file": "README.md",
+      "sha256": "a0e104eae8712cdb745fa9eb3f639f1f13fd105fa6ecd9723e539b17a5f57754"
+    }
+  ],
+  "summary": {
+    "uiScreens": 52,
+    "players": 3,
+    "actions": 6,
+    "formalPlayerFrames": 146,
+    "playerStrips": 10,
+    "enemyIdentities": 14,
+    "enemyPoolKeys": 20,
+    "eliteVariants": 6,
+    "terrainTiles": 6,
+    "breakableProp": 1,
+    "worldLootKeys": 6,
+    "playerSkillTextures": 9,
+    "evolvedRelations": 9,
+    "enemyProjectiles": 5,
+    "debuffs": 3,
+    "artManifestFiles": 321
+  },
+  "retainedSourceFindings": [
+    "Original nominal-grid icon/FX sheet FAIL/WARN records retained; ownership crops replace the rejected equal-grid slicing method.",
+    "Weak alpha specks/glow in inherited/source art retained as documented.",
+    "Actual backend image model and quality are undisclosed; config targets are not claimed as actual results."
+  ],
+  "sourceFindingsNotSuppressed": true,
+  "unityIntegration": "not-performed; deferred by explicit user scope",
+  "submittedToGit": false,
+  "published": false,
+  "artReferenceWritesInThisContinuation": false,
+  "deliveryArchiveReceipt": ".local/delivery/LATEST.json"
+}

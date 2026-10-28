@@ -1,0 +1,85 @@
+{
+  "file": "art/whole-game/fx/enemy-blue.png",
+  "key": "BlueMagic",
+  "label": "青蓝敌弹",
+  "sha256": "15d19ee1965e2d7779fbeea7cc0510f60577f7624d05c74db1e47b5169a4fdcf",
+  "canvas": [
+    512,
+    512
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    253
+  ],
+  "alphaPixels": {
+    "zero": 213274,
+    "nonzero": 48870,
+    "visibleGreaterThan8": 30758
+  },
+  "derivedFrom": {
+    "file": "art/whole-game/sheets/world-combat-v1.png",
+    "sha256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+    "generationRecord": "art/whole-game/sheets/world-combat-v1.png.generation.json"
+  },
+  "operation": {
+    "kind": "native ownership crop + transparent padding",
+    "cropRectXYXY": [
+      383,
+      520,
+      764,
+      758
+    ],
+    "placementXY": [
+      60,
+      141
+    ],
+    "nativeCropSize": [
+      381,
+      238
+    ],
+    "visibleAlphaGreaterThan8BBoxInCrop": [
+      41,
+      40,
+      351,
+      190
+    ],
+    "resampled": false,
+    "alphaModified": false,
+    "sourcePixelsPreserved": true,
+    "componentFiltering": "none; all source alpha pixels retained including faint native halo/specks"
+  },
+  "pivotBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "spriteType": "Single",
+  "meshType": "FullRect",
+  "filterMode": "Bilinear",
+  "wrapMode": "Clamp",
+  "mipmaps": false,
+  "colourSpace": "sRGB",
+  "borderLTRB": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "defaultDirection": "+X (right)",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow native atlas generation record; this slicing did not call an image model.",
+  "validation": {
+    "pixelCopyMatchesSource": true,
+    "ownershipComponentCrossings": 0,
+    "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+    "visibleBBox": [
+      101,
+      181,
+      411,
+      331
+    ],
+    "visualReview": "accepted; complete subject, no neighbour contamination, clean visible margins, readable on reviewed light/dark backgrounds",
+    "Unity": "not-tested"
+  }
+}

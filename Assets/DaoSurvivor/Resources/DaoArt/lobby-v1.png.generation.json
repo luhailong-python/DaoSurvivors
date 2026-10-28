@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "file": "lobby-v1.png",
+  "projectRelativeOutput": "Assets/DaoSurvivor/Resources/DaoArt/lobby-v1.png",
+  "absoluteOutput": "E:\\work\\image\\DaoSurvivors\\Assets\\DaoSurvivor\\Resources\\DaoArt\\lobby-v1.png",
+  "sha256": "c1d4031e9e6185855ce4d938a0d28b804a4edc0c88655dc52f735fedfe8a35a4",
+  "bytes": 2629639,
+  "generatedAt": "2026-10-26T05:29:12.8440388-04:00",
+  "generatedAtUtc": "2026-10-26T09:29:12.8440388Z",
+  "generatedAtBasis": "Source artifact LastWriteTime, converted to America/New_York; this is source persistence evidence. C2PA declared created time is separately preserved in receipt.",
+  "recordedAtUtc": "2026-10-26T09:47:23.052729+00:00",
+  "width": 1672,
+  "height": 941,
+  "nativeSize": [
+    1672,
+    941
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "transparent": false,
+  "tool": "image_gen__imagegen",
+  "toolAlias": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "configSnapshotEvidence": {
+    "path": "F:\\work\\image\\config\\image-generation.json",
+    "sha256": "9d8a6972715aedfe56438cdbb34c375d94f06709a69cd2c1284dfba35fec66d1",
+    "snapshotMeaning": "Complete current reference-repository target configuration; verified_on inside the unchanged snapshot remains 2026-10-22. Official capability was separately rechecked on 2026-10-26. This snapshot is not a returned backend version."
+  },
+  "officialVerification": {
+    "verifiedOn": "2026-10-26",
+    "method": "Official-domain search followed by actual page open and matching model/quality text inspection",
+    "configuredModel": "gpt-image-2.5-sunburst",
+    "highestExplicitQualityListed": "max",
+    "sources": [
+      {
+        "url": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+        "supports": "Official model page lists Sunburst and quality levels low/medium/high/xhigh/max/auto."
+      },
+      {
+        "url": "https://developers.openai.com/api/reference/resources/images/methods/generate",
+        "supports": "Images generation reference supports xhigh and max for Sunburst; max is the highest explicit quality enumerated."
+      }
+    ],
+    "scope": "Official capability verification supports the configuration target only. It does not identify this host-managed call backend or prove actual max quality."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "promptFile": "docs/production/lobby-v1.prompt.txt"
+  },
+  "actualRequestArgumentsReceipt": "../../../../docs/production/lobby-v1.receipt.json",
+  "parameterAvailability": {
+    "model": "not exposed by builtin tool; absent from actual request arguments",
+    "quality": "not exposed by builtin tool; absent from actual request arguments",
+    "size": "not exposed; 1920x1080 was only a prompt target, not an API parameter"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具返回未披露具体后端型号和画质。C2PA仅有通用软件标签gpt-image，不能据此确认API分支、模型快照或实际质量。",
+  "evidence": {
+    "receipt": "docs/production/lobby-v1.receipt.json",
+    "receiptSha256": "94cb23793ee89f95c05f017b054364d5743ae47ab2c64ca8ed93bce54ff75eed",
+    "sourceArtifact": "C:\\Users\\luyua\\.codex\\generated_images\\01a17784-7bd6-7ee0-b3b0-353fcf2e1606\\exec-18876fb3-d43a-472c-b78f-f6556eec0c2c.png",
+    "sourceArtifactSha256": "c1d4031e9e6185855ce4d938a0d28b804a4edc0c88655dc52f735fedfe8a35a4",
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17784-7bd6-7ee0-b3b0-353fcf2e1606 as C:\\Users\\luyua\\.codex\\generated_images\\01a17784-7bd6-7ee0-b3b0-353fcf2e1606\\exec-18876fb3-d43a-472c-b78f-f6556eec0c2c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "sourceArtifactFileTimes": {
+      "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a17784-7bd6-7ee0-b3b0-353fcf2e1606\\exec-18876fb3-d43a-472c-b78f-f6556eec0c2c.png",
+      "creationTimeUtc": "2026-10-26T09:29:12.8429818Z",
+      "lastWriteTimeUtc": "2026-10-26T09:29:12.8440388Z",
+      "creationTimeNewYork": "2026-10-26T05:29:12.8429818-04:00",
+      "lastWriteTimeNewYork": "2026-10-26T05:29:12.8440388-04:00",
+      "timeZone": "America/New_York",
+      "method": "PowerShell Get-Item CreationTimeUtc/LastWriteTimeUtc; DateTimeOffset converted with TimeZoneInfo.FindSystemTimeZoneById('America/New_York')",
+      "limitation": "Filesystem timestamps establish source persistence time, not an independently verified backend job start/end. C2PA declared action times are recorded separately."
+    },
+    "c2pa": {
+      "present": true,
+      "container": "PNG caBX / JUMBF",
+      "chunkBytes": 21881,
+      "chunkSha256": "3f46854741838d789a9982488b5ce5424e5fd21914d716b409500c0043d04c05",
+      "parseMethod": "Read PNG chunk table and JUMBF boxes; decode c2pa.actions.v2 / c2pa.claim.v2 CBOR without modifying the PNG",
+      "cryptographicSignatureValidated": false,
+      "signatureValidationStatus": "未执行C2PA签名及信任链验证；以下为读取到的声明字段",
+      "manifestLabel": "urn:c2pa:40b33ed2-ee63-41c1-b776-8a2b1d75d515",
+      "claimInstanceId": "xmp:iid:7e077323-e0b5-4dcf-96e8-2a51685ca3c2",
+      "claimGeneratorInfo": {
+        "name": "OpenAI Media Service API",
+        "specVersion": "2.2.0",
+        "org.contentauth.c2pa_rs": "0.79.2"
+      },
+      "actions": [
+        {
+          "action": "c2pa.created",
+          "when": "2026-10-26T09:29:07.247737606Z",
+          "softwareAgent": {
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia"
+        },
+        {
+          "action": "c2pa.converted",
+          "when": "2026-10-26T09:29:07.247750461Z"
+        },
+        {
+          "action": "c2pa.watermarked.unbound",
+          "when": "2026-10-26T09:29:07.237463919Z"
+        }
+      ],
+      "allActionsIncluded": false,
+      "backendModelDisclosed": false,
+      "qualityDisclosed": false,
+      "note": "Pillow info is empty but the PNG contains an actual C2PA caBX manifest. Generic softwareAgent.version gpt-image does not establish Sunburst/Flare, a model snapshot, or a quality setting."
+    },
+    "toolReturnFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "base64Stored": false
+  },
+  "prompt": "docs/production/lobby-v1.prompt.txt",
+  "promptSha256": "66eb99fb6c9a655613de4da662dc159f9f1eae4116cb12cbda8b9ee9a960189e",
+  "references": [
+    {
+      "file": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "repositoryRelativePath": "designs/mail-ui-v1/01-mail-event.png",
+      "purpose": "风格参考：道家Q版高清手绘、玉绿/象牙纸面/暖金、圆润云纹和人物比例；不复制原界面业务文案或布局",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "width": 1931,
+      "height": 814
+    },
+    {
+      "file": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "repositoryRelativePath": "designs/team-ui-v2/team-ui-v2.png",
+      "purpose": "风格参考：道家Q版高清手绘、玉绿/象牙纸面/暖金、圆润云纹和人物比例；不复制原界面业务文案或布局",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "width": 1931,
+      "height": 814
+    }
+  ],
+  "operation": {
+    "kind": "native generated source byte-for-byte copy",
+    "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a17784-7bd6-7ee0-b3b0-353fcf2e1606\\exec-18876fb3-d43a-472c-b78f-f6556eec0c2c.png",
+    "sourceSha256": "c1d4031e9e6185855ce4d938a0d28b804a4edc0c88655dc52f735fedfe8a35a4",
+    "crop": null,
+    "resize": null,
+    "resampled": false,
+    "pixelsEdited": false,
+    "nativeOutputPreserved": true,
+    "sourceBytesEqualOutput": true
+  },
+  "policyEvidence": [
+    {
+      "file": "F:\\work\\image\\AGENTS.md",
+      "sha256": "434bcc5c195648c482531a6418389d500c25e76dca708e92ed4fe12241071e30",
+      "purpose": "Applicable source rule read; generation agent reports rereading before call"
+    },
+    {
+      "file": "F:\\work\\image\\docs\\IMAGE_MODEL_POLICY.md",
+      "sha256": "61cb02192b29527a9b681c0acc290be511bf21554b864b1bdbf16243308fda2d",
+      "purpose": "Applicable source rule read; generation agent reports rereading before call"
+    },
+    {
+      "file": "F:\\work\\image\\config\\image-generation.json",
+      "sha256": "9d8a6972715aedfe56438cdbb34c375d94f06709a69cd2c1284dfba35fec66d1",
+      "purpose": "Applicable source rule read; generation agent reports rereading before call"
+    }
+  ],
+  "newProjectAgentRules": {
+    "root": "E:\\work\\image\\DaoSurvivors",
+    "AGENTS.md": "absent at generation time per generation agent; current absence checked"
+  },
+  "visualReview": {
+    "reviewed": true,
+    "reviewer": "reference_audit",
+    "noBakedInterfaceText": true,
+    "noInterfaceFramesOrButtons": true,
+    "fullFiguresWithinCanvas": true,
+    "rightSideCalmForNativeUI": true,
+    "notes": "Observed golden-headband chibi Daoist and white fox on the left; jade mountains/clouds, warm gray stone, peach blossoms and limited lantern decoration. UI text remains native."
+  }
+}

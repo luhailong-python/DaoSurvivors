@@ -1,0 +1,1626 @@
+{
+  "reference": {
+    "url": "https://github.com/Roo-Roo-Roo/survivors-roguelike-kit",
+    "commit": "3f905381d73a34b516030528b8ef6743868b9e52",
+    "localPath": "E:\\work\\image\\DaoSurvivors\\.reference\\survivors-roguelike-kit"
+  },
+  "auditDate": "2026-10-28",
+  "auditStatus": "source audit complete; art production acceptance separate",
+  "counts": {
+    "players": 3,
+    "playerAnimationClips": 6,
+    "activeEnemyPoolKeys": 20,
+    "baseEnemyIdentities": 14,
+    "eliteVariants": 6,
+    "actualDistinctEnemySpriteFiles": 13,
+    "stageSpawnConfigs": 31,
+    "skills": 9,
+    "mapTileVariants": 6,
+    "breakablePropKinds": 1,
+    "propInstancesPerMap": 20,
+    "lootPoolKeys": 6,
+    "enemyProjectileKinds": 5
+  },
+  "players": [
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Player/Fighter.prefab",
+      "sha256": "c815b3b50132c7e2264c7efed0eef5c098c75d45b972815dc4d42761d130c173",
+      "sprites": [],
+      "scripts": [
+        "30ae93fb156fc6d4c828c64571fc3edd",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Player/Hit/PlayerHit.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Player/Player.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Player/Movement/PlayerMovement.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Player/Animator/PlayerAnim.cs",
+        "097b551f2844b054290f18a39bf892e9",
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs"
+      ],
+      "materials": [],
+      "controllers": [
+        "Assets/RGame/RoguelikeKit/Art/Animator/Fighter.controller"
+      ],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Player/Fighter.psb",
+        "Assets/RGame/RoguelikeKit/Prefabs/Shadow.prefab"
+      ],
+      "spriteOverrides": [],
+      "key": "Fighter",
+      "animations": [
+        {
+          "source": "Assets/RGame/RoguelikeKit/Art/Animation/Fighter/Idle.anim",
+          "name": "Idle",
+          "sampleRate": 30.0,
+          "duration": 1.0,
+          "loop": true,
+          "spriteCurveCount": 0,
+          "transformPathCount": 20
+        },
+        {
+          "source": "Assets/RGame/RoguelikeKit/Art/Animation/Fighter/Run.anim",
+          "name": "Run",
+          "sampleRate": 30.0,
+          "duration": 1.0,
+          "loop": true,
+          "spriteCurveCount": 0,
+          "transformPathCount": 30
+        }
+      ]
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Player/Assassin.prefab",
+      "sha256": "f3d8cd040ae8802e82017bd82a020d1440f682dfe9f3a7e6e8a14161a5bc1f9e",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Player/Assassin.psb"
+      ],
+      "scripts": [
+        "30ae93fb156fc6d4c828c64571fc3edd",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Player/Hit/PlayerHit.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Player/Player.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Player/Movement/PlayerMovement.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Player/Animator/PlayerAnim.cs",
+        "097b551f2844b054290f18a39bf892e9",
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs"
+      ],
+      "materials": [],
+      "controllers": [
+        "Assets/RGame/RoguelikeKit/Art/Animator/Assassin.controller"
+      ],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Player/Assassin.psb",
+        "Assets/RGame/RoguelikeKit/Prefabs/Shadow.prefab"
+      ],
+      "spriteOverrides": [],
+      "key": "Assassin",
+      "animations": [
+        {
+          "source": "Assets/RGame/RoguelikeKit/Art/Animation/Assassin/Idle.anim",
+          "name": "Idle",
+          "sampleRate": 30.0,
+          "duration": 1.0,
+          "loop": true,
+          "spriteCurveCount": 0,
+          "transformPathCount": 2
+        },
+        {
+          "source": "Assets/RGame/RoguelikeKit/Art/Animation/Assassin/Run.anim",
+          "name": "Run",
+          "sampleRate": 30.0,
+          "duration": 1.0,
+          "loop": true,
+          "spriteCurveCount": 0,
+          "transformPathCount": 14
+        }
+      ]
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Player/Mage.prefab",
+      "sha256": "e10eb766e6b29295c792399cebdffbfd66ed5902b76433c7196c60cf53d3e067",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Player/Mage.psb"
+      ],
+      "scripts": [
+        "30ae93fb156fc6d4c828c64571fc3edd",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Player/Hit/PlayerHit.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/MatchTargetSorting.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Player/Player.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Player/Movement/PlayerMovement.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Player/Animator/PlayerAnim.cs",
+        "097b551f2844b054290f18a39bf892e9",
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs"
+      ],
+      "materials": [],
+      "controllers": [
+        "Assets/RGame/RoguelikeKit/Art/Animator/Mage.controller"
+      ],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Player/Mage.psb",
+        "Assets/RGame/RoguelikeKit/Prefabs/Shadow.prefab"
+      ],
+      "spriteOverrides": [],
+      "key": "Mage",
+      "animations": [
+        {
+          "source": "Assets/RGame/RoguelikeKit/Art/Animation/Mage/Idle.anim",
+          "name": "Idle",
+          "sampleRate": 30.0,
+          "duration": 1.0,
+          "loop": true,
+          "spriteCurveCount": 0,
+          "transformPathCount": 2
+        },
+        {
+          "source": "Assets/RGame/RoguelikeKit/Art/Animation/Mage/Run.anim",
+          "name": "Run",
+          "sampleRate": 30.0,
+          "duration": 1.0,
+          "loop": true,
+          "spriteCurveCount": 0,
+          "transformPathCount": 20
+        }
+      ]
+    }
+  ],
+  "enemies": [
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/Bat/Bat.prefab",
+      "sha256": "e2785a3b9ab4c1b2a22bc390b3ba188566ff364e0d18ee16d7dacd53616b0a20",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Bat.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/RangeEnemy.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Weapon/EnemyRangeWeapon.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [
+        "BlueMagic"
+      ],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "Bat",
+      "stageSpawnConfigs": [
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Bat/Bat.asset"
+      ]
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/Bat/Bat 1.prefab",
+      "sha256": "58477019525f9c261aa175691df9344297ebd7ec4e67538cc6b820d4f9b4b87d",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Bat.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/RangeEnemy.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Weapon/EnemyRangeWeapon.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [
+        "BlueMagic"
+      ],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "Bat1",
+      "stageSpawnConfigs": [
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Bat/Bat 1.asset"
+      ]
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/BoyFairy/BoyFairy.prefab",
+      "sha256": "f526cc0506594dc1384ffebd21c34e054580028bbce0a9a77d70246d18f20fd0",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/BoyFairy.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/RangeEnemy.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Weapon/EnemyRangeWeapon.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [
+        "GreenMagic"
+      ],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "BoyFairy",
+      "stageSpawnConfigs": [
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/BoyFairy/BoyFairy.asset",
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/BoyFairy/BoyFairy1.asset",
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/BoyFairy/BoyFairy2.asset",
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/BoyFairy/BoyFairy3.asset",
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/BoyFairy/BoyFairy4.asset",
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/BoyFairy/BoyFairy5.asset"
+      ]
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/Crow.prefab",
+      "sha256": "ef313f37940fce6320aa4999369c21093059826e5c1089c469c3f729b1eaacfc",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Ghost.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Weapon/EnemyMeleeWeapon.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/MeleeEnemy.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs",
+        "Assets/RGame/RSOFramework/StateMachine/Script/Runtime/StateMachine.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "Crow",
+      "stageSpawnConfigs": [
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Crow.asset"
+      ]
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/CrystalHealerFairy.prefab",
+      "sha256": "5b514bbedec30da0a81175a10c13b1d78c8d2c3f5dcb325a937c60151c4d64fd",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/CrystalHealerFairy.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/RangeEnemy.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Weapon/EnemyRangeWeapon.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [
+        "SnowMagic"
+      ],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "CrystalHealerFairy",
+      "stageSpawnConfigs": [
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/CrystalHealerFairy.asset"
+      ]
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/EyeBall/EyeBall.prefab",
+      "sha256": "de06810dbd3b8af1dfbedb7cc7e127a8d1b1d630d12a2c14b404e4209a5442d4",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Eyeball.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Weapon/EnemyMeleeWeapon.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/MeleeEnemy.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "EyeBall",
+      "stageSpawnConfigs": [
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/EyeBall/EyeBall.asset"
+      ]
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/EyeBall/EyeBall 1.prefab",
+      "sha256": "e372dbe7103788fdb7965995088f4ff28950cc08442c6f7bf21f36c97103f1f4",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Eyeball.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Weapon/EnemyMeleeWeapon.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/MeleeEnemy.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "EyeBall1",
+      "stageSpawnConfigs": [
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/EyeBall/EyeBall 1.asset"
+      ]
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/Fairy.prefab",
+      "sha256": "b8faece408705ad74e03609ea28f05b491c481336a736997f9b037a9e759c66c",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Fairy.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/RangeEnemy.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Weapon/EnemyRangeWeapon.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [
+        "RedMagic"
+      ],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "Fairy",
+      "stageSpawnConfigs": [
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Fairy.asset"
+      ]
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/FlameDancerFairy.prefab",
+      "sha256": "943a0658e4a1576f6de12e2f563b3572d340fbe94f4ef0d69a290af0c996dcd1",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/FlameDancerFairy.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/RangeEnemy.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Weapon/EnemyRangeWeapon.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [
+        "RedMagic"
+      ],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "FlameDancerFairy",
+      "stageSpawnConfigs": [
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/FlameDancerFairy.asset"
+      ]
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/FlySkull/FlySkull.prefab",
+      "sha256": "90d44c8897509b19a79bb24f3b894a124c97c0a7fe1159d71302139d74a29d65",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/FlySkull.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Weapon/EnemyMeleeWeapon.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/MeleeEnemy.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "FlySkull",
+      "stageSpawnConfigs": [
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/FlySkull/FlySkull.asset"
+      ]
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/FlySkull/FlySkull 1.prefab",
+      "sha256": "53fe31f6a297154cd4bf74c4c89086bcf00fbded57c9112bb30b86b5cb3f0581",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/FlySkull.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Weapon/EnemyMeleeWeapon.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/MeleeEnemy.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "FlySkull1",
+      "stageSpawnConfigs": [
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/FlySkull/FlySkull 1.asset"
+      ]
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/ForestGuardianFairy/ForestGuardianFairy.prefab",
+      "sha256": "c30333bac8eb45b9248ca77af9ac24e6901247806d14090dd50320034481c665",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/ForestGuardianFairy.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/RangeEnemy.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Weapon/EnemyRangeWeapon.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [
+        "GreenMagic"
+      ],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "ForestGuardianFairy",
+      "stageSpawnConfigs": [
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/ForestGuardianFairy/ForestGuardianFairy.asset"
+      ]
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/ForestGuardianFairy/ForestGuardianFairy1.prefab",
+      "sha256": "f0b6f67e45cb552f165be65f14732279529e59499718d4a27985d94eaad43da6",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/ForestGuardianFairy.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/RangeEnemy.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Weapon/EnemyRangeWeapon.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [
+        "GreenMagic"
+      ],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "ForestGuardianFairy1",
+      "stageSpawnConfigs": [
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/ForestGuardianFairy/ForestGuardianFairy 1.asset"
+      ]
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/FrostCrystalFairy.prefab",
+      "sha256": "1d2c4c677def406d71b400d35c56709122746eddd685eaca0ea4b6299713203d",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/FrostCrystalFairy.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/RangeEnemy.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Weapon/EnemyRangeWeapon.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [
+        "SnowMagic"
+      ],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "FrostCrystalFairy",
+      "stageSpawnConfigs": [
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/FrostCrystalFairy.asset"
+      ]
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/Gear/Gear.prefab",
+      "sha256": "e30c4ac40faa4dd59b5c0128b4b3bb220f05ff03009afc894c4d676359b99c47",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Gear.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Weapon/EnemyMeleeWeapon.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/MeleeEnemy.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "Gear",
+      "stageSpawnConfigs": [
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Gear/Gear.asset"
+      ]
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/Gear/Gear 1.prefab",
+      "sha256": "7644be7ededed264be9fb1b622f3ac522abd325299db6849c58b3ade07717604",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Gear.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Weapon/EnemyMeleeWeapon.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/MeleeEnemy.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "Gear1",
+      "stageSpawnConfigs": [
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Gear/Gear 1.asset"
+      ]
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/Ghost/Ghost.prefab",
+      "sha256": "db7e1bb286b5582d2c2f95d67062951c3692c9b179cb70d89ea0a42c02957331",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Ghost.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Weapon/EnemyMeleeWeapon.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/ChargeEnemy.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "Ghost",
+      "stageSpawnConfigs": [
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Ghost/Ghost.asset",
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Ghost/Ghost 1.asset",
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Ghost/Ghost 2.asset",
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Ghost/Ghost 3.asset",
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Ghost/Ghost 4.asset",
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Ghost/Ghost 5.asset",
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Ghost/Ghost 6.asset"
+      ]
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/PinkFairy.prefab",
+      "sha256": "34988be236306462c7fbecb408279a39ae46fd1990f1e27763eefc1ed2fa3b9c",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/PinkFairy.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/RangeEnemy.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Weapon/EnemyRangeWeapon.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [
+        "PinkMagic"
+      ],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "PinkFairy",
+      "stageSpawnConfigs": [
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/PinkFairy.asset"
+      ]
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/Slime/Slime.prefab",
+      "sha256": "bc89d093d12376e4dd2e8c85f9e114783896cf8b5f73d623207157a3340526fe",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Slime.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Weapon/EnemyMeleeWeapon.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/MeleeEnemy.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "Slime",
+      "stageSpawnConfigs": [
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Slime/Slime.asset"
+      ]
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/Slime/Slime 1.prefab",
+      "sha256": "3817c6509ac97ef579c93085a562f7e63344d65706645d0510b1bfbb06e46410",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Slime.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Weapon/EnemyMeleeWeapon.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/MeleeEnemy.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "Slime1",
+      "stageSpawnConfigs": [
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Slime/Slime1.asset"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Skill/BothSideSkill.prefab",
+      "sha256": "20b75598bd0de37d4bd11cb48a40ffe651a177228e65f7ef6d1e1d15428b4347",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/UI/White.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/System/Skill/Skill/Sport/BothSideSkill.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/System/Skill/Skill/RotateToMovementDirection.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "BothSideSkill",
+      "evolutionCode": "base.MixSkill();\n            _mySkillData.CD *= 0.3f;\n            _mySkillData.Area *= 2;",
+      "castSource": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillCast/BothSideSkillCast.cs",
+      "sportSource": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/Skill/Sport/BothSideSkill.cs"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Skill/BouncingSkill.prefab",
+      "sha256": "762ffe7869f84d9bb41b4177f6b3233830e5b8007b55a79d62988e4c32b12154",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Skill/NewSkill/Bouning.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/System/Skill/Skill/Sport/BouncingSkill.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/RotateAroundSelf.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "BouncingSkill",
+      "evolutionCode": "base.MixSkill();\n            _mySkillData.Velocity = _mySkillData.Velocity * 1.5f;\n            _mySkillData.Amount += 3;",
+      "castSource": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillCast/BouncingSkillCast.cs",
+      "sportSource": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/Skill/Sport/BouncingSkill.cs"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Skill/ChainSkill.prefab",
+      "sha256": "83209d72dbad9fe52974059537a1dc25c3bbf7652080647f6e370b0b2660674b",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Skill/Chain.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/System/Skill/Skill/Sport/ChainSkill.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/RotateAroundSelf.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "ChainSkill",
+      "evolutionCode": "base.MixSkill();\n            _mySkillData.CD *= 0.3f;",
+      "castSource": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillCast/ChainSkillCast.cs",
+      "sportSource": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/Skill/Sport/ChainSkill.cs"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Skill/CircularAttackSkill.prefab",
+      "sha256": "7ef2dfa8c8034c4adf3980678ce658921c0eaf15553430008b990bc9b52eca4f",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Skill/Skill-Photoroom.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/System/Skill/Skill/Sport/CircularAttackSkill.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "CircularAttackSkill",
+      "evolutionCode": "Mixed branch in Cast",
+      "castSource": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillCast/CircularAttackSkillCast.cs",
+      "sportSource": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/Skill/Sport/CircularAttackSkill.cs"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Skill/CircularMotionSkill.prefab",
+      "sha256": "292b1c1eea4b3eb5f65d270354590523822804963c2a28e49fe7203d43eeaa10",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Skill/NewSkill/Book.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/System/Skill/Skill/Sport/CircularMotionSkill.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "CircularMotionSkill",
+      "evolutionCode": "base.MixSkill();\n            _mySkillData.Velocity += 1;\n            _mySkillData.Amount += 3;",
+      "castSource": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillCast/CircularMotionSkillCast.cs",
+      "sportSource": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/Skill/Sport/CircularMotionSkill.cs"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Skill/FourCornerSkill.prefab",
+      "sha256": "82dc7832349c217a77e59807783d0b7bca4fe44e13d9f19d5b022189174a11a0",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Skill/NewSkill/FourFly.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/System/Skill/Skill/Sport/FourCornerSkill.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/RotateAroundSelf.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "FourCornerSkill",
+      "evolutionCode": "base.MixSkill();\n            _mySkillData.Area *= 2;",
+      "castSource": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillCast/FourCornerSkillCast.cs",
+      "sportSource": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/Skill/Sport/FourCornerSkill.cs"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Skill/InsideScopeSkill.prefab",
+      "sha256": "a8158ab4426f204adf9bcf18e961f9fe361853dc3a07dfb3d0488d6cab347812",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Skill/RedOutToInside.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/System/Skill/Skill/Sport/InsideScopeSkill.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "InsideScopeSkill",
+      "evolutionCode": "base.MixSkill();\n            _mySkillData.Area *= 2;",
+      "castSource": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillCast/InsideScopeSkillCast.cs",
+      "sportSource": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/Skill/Sport/InsideScopeSkill.cs"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Skill/RandomSkill.prefab",
+      "sha256": "76e7cce02077b348473c21e5b4d8077f3d26e2d4cec0e64ece061ac9efb2ff21",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Skill/NewSkill/RandomAttack.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RSOFramework/Pool/PoolMono.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "RandomSkill",
+      "evolutionCode": "base.MixSkill();\n            _mySkillData.CD *= 0.3f;",
+      "castSource": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillCast/RandomSkillCast.cs",
+      "sportSource": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/Skill/Sport/RandomSkill.cs"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Skill/ToNearestSkill.prefab",
+      "sha256": "289c4ab5452fb22f2c0d55d5d7af5eb1ac3328996f8da4670c65483540f54123",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Skill/NewSkill/Nearest.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/System/Skill/Skill/RotateToMovementDirection.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/System/Skill/Skill/Sport/ToNearestSkill.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "ToNearestSkill",
+      "evolutionCode": "base.MixSkill();\n            _mySkillData.CD = 0.15f;\n            _mySkillData.Damage = 5;",
+      "castSource": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillCast/ToNearestSkillCast.cs",
+      "sportSource": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/Skill/Sport/ToNearestSkill.cs"
+    }
+  ],
+  "map": {
+    "config": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Map/Map1.asset",
+    "width": 100,
+    "height": 100,
+    "tiles": [
+      {
+        "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Map/Map_1.PNG",
+        "weight": 200,
+        "size": [
+          2048,
+          2048
+        ]
+      },
+      {
+        "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Map/Map_2.PNG",
+        "weight": 3,
+        "size": [
+          2048,
+          2048
+        ]
+      },
+      {
+        "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Map/Map_3.PNG",
+        "weight": 3,
+        "size": [
+          2048,
+          2048
+        ]
+      },
+      {
+        "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Map/Map_4.PNG",
+        "weight": 1,
+        "size": [
+          2048,
+          2048
+        ]
+      },
+      {
+        "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Map/Map_5.PNG",
+        "weight": 1,
+        "size": [
+          2048,
+          2048
+        ]
+      },
+      {
+        "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Map/Map_6.PNG",
+        "weight": 3,
+        "size": [
+          2048,
+          2048
+        ]
+      }
+    ],
+    "prop": {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/DropOut/Prop.prefab",
+      "sha256": "41edb66860b496b41eba8a94987ed40491a587bad628ad7347209d634f8d439f",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/DropBox.png",
+        "a86470a33a6bf42c4b3595704624658b"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Game/DropOut/DropBox.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": []
+    }
+  },
+  "loot": [
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/DropOut/Exp40.prefab",
+      "sha256": "da3d08ea59a1d59f1efd2d38fb7b7a715b761f3cc9933028d86c4064226fc1ad",
+      "sprites": [
+        "a86470a33a6bf42c4b3595704624658b"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Game/DropOut/Exp/Exp.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "Exp40"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/DropOut/Exp80.prefab",
+      "sha256": "793611ae34b2a099a57e935fdd6371e3fed24d8c4c5226a63d9e23e3e3c384da",
+      "sprites": [
+        "a86470a33a6bf42c4b3595704624658b"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Game/DropOut/Exp/Exp.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "Exp80"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/DropOut/ReplyHp.prefab",
+      "sha256": "1b89b31e5b1fd4ffa076b9f006c502223b2a1309421b84aa8059dc276775580c",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/ReplyHP.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Game/DropOut/Reply/ReplyHp.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "ReplyHP"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/DropOut/Suck.prefab",
+      "sha256": "828175b7ed87b1e61883d54a327d5f670572a5ed7d02024cffbae015900c6644",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Suck.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Game/DropOut/SuckExp/SuckExp.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/RotateAroundSelf.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "Suck"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/DropOut/Purse.prefab",
+      "sha256": "da0f2ccd2be4857b94a556142500cdaed67d4ea46a7324ea4a8216c8456d7114",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Purse.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Game/DropOut/Purse/Purse.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "Purse"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/DropOut/TreasureBox.prefab",
+      "sha256": "e243b9e906a28f6ce2197c3dc302ec397965a559c1047df02b96ff7a9c7752eb",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/UI/TreasureBox1.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Game/DropOut/TreasureBox.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/Utility/DynamicSortOrder.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "Box"
+    }
+  ],
+  "enemyProjectiles": [
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/Magic/BlueMagic.prefab",
+      "sha256": "5aceeaa8eeb52da38cc5cd1e419ddfe6c16f029d37b5b4a71c10677cb68c988d",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Magic/BlueMagic.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Magic/EnemyMagic.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "BlueMagic"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/Magic/PinkMagic.prefab",
+      "sha256": "196c8bc3c90b60ad4d1326d317bf4e6b04928c595dd421b241d5c7868916866a",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Magic/PinkMagic.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Magic/EnemyMagic.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "PinkMagic"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/Magic/RedMagic.prefab",
+      "sha256": "a9f2e1b825a3f00e0c36d26a8af6f90806541bfb6b0a92ef684170a112579912",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Magic/RedMagic.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Magic/EnemyMagic.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "RedMagic"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/Magic/GreenMagic.prefab",
+      "sha256": "4acd2a350229154c3041486f59d7bfd9d6b756a2f038337775c66b7a80a7b9d3",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Magic/GreenMagic.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Magic/EnemyMagic.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "GreenMagic"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/Magic/SnowMagic.prefab",
+      "sha256": "57967ad94f294578d2fece9f5925ce693c934c73dc1483f64a8ff66c6d7de790",
+      "sprites": [
+        "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Magic/SnowMagic.png"
+      ],
+      "scripts": [
+        "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Magic/EnemyMagic.cs"
+      ],
+      "materials": [],
+      "controllers": [],
+      "magicKeys": [],
+      "dropKeys": [],
+      "sourcePrefabs": [],
+      "spriteOverrides": [],
+      "key": "SnowMagic"
+    }
+  ],
+  "allPoolMapping": {
+    "Exp40": "Assets/RGame/RoguelikeKit/Prefabs/DropOut/Exp40.prefab",
+    "Exp80": "Assets/RGame/RoguelikeKit/Prefabs/DropOut/Exp80.prefab",
+    "ReplyHP": "Assets/RGame/RoguelikeKit/Prefabs/DropOut/ReplyHp.prefab",
+    "Suck": "Assets/RGame/RoguelikeKit/Prefabs/DropOut/Suck.prefab",
+    "Purse": "Assets/RGame/RoguelikeKit/Prefabs/DropOut/Purse.prefab",
+    "Box": "Assets/RGame/RoguelikeKit/Prefabs/DropOut/TreasureBox.prefab",
+    "SlowBuff": "Assets/RGame/RoguelikeKit/Prefabs/Buff/SlowBuff.prefab",
+    "DamagePopup": "Assets/RGame/RoguelikeKit/Prefabs/DamagePopup.prefab",
+    "BlueMagic": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/Magic/BlueMagic.prefab",
+    "PinkMagic": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/Magic/PinkMagic.prefab",
+    "RedMagic": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/Magic/RedMagic.prefab",
+    "GreenMagic": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/Magic/GreenMagic.prefab",
+    "SnowMagic": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/Magic/SnowMagic.prefab",
+    "Bat": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/Bat/Bat.prefab",
+    "Bat1": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/Bat/Bat 1.prefab",
+    "BoyFairy": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/BoyFairy/BoyFairy.prefab",
+    "EyeBall": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/EyeBall/EyeBall.prefab",
+    "EyeBall1": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/EyeBall/EyeBall 1.prefab",
+    "FlySkull": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/FlySkull/FlySkull.prefab",
+    "FlySkull1": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/FlySkull/FlySkull 1.prefab",
+    "ForestGuardianFairy": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/ForestGuardianFairy/ForestGuardianFairy.prefab",
+    "ForestGuardianFairy1": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/ForestGuardianFairy/ForestGuardianFairy1.prefab",
+    "Gear": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/Gear/Gear.prefab",
+    "Gear1": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/Gear/Gear 1.prefab",
+    "Ghost": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/Ghost/Ghost.prefab",
+    "Slime": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/Slime/Slime.prefab",
+    "Slime1": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/Slime/Slime 1.prefab",
+    "Crow": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/Crow.prefab",
+    "CrystalHealerFairy": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/CrystalHealerFairy.prefab",
+    "Fairy": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/Fairy.prefab",
+    "FlameDancerFairy": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/FlameDancerFairy.prefab",
+    "FrostCrystalFairy": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/FrostCrystalFairy.prefab",
+    "PinkFairy": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/PinkFairy.prefab"
+  },
+  "sourceEvidence": {
+    "playerAnimationLogic": "Assets/RGame/RoguelikeKit/Scripts/Game/Player/Animator/PlayerAnim.cs",
+    "mapGeneration": "Assets/RGame/RoguelikeKit/Scripts/System/Map/MapManager.cs",
+    "enemyBase": "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/BaseEnemy.cs",
+    "enemyHit": "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs"
+  },
+  "sourceAnomalies": [
+    {
+      "id": "crow-ghost-sprite",
+      "fact": "Crow prefab actually references Ghost.png; Crow.png exists but is not the referenced Sprite.",
+      "requiredTreatment": "Give Crow a separate new crow identity only as a documented art redesign, never claim it is the original visible Sprite."
+    },
+    {
+      "id": "levels-share-map",
+      "fact": "FirstLevel and SecondLevel reference the same Map1 and Stage1.",
+      "requiredTreatment": "One world tile family covers both; new distinct map gameplay is outside current source scope."
+    },
+    {
+      "id": "unknown-unity-sprite-guid",
+      "fact": "Exp40/Exp80/Shadow use GUID a86470a33a6bf42c4b3595704624658b, unresolved by repository .meta scan.",
+      "requiredTreatment": "Replace with new pickup/shadow PNG and record it as new art. Do not claim original Sprite decoded."
+    }
+  ],
+  "animationContract": {
+    "players": {
+      "requiredActions": [
+        "Idle",
+        "Run"
+      ],
+      "sourceScheme": "PSB skeletal transform animation; 1 second, 30 samples/sec, loop; no m_Sprite curves.",
+      "directionScheme": "Horizontal transform.localScale mirror; no eight-direction requirement in source.",
+      "acceptedArtDeliverable": "Either validated layered rig art with Idle/Run motion spec, or real authored animated sprites with constant canvas, foot registration, frame timing and preview. A whole-character bob/squash export alone is not equivalent to articulated Run.",
+      "hitAndDeath": "Source white-flash and material alpha fade; no separate attack/hurt/death sprite clip is required by source."
+    },
+    "enemies": {
+      "sourceScheme": "Static SpriteRenderer, procedural movement plus vertex sine distortion, x mirror, hit flash, noise dissolve; no enemy Animator or .anim clip.",
+      "acceptedArtDeliverable": "14 identity PNG masters and mapping for all 20 keys, with source-compatible motion/hit/death state art guidance; elite marker/variant may share base master.",
+      "optionalBeyondSource": [
+        "walk/run strips",
+        "attack strips",
+        "dead-body frames"
+      ]
+    },
+    "skills": {
+      "sourceScheme": "Static transparent sprite/projectile transformed by casts/movement, no sprite Animator.",
+      "acceptedArtDeliverable": "9 distinct world FX textures plus 9 evolved-state assignments/previews. Evolution may reuse the same texture and change spawn count/speed/scale per source."
+    }
+  },
+  "minimumArtDeliveryMatrix": [
+    {
+      "category": "UI screens and controls",
+      "sourceCount": "52 current designed states; full UIs in separate UI_COVERAGE.json",
+      "currentArt": "art/common/, art/icons/, designs/ui-suite/",
+      "gapAtAudit": "Requires final visual/source acceptance and export manifest, tracked separately."
+    },
+    {
+      "category": "Player identities",
+      "sourceCount": 3,
+      "currentArt": [
+        "art/characters/hero.png",
+        "art/characters/sword.png",
+        "art/characters/healer.png"
+      ],
+      "gapAtAudit": "Static masters exist; need world-facing foot Pivot/size acceptance and all six Idle/Run motion deliveries."
+    },
+    {
+      "category": "Player motion",
+      "sourceCount": 6,
+      "currentArt": [],
+      "gapAtAudit": "Three Idle and three Run; no authored motion package found in current art/."
+    },
+    {
+      "category": "Enemy identity masters",
+      "sourceCount": 14,
+      "currentArt": [
+        "art/characters/enemy-tiger.png",
+        "art/characters/enemy-lantern.png"
+      ],
+      "gapAtAudit": "Two existing sample enemies have no confirmed complete mapping to the 14 actual identities; need a full source-key mapping."
+    },
+    {
+      "category": "Elite assignments",
+      "sourceCount": 6,
+      "currentArt": [],
+      "gapAtAudit": "Base master reuse allowed; explicitly map six *1 keys and optional common elite marker. No invented extra six species required."
+    },
+    {
+      "category": "Map tiles",
+      "sourceCount": 6,
+      "currentArt": [],
+      "gapAtAudit": "arena-v1 is a UI plate, not the six independent loopable gameplay tiles. Need same compatible outer edges, six source-weight mappings, tile seam preview."
+    },
+    {
+      "category": "Breakable prop",
+      "sourceCount": 1,
+      "currentArt": [],
+      "gapAtAudit": "One independent prop, reused 20 times per generated map; optional impact/dissolve state art guidance."
+    },
+    {
+      "category": "World loot",
+      "sourceCount": 6,
+      "currentArt": [
+        "art/icons/exp.png",
+        "art/icons/healing.png",
+        "art/icons/moneybag.png",
+        "art/icons/treasure-closed.png"
+      ],
+      "gapAtAudit": "Reuse is possible after world readability/size validation; Exp40 vs Exp80 need distinct value/appearance assignments; Suck attractor independent art missing."
+    },
+    {
+      "category": "World skill FX",
+      "sourceCount": 9,
+      "currentArt": "Nine skill-* UI icons exist",
+      "gapAtAudit": "UI icon crops do not establish world FX production. Need nine clear transparent attack/projectile textures and effect orientation/Pivot."
+    },
+    {
+      "category": "Evolved skill assignment",
+      "sourceCount": 9,
+      "currentArt": [],
+      "gapAtAudit": "No extra texture is mandatory: source changes cast parameters. Deliver 9 parameter-faithful visual comparisons and mapped shared textures."
+    },
+    {
+      "category": "Enemy projectile FX",
+      "sourceCount": 5,
+      "currentArt": [],
+      "gapAtAudit": "BlueMagic/PinkMagic/RedMagic/GreenMagic/SnowMagic must each have an unambiguous world texture assignment."
+    },
+    {
+      "category": "Enemy status FX",
+      "sourceCount": 3,
+      "currentArt": [
+        "art/icons/buff-burn.png",
+        "art/icons/buff-freeze.png",
+        "art/icons/buff-slow.png"
+      ],
+      "gapAtAudit": "Icons complete, but world Burn tint/Freezing/Slow shared source ring needs readable art/state guidance. Shared ring allowed with different time/colour."
+    },
+    {
+      "category": "Common world material support",
+      "sourceCount": "1 shadow + 1 dissolve mask minimum",
+      "currentArt": [],
+      "gapAtAudit": "Source uses projected/material shadows and dissolve noise. Supply compatible independent support PNG/mask or document complete reuse with legal source evidence; shaders/C# remain next phase."
+    },
+    {
+      "category": "Lobby and loading illustrations",
+      "sourceCount": 2,
+      "currentArt": [
+        "art/illustrations/lobby-v1.png",
+        "art/illustrations/arena-v1.png"
+      ],
+      "gapAtAudit": "Illustrations exist; keep separate from loopable gameplay map claim."
+    }
+  ],
+  "notApplicable": [
+    "Online login, account, server selection, character creation",
+    "MMORPG world/teleport/social/friends/chat/mail/guild/party",
+    "Traditional inventory, warehouse, equipment, crafting, mounts, pets",
+    "Quests, dailies, events, sign-in, ranks, gacha",
+    "Source-required eight-direction character art",
+    "Separate enemy attack/walk/death frame strips",
+    "Three unique gameplay maps",
+    "New sound or music production (outside this visual art audit)"
+  ],
+  "currentArtInspection": {
+    "snapshotDate": "2026-10-28",
+    "artPngCount": 86,
+    "characterMotionPackageFound": false,
+    "worldTilePackageFound": false,
+    "fullEnemySourceMappingFound": false,
+    "note": "This audit is a point-in-time gap audit, not final production acceptance. New production may resolve these gaps; do not overwrite this snapshot to imply the art existed at audit time."
+  },
+  "decodedReferencedImages": [
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Map/Map_1.PNG",
+      "size": [
+        2048,
+        2048
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Map/Map_2.PNG",
+      "size": [
+        2048,
+        2048
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Map/Map_3.PNG",
+      "size": [
+        2048,
+        2048
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Map/Map_4.PNG",
+      "size": [
+        2048,
+        2048
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Map/Map_5.PNG",
+      "size": [
+        2048,
+        2048
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Map/Map_6.PNG",
+      "size": [
+        2048,
+        2048
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Bat.png",
+      "size": [
+        128,
+        128
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/BoyFairy.png",
+      "size": [
+        256,
+        256
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/CrystalHealerFairy.png",
+      "size": [
+        256,
+        256
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Eyeball.png",
+      "size": [
+        128,
+        128
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Fairy.png",
+      "size": [
+        512,
+        512
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/FlameDancerFairy.png",
+      "size": [
+        256,
+        256
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/FlySkull.png",
+      "size": [
+        128,
+        128
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/ForestGuardianFairy.png",
+      "size": [
+        256,
+        256
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/FrostCrystalFairy.png",
+      "size": [
+        256,
+        256
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Gear.png",
+      "size": [
+        128,
+        128
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Ghost.png",
+      "size": [
+        128,
+        128
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Magic/BlueMagic.png",
+      "size": [
+        128,
+        128
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Magic/GreenMagic.png",
+      "size": [
+        64,
+        64
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Magic/PinkMagic.png",
+      "size": [
+        128,
+        128
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Magic/RedMagic.png",
+      "size": [
+        64,
+        64
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Magic/SnowMagic.png",
+      "size": [
+        64,
+        64
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/PinkFairy.png",
+      "size": [
+        256,
+        256
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Slime.png",
+      "size": [
+        128,
+        128
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Purse.png",
+      "size": [
+        395,
+        427
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/ReplyHP.png",
+      "size": [
+        500,
+        500
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Skill/Chain.png",
+      "size": [
+        64,
+        64
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Skill/NewSkill/Book.png",
+      "size": [
+        64,
+        64
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Skill/NewSkill/Bouning.png",
+      "size": [
+        64,
+        64
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Skill/NewSkill/FourFly.png",
+      "size": [
+        64,
+        64
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Skill/NewSkill/Nearest.png",
+      "size": [
+        64,
+        64
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Skill/NewSkill/RandomAttack.png",
+      "size": [
+        64,
+        64
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Skill/RedOutToInside.png",
+      "size": [
+        200,
+        200
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Skill/Skill-Photoroom.png",
+      "size": [
+        1024,
+        768
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/Suck.png",
+      "size": [
+        500,
+        500
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/UI/TreasureBox1.png",
+      "size": [
+        500,
+        500
+      ],
+      "format": "PNG"
+    },
+    {
+      "source": "Assets/RGame/RoguelikeKit/Art/Sprites/UI/White.png",
+      "size": [
+        21,
+        13
+      ],
+      "format": "PNG"
+    }
+  ],
+  "sourceEvidenceSha256": {
+    "Assets/RGame/RoguelikeKit/Scripts/Game/Player/Animator/PlayerAnim.cs": "08c2721188fb1058e04697af1975121f0f3c25c2a3f8442656714d3916665d1c",
+    "Assets/RGame/RoguelikeKit/Scripts/System/Map/MapManager.cs": "ad4f35addce92d945b77c63a7526ab98640d8b5a573cf84494a3f7e2bc4927dd",
+    "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/BaseEnemy.cs": "65204e67a249075c048d547cf8d1cac4e19fdb7864011d6fad227c3e8cdb6520",
+    "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs": "009cb93b026e998eb5e3113f858f976bf96cdf9963030c9d8466120defcece71"
+  }
+}

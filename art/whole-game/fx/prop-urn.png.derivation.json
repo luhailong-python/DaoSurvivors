@@ -1,0 +1,85 @@
+{
+  "file": "art/whole-game/fx/prop-urn.png",
+  "key": "Prop",
+  "label": "可破灵瓮",
+  "sha256": "950408cf8436d4d09ad1fe4e42b4e59de7326f7d935655170462df2bab2df819",
+  "canvas": [
+    512,
+    512
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "alphaPixels": {
+    "zero": 226205,
+    "nonzero": 35939,
+    "visibleGreaterThan8": 27175
+  },
+  "derivedFrom": {
+    "file": "art/whole-game/sheets/world-combat-v1.png",
+    "sha256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+    "generationRecord": "art/whole-game/sheets/world-combat-v1.png.generation.json"
+  },
+  "operation": {
+    "kind": "native ownership crop + transparent padding",
+    "cropRectXYXY": [
+      1174,
+      758,
+      1536,
+      1024
+    ],
+    "placementXY": [
+      72,
+      158
+    ],
+    "nativeCropSize": [
+      362,
+      266
+    ],
+    "visibleAlphaGreaterThan8BBoxInCrop": [
+      83,
+      3,
+      286,
+      193
+    ],
+    "resampled": false,
+    "alphaModified": false,
+    "sourcePixelsPreserved": true,
+    "componentFiltering": "none; all source alpha pixels retained including faint native halo/specks"
+  },
+  "pivotBottomLeft": [
+    0.5,
+    0.314453
+  ],
+  "spriteType": "Single",
+  "meshType": "FullRect",
+  "filterMode": "Bilinear",
+  "wrapMode": "Clamp",
+  "mipmaps": false,
+  "colourSpace": "sRGB",
+  "borderLTRB": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "defaultDirection": "radial/standing; see asset role",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow native atlas generation record; this slicing did not call an image model.",
+  "validation": {
+    "pixelCopyMatchesSource": true,
+    "ownershipComponentCrossings": 0,
+    "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+    "visibleBBox": [
+      155,
+      161,
+      358,
+      351
+    ],
+    "visualReview": "accepted; complete subject, no neighbour contamination, clean visible margins, readable on reviewed light/dark backgrounds",
+    "Unity": "not-tested"
+  }
+}

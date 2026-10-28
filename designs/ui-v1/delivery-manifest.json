@@ -1,0 +1,440 @@
+{
+  "recordedAt": "2026-10-26T05:58:00.988395-04:00",
+  "projectRoot": "E:\\work\\image\\DaoSurvivors",
+  "scope": "Images and UI design deliverable; not Unity runtime acceptance",
+  "runtimeArtwork": [
+    {
+      "file": "Assets/DaoSurvivor/Resources/DaoArt/application_card.png",
+      "sha256": "3296c51cee62208be6f4af16d5009999384edb2dacaa6ef88f52eda2192e6d2e",
+      "size": [
+        631,
+        198
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "generationRecord": "docs/ASSET_SOURCES.json"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Resources/DaoArt/arena-v1.png",
+      "sha256": "0e4fe4c8d1c0a7ad3e0d59d9d12979ed77a94d1d93b22b3e652fa7fe1e6ae442",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "generationRecord": "arena-v1.png.generation.json"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Resources/DaoArt/button_primary.png",
+      "sha256": "601439876422eb7cc1375b40960702c46e16728025d979d8d30b9b3dd4e1c4ea",
+      "size": [
+        225,
+        66
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "generationRecord": "docs/ASSET_SOURCES.json"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Resources/DaoArt/button_secondary.png",
+      "sha256": "d1703b1c9ea3bb659addd4682a76d7955d045ddd6652e9312769352dc2fcdecc",
+      "size": [
+        220,
+        66
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "generationRecord": "docs/ASSET_SOURCES.json"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Resources/DaoArt/close.png",
+      "sha256": "26b3ccd040e44df84573174ab22bbfe72bceacc35dd96f5538c879ccfb8df3cc",
+      "size": [
+        82,
+        82
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "generationRecord": "docs/ASSET_SOURCES.json"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Resources/DaoArt/enemy-lantern.png",
+      "sha256": "cb9fd0d4187c8fc654cceb388c0672d465d1373e47ed17aa1acd7b9a75b66341",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "generationRecord": "docs/ASSET_SOURCES.json"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Resources/DaoArt/enemy-tiger.png",
+      "sha256": "3f4e0639c59e43ff3bd50bd26e903a5977a5e68910eff6a43d13a4454252a3ce",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "generationRecord": "docs/ASSET_SOURCES.json"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Resources/DaoArt/fox.png",
+      "sha256": "eb55d459871737d1c49ff49097d1c7612cf60a35095c60bfca0198e425c04b11",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "generationRecord": "docs/ASSET_SOURCES.json"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Resources/DaoArt/healer.png",
+      "sha256": "ad13960429287eaba81d33a8af49845150cd7619bb9a02bf00894af63b3c032e",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "generationRecord": "docs/ASSET_SOURCES.json"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Resources/DaoArt/hero.png",
+      "sha256": "de0c3e6d71d7c3dbbfed313e7971b2b8220e27d3e79aafa617b225d3e322706d",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "generationRecord": "docs/ASSET_SOURCES.json"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Resources/DaoArt/icon-boots.png",
+      "sha256": "b980fcec5f8e7307174d45f8f74ef432dfbbbf5f3343c2067976af1a9cdbe2f5",
+      "size": [
+        600,
+        600
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "generationRecord": "docs/ASSET_SOURCES.json"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Resources/DaoArt/icon-sword.png",
+      "sha256": "4f10322dbfced9be6135fb37b07e20ee101df3b05a8954d448aeecd488be2c7f",
+      "size": [
+        600,
+        600
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "generationRecord": "docs/ASSET_SOURCES.json"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Resources/DaoArt/icon-taiji.png",
+      "sha256": "c652c5f8377541bed5c8d6c3d23ef32fe1677b9a406f80f6805e44f70846feac",
+      "size": [
+        120,
+        120
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "generationRecord": "docs/ASSET_SOURCES.json"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Resources/DaoArt/lobby-v1.png",
+      "sha256": "c1d4031e9e6185855ce4d938a0d28b804a4edc0c88655dc52f735fedfe8a35a4",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "generationRecord": "lobby-v1.png.generation.json"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Resources/DaoArt/main_frame.png",
+      "sha256": "6a378f42223fe31a264837bbb48cf7612ec558edc3edab36a211360c4f243330",
+      "size": [
+        1664,
+        705
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "generationRecord": "docs/ASSET_SOURCES.json"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Resources/DaoArt/member_row.png",
+      "sha256": "706797419d8d1d8daa67b3915af7b53a01f760ae5590ed5214655985a79a155b",
+      "size": [
+        851,
+        97
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "generationRecord": "docs/ASSET_SOURCES.json"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Resources/DaoArt/portrait_frame.png",
+      "sha256": "920d271ede006157ef337f2467f666d5189f5ee9d7ec4d0cde9ac5626a35d945",
+      "size": [
+        91,
+        91
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "generationRecord": "docs/ASSET_SOURCES.json"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Resources/DaoArt/section_plate.png",
+      "sha256": "0233d6e1ba16bd2b4b7c11a5a4680ef61fae9b1c6b161c3f3d28f047d23c305f",
+      "size": [
+        433,
+        72
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "generationRecord": "docs/ASSET_SOURCES.json"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Resources/DaoArt/sword.png",
+      "sha256": "ea2228db505fbc057da4b4056d08e9bd00ddc0832921e1b37b148ac703b43989",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "generationRecord": "docs/ASSET_SOURCES.json"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Resources/DaoArt/title_plate.png",
+      "sha256": "7b81c7b17fa7d219f181c3edc1fa40412fe34a39e0bbe0e77b25088c83707871",
+      "size": [
+        716,
+        145
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "generationRecord": "docs/ASSET_SOURCES.json"
+    }
+  ],
+  "rendererSources": [
+    {
+      "file": "docs/preview/index.html",
+      "sha256": "0b0afd6f781aba5ac1e796742d99bdcb5f7001c9092cbffab98e954aa3b4d9ac"
+    },
+    {
+      "file": "docs/preview/style.css",
+      "sha256": "c61c77bfc643f172603347e97fb89d6cd945e1d61b4516d9ff05a1cc87d1dd8e"
+    },
+    {
+      "file": "docs/preview/preview.js",
+      "sha256": "8ebec15ce36e4e864e9cd55c69edc020156c1ef8e57bd6e98c672db7909eb7bc"
+    },
+    {
+      "file": "tools/capture-ui.cjs",
+      "sha256": "b7583338371bd2174ce31d1e3afd375f5778e5903461d9694e2a003fd3354242"
+    }
+  ],
+  "renderedFrames": [
+    {
+      "view": "home",
+      "file": "designs/ui-v1/previews/01-home-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "09f9b630b2df7b5fc33e53b66c797d36001b506c6a537f287cd6f4c78f97197d",
+      "operation": "DOM layout rendered by Chromium; composited existing PNGs and native font text. Not Unity runtime and not a new AI generation.",
+      "derivedFrom": "runtimeArtwork entries and rendererSources in this manifest",
+      "nativeGeneration": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "UI composition is not an AI call. Follow each artwork's original generation/source record.",
+      "text": "Native DOM text rendered using bundled Noto Sans SC; not baked model-generated copy",
+      "sourcePixelPolicy": "Illustrations are uniformly fitted to the UI viewport; preview pixels do not add native image detail."
+    },
+    {
+      "view": "cultivation",
+      "file": "designs/ui-v1/previews/02-cultivation-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "ee58977271ebcb7908b464b9ce89a0c26707cf935e828821a78d3ddf39ee4d4b",
+      "operation": "DOM layout rendered by Chromium; composited existing PNGs and native font text. Not Unity runtime and not a new AI generation.",
+      "derivedFrom": "runtimeArtwork entries and rendererSources in this manifest",
+      "nativeGeneration": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "UI composition is not an AI call. Follow each artwork's original generation/source record.",
+      "text": "Native DOM text rendered using bundled Noto Sans SC; not baked model-generated copy",
+      "sourcePixelPolicy": "Illustrations are uniformly fitted to the UI viewport; preview pixels do not add native image detail."
+    },
+    {
+      "view": "codex",
+      "file": "designs/ui-v1/previews/03-codex-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "e6d13a275372aff205ea09e6090f92fe52393461eed7e658d075013988b60ba9",
+      "operation": "DOM layout rendered by Chromium; composited existing PNGs and native font text. Not Unity runtime and not a new AI generation.",
+      "derivedFrom": "runtimeArtwork entries and rendererSources in this manifest",
+      "nativeGeneration": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "UI composition is not an AI call. Follow each artwork's original generation/source record.",
+      "text": "Native DOM text rendered using bundled Noto Sans SC; not baked model-generated copy",
+      "sourcePixelPolicy": "Illustrations are uniformly fitted to the UI viewport; preview pixels do not add native image detail."
+    },
+    {
+      "view": "battle",
+      "file": "designs/ui-v1/previews/04-battle-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "b9c37b06fceb277fb30703d030fc3def385915e7a6d426c685e0bb13cbc53635",
+      "operation": "DOM layout rendered by Chromium; composited existing PNGs and native font text. Not Unity runtime and not a new AI generation.",
+      "derivedFrom": "runtimeArtwork entries and rendererSources in this manifest",
+      "nativeGeneration": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "UI composition is not an AI call. Follow each artwork's original generation/source record.",
+      "text": "Native DOM text rendered using bundled Noto Sans SC; not baked model-generated copy",
+      "sourcePixelPolicy": "Illustrations are uniformly fitted to the UI viewport; preview pixels do not add native image detail."
+    },
+    {
+      "view": "upgrade",
+      "file": "designs/ui-v1/previews/05-upgrade-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f9b51afea019a66aa19aa2368131a3da3ee12cf77360ad1d0280ed30f7ed9977",
+      "operation": "DOM layout rendered by Chromium; composited existing PNGs and native font text. Not Unity runtime and not a new AI generation.",
+      "derivedFrom": "runtimeArtwork entries and rendererSources in this manifest",
+      "nativeGeneration": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "UI composition is not an AI call. Follow each artwork's original generation/source record.",
+      "text": "Native DOM text rendered using bundled Noto Sans SC; not baked model-generated copy",
+      "sourcePixelPolicy": "Illustrations are uniformly fitted to the UI viewport; preview pixels do not add native image detail."
+    },
+    {
+      "view": "pause",
+      "file": "designs/ui-v1/previews/06-pause-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "c65991cf816ff5c2b88922edf442aff8461f7976f8c02b6d36d3f2ad6ada103a",
+      "operation": "DOM layout rendered by Chromium; composited existing PNGs and native font text. Not Unity runtime and not a new AI generation.",
+      "derivedFrom": "runtimeArtwork entries and rendererSources in this manifest",
+      "nativeGeneration": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "UI composition is not an AI call. Follow each artwork's original generation/source record.",
+      "text": "Native DOM text rendered using bundled Noto Sans SC; not baked model-generated copy",
+      "sourcePixelPolicy": "Illustrations are uniformly fitted to the UI viewport; preview pixels do not add native image detail."
+    },
+    {
+      "view": "settings",
+      "file": "designs/ui-v1/previews/07-settings-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "49c6f95216c00d5ee3f35ec1e90b8551ca8c2090f3857d5744119af4b87a527f",
+      "operation": "DOM layout rendered by Chromium; composited existing PNGs and native font text. Not Unity runtime and not a new AI generation.",
+      "derivedFrom": "runtimeArtwork entries and rendererSources in this manifest",
+      "nativeGeneration": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "UI composition is not an AI call. Follow each artwork's original generation/source record.",
+      "text": "Native DOM text rendered using bundled Noto Sans SC; not baked model-generated copy",
+      "sourcePixelPolicy": "Illustrations are uniformly fitted to the UI viewport; preview pixels do not add native image detail."
+    },
+    {
+      "view": "result",
+      "file": "designs/ui-v1/previews/08-result-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1766ee435e672d824624abe60401c8ebe49f4f011b350e53758c9a27a696a78b",
+      "operation": "DOM layout rendered by Chromium; composited existing PNGs and native font text. Not Unity runtime and not a new AI generation.",
+      "derivedFrom": "runtimeArtwork entries and rendererSources in this manifest",
+      "nativeGeneration": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "UI composition is not an AI call. Follow each artwork's original generation/source record.",
+      "text": "Native DOM text rendered using bundled Noto Sans SC; not baked model-generated copy",
+      "sourcePixelPolicy": "Illustrations are uniformly fitted to the UI viewport; preview pixels do not add native image detail."
+    },
+    {
+      "view": "defeat",
+      "file": "designs/ui-v1/previews/09-defeat-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1d9a72b0e8c70f5f638a9aa1a4da261bc7db7dbad35a8cfa352137dd8380956a",
+      "operation": "DOM layout rendered by Chromium; composited existing PNGs and native font text. Not Unity runtime and not a new AI generation.",
+      "derivedFrom": "runtimeArtwork entries and rendererSources in this manifest",
+      "nativeGeneration": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "UI composition is not an AI call. Follow each artwork's original generation/source record.",
+      "text": "Native DOM text rendered using bundled Noto Sans SC; not baked model-generated copy",
+      "sourcePixelPolicy": "Illustrations are uniformly fitted to the UI viewport; preview pixels do not add native image detail."
+    }
+  ],
+  "sourceManifest": "docs/ASSET_SOURCES.json",
+  "browserVerification": "docs/verification/ui-preview.json",
+  "errors": [],
+  "status": "passed"
+}

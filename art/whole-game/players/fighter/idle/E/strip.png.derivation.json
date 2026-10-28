@@ -1,0 +1,71 @@
+{
+  "file": "art/whole-game/players/fighter/idle/E/strip.png",
+  "sha256": "ad584db15da5c47e38d8ceb89a3140585cb434048c71fc9cb67654e1b89050be",
+  "derivedFrom": [
+    {
+      "file": "art/whole-game/players/fighter/idle/E/01.png",
+      "sha256": "774d6506a63fda087fe509b8bb7fd12ae616fc7dc98a8883e0a15f759e0a26c7"
+    },
+    {
+      "file": "art/whole-game/players/fighter/idle/E/02.png",
+      "sha256": "cedc43f53fed95a92a110f54fc76f5fee73a7caace2a677a300f30cfe730fa9d"
+    },
+    {
+      "file": "art/whole-game/players/fighter/idle/E/03.png",
+      "sha256": "1a7bcb5f005b1802bc16bd85ce41be387edb7d9b878598838dd21819fcddb96d"
+    },
+    {
+      "file": "art/whole-game/players/fighter/idle/E/04.png",
+      "sha256": "6c7b13694688333bba8b102ac0bfa6c699ae271aecaceb0185e4af23adc19656"
+    },
+    {
+      "file": "art/whole-game/players/fighter/idle/E/05.png",
+      "sha256": "aba7e78ec7eb845ee1fdd0241486d96b0089d5cfc2ed8d905b0a65d63708e942"
+    },
+    {
+      "file": "art/whole-game/players/fighter/idle/E/06.png",
+      "sha256": "916e6b940def498f458ba8430d047937e952df45698911fa3b73385e7253252f"
+    },
+    {
+      "file": "art/whole-game/players/fighter/idle/E/07.png",
+      "sha256": "56454e31ae39a72cd491a7e7ea59a71da6f30b6b242b706339d3d174057c22f3"
+    },
+    {
+      "file": "art/whole-game/players/fighter/idle/E/08.png",
+      "sha256": "c11c82f0e10cfe7f0430ebfa6d08903bcd2c37cf27479a96f9cba3c2ffe6d0a5"
+    },
+    {
+      "file": "art/whole-game/players/fighter/idle/E/09.png",
+      "sha256": "12133e5008417516c3420e771214f7029d506f88215964a0a78554672b42605b"
+    },
+    {
+      "file": "art/whole-game/players/fighter/idle/E/10.png",
+      "sha256": "65909df46a40be957493aecb20b6272a0f981d12b8e0489209a5fcb6854d92a3"
+    },
+    {
+      "file": "art/whole-game/players/fighter/idle/E/11.png",
+      "sha256": "9fd4877e3551bc4841df3c69f67a9fd288f9c82369bdea96dcd4fe1079e2d1cb"
+    },
+    {
+      "file": "art/whole-game/players/fighter/idle/E/12.png",
+      "sha256": "16f1c0bc3a1a907817675b47a4164a8a70fd49dbf5f8c136162e43f5f61b28ed"
+    },
+    {
+      "file": "art/whole-game/players/fighter/idle/E/13.png",
+      "sha256": "1191110f414f64c7dd0dd32b94486e1070e24a94160c0ba3ca9775bb979d0b6c"
+    },
+    {
+      "file": "art/whole-game/players/fighter/idle/E/14.png",
+      "sha256": "4dd04034a81f26beb021c7d482911d9eeefee786f479bf61d646a04dc67b79d0"
+    },
+    {
+      "file": "art/whole-game/players/fighter/idle/E/15.png",
+      "sha256": "647ba42ce50eceb0cd185a8555d346f12e877db3bda864c138440b42b2e5b5e9"
+    },
+    {
+      "file": "art/whole-game/players/fighter/idle/E/16.png",
+      "sha256": "176d600a2f1f137a48e4b9d2590bcce9051b22fa1d84963190268dd350e17c24"
+    }
+  ],
+  "operation": "horizontal chronological concatenation;16 cells512x512; no resampling"
+}

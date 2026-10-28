@@ -1,0 +1,9 @@
+{
+  "file": "art/whole-game/players/fighter/idle/W/strip.png",
+  "sha256": "fa20e34c01b62b0d1a9987245c0fcc8308cfe7407839619937f2fa67c5343e00",
+  "derivedFrom": {
+    "file": "art/whole-game/players/fighter/idle/E/strip.png",
+    "sha256": "ad584db15da5c47e38d8ceb89a3140585cb434048c71fc9cb67654e1b89050be"
+  },
+  "operation": "each of16 chronological cells reflected horizontally; frame order unchanged"
+}

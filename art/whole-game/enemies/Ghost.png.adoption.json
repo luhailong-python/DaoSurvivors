@@ -1,0 +1,118 @@
+{
+  "sourceKey": "Ghost",
+  "displayName": "霜团貂幻身",
+  "sourceIdentity": "霜团貂",
+  "role": "冲撞",
+  "identity": "珠灰圆耳宽卷尾灵貂",
+  "artSource": "existing",
+  "adoptionType": "reskin; direct byte copy",
+  "sourceArtRepository": {
+    "path": "F:\\work\\image",
+    "remote": "https://luyuacpp.visualstudio.com/image/_git/image"
+  },
+  "sourceArtPath": "designs/creature-combat-20261005/pets/03-shuangtuan/runtime/attack/E/01.png",
+  "destination": "art/whole-game/enemies/Ghost.png",
+  "sourceSHA256": "25c43f49c0361358b2ac0b162c0a3e8cdc54d4047ebb180ada5f6142133383df",
+  "sha256": "25c43f49c0361358b2ac0b162c0a3e8cdc54d4047ebb180ada5f6142133383df",
+  "copyVerified": true,
+  "canvas": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "realAlpha": true,
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "zeroPixels": 568532,
+    "partialPixels": 479729,
+    "opaquePixels": 315,
+    "visibleBBoxAlphaAtLeast16": [
+      37,
+      88,
+      1004,
+      973
+    ],
+    "visibleEdgePixelsAlphaAtLeast16": 0,
+    "edgePixelsAnyAlpha": 15
+  },
+  "pivotBottomLeft": [
+    0.5,
+    0.08
+  ],
+  "anchorTopLeftPx": [
+    512,
+    942
+  ],
+  "anchorKind": "source logical ground anchor; not exact every-foot contact",
+  "facing": "three-quarter front, down-right; x mirror allowed for source movement",
+  "suggestedVisibleHeightAt1080": 110,
+  "spriteType": "Single",
+  "meshType": "FullRect",
+  "borderLTRB": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "filterMode": "Bilinear",
+  "wrapMode": "Clamp",
+  "mipmaps": false,
+  "colourSpace": "sRGB",
+  "generationModel": null,
+  "generationQuality": null,
+  "generationEvidenceNote": "Historical source generation evidence is preserved. No generation or AI edit occurred during this adoption. Configuration targets never establish actual model/quality.",
+  "sourceRecords": [
+    {
+      "source": "designs/creature-combat-20261005/pets/03-shuangtuan/records/attack/E/01.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/03-shuangtuan/01-source-record-01.json",
+      "sha256": "9aed10d41de8e5d913eb07d541ead70cc38d28b22e0ff1a0668cc646ecc82e14"
+    }
+  ],
+  "selectedManifestSnapshot": "docs/whole-game/enemy-source-evidence/03-shuangtuan/selected-manifest-frame.json",
+  "sourceGamePrefab": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/Ghost/Ghost.prefab",
+  "sourceGameSpritePaths": [
+    "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Ghost.png"
+  ],
+  "review": {
+    "fullSourceImageViewed": true,
+    "adoptedDate": "2026-10-28",
+    "visibleClippingCheck": "pass",
+    "identityCheck": "pass; distinct existing Daoist chibi identity",
+    "engineValidation": "not-run; Unity import and motion integration remain next phase",
+    "finalLightDarkLineup": "accepted; identity, anatomy, implements and tails/wings intact, distinct readable silhouettes"
+  },
+  "historicalNativeSize": [
+    1254,
+    1254
+  ],
+  "historicalNativeSizeBasis": "Source README and selected source record; final1024PNG was an earlier full-canvas export, this adoption does not resample.",
+  "sourceEvidenceDependencies": [
+    {
+      "source": "designs/creature-combat-20261005/pets/03-shuangtuan/records/attack/E/01.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/03-shuangtuan/dependencies/records/attack/E/01.generation.json",
+      "sha256": "9aed10d41de8e5d913eb07d541ead70cc38d28b22e0ff1a0668cc646ecc82e14"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/03-shuangtuan/prompts/attack/E-01.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/03-shuangtuan/dependencies/prompts/attack/E-01.txt",
+      "sha256": "b505139eafc4f2abe19f164709198205d7b3efb1572e974245300d579d46ecde"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/03-shuangtuan/qa/attack/cleanup.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/03-shuangtuan/dependencies/qa/attack/cleanup.json",
+      "sha256": "f9905046364e56de9cedeb2b917e9bf55613c774d3a3a56274629729bf1c2f00"
+    }
+  ],
+  "sourceFrameWarnings": [
+    "visible-alpha-touches-canvas-edge-review-crop"
+  ],
+  "generationConfigTarget": {
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "basis": "Historical source configuration, not actual returned metadata and not a new generation."
+  },
+  "sourceManifestSHAMatches": true
+}

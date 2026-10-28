@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "file": "art/whole-game/sheets/player-fighter-rig-v2.png",
+  "sha256": "025aa1fdefb5b54d190a3ceedd30be4dfd6022af41301394478f909838403ee0",
+  "generatedAt": "2026-10-28T10:14:43.583000+00:00",
+  "generationStartedAt": "2026-10-28T10:14:00.502Z",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "operation": "native model output; byte-for-byte copy from host generated_images directory",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "promptFile": "docs/production/player-fighter-rig-v2.prompt.txt",
+    "referenced_image_paths": [
+      "E:\\work\\image\\DaoSurvivors\\art\\whole-game\\sheets\\player-fighter-rig-v1.png",
+      "E:\\work\\image\\DaoSurvivors\\art\\characters\\hero.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "estimateUsd": null,
+  "unverifiedReason": "宿主管理；image_gen工具没有model/quality选择器，结果没有可靠的实际型号/质量元数据；不能以配置或提示词作为证明。内置入口未披露逐图成本。",
+  "evidence": {
+    "receipt": "docs/production/player-fighter-rig-v2.receipt.json",
+    "returnedOutputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-140f-7660-a5e9-192ba9fa8c08 as C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-140f-7660-a5e9-192ba9fa8c08\\exec-e6a37c87-4c94-4984-b28a-ae5e260e7fae.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "sourceToolResultKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "prompt": "docs/production/player-fighter-rig-v2.prompt.txt",
+  "references": [
+    {
+      "file": "E:\\work\\image\\DaoSurvivors\\art\\whole-game\\sheets\\player-fighter-rig-v1.png",
+      "sha256": "b010ba474c774038ae8facf7ff76f5d3fd7cf3415efa9d156adecb20505a4e97",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "role": "identity and/or art style reference actually attached"
+    },
+    {
+      "file": "E:\\work\\image\\DaoSurvivors\\art\\characters\\hero.png",
+      "sha256": "de0c3e6d71d7c3dbbfed313e7971b2b8220e27d3e79aafa617b225d3e322706d",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "role": "identity and/or art style reference actually attached"
+    }
+  ],
+  "unityIntegration": "not-performed"
+}

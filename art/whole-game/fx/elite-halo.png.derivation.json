@@ -1,0 +1,30 @@
+{
+  "file": "art/whole-game/fx/elite-halo.png",
+  "sha256": "3b9601d31060e850e7a681ba633bc3ffcfa77f45d8ae6693e36813740c2eec8f",
+  "derivedFrom": {
+    "file": "art/whole-game/fx/skill-scope.png",
+    "sha256": "3b9601d31060e850e7a681ba633bc3ffcfa77f45d8ae6693e36813740c2eec8f",
+    "derivationRecord": "art/whole-game/fx/skill-scope.png.derivation.json"
+  },
+  "operation": "byte-for-byte reuse; no image generation, recolouring, resampling or alpha change",
+  "canvas": [
+    512,
+    512
+  ],
+  "mode": "RGBA",
+  "pivotBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "borderLTRB": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "spriteType": "Single",
+  "suggestedMaterialTint": "#E7BA54",
+  "tintStatus": "Unity material suggestion only; not baked into PNG and not engine-validated",
+  "actualModel": null,
+  "actualQuality": null
+}

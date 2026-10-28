@@ -1,0 +1,116 @@
+{
+  "originalManifest": "designs/creature-combat-20261005/pets/12-yuexianshi/manifest.json",
+  "originalManifestSHA256": "d272ef442726fa4aa8e617ce1e68b46addc911304b013d2cf3bcc767dc49cc09",
+  "selection": "runtime/attack/E/01.png",
+  "selectedFrameRecord": {
+    "file": "runtime/attack/E/01.png",
+    "action": "attack",
+    "direction": "E",
+    "frame": 1,
+    "durationMs": 30,
+    "pivot": [
+      0.5,
+      0.08
+    ],
+    "anchorTopLeft": [
+      512,
+      942
+    ],
+    "event": null,
+    "record": "records/attack-E/01.generation.json",
+    "available": true,
+    "width": 1024,
+    "height": 1024,
+    "format": "PNG",
+    "mode": "RGBA",
+    "sha256": "15069725e57c876838aa41dfbe19a65d53fb740a1df695f2abab5c34d0ab535c",
+    "pixelSha256": "9d3a2c9bc7ec050afdc3ec30996c7055800787430cb85fb43d6015bd68c6ac84",
+    "alpha": {
+      "range": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 559304,
+      "partialAlphaPixels": 487577,
+      "fullyOpaquePixels": 1695,
+      "bbox": [
+        32,
+        30,
+        991,
+        964
+      ]
+    },
+    "visualStatus": "reviewed-static-after-guardfix: original81px first-to-second right-shoe mismatch reduced to3.98px. Final-to-first right-shoe dark-centroid difference24.51px remains a small pose variation to inspect in playback. E identity, two hands/two shoes, left harp support and right plucking preserved.",
+    "source": {
+      "path": "C:\\Users\\luyua\\.codex\\generated_images\\01a10bb6-4e59-76c1-94bb-a58739163335\\exec-2a0ac83d-d2d2-4e8a-9adc-9505d053004d.png",
+      "sha256": "473570765c158fb420f1d58db819e7e91aeb8eab51943a74fa126e39157da82d",
+      "nativeSize": [
+        1254,
+        1254
+      ]
+    },
+    "native": {
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "format": "PNG",
+      "sha256": "473570765c158fb420f1d58db819e7e91aeb8eab51943a74fa126e39157da82d"
+    },
+    "prompt": "prompts/attack-E/01.guardfix-20261008.txt",
+    "references": [
+      {
+        "path": "D:/work/image/designs/pets-xianling-20260924/source/12-yuexianshi-E.png",
+        "role": "original E identity",
+        "exists": true,
+        "historicalGenerationInput": false,
+        "shaMatches": true
+      },
+      {
+        "path": "D:/work/image/designs/pets-xianling-20260924/source/12-yuexianshi-W.png",
+        "role": "original W identity",
+        "exists": true,
+        "historicalGenerationInput": false,
+        "shaMatches": true
+      },
+      {
+        "path": "D:/work/image/designs/attribute-panels/v2-painted/01-character-ui-no-affinity.png",
+        "role": "primary hand-painted material style",
+        "exists": true,
+        "historicalGenerationInput": false,
+        "shaMatches": true
+      },
+      {
+        "path": "D:/work/image/designs/creature-combat-20261005/pets/12-yuexianshi/repair-inputs/attack-E-01.png",
+        "role": "historical edit target before support repair",
+        "exists": false,
+        "historicalGenerationInput": true
+      },
+      {
+        "path": "D:/work/image/designs/creature-combat-20261005/pets/12-yuexianshi/repair-inputs/baseline-E.png",
+        "role": "authoritative same-scale E guard support reference",
+        "exists": false,
+        "historicalGenerationInput": true
+      }
+    ],
+    "actualModel": null,
+    "actualQuality": null,
+    "visualReview": "records/guardfix-20261008-measurements.json"
+  },
+  "sourcePackageMetadata": {
+    "schemaVersion": 1,
+    "character": "12-yuexianshi",
+    "name": "月弦师",
+    "status": "assets-complete-playback-pending",
+    "expectedFrames": 68,
+    "presentFrames": 68,
+    "technicalStatus": "passed",
+    "visualStatus": "static-reviewed-after-guard-repair",
+    "playbackStatus": "not-verified-browser-policy-blocked",
+    "playbackEvidence": "records/cast-E/browser-policy-rejection.json",
+    "clientStatus": "not-integrated",
+    "generatedAt": "2026-10-08T12:56:45.875921+00:00",
+    "acceptanceStatus": "static-reviewed-playback-pending",
+    "staticReviewRecord": "records/sequence-continuity-review.json"
+  },
+  "snapshotPurpose": "Only selected single frame is adopted; metadata of 68-frame original is historical context, not a claim this task copies or validates all 68."
+}

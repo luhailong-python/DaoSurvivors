@@ -1,0 +1,420 @@
+{
+  "id": "50-notice-states",
+  "viewport": [
+    1920,
+    1080
+  ],
+  "designSize": [
+    1920,
+    1080
+  ],
+  "textRegions": [
+    {
+      "text": "☯",
+      "tag": "DIV",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "48px",
+      "fontWeight": "400",
+      "color": "rgb(255, 240, 199)",
+      "alignment": "start",
+      "lineHeight": "48px",
+      "rects": [
+        {
+          "x": 63,
+          "y": 22,
+          "width": 48,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "text": "道途幸存者",
+      "tag": "H1",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "33px",
+      "fontWeight": "600",
+      "color": "rgb(255, 240, 199)",
+      "alignment": "start",
+      "lineHeight": "44.55px",
+      "rects": [
+        {
+          "x": 137,
+          "y": 23,
+          "width": 200,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "text": "一 念 入 道 · 万 妖 退 散",
+      "tag": "P",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(209, 202, 161)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 137,
+          "y": 74.55,
+          "width": 214.52,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "text": "通用控件",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "color": "rgb(213, 213, 172)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 420.52,
+          "y": 46.5,
+          "width": 76,
+          "height": 27
+        }
+      ]
+    },
+    {
+      "text": "金币",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(223, 221, 186)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1657.53,
+          "y": 43,
+          "width": 32,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "text": "5,000",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "23px",
+      "fontWeight": "700",
+      "color": "rgb(250, 227, 168)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1701.53,
+          "y": 38,
+          "width": 57.47,
+          "height": 34
+        }
+      ]
+    },
+    {
+      "text": "山门",
+      "tag": "BUTTON",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "color": "rgb(244, 230, 187)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1809.5,
+          "y": 41.5,
+          "width": 46,
+          "height": 32
+        }
+      ]
+    },
+    {
+      "text": "消息与状态",
+      "tag": "DIV",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "38px",
+      "fontWeight": "400",
+      "color": "rgb(255, 241, 192)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 847.5,
+          "y": 150,
+          "width": 225,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "text": "修为精进",
+      "tag": "STRONG",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "color": "rgb(66, 121, 81)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 438,
+          "y": 309,
+          "width": 96,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "text": "剑意已升至第 2 阶，下次出山也会生效。",
+      "tag": "P",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(124, 134, 109)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 438,
+          "y": 349,
+          "width": 324.06,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "金币尚缺",
+      "tag": "STRONG",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "color": "rgb(161, 138, 76)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 438,
+          "y": 436,
+          "width": 96,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "text": "结缘需 500 金币，当前拥有 180。",
+      "tag": "P",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(124, 134, 109)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 438,
+          "y": 476,
+          "width": 270.05,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "本地保存未完成",
+      "tag": "STRONG",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "color": "rgb(167, 96, 70)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 438,
+          "y": 563,
+          "width": 168,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "text": "保留当前界面后重试，避免重复领取收益。",
+      "tag": "P",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(124, 134, 109)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 438,
+          "y": 603,
+          "width": 342,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "尚无可展示内容",
+      "tag": "STRONG",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "color": "rgb(125, 134, 107)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 438,
+          "y": 690,
+          "width": 168,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "text": "此处资料尚未准备齐全，可返回山门。",
+      "tag": "P",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(124, 134, 109)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 438,
+          "y": 730,
+          "width": 306,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "‹ 返回山门",
+      "tag": "BUTTON",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(243, 228, 183)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 86,
+          "y": 1015,
+          "width": 81.47,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "心有所守，道自长明。",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "color": "rgb(225, 230, 199)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 193.47,
+          "y": 1015.5,
+          "width": 170,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "text": "☯",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(225, 230, 199)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1824,
+          "y": 1018,
+          "width": 16,
+          "height": 20
+        }
+      ]
+    }
+  ],
+  "imageLayers": [
+    {
+      "asset": "art/illustrations/lobby-v1.png",
+      "naturalSize": [
+        1672,
+        941
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/gold.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-growth.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/moneybag.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-cooldown.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/treasure-closed.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    }
+  ],
+  "overflowText": [],
+  "renderOperation": "Browser DOM layout and compositing; not AI image generation or Unity runtime.",
+  "artSources": [
+    "art/illustrations/lobby-v1.png",
+    "art/icons/gold.png",
+    "art/icons/attr-growth.png",
+    "art/icons/moneybag.png",
+    "art/icons/attr-cooldown.png",
+    "art/icons/treasure-closed.png",
+    "art/common/main_frame.png",
+    "art/common/title_plate.png",
+    "art/common/button_primary.png",
+    "art/common/button_secondary.png"
+  ],
+  "screenSha256": "b1e613f9a24c3232dba2fee2f3d871d405f605675569ac8e33164c4c97c6079a"
+}

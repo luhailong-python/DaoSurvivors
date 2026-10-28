@@ -1,0 +1,19 @@
+{
+  "file": "art/whole-game/support/dissolve-noise.png",
+  "source": "E:\\work\\image\\DaoSurvivors\\.reference\\survivors-roguelike-kit\\Assets\\RGame\\RoguelikeKit\\Art\\Teture\\dissolveTex.png",
+  "sourceSha256": "efc5ea12aa941992cfa4e8ba2dfedf892a750660f17e74503e8fde8ef7007e42",
+  "operation": "byte-copy",
+  "newGeneration": false,
+  "newAIEdit": false,
+  "canvas": [
+    1024,
+    1024
+  ],
+  "mode": "RGB",
+  "alphaRange": [
+    255,
+    255
+  ],
+  "zeroAlphaPixels": 0,
+  "sha256": "efc5ea12aa941992cfa4e8ba2dfedf892a750660f17e74503e8fde8ef7007e42"
+}

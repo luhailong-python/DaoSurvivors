@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "status": "accepted-support-art-offline",
+  "recordedAtUtc": "2026-10-28T10:19:28.554354+00:00",
+  "method": "Actual view_image inspection of all9 evolution comparisons, pickup scale sheet, status/dissolve sheet, source noise and final1920x1080 camera composite; direct shadow Alpha viewed on terrain composite.",
+  "files": [
+    {
+      "file": "art/whole-game/support/exp-40.png",
+      "sha256": "e613158afd46563bfa0e3536ed1c798e0e3b3a66d1a37a228382e40fc1c56b37"
+    },
+    {
+      "file": "art/whole-game/support/exp-80.png",
+      "sha256": "89ea5d926fcc770cf80f45ca49ade65ef7faa5e432aacb4008ce442bf61f77b1"
+    },
+    {
+      "file": "art/whole-game/support/pickup-heal.png",
+      "sha256": "5707d2f448176aec89aabe4c6f3a77bdd1bace967f18404cdb748c195827021d"
+    },
+    {
+      "file": "art/whole-game/support/pickup-suck.png",
+      "sha256": "0830830256ab903087a4e3aa3fb40bd1daa266244abedc74317d64b2a212693b"
+    },
+    {
+      "file": "art/whole-game/support/pickup-purse.png",
+      "sha256": "89344076398a52130d3a6cc9d86231fa92a9580c2750e9e651da1a2826c05dfe"
+    },
+    {
+      "file": "art/whole-game/support/pickup-box.png",
+      "sha256": "ad5cc72fa0992ac253d8cea99efbcab82944eb86bb78794063e475e4cd1579c5"
+    },
+    {
+      "file": "art/whole-game/support/dissolve-noise.png",
+      "sha256": "efc5ea12aa941992cfa4e8ba2dfedf892a750660f17e74503e8fde8ef7007e42"
+    },
+    {
+      "file": "art/whole-game/support/status-ring.png",
+      "sha256": "3b9601d31060e850e7a681ba633bc3ffcfa77f45d8ae6693e36813740c2eec8f"
+    },
+    {
+      "file": "art/whole-game/support/contact-shadow.png",
+      "sha256": "49024b5852620246a80ab46b1d0b0cea6824098e9bea693885db24df4993b46d"
+    },
+    {
+      "file": "designs/whole-game/support/evolution-ToNearestSkill.png",
+      "sha256": "643fd527dde599f5ad3bd5d71613b9a38280f4e5d9427a6fd223fddbfd0cd969"
+    },
+    {
+      "file": "designs/whole-game/support/evolution-BothSideSkill.png",
+      "sha256": "2f9bc1a3e2e7ece9593a8a75e6d1c460ee5cc1aac90f484c8dd236cb67c0376e"
+    },
+    {
+      "file": "designs/whole-game/support/evolution-BouncingSkill.png",
+      "sha256": "74eb0322dbff01c19ca78c3e0c76e0f32e1aebd7bff0dd139dd050b344ba3875"
+    },
+    {
+      "file": "designs/whole-game/support/evolution-ChainSkill.png",
+      "sha256": "797082771c198e41163f00f79dc44f19180bbb3f8f2eca748700960a1f466173"
+    },
+    {
+      "file": "designs/whole-game/support/evolution-CircularAttackSkill.png",
+      "sha256": "adcce18db981608648dd1206b88d4ec661b718c4f6f60f6051be2f1a46ba074a"
+    },
+    {
+      "file": "designs/whole-game/support/evolution-CircularMotionSkill.png",
+      "sha256": "86301fbb82039ef5eccf5724104d120bff80754808956d945ab4d3ce8303ee91"
+    },
+    {
+      "file": "designs/whole-game/support/evolution-FourCornerSkill.png",
+      "sha256": "c4ddeb52d8975db6767962f48fdf8c54512c331b79cd30cb29885051005fb68e"
+    },
+    {
+      "file": "designs/whole-game/support/evolution-InsideScopeSkill.png",
+      "sha256": "e69ae44ad4728f70ffc5715d3820519cdef0e18bfa0886e8f4e0cd9a0648b533"
+    },
+    {
+      "file": "designs/whole-game/support/evolution-RandomSkill.png",
+      "sha256": "9381187be0988f44de4bbd9152edb0863490e846d6f59f8c844426e880a25a5f"
+    },
+    {
+      "file": "designs/whole-game/support/world-pickups-scale.png",
+      "sha256": "04317827f91276a2a6ad19f4823dbd313913fdd2178916b66e6d1956dae18519"
+    },
+    {
+      "file": "designs/whole-game/support/world-status-dissolve.png",
+      "sha256": "f719523e07610cfd64eec1d31d7a47b0b376c4720a10088a88dbcf27559569d8"
+    },
+    {
+      "file": "designs/whole-game/support/world-camera-composite.png",
+      "sha256": "84b385711be60d9c6d923b68a153b13d04b0c2bfa4621386698754011541b3cc"
+    }
+  ],
+  "findings": [
+    "6 pickup silhouettes and40/80 teal/amber value identities remain clear at selected small sizes; no clipped subject or foreign neighbours.",
+    "9 comparisons preserve sourceCast branching; four/eight and sixteen directions visible; CD-only changes explicitly numerical.",
+    "Source-tint previews intentionally use actual multiply colours, including dark redToNearest; not a newly painted red weapon.",
+    "Shared status ring and sprite changes match source behaviour; offline burn/whiteflash/dissolve are labelled approximations.",
+    "512x256 SlimeAlpha-derived contact shadow is soft/transparent, no rectangular fill; representative current-ground assembly shows it beneath player/enemies/Prop."
+  ],
+  "limitations": [
+    "Unity shader/trail/sorting/PPU/runtime deferred per user.",
+    "Representative static world art placement is not an exact source wave spawn or playable scene.",
+    "Original combat-sheet nominalgrid warnings and enemy source quality warnings remain in their own records."
+  ]
+}

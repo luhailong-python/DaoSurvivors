@@ -1,0 +1,843 @@
+{
+  "id": "51-control-states",
+  "viewport": [
+    1920,
+    1080
+  ],
+  "designSize": [
+    1920,
+    1080
+  ],
+  "textRegions": [
+    {
+      "text": "☯",
+      "tag": "DIV",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "48px",
+      "fontWeight": "400",
+      "color": "rgb(255, 240, 199)",
+      "alignment": "start",
+      "lineHeight": "48px",
+      "rects": [
+        {
+          "x": 63,
+          "y": 22,
+          "width": 48,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "text": "道途幸存者",
+      "tag": "H1",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "33px",
+      "fontWeight": "600",
+      "color": "rgb(255, 240, 199)",
+      "alignment": "start",
+      "lineHeight": "44.55px",
+      "rects": [
+        {
+          "x": 137,
+          "y": 23,
+          "width": 200,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "text": "一 念 入 道 · 万 妖 退 散",
+      "tag": "P",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(209, 202, 161)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 137,
+          "y": 74.55,
+          "width": 214.52,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "text": "通用控件",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "color": "rgb(213, 213, 172)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 420.52,
+          "y": 46.5,
+          "width": 76,
+          "height": 27
+        }
+      ]
+    },
+    {
+      "text": "金币",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(223, 221, 186)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1657.53,
+          "y": 43,
+          "width": 32,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "text": "5,000",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "23px",
+      "fontWeight": "700",
+      "color": "rgb(250, 227, 168)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1701.53,
+          "y": 38,
+          "width": 57.47,
+          "height": 34
+        }
+      ]
+    },
+    {
+      "text": "山门",
+      "tag": "BUTTON",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "color": "rgb(244, 230, 187)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1809.5,
+          "y": 41.5,
+          "width": 46,
+          "height": 32
+        }
+      ]
+    },
+    {
+      "text": "统一控件与状态",
+      "tag": "DIV",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "38px",
+      "fontWeight": "400",
+      "color": "rgb(255, 241, 192)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 802.5,
+          "y": 150,
+          "width": 315,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "text": "普通",
+      "tag": "DIV",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "color": "rgb(125, 137, 104)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 438.59,
+          "y": 279,
+          "width": 38,
+          "height": 27
+        }
+      ]
+    },
+    {
+      "text": "按下",
+      "tag": "DIV",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "color": "rgb(125, 137, 104)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 731.78,
+          "y": 279,
+          "width": 38,
+          "height": 27
+        }
+      ]
+    },
+    {
+      "text": "选中",
+      "tag": "DIV",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "color": "rgb(125, 137, 104)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1024.98,
+          "y": 279,
+          "width": 38,
+          "height": 27
+        }
+      ]
+    },
+    {
+      "text": "禁用",
+      "tag": "DIV",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "color": "rgb(125, 137, 104)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1318.19,
+          "y": 279,
+          "width": 38,
+          "height": 27
+        }
+      ]
+    },
+    {
+      "text": "锁定",
+      "tag": "DIV",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "color": "rgb(125, 137, 104)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1611.39,
+          "y": 279,
+          "width": 38,
+          "height": 27
+        }
+      ]
+    },
+    {
+      "text": "主要按钮",
+      "tag": "DIV",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(107, 128, 97)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 152,
+          "y": 369.5,
+          "width": 80,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "入山历练",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(248, 239, 205)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 421.59,
+          "y": 371,
+          "width": 72,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "入山历练",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(248, 239, 205)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 714.78,
+          "y": 371,
+          "width": 72,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "入山历练",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(248, 239, 205)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1007.98,
+          "y": 371,
+          "width": 72,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "入山历练",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(142, 146, 122)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1301.19,
+          "y": 371,
+          "width": 72,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "入山历练",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(142, 146, 122)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1594.39,
+          "y": 371,
+          "width": 72,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "功能页签",
+      "tag": "DIV",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(107, 128, 97)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 152,
+          "y": 507.5,
+          "width": 80,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "道法",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(72, 96, 68)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 439.59,
+          "y": 509,
+          "width": 36,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "道法",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(72, 96, 68)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 732.78,
+          "y": 509,
+          "width": 36,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "道法",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(248, 239, 205)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1025.98,
+          "y": 509,
+          "width": 36,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "道法",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(142, 146, 122)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1319.19,
+          "y": 509,
+          "width": 36,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "道法",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(142, 146, 122)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1612.39,
+          "y": 509,
+          "width": 36,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "列表行",
+      "tag": "DIV",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(107, 128, 97)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 152,
+          "y": 645.5,
+          "width": 60,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "翠竹幽谷",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(72, 96, 68)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 421.59,
+          "y": 647,
+          "width": 72,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "翠竹幽谷",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(72, 96, 68)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 714.78,
+          "y": 647,
+          "width": 72,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "翠竹幽谷",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(248, 239, 205)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1007.98,
+          "y": 647,
+          "width": 72,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "翠竹幽谷",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(142, 146, 122)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1301.19,
+          "y": 647,
+          "width": 72,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "翠竹幽谷",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(142, 146, 122)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1594.39,
+          "y": 647,
+          "width": 72,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "同类控件各状态使用相同画布与锚点；业务文案独立排版。",
+      "tag": "P",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "color": "rgb(136, 145, 112)",
+      "alignment": "center",
+      "lineHeight": "36.1px",
+      "rects": [
+        {
+          "x": 713,
+          "y": 748,
+          "width": 494,
+          "height": 27
+        }
+      ]
+    },
+    {
+      "text": "通用框板按指定九宫格伸缩；图标、人物与圆徽记保持比例。",
+      "tag": "P",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "color": "rgb(136, 145, 112)",
+      "alignment": "center",
+      "lineHeight": "36.1px",
+      "rects": [
+        {
+          "x": 703.5,
+          "y": 784.09,
+          "width": 513,
+          "height": 27
+        }
+      ]
+    },
+    {
+      "text": "返回山门",
+      "tag": "BUTTON",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "25px",
+      "fontWeight": "400",
+      "color": "rgb(62, 83, 55)",
+      "alignment": "center",
+      "lineHeight": "32.5px",
+      "rects": [
+        {
+          "x": 904,
+          "y": 850.44,
+          "width": 112,
+          "height": 36
+        }
+      ]
+    },
+    {
+      "text": "‹ 返回山门",
+      "tag": "BUTTON",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(243, 228, 183)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 86,
+          "y": 1015,
+          "width": 81.47,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "心有所守，道自长明。",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "color": "rgb(225, 230, 199)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 193.47,
+          "y": 1015.5,
+          "width": 170,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "text": "☯",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(225, 230, 199)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1824,
+          "y": 1018,
+          "width": 16,
+          "height": 20
+        }
+      ]
+    }
+  ],
+  "imageLayers": [
+    {
+      "asset": "art/illustrations/lobby-v1.png",
+      "naturalSize": [
+        1672,
+        941
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/gold.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/common/controls/primary_button_normal.png",
+      "naturalSize": [
+        460,
+        112
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/common/controls/primary_button_pressed.png",
+      "naturalSize": [
+        460,
+        112
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/common/controls/primary_button_selected.png",
+      "naturalSize": [
+        460,
+        112
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/common/controls/primary_button_disabled.png",
+      "naturalSize": [
+        460,
+        112
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/common/controls/primary_button_locked.png",
+      "naturalSize": [
+        460,
+        112
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/common/controls/tab_normal.png",
+      "naturalSize": [
+        360,
+        114
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/common/controls/tab_pressed.png",
+      "naturalSize": [
+        360,
+        114
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/common/controls/tab_selected.png",
+      "naturalSize": [
+        360,
+        114
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/common/controls/tab_disabled.png",
+      "naturalSize": [
+        360,
+        114
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/common/controls/tab_locked.png",
+      "naturalSize": [
+        360,
+        114
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/common/controls/list_row_normal.png",
+      "naturalSize": [
+        360,
+        96
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/common/controls/list_row_pressed.png",
+      "naturalSize": [
+        360,
+        96
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/common/controls/list_row_selected.png",
+      "naturalSize": [
+        360,
+        96
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/common/controls/list_row_disabled.png",
+      "naturalSize": [
+        360,
+        96
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/common/controls/list_row_locked.png",
+      "naturalSize": [
+        360,
+        96
+      ],
+      "broken": false
+    }
+  ],
+  "overflowText": [],
+  "renderOperation": "Browser DOM layout and compositing; not AI image generation or Unity runtime.",
+  "artSources": [
+    "art/illustrations/lobby-v1.png",
+    "art/icons/gold.png",
+    "art/common/controls/primary_button_normal.png",
+    "art/common/controls/primary_button_pressed.png",
+    "art/common/controls/primary_button_selected.png",
+    "art/common/controls/primary_button_disabled.png",
+    "art/common/controls/primary_button_locked.png",
+    "art/common/controls/tab_normal.png",
+    "art/common/controls/tab_pressed.png",
+    "art/common/controls/tab_selected.png",
+    "art/common/controls/tab_disabled.png",
+    "art/common/controls/tab_locked.png",
+    "art/common/controls/list_row_normal.png",
+    "art/common/controls/list_row_pressed.png",
+    "art/common/controls/list_row_selected.png",
+    "art/common/controls/list_row_disabled.png",
+    "art/common/controls/list_row_locked.png",
+    "art/common/main_frame.png",
+    "art/common/title_plate.png",
+    "art/common/button_primary.png",
+    "art/common/button_secondary.png"
+  ],
+  "screenSha256": "6bf35ad81d1b122d761e976956fbb629b874c3965d0735b3045d317d79737ecf"
+}

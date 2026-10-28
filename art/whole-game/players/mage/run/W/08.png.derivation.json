@@ -1,0 +1,9 @@
+{
+  "file": "art/whole-game/players/mage/run/W/08.png",
+  "sha256": "00134e83d1a00157321188d09e617b085e7bdf37c07cc0754124e1966f3f1333",
+  "derivedFrom": {
+    "file": "art/whole-game/players/mage/run/E/08.png",
+    "sha256": "c4c928a4da7607bcf980aaf19c1712a1a5c388bce8446e20bd7decdf1d9758ef"
+  },
+  "operation": "exact horizontal reflection; fixed512x512 canvas; chronological frame retained"
+}

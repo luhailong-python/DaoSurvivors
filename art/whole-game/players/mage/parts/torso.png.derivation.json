@@ -1,0 +1,39 @@
+{
+  "part": "torso",
+  "file": "art/whole-game/players/mage/parts/torso.png",
+  "sha256": "9d64941458fd7c5b12ea3fc8d0ca3e5897e2a783b8e0b2bb8e378c5d96930555",
+  "nativeSize": [
+    562,
+    445
+  ],
+  "sourceCrop": [
+    581,
+    99,
+    1143,
+    544
+  ],
+  "nativePivot": [
+    260,
+    54
+  ],
+  "pivotAtlas": [
+    841,
+    153
+  ],
+  "displayScale": 0.34,
+  "bindJoint": [
+    256,
+    242
+  ],
+  "mirrorAroundJoint": false,
+  "parent": "root",
+  "derivedFrom": {
+    "file": "art/whole-game/sheets/player-mage-rig-v2.png",
+    "sha256": "096aa9994985de2d067d66bb62179d515e9ed2707cb67bde24e39a50d4599c97",
+    "generationRecord": "art/whole-game/sheets/player-mage-rig-v2.png.generation.json"
+  },
+  "operation": "component-ownership crop; native RGBA retained; alpha hygiene removes disconnected <=16 haze outside3px contour",
+  "removedAlphaPixels": 469866,
+  "actualModel": null,
+  "actualQuality": null
+}

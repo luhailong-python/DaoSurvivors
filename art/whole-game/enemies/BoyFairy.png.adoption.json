@@ -1,0 +1,121 @@
+{
+  "sourceKey": "BoyFairy",
+  "displayName": "芽铃童幻身",
+  "sourceIdentity": "芽铃童",
+  "role": "普通远程",
+  "identity": "橡果帽种铃童；青绿弹体",
+  "artSource": "existing",
+  "adoptionType": "reskin; direct byte copy",
+  "sourceArtRepository": {
+    "path": "F:\\work\\image",
+    "remote": "https://luyuacpp.visualstudio.com/image/_git/image"
+  },
+  "sourceArtPath": "designs/creature-combat-20261005/pets/13-yalingtong/runtime/attack/E/01.png",
+  "destination": "art/whole-game/enemies/BoyFairy.png",
+  "sourceSHA256": "9d0dc0c7c0225769c58f35c50aecf8cb209afa01018030a680fda5a1baaafa26",
+  "sha256": "9d0dc0c7c0225769c58f35c50aecf8cb209afa01018030a680fda5a1baaafa26",
+  "copyVerified": true,
+  "canvas": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "realAlpha": true,
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "zeroPixels": 796695,
+    "partialPixels": 250472,
+    "opaquePixels": 1409,
+    "visibleBBoxAlphaAtLeast16": [
+      285,
+      81,
+      804,
+      949
+    ],
+    "visibleEdgePixelsAlphaAtLeast16": 0,
+    "edgePixelsAnyAlpha": 0
+  },
+  "pivotBottomLeft": [
+    0.5,
+    0.08
+  ],
+  "anchorTopLeftPx": [
+    512,
+    942
+  ],
+  "anchorKind": "source logical ground anchor; not exact every-foot contact",
+  "facing": "three-quarter front, down-right; x mirror allowed for source movement",
+  "suggestedVisibleHeightAt1080": 110,
+  "spriteType": "Single",
+  "meshType": "FullRect",
+  "borderLTRB": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "filterMode": "Bilinear",
+  "wrapMode": "Clamp",
+  "mipmaps": false,
+  "colourSpace": "sRGB",
+  "generationModel": null,
+  "generationQuality": null,
+  "generationEvidenceNote": "Historical source generation evidence is preserved. No generation or AI edit occurred during this adoption. Configuration targets never establish actual model/quality.",
+  "sourceRecords": [
+    {
+      "source": "designs/creature-combat-20261005/pets/13-yalingtong/runtime/attack/E/01.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/13-yalingtong/01-source-record-01.json",
+      "sha256": "40fa78bb582750965de787bc5ff40a1f1a5cf1e049c1a7bfd49cb184c75dcd63"
+    }
+  ],
+  "selectedManifestSnapshot": "docs/whole-game/enemy-source-evidence/13-yalingtong/selected-manifest-frame.json",
+  "sourceGamePrefab": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/BoyFairy/BoyFairy.prefab",
+  "sourceGameSpritePaths": [
+    "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/BoyFairy.png"
+  ],
+  "review": {
+    "fullSourceImageViewed": true,
+    "adoptedDate": "2026-10-28",
+    "visibleClippingCheck": "pass",
+    "identityCheck": "pass; distinct existing Daoist chibi identity",
+    "engineValidation": "not-run; Unity import and motion integration remain next phase",
+    "finalLightDarkLineup": "accepted; identity, anatomy, implements and tails/wings intact, distinct readable silhouettes"
+  },
+  "historicalNativeSize": [
+    1254,
+    1254
+  ],
+  "historicalNativeSizeBasis": "Source README and selected source record; final1024PNG was an earlier full-canvas export, this adoption does not resample.",
+  "sourceEvidenceDependencies": [
+    {
+      "source": "designs/creature-combat-20261005/pets/13-yalingtong/runtime/attack/E/01.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/13-yalingtong/dependencies/runtime/attack/E/01.png.generation.json",
+      "sha256": "40fa78bb582750965de787bc5ff40a1f1a5cf1e049c1a7bfd49cb184c75dcd63"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/13-yalingtong/prompts/attack/E/01.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/13-yalingtong/dependencies/prompts/attack/E/01.txt",
+      "sha256": "6fa17f604f4a4fff4e210850795b8105db165a6011487cce40536d96a75fb97c"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/13-yalingtong/QA.md",
+      "snapshot": "docs/whole-game/enemy-source-evidence/13-yalingtong/dependencies/QA.md",
+      "sha256": "46005822ef02950304557075cc5d89b679d6f63e561c8c67d7d7acb1149c6a88"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/13-yalingtong/visual-qa.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/13-yalingtong/dependencies/visual-qa.json",
+      "sha256": "2a920bea05818f85ff682a555f426b763eccbbad29ce6d6e2fb1e44f98404f7c"
+    }
+  ],
+  "sourceFrameWarnings": [],
+  "generationConfigTarget": {
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "basis": "Historical source configuration, not actual returned metadata and not a new generation."
+  },
+  "sourceManifestSHAMatches": true
+}

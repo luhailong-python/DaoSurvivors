@@ -1,0 +1,51 @@
+{
+  "originalManifest": "designs/creature-combat-20261005/pets/13-yalingtong/manifest.json",
+  "originalManifestSHA256": "e594d79d6c4054172adbe80bde7b20f6a3574b18732e8cc5f722280f7e986cb9",
+  "selection": "runtime/attack/E/01.png",
+  "selectedFrameRecord": {
+    "file": "runtime/attack/E/01.png",
+    "action": "attack",
+    "direction": "E",
+    "frame": 1,
+    "durationMs": 30,
+    "width": 1024,
+    "height": 1024,
+    "pivot": [
+      0.5,
+      0.08
+    ],
+    "anchorTopOrigin": [
+      512,
+      942
+    ],
+    "event": null,
+    "sha256": "9d0dc0c7c0225769c58f35c50aecf8cb209afa01018030a680fda5a1baaafa26",
+    "pixelSha256": "795b9b3b38d28240c65eb107c348ab7e7fdab9f1e4b45dd13a4c3655eea3021b",
+    "generationRecord": "runtime/attack/E/01.png.generation.json",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visibleBBoxAlphaAbove16": [
+      285,
+      81,
+      804,
+      949
+    ],
+    "visualStatus": "accepted-with-notes",
+    "actualModel": null,
+    "actualQuality": null
+  },
+  "sourcePackageMetadata": {
+    "character": "芽铃童",
+    "slug": "13-yalingtong",
+    "createdAt": "2026-10-05T23:14:02.088363+00:00",
+    "expectedFrames": 68,
+    "frameCount": 68,
+    "noMovementAnimations": true,
+    "clientVerified": false,
+    "actualModel": null,
+    "actualQuality": null
+  },
+  "snapshotPurpose": "Only selected single frame is adopted; metadata of 68-frame original is historical context, not a claim this task copies or validates all 68."
+}

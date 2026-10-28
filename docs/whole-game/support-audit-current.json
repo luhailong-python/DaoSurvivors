@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-28T10:19:29.182727+00:00",
+  "referenceCommit": "3f905381d73a34b516030528b8ef6743868b9e52",
+  "scope": "Non-player/non-UI current production audit, source+disk verified; no reference repo or source pixels modified.",
+  "status": "current-production-support-audit-with-explicit-pending-items",
+  "checks": [
+    {
+      "id": "enemy-identity-count",
+      "status": "pass",
+      "value": 14,
+      "expected": 14,
+      "files": []
+    },
+    {
+      "id": "elite-key-count",
+      "status": "pass",
+      "value": 6,
+      "expected": 6,
+      "files": []
+    },
+    {
+      "id": "enemy-destination-sha",
+      "status": "pass",
+      "value": 14,
+      "expected": 14,
+      "files": []
+    },
+    {
+      "id": "world-combat-cuts",
+      "status": "pass",
+      "value": 16,
+      "expected": 16,
+      "files": []
+    },
+    {
+      "id": "world-combat-sha",
+      "status": "pass",
+      "value": 16,
+      "expected": 16,
+      "files": []
+    },
+    {
+      "id": "terrain-count",
+      "status": "pass",
+      "value": 6,
+      "expected": 6,
+      "files": []
+    },
+    {
+      "id": "terrain-seam-checks",
+      "status": "pass",
+      "value": 4,
+      "expected": 4,
+      "files": []
+    },
+    {
+      "id": "world-pickup-count",
+      "status": "pass",
+      "value": 6,
+      "expected": 6,
+      "files": []
+    },
+    {
+      "id": "pickup-current-sha",
+      "status": "pass",
+      "value": 6,
+      "expected": 6,
+      "files": []
+    },
+    {
+      "id": "pickup-source-alpha-preserved",
+      "status": "pass",
+      "value": 6,
+      "expected": 6,
+      "files": []
+    },
+    {
+      "id": "noise-byte-copy",
+      "status": "pass",
+      "value": "efc5ea12aa941992cfa4e8ba2dfedf892a750660f17e74503e8fde8ef7007e42",
+      "expected": "efc5ea12aa941992cfa4e8ba2dfedf892a750660f17e74503e8fde8ef7007e42",
+      "files": [
+        "art/whole-game/support/dissolve-noise.png"
+      ]
+    },
+    {
+      "id": "status-ring-byte-copy",
+      "status": "pass",
+      "value": "3b9601d31060e850e7a681ba633bc3ffcfa77f45d8ae6693e36813740c2eec8f",
+      "expected": "3b9601d31060e850e7a681ba633bc3ffcfa77f45d8ae6693e36813740c2eec8f",
+      "files": [
+        "art/whole-game/support/status-ring.png"
+      ]
+    },
+    {
+      "id": "nine-evolution-mappings",
+      "status": "pass",
+      "value": 9,
+      "expected": 9,
+      "files": []
+    },
+    {
+      "id": "nine-evolution-previews",
+      "status": "pass",
+      "value": 9,
+      "expected": 9,
+      "files": []
+    },
+    {
+      "id": "all-twelve-support-previews",
+      "status": "pass",
+      "value": 12,
+      "expected": 12,
+      "files": []
+    },
+    {
+      "id": "shadow-file-sha",
+      "status": "pass",
+      "value": "49024b5852620246a80ab46b1d0b0cea6824098e9bea693885db24df4993b46d",
+      "expected": "49024b5852620246a80ab46b1d0b0cea6824098e9bea693885db24df4993b46d",
+      "files": [
+        "art/whole-game/support/contact-shadow.png"
+      ]
+    },
+    {
+      "id": "shadow-canvas",
+      "status": "pass",
+      "value": [
+        512,
+        256
+      ],
+      "expected": [
+        512,
+        256
+      ],
+      "files": [
+        "art/whole-game/support/contact-shadow.png"
+      ]
+    },
+    {
+      "id": "shadow-transparent-outer-edge",
+      "status": "pass",
+      "value": 0,
+      "expected": 0,
+      "files": [
+        "art/whole-game/support/contact-shadow.png"
+      ]
+    },
+    {
+      "id": "camera-composite-present",
+      "status": "pass",
+      "value": true,
+      "expected": true,
+      "files": []
+    }
+  ],
+  "pending": [
+    {
+      "id": "unity-validation",
+      "status": "deferred-by-user",
+      "action": "Import, shader blend/whiteflash/dissolve, trail blend and sorting, PPU and runtime remain next stage."
+    }
+  ],
+  "counts": {
+    "enemyIdentities": 14,
+    "enemyPoolKeys": 20,
+    "eliteAssignments": 6,
+    "terrainTiles": 6,
+    "propKinds": 1,
+    "worldSkills": 9,
+    "evolutionAssignments": 9,
+    "enemyProjectileKinds": 5,
+    "worldLootKeys": 6,
+    "enemyStatuses": 3,
+    "sharedStatusRings": 1,
+    "dissolveNoiseTextures": 1,
+    "acceptedIndependentShadows": 1
+  },
+  "sourceCorrections": [
+    "FourCorner Mixed emits8 compass directions, base emits4 diagonal directions; Area*2 is not the only change.",
+    "InsideScope Mixed writesAttackTimer0.5 only as initial phase; Sport logic threshold remains1/reset0.",
+    "ToNearest Mixed red; Bouncing Mixed (1,.5,.5,1); CircularMotion Mixed yellow sprite and trail.",
+    "Sprite scale depends on(globalArea+skillArea)*.01, so doubling skillArea does not imply doubling whole sprite.",
+    "Five TrailRenderers useUnity builtin material, not five missing texture files."
+  ],
+  "visualObservations": {
+    "enemyLineup": "14 distinct Daoist reskins viewed; no visible body/implement clipping at lineup scale. Mapping remains documented redesign, not original species replication.",
+    "worldCombat": "16 cuts viewed; nine player/world textures and five enemy bullets have intact silhouettes and useful shape/hue contrast.",
+    "terrain": "Mixed-variant view reviewed; no hard rectangular seam. Repetition remains visible as expected from source6-tile/weighted contract.",
+    "supportPreviews": "All12 viewed; six world loot values/shapes identifiable, teal/amber40/80 distinction readable at selected small scale; nine comparisons preserve correct source branches, no clipped texture assets. Alpha-derived contact shadow and representative world-camera composite also viewed.",
+    "limits": "Static comparison diagrams prove art assignments; they do not establish exact Unity shader/trail execution or playable game."
+  }
+}

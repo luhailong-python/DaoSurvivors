@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "kind": "metadata-only receipt reconstruction",
+  "recordedAtUtc": "2026-10-26T09:54:44.447727+00:00",
+  "tool": "image_gen__imagegen",
+  "toolAlias": "image_gen.imagegen",
+  "route": "builtin",
+  "provenance": "Call arguments and exact output_hint supplied by the root generation agent; referenced files, image bytes, PNG metadata and timestamps independently verified from disk by this record writer.",
+  "requestArguments": {
+    "prompt": "Use case: stylized-concept.\nAsset type: baked battle backdrop / UI design plate for a Daoist chibi survivors game. Landscape 16:9, target 1920x1080 or highest available native landscape detail. No characters or UI.\nImage 1 and image 2 are mandatory STYLE references, not composition templates. Match their fine hand-painted jade green, warm ivory, delicate warm gold, softly rounded cloud forms, clean appealing Chinese fantasy game illustration. Keep same high-finish charming Q-version world, no pixel art or realism.\nPaint a quiet DAYLIGHT high-angle top-down bamboo mountain dojo arena. The camera looks steeply down enough to read the floor and place small sprites, no strong vanishing point. A very large unobstructed center taking roughly 76% width and 65% height is paved in natural light gray/blue-gray stone slabs with narrow low-contrast joints, subtle tonal variation, a barely visible small engraved taiji circle at the middle. This central stone floor is empty and walkable, clean, softly lit and relatively low contrast.\nAll scenic details are restrained at the extreme outer 10% edges: rounded jade bamboo grove and soft mossy rocks along left/right borders, a tiny Daoist eave visible at the very upper left with ONE attached warm red lantern, peach petals beside that corner, a low rounded stone railing and pale distant mountain cloud haze just beyond upper edge. A tiny lotus pool only at the bottom right exterior corner, outside the central combat floor. Buildings/tree trunks/rocks must NOT intrude into central floor, no isolated tree islands, no walls across the arena, no obstacles or furniture in the center. Frame naturally with greenery but keep broad entrances at midpoint of all four sides so it feels open.\nUse naturally muted floor, more saturated jade foliage only on perimeter. Daylight, soft hand-drawn shading, rounded forms, clean readable silhouettes. Suitable as background beneath small chibi combat sprites and cream/jade HUD. Scene art only; no red/gold patterned floor strips, no dense grass covering floor, no exaggerated isometric cubes, no 3D plastic toy gloss.\nCRITICAL NO characters, NO creatures, NO text, NO numbers, NO UI frames/buttons, NO logos/watermarks, NO visible grid or navigation markup. Deliver one fully painted background, NOT a collage or sprite sheet.\r\n",
+    "referenced_image_paths": [
+      "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "requestArgumentKeys": [
+    "prompt",
+    "referenced_image_paths",
+    "transparent_background"
+  ],
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false,
+  "toolReturn": {
+    "returnedFieldNames": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_url": {
+      "type": "PNG Data URL",
+      "base64Stored": false,
+      "decodedBytesNativeArtifact": "C:\\Users\\luyua\\.codex\\generated_images\\01a17784-7bd6-7ee0-b3b0-353fcf2e1606\\exec-39b87a53-df5e-4b19-a587-35423036b133.png",
+      "decodedBytesSha256": "0e4fe4c8d1c0a7ad3e0d59d9d12979ed77a94d1d93b22b3e652fa7fe1e6ae442"
+    },
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17784-7bd6-7ee0-b3b0-353fcf2e1606 as C:\\Users\\luyua\\.codex\\generated_images\\01a17784-7bd6-7ee0-b3b0-353fcf2e1606\\exec-39b87a53-df5e-4b19-a587-35423036b133.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "actualModelFieldReturned": false,
+    "actualQualityFieldReturned": false
+  },
+  "sourceArtifactFileTimes": {
+    "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a17784-7bd6-7ee0-b3b0-353fcf2e1606\\exec-39b87a53-df5e-4b19-a587-35423036b133.png",
+    "creationTimeUtc": "2026-10-26T09:49:43.7961250Z",
+    "lastWriteTimeUtc": "2026-10-26T09:49:43.7971852Z",
+    "creationTimeNewYork": "2026-10-26T05:49:43.7961250-04:00",
+    "lastWriteTimeNewYork": "2026-10-26T05:49:43.7971852-04:00",
+    "timeZone": "America/New_York",
+    "method": "PowerShell Get-Item CreationTimeUtc/LastWriteTimeUtc; DateTimeOffset converted with TimeZoneInfo.FindSystemTimeZoneById('America/New_York')",
+    "limitation": "Filesystem timestamps establish source persistence time, not an independently verified backend job start/end. C2PA declared action times are recorded separately."
+  },
+  "pngInspection": {
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "format": "PNG",
+    "pillowInfo": {},
+    "chunks": [
+      {
+        "type": "IHDR",
+        "length": 13
+      },
+      {
+        "type": "caBX",
+        "length": 23654
+      },
+      {
+        "type": "IDAT",
+        "length": 2892865
+      },
+      {
+        "type": "IEND",
+        "length": 0
+      }
+    ],
+    "c2pa": {
+      "present": true,
+      "container": "PNG caBX / JUMBF",
+      "chunkBytes": 23654,
+      "chunkSha256": "edfdd7a984dbcbaa2f8aab0c797784416e7d7743bd9aedbf6ab6e787d34e9eec",
+      "parseMethod": "Read PNG chunk table and JUMBF boxes; decode c2pa.actions.v2 / c2pa.claim.v2 CBOR without modifying the PNG",
+      "cryptographicSignatureValidated": false,
+      "signatureValidationStatus": "未执行C2PA签名及信任链验证；以下为读取到的声明字段",
+      "manifestLabel": "urn:c2pa:3868c033-9c2b-42dc-84ff-fbd0a02d0e73",
+      "claimInstanceId": "xmp:iid:0ceefcbd-c648-4cf6-bfc6-cd49e702db4f",
+      "claimGeneratorInfo": {
+        "name": "OpenAI Media Service API",
+        "specVersion": "2.2.0",
+        "org.contentauth.c2pa_rs": "0.79.2"
+      },
+      "actions": [
+        {
+          "action": "c2pa.created",
+          "when": "2026-10-26T09:49:24.952545786Z",
+          "softwareAgent": {
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia"
+        },
+        {
+          "action": "c2pa.converted",
+          "when": "2026-10-26T09:49:24.952554953Z"
+        },
+        {
+          "action": "c2pa.watermarked.unbound",
+          "when": "2026-10-26T09:49:24.946771019Z"
+        }
+      ],
+      "allActionsIncluded": false,
+      "backendModelDisclosed": false,
+      "qualityDisclosed": false,
+      "note": "Pillow info is empty but the PNG contains an actual C2PA caBX manifest. Generic softwareAgent.version gpt-image does not establish Sunburst/Flare, a model snapshot, or a quality setting."
+    }
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具返回未披露具体后端型号和画质。C2PA仅有通用软件标签gpt-image，不能据此确认API分支、模型快照或实际质量。",
+  "promptFileEncodingEvidence": {
+    "encoding": "UTF-8",
+    "rawFileSha256": "8e017afc0a2ecbdb96bd52f0d23e76f989a7ffe729731b7834a8fff071614463",
+    "CRLFCount": 1,
+    "newlinePreserved": true,
+    "note": "Prompt decoded from original UTF-8 file bytes without universal-newline normalization."
+  }
+}

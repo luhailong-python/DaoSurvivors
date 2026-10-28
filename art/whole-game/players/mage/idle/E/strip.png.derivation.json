@@ -1,0 +1,71 @@
+{
+  "file": "art/whole-game/players/mage/idle/E/strip.png",
+  "sha256": "57deed5693bcc8e1a431cfba4d5a74c7196e937c20f275c1ab71525ad3541c3c",
+  "derivedFrom": [
+    {
+      "file": "art/whole-game/players/mage/idle/E/01.png",
+      "sha256": "4adc85200aa9641285147a5ca3e2f0ad06e93764e1ca6ed7282960c9f4fdba67"
+    },
+    {
+      "file": "art/whole-game/players/mage/idle/E/02.png",
+      "sha256": "10b21ccaee7225c134e9dc5338c6ebdc524f076e5fcc612eced65bf582b26447"
+    },
+    {
+      "file": "art/whole-game/players/mage/idle/E/03.png",
+      "sha256": "41c4e5df683aa806354ccea04491d68b73e242e21d682ca4cea8b44b464335d8"
+    },
+    {
+      "file": "art/whole-game/players/mage/idle/E/04.png",
+      "sha256": "eada13453314cfeb45090a9fb0b7827254ccea1ea100279436572335f3dd4761"
+    },
+    {
+      "file": "art/whole-game/players/mage/idle/E/05.png",
+      "sha256": "036fbb7fdad79fbf504dfe84ced35a6fa227ece98f85bc7562919256f6a3fb57"
+    },
+    {
+      "file": "art/whole-game/players/mage/idle/E/06.png",
+      "sha256": "b64840fe89cdc4aaf04c0a1bac7f151258b21f3d7428225aac6f304e9eb7ee96"
+    },
+    {
+      "file": "art/whole-game/players/mage/idle/E/07.png",
+      "sha256": "38701bcacb3119150528740f8df04778ef367bafa00c17f7292d13d8dd1cc7a3"
+    },
+    {
+      "file": "art/whole-game/players/mage/idle/E/08.png",
+      "sha256": "11674a8b9212b90f44f9043722465ca537de74c864772f4fa0f6879c1af64da5"
+    },
+    {
+      "file": "art/whole-game/players/mage/idle/E/09.png",
+      "sha256": "2015b569a864f4e88fe8918b32bbbb16420c583b5f87316944488a2b781046c2"
+    },
+    {
+      "file": "art/whole-game/players/mage/idle/E/10.png",
+      "sha256": "12944f1b2483e2882a16e4bc48c219fb7c1d57a444fd46a336c55e16a110ea48"
+    },
+    {
+      "file": "art/whole-game/players/mage/idle/E/11.png",
+      "sha256": "1c1c657ee16d63cab88b883c606519c9f9d1a832f70e186305f9890fdcd7d5d4"
+    },
+    {
+      "file": "art/whole-game/players/mage/idle/E/12.png",
+      "sha256": "842fb096042c4c4d54ab330dc83cdc7d548089daef9b2947582cceb0faa84117"
+    },
+    {
+      "file": "art/whole-game/players/mage/idle/E/13.png",
+      "sha256": "8b59e463adc55e47406f7bf65bb98899a8e890be49012232d930c6870874c5ab"
+    },
+    {
+      "file": "art/whole-game/players/mage/idle/E/14.png",
+      "sha256": "fb39cf12af8852758344b09f976e760036e917ff747176a85339e9f32f6b345a"
+    },
+    {
+      "file": "art/whole-game/players/mage/idle/E/15.png",
+      "sha256": "c1837d423f38cc5bbd0f25229b8b28475a02df783792b5ca1d9a56ffa1ef705d"
+    },
+    {
+      "file": "art/whole-game/players/mage/idle/E/16.png",
+      "sha256": "ec86a3b6c468117e41c70158a6776d638bba3a66d3906367edc0b2d074239f5c"
+    }
+  ],
+  "operation": "horizontal chronological concatenation;16 cells512x512; no resampling"
+}

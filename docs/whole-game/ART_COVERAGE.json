@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-28T10:33:10.027631+00:00",
+  "project": "道途幸存者（临时名称）",
+  "referenceCommit": "3f905381d73a34b516030528b8ef6743868b9e52",
+  "scope": "complete art required by pinned survivors-roguelike-kit, no Unity implementation",
+  "status": "complete_art_coverage_with_offline_visual_acceptance",
+  "missingRequiredArt": [],
+  "categories": [
+    {
+      "category": "UI",
+      "required": "52 screens/states/flows + independent controls/icons/font/layout",
+      "delivered": 52,
+      "unit": "screens",
+      "records": [
+        "docs/ui-suite/UI_COVERAGE.json",
+        "docs/ui-suite/current-delivery-audit.json"
+      ],
+      "status": "accepted"
+    },
+    {
+      "category": "Players",
+      "required": "3 identities × Idle/Run, horizontal facing",
+      "delivered": 6,
+      "unit": "action families",
+      "records": [
+        "docs/whole-game/player-actions-final-review.json",
+        "docs/whole-game/final-review-independent.json"
+      ],
+      "status": "accepted"
+    },
+    {
+      "category": "Enemies",
+      "required": "14 identities mapped to20PoolKeys including6elites",
+      "delivered": 20,
+      "unit": "source keys",
+      "records": [
+        "docs/whole-game/enemies.json",
+        "docs/whole-game/enemies-visual-review.json"
+      ],
+      "status": "accepted"
+    },
+    {
+      "category": "Terrain",
+      "required": "6 interchangeable tiles for sharedMap1",
+      "delivered": 6,
+      "unit": "tiles;72adjacency pairs",
+      "records": [
+        "art/whole-game/terrain/v1/terrain-manifest.json",
+        "art/whole-game/terrain/v1/seam-qa.json"
+      ],
+      "status": "accepted"
+    },
+    {
+      "category": "Prop",
+      "required": "1 breakable prop visual",
+      "delivered": 1,
+      "unit": "sprite",
+      "records": [
+        "docs/whole-game/world-combat-slices.json"
+      ],
+      "status": "accepted"
+    },
+    {
+      "category": "World loot",
+      "required": "Exp40/Exp80/ReplyHP/Suck/Purse/Box",
+      "delivered": 6,
+      "unit": "keys",
+      "records": [
+        "docs/whole-game/world-support.json",
+        "docs/whole-game/world-support-visual-review.json"
+      ],
+      "status": "accepted"
+    },
+    {
+      "category": "Player world skills",
+      "required": "9 base textures +9 evolved renderer/cast relations",
+      "delivered": 9,
+      "unit": "base textures, each with evolved mapping",
+      "records": [
+        "docs/whole-game/world-combat-slices.json",
+        "docs/whole-game/world-support.json"
+      ],
+      "status": "accepted"
+    },
+    {
+      "category": "Enemy projectiles",
+      "required": "Blue/Pink/Red/Green/SnowMagic",
+      "delivered": 5,
+      "unit": "textures",
+      "records": [
+        "docs/whole-game/world-combat-visual-review.json"
+      ],
+      "status": "accepted"
+    },
+    {
+      "category": "World supports",
+      "required": "3status specs, sharedring, contactshadow, actualdissolve noise, whiteflash/deathfade specs",
+      "delivered": 3,
+      "unit": "status specs + support sprites/texture",
+      "records": [
+        "docs/whole-game/world-support.json",
+        "docs/whole-game/world-support-visual-review.json"
+      ],
+      "status": "accepted"
+    }
+  ],
+  "assetFileCount": 321,
+  "assetFileCountNote": "Includes runtime art, required source sheets/rig parts, licenses and production/review support.52UI screenshots/layouts are indexed separately.",
+  "formalPlayerFrames": 146,
+  "playerStrips": 10,
+  "uiScreens": 52,
+  "assetManifest": {
+    "file": "art/manifest.json",
+    "sha256": "571e4ae6d3f02d0b6d1590ba9907b43c274a0f346dd249eea96d7176ef57530f"
+  },
+  "hashBoundReviewRecords": [
+    {
+      "file": "docs/ui-suite/current-delivery-audit.json",
+      "sha256": "0af7f8d8e9a46d673a02b0260ec1f581fdfe2a13da9f2335c9023d37b9bbbd18"
+    },
+    {
+      "file": "docs/whole-game/player-actions-final-review.json",
+      "sha256": "728a07b178ef25e13bd0b8d4211f2cc9483c08969ab2e7ec6b7c0162e71b38f7"
+    },
+    {
+      "file": "docs/whole-game/final-review-independent.json",
+      "sha256": "7f19a718a36a24da99af12f1b23a64ca485d37e6535c7a1f0ec60ed86141209c"
+    },
+    {
+      "file": "docs/whole-game/enemies-visual-review.json",
+      "sha256": "cd173b0e85b0601b60f65db4310c59ad68c1ab930dadb7a0ca92fae4bf19e12e"
+    },
+    {
+      "file": "art/whole-game/terrain/v1/seam-qa.json",
+      "sha256": "04e154f11d75dcef25f6c5360d90d5e20221d9546fe725dfe1a6a6cdfdb5a579"
+    },
+    {
+      "file": "docs/whole-game/world-combat-visual-review.json",
+      "sha256": "031085203f99f31cd53eccbd34e8c9b3c39375022e7b54cbff064fc118fa9401"
+    },
+    {
+      "file": "docs/whole-game/world-support-visual-review.json",
+      "sha256": "2651f1c0b82c5f2de93fa7e74d006b0feac9bd5acc3ec3690fe09118a9492c2b"
+    },
+    {
+      "file": "docs/whole-game/support-audit-current.json",
+      "sha256": "c7c3dc372a60354873f852df8187c24e251aa658bfe3fe118f49fdb6d65095e4"
+    }
+  ],
+  "retainedFindings": [
+    "Original nominal-grid icon/FX sheet FAIL/WARN records retained; ownership crops replace the rejected equal-grid slicing method.",
+    "Weak alpha specks/glow in inherited/source art retained as documented.",
+    "Actual backend image model and quality are undisclosed; config targets are not claimed as actual results."
+  ],
+  "deferredByUser": [
+    "Unity import/Prefab/Animator/Shader/C# integration",
+    "runtime/platform/resolution/performance validation"
+  ],
+  "gitSubmission": "not requested; no commit/push/publish; destination repository not supplied"
+}

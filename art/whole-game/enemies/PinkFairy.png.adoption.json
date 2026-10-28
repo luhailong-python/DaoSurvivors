@@ -1,0 +1,763 @@
+{
+  "sourceKey": "PinkFairy",
+  "displayName": "绛铃幻身",
+  "sourceIdentity": "绛铃",
+  "role": "Boss远程",
+  "identity": "象牙绛红折瓣衣三铃折扇仙灵；桃粉弹体",
+  "artSource": "existing",
+  "adoptionType": "reskin; direct byte copy",
+  "sourceArtRepository": {
+    "path": "F:\\work\\image",
+    "remote": "https://luyuacpp.visualstudio.com/image/_git/image"
+  },
+  "sourceArtPath": "designs/creature-combat-20261005/pets/02-jiangling/runtime/attack/E/01.png",
+  "destination": "art/whole-game/enemies/PinkFairy.png",
+  "sourceSHA256": "0d532a7961ad2440de5054e013048bbe38e5025b05094079e45d7ac28fb23b0a",
+  "sha256": "0d532a7961ad2440de5054e013048bbe38e5025b05094079e45d7ac28fb23b0a",
+  "copyVerified": true,
+  "canvas": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "realAlpha": true,
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "zeroPixels": 589508,
+    "partialPixels": 457248,
+    "opaquePixels": 1820,
+    "visibleBBoxAlphaAtLeast16": [
+      25,
+      51,
+      998,
+      980
+    ],
+    "visibleEdgePixelsAlphaAtLeast16": 0,
+    "edgePixelsAnyAlpha": 4
+  },
+  "pivotBottomLeft": [
+    0.5,
+    0.08
+  ],
+  "anchorTopLeftPx": [
+    512,
+    942
+  ],
+  "anchorKind": "virtual hover anchor",
+  "facing": "three-quarter front, down-right; x mirror allowed for source movement",
+  "suggestedVisibleHeightAt1080": 170,
+  "spriteType": "Single",
+  "meshType": "FullRect",
+  "borderLTRB": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "filterMode": "Bilinear",
+  "wrapMode": "Clamp",
+  "mipmaps": false,
+  "colourSpace": "sRGB",
+  "generationModel": null,
+  "generationQuality": null,
+  "generationEvidenceNote": "Historical source generation evidence is preserved. No generation or AI edit occurred during this adoption. Configuration targets never establish actual model/quality.",
+  "sourceRecords": [
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/attack/E/01.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/01-source-record-01.json",
+      "sha256": "aae673eceffeddf9bbb14ee70bcbf37aa444420c53cfdc7e26084c7a6db2d54e"
+    }
+  ],
+  "selectedManifestSnapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/selected-manifest-frame.json",
+  "sourceGamePrefab": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/PinkFairy.prefab",
+  "sourceGameSpritePaths": [
+    "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/PinkFairy.png"
+  ],
+  "review": {
+    "fullSourceImageViewed": true,
+    "adoptedDate": "2026-10-28",
+    "visibleClippingCheck": "pass",
+    "identityCheck": "pass; distinct existing Daoist chibi identity",
+    "engineValidation": "not-run; Unity import and motion integration remain next phase",
+    "finalLightDarkLineup": "accepted; identity, anatomy, implements and tails/wings intact, distinct readable silhouettes"
+  },
+  "historicalNativeSize": [
+    1254,
+    1254
+  ],
+  "historicalNativeSizeBasis": "Source README and selected source record; final1024PNG was an earlier full-canvas export, this adoption does not resample.",
+  "sourceEvidenceDependencies": [
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/attack/E/01.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/attack/E/01.png.generation.json",
+      "sha256": "aae673eceffeddf9bbb14ee70bcbf37aa444420c53cfdc7e26084c7a6db2d54e"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/attack-E-01.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/attack-E-01.txt",
+      "sha256": "dfe26def04989ce7a62acdff492e13a2d8f132c78f63530db6263b0b3ade3cad"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/attack-E-01.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/attack-E-01.json",
+      "sha256": "4cd3f347b3efae492b975198c42829cd086ba15f0829e3e4f9073a5cc4fa5a5c"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/qa/visual-review.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/qa/visual-review.json",
+      "sha256": "f710840119599a17dc7514e77f3162d14e945d68062d998590fd8c82103d4f99"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/qa/E-hit-attack-visual.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/qa/E-hit-attack-visual.json",
+      "sha256": "bc2035322f6cf3b05e37bb174e9e4815f70a22d23fb66bbc7fbec2aec9176af9"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/qa/native-playback-review.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/qa/native-playback-review.json",
+      "sha256": "1408f33298e97b4dacecf9015d86a2f5053f2328d1f7fb303f17727a764974b3"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/qa/native-playback-session.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/qa/native-playback-session.json",
+      "sha256": "ce49ea1558b56a9e1b54d03ea61a4ffc9c606215130219984425c31e9270f72c"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/qa/preview-frame-stream.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/qa/preview-frame-stream.json",
+      "sha256": "944e395eac7dc613af7afb252c384c75ad1afba29a06febccc28cccc1b927c47"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/qa/W-hit-attack-visual.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/qa/W-hit-attack-visual.json",
+      "sha256": "0a508245ae7b7a2cabe3c03b6e431d4ae9388a0b13668bdc83772f3a692fa7f5"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/qa/cast-E-validation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/qa/cast-E-validation.json",
+      "sha256": "632835069d2a77d04a092ad2f18bcd2490adb095074d2d9a68d8d1e0c52a405c"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/qa/technical-cast-W-reviewed.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/qa/technical-cast-W-reviewed.json",
+      "sha256": "14b3371af185d6a6f9c093a49cf9c1f06ab274c404b4a21a99562058b0fe7855"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/qa/W-hit-attack-technical.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/qa/W-hit-attack-technical.json",
+      "sha256": "51a1816fd2cc5da09d92ecf57045ad3644e1148df79d1307875a09d8658717c9"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/qa/W-edge-check.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/qa/W-edge-check.json",
+      "sha256": "724a8d8a5a271198b90a4d5f7e5eff40b5ed6794960ffefc3908fc4091c6e040"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/records/hit-W-04-rejected-v1.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/records/hit-W-04-rejected-v1.json",
+      "sha256": "8f096f2743213a0d33080b945dbeccbe4753e89cfcad9e7c475386f1989fe6e4"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/records/attack-W-05-rejected-v1.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/records/attack-W-05-rejected-v1.json",
+      "sha256": "f179ba8476d6a8e3deae4e63de7294b22b53af3211fa601fb81bf7c428968236"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/attack-W-01-failed-network-1.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/attack-W-01-failed-network-1.json",
+      "sha256": "d9cba92a5679ce3f9cf3352ae7982dbdfc7fdc8908190de148dc0233160a663e"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/cast-E-06-attempt1-failed.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/cast-E-06-attempt1-failed.json",
+      "sha256": "e61165c12da05baecdd94b889c05375c6af94b9eab546f45e6a4bdb570544b99"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/cast-E-13-attempt1-failed.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/cast-E-13-attempt1-failed.json",
+      "sha256": "8bb4cb060981b0318dffbf78e84ae4b89a119ddc9faf25cb3c23aa9af47f939f"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/records/cast-E-10-attempt1-rejected.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/records/cast-E-10-attempt1-rejected.json",
+      "sha256": "2f3a595da2449afd86bbea93b1daaafc37fd7aeb32a5f35147162aec5e35aff9"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/cast/W/01.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/cast/W/01.png.generation.json",
+      "sha256": "b5d678e5a36dd70f3da853b3c9e3ea55a0b4ac9f4ddb06c5d525945d032e9a4b"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/cast/W/02.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/cast/W/02.png.generation.json",
+      "sha256": "90daee25fba68c512120135f5df1d666757849db2e213dd8b9a4fcaed9f232e4"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/cast/W/03.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/cast/W/03.png.generation.json",
+      "sha256": "9dc6e5155123b7469dd7fb7a296fcdccb751d16e53aadb304d4208c78188b79d"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/cast/W/04.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/cast/W/04.png.generation.json",
+      "sha256": "e447024003a7ffb2376f08933680ca5cab785be8a55fd5cccef308d738540741"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/cast/W/05.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/cast/W/05.png.generation.json",
+      "sha256": "206079fa4a4369099ff8b1e160a0d7806e3c163ae6911e7b0358d3d3df22e40a"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/cast/W/06.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/cast/W/06.png.generation.json",
+      "sha256": "2d9caa282cdf337bf97004cf7e4c6251019d090e3cf2520a8e7e04909b4d82c3"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/cast/W/07.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/cast/W/07.png.generation.json",
+      "sha256": "010d87d020766b8065557437b76094028ec798a11b6dfca330b2b5b928364f69"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/cast/W/08.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/cast/W/08.png.generation.json",
+      "sha256": "e954013a63a1c8870965c04156cfed05a1f30ab804c71e2fe97c8df024194741"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/cast/W/09.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/cast/W/09.png.generation.json",
+      "sha256": "976a1a9626a354ee85f9ff3a7eacefec031d6d0a0fe88cf6c611292484406256"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/cast/W/10.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/cast/W/10.png.generation.json",
+      "sha256": "2edadcb26148e021ee838e3c483ba937a5d5edd52ba69974137daa6313283120"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/cast/W/11.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/cast/W/11.png.generation.json",
+      "sha256": "21644283556ade88326c7c16f2218ff1cc381027441b34edea27d0c7f6208b1d"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/cast/W/12.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/cast/W/12.png.generation.json",
+      "sha256": "45fb20ff6021fb84381815ad4e66a3b4ae67901fadc769c496d9cd48a19c5459"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/cast/W/13.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/cast/W/13.png.generation.json",
+      "sha256": "ed000e69540d087c38d759559c40843b62785479a4802da334fdf37e70bea167"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/cast/W/14.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/cast/W/14.png.generation.json",
+      "sha256": "4211d34ebcb4e83746e67714729ed4dfba80703e13d5de019549fa60a17beb1e"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/cast/W/15.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/cast/W/15.png.generation.json",
+      "sha256": "64b6f1909f0ba043fccd0a1cd9d73d7bb969fadd669d45ced58ec40a5bb84edf"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/cast/W/16.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/cast/W/16.png.generation.json",
+      "sha256": "caf8b44873c7402045c7e120f5838e52ba4dcedfb516df66bfaedd2f38f10483"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/hit/W/01.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/hit/W/01.png.generation.json",
+      "sha256": "294bcee6eb7dadf9962d1a98244d36c411d05d7413fe57deaf929f408bfe62dc"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/hit/W/02.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/hit/W/02.png.generation.json",
+      "sha256": "96d93d3afd76246f850ca3a5ebc38aaee6e7a2d5fbc5065a20a8688d1d19f203"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/hit/W/03.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/hit/W/03.png.generation.json",
+      "sha256": "75e3b957036ab7af157283d1ad2af084867bfdf4defaba0d5336bd562d280132"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/hit/W/04.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/hit/W/04.png.generation.json",
+      "sha256": "055021d0d058ec97cb1d5cb688557dba9bcf36e87468ce7679a775994cecc1af"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/hit/W/05.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/hit/W/05.png.generation.json",
+      "sha256": "1c6bcc2ccaa141f1fcdd7d8e8d164c139a46c28d26dad907324cf5468a00f129"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/hit/W/06.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/hit/W/06.png.generation.json",
+      "sha256": "0446e03514cd9f941954c9c97550bb3598b2c34a5b975e66dc3a9e1351a1b8c6"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/attack/W/01.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/attack/W/01.png.generation.json",
+      "sha256": "c0ddb2955bf81615f5d6a7da8638d65409def6b2aa2b0b83bc6de951c6727fd4"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/attack/W/02.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/attack/W/02.png.generation.json",
+      "sha256": "b12df016833ff1155820cd91635a6cd8f17f8b79226dece87b1d1390db6fb728"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/attack/W/03.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/attack/W/03.png.generation.json",
+      "sha256": "415654d46f6f975a63b165f96378ba4e10c4e78a2ca928f945be3873ffa1a95f"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/attack/W/04.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/attack/W/04.png.generation.json",
+      "sha256": "9215c8a12f552b73d9d4e743ea908283b50e4ab02a74da1150d3d0653b6362eb"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/attack/W/05.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/attack/W/05.png.generation.json",
+      "sha256": "c991721232993c6191f275385885e095c0345d5cce71a8afdc27a73133955d24"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/attack/W/06.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/attack/W/06.png.generation.json",
+      "sha256": "2220bac28bab859fdba748ff58b19d4e37eb9b0872ad2dbfebfe6d643f2730f1"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/attack/W/07.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/attack/W/07.png.generation.json",
+      "sha256": "96de4925fe318c86724b888644cd0888b1b935b2bc96ef420e329676bbd62769"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/attack/W/08.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/attack/W/08.png.generation.json",
+      "sha256": "8771cd67d0d2fa48446305b1fc9c01a9bc902f4758b41d07b777837d253f2c2f"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/attack/W/09.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/attack/W/09.png.generation.json",
+      "sha256": "e23323a6e17b1645794924511888f76f6574ce25f58cb622cdf4c3be4f85dd41"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/attack/W/10.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/attack/W/10.png.generation.json",
+      "sha256": "1609b7fecbcb3d3a1739efe337a361f04cc7ce407c5b0893242e6130367fb75f"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/attack/W/11.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/attack/W/11.png.generation.json",
+      "sha256": "f535e239db10788af8a8286d63934ec7ef483e1a7964eb382056e5e2df9958b3"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/runtime/attack/W/12.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/runtime/attack/W/12.png.generation.json",
+      "sha256": "86d3c15e90703a5d6ed9f7d15d884ce8252d27175ee3769bcbd2977a9e12293e"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/hit-W-04.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/hit-W-04.txt",
+      "sha256": "6f1f27944162427463eaf1cb1252661f81ca203f89914bbafedb5944e1add399"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/hit-W-04.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/hit-W-04.json",
+      "sha256": "b3b3fdb959f8952a83bbc39e96f605eedd8ed72e678175bd7ecfd7f6360a3ed2"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/attack-W-05.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/attack-W-05.txt",
+      "sha256": "ff5961feaee227a20599c0d121d0fac8b318c92eac301bd5d579ba187b3ed25b"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/attack-W-05.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/attack-W-05.json",
+      "sha256": "a46793735e23637a085fb77e384b00f17a8e9f24c78ae2b95121ac9ce1522658"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/attack-W-01.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/attack-W-01.txt",
+      "sha256": "c3b1944974c0332f10f6757acf25cb71d2cd7ad2ac238caec14b89fb47a5defb"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/cast-E-06.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/cast-E-06.txt",
+      "sha256": "d48b37b9553dda73ead52e901c29f11a8d89e0c9ad76ac5206bad1693a5a5654"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/cast-E-13.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/cast-E-13.txt",
+      "sha256": "4ecefeb882f3ba0090f777170eb2d75253f831cf485d0799a9057ffd0bcff7d8"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/cast-E-10-attempt1.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/cast-E-10-attempt1.txt",
+      "sha256": "18e7b46f478c13119776a58cf33e57406034100ba4fc6fece45206b6484cae1a"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/cast-E-10-attempt1-rejected.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/cast-E-10-attempt1-rejected.json",
+      "sha256": "8f15b0b8cd774f5db78a73a761bcf0e2054df1061bccd6d66b59f65208e2d8fe"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/cast-W-01.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/cast-W-01.txt",
+      "sha256": "4999f274f661fe7b5ea459b60c3772fddda54db03a312268c1a78917aef4d30f"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/cast-W-01.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/cast-W-01.json",
+      "sha256": "72e1d5ec545da405d18fc71062e6165b98b68364e47b3511c41244662ef2f667"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/cast-W-02.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/cast-W-02.txt",
+      "sha256": "5dcfd46fd733ffe6574a91442fa8db067559e9ce80a1f5f178f9f452b8be2d92"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/cast-W-02.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/cast-W-02.json",
+      "sha256": "02c2104ad89398f75d7486faf6fdccec106cdba8e5626b772ca72c93c260a237"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/cast-W-03.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/cast-W-03.txt",
+      "sha256": "47cbe3d4a21a4102f8b31aa48b059ee68998ed5180ae6207de0b8436a9125c90"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/cast-W-03.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/cast-W-03.json",
+      "sha256": "3a084edbda5be1908242d41aa963d5b20f02c755c5db8df9f3746bb49295fc5f"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/cast-W-04.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/cast-W-04.txt",
+      "sha256": "a27aa74a2e03ee5902a382273dd2b0b03a8284b9152effdae404da787ac2af3a"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/cast-W-04.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/cast-W-04.json",
+      "sha256": "07b516c42ae173054a04dc65c05597c1fb118f57b169830d74296aa5fa2d9163"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/cast-W-05.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/cast-W-05.txt",
+      "sha256": "cc5bfb546e77cd8a580c9581a6419da8c40e96359ab2eaae4996cdbf86195c12"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/cast-W-05.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/cast-W-05.json",
+      "sha256": "b42a856c36d818009ff25bb5191b83b59534639196957b8501e949b58e7e0b57"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/cast-W-06.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/cast-W-06.txt",
+      "sha256": "6ee2ea20d43a7d3f0696ce206ddd6656beaa629b6b7dc4fe28147265037a31a7"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/cast-W-06.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/cast-W-06.json",
+      "sha256": "45251b8006b8b8123b63e53f5a76dcb1c082225973eac5355666225f1bbf533f"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/cast-W-07.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/cast-W-07.txt",
+      "sha256": "207fafc4197ad8c8c11abbf35694cbca7ff9a05895d457ce52065ea87a0d8c5a"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/cast-W-07.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/cast-W-07.json",
+      "sha256": "131b8e5c4c8765f42e36edca793849768eb6dde5786c52536528c6b892cffd11"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/cast-W-08.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/cast-W-08.txt",
+      "sha256": "63f0f81b7c12f9135d333e22d0a45f6f5677b839277c5fbfc554cb818756bd14"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/cast-W-08.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/cast-W-08.json",
+      "sha256": "89c6bbf9a02ff9eed638fc24776d345c732fe5b4390ee0e59cf301aff8ca4076"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/cast-W-09.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/cast-W-09.txt",
+      "sha256": "bb444181bb98ffe30d2c177754fce3be9a8b8e239af1d63bf967a7388b4fcb38"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/cast-W-09.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/cast-W-09.json",
+      "sha256": "f1220576771ace67faa2c075b5e5f1f06b30d2b6b871380416b8c68745a3814b"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/cast-W-10.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/cast-W-10.txt",
+      "sha256": "b5a6c4736e8af4bf21d1778b391e34316204623fb557ea6cfea488273cb7b8db"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/cast-W-10.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/cast-W-10.json",
+      "sha256": "f0bfee4fe042c68de810d2e150fb40b1ed20fba6f77b6b10c262e6634be90145"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/records/cast-W-10-rejected-02.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/records/cast-W-10-rejected-02.json",
+      "sha256": "6147a146fb1e1c131f80dca13bf39fbe9d09a9f1109733b9d177701e5fb7b927"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/cast-W-11.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/cast-W-11.txt",
+      "sha256": "71a815dd6aa4418145b7e6e40570cd6ee48c89d695539a3b8d4faeb3a597aa91"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/cast-W-11.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/cast-W-11.json",
+      "sha256": "4d1a102b5ecd862f3be6df7f50006d463af3f50dfbe91de3aae42c6e4a1a0c32"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/cast-W-12.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/cast-W-12.txt",
+      "sha256": "3173489328f96e72298d4ab6a3fc3b1e702d3fc4c63b8f2601d0f54d0e3ff64e"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/cast-W-12.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/cast-W-12.json",
+      "sha256": "35da178404dd456770647f22af5a66cfc120541380974b0b228daf8dce2a3179"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/cast-W-13.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/cast-W-13.txt",
+      "sha256": "1870c220abdacadf95b22af8dc87b4dec2ff6a5489cabda25607a6afc5462a51"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/cast-W-13.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/cast-W-13.json",
+      "sha256": "1e2b81324cc419497f1d1852aa16850197f5bdb22d261d0a731b4001e8f94364"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/cast-W-14.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/cast-W-14.txt",
+      "sha256": "cccc91f1dae043ff6437c1f605e3e52d9f70c1cfe6c734650008315a55ef5fa6"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/cast-W-14.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/cast-W-14.json",
+      "sha256": "6a3f349f52c1e950a5ca7d186dbc75067681adf47b040ffd5cd7956bda80a832"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/cast-W-15.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/cast-W-15.txt",
+      "sha256": "6b2390b8c7341cc534b62b759594b2b13e5c936d634fb510e1215bd8d2c35b6b"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/cast-W-15.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/cast-W-15.json",
+      "sha256": "391c0881c71ae70a220ae624718bb9398fcaaf3a337112cff0a757de13129ec5"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/cast-W-16.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/cast-W-16.txt",
+      "sha256": "0147eceb0fcd21a112dc846b06e2bebe6a1da1cfb963d3e577312ec1e143b675"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/cast-W-16.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/cast-W-16.json",
+      "sha256": "f936f2ece1230a4732296c6ee982385ae2c1815a25ac7f322d782a69943611d5"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/hit-W-01.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/hit-W-01.txt",
+      "sha256": "01e3b6926ecd7580cd70c768a382858246737c442ca964eab3aa7e9d628756e8"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/hit-W-01.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/hit-W-01.json",
+      "sha256": "d6da5f90759be9cd6fe19215530685031f9ba9d28325cc5225988836f084f080"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/hit-W-02.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/hit-W-02.txt",
+      "sha256": "de9d59bacf18e2881cb093032a02da077ddee0949b30e5b6087167aadb05d10e"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/hit-W-02.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/hit-W-02.json",
+      "sha256": "797c3c615a554b6ac38c85138d04d3feb74f15d057ee0385d60825929b51ed2b"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/hit-W-03.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/hit-W-03.txt",
+      "sha256": "e4d95c72289237f4dfa9dcd0543fc96caedc28bd8dce009544ea74bcead66e44"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/hit-W-03.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/hit-W-03.json",
+      "sha256": "fdab7b05039abdacd23576067cda741d57abb9b3e07b26a99378690ea82274cd"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/hit-W-04-r2.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/hit-W-04-r2.txt",
+      "sha256": "4d29c35eeb192455c60ab945800f426c781ea8cb6bc6471cb6bf6e53d07bea9e"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/hit-W-04-r2.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/hit-W-04-r2.json",
+      "sha256": "e661b97257781fcd3ecc0b166d139b8192e277075730aae45274a7550e260ce2"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/hit-W-05.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/hit-W-05.txt",
+      "sha256": "0f7384bc6f53fdebec635017ce55daf588dae8ba58f143450950362b555c1037"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/hit-W-05.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/hit-W-05.json",
+      "sha256": "157e4551b16f965d07e48bfd951811eb6451248e1e52a5aa8f4956f69bc31b46"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/hit-W-06.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/hit-W-06.txt",
+      "sha256": "305eeca31ddca89182e909f3a1c8158b08945e6ed33bbe5bd5e5b7000f1a542c"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/hit-W-06.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/hit-W-06.json",
+      "sha256": "ece2b847ddc6e823a43f4a98e1e263ee2d50a1391497768ff2ffc45fdbe7fa56"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/attack-W-01.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/attack-W-01.json",
+      "sha256": "366c8ab4ccff437ddfa5d8ac2c36a7b19dab478ae3334f5bc089c982671b3472"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/attack-W-02.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/attack-W-02.txt",
+      "sha256": "3160503e14436e2f96c87a0f24e3881559852486880e3354c61a2bfcef8569fe"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/attack-W-02.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/attack-W-02.json",
+      "sha256": "57b646fbd46f8a22339d0142f1085255404eaa5a4d9baab19664c46f6a6bb940"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/attack-W-03.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/attack-W-03.txt",
+      "sha256": "1e5ddef79b3fcf4414050442c25b32dce42eee0503334831a829d11c3e834021"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/attack-W-03.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/attack-W-03.json",
+      "sha256": "f92ba9e7202e919b8f3c00b810a3409d195c4d00660ffccc8bff99b2f4a7af59"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/attack-W-04.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/attack-W-04.txt",
+      "sha256": "f3a1ebe26557b1a92c0d7db2a0e5b1d9227c36e4d0e0146503e585847fee4d8b"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/attack-W-04.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/attack-W-04.json",
+      "sha256": "c9c0c340fda91c6b39c43bfc97db91f635d9ed48342518518865eb50191de98d"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/attack-W-05-r2.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/attack-W-05-r2.txt",
+      "sha256": "dbbd5c109315f27496cddac722d487e441c1489b14019bafbd588160e7d84309"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/attack-W-05-r2.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/attack-W-05-r2.json",
+      "sha256": "9982405e807267a240034e8903174ba8d67207b029183ef66fb3a06e26389708"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/attack-W-06.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/attack-W-06.txt",
+      "sha256": "67b25729b0c7257fee16f62119ae9013d573b6421da2fe9683f07a3e418d5f3b"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/attack-W-06.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/attack-W-06.json",
+      "sha256": "dd382bf541b9ba142cfa4b221b14c5f120a0c4c7ee0e26a4bbac061e383a8e47"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/attack-W-07.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/attack-W-07.txt",
+      "sha256": "811a83c8130fa199d82a5ed52c02acf4ef3a86d417cfec2e24509a193ca7a503"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/attack-W-07.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/attack-W-07.json",
+      "sha256": "1aaefe52a75718a4fcad92c701ab798da76679522dc93e3fa83f63144f77a5fa"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/attack-W-08.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/attack-W-08.txt",
+      "sha256": "c36f27f7478ae345e002a0c423abdbe3635225ccad8b8f0b0a100494862bef4a"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/attack-W-08.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/attack-W-08.json",
+      "sha256": "8e1d08bb6401ddc147e8989928c632b535431d91aa29e6709b94412981c0b6e3"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/attack-W-09.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/attack-W-09.txt",
+      "sha256": "45c82bdaf55ad4356157204f8ee6a027197fbb69245a995d4cafe0b0b76ceca4"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/attack-W-09.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/attack-W-09.json",
+      "sha256": "be6c3f531f870cf1c32e65c792c101bf68080884e8ab1e8adee45324989d2d40"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/attack-W-10.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/attack-W-10.txt",
+      "sha256": "99bd8bbb66c7987ce809c1c1483e062abbe2bb5cba8d60d507f05c20fb894986"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/attack-W-10.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/attack-W-10.json",
+      "sha256": "11936905e23e636d3b17f13c659c8c08082f83fe1d264fd84864163efcfbcc57"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/attack-W-11.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/attack-W-11.txt",
+      "sha256": "219a75b79fd06e03c2fe10d3c6b66118db71c26df17d8d55286b6a0790da2344"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/attack-W-11.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/attack-W-11.json",
+      "sha256": "c40416e6a2c3105b86c2b27df7584c81ff7e57f777b1f9a6ace9c488ff70b91b"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/attack-W-12.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/attack-W-12.txt",
+      "sha256": "34007bfce4bd583669ccabe159bbb4a7019e143931bed92049a4e8741a1865cf"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/attack-W-12.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/attack-W-12.json",
+      "sha256": "8673c5f659bb4b58b8923e7f7116fa580e27ad3f85b0f49da79ec8ab24ca35c6"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/prompts/cast-W-10-rejected-02.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/prompts/cast-W-10-rejected-02.txt",
+      "sha256": "7aa7fd34c5a7674f34808ff5bd927bad1fb1399b80e0b9818b2b26e6c893cc72"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/02-jiangling/receipts/cast-W-10-rejected-02.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/02-jiangling/dependencies/receipts/cast-W-10-rejected-02.json",
+      "sha256": "9eff094f49b3cc6f8dd57dd1ba16d9db120ec445d15229b8f6142d0f8cf9e99e"
+    }
+  ],
+  "sourceFrameWarnings": [
+    "reference_outside_audit_scope:reference:3"
+  ],
+  "generationConfigTarget": {
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "basis": "Historical source configuration, not actual returned metadata and not a new generation."
+  },
+  "sourceManifestSHAMatches": true
+}

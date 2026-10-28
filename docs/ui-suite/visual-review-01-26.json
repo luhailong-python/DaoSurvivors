@@ -1,0 +1,687 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "reference_audit",
+  "projectRoot": "E:/work/image/DaoSurvivors",
+  "phase": "art-only",
+  "artifactKind": "Browser DOM/CSS full-screen design PNG; not Unity runtime output",
+  "range": "01–26",
+  "reviewMethod": "实际逐张使用view_image original打开1920×1080原图；核对配色材质、中文、文字/按钮重叠、越界和可见状态语义。SHA绑定本次检查版本；返修须重开原图后记录。",
+  "scopeLimitations": [
+    "不证明Unity接入、引擎运行或实际玩法联动。",
+    "此独立记录不包含27–52，也不替代源业务审查。"
+  ],
+  "summary": {
+    "checked": 26,
+    "passed": 22,
+    "needsRevision": 4
+  },
+  "screens": [
+    {
+      "file": "01-startup.png",
+      "sha256": "7d69db237af7f1769ea707d85650113c026531c46bce9558ca72dad15ee40cd0",
+      "bytes": 2806940,
+      "lastWriteTimeUtc": "2026-10-26T11:15:01.5613397Z",
+      "checked": true,
+      "findings": [
+        {
+          "code": "hero-copy-contrast",
+          "severity": "P2",
+          "description": "左侧文案直接压在高细节背景/人物头部上，局部对比不稳定。",
+          "requiresRevision": true
+        }
+      ],
+      "originalImageViewed": true,
+      "status": "needs_revision",
+      "screenPath": "designs/ui-suite/screens/01-startup.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "启动标题与开始操作均在安全区内；初版左侧文案的背景对比度待修。",
+      "checks": {
+        "style": true,
+        "chineseReadable": false,
+        "noTextOrButtonOverlap": false,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": true
+    },
+    {
+      "file": "02-loading.png",
+      "sha256": "42cdcf3940537ee73c3559b1bb2f5e4f3c5cf7c5bf54b2e9ca6baf9f0e31ed5e",
+      "bytes": 2796512,
+      "lastWriteTimeUtc": "2026-10-26T11:15:02.0782403Z",
+      "checked": true,
+      "findings": [
+        {
+          "code": "hero-copy-contrast",
+          "severity": "P2",
+          "description": "左侧文案直接压在高细节背景/人物头部上，局部对比不稳定。",
+          "requiresRevision": true
+        }
+      ],
+      "originalImageViewed": true,
+      "status": "needs_revision",
+      "screenPath": "designs/ui-suite/screens/02-loading.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "加载状态使用不定进度提示，没有伪造百分比；左侧文案背景对比度待修。",
+      "checks": {
+        "style": true,
+        "chineseReadable": false,
+        "noTextOrButtonOverlap": false,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": true
+    },
+    {
+      "file": "03-loading-error.png",
+      "sha256": "0164ce132bd10e32554c30f4343bfb03b92f35fcc1d9c858606b9662732a9ebd",
+      "bytes": 1217731,
+      "lastWriteTimeUtc": "2026-10-26T11:15:02.5888940Z",
+      "checked": true,
+      "findings": [],
+      "originalImageViewed": true,
+      "status": "passed",
+      "screenPath": "designs/ui-suite/screens/03-loading-error.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "失败标题、解释与重试／返回按钮清楚，遮罩建立前景层级。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": false
+    },
+    {
+      "file": "04-main-menu.png",
+      "sha256": "46b4f605f428a561529de0262a67ac6b40c4a4859680cc05890dbcf5fc70f104",
+      "bytes": 2791352,
+      "lastWriteTimeUtc": "2026-10-26T11:15:03.1249822Z",
+      "checked": true,
+      "findings": [
+        {
+          "code": "hero-copy-contrast",
+          "severity": "P2",
+          "description": "左侧文案直接压在高细节背景/人物头部上，局部对比不稳定。",
+          "requiresRevision": true
+        }
+      ],
+      "originalImageViewed": true,
+      "status": "needs_revision",
+      "screenPath": "designs/ui-suite/screens/04-main-menu.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "导航按钮与页眉层级清楚；初版左侧宣传文案压在人物发带／背景上待修。",
+      "checks": {
+        "style": true,
+        "chineseReadable": false,
+        "noTextOrButtonOverlap": false,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": true
+    },
+    {
+      "file": "05-character-select.png",
+      "sha256": "ab860c7108520c60832ae54116d69df06b0e35e73aadb93a8b420c6795363340",
+      "bytes": 1676092,
+      "lastWriteTimeUtc": "2026-10-26T11:15:03.7397072Z",
+      "checked": true,
+      "findings": [],
+      "originalImageViewed": true,
+      "status": "passed",
+      "screenPath": "designs/ui-suite/screens/05-character-select.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "3角色卡完整；首名可用、其余2名锁定与500金币解锁价清楚，右侧说明匹配选择。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": false
+    },
+    {
+      "file": "06-character-owned.png",
+      "sha256": "f0a94965553ec2571cbd72c02fd5e3d898f67461c4956ce29872b3e4f0095494",
+      "bytes": 1673204,
+      "lastWriteTimeUtc": "2026-10-26T11:15:04.3129198Z",
+      "checked": true,
+      "findings": [],
+      "originalImageViewed": true,
+      "status": "passed",
+      "screenPath": "designs/ui-suite/screens/06-character-owned.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "已解锁的3角色无锁标；剑修选中边框与右侧说明匹配。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": false
+    },
+    {
+      "file": "07-character-detail.png",
+      "sha256": "56e2105381d222dd9d4a0317965ab321df012d587e69e75b891c25fabde4076d",
+      "bytes": 2032392,
+      "lastWriteTimeUtc": "2026-10-26T11:15:04.9785746Z",
+      "checked": true,
+      "findings": [],
+      "originalImageViewed": true,
+      "status": "passed",
+      "screenPath": "designs/ui-suite/screens/07-character-detail.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "角色原画、起始道法和角色说明均完整，主要操作未遮挡人物。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": false
+    },
+    {
+      "file": "08-unlock-confirm.png",
+      "sha256": "3377002bc777139036a7a7b0e9c07e7b17be1081e20e695b6587559317042845",
+      "bytes": 1224602,
+      "lastWriteTimeUtc": "2026-10-26T11:15:05.4942316Z",
+      "checked": true,
+      "findings": [],
+      "originalImageViewed": true,
+      "status": "passed",
+      "screenPath": "designs/ui-suite/screens/08-unlock-confirm.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "500金币确认、取消与解锁操作清楚；弹窗内容未越界。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": false
+    },
+    {
+      "file": "09-unlock-insufficient.png",
+      "sha256": "c26584b331a3c3f2758bc62c2f39e343c3e1b5d9feb481926ed9d914c6e7a29c",
+      "bytes": 1220892,
+      "lastWriteTimeUtc": "2026-10-26T11:15:05.9799786Z",
+      "checked": true,
+      "findings": [],
+      "originalImageViewed": true,
+      "status": "passed",
+      "screenPath": "designs/ui-suite/screens/09-unlock-insufficient.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "弹窗拥有180、需要500、还差320计算一致。再次打开同SHA原图并核对对应layout textRegion，底层钱包实际为180；初次将模糊字误读5000已撤回。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": false,
+      "reviewHistory": [
+        {
+          "code": "wallet-state-mismatch",
+          "outcome": "withdrawn_false_positive",
+          "reason": "原图模糊顶栏初次误读；同SHA重开与layouts/09-unlock-insufficient.json的180文字区域确认金额一致。",
+          "requiresRevision": false
+        }
+      ]
+    },
+    {
+      "file": "10-unlock-success.png",
+      "sha256": "c76cb42f81e3f9d0895fa4bf5764b54da43ef164ff44adb34dad183d1b000668",
+      "bytes": 1220693,
+      "lastWriteTimeUtc": "2026-10-26T11:15:06.4576976Z",
+      "checked": true,
+      "findings": [],
+      "originalImageViewed": true,
+      "status": "passed",
+      "screenPath": "designs/ui-suite/screens/10-unlock-success.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "解锁成功状态、角色信息及后续选择操作清楚。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": false
+    },
+    {
+      "file": "11-character-empty.png",
+      "sha256": "cbc48501b8277c832d0727be5e54fdc34ce04c512ea83fbd1f8d53a09e8b5aa5",
+      "bytes": 1836555,
+      "lastWriteTimeUtc": "2026-10-26T11:15:07.1020275Z",
+      "checked": true,
+      "findings": [],
+      "originalImageViewed": true,
+      "status": "passed",
+      "screenPath": "designs/ui-suite/screens/11-character-empty.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "角色配置为空有明确说明与返回操作，没有残留的角色选择动作。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": false
+    },
+    {
+      "file": "12-level-select.png",
+      "sha256": "8e767541e829533b885671f6df338fc3632155c92a6c8ab791a56ceca7639596",
+      "bytes": 1791298,
+      "lastWriteTimeUtc": "2026-10-26T11:15:07.6074171Z",
+      "checked": true,
+      "findings": [],
+      "originalImageViewed": true,
+      "status": "passed",
+      "screenPath": "designs/ui-suite/screens/12-level-select.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "两个关卡卡片均完整；第一关被选中，右侧关卡说明匹配。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": false
+    },
+    {
+      "file": "13-level-detail.png",
+      "sha256": "a38f744bdf0b61172a48aeb76efb173b2e65ea6d99c37a992d67c7e78ecdd844",
+      "bytes": 1791582,
+      "lastWriteTimeUtc": "2026-10-26T11:15:08.0632532Z",
+      "checked": true,
+      "findings": [],
+      "originalImageViewed": true,
+      "status": "passed",
+      "screenPath": "designs/ui-suite/screens/13-level-detail.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "第二关被选中，标题、图景与右侧说明匹配。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": false
+    },
+    {
+      "file": "14-level-unselected.png",
+      "sha256": "015015dacce3e85724b6e7687f9a5083b6fb107bfacaaa831cc17f7d4355e681",
+      "bytes": 1782009,
+      "lastWriteTimeUtc": "2026-10-26T11:15:08.5787288Z",
+      "checked": true,
+      "findings": [],
+      "originalImageViewed": true,
+      "status": "passed",
+      "screenPath": "designs/ui-suite/screens/14-level-unselected.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "尚未选择关卡有明确提示，开始按钮为禁用语义。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": false
+    },
+    {
+      "file": "15-level-empty.png",
+      "sha256": "73a88dc0a26b281655b2991e27ce874f1ce84663e27d9b0e0858298ccefdd1bd",
+      "bytes": 1823957,
+      "lastWriteTimeUtc": "2026-10-26T11:15:09.2946012Z",
+      "checked": true,
+      "findings": [],
+      "originalImageViewed": true,
+      "status": "passed",
+      "screenPath": "designs/ui-suite/screens/15-level-empty.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "无关卡配置说明清楚，返回入口保留。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": false
+    },
+    {
+      "file": "16-powerup-overview.png",
+      "sha256": "4927ac5866eb4c42cdf07001fd812d8542acb0c3f906317876aec6ced8790779",
+      "bytes": 1462160,
+      "lastWriteTimeUtc": "2026-10-26T11:15:09.8142830Z",
+      "checked": true,
+      "findings": [],
+      "originalImageViewed": true,
+      "status": "passed",
+      "screenPath": "designs/ui-suite/screens/16-powerup-overview.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "14永久属性完整呈现为2行7项；阶数格、名称和选中详情清楚。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": false
+    },
+    {
+      "file": "17-powerup-detail.png",
+      "sha256": "5f15a282c0867421dec7ce99e43682752a39ffe87509e7b01a081300e77a3cb1",
+      "bytes": 1462172,
+      "lastWriteTimeUtc": "2026-10-26T11:15:10.3202751Z",
+      "checked": true,
+      "findings": [],
+      "originalImageViewed": true,
+      "status": "passed",
+      "observations": [
+        "17与16采用同一默认已选剑意详情布局；可购买状态清楚，未发现文字或边界问题。"
+      ],
+      "screenPath": "designs/ui-suite/screens/17-powerup-detail.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "已选属性可购买状态的费用、阶数、说明与主按钮完整。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": false
+    },
+    {
+      "file": "18-powerup-insufficient.png",
+      "sha256": "d61c9cc1e2bdaf1d0b1517584dc7ced0ad062b23cc369f6d2b26081af25ba395",
+      "bytes": 1462940,
+      "lastWriteTimeUtc": "2026-10-26T11:15:10.8244719Z",
+      "checked": true,
+      "findings": [],
+      "originalImageViewed": true,
+      "status": "passed",
+      "screenPath": "designs/ui-suite/screens/18-powerup-insufficient.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "钱包与说明均为3金币，100金币费用及不足按钮语义一致。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": false
+    },
+    {
+      "file": "19-powerup-maxed.png",
+      "sha256": "3468cefd30f22a711c38d177d7cc82f9def1201d1da03e960e6d16c09535c33e",
+      "bytes": 1461660,
+      "lastWriteTimeUtc": "2026-10-26T11:15:11.3239401Z",
+      "checked": true,
+      "findings": [],
+      "originalImageViewed": true,
+      "status": "passed",
+      "screenPath": "designs/ui-suite/screens/19-powerup-maxed.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "各属性按5／3／2／1等真实最高阶展示；选中5/5与已圆满禁用操作一致。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": false
+    },
+    {
+      "file": "20-powerup-success.png",
+      "sha256": "fe7196903c26f8cb706d2a2bf17cb9c738e2699857b55ec014084c79c508c4df",
+      "bytes": 1461917,
+      "lastWriteTimeUtc": "2026-10-26T11:15:11.8104963Z",
+      "checked": true,
+      "findings": [],
+      "originalImageViewed": true,
+      "status": "passed",
+      "screenPath": "designs/ui-suite/screens/20-powerup-success.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "购买成功后钱包4999、剑意1/5与下一阶费用2清楚，成功提示不遮挡操作。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": false
+    },
+    {
+      "file": "21-settings-audio.png",
+      "sha256": "543a207eb13870b74bf9d1a756601f41bf85afc9fa2f884cfe9213b2bdd7e2d7",
+      "bytes": 1827085,
+      "lastWriteTimeUtc": "2026-10-26T11:15:12.4885608Z",
+      "checked": true,
+      "findings": [],
+      "originalImageViewed": true,
+      "status": "passed",
+      "screenPath": "designs/ui-suite/screens/21-settings-audio.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "总音量8/10、背景音乐6/10、音效7/10与对应滑杆位置一致；标签与加减按钮无遮挡。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": false
+    },
+    {
+      "file": "22-settings-display.png",
+      "sha256": "992c2c62b6e030adf2af2945c4fffd0a53df97f95a9f9f9d733f541103de07fa",
+      "bytes": 1839204,
+      "lastWriteTimeUtc": "2026-10-26T11:15:13.1977061Z",
+      "checked": true,
+      "findings": [],
+      "originalImageViewed": true,
+      "status": "passed",
+      "screenPath": "designs/ui-suite/screens/22-settings-display.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "1920×1080、全屏关闭、伤害浮字开启均有可识别状态；按钮及说明未越界。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": false
+    },
+    {
+      "file": "23-settings-language.png",
+      "sha256": "5c4995c75053119a45e78be471b95a8a88e0b7e0e8162c10365c68dc612063c6",
+      "bytes": 1726105,
+      "lastWriteTimeUtc": "2026-10-26T11:15:13.8936783Z",
+      "checked": true,
+      "findings": [],
+      "originalImageViewed": true,
+      "status": "passed",
+      "screenPath": "designs/ui-suite/screens/23-settings-language.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "简体中文选中、English可选状态清楚；标题与操作无裁切。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": false
+    },
+    {
+      "file": "24-display-confirm.png",
+      "sha256": "84aea1e2c9b8d74ac1c65b98f0ecf79510c929a3a9201b3c61143ffe3da9120d",
+      "bytes": 1215698,
+      "lastWriteTimeUtc": "2026-10-26T11:15:14.4220665Z",
+      "checked": true,
+      "findings": [],
+      "originalImageViewed": true,
+      "status": "passed",
+      "screenPath": "designs/ui-suite/screens/24-display-confirm.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "画面切换到2560×1080的确认说明及保留／还原按钮清楚；本截图本身仍为1920×1080设计稿。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": false
+    },
+    {
+      "file": "25-battle-hud.png",
+      "sha256": "97c5eda6a19d5d0c81b2995fd24b9f959365d9d4efaaa57af130630320b88842",
+      "bytes": 2719873,
+      "lastWriteTimeUtc": "2026-10-26T11:15:15.1779628Z",
+      "checked": true,
+      "findings": [],
+      "originalImageViewed": true,
+      "status": "passed",
+      "screenPath": "designs/ui-suite/screens/25-battle-hud.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "角色气血94/100与气血条相符，计时／金币／击敌／暂停层级清楚；6主动6被动槽含空位，无图标丢失。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": true
+      },
+      "requiresRevision": false
+    },
+    {
+      "file": "26-battle-build-full.png",
+      "sha256": "b27b8f56e77c99c51261ab1b693b3ffb9670612d694c3591ce448bde044e693b",
+      "bytes": 2726271,
+      "lastWriteTimeUtc": "2026-10-26T11:15:15.7832652Z",
+      "checked": true,
+      "findings": [
+        {
+          "code": "passive-levels-and-evolution",
+          "severity": "P2",
+          "description": "6个被动道诀标示化境、Lv10、Lv9、Lv8、Lv7、Lv6，与来源被动最高5级且无进化不符。",
+          "requiresRevision": true,
+          "evidence": "kit_system_audit独立实读SkillDataSO.cs AttributeSkill与14属性asset：Level==UpgradeAttributeModValue.Count，5个值；主动才有进化及最高11。"
+        }
+      ],
+      "originalImageViewed": true,
+      "status": "needs_revision",
+      "observations": [
+        "6主动与6被动槽完整，无图标缺失、文字裁切或槽位溢出。"
+      ],
+      "screenPath": "designs/ui-suite/screens/26-battle-build-full.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "visualEvidence": "6主动6被动满槽，图标和阶数标签完整；计时10:25、金币945、击敌1874无遮挡。",
+      "checks": {
+        "style": true,
+        "chineseReadable": true,
+        "noTextOrButtonOverlap": true,
+        "noOutOfBounds": true,
+        "stateSemantics": false
+      },
+      "requiresRevision": true
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-28T10:26:41.963874+00:00",
+  "reviewer": "independent player-art reviewer",
+  "status": "accepted_still_visual_and_pose_review",
+  "scope": "Final fighter/mage Idle/Run E-facing64phases;512 extreme-stride frames; source-game action scope and sword existing art checked independently. This record is not Unity or browser-playback acceptance.",
+  "blockingFindings": [],
+  "observations": {
+    "identity": "fighter retains brownspikyhair,goldheadband,jade/ivory/goldshortrobe,gourd; mage retains blackbun,lotushairpin,pink/jadeshortrobe,darkshorts,barelowerlegs,whiteboots",
+    "joints": "Previously exposed open trouser hip is resolved with closed fabric cap and fixed hip solution. No detached neck/shoulder/hip gap seen across64reviewedphases.",
+    "movement": "Runshowsnear/farlegexchangeandindependentarmswing;Idlehasseparatehead,torso,sleevevariation.",
+    "contact": "Metadata supports remain at471px with1px maximum sampling deviation; stillposeartdoesnotshownewhipseparationaftercorrection.",
+    "readability": "Characters remain legible in256px preview and512px inspected extreme stride;light/darkbackgrounds retain silhouette."
+  },
+  "limitations": [
+    "Sixpaintedfull-limbcutoutparts do not constitute segmentedelbow/kneeIK or AIvideo.",
+    "Playback,gaittempoandlast-to-firstloopviewing must be independently confirmed in browser by primary agent.",
+    "West-facingfiles are horizontal reflections and are covered by primary agent mirror/frame QA, not a separate64phase visual review here.",
+    "Unity integration and runtime acceptance are outside current art-only stage."
+  ],
+  "reviewedImages": [
+    {
+      "file": "designs/whole-game/players/fighter-idle-poses.jpg",
+      "sha256": "7bca3bdfa64aa4e6b8bd9706fae3b64b36f3dd979c35c0afc665acdcbd42536c",
+      "kind": "visually reviewed complete16-phase light/dark pose sheet"
+    },
+    {
+      "file": "designs/whole-game/players/fighter-run-poses.jpg",
+      "sha256": "fa147d9d2767fbf9ed2e4c3285195d20c32c9d0ad3a57710437b76fafc82cf84",
+      "kind": "visually reviewed complete16-phase light/dark pose sheet"
+    },
+    {
+      "file": "art/whole-game/players/fighter/run/E/13.png",
+      "sha256": "bbc6c8ff5c264b296afa50f17081bd0f6636dbc8c5cc423009c8666bcfe2fb2e",
+      "kind": "visually reviewed512x512 extreme stride and hip coverage"
+    },
+    {
+      "file": "designs/whole-game/players/mage-idle-poses.jpg",
+      "sha256": "b52646cdc9a4743fab47241c7db77e95031c390a8a64126cfbab9de9e3add5a3",
+      "kind": "visually reviewed complete16-phase light/dark pose sheet"
+    },
+    {
+      "file": "designs/whole-game/players/mage-run-poses.jpg",
+      "sha256": "9953ffae56ccb87facb49e7726cffda1741cec813803e47c51a7c83d2892a5cc",
+      "kind": "visually reviewed complete16-phase light/dark pose sheet"
+    },
+    {
+      "file": "art/whole-game/players/mage/run/E/13.png",
+      "sha256": "7ddbc9c6b1544f14f93309fe0fbec33759858f54df4b83e837c432f7ad4f596b",
+      "kind": "visually reviewed512x512 extreme stride and hip coverage"
+    }
+  ],
+  "hashBoundManifests": [
+    {
+      "file": "art/whole-game/players/fighter/animation.json",
+      "sha256": "27b40ce385cd10f86b3d77ec18a10df3ed9dc321b6bbbd182eb84bd85d9935f6",
+      "frames": [
+        {
+          "file": "art/whole-game/players/fighter/idle/E/01.png",
+          "sha256": "774d6506a63fda087fe509b8bb7fd12ae616fc7dc98a8883e0a15f759e0a26c7"
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/02.png",
+          "sha256": "cedc43f53fed95a92a110f54fc76f5fee73a7caace2a677a300f30cfe730fa9d"
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/03.png",
+          "sha256": "1a7bcb5f005b1802bc16bd85ce41be387edb7d9b878598838dd21819fcddb96d"
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/04.png",
+          "sha256": "6c7b13694688333bba8b102ac0bfa6c699ae271aecaceb0185e4af23adc19656"
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/05.png",
+          "sha256": "aba7e78ec7eb845ee1fdd0241486d96b0089d5cfc2ed8d905b0a65d63708e942"
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/06.png",
+          "sha256": "916e6b940def498f458ba8430d047937e952df45698911fa3b73385e7253252f"
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/07.png",
+          "sha256": "56454e31ae39a72cd491a7e7ea59a71da6f30b6b242b706339d3d174057c22f3"
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/08.png",
+          "sha256": "c11c82f0e10cfe7f0430ebfa6d08903bcd2c37cf27479a96f9cba3c2ffe6d0a5"
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/09.png",
+          "sha256": "12133e5008417516c3420e771214f7029d506f88215964a0a78554672b42605b"
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/10.png",
+          "sha256": "65909df46a40be957493aecb20b6272a0f981d12b8e0489209a5fcb6854d92a3"
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/11.png",
+          "sha256": "9fd4877e3551bc4841df3c69f67a9fd288f9c82369bdea96dcd4fe1079e2d1cb"
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/12.png",
+          "sha256": "16f1c0bc3a1a907817675b47a4164a8a70fd49dbf5f8c136162e43f5f61b28ed"
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/13.png",
+          "sha256": "1191110f414f64c7dd0dd32b94486e1070e24a94160c0ba3ca9775bb979d0b6c"
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/14.png",
+          "sha256": "4dd04034a81f26beb021c7d482911d9eeefee786f479bf61d646a04dc67b79d0"
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/15.png",
+          "sha256": "647ba42ce50eceb0cd185a8555d346f12e877db3bda864c138440b42b2e5b5e9"
+        },
+        {
+          "file": "art/whole-game/players/fighter/idle/E/16.png",
+          "sha256": "176d600a2f1f137a48e4b9d2590bcce9051b22fa1d84963190268dd350e17c24"
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/01.png",
+          "sha256": "7ba69d051f6af170171db44a2d37e67932c62bb4bee10a52a58fe25f6432cd71"
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/02.png",
+          "sha256": "d35977c7e3f0667359af733bc6523a5d3f9038547bcc7cd8bf99eaf3d15d21be"
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/03.png",
+          "sha256": "849434ac87d794aef2edf927f9ec96d190185464eb40b2dcd0962c3a4ed75237"
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/04.png",
+          "sha256": "a64c81678db68e3095de53635cdced792bdcb350a508febb132f1cca88686c9d"
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/05.png",
+          "sha256": "f89bb53807d2defe6d64e2bcf8eda50fa1a45bbdca387ad3e361209fb3fefe08"
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/06.png",
+          "sha256": "1e422ad64f561e038d10ab771da39c060424fab6a49ba5eff0e884268468a35d"
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/07.png",
+          "sha256": "4ef2e5b6c50ccdbb6f5ad5f4ae71dc2713af20e76827131a1585824aad55e0ac"
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/08.png",
+          "sha256": "3aecab81012b7eecc40f80fb5abcae7c7512689197580e983313c2a31d1599ca"
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/09.png",
+          "sha256": "840283d810dfb4029e096b51f5774151ac26349e1da6bfb33e2038529312f8d0"
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/10.png",
+          "sha256": "029b5bae0c6a0f04d004a1e0702209f1824ce3d9e37a22b0f4962ba1d1d4bf77"
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/11.png",
+          "sha256": "b40e7f94f485cb632a61b7d8739d1e4870ac42b0e96e47691d2680e03bb139d2"
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/12.png",
+          "sha256": "aa3ea9196d5c1c0f9dad284ce52f133ecf8347a6cc22f754d5f0d523c51cce6e"
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/13.png",
+          "sha256": "bbc6c8ff5c264b296afa50f17081bd0f6636dbc8c5cc423009c8666bcfe2fb2e"
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/14.png",
+          "sha256": "3f47aa1dd2a1ee3deb18b03d536ffabac00f9cdbc717463bb751a70c726a0f86"
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/15.png",
+          "sha256": "311ca6e5df85a6985a5a1d1fa76c7144062afcd94f2a4857d58ac81a757d776e"
+        },
+        {
+          "file": "art/whole-game/players/fighter/run/E/16.png",
+          "sha256": "5acb5086d03adc4761948d7eb236071e97827b966e62af74ee4782c65e6ee3a4"
+        }
+      ],
+      "contact": {
+        "idle": {
+          "supportSoleY": [],
+          "standingSoleY": [
+            471
+          ],
+          "swingSoleY": [],
+          "maxSupportErrorFrom471Px": 0
+        },
+        "run": {
+          "supportSoleY": [
+            471,
+            472
+          ],
+          "standingSoleY": [],
+          "swingSoleY": [
+            445,
+            447,
+            453,
+            461,
+            471
+          ],
+          "maxSupportErrorFrom471Px": 1
+        }
+      }
+    },
+    {
+      "file": "art/whole-game/players/mage/animation.json",
+      "sha256": "050aa11ba64f9a30db4a6986aadd8728b9b5262faf6845151868aff43dc5f466",
+      "frames": [
+        {
+          "file": "art/whole-game/players/mage/idle/E/01.png",
+          "sha256": "4adc85200aa9641285147a5ca3e2f0ad06e93764e1ca6ed7282960c9f4fdba67"
+        },
+        {
+          "file": "art/whole-game/players/mage/idle/E/02.png",
+          "sha256": "10b21ccaee7225c134e9dc5338c6ebdc524f076e5fcc612eced65bf582b26447"
+        },
+        {
+          "file": "art/whole-game/players/mage/idle/E/03.png",
+          "sha256": "41c4e5df683aa806354ccea04491d68b73e242e21d682ca4cea8b44b464335d8"
+        },
+        {
+          "file": "art/whole-game/players/mage/idle/E/04.png",
+          "sha256": "eada13453314cfeb45090a9fb0b7827254ccea1ea100279436572335f3dd4761"
+        },
+        {
+          "file": "art/whole-game/players/mage/idle/E/05.png",
+          "sha256": "036fbb7fdad79fbf504dfe84ced35a6fa227ece98f85bc7562919256f6a3fb57"
+        },
+        {
+          "file": "art/whole-game/players/mage/idle/E/06.png",
+          "sha256": "b64840fe89cdc4aaf04c0a1bac7f151258b21f3d7428225aac6f304e9eb7ee96"
+        },
+        {
+          "file": "art/whole-game/players/mage/idle/E/07.png",
+          "sha256": "38701bcacb3119150528740f8df04778ef367bafa00c17f7292d13d8dd1cc7a3"
+        },
+        {
+          "file": "art/whole-game/players/mage/idle/E/08.png",
+          "sha256": "11674a8b9212b90f44f9043722465ca537de74c864772f4fa0f6879c1af64da5"
+        },
+        {
+          "file": "art/whole-game/players/mage/idle/E/09.png",
+          "sha256": "2015b569a864f4e88fe8918b32bbbb16420c583b5f87316944488a2b781046c2"
+        },
+        {
+          "file": "art/whole-game/players/mage/idle/E/10.png",
+          "sha256": "12944f1b2483e2882a16e4bc48c219fb7c1d57a444fd46a336c55e16a110ea48"
+        },
+        {
+          "file": "art/whole-game/players/mage/idle/E/11.png",
+          "sha256": "1c1c657ee16d63cab88b883c606519c9f9d1a832f70e186305f9890fdcd7d5d4"
+        },
+        {
+          "file": "art/whole-game/players/mage/idle/E/12.png",
+          "sha256": "842fb096042c4c4d54ab330dc83cdc7d548089daef9b2947582cceb0faa84117"
+        },
+        {
+          "file": "art/whole-game/players/mage/idle/E/13.png",
+          "sha256": "8b59e463adc55e47406f7bf65bb98899a8e890be49012232d930c6870874c5ab"
+        },
+        {
+          "file": "art/whole-game/players/mage/idle/E/14.png",
+          "sha256": "fb39cf12af8852758344b09f976e760036e917ff747176a85339e9f32f6b345a"
+        },
+        {
+          "file": "art/whole-game/players/mage/idle/E/15.png",
+          "sha256": "c1837d423f38cc5bbd0f25229b8b28475a02df783792b5ca1d9a56ffa1ef705d"
+        },
+        {
+          "file": "art/whole-game/players/mage/idle/E/16.png",
+          "sha256": "ec86a3b6c468117e41c70158a6776d638bba3a66d3906367edc0b2d074239f5c"
+        },
+        {
+          "file": "art/whole-game/players/mage/run/E/01.png",
+          "sha256": "38dd2886c3a63eb307173f6418faab2e87131dc44cbfdb419b2b7fa3a7fea6e6"
+        },
+        {
+          "file": "art/whole-game/players/mage/run/E/02.png",
+          "sha256": "f02691ca595a61d95249cd43d13eab8dd227ed2a95f0ba3d3f2c6dcbf6a602bb"
+        },
+        {
+          "file": "art/whole-game/players/mage/run/E/03.png",
+          "sha256": "76af8cb1f61093710da887e12b0ae59b68fc957bca79b3508d295c23d66ab62a"
+        },
+        {
+          "file": "art/whole-game/players/mage/run/E/04.png",
+          "sha256": "2178c0217c926b9647b03a3e4bc15fae53669acba488bbe8d4320d77b2328d41"
+        },
+        {
+          "file": "art/whole-game/players/mage/run/E/05.png",
+          "sha256": "5e819112ab2c2dbd3bd703fc8a89892e8ef641e6a0cae6ae73865af611a47c31"
+        },
+        {
+          "file": "art/whole-game/players/mage/run/E/06.png",
+          "sha256": "f3cde0926ad62e7e9600b070f93d8ed0f2acb1eaea57854f9b6c6ae134ebe7f1"
+        },
+        {
+          "file": "art/whole-game/players/mage/run/E/07.png",
+          "sha256": "6e1de0d986f46559973e6d5a278490e081cab4afb9c5b39053cfc28505aeed53"
+        },
+        {
+          "file": "art/whole-game/players/mage/run/E/08.png",
+          "sha256": "c4c928a4da7607bcf980aaf19c1712a1a5c388bce8446e20bd7decdf1d9758ef"
+        },
+        {
+          "file": "art/whole-game/players/mage/run/E/09.png",
+          "sha256": "9161b2a23ce58d0b40f437d3aa7698044ee80667caa736b9283ea7f949fb408d"
+        },
+        {
+          "file": "art/whole-game/players/mage/run/E/10.png",
+          "sha256": "213d036a11402710b4b6e68bb4be14806de642398e822d103ea9ddaf6803e583"
+        },
+        {
+          "file": "art/whole-game/players/mage/run/E/11.png",
+          "sha256": "0570c1b50e479c53331288f606efc73c33042f35d7e94474b0d14eeb32b97140"
+        },
+        {
+          "file": "art/whole-game/players/mage/run/E/12.png",
+          "sha256": "79d5be2965b62656a4924672b287346597984cff4744e396aafce2f9258e88b8"
+        },
+        {
+          "file": "art/whole-game/players/mage/run/E/13.png",
+          "sha256": "7ddbc9c6b1544f14f93309fe0fbec33759858f54df4b83e837c432f7ad4f596b"
+        },
+        {
+          "file": "art/whole-game/players/mage/run/E/14.png",
+          "sha256": "2a5648e60f7dc4cec47fb5dad2a314ed7f7cac29e54c439aa4d6620ba63f0a20"
+        },
+        {
+          "file": "art/whole-game/players/mage/run/E/15.png",
+          "sha256": "cbbb4e962562acdb5b1ea6de7cebfef97b60fe43f5ade6804df1827cfb959b15"
+        },
+        {
+          "file": "art/whole-game/players/mage/run/E/16.png",
+          "sha256": "e87fdb12c69b27f7c8788681bba4eb2c830502e666cf04e8022b022a4df3c54d"
+        }
+      ],
+      "contact": {
+        "idle": {
+          "supportSoleY": [],
+          "standingSoleY": [
+            471
+          ],
+          "swingSoleY": [],
+          "maxSupportErrorFrom471Px": 0
+        },
+        "run": {
+          "supportSoleY": [
+            471,
+            472
+          ],
+          "standingSoleY": [],
+          "swingSoleY": [
+            445,
+            447,
+            453,
+            461,
+            471
+          ],
+          "maxSupportErrorFrom471Px": 1
+        }
+      }
+    }
+  ]
+}

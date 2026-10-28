@@ -1,0 +1,2118 @@
+{
+  "verifiedAt": "2026-10-28T07:50:40.961Z",
+  "purpose": "Art/UI state rendering, not game logic or Unity verification",
+  "browser": "134.0.3124.83",
+  "baseResolution": [
+    1920,
+    1080
+  ],
+  "records": [
+    {
+      "id": "01-startup",
+      "file": "designs/ui-suite/screens/01-startup.png",
+      "sha256": "9d278e73e39c3a2d151cc0bc90e27b3906b39ad2897adeafd1239a0c9536379f",
+      "layout": "designs/ui-suite/layouts/01-startup.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "02-loading",
+      "file": "designs/ui-suite/screens/02-loading.png",
+      "sha256": "47b9b1ee3773f98b5b650ffd0984ce566e0081883bb5071c6bcb77360b7f6ce3",
+      "layout": "designs/ui-suite/layouts/02-loading.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "03-loading-error",
+      "file": "designs/ui-suite/screens/03-loading-error.png",
+      "sha256": "36b8921c0ba1b9dd13648ba35d710589b5f9fd71f811af2986cfbbef21f01af2",
+      "layout": "designs/ui-suite/layouts/03-loading-error.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "04-main-menu",
+      "file": "designs/ui-suite/screens/04-main-menu.png",
+      "sha256": "2b75018349da7e4afc44ca2d7a8624164efe79e8e3101f8cc4819706738851b9",
+      "layout": "designs/ui-suite/layouts/04-main-menu.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "05-character-select",
+      "file": "designs/ui-suite/screens/05-character-select.png",
+      "sha256": "5d57181219b4b726e0787b8e6ff1f1820b614d0e2395ed67ead9bf19e215bd4d",
+      "layout": "designs/ui-suite/layouts/05-character-select.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "06-character-owned",
+      "file": "designs/ui-suite/screens/06-character-owned.png",
+      "sha256": "f200d969a34c75f152134d00cf4e52fa7c879851a88592f00be626e7e990fd85",
+      "layout": "designs/ui-suite/layouts/06-character-owned.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "07-character-detail",
+      "file": "designs/ui-suite/screens/07-character-detail.png",
+      "sha256": "09a189055844b852b338525caecc1f72cf57d2cabf5ad8a27423c07183a8f13f",
+      "layout": "designs/ui-suite/layouts/07-character-detail.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "08-unlock-confirm",
+      "file": "designs/ui-suite/screens/08-unlock-confirm.png",
+      "sha256": "ab4ea8e86b7cd66b03febc8904c6798e84cee6e5b54c91eddd172286705f3af2",
+      "layout": "designs/ui-suite/layouts/08-unlock-confirm.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "09-unlock-insufficient",
+      "file": "designs/ui-suite/screens/09-unlock-insufficient.png",
+      "sha256": "629eed9bdc26979192a98a4129272d09eb0c15425254cf0b1a50491ccac0c228",
+      "layout": "designs/ui-suite/layouts/09-unlock-insufficient.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "10-unlock-success",
+      "file": "designs/ui-suite/screens/10-unlock-success.png",
+      "sha256": "e2ef2d47e4a6311fc82ebe9aeb5f66f33d126b999861cc7ddaf7b8b6328df98a",
+      "layout": "designs/ui-suite/layouts/10-unlock-success.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "11-character-empty",
+      "file": "designs/ui-suite/screens/11-character-empty.png",
+      "sha256": "84e4d59ce7be87789bd05655ad42add6d3a4513b17c1c8c1570114ec4afa31fa",
+      "layout": "designs/ui-suite/layouts/11-character-empty.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "12-level-select",
+      "file": "designs/ui-suite/screens/12-level-select.png",
+      "sha256": "83879e4597a8147fa1e757bdefbf41afff5e4dfebaf3623cbc067a02997ad46b",
+      "layout": "designs/ui-suite/layouts/12-level-select.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "13-level-detail",
+      "file": "designs/ui-suite/screens/13-level-detail.png",
+      "sha256": "a4654d7ce539efe8b35310dcd9e893acd8a452b0ac8fa765e7b745bdb2dd7a58",
+      "layout": "designs/ui-suite/layouts/13-level-detail.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "14-level-unselected",
+      "file": "designs/ui-suite/screens/14-level-unselected.png",
+      "sha256": "cc4a30cc7aca90b4080e898e888cc02c93087f256a8bb3431a8831300da9716f",
+      "layout": "designs/ui-suite/layouts/14-level-unselected.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "15-level-empty",
+      "file": "designs/ui-suite/screens/15-level-empty.png",
+      "sha256": "1efbf85ee72a398ed3e695a00e93a803fea1d2fff5abbff5ada36f84ce551290",
+      "layout": "designs/ui-suite/layouts/15-level-empty.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "16-powerup-overview",
+      "file": "designs/ui-suite/screens/16-powerup-overview.png",
+      "sha256": "e4466fb8e00945636d508224e3f3aa0891c64e8ef26ac7e93b178c83c400a3aa",
+      "layout": "designs/ui-suite/layouts/16-powerup-overview.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "17-powerup-detail",
+      "file": "designs/ui-suite/screens/17-powerup-detail.png",
+      "sha256": "e4466fb8e00945636d508224e3f3aa0891c64e8ef26ac7e93b178c83c400a3aa",
+      "layout": "designs/ui-suite/layouts/17-powerup-detail.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "18-powerup-insufficient",
+      "file": "designs/ui-suite/screens/18-powerup-insufficient.png",
+      "sha256": "651d65f0f15237d625d023c178f97d889c241ce831ebf4d107bb9d4540fee912",
+      "layout": "designs/ui-suite/layouts/18-powerup-insufficient.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "19-powerup-maxed",
+      "file": "designs/ui-suite/screens/19-powerup-maxed.png",
+      "sha256": "8b81c0c8d1ae2afb7eaaa5425e307fcd3e01f080005c0a1d0e736ad7a8e30284",
+      "layout": "designs/ui-suite/layouts/19-powerup-maxed.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "20-powerup-success",
+      "file": "designs/ui-suite/screens/20-powerup-success.png",
+      "sha256": "80e9499822bfb66b12fbc1db9960df8713b1abe1e58acce807be92be49aa8a9c",
+      "layout": "designs/ui-suite/layouts/20-powerup-success.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "21-settings-audio",
+      "file": "designs/ui-suite/screens/21-settings-audio.png",
+      "sha256": "bbe348097dd2efe13a3e7be5d0a211748214affbac41f30cbd543c2d95613464",
+      "layout": "designs/ui-suite/layouts/21-settings-audio.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "22-settings-display",
+      "file": "designs/ui-suite/screens/22-settings-display.png",
+      "sha256": "97ae548725b20110e5fa54a46d38958e0d02940d3b2a784f683b114efe3d26e3",
+      "layout": "designs/ui-suite/layouts/22-settings-display.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "23-settings-language",
+      "file": "designs/ui-suite/screens/23-settings-language.png",
+      "sha256": "167d5b8eed88047d6c70cf8a1782095fc36ee3424342f9d8ebfc4070809ff497",
+      "layout": "designs/ui-suite/layouts/23-settings-language.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "24-display-confirm",
+      "file": "designs/ui-suite/screens/24-display-confirm.png",
+      "sha256": "1e1316b7668e4b38c3e88566ae9a31e7af00294e28156dc6ac49b6e3fcb23f0b",
+      "layout": "designs/ui-suite/layouts/24-display-confirm.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "25-battle-hud",
+      "file": "designs/ui-suite/screens/25-battle-hud.png",
+      "sha256": "0a950fd9ec670516c7dd0c79e92c9259f66fabef545e5c8356664221b248606f",
+      "layout": "designs/ui-suite/layouts/25-battle-hud.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "26-battle-build-full",
+      "file": "designs/ui-suite/screens/26-battle-build-full.png",
+      "sha256": "20b539bdb4fd776e7c414e094c5710fd4d9a75e97a6989b23907a56376ee76bc",
+      "layout": "designs/ui-suite/layouts/26-battle-build-full.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "27-battle-buffs",
+      "file": "designs/ui-suite/screens/27-battle-buffs.png",
+      "sha256": "7e4a7571e215d5f7ceb0c92c4ff5151dc3cdb8e299f55a572f43aff572a01c17",
+      "layout": "designs/ui-suite/layouts/27-battle-buffs.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "28-boss-arrival",
+      "file": "designs/ui-suite/screens/28-boss-arrival.png",
+      "sha256": "b8ceac91274b661d5d0506a0baecd4348e9e41c7e0e95f9b3662c6056f0515b9",
+      "layout": "designs/ui-suite/layouts/28-boss-arrival.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "29-upgrade-new",
+      "file": "designs/ui-suite/screens/29-upgrade-new.png",
+      "sha256": "018b02ecee1966af3694a7f40b1e3f7c901197e892841a1df6c855a6705870c1",
+      "layout": "designs/ui-suite/layouts/29-upgrade-new.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "30-upgrade-existing",
+      "file": "designs/ui-suite/screens/30-upgrade-existing.png",
+      "sha256": "5f60d18a27dd671e976a2549f58069a9a616fb2f69bf698b38e606b2f616dc26",
+      "layout": "designs/ui-suite/layouts/30-upgrade-existing.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "31-upgrade-moneybag",
+      "file": "designs/ui-suite/screens/31-upgrade-moneybag.png",
+      "sha256": "1be7255812165feafec3c0591b845010d03c43d376c424ad0f017a44da12665f",
+      "layout": "designs/ui-suite/layouts/31-upgrade-moneybag.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "32-treasure-one",
+      "file": "designs/ui-suite/screens/32-treasure-one.png",
+      "sha256": "d38313e522c29ea39e6f234804684d7c5cfe45ece42d729288142847c719d5ed",
+      "layout": "designs/ui-suite/layouts/32-treasure-one.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "33-treasure-three",
+      "file": "designs/ui-suite/screens/33-treasure-three.png",
+      "sha256": "1ba9dcd99d0d89adaa594bec2bb5aa47c31142df86ab39631dae1920d1b2281d",
+      "layout": "designs/ui-suite/layouts/33-treasure-three.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "34-treasure-five",
+      "file": "designs/ui-suite/screens/34-treasure-five.png",
+      "sha256": "3c34767a622b94ba2d582b9a9bb5f1a777e89edcef6f4c1ffbe867e8277328bf",
+      "layout": "designs/ui-suite/layouts/34-treasure-five.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "35-treasure-evolution",
+      "file": "designs/ui-suite/screens/35-treasure-evolution.png",
+      "sha256": "ff4bdfba4ddade5d0512fb11cd5fb5fc4e590096954ff9ba9d270ae549cae53d",
+      "layout": "designs/ui-suite/layouts/35-treasure-evolution.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "36-treasure-moneybag",
+      "file": "designs/ui-suite/screens/36-treasure-moneybag.png",
+      "sha256": "232bbb88a337ddc81d239f380a32866cde8c3b269bef66a444f8c9e0d86d03b5",
+      "layout": "designs/ui-suite/layouts/36-treasure-moneybag.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "37-pause",
+      "file": "designs/ui-suite/screens/37-pause.png",
+      "sha256": "3a5207caef39e248f0480103bcb4d6ce7d7fb266e568bfcbcb509300c3e9a237",
+      "layout": "designs/ui-suite/layouts/37-pause.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "38-abandon-confirm",
+      "file": "designs/ui-suite/screens/38-abandon-confirm.png",
+      "sha256": "77935bab11a9a800f6e054b433f3401a18d6fa3ab5559e8466c088e0c2bbb00d",
+      "layout": "designs/ui-suite/layouts/38-abandon-confirm.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "39-exit-confirm",
+      "file": "designs/ui-suite/screens/39-exit-confirm.png",
+      "sha256": "ef616287521e8496b5f9c728d64f3c5b22da1744c37b2bf80e5a37392e23e6c9",
+      "layout": "designs/ui-suite/layouts/39-exit-confirm.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "40-victory",
+      "file": "designs/ui-suite/screens/40-victory.png",
+      "sha256": "05a32a6b2a8bbf8b574100a6527ff08b3195e7e43083f466fcb05d7cb60ea5ee",
+      "layout": "designs/ui-suite/layouts/40-victory.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "41-defeat",
+      "file": "designs/ui-suite/screens/41-defeat.png",
+      "sha256": "4972eb2ce40246f82fdebac1ea5cd54ebba0b2dfc9c3e4fad3d992df90711ce9",
+      "layout": "designs/ui-suite/layouts/41-defeat.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "42-save-pending",
+      "file": "designs/ui-suite/screens/42-save-pending.png",
+      "sha256": "0d481a153978f289dda04e1499b1fcd5ab40241ed56d2fa4f6f2ef21e7cc3d11",
+      "layout": "designs/ui-suite/layouts/42-save-pending.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "43-save-error",
+      "file": "designs/ui-suite/screens/43-save-error.png",
+      "sha256": "f2ae57f55ab1c9eb352c35c3ca73af4055d609e9fa1bb021a065a372f62a9374",
+      "layout": "designs/ui-suite/layouts/43-save-error.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "44-guide-controls",
+      "file": "designs/ui-suite/screens/44-guide-controls.png",
+      "sha256": "45230f90779131f878598b1d38efd7e057115f7e74ee4f0ee7ce8719967513be",
+      "layout": "designs/ui-suite/layouts/44-guide-controls.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "45-guide-growth",
+      "file": "designs/ui-suite/screens/45-guide-growth.png",
+      "sha256": "b65d9ebabaabb79c49196e7737aeb5ff47c39bfc1773d829825da891ec25e811",
+      "layout": "designs/ui-suite/layouts/45-guide-growth.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "46-skill-codex",
+      "file": "designs/ui-suite/screens/46-skill-codex.png",
+      "sha256": "5005c3968b57159f5b81facf61e1a9e72707dbbd8d8a67ff140a79acb90a6d1d",
+      "layout": "designs/ui-suite/layouts/46-skill-codex.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "47-evolution-locked",
+      "file": "designs/ui-suite/screens/47-evolution-locked.png",
+      "sha256": "f25b693ac05c103c5c8edd93ef71902cd2939ba793b69cf5e6da83553b5cee73",
+      "layout": "designs/ui-suite/layouts/47-evolution-locked.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "48-evolution-ready",
+      "file": "designs/ui-suite/screens/48-evolution-ready.png",
+      "sha256": "3bd8b6acaceae5173d365a71dd9c8a378ee06bf7fcff72c91adee6a36b3120ff",
+      "layout": "designs/ui-suite/layouts/48-evolution-ready.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "49-character-stats",
+      "file": "designs/ui-suite/screens/49-character-stats.png",
+      "sha256": "97c39eb7546f0f0bd38e07062e13d5bf246a4840e9bfc49426548166e8df756e",
+      "layout": "designs/ui-suite/layouts/49-character-stats.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "50-notice-states",
+      "file": "designs/ui-suite/screens/50-notice-states.png",
+      "sha256": "b1e613f9a24c3232dba2fee2f3d871d405f605675569ac8e33164c4c97c6079a",
+      "layout": "designs/ui-suite/layouts/50-notice-states.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "51-control-states",
+      "file": "designs/ui-suite/screens/51-control-states.png",
+      "sha256": "6bf35ad81d1b122d761e976956fbb629b874c3965d0735b3045d317d79737ecf",
+      "layout": "designs/ui-suite/layouts/51-control-states.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    },
+    {
+      "id": "52-flow-map",
+      "file": "designs/ui-suite/screens/52-flow-map.png",
+      "sha256": "351a98b9fed88eab539f46dae8dda3c63cd08f208bdce0aa97d83cf9a6fae69c",
+      "layout": "designs/ui-suite/layouts/52-flow-map.json",
+      "brokenImages": 0,
+      "textOverflows": 0
+    }
+  ],
+  "responsive": [
+    {
+      "id": "01-startup",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "02-loading",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "03-loading-error",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "04-main-menu",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "05-character-select",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "06-character-owned",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "07-character-detail",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "08-unlock-confirm",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "09-unlock-insufficient",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "10-unlock-success",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "11-character-empty",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "12-level-select",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "13-level-detail",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "14-level-unselected",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "15-level-empty",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "16-powerup-overview",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "17-powerup-detail",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "18-powerup-insufficient",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "19-powerup-maxed",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "20-powerup-success",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "21-settings-audio",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "22-settings-display",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "23-settings-language",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "24-display-confirm",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "25-battle-hud",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "26-battle-build-full",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "27-battle-buffs",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "28-boss-arrival",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "29-upgrade-new",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "30-upgrade-existing",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "31-upgrade-moneybag",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "32-treasure-one",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "33-treasure-three",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "34-treasure-five",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "35-treasure-evolution",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "36-treasure-moneybag",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "37-pause",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "38-abandon-confirm",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "39-exit-confirm",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "40-victory",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "41-defeat",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "42-save-pending",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "43-save-error",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "44-guide-controls",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "45-guide-growth",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "46-skill-codex",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "47-evolution-locked",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "48-evolution-ready",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "49-character-stats",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "50-notice-states",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "51-control-states",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "52-flow-map",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 1280
+    },
+    {
+      "id": "01-startup",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "02-loading",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "03-loading-error",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "04-main-menu",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "05-character-select",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "06-character-owned",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "07-character-detail",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "08-unlock-confirm",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "09-unlock-insufficient",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "10-unlock-success",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "11-character-empty",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "12-level-select",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "13-level-detail",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "14-level-unselected",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "15-level-empty",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "16-powerup-overview",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "17-powerup-detail",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "18-powerup-insufficient",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "19-powerup-maxed",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "20-powerup-success",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "21-settings-audio",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "22-settings-display",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "23-settings-language",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "24-display-confirm",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "25-battle-hud",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "26-battle-build-full",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "27-battle-buffs",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "28-boss-arrival",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "29-upgrade-new",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "30-upgrade-existing",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "31-upgrade-moneybag",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "32-treasure-one",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "33-treasure-three",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "34-treasure-five",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "35-treasure-evolution",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "36-treasure-moneybag",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "37-pause",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "38-abandon-confirm",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "39-exit-confirm",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "40-victory",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "41-defeat",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "42-save-pending",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "43-save-error",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "44-guide-controls",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "45-guide-growth",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "46-skill-codex",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "47-evolution-locked",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "48-evolution-ready",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "49-character-stats",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "50-notice-states",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "51-control-states",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    },
+    {
+      "id": "52-flow-map",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "aspectRatio": 1.7777777777777777,
+      "missingImages": 0,
+      "bodyScrollWidth": 2560
+    }
+  ],
+  "sourceFiles": [
+    {
+      "file": "designs/ui-suite/preview/index.html",
+      "sha256": "dade60d8b5af92760aeae2e6e770787dfde25d5e769153d82c07328082cb680a"
+    },
+    {
+      "file": "designs/ui-suite/preview/style.css",
+      "sha256": "87c6edb03eccfe3e5f2ab91bdc7485ddc28f590be7758e159543c1265337f899"
+    },
+    {
+      "file": "designs/ui-suite/preview/menu.css",
+      "sha256": "d535c68a40adcc913513fb7fbdb01405ed94625c8a0684b0f7340ac55243d643"
+    },
+    {
+      "file": "designs/ui-suite/preview/suite.js",
+      "sha256": "91f7d0102d95465c86013bff526ea148a5ac038960681af1f77fafa0896a3dd0"
+    },
+    {
+      "file": "designs/ui-suite/preview/menu.js",
+      "sha256": "4eeda177e612104db36e95822c7c4565d485850ecbabeb99377517931cf84968"
+    }
+  ],
+  "scriptErrors": [],
+  "failures": [],
+  "status": "passed"
+}

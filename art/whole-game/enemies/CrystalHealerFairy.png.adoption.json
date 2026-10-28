@@ -1,0 +1,136 @@
+{
+  "sourceKey": "CrystalHealerFairy",
+  "displayName": "露华灵幻身",
+  "sourceIdentity": "露华灵",
+  "role": "Boss远程",
+  "identity": "露壶青瓷女仙；雪色弹体",
+  "artSource": "existing",
+  "adoptionType": "reskin; direct byte copy",
+  "sourceArtRepository": {
+    "path": "F:\\work\\image",
+    "remote": "https://luyuacpp.visualstudio.com/image/_git/image"
+  },
+  "sourceArtPath": "designs/creature-combat-20261005/pets/16-luhualing/runtime/attack/E/01.png",
+  "destination": "art/whole-game/enemies/CrystalHealerFairy.png",
+  "sourceSHA256": "16a0dc0215aa1cf5b65c19da842204c27d64793d51cdfe678606eccb984378b2",
+  "sha256": "16a0dc0215aa1cf5b65c19da842204c27d64793d51cdfe678606eccb984378b2",
+  "copyVerified": true,
+  "canvas": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "realAlpha": true,
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "zeroPixels": 747907,
+    "partialPixels": 299228,
+    "opaquePixels": 1441,
+    "visibleBBoxAlphaAtLeast16": [
+      130,
+      90,
+      909,
+      944
+    ],
+    "visibleEdgePixelsAlphaAtLeast16": 0,
+    "edgePixelsAnyAlpha": 0
+  },
+  "pivotBottomLeft": [
+    0.5,
+    0.08
+  ],
+  "anchorTopLeftPx": [
+    512,
+    942
+  ],
+  "anchorKind": "source logical ground anchor; not exact every-foot contact",
+  "facing": "three-quarter front, down-right; x mirror allowed for source movement",
+  "suggestedVisibleHeightAt1080": 170,
+  "spriteType": "Single",
+  "meshType": "FullRect",
+  "borderLTRB": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "filterMode": "Bilinear",
+  "wrapMode": "Clamp",
+  "mipmaps": false,
+  "colourSpace": "sRGB",
+  "generationModel": null,
+  "generationQuality": null,
+  "generationEvidenceNote": "Historical source generation evidence is preserved. No generation or AI edit occurred during this adoption. Configuration targets never establish actual model/quality.",
+  "sourceRecords": [
+    {
+      "source": "designs/creature-combat-20261005/pets/16-luhualing/runtime/attack/E/01.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/16-luhualing/01-source-record-01.json",
+      "sha256": "ad7a944517d7402b1016e079983aac7f844f94142f431c6fed70f2079643a721"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/16-luhualing/records/attack/E/01.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/16-luhualing/01-source-record-02.json",
+      "sha256": "d5ac6f52f368b0c08e817f4a23c907dc29814c6a0d1330a043d33f8f03790a30"
+    }
+  ],
+  "selectedManifestSnapshot": "docs/whole-game/enemy-source-evidence/16-luhualing/selected-manifest-frame.json",
+  "sourceGamePrefab": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/CrystalHealerFairy.prefab",
+  "sourceGameSpritePaths": [
+    "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/CrystalHealerFairy.png"
+  ],
+  "review": {
+    "fullSourceImageViewed": true,
+    "adoptedDate": "2026-10-28",
+    "visibleClippingCheck": "pass",
+    "identityCheck": "pass; distinct existing Daoist chibi identity",
+    "engineValidation": "not-run; Unity import and motion integration remain next phase",
+    "finalLightDarkLineup": "accepted; identity, anatomy, implements and tails/wings intact, distinct readable silhouettes"
+  },
+  "historicalNativeSize": [
+    1254,
+    1254
+  ],
+  "historicalNativeSizeBasis": "Source README and selected source record; final1024PNG was an earlier full-canvas export, this adoption does not resample.",
+  "sourceEvidenceDependencies": [
+    {
+      "source": "designs/creature-combat-20261005/pets/16-luhualing/runtime/attack/E/01.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/16-luhualing/dependencies/runtime/attack/E/01.png.generation.json",
+      "sha256": "ad7a944517d7402b1016e079983aac7f844f94142f431c6fed70f2079643a721"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/16-luhualing/records/attack/E/01.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/16-luhualing/dependencies/records/attack/E/01.generation.json",
+      "sha256": "d5ac6f52f368b0c08e817f4a23c907dc29814c6a0d1330a043d33f8f03790a30"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/16-luhualing/prompts/attack/E01.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/16-luhualing/dependencies/prompts/attack/E01.txt",
+      "sha256": "4372d6f407b094183e6e13125191a215b359400430582efdb028ca0418340783"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/16-luhualing/visual-review.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/16-luhualing/dependencies/visual-review.json",
+      "sha256": "7a185a219a9dc877768cd00a951af37399634ef26a359ddf514b836f46acd63a"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/16-luhualing/cleanup.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/16-luhualing/dependencies/cleanup.json",
+      "sha256": "49883365666c1ba8e5ab127fe65f22ab902f5a4e50fdf011199e679febca8bd0"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/16-luhualing/records/attack/E01.receipt.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/16-luhualing/dependencies/records/attack/E01.receipt.json",
+      "sha256": "64433ff4f992bb58d93727b379de1b60d8af533ba869e5c7495c5dbe4c7d9f0b"
+    }
+  ],
+  "sourceFrameWarnings": [],
+  "generationConfigTarget": {
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "basis": "Historical source configuration, not actual returned metadata and not a new generation."
+  },
+  "sourceManifestSHAMatches": true
+}

@@ -1,0 +1,75 @@
+{
+  "originalManifest": "designs/creature-combat-20261005/pets/01-zhuling/manifest.json",
+  "originalManifestSHA256": "873816fe0d233273ba9dfea032f0f5f49fa41169fb5621a5a7f4c7d49ff4881a",
+  "selection": "runtime/attack/E/01.png",
+  "selectedFrameRecord": {
+    "file": "runtime/attack/E/01.png",
+    "frame": 1,
+    "direction": "E",
+    "action": "attack",
+    "width": 1024,
+    "height": 1024,
+    "durationMs": 30,
+    "pivot": [
+      0.5,
+      0.08
+    ],
+    "anchorTopLeftPx": [
+      512,
+      942
+    ],
+    "anchorType": "virtual hover anchor; not per-frame claw registration",
+    "event": null,
+    "phase": "ready",
+    "sha256": "71394dfde1688709a9e94d8a9d22ffcb2186710f30890bfe781aa6949c585ca9",
+    "pixelSHA256": "b3a930dc036bb3fc3e8a5d7270ff28ed82da3948f94a8a8da0cf79a19f5accb4",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaBBox": [
+      102,
+      111,
+      922,
+      888
+    ],
+    "generationRecord": "records/attack/E/01.generation.json",
+    "targetModel": "gpt-image-2.5-sunburst",
+    "actualModel": null,
+    "actualQuality": null,
+    "source": {
+      "path": "C:\\Users\\luyua\\.codex\\generated_images\\01a10bb5-3d7b-79b2-8a50-d8582f7e5d8c\\exec-5e017371-ae7e-4c71-8f9a-feb5c9cb75f7.png",
+      "sha256": "df85c346777fe54408fda2e4d99bfc3aa736294cd5a6b054d79a9a553f44deda"
+    },
+    "visualStatus": "static-reviewed; browser-playback-sampled",
+    "visualReview": "qa/visual-review.json"
+  },
+  "sourcePackageMetadata": {
+    "schemaVersion": 1,
+    "pet": "烛翎",
+    "petId": "01-zhuling",
+    "createdAt": "2026-10-08T11:49:23.900118+00:00",
+    "expectedFrameCount": 68,
+    "presentFrameCount": 68,
+    "coordinateSystem": "top-left origin image pixels; bottom-left normalized pivot",
+    "exportTransform": {
+      "wholeCanvasResize": [
+        820,
+        820
+      ],
+      "offset": [
+        102,
+        102
+      ],
+      "output": [
+        1024,
+        1024
+      ],
+      "perFrameAlignment": false
+    },
+    "validation": "validation.json",
+    "visualQA": "qa/visual-review.json",
+    "clientStatus": "not integrated"
+  },
+  "snapshotPurpose": "Only selected single frame is adopted; metadata of 68-frame original is historical context, not a claim this task copies or validates all 68."
+}

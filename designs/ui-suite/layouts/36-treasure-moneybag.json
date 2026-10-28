@@ -1,0 +1,1117 @@
+{
+  "id": "36-treasure-moneybag",
+  "viewport": [
+    1920,
+    1080
+  ],
+  "designSize": [
+    1920,
+    1080
+  ],
+  "textRegions": [
+    {
+      "text": "56",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "color": "rgb(165, 115, 50)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1260,
+          "y": 350,
+          "width": 33.31,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "text": "青云小道",
+      "tag": "STRONG",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "22px",
+      "fontWeight": "700",
+      "color": "rgb(36, 75, 57)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 180,
+          "y": 53.5,
+          "width": 96,
+          "height": 32
+        }
+      ]
+    },
+    {
+      "text": "Lv. 15",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "17px",
+      "fontWeight": "700",
+      "color": "rgb(36, 75, 57)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 523.83,
+          "y": 51.5,
+          "width": 56.17,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "text": "翠竹幽谷 · 初境",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(135, 147, 110)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 871.63,
+          "y": 56,
+          "width": 138.73,
+          "height": 21
+        }
+      ]
+    },
+    {
+      "text": "10 : 25",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "42px",
+      "fontWeight": "500",
+      "color": "rgb(36, 75, 57)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 858.13,
+          "y": 80,
+          "width": 165.73,
+          "height": 61
+        }
+      ]
+    },
+    {
+      "text": "气血",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(135, 147, 110)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1357,
+          "y": 56.84,
+          "width": 30,
+          "height": 21
+        }
+      ]
+    },
+    {
+      "text": "94 / 100",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "27px",
+      "fontWeight": "500",
+      "color": "rgb(36, 75, 57)",
+      "alignment": "center",
+      "lineHeight": "51.3px",
+      "rects": [
+        {
+          "x": 1323.19,
+          "y": 83.84,
+          "width": 97.61,
+          "height": 39
+        }
+      ]
+    },
+    {
+      "text": "本局金币",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(135, 147, 110)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1505,
+          "y": 56.84,
+          "width": 60,
+          "height": 21
+        }
+      ]
+    },
+    {
+      "text": "945",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "27px",
+      "fontWeight": "500",
+      "color": "rgb(36, 75, 57)",
+      "alignment": "center",
+      "lineHeight": "51.3px",
+      "rects": [
+        {
+          "x": 1512.52,
+          "y": 83.84,
+          "width": 44.97,
+          "height": 39
+        }
+      ]
+    },
+    {
+      "text": "击败妖灵",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(135, 147, 110)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1668,
+          "y": 56.84,
+          "width": 60,
+          "height": 21
+        }
+      ]
+    },
+    {
+      "text": "1,874",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "27px",
+      "fontWeight": "500",
+      "color": "rgb(36, 75, 57)",
+      "alignment": "center",
+      "lineHeight": "51.3px",
+      "rects": [
+        {
+          "x": 1664.27,
+          "y": 83.84,
+          "width": 67.45,
+          "height": 39
+        }
+      ]
+    },
+    {
+      "text": "Ⅱ",
+      "tag": "BUTTON",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "color": "rgb(255, 237, 189)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1809.5,
+          "y": 71,
+          "width": 30,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "text": "法",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(115, 133, 104)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 60,
+          "y": 221.5,
+          "width": 14,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "text": "Lv.11",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "color": "rgb(255, 239, 185)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 130.88,
+          "y": 247,
+          "width": 26.13,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "text": "Lv.11",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "color": "rgb(255, 239, 185)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 206.88,
+          "y": 247,
+          "width": 26.13,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "text": "Lv.11",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "color": "rgb(255, 239, 185)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 282.88,
+          "y": 247,
+          "width": 26.13,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "text": "Lv.11",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "color": "rgb(255, 239, 185)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 358.88,
+          "y": 247,
+          "width": 26.13,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "text": "Lv.11",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "color": "rgb(255, 239, 185)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 434.88,
+          "y": 247,
+          "width": 26.13,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "text": "Lv.11",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "color": "rgb(255, 239, 185)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 510.88,
+          "y": 247,
+          "width": 26.13,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "text": "诀",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(115, 133, 104)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 60,
+          "y": 299.5,
+          "width": 14,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "text": "Lv.5",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "color": "rgb(255, 239, 185)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 136.98,
+          "y": 325,
+          "width": 20.02,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "text": "Lv.5",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "color": "rgb(255, 239, 185)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 212.98,
+          "y": 325,
+          "width": 20.02,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "text": "Lv.5",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "color": "rgb(255, 239, 185)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 288.98,
+          "y": 325,
+          "width": 20.02,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "text": "Lv.5",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "color": "rgb(255, 239, 185)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 364.98,
+          "y": 325,
+          "width": 20.02,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "text": "Lv.5",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "color": "rgb(255, 239, 185)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 440.98,
+          "y": 325,
+          "width": 20.02,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "text": "Lv.5",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "color": "rgb(255, 239, 185)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 516.98,
+          "y": 325,
+          "width": 20.02,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "text": "道法齐备，清剿余敌。",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "color": "rgb(111, 129, 98)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 70,
+          "y": 1007,
+          "width": 170,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "text": "WASD / 方向键移动 · 法术自动御敌",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "color": "rgb(111, 129, 98)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1577,
+          "y": 1007,
+          "width": 273,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "text": "机缘宝匣",
+      "tag": "DIV",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "38px",
+      "fontWeight": "400",
+      "color": "rgb(255, 241, 192)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 870,
+          "y": 225,
+          "width": 180,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "text": "灵光已定，此番机缘皆可收入囊中。",
+      "tag": "P",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "21px",
+      "fontWeight": "400",
+      "color": "rgb(126, 139, 105)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 792,
+          "y": 351,
+          "width": 336,
+          "height": 30
+        }
+      ]
+    },
+    {
+      "text": "宝匣额外金币",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(144, 144, 113)",
+      "alignment": "start",
+      "lineHeight": "30.4px",
+      "rects": [
+        {
+          "x": 931.5,
+          "y": 422.36,
+          "width": 96,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "text": "+ 950",
+      "tag": "STRONG",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "25px",
+      "fontWeight": "700",
+      "color": "rgb(36, 75, 57)",
+      "alignment": "start",
+      "lineHeight": "47.5px",
+      "rects": [
+        {
+          "x": 931.5,
+          "y": 454.75,
+          "width": 61.11,
+          "height": 36
+        }
+      ]
+    },
+    {
+      "text": "受纳财加成影响",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(144, 144, 113)",
+      "alignment": "start",
+      "lineHeight": "30.4px",
+      "rects": [
+        {
+          "x": 931.5,
+          "y": 500.25,
+          "width": 112,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "text": "福运钱袋",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "color": "rgb(36, 75, 57)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 476,
+          "y": 685,
+          "width": 80,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "+50 金币",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "color": "rgb(143, 143, 111)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 490.72,
+          "y": 716,
+          "width": 50.56,
+          "height": 19
+        }
+      ]
+    },
+    {
+      "text": "福运钱袋",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "color": "rgb(36, 75, 57)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 698,
+          "y": 685,
+          "width": 80,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "+50 金币",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "color": "rgb(143, 143, 111)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 712.72,
+          "y": 716,
+          "width": 50.56,
+          "height": 19
+        }
+      ]
+    },
+    {
+      "text": "福运钱袋",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "color": "rgb(36, 75, 57)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 920,
+          "y": 685,
+          "width": 80,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "+50 金币",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "color": "rgb(143, 143, 111)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 934.72,
+          "y": 716,
+          "width": 50.56,
+          "height": 19
+        }
+      ]
+    },
+    {
+      "text": "福运钱袋",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "color": "rgb(36, 75, 57)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1142,
+          "y": 685,
+          "width": 80,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "+50 金币",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "color": "rgb(143, 143, 111)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1156.72,
+          "y": 716,
+          "width": 50.56,
+          "height": 19
+        }
+      ]
+    },
+    {
+      "text": "福运钱袋",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "color": "rgb(36, 75, 57)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1364,
+          "y": 685,
+          "width": 80,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "+50 金币",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "color": "rgb(143, 143, 111)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1378.72,
+          "y": 716,
+          "width": 50.56,
+          "height": 19
+        }
+      ]
+    },
+    {
+      "text": "全部领取",
+      "tag": "BUTTON",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "25px",
+      "fontWeight": "400",
+      "color": "rgb(255, 241, 196)",
+      "alignment": "center",
+      "lineHeight": "32.5px",
+      "rects": [
+        {
+          "x": 904,
+          "y": 796.25,
+          "width": 112,
+          "height": 36
+        }
+      ]
+    },
+    {
+      "text": "本匣 5 项奖励全部收取 · 确认后继续历练",
+      "tag": "P",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "color": "rgb(143, 146, 117)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 781.16,
+          "y": 870,
+          "width": 357.67,
+          "height": 25
+        }
+      ]
+    }
+  ],
+  "imageLayers": [
+    {
+      "asset": "art/illustrations/arena-v1.png",
+      "naturalSize": [
+        1672,
+        941
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/characters/enemy-tiger.png",
+      "naturalSize": [
+        1024,
+        1024
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/characters/enemy-lantern.png",
+      "naturalSize": [
+        1024,
+        1024
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/characters/enemy-tiger.png",
+      "naturalSize": [
+        1024,
+        1024
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/characters/enemy-lantern.png",
+      "naturalSize": [
+        1024,
+        1024
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/characters/enemy-tiger.png",
+      "naturalSize": [
+        1024,
+        1024
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/characters/enemy-lantern.png",
+      "naturalSize": [
+        1024,
+        1024
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/characters/hero.png",
+      "naturalSize": [
+        1024,
+        1024
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/skill-nearest.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/exp.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/exp.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/exp.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/exp.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/exp.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/characters/hero.png",
+      "naturalSize": [
+        1024,
+        1024
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/skill-nearest.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/skill-bothside.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/skill-bouncing.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/skill-chain.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/skill-circle.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/skill-orbit.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-might.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-armor.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-hpmax.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-recovery.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-cooldown.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-area.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/treasure-open.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/moneybag.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/moneybag.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/moneybag.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/moneybag.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/moneybag.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    }
+  ],
+  "overflowText": [],
+  "renderOperation": "Browser DOM layout and compositing; not AI image generation or Unity runtime.",
+  "artSources": [
+    "art/illustrations/arena-v1.png",
+    "art/characters/enemy-tiger.png",
+    "art/characters/enemy-lantern.png",
+    "art/characters/hero.png",
+    "art/icons/skill-nearest.png",
+    "art/icons/exp.png",
+    "art/icons/skill-bothside.png",
+    "art/icons/skill-bouncing.png",
+    "art/icons/skill-chain.png",
+    "art/icons/skill-circle.png",
+    "art/icons/skill-orbit.png",
+    "art/icons/attr-might.png",
+    "art/icons/attr-armor.png",
+    "art/icons/attr-hpmax.png",
+    "art/icons/attr-recovery.png",
+    "art/icons/attr-cooldown.png",
+    "art/icons/attr-area.png",
+    "art/icons/treasure-open.png",
+    "art/icons/moneybag.png",
+    "art/common/main_frame.png",
+    "art/common/title_plate.png",
+    "art/common/button_primary.png",
+    "art/common/button_secondary.png"
+  ],
+  "screenSha256": "232bbb88a337ddc81d239f380a32866cde8c3b269bef66a444f8c9e0d86d03b5"
+}

@@ -1,0 +1,2006 @@
+{
+  "schemaVersion": 1,
+  "projectDirectory": "E:\\work\\image\\DaoSurvivors",
+  "phase": "全游戏UI美术",
+  "referenceRepository": "F:\\work\\image",
+  "updatedAtUtc": "2026-10-26T10:39:11.264775+00:00",
+  "stateAssets": [
+    {
+      "output": "art/common/states/primary_button_normal.png",
+      "source": "qdao_ui_redesign_v5/components/png/primary_button_normal.png",
+      "sourceAbsolutePath": "F:\\work\\image\\qdao_ui_redesign_v5\\components\\png\\primary_button_normal.png",
+      "sha256": "6f352d7c3b21ae2d1b5d2d0cce08ab5f0d31b951362ce6f7d8f93547b5080777",
+      "dimensions": [
+        460,
+        112
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no generation, edit, crop or resize",
+      "newPhase": "全游戏UI美术交付；未接入Unity",
+      "sourceEvidence": [
+        "qdao_ui_redesign_v5/components/README.md",
+        "qdao_ui_redesign_v5/components/manifest.json",
+        "qdao_ui_style_recut_v10/source-map.common.json"
+      ],
+      "sourceManifestEntry": {
+        "id": "primary_button_normal",
+        "width": 460,
+        "height": 112,
+        "title": "primary_button_normal",
+        "svg": "svg/primary_button_normal.svg",
+        "png": "png/primary_button_normal.png",
+        "state": "normal",
+        "dynamic_text_baked": false,
+        "category": "primary_button",
+        "resize_axes": "horizontal",
+        "fixed_height": 112,
+        "nine_slice": {
+          "left": 82,
+          "top": 30,
+          "right": 82,
+          "bottom": 34,
+          "center": {
+            "x": 82,
+            "y": 30,
+            "width": 296,
+            "height": 48
+          }
+        },
+        "minimum_size": [
+          204,
+          112
+        ],
+        "content_insets": {
+          "left": 76,
+          "top": 22,
+          "right": 64,
+          "bottom": 27
+        },
+        "text_color": "#FFF7DE",
+        "selection_marker": null,
+        "disabled_marker": null,
+        "authoring": "New built-in image_gen v10 painted artwork matching the user reference; explicit source-border nine-slice resampling, alpha-preserving layout; portable embedded PNG in SVG. Dynamic text remains separate.",
+        "v10_sources": [
+          "jade"
+        ],
+        "v10_source_map": "../../qdao_ui_style_recut_v10/source-map.common.json",
+        "png_sha256": "6f352d7c3b21ae2d1b5d2d0cce08ab5f0d31b951362ce6f7d8f93547b5080777",
+        "svg_sha256": "308a16bf554c8737bc368279f711f19ca0b8e8c6f93f7e2be14ee4b494be274f"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityReason": "历史内置工具未披露实际型号/质量；不按当前配置回填",
+      "stateSemantics": "normal/selected/disabled are distinct existing source states. Selected includes check. Disabled includes lock; it is not an independently authored pressed or locked state."
+    },
+    {
+      "output": "art/common/states/primary_button_selected.png",
+      "source": "qdao_ui_redesign_v5/components/png/primary_button_selected.png",
+      "sourceAbsolutePath": "F:\\work\\image\\qdao_ui_redesign_v5\\components\\png\\primary_button_selected.png",
+      "sha256": "48c2336c9c4ca74f389a0c58752e111a1161cfe67e9539ace39ce51694f39d26",
+      "dimensions": [
+        460,
+        112
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no generation, edit, crop or resize",
+      "newPhase": "全游戏UI美术交付；未接入Unity",
+      "sourceEvidence": [
+        "qdao_ui_redesign_v5/components/README.md",
+        "qdao_ui_redesign_v5/components/manifest.json",
+        "qdao_ui_style_recut_v10/source-map.common.json"
+      ],
+      "sourceManifestEntry": {
+        "id": "primary_button_selected",
+        "width": 460,
+        "height": 112,
+        "title": "primary_button_selected",
+        "svg": "svg/primary_button_selected.svg",
+        "png": "png/primary_button_selected.png",
+        "state": "selected",
+        "dynamic_text_baked": false,
+        "category": "primary_button",
+        "resize_axes": "horizontal",
+        "fixed_height": 112,
+        "nine_slice": {
+          "left": 82,
+          "top": 30,
+          "right": 82,
+          "bottom": 34,
+          "center": {
+            "x": 82,
+            "y": 30,
+            "width": 296,
+            "height": 48
+          }
+        },
+        "minimum_size": [
+          204,
+          112
+        ],
+        "content_insets": {
+          "left": 76,
+          "top": 22,
+          "right": 64,
+          "bottom": 27
+        },
+        "text_color": "#FFF7DE",
+        "selection_marker": "check + left rail + bottom notch",
+        "disabled_marker": null,
+        "authoring": "New built-in image_gen v10 painted artwork matching the user reference; explicit source-border nine-slice resampling, alpha-preserving layout; portable embedded PNG in SVG. Dynamic text remains separate.",
+        "v10_sources": [
+          "jade",
+          "check"
+        ],
+        "v10_source_map": "../../qdao_ui_style_recut_v10/source-map.common.json",
+        "png_sha256": "48c2336c9c4ca74f389a0c58752e111a1161cfe67e9539ace39ce51694f39d26",
+        "svg_sha256": "fea85145337cdbc14d0824017708e408f4be57bf0a91abb2df65ce25a24d1501"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityReason": "历史内置工具未披露实际型号/质量；不按当前配置回填",
+      "stateSemantics": "normal/selected/disabled are distinct existing source states. Selected includes check. Disabled includes lock; it is not an independently authored pressed or locked state."
+    },
+    {
+      "output": "art/common/states/primary_button_disabled.png",
+      "source": "qdao_ui_redesign_v5/components/png/primary_button_disabled.png",
+      "sourceAbsolutePath": "F:\\work\\image\\qdao_ui_redesign_v5\\components\\png\\primary_button_disabled.png",
+      "sha256": "25a53724f4a5c20efa3bb9b7e885478c92cc475775ac42f430fcc0c685351f8e",
+      "dimensions": [
+        460,
+        112
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no generation, edit, crop or resize",
+      "newPhase": "全游戏UI美术交付；未接入Unity",
+      "sourceEvidence": [
+        "qdao_ui_redesign_v5/components/README.md",
+        "qdao_ui_redesign_v5/components/manifest.json",
+        "qdao_ui_style_recut_v10/source-map.common.json"
+      ],
+      "sourceManifestEntry": {
+        "id": "primary_button_disabled",
+        "width": 460,
+        "height": 112,
+        "title": "primary_button_disabled",
+        "svg": "svg/primary_button_disabled.svg",
+        "png": "png/primary_button_disabled.png",
+        "state": "disabled",
+        "dynamic_text_baked": false,
+        "category": "primary_button",
+        "resize_axes": "horizontal",
+        "fixed_height": 112,
+        "nine_slice": {
+          "left": 82,
+          "top": 30,
+          "right": 82,
+          "bottom": 34,
+          "center": {
+            "x": 82,
+            "y": 30,
+            "width": 296,
+            "height": 48
+          }
+        },
+        "minimum_size": [
+          204,
+          112
+        ],
+        "content_insets": {
+          "left": 76,
+          "top": 22,
+          "right": 64,
+          "bottom": 27
+        },
+        "text_color": "#536254",
+        "selection_marker": null,
+        "disabled_marker": "lock; client must also supply a readable reason",
+        "authoring": "New built-in image_gen v10 painted artwork matching the user reference; explicit source-border nine-slice resampling, alpha-preserving layout; portable embedded PNG in SVG. Dynamic text remains separate.",
+        "v10_sources": [
+          "muted",
+          "lock"
+        ],
+        "v10_source_map": "../../qdao_ui_style_recut_v10/source-map.common.json",
+        "png_sha256": "25a53724f4a5c20efa3bb9b7e885478c92cc475775ac42f430fcc0c685351f8e",
+        "svg_sha256": "f62bcd212c6bf90c914872a8042fc77e8b3bdf369607bb5b9023b17353bca986"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityReason": "历史内置工具未披露实际型号/质量；不按当前配置回填",
+      "stateSemantics": "normal/selected/disabled are distinct existing source states. Selected includes check. Disabled includes lock; it is not an independently authored pressed or locked state."
+    },
+    {
+      "output": "art/common/states/tab_normal.png",
+      "source": "qdao_ui_redesign_v5/components/png/tab_normal.png",
+      "sourceAbsolutePath": "F:\\work\\image\\qdao_ui_redesign_v5\\components\\png\\tab_normal.png",
+      "sha256": "739afbf15673e6818831744e3d17223597a5340db81f758f769dbca5ad834c50",
+      "dimensions": [
+        360,
+        114
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no generation, edit, crop or resize",
+      "newPhase": "全游戏UI美术交付；未接入Unity",
+      "sourceEvidence": [
+        "qdao_ui_redesign_v5/components/README.md",
+        "qdao_ui_redesign_v5/components/manifest.json",
+        "qdao_ui_style_recut_v10/source-map.common.json"
+      ],
+      "sourceManifestEntry": {
+        "id": "tab_normal",
+        "width": 360,
+        "height": 114,
+        "title": "tab_normal",
+        "svg": "svg/tab_normal.svg",
+        "png": "png/tab_normal.png",
+        "state": "normal",
+        "dynamic_text_baked": false,
+        "category": "tab",
+        "resize_axes": "horizontal",
+        "fixed_height": 114,
+        "nine_slice": {
+          "left": 82,
+          "top": 30,
+          "right": 82,
+          "bottom": 34,
+          "center": {
+            "x": 82,
+            "y": 30,
+            "width": 196,
+            "height": 50
+          }
+        },
+        "minimum_size": [
+          204,
+          114
+        ],
+        "content_insets": {
+          "left": 76,
+          "top": 22,
+          "right": 64,
+          "bottom": 27
+        },
+        "text_color": "#344D43",
+        "selection_marker": null,
+        "disabled_marker": null,
+        "authoring": "New built-in image_gen v10 painted artwork matching the user reference; explicit source-border nine-slice resampling, alpha-preserving layout; portable embedded PNG in SVG. Dynamic text remains separate.",
+        "v10_sources": [
+          "ivory"
+        ],
+        "v10_source_map": "../../qdao_ui_style_recut_v10/source-map.common.json",
+        "png_sha256": "739afbf15673e6818831744e3d17223597a5340db81f758f769dbca5ad834c50",
+        "svg_sha256": "f8ae5819df611c6651e0b6e63f4df95be3b1c95d7eed56b6b43042c45584578b"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityReason": "历史内置工具未披露实际型号/质量；不按当前配置回填",
+      "stateSemantics": "normal/selected/disabled are distinct existing source states. Selected includes check. Disabled includes lock; it is not an independently authored pressed or locked state."
+    },
+    {
+      "output": "art/common/states/tab_selected.png",
+      "source": "qdao_ui_redesign_v5/components/png/tab_selected.png",
+      "sourceAbsolutePath": "F:\\work\\image\\qdao_ui_redesign_v5\\components\\png\\tab_selected.png",
+      "sha256": "e6a73b3841ba899b9599ce7790b52edbfb5993a0e63897afc8b61742b1f49e5a",
+      "dimensions": [
+        360,
+        114
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no generation, edit, crop or resize",
+      "newPhase": "全游戏UI美术交付；未接入Unity",
+      "sourceEvidence": [
+        "qdao_ui_redesign_v5/components/README.md",
+        "qdao_ui_redesign_v5/components/manifest.json",
+        "qdao_ui_style_recut_v10/source-map.common.json"
+      ],
+      "sourceManifestEntry": {
+        "id": "tab_selected",
+        "width": 360,
+        "height": 114,
+        "title": "tab_selected",
+        "svg": "svg/tab_selected.svg",
+        "png": "png/tab_selected.png",
+        "state": "selected",
+        "dynamic_text_baked": false,
+        "category": "tab",
+        "resize_axes": "horizontal",
+        "fixed_height": 114,
+        "nine_slice": {
+          "left": 82,
+          "top": 30,
+          "right": 82,
+          "bottom": 34,
+          "center": {
+            "x": 82,
+            "y": 30,
+            "width": 196,
+            "height": 50
+          }
+        },
+        "minimum_size": [
+          204,
+          114
+        ],
+        "content_insets": {
+          "left": 76,
+          "top": 22,
+          "right": 64,
+          "bottom": 27
+        },
+        "text_color": "#FFF7DE",
+        "selection_marker": "check + left rail + bottom notch",
+        "disabled_marker": null,
+        "authoring": "New built-in image_gen v10 painted artwork matching the user reference; explicit source-border nine-slice resampling, alpha-preserving layout; portable embedded PNG in SVG. Dynamic text remains separate.",
+        "v10_sources": [
+          "title",
+          "check"
+        ],
+        "v10_source_map": "../../qdao_ui_style_recut_v10/source-map.common.json",
+        "png_sha256": "e6a73b3841ba899b9599ce7790b52edbfb5993a0e63897afc8b61742b1f49e5a",
+        "svg_sha256": "895a60e99af8f853ed6f42eca53567b784ee078da0c8a5997c71714cf45f293f"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityReason": "历史内置工具未披露实际型号/质量；不按当前配置回填",
+      "stateSemantics": "normal/selected/disabled are distinct existing source states. Selected includes check. Disabled includes lock; it is not an independently authored pressed or locked state."
+    },
+    {
+      "output": "art/common/states/tab_disabled.png",
+      "source": "qdao_ui_redesign_v5/components/png/tab_disabled.png",
+      "sourceAbsolutePath": "F:\\work\\image\\qdao_ui_redesign_v5\\components\\png\\tab_disabled.png",
+      "sha256": "46ee8527d434fe48c31c93cb7ea835e226ec61188b762de1bfb5a38a94ce694c",
+      "dimensions": [
+        360,
+        114
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no generation, edit, crop or resize",
+      "newPhase": "全游戏UI美术交付；未接入Unity",
+      "sourceEvidence": [
+        "qdao_ui_redesign_v5/components/README.md",
+        "qdao_ui_redesign_v5/components/manifest.json",
+        "qdao_ui_style_recut_v10/source-map.common.json"
+      ],
+      "sourceManifestEntry": {
+        "id": "tab_disabled",
+        "width": 360,
+        "height": 114,
+        "title": "tab_disabled",
+        "svg": "svg/tab_disabled.svg",
+        "png": "png/tab_disabled.png",
+        "state": "disabled",
+        "dynamic_text_baked": false,
+        "category": "tab",
+        "resize_axes": "horizontal",
+        "fixed_height": 114,
+        "nine_slice": {
+          "left": 82,
+          "top": 30,
+          "right": 82,
+          "bottom": 34,
+          "center": {
+            "x": 82,
+            "y": 30,
+            "width": 196,
+            "height": 50
+          }
+        },
+        "minimum_size": [
+          204,
+          114
+        ],
+        "content_insets": {
+          "left": 76,
+          "top": 22,
+          "right": 64,
+          "bottom": 27
+        },
+        "text_color": "#536254",
+        "selection_marker": null,
+        "disabled_marker": "lock; client must also supply a readable reason",
+        "authoring": "New built-in image_gen v10 painted artwork matching the user reference; explicit source-border nine-slice resampling, alpha-preserving layout; portable embedded PNG in SVG. Dynamic text remains separate.",
+        "v10_sources": [
+          "muted",
+          "lock"
+        ],
+        "v10_source_map": "../../qdao_ui_style_recut_v10/source-map.common.json",
+        "png_sha256": "46ee8527d434fe48c31c93cb7ea835e226ec61188b762de1bfb5a38a94ce694c",
+        "svg_sha256": "82a1267b88a86636556af1d82615c71965761f429bd62f110d508ee8967ee219"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityReason": "历史内置工具未披露实际型号/质量；不按当前配置回填",
+      "stateSemantics": "normal/selected/disabled are distinct existing source states. Selected includes check. Disabled includes lock; it is not an independently authored pressed or locked state."
+    },
+    {
+      "output": "art/common/states/list_row_normal.png",
+      "source": "qdao_ui_redesign_v5/components/png/list_row_normal.png",
+      "sourceAbsolutePath": "F:\\work\\image\\qdao_ui_redesign_v5\\components\\png\\list_row_normal.png",
+      "sha256": "cd8415446563f7b0b2f7583fc77f6467c0e04b3b4cd68856adb8d0d1f6500892",
+      "dimensions": [
+        360,
+        96
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no generation, edit, crop or resize",
+      "newPhase": "全游戏UI美术交付；未接入Unity",
+      "sourceEvidence": [
+        "qdao_ui_redesign_v5/components/README.md",
+        "qdao_ui_redesign_v5/components/manifest.json",
+        "qdao_ui_style_recut_v10/source-map.common.json"
+      ],
+      "sourceManifestEntry": {
+        "id": "list_row_normal",
+        "width": 360,
+        "height": 96,
+        "title": "list_row_normal",
+        "svg": "svg/list_row_normal.svg",
+        "png": "png/list_row_normal.png",
+        "state": "normal",
+        "dynamic_text_baked": false,
+        "category": "list_row",
+        "resize_axes": "horizontal",
+        "fixed_height": 96,
+        "nine_slice": {
+          "left": 82,
+          "top": 27,
+          "right": 82,
+          "bottom": 31,
+          "center": {
+            "x": 82,
+            "y": 27,
+            "width": 196,
+            "height": 38
+          }
+        },
+        "minimum_size": [
+          204,
+          96
+        ],
+        "content_insets": {
+          "left": 76,
+          "top": 22,
+          "right": 64,
+          "bottom": 27
+        },
+        "text_color": "#344D43",
+        "selection_marker": null,
+        "disabled_marker": null,
+        "authoring": "New built-in image_gen v10 painted artwork matching the user reference; explicit source-border nine-slice resampling, alpha-preserving layout; portable embedded PNG in SVG. Dynamic text remains separate.",
+        "v10_sources": [
+          "card_normal"
+        ],
+        "v10_source_map": "../../qdao_ui_style_recut_v10/source-map.common.json",
+        "png_sha256": "cd8415446563f7b0b2f7583fc77f6467c0e04b3b4cd68856adb8d0d1f6500892",
+        "svg_sha256": "a81f23204a72d57743d0369bd218e818c7457de08ba91e48b0ab1436ebf5fc89"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityReason": "历史内置工具未披露实际型号/质量；不按当前配置回填",
+      "stateSemantics": "normal/selected/disabled are distinct existing source states. Selected includes check. Disabled includes lock; it is not an independently authored pressed or locked state."
+    },
+    {
+      "output": "art/common/states/list_row_selected.png",
+      "source": "qdao_ui_redesign_v5/components/png/list_row_selected.png",
+      "sourceAbsolutePath": "F:\\work\\image\\qdao_ui_redesign_v5\\components\\png\\list_row_selected.png",
+      "sha256": "841a8bba5c31946986af399ddfe5abf1d2c9879467e8a2cfe98e6cd7babee925",
+      "dimensions": [
+        360,
+        96
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no generation, edit, crop or resize",
+      "newPhase": "全游戏UI美术交付；未接入Unity",
+      "sourceEvidence": [
+        "qdao_ui_redesign_v5/components/README.md",
+        "qdao_ui_redesign_v5/components/manifest.json",
+        "qdao_ui_style_recut_v10/source-map.common.json"
+      ],
+      "sourceManifestEntry": {
+        "id": "list_row_selected",
+        "width": 360,
+        "height": 96,
+        "title": "list_row_selected",
+        "svg": "svg/list_row_selected.svg",
+        "png": "png/list_row_selected.png",
+        "state": "selected",
+        "dynamic_text_baked": false,
+        "category": "list_row",
+        "resize_axes": "horizontal",
+        "fixed_height": 96,
+        "nine_slice": {
+          "left": 82,
+          "top": 27,
+          "right": 82,
+          "bottom": 31,
+          "center": {
+            "x": 82,
+            "y": 27,
+            "width": 196,
+            "height": 38
+          }
+        },
+        "minimum_size": [
+          204,
+          96
+        ],
+        "content_insets": {
+          "left": 76,
+          "top": 22,
+          "right": 64,
+          "bottom": 27
+        },
+        "text_color": "#FFF7DE",
+        "selection_marker": "check + left rail + bottom notch",
+        "disabled_marker": null,
+        "authoring": "New built-in image_gen v10 painted artwork matching the user reference; explicit source-border nine-slice resampling, alpha-preserving layout; portable embedded PNG in SVG. Dynamic text remains separate.",
+        "v10_sources": [
+          "card_selected",
+          "check"
+        ],
+        "v10_source_map": "../../qdao_ui_style_recut_v10/source-map.common.json",
+        "png_sha256": "841a8bba5c31946986af399ddfe5abf1d2c9879467e8a2cfe98e6cd7babee925",
+        "svg_sha256": "b1e143e17e64c499174a4f2b84ccdfb4f968a1312165f61365845aeb6c60a6d7"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityReason": "历史内置工具未披露实际型号/质量；不按当前配置回填",
+      "stateSemantics": "normal/selected/disabled are distinct existing source states. Selected includes check. Disabled includes lock; it is not an independently authored pressed or locked state."
+    },
+    {
+      "output": "art/common/states/list_row_disabled.png",
+      "source": "qdao_ui_redesign_v5/components/png/list_row_disabled.png",
+      "sourceAbsolutePath": "F:\\work\\image\\qdao_ui_redesign_v5\\components\\png\\list_row_disabled.png",
+      "sha256": "e392bb4bc9180cd9c3eb99d8b67aeb961cbc739dc02500c19474d4d3317b6ed1",
+      "dimensions": [
+        360,
+        96
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no generation, edit, crop or resize",
+      "newPhase": "全游戏UI美术交付；未接入Unity",
+      "sourceEvidence": [
+        "qdao_ui_redesign_v5/components/README.md",
+        "qdao_ui_redesign_v5/components/manifest.json",
+        "qdao_ui_style_recut_v10/source-map.common.json"
+      ],
+      "sourceManifestEntry": {
+        "id": "list_row_disabled",
+        "width": 360,
+        "height": 96,
+        "title": "list_row_disabled",
+        "svg": "svg/list_row_disabled.svg",
+        "png": "png/list_row_disabled.png",
+        "state": "disabled",
+        "dynamic_text_baked": false,
+        "category": "list_row",
+        "resize_axes": "horizontal",
+        "fixed_height": 96,
+        "nine_slice": {
+          "left": 82,
+          "top": 27,
+          "right": 82,
+          "bottom": 31,
+          "center": {
+            "x": 82,
+            "y": 27,
+            "width": 196,
+            "height": 38
+          }
+        },
+        "minimum_size": [
+          204,
+          96
+        ],
+        "content_insets": {
+          "left": 76,
+          "top": 22,
+          "right": 64,
+          "bottom": 27
+        },
+        "text_color": "#536254",
+        "selection_marker": null,
+        "disabled_marker": "lock; client must also supply a readable reason",
+        "authoring": "New built-in image_gen v10 painted artwork matching the user reference; explicit source-border nine-slice resampling, alpha-preserving layout; portable embedded PNG in SVG. Dynamic text remains separate.",
+        "v10_sources": [
+          "muted",
+          "lock"
+        ],
+        "v10_source_map": "../../qdao_ui_style_recut_v10/source-map.common.json",
+        "png_sha256": "e392bb4bc9180cd9c3eb99d8b67aeb961cbc739dc02500c19474d4d3317b6ed1",
+        "svg_sha256": "89db597f4e0e01eb62d83dbf68cc11b617e8208cd8c4fb78225e69f4b4870484"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityReason": "历史内置工具未披露实际型号/质量；不按当前配置回填",
+      "stateSemantics": "normal/selected/disabled are distinct existing source states. Selected includes check. Disabled includes lock; it is not an independently authored pressed or locked state."
+    },
+    {
+      "output": "art/common/states/lock.png",
+      "source": "qdao_ui_redesign_v5/components/png/lock.png",
+      "sourceAbsolutePath": "F:\\work\\image\\qdao_ui_redesign_v5\\components\\png\\lock.png",
+      "sha256": "b758762e66962d782062318c3ce98290547a431779cfe3d26188f432c0a73149",
+      "dimensions": [
+        48,
+        48
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no generation, edit, crop or resize",
+      "newPhase": "全游戏UI美术交付；未接入Unity",
+      "sourceEvidence": [
+        "qdao_ui_redesign_v5/components/README.md",
+        "qdao_ui_redesign_v5/components/manifest.json",
+        "qdao_ui_style_recut_v10/source-map.common.json"
+      ],
+      "sourceManifestEntry": {
+        "id": "lock",
+        "width": 48,
+        "height": 48,
+        "title": "lock",
+        "svg": "svg/lock.svg",
+        "png": "png/lock.png",
+        "state": "normal",
+        "dynamic_text_baked": false,
+        "category": "lock",
+        "nine_slice": null,
+        "authoring": "New built-in image_gen v10 painted artwork matching the user reference; explicit source-border nine-slice resampling, alpha-preserving layout; portable embedded PNG in SVG. Dynamic text remains separate.",
+        "v10_sources": [
+          "lock"
+        ],
+        "v10_source_map": "../../qdao_ui_style_recut_v10/source-map.common.json",
+        "png_sha256": "b758762e66962d782062318c3ce98290547a431779cfe3d26188f432c0a73149",
+        "svg_sha256": "3a1823d993540991db6c5a052c658a2854d6ae0df81e8f9f1d05997a9a762f2e"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityReason": "历史内置工具未披露实际型号/质量；不按当前配置回填",
+      "stateSemantics": "Separate 48px glyph overlay only; not a full-size button state"
+    },
+    {
+      "output": "art/common/states/check.png",
+      "source": "qdao_ui_redesign_v5/components/png/check.png",
+      "sourceAbsolutePath": "F:\\work\\image\\qdao_ui_redesign_v5\\components\\png\\check.png",
+      "sha256": "9d3796e4bae844c78be1b8717946f2f9fef965029ca02bc298f291fe893bc41e",
+      "dimensions": [
+        48,
+        48
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no generation, edit, crop or resize",
+      "newPhase": "全游戏UI美术交付；未接入Unity",
+      "sourceEvidence": [
+        "qdao_ui_redesign_v5/components/README.md",
+        "qdao_ui_redesign_v5/components/manifest.json",
+        "qdao_ui_style_recut_v10/source-map.common.json"
+      ],
+      "sourceManifestEntry": {
+        "id": "check",
+        "width": 48,
+        "height": 48,
+        "title": "check",
+        "svg": "svg/check.svg",
+        "png": "png/check.png",
+        "state": "normal",
+        "dynamic_text_baked": false,
+        "category": "check",
+        "nine_slice": null,
+        "authoring": "New built-in image_gen v10 painted artwork matching the user reference; explicit source-border nine-slice resampling, alpha-preserving layout; portable embedded PNG in SVG. Dynamic text remains separate.",
+        "v10_sources": [
+          "check"
+        ],
+        "v10_source_map": "../../qdao_ui_style_recut_v10/source-map.common.json",
+        "png_sha256": "9d3796e4bae844c78be1b8717946f2f9fef965029ca02bc298f291fe893bc41e",
+        "svg_sha256": "ee80bb5cb6c3b08a4ee3839a79961feaaf8393334d2c965d4fac9756dc0fc2f1"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityReason": "历史内置工具未披露实际型号/质量；不按当前配置回填",
+      "stateSemantics": "Separate 48px glyph overlay only; not a full-size button state"
+    },
+    {
+      "output": "art/common/states/checkbox_off.png",
+      "source": "designs/equipment-ui-20261008/sprites/checkbox_off.png",
+      "sourceAbsolutePath": "F:\\work\\image\\designs\\equipment-ui-20261008\\sprites\\checkbox_off.png",
+      "sha256": "76b6c9f4246d3e979010fe65002dc5566f816f4008892e2a6ef541a747f49407",
+      "dimensions": [
+        98,
+        98
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy of existing atlas lossless crop; no new edit",
+      "sourceEvidence": [
+        "designs/equipment-ui-20261008/README.md",
+        "designs/equipment-ui-20261008/sprite-manifest.json",
+        "designs/equipment-ui-20261008/sprites/checkbox_off.png.generation.json"
+      ],
+      "sourceRecord": {
+        "file": "checkbox_off.png",
+        "sha256": "76b6c9f4246d3e979010fe65002dc5566f816f4008892e2a6ef541a747f49407",
+        "width": 98,
+        "height": 98,
+        "format": "png",
+        "derivedFrom": {
+          "file": "../skin-atlas.png",
+          "sha256": "91a79e685b53711c40364b460903437eb227a5f257dc25f1307241fdf658a5d8",
+          "generationRecord": "../skin-atlas.png.generation.json"
+        },
+        "operation": {
+          "type": "lossless crop",
+          "left": 814,
+          "top": 780,
+          "width": 98,
+          "height": 98
+        },
+        "unityBorder": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaRange": [
+          0,
+          253
+        ]
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityReason": "Historical builtin output actual model/quality unknown",
+      "stateSemantics": "Same-canvas toggle OFF/ON, 98 square; not pressed/disabled artwork"
+    },
+    {
+      "output": "art/common/states/checkbox_on.png",
+      "source": "designs/equipment-ui-20261008/sprites/checkbox_on.png",
+      "sourceAbsolutePath": "F:\\work\\image\\designs\\equipment-ui-20261008\\sprites\\checkbox_on.png",
+      "sha256": "35cf5de473b3a6273b1e81113bf4f26852950f9057d1e15382ced690e6af250c",
+      "dimensions": [
+        98,
+        98
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy of existing atlas lossless crop; no new edit",
+      "sourceEvidence": [
+        "designs/equipment-ui-20261008/README.md",
+        "designs/equipment-ui-20261008/sprite-manifest.json",
+        "designs/equipment-ui-20261008/sprites/checkbox_on.png.generation.json"
+      ],
+      "sourceRecord": {
+        "file": "checkbox_on.png",
+        "sha256": "35cf5de473b3a6273b1e81113bf4f26852950f9057d1e15382ced690e6af250c",
+        "width": 98,
+        "height": 98,
+        "format": "png",
+        "derivedFrom": {
+          "file": "../skin-atlas.png",
+          "sha256": "91a79e685b53711c40364b460903437eb227a5f257dc25f1307241fdf658a5d8",
+          "generationRecord": "../skin-atlas.png.generation.json"
+        },
+        "operation": {
+          "type": "lossless crop",
+          "left": 936,
+          "top": 780,
+          "width": 98,
+          "height": 98
+        },
+        "unityBorder": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaRange": [
+          0,
+          253
+        ]
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityReason": "Historical builtin output actual model/quality unknown",
+      "stateSemantics": "Same-canvas toggle OFF/ON, 98 square; not pressed/disabled artwork"
+    }
+  ],
+  "scope": "Art-only extension: 13 existing state PNG copies and 2 approved clean common replacements. Candidate icons audited without copying; no C#, Unity scene/Prefab implementation or Git work.",
+  "stateCoverage": {
+    "sameCanvasGroups": {
+      "primary_button": [
+        460,
+        112
+      ],
+      "tab": [
+        360,
+        114
+      ],
+      "list_row": [
+        360,
+        96
+      ],
+      "checkbox": [
+        98,
+        98
+      ]
+    },
+    "provided": [
+      "normal",
+      "selected",
+      "disabled",
+      "checkbox-off",
+      "checkbox-on",
+      "separate-check-glyph",
+      "separate-lock-glyph"
+    ],
+    "notProvided": [
+      "pressed",
+      "hover",
+      "focus",
+      "independent full-size locked"
+    ],
+    "disabledContainsLock": true,
+    "doNotRenameSelectedAsPressed": true
+  },
+  "validation": {
+    "copiedFiles": 13,
+    "sourceAndDestinationSha256Equal": true,
+    "pngDecodeAndRealAlpha": "passed",
+    "sameCanvasGroups": "passed",
+    "commonReplacementCopiedFiles": 2,
+    "commonReplacementSha256MatchesApproved": true,
+    "candidateGenerationRecordsVerified": 9,
+    "iconCandidateNewCopies": 0
+  },
+  "commonReplacements": [
+    {
+      "output": "art/common/main_frame.png",
+      "source": "designs/attribute-panels/v2-painted/unity-slices/png/window_frame.png",
+      "sha256": "7aba0f0d6834a5f70eeb29c4308d57f171594e3e9894921569fdd6a602720663",
+      "dimensions": [
+        1546,
+        743
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "relationship": "直接复用",
+      "operation": "byte-for-byte approved source copy; no generation/crop/resize in this phase",
+      "replacesArtPhaseCopySha256": "6a378f42223fe31a264837bbb48cf7612ec558edc3edab36a211360c4f243330",
+      "replacementReason": "Prior Team main frame showed rectangular reconstruction seams; Team title plate showed stretched fill and baked team-count text. New approved Attribute V10 source is clean and text-free. Only art/ phase copies changed; old Assets draft remains frozen.",
+      "borderLeftBottomRightTop": [
+        97,
+        74,
+        97,
+        99
+      ],
+      "scalingMode": "nine-slice",
+      "sourceEvidence": [
+        "designs/attribute-panels/v2-painted/unity-slices/README.md",
+        "designs/attribute-panels/v2-painted/unity-slices/manifest.json",
+        "qdao_ui_style_recut_v10/source-map.attributes.json"
+      ],
+      "sourceManifestEntry": {
+        "name": "window_frame",
+        "source": "qdao_ui_style_recut_v10/source/02-main-window.png",
+        "width": 1546,
+        "height": 743,
+        "sourceRectTopLeft": [
+          47,
+          68,
+          1578,
+          793
+        ],
+        "sourceRectNativeTopLeft": [
+          47,
+          68,
+          1578,
+          793
+        ],
+        "borderLeftBottomRightTop": [
+          97,
+          74,
+          97,
+          99
+        ],
+        "processing": "Nine-part mechanical assembly from new text-free painted art, preserving original Unity destination borders; no legacy skin pixels.",
+        "resourcePath": "UI/Ugui/AttributesPaintedV2/window_frame",
+        "containsDynamicText": false,
+        "containsStaticTitle": false,
+        "legacySourceContract": {
+          "source": "character",
+          "sourceRectTopLeft": [
+            128,
+            31,
+            1152,
+            554
+          ],
+          "sourceRectNativeTopLeft": [
+            172,
+            42,
+            1545,
+            743
+          ],
+          "processing": "Nine-part assembly from original gold corners/edges and blank paper; excludes all controls and data."
+        },
+        "artKey": "frame",
+        "cleanArtSize": [
+          1578,
+          793
+        ],
+        "cleanArtPixelSha256": "ec4d7009c2e294664bcc4c63c520742f4c60a7443c0e41a5f93f076d7c348191",
+        "sourceSha256": "5f94cdb6f8867323f20e5834349a9297d4df569b99f1da686b8bb9a6a365933b",
+        "sourceArtworkEntry": {
+          "file": "frame.png",
+          "size": [
+            1578,
+            793
+          ],
+          "source": "source/02-main-window.png",
+          "source_sha256": "5f94cdb6f8867323f20e5834349a9297d4df569b99f1da686b8bb9a6a365933b",
+          "source_box_xyxy": [
+            47,
+            68,
+            1625,
+            861
+          ],
+          "alpha_cleanup": "Strong magenta field plus a 3px fringe only; chroma-key coverage and magenta edge unmatting, opaque painted interiors, every disconnected foreground component retained",
+          "nine_slice": {
+            "left": 290,
+            "top": 200,
+            "right": 285,
+            "bottom": 205
+          }
+        },
+        "cropProvenance": "qdao_ui_style_recut_v10/artwork/index.json",
+        "destinationBordersLeftTopRightBottom": [
+          97,
+          99,
+          97,
+          74
+        ],
+        "preservedArtwork": false,
+        "transparentGuardPixels": 1,
+        "recutVersion": "v10",
+        "sha256": "7aba0f0d6834a5f70eeb29c4308d57f171594e3e9894921569fdd6a602720663"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityReason": "Historical builtin route disclosed no verified backend/quality; retain unknown values",
+      "visualReview": {
+        "fullResolutionViewed": true,
+        "bakedTitleOrDynamicText": false,
+        "cleanFrameOrJadeField": true
+      }
+    },
+    {
+      "output": "art/common/title_plate.png",
+      "source": "designs/attribute-panels/v2-painted/unity-slices/png/title_plate.png",
+      "sha256": "b9a01536ef28813328ea538341925106c0b7fe84fe910af49e9b93abef8c96a8",
+      "dimensions": [
+        655,
+        110
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "relationship": "直接复用",
+      "operation": "byte-for-byte approved source copy; no generation/crop/resize in this phase",
+      "replacesArtPhaseCopySha256": "7b81c7b17fa7d219f181c3edc1fa40412fe34a39e0bbe0e77b25088c83707871",
+      "replacementReason": "Prior Team main frame showed rectangular reconstruction seams; Team title plate showed stretched fill and baked team-count text. New approved Attribute V10 source is clean and text-free. Only art/ phase copies changed; old Assets draft remains frozen.",
+      "borderLeftBottomRightTop": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalingMode": "uniform-only; border is zero, do not nine-slice whole title",
+      "sourceEvidence": [
+        "designs/attribute-panels/v2-painted/unity-slices/README.md",
+        "designs/attribute-panels/v2-painted/unity-slices/manifest.json",
+        "qdao_ui_style_recut_v10/source-map.attributes.json"
+      ],
+      "sourceManifestEntry": {
+        "name": "title_plate",
+        "source": "qdao_ui_style_recut_v10/source/01-plates.png",
+        "width": 655,
+        "height": 110,
+        "sourceRectTopLeft": [
+          16,
+          905,
+          598,
+          199
+        ],
+        "sourceRectNativeTopLeft": [
+          16,
+          905,
+          598,
+          199
+        ],
+        "borderLeftBottomRightTop": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "processing": "Nine-part assembly of the new title artwork with continuous painted ends, integrated tassels, separate fixed center stamps and a text-free jade middle. Original whole-title sprite remains non-sliced at runtime.",
+        "resourcePath": "UI/Ugui/AttributesPaintedV2/title_plate",
+        "containsDynamicText": false,
+        "containsStaticTitle": false,
+        "legacySourceContract": {
+          "source": "character",
+          "sourceRectTopLeft": [
+            477,
+            0,
+            488,
+            82
+          ],
+          "sourceRectNativeTopLeft": [
+            640,
+            0,
+            655,
+            110
+          ],
+          "processing": "Original title ornament and taiji; lettering replaced from clean jade pixels."
+        },
+        "artKey": "title",
+        "cleanArtSize": [
+          598,
+          199
+        ],
+        "cleanArtPixelSha256": "5156dec42e2b7448260e78dfa1944a67797530d26bf1f2b30e6d9bccfe3cabcd",
+        "sourceSha256": "02e2156e95676c54b3e94fd2f71f31c176000b0cbdac1f0aa82201a980ee0af3",
+        "sourceArtworkEntry": {
+          "resize_mode": "nine_slice",
+          "file": "title.png",
+          "size": [
+            598,
+            199
+          ],
+          "source": "source/01-plates.png",
+          "source_sha256": "02e2156e95676c54b3e94fd2f71f31c176000b0cbdac1f0aa82201a980ee0af3",
+          "source_box_xyxy": [
+            16,
+            905,
+            614,
+            1104
+          ],
+          "nine_slice": {
+            "left": 146,
+            "top": 65,
+            "right": 145,
+            "bottom": 99
+          },
+          "alpha_cleanup": "Strong magenta field plus a 3px fringe only; chroma-key coverage and magenta edge unmatting, opaque painted interiors, every disconnected foreground component retained",
+          "edge_samples": {
+            "top": [
+              195,
+              0,
+              220,
+              65
+            ],
+            "bottom": [
+              195,
+              100,
+              220,
+              199
+            ]
+          },
+          "horizontal_center_sample": [
+            195,
+            0,
+            220,
+            199
+          ],
+          "fixed_stamps": [
+            {
+              "file": "title.stamp-0.png",
+              "source_box_xyxy": [
+                277,
+                13,
+                322,
+                45
+              ],
+              "anchor": "center-top"
+            },
+            {
+              "file": "title.stamp-1.png",
+              "source_box_xyxy": [
+                277,
+                137,
+                322,
+                161
+              ],
+              "anchor": "center-bottom"
+            }
+          ],
+          "extracted_hanging_parts": [
+            {
+              "file": "title.tassel-0.png",
+              "source_box_xyxy": [
+                23,
+                112,
+                62,
+                199
+              ],
+              "anchor": "bottom-left"
+            },
+            {
+              "file": "title.tassel-1.png",
+              "source_box_xyxy": [
+                541,
+                112,
+                581,
+                199
+              ],
+              "anchor": "bottom-right"
+            }
+          ]
+        },
+        "cropProvenance": "qdao_ui_style_recut_v10/artwork/index.json",
+        "assemblyBordersLeftTopRightBottom": [
+          92,
+          36,
+          92,
+          38
+        ],
+        "preservedArtwork": false,
+        "transparentGuardPixels": 1,
+        "recutVersion": "v10",
+        "sha256": "b9a01536ef28813328ea538341925106c0b7fe84fe910af49e9b93abef8c96a8"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityReason": "Historical builtin route disclosed no verified backend/quality; retain unknown values",
+      "visualReview": {
+        "fullResolutionViewed": true,
+        "bakedTitleOrDynamicText": false,
+        "cleanFrameOrJadeField": true
+      }
+    }
+  ],
+  "iconCandidates": [
+    {
+      "id": "C01",
+      "source": "designs/equipment-ui-20261008/sprites/icon_sword.png",
+      "sourceAbsolutePath": "F:\\work\\image\\designs\\equipment-ui-20261008\\sprites\\icon_sword.png",
+      "nameFromActualVisual": "青云灵剑",
+      "proposedArtPurpose": "Might伤害、法器/自动追踪剑的造型参考",
+      "dimensions": [
+        600,
+        600
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "transparentPixels": 290185,
+      "isReallyTransparent": true,
+      "sha256": "4f10322dbfced9be6135fb37b07e20ee101df3b05a8954d448aeecd488be2c7f",
+      "sourceEvidence": [
+        "designs/equipment-ui-20261008/README.md",
+        "designs/equipment-ui-20261008/equipment-icons.png.generation.json",
+        "designs/equipment-ui-20261008/sprites/icon_sword.png.generation.json"
+      ],
+      "phaseSelectionStatus": "existing clean phase copy may remain art/icons/icon-sword.png",
+      "copiedByThisExtension": false,
+      "qualityIssue": null,
+      "actualModel": null,
+      "actualQuality": null,
+      "note": "Existing source only; do not backfill historical actual model/quality from current configuration."
+    },
+    {
+      "id": "C02",
+      "source": "designs/equipment-ui-20261008/sprites/icon_boots.png",
+      "sourceAbsolutePath": "F:\\work\\image\\designs\\equipment-ui-20261008\\sprites\\icon_boots.png",
+      "nameFromActualVisual": "踏云靴",
+      "proposedArtPurpose": "MoveSpeed移动速度",
+      "dimensions": [
+        600,
+        600
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "transparentPixels": 229075,
+      "isReallyTransparent": true,
+      "sha256": "b980fcec5f8e7307174d45f8f74ef432dfbbbf5f3343c2067976af1a9cdbe2f5",
+      "sourceEvidence": [
+        "designs/equipment-ui-20261008/README.md",
+        "designs/equipment-ui-20261008/equipment-icons.png.generation.json",
+        "designs/equipment-ui-20261008/sprites/icon_boots.png.generation.json"
+      ],
+      "phaseSelectionStatus": "existing clean phase copy may remain art/icons/icon-boots.png",
+      "copiedByThisExtension": false,
+      "qualityIssue": null,
+      "actualModel": null,
+      "actualQuality": null,
+      "note": "Existing source only; do not backfill historical actual model/quality from current configuration."
+    },
+    {
+      "id": "C03",
+      "source": "designs/guild-ui-v2/assets/icon-pill.png",
+      "sourceAbsolutePath": "F:\\work\\image\\designs\\guild-ui-v2\\assets\\icon-pill.png",
+      "nameFromActualVisual": "金葫芦徽章（源名pill不准确）",
+      "proposedArtPurpose": "仅供吸灵葫芦/恢复容器造型参考；不能称为已画好的丹药",
+      "dimensions": [
+        600,
+        600
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "transparentPixels": 144055,
+      "isReallyTransparent": true,
+      "sha256": "20eeab348181ca6dc8c24440f6ed8abddb6bf477e5055f74e79a72550088bb99",
+      "sourceEvidence": [
+        "designs/guild-ui-v2/README.md",
+        "designs/guild-ui-v2/asset-manifest.json"
+      ],
+      "phaseSelectionStatus": "not selected; root is producing dedicated clean transparent icons",
+      "copiedByThisExtension": false,
+      "qualityIssue": "Visible magenta fringe along circular silhouette; not copied",
+      "actualModel": null,
+      "actualQuality": null,
+      "note": "Existing source only; do not backfill historical actual model/quality from current configuration.",
+      "historicalOrigin": "q_daoist_login_ui_10240_redraw_clear_final_layers/q_daoist_login_buttons_redrawn_atomic/qstyle_redrawn_600x600/west_eight_immortals_redrawn_100_600x600/018_medicine_gourd_flask.png",
+      "historicalOriginStillExists": false,
+      "historicalContract": "qdao_asset_refresh_v6/icons/manifest.json",
+      "historicalContractStillExists": false
+    },
+    {
+      "id": "C04",
+      "source": "designs/guild-ui-v2/assets/icon-scroll.png",
+      "sourceAbsolutePath": "F:\\work\\image\\designs\\guild-ui-v2\\assets\\icon-scroll.png",
+      "nameFromActualVisual": "经卷徽章",
+      "proposedArtPurpose": "Growth经验/悟道造型参考",
+      "dimensions": [
+        600,
+        600
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "transparentPixels": 129355,
+      "isReallyTransparent": true,
+      "sha256": "dac54bf8263f566c4f35d837fd02b5d08eb3deb7db7aecb87df31ad337da6232",
+      "sourceEvidence": [
+        "designs/guild-ui-v2/README.md",
+        "designs/guild-ui-v2/asset-manifest.json"
+      ],
+      "phaseSelectionStatus": "not selected; no new copy",
+      "copiedByThisExtension": false,
+      "qualityIssue": "Visible magenta fringe; historical origin/contract no longer present",
+      "actualModel": null,
+      "actualQuality": null,
+      "note": "Existing source only; do not backfill historical actual model/quality from current configuration.",
+      "historicalOrigin": "q_daoist_login_ui_10240_redraw_clear_final_layers/q_daoist_login_buttons_redrawn_atomic/qstyle_redrawn_600x600/west_eight_immortals_redrawn_100_600x600/071_scripture_scroll.png",
+      "historicalOriginStillExists": false,
+      "historicalContract": "qdao_asset_refresh_v6/icons/manifest.json",
+      "historicalContractStillExists": false
+    },
+    {
+      "id": "C05",
+      "source": "designs/guild-ui-v2/assets/icon-talisman.png",
+      "sourceAbsolutePath": "F:\\work\\image\\designs\\guild-ui-v2\\assets\\icon-talisman.png",
+      "nameFromActualVisual": "符箓徽章",
+      "proposedArtPurpose": "道符主动法器造型参考",
+      "dimensions": [
+        600,
+        600
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "transparentPixels": 142489,
+      "isReallyTransparent": true,
+      "sha256": "d37bacddf236139086ef718493ad9ea974c56a72957fc590dc37aa7fa7ee8107",
+      "sourceEvidence": [
+        "designs/guild-ui-v2/README.md",
+        "designs/guild-ui-v2/asset-manifest.json"
+      ],
+      "phaseSelectionStatus": "not selected; no new copy",
+      "copiedByThisExtension": false,
+      "qualityIssue": "Visible magenta fringe near lower/right contour",
+      "actualModel": null,
+      "actualQuality": null,
+      "note": "Existing source only; do not backfill historical actual model/quality from current configuration.",
+      "historicalOrigin": "q_daoist_login_ui_10240_redraw_clear_final_layers/q_daoist_login_buttons_redrawn_atomic/qstyle_redrawn_600x600/west_eight_immortals_redrawn_100_600x600/038_talisman_scroll.png",
+      "historicalOriginStillExists": false,
+      "historicalContract": "qdao_asset_refresh_v6/icons/manifest.json",
+      "historicalContractStillExists": false
+    },
+    {
+      "id": "C06",
+      "source": "designs/class-skills-20260928/icons/1102.png",
+      "sourceAbsolutePath": "F:\\work\\image\\designs\\class-skills-20260928\\icons\\1102.png",
+      "nameFromActualVisual": "横扫戈刃",
+      "proposedArtPurpose": "横扫攻击图面；不冒充9种主动全部共享此图",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "transparentPixels": 0,
+      "isReallyTransparent": false,
+      "sha256": "4442082bca791d2b810919ce1d634e274a790c0cfb2685123fcb9d6a846eb87b",
+      "sourceEvidence": [
+        "designs/class-skills-20260928/DESIGN.md",
+        "designs/class-skills-20260928/catalog.json",
+        "designs/class-skills-20260928/icons-style-20261021/README.md",
+        "designs/class-skills-20260928/icons-style-20261021/manifest.json",
+        "designs/class-skills-20260928/icons-style-20261021/icons/1102.png.generation.json"
+      ],
+      "phaseSelectionStatus": "RGB card art candidate only; not copied",
+      "copiedByThisExtension": false,
+      "qualityIssue": "Opaque ivory painted background is intentional; no Alpha. Preserve whole card or use as actual style reference for new art, do not declare it transparent.",
+      "actualModel": null,
+      "actualQuality": null,
+      "note": "Existing source only; do not backfill historical actual model/quality from current configuration.",
+      "approvedManifestShaMatches": true,
+      "sourceCatalogMeaning": "三目标横扫",
+      "sourceSkillName": "横戈裂岳",
+      "historicalGenerationEvidence": {
+        "file": "icons/1102.png",
+        "sha256": "4442082bca791d2b810919ce1d634e274a790c0cfb2685123fcb9d6a846eb87b",
+        "generatedAt": "2026-10-21T03:03:21.434705-04:00",
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "nativeDimensions": [
+          1254,
+          1254
+        ],
+        "exportDimensions": [
+          1254,
+          1254
+        ],
+        "tool": "image_gen.imagegen",
+        "route": "builtin",
+        "actualModel": null,
+        "actualQuality": null,
+        "unverifiedReason": "Host managed; tool has no model or quality selectors and returns no verified model or quality metadata."
+      },
+      "generationRecordSha256": "77d49198f84d1eaf2d89936787739d0b790ff54e4b286becaa75411cb9f07fac"
+    },
+    {
+      "id": "C07",
+      "source": "designs/class-skills-20260928/icons/1106.png",
+      "sourceAbsolutePath": "F:\\work\\image\\designs\\class-skills-20260928\\icons\\1106.png",
+      "nameFromActualVisual": "护心圆盾",
+      "proposedArtPurpose": "Armor护甲",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "transparentPixels": 0,
+      "isReallyTransparent": false,
+      "sha256": "7cd02fa6b58ba6fb5fde9ffceb6259dcbaa622dfe1e0a81e5c58e37f98bc7485",
+      "sourceEvidence": [
+        "designs/class-skills-20260928/DESIGN.md",
+        "designs/class-skills-20260928/catalog.json",
+        "designs/class-skills-20260928/icons-style-20261021/README.md",
+        "designs/class-skills-20260928/icons-style-20261021/manifest.json",
+        "designs/class-skills-20260928/icons-style-20261021/icons/1106.png.generation.json"
+      ],
+      "phaseSelectionStatus": "RGB card art candidate only; not copied",
+      "copiedByThisExtension": false,
+      "qualityIssue": "Opaque ivory painted background is intentional; no Alpha. Preserve whole card or use as actual style reference for new art, do not declare it transparent.",
+      "actualModel": null,
+      "actualQuality": null,
+      "note": "Existing source only; do not backfill historical actual model/quality from current configuration.",
+      "approvedManifestShaMatches": true,
+      "sourceCatalogMeaning": "常驻防御",
+      "sourceSkillName": "铁骨铸魂",
+      "historicalGenerationEvidence": {
+        "file": "icons/1106.png",
+        "sha256": "7cd02fa6b58ba6fb5fde9ffceb6259dcbaa622dfe1e0a81e5c58e37f98bc7485",
+        "generatedAt": "2026-10-21T03:37:37.309571-04:00",
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "nativeDimensions": [
+          1254,
+          1254
+        ],
+        "exportDimensions": [
+          1254,
+          1254
+        ],
+        "tool": "image_gen.imagegen",
+        "route": "builtin",
+        "actualModel": null,
+        "actualQuality": null,
+        "unverifiedReason": "Host managed; tool has no model or quality selectors and returns no verified model or quality metadata."
+      },
+      "generationRecordSha256": "92424a53134aa1512354ffe817f628a82a0d49f4b6d2a714a925495b59daf67b"
+    },
+    {
+      "id": "C08",
+      "source": "designs/class-skills-20260928/icons/1107.png",
+      "sourceAbsolutePath": "F:\\work\\image\\designs\\class-skills-20260928\\icons\\1107.png",
+      "nameFromActualVisual": "锋刃",
+      "proposedArtPurpose": "Might伤害",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "transparentPixels": 0,
+      "isReallyTransparent": false,
+      "sha256": "4eeddbd938df7f73870a63b6b676b519b23c64e08464028c7bd029c15c709d01",
+      "sourceEvidence": [
+        "designs/class-skills-20260928/DESIGN.md",
+        "designs/class-skills-20260928/catalog.json",
+        "designs/class-skills-20260928/icons-style-20261021/README.md",
+        "designs/class-skills-20260928/icons-style-20261021/manifest.json",
+        "designs/class-skills-20260928/icons-style-20261021/icons/1107.png.generation.json"
+      ],
+      "phaseSelectionStatus": "RGB card art candidate only; not copied",
+      "copiedByThisExtension": false,
+      "qualityIssue": "Opaque ivory painted background is intentional; no Alpha. Preserve whole card or use as actual style reference for new art, do not declare it transparent.",
+      "actualModel": null,
+      "actualQuality": null,
+      "note": "Existing source only; do not backfill historical actual model/quality from current configuration.",
+      "approvedManifestShaMatches": true,
+      "sourceCatalogMeaning": "常驻物伤",
+      "sourceSkillName": "砺刃藏锋",
+      "historicalGenerationEvidence": {
+        "file": "icons/1107.png",
+        "sha256": "4eeddbd938df7f73870a63b6b676b519b23c64e08464028c7bd029c15c709d01",
+        "generatedAt": "2026-10-21T03:38:34.150558-04:00",
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "nativeDimensions": [
+          1254,
+          1254
+        ],
+        "exportDimensions": [
+          1254,
+          1254
+        ],
+        "tool": "image_gen.imagegen",
+        "route": "builtin",
+        "actualModel": null,
+        "actualQuality": null,
+        "unverifiedReason": "Host managed; tool has no model or quality selectors and returns no verified model or quality metadata."
+      },
+      "generationRecordSha256": "b32af67d95334e4c4beaf91246143f36b85411ea554761fdf93d81ba387971dc"
+    },
+    {
+      "id": "C09",
+      "source": "designs/class-skills-20260928/icons/1108.png",
+      "sourceAbsolutePath": "F:\\work\\image\\designs\\class-skills-20260928\\icons\\1108.png",
+      "nameFromActualVisual": "生命心玉",
+      "proposedArtPurpose": "HPMax气血上限",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "transparentPixels": 0,
+      "isReallyTransparent": false,
+      "sha256": "1cb0fbf324488b016aea376b202dba83d608f7ff2305e972b0932e05628fd964",
+      "sourceEvidence": [
+        "designs/class-skills-20260928/DESIGN.md",
+        "designs/class-skills-20260928/catalog.json",
+        "designs/class-skills-20260928/icons-style-20261021/README.md",
+        "designs/class-skills-20260928/icons-style-20261021/manifest.json",
+        "designs/class-skills-20260928/icons-style-20261021/icons/1108.png.generation.json"
+      ],
+      "phaseSelectionStatus": "RGB card art candidate only; not copied",
+      "copiedByThisExtension": false,
+      "qualityIssue": "Opaque ivory painted background is intentional; no Alpha. Preserve whole card or use as actual style reference for new art, do not declare it transparent.",
+      "actualModel": null,
+      "actualQuality": null,
+      "note": "Existing source only; do not backfill historical actual model/quality from current configuration.",
+      "approvedManifestShaMatches": true,
+      "sourceCatalogMeaning": "气血上限",
+      "sourceSkillName": "百战归元",
+      "historicalGenerationEvidence": {
+        "file": "icons/1108.png",
+        "sha256": "1cb0fbf324488b016aea376b202dba83d608f7ff2305e972b0932e05628fd964",
+        "generatedAt": "2026-10-21T03:39:32.755208-04:00",
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "nativeDimensions": [
+          1254,
+          1254
+        ],
+        "exportDimensions": [
+          1254,
+          1254
+        ],
+        "tool": "image_gen.imagegen",
+        "route": "builtin",
+        "actualModel": null,
+        "actualQuality": null,
+        "unverifiedReason": "Host managed; tool has no model or quality selectors and returns no verified model or quality metadata."
+      },
+      "generationRecordSha256": "7d1ade305236ce012d989b7dcfac4bacde639dbf7f285880f61f46b4e81c4ce1"
+    },
+    {
+      "id": "C10",
+      "source": "designs/class-skills-20260928/icons/1202.png",
+      "sourceAbsolutePath": "F:\\work\\image\\designs\\class-skills-20260928\\icons\\1202.png",
+      "nameFromActualVisual": "群雷法阵",
+      "proposedArtPurpose": "Area范围/雷系群攻图面",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "transparentPixels": 0,
+      "isReallyTransparent": false,
+      "sha256": "a2719dc166d794db10f0de40d739c802ffa0439ee57f3bcd5c147ce6569a9388",
+      "sourceEvidence": [
+        "designs/class-skills-20260928/DESIGN.md",
+        "designs/class-skills-20260928/catalog.json",
+        "designs/class-skills-20260928/icons-style-20261021/README.md",
+        "designs/class-skills-20260928/icons-style-20261021/manifest.json",
+        "designs/class-skills-20260928/icons-style-20261021/icons/1202.png.generation.json"
+      ],
+      "phaseSelectionStatus": "RGB card art candidate only; not copied",
+      "copiedByThisExtension": false,
+      "qualityIssue": "Opaque ivory painted background is intentional; no Alpha. Preserve whole card or use as actual style reference for new art, do not declare it transparent.",
+      "actualModel": null,
+      "actualQuality": null,
+      "note": "Existing source only; do not backfill historical actual model/quality from current configuration.",
+      "approvedManifestShaMatches": true,
+      "sourceCatalogMeaning": "三目标雷击",
+      "sourceSkillName": "紫霄雷阵",
+      "historicalGenerationEvidence": {
+        "file": "icons/1202.png",
+        "sha256": "a2719dc166d794db10f0de40d739c802ffa0439ee57f3bcd5c147ce6569a9388",
+        "generatedAt": "2026-10-21T07:18:13.2799480+00:00",
+        "width": 1254,
+        "height": 1254,
+        "mode": null,
+        "nativeDimensions": [
+          1254,
+          1254
+        ],
+        "exportDimensions": [
+          1254,
+          1254
+        ],
+        "tool": "image_gen.imagegen",
+        "route": "builtin",
+        "actualModel": null,
+        "actualQuality": null,
+        "unverifiedReason": "Host managed; tool exposes no model or quality selector and returned no verifiable model or quality metadata. Configured target and prompt do not establish actual API variant or quality."
+      },
+      "generationRecordSha256": "43aad3e501cbd3a11c78ee449e2356118dd802cd58ab5d2dc5602a153da61521"
+    },
+    {
+      "id": "C11",
+      "source": "designs/class-skills-20260928/icons/1203.png",
+      "sourceAbsolutePath": "F:\\work\\image\\designs\\class-skills-20260928\\icons\\1203.png",
+      "nameFromActualVisual": "寒星冰晶",
+      "proposedArtPurpose": "Freezing冻结状态",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "transparentPixels": 0,
+      "isReallyTransparent": false,
+      "sha256": "c57c4f7b43d9e0fb83f806030a1db57f286d8761421ebc279dd06df98b8b789c",
+      "sourceEvidence": [
+        "designs/class-skills-20260928/DESIGN.md",
+        "designs/class-skills-20260928/catalog.json",
+        "designs/class-skills-20260928/icons-style-20261021/README.md",
+        "designs/class-skills-20260928/icons-style-20261021/manifest.json",
+        "designs/class-skills-20260928/icons-style-20261021/icons/1203.png.generation.json"
+      ],
+      "phaseSelectionStatus": "RGB card art candidate only; not copied",
+      "copiedByThisExtension": false,
+      "qualityIssue": "Opaque ivory painted background is intentional; no Alpha. Preserve whole card or use as actual style reference for new art, do not declare it transparent.",
+      "actualModel": null,
+      "actualQuality": null,
+      "note": "Existing source only; do not backfill historical actual model/quality from current configuration.",
+      "approvedManifestShaMatches": true,
+      "sourceCatalogMeaning": "冰霜减速",
+      "sourceSkillName": "寒星凝魄",
+      "historicalGenerationEvidence": {
+        "file": "icons/1203.png",
+        "sha256": "c57c4f7b43d9e0fb83f806030a1db57f286d8761421ebc279dd06df98b8b789c",
+        "generatedAt": "2026-10-21T07:20:03.4046490+00:00",
+        "width": 1254,
+        "height": 1254,
+        "mode": null,
+        "nativeDimensions": [
+          1254,
+          1254
+        ],
+        "exportDimensions": [
+          1254,
+          1254
+        ],
+        "tool": "image_gen.imagegen",
+        "route": "builtin",
+        "actualModel": null,
+        "actualQuality": null,
+        "unverifiedReason": "Host managed; tool exposes no model or quality selector and returned no verifiable model or quality metadata. Configured target and prompt do not establish actual API variant or quality."
+      },
+      "generationRecordSha256": "b9da919ac1fb5507251e1662bf4178c0caea5795dca9afdad115c3768e25f2d9"
+    },
+    {
+      "id": "C12",
+      "source": "designs/class-skills-20260928/icons/1205.png",
+      "sourceAbsolutePath": "F:\\work\\image\\designs\\class-skills-20260928\\icons\\1205.png",
+      "nameFromActualVisual": "五星法器",
+      "proposedArtPurpose": "Amount数量/范围进化的多目标图面，不能当作四向精确示意",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "transparentPixels": 0,
+      "isReallyTransparent": false,
+      "sha256": "2508d54b20e6ae2bb6ec93be29053e3cdc0feb6fd90c86545eb75b6acc0ef9ee",
+      "sourceEvidence": [
+        "designs/class-skills-20260928/DESIGN.md",
+        "designs/class-skills-20260928/catalog.json",
+        "designs/class-skills-20260928/icons-style-20261021/README.md",
+        "designs/class-skills-20260928/icons-style-20261021/manifest.json",
+        "designs/class-skills-20260928/icons-style-20261021/icons/1205.png.generation.json"
+      ],
+      "phaseSelectionStatus": "RGB card art candidate only; not copied",
+      "copiedByThisExtension": false,
+      "qualityIssue": "Opaque ivory painted background is intentional; no Alpha. Preserve whole card or use as actual style reference for new art, do not declare it transparent.",
+      "actualModel": null,
+      "actualQuality": null,
+      "note": "Existing source only; do not backfill historical actual model/quality from current configuration.",
+      "approvedManifestShaMatches": true,
+      "sourceCatalogMeaning": "五目标星阵",
+      "sourceSkillName": "九霄归墟",
+      "historicalGenerationEvidence": {
+        "file": "icons/1205.png",
+        "sha256": "2508d54b20e6ae2bb6ec93be29053e3cdc0feb6fd90c86545eb75b6acc0ef9ee",
+        "generatedAt": "2026-10-21T04:22:51.947995-04:00",
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "nativeDimensions": [
+          1254,
+          1254
+        ],
+        "exportDimensions": [
+          1254,
+          1254
+        ],
+        "tool": "image_gen.imagegen",
+        "route": "builtin",
+        "actualModel": null,
+        "actualQuality": null,
+        "unverifiedReason": "Host managed; tool has no model or quality selectors and returns no verified model or quality metadata."
+      },
+      "generationRecordSha256": "336039d60cf6ce4d96e100792b8ab9238de8b01cf9d2b1a9b81859ca8b494311"
+    },
+    {
+      "id": "C13",
+      "source": "designs/class-skills-20260928/icons/1401.png",
+      "sourceAbsolutePath": "F:\\work\\image\\designs\\class-skills-20260928\\icons\\1401.png",
+      "nameFromActualVisual": "云中飞剑",
+      "proposedArtPurpose": "SkillSpeed弹速/追踪剑图面",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "transparentPixels": 0,
+      "isReallyTransparent": false,
+      "sha256": "7f18f5ec66c80bdb0c500bdf26ed4bf42404cee55dc879a7d510a534c3c9cafd",
+      "sourceEvidence": [
+        "designs/class-skills-20260928/DESIGN.md",
+        "designs/class-skills-20260928/catalog.json",
+        "designs/class-skills-20260928/icons-style-20261021/README.md",
+        "designs/class-skills-20260928/icons-style-20261021/manifest.json",
+        "designs/class-skills-20260928/icons-style-20261021/icons/1401.png.generation.json"
+      ],
+      "phaseSelectionStatus": "RGB card art candidate only; not copied",
+      "copiedByThisExtension": false,
+      "qualityIssue": "Opaque ivory painted background is intentional; no Alpha. Preserve whole card or use as actual style reference for new art, do not declare it transparent.",
+      "actualModel": null,
+      "actualQuality": null,
+      "note": "Existing source only; do not backfill historical actual model/quality from current configuration.",
+      "approvedManifestShaMatches": true,
+      "sourceCatalogMeaning": "单体疾刺",
+      "sourceSkillName": "逐影穿云",
+      "historicalGenerationEvidence": {
+        "file": "icons/1401.png",
+        "sha256": "7f18f5ec66c80bdb0c500bdf26ed4bf42404cee55dc879a7d510a534c3c9cafd",
+        "generatedAt": "2026-10-22T01:16:18.807997-04:00",
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "nativeDimensions": [
+          1254,
+          1254
+        ],
+        "exportDimensions": [
+          1254,
+          1254
+        ],
+        "tool": "image_gen.imagegen",
+        "route": "builtin",
+        "actualModel": null,
+        "actualQuality": null,
+        "unverifiedReason": "Host managed; tool exposes neither model/quality selectors nor verified returned model or quality metadata."
+      },
+      "generationRecordSha256": "25ffa632a83e282e553d1ba083649b97b96f923ac728936548d84e080f2d83f0"
+    },
+    {
+      "id": "C14",
+      "source": "designs/class-skills-20260928/icons/1404.png",
+      "sourceAbsolutePath": "F:\\work\\image\\designs\\class-skills-20260928\\icons\\1404.png",
+      "nameFromActualVisual": "束足青岚",
+      "proposedArtPurpose": "Slow减速状态",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "transparentPixels": 0,
+      "isReallyTransparent": false,
+      "sha256": "f8439b90e5b96c235d7ada739857663a30c5f1a20bad3310fb68de92c7cd0a05",
+      "sourceEvidence": [
+        "designs/class-skills-20260928/DESIGN.md",
+        "designs/class-skills-20260928/catalog.json",
+        "designs/class-skills-20260928/icons-style-20261021/README.md",
+        "designs/class-skills-20260928/icons-style-20261021/manifest.json",
+        "designs/class-skills-20260928/icons-style-20261021/icons/1404.png.generation.json"
+      ],
+      "phaseSelectionStatus": "RGB card art candidate only; not copied",
+      "copiedByThisExtension": false,
+      "qualityIssue": "Opaque ivory painted background is intentional; no Alpha. Preserve whole card or use as actual style reference for new art, do not declare it transparent.",
+      "actualModel": null,
+      "actualQuality": null,
+      "note": "Existing source only; do not backfill historical actual model/quality from current configuration.",
+      "approvedManifestShaMatches": true,
+      "sourceCatalogMeaning": "缚足减速",
+      "sourceSkillName": "缚岚止步",
+      "historicalGenerationEvidence": {
+        "file": "icons/1404.png",
+        "sha256": "f8439b90e5b96c235d7ada739857663a30c5f1a20bad3310fb68de92c7cd0a05",
+        "generatedAt": "2026-10-21T03:51:12.849859-04:00",
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "nativeDimensions": [
+          1254,
+          1254
+        ],
+        "exportDimensions": [
+          1254,
+          1254
+        ],
+        "tool": "image_gen.imagegen",
+        "route": "builtin",
+        "actualModel": null,
+        "actualQuality": null,
+        "unverifiedReason": "Host managed; tool has no model or quality selectors and returns no verified model or quality metadata."
+      },
+      "generationRecordSha256": "5ad5452774dcdde130b8ec8b1377083f163944c9337aab5283580559f79474cb"
+    },
+    {
+      "id": "C15",
+      "source": "qdao_ui_redesign_v5/components/png/round_badge_flame.png",
+      "sourceAbsolutePath": "F:\\work\\image\\qdao_ui_redesign_v5\\components\\png\\round_badge_flame.png",
+      "nameFromActualVisual": "火焰圆徽",
+      "proposedArtPurpose": "Burn灼烧小状态标记",
+      "dimensions": [
+        120,
+        120
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "transparentPixels": 4963,
+      "isReallyTransparent": true,
+      "sha256": "f87bd85462fed139b74a77981a645b9241c1b0e3a6a68ce6fa3bd943fb63c1c9",
+      "sourceEvidence": [
+        "qdao_ui_redesign_v5/components/README.md",
+        "qdao_ui_redesign_v5/components/manifest.json"
+      ],
+      "phaseSelectionStatus": "small status badge only; no copy",
+      "copiedByThisExtension": false,
+      "qualityIssue": "120 square, unsuitable for high-resolution detail card",
+      "actualModel": null,
+      "actualQuality": null,
+      "note": "Existing source only; do not backfill historical actual model/quality from current configuration."
+    },
+    {
+      "id": "C16",
+      "source": "qdao_ui_redesign_v5/components/png/round_badge_taiji.png",
+      "sourceAbsolutePath": "F:\\work\\image\\qdao_ui_redesign_v5\\components\\png\\round_badge_taiji.png",
+      "nameFromActualVisual": "太极圆徽",
+      "proposedArtPurpose": "进化/归一通用标识，不能代表9种具体进化技能",
+      "dimensions": [
+        120,
+        120
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "transparentPixels": 4993,
+      "isReallyTransparent": true,
+      "sha256": "c652c5f8377541bed5c8d6c3d23ef32fe1677b9a406f80f6805e44f70846feac",
+      "sourceEvidence": [
+        "qdao_ui_redesign_v5/components/README.md",
+        "qdao_ui_redesign_v5/components/manifest.json"
+      ],
+      "phaseSelectionStatus": "existing phase icon-taiji.png may remain",
+      "copiedByThisExtension": false,
+      "qualityIssue": "120 square; do not label it native-HD card art",
+      "actualModel": null,
+      "actualQuality": null,
+      "note": "Existing source only; do not backfill historical actual model/quality from current configuration."
+    }
+  ],
+  "iconCandidateDecision": "Audit only. No new icon copy authorized/needed after root chose dedicated builtin transparent atlases. Existing clean sword/boots/taiji phase copies can remain. Opaque skill cards and magenta-fringed candidates have not been copied.",
+  "inspectedSameFunctionUi": [
+    {
+      "function": "战斗",
+      "source": "designs/battle-patrol-jewelry-ui-20261021/01-battle-information.png",
+      "dimensions": [
+        1931,
+        814
+      ],
+      "sha256": "4f9e8a2ca6c89e8b7ebd6cb260165affe10b918faef96fb618d631ac54964dfc",
+      "viewed": true,
+      "relationship": "同功能布局/画法核对；源业务和示例值不移植"
+    },
+    {
+      "function": "属性",
+      "source": "designs/attribute-panels/v2-painted/01-character-ui-no-affinity.png",
+      "dimensions": [
+        1932,
+        814
+      ],
+      "sha256": "e64a817c55b59cf5cc47533428f2e560c64a83f3577067a6fb5969244baf3d6b",
+      "viewed": true,
+      "relationship": "同功能布局/画法核对；源业务和示例值不移植"
+    },
+    {
+      "function": "技能布局",
+      "source": "docs/ui-fidelity-exact-20261017/native/skills/class1-2560x1080.png",
+      "dimensions": [
+        2560,
+        1080
+      ],
+      "sha256": "f8ab2a90d5a0d72b5c98c68d5416d494bb35e3175eacf822e13bd3f9e56b8c80",
+      "viewed": true,
+      "relationship": "同功能布局/画法核对；源业务和示例值不移植"
+    },
+    {
+      "function": "背包",
+      "source": "designs/gameplay-ui/02-inventory.png",
+      "dimensions": [
+        1931,
+        814
+      ],
+      "sha256": "024cc044281592de9e0c4681e272a926ac150318c05ee27f9f166210795ad9fb",
+      "viewed": true,
+      "relationship": "同功能布局/画法核对；源业务和示例值不移植"
+    },
+    {
+      "function": "商城",
+      "source": "designs/ui-completion-20261021/04-item-shop.png",
+      "dimensions": [
+        1931,
+        814
+      ],
+      "sha256": "6532962ed58a138c40877a63274e8d497c588d00f8d78502fe06ea6dfec33c18",
+      "viewed": true,
+      "relationship": "同功能布局/画法核对；源业务和示例值不移植"
+    },
+    {
+      "function": "宝箱层级",
+      "source": "designs/gameplay-ui/03-activities.png",
+      "dimensions": [
+        1931,
+        814
+      ],
+      "sha256": "2094a42f4900d238a58a15bd1b91f9e658a0cf841d410ab27f28e139001be0b7",
+      "viewed": true,
+      "relationship": "同功能布局/画法核对；源业务和示例值不移植"
+    }
+  ],
+  "approvedSourceLimitations": {
+    "newSkillIconsAre1254RgbNotTransparent": true,
+    "mailRewardCoinsAndCrystalsHaveFullyOpaqueAlpha": true,
+    "assetNamedIconChestIsPagodaPlaceholder": true,
+    "artworkDirectoryContainsIndexButNoNativeEmblemPngs": true,
+    "missingSkillOverview160": "designs/class-skills-20260928/icons-style-20261021/qa/overview-160.png",
+    "doNotRestoreFromOldGit": true
+  }
+}

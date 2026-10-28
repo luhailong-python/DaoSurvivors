@@ -1,0 +1,19 @@
+{
+  "file": "art/whole-game/support/pickup-purse.png",
+  "source": "E:\\work\\image\\DaoSurvivors\\art\\icons\\moneybag.png",
+  "sourceSha256": "89344076398a52130d3a6cc9d86231fa92a9580c2750e9e651da1a2826c05dfe",
+  "operation": "byte-copy",
+  "newGeneration": false,
+  "newAIEdit": false,
+  "canvas": [
+    512,
+    512
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "zeroAlphaPixels": 209941,
+  "sha256": "89344076398a52130d3a6cc9d86231fa92a9580c2750e9e651da1a2826c05dfe"
+}

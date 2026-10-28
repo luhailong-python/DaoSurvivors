@@ -1,0 +1,9 @@
+{
+  "file": "art/whole-game/players/fighter/run/W/03.png",
+  "sha256": "5ff097ebf1f124b0e66c35db2e1a0e602e98cce8c5dbfc29e218738ad7009e51",
+  "derivedFrom": {
+    "file": "art/whole-game/players/fighter/run/E/03.png",
+    "sha256": "849434ac87d794aef2edf927f9ec96d190185464eb40b2dcd0962c3a4ed75237"
+  },
+  "operation": "exact horizontal reflection; fixed512x512 canvas; chronological frame retained"
+}

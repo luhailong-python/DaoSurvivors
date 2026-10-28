@@ -1,0 +1,1392 @@
+{
+  "id": "49-character-stats",
+  "viewport": [
+    1920,
+    1080
+  ],
+  "designSize": [
+    1920,
+    1080
+  ],
+  "textRegions": [
+    {
+      "text": "☯",
+      "tag": "DIV",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "48px",
+      "fontWeight": "400",
+      "color": "rgb(255, 240, 199)",
+      "alignment": "start",
+      "lineHeight": "48px",
+      "rects": [
+        {
+          "x": 63,
+          "y": 22,
+          "width": 48,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "text": "道途幸存者",
+      "tag": "H1",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "33px",
+      "fontWeight": "600",
+      "color": "rgb(255, 240, 199)",
+      "alignment": "start",
+      "lineHeight": "44.55px",
+      "rects": [
+        {
+          "x": 137,
+          "y": 23,
+          "width": 200,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "text": "一 念 入 道 · 万 妖 退 散",
+      "tag": "P",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(209, 202, 161)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 137,
+          "y": 74.55,
+          "width": 214.52,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "text": "道法资料",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "color": "rgb(213, 213, 172)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 420.52,
+          "y": 46.5,
+          "width": 76,
+          "height": 27
+        }
+      ]
+    },
+    {
+      "text": "金币",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(223, 221, 186)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1657.53,
+          "y": 43,
+          "width": 32,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "text": "5,000",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "23px",
+      "fontWeight": "700",
+      "color": "rgb(250, 227, 168)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1701.53,
+          "y": 38,
+          "width": 57.47,
+          "height": 34
+        }
+      ]
+    },
+    {
+      "text": "山门",
+      "tag": "BUTTON",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "color": "rgb(244, 230, 187)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1809.5,
+          "y": 41.5,
+          "width": 46,
+          "height": 32
+        }
+      ]
+    },
+    {
+      "text": "道友属性",
+      "tag": "DIV",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "38px",
+      "fontWeight": "400",
+      "color": "rgb(255, 241, 192)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 870,
+          "y": 150,
+          "width": 180,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "text": "青云小道",
+      "tag": "H2",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "35px",
+      "fontWeight": "500",
+      "color": "rgb(54, 95, 61)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 254.5,
+          "y": 561,
+          "width": 156,
+          "height": 51
+        }
+      ]
+    },
+    {
+      "text": "御剑 · 均衡",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "color": "rgb(90, 121, 88)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 279.19,
+          "y": 633,
+          "width": 106.63,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "text": "初始气血",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "color": "rgb(120, 134, 106)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 155,
+          "y": 686,
+          "width": 88,
+          "height": 32
+        }
+      ]
+    },
+    {
+      "text": "100",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "25px",
+      "fontWeight": "500",
+      "color": "rgb(50, 90, 60)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 468.38,
+          "y": 684,
+          "width": 41.63,
+          "height": 36
+        }
+      ]
+    },
+    {
+      "text": "起始道法",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(147, 150, 121)",
+      "alignment": "left",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 324.5,
+          "y": 756,
+          "width": 60,
+          "height": 21
+        }
+      ]
+    },
+    {
+      "text": "追星御剑",
+      "tag": "STRONG",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "color": "rgb(91, 124, 82)",
+      "alignment": "left",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 324.5,
+          "y": 783,
+          "width": 96,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "text": "永久根基",
+      "tag": "H3",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "28px",
+      "fontWeight": "500",
+      "color": "rgb(58, 102, 65)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 589,
+          "y": 267,
+          "width": 128,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "text": "已精进阶数 · 每次历练生效",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "color": "rgb(144, 148, 118)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1556.38,
+          "y": 274.5,
+          "width": 211.63,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "text": "剑意",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(91, 124, 80)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 663,
+          "y": 350.5,
+          "width": 44,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "0 / 5",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "color": "rgb(122, 142, 102)",
+      "alignment": "right",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1051,
+          "y": 350.5,
+          "width": 39,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "未精进",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(161, 158, 128)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1112,
+          "y": 355,
+          "width": 42,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "text": "护体",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(91, 124, 80)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1263,
+          "y": 350.5,
+          "width": 44,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "0 / 3",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "color": "rgb(122, 142, 102)",
+      "alignment": "right",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1651,
+          "y": 350.5,
+          "width": 39,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "未精进",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(161, 158, 128)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1712,
+          "y": 355,
+          "width": 42,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "text": "养元",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(91, 124, 80)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 663,
+          "y": 406.5,
+          "width": 44,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "0 / 3",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "color": "rgb(122, 142, 102)",
+      "alignment": "right",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1051,
+          "y": 406.5,
+          "width": 39,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "未精进",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(161, 158, 128)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1112,
+          "y": 411,
+          "width": 42,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "text": "回春",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(91, 124, 80)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1263,
+          "y": 406.5,
+          "width": 44,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "0 / 5",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "color": "rgb(122, 142, 102)",
+      "alignment": "right",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1651,
+          "y": 406.5,
+          "width": 39,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "未精进",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(161, 158, 128)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1712,
+          "y": 411,
+          "width": 42,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "text": "凝神",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(91, 124, 80)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 663,
+          "y": 462.5,
+          "width": 44,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "0 / 2",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "color": "rgb(122, 142, 102)",
+      "alignment": "right",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1051,
+          "y": 462.5,
+          "width": 39,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "未精进",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(161, 158, 128)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1112,
+          "y": 467,
+          "width": 42,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "text": "法域",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(91, 124, 80)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1263,
+          "y": 462.5,
+          "width": 44,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "0 / 2",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "color": "rgb(122, 142, 102)",
+      "alignment": "right",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1651,
+          "y": 462.5,
+          "width": 39,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "未精进",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(161, 158, 128)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1712,
+          "y": 467,
+          "width": 42,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "text": "疾符",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(91, 124, 80)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 663,
+          "y": 518.5,
+          "width": 44,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "0 / 2",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "color": "rgb(122, 142, 102)",
+      "alignment": "right",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1051,
+          "y": 518.5,
+          "width": 39,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "未精进",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(161, 158, 128)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1112,
+          "y": 523,
+          "width": 42,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "text": "绵长",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(91, 124, 80)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1263,
+          "y": 518.5,
+          "width": 44,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "0 / 2",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "color": "rgb(122, 142, 102)",
+      "alignment": "right",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1651,
+          "y": 518.5,
+          "width": 39,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "未精进",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(161, 158, 128)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1712,
+          "y": 523,
+          "width": 42,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "text": "分光",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(91, 124, 80)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 663,
+          "y": 574.5,
+          "width": 44,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "0 / 1",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "color": "rgb(122, 142, 102)",
+      "alignment": "right",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1051,
+          "y": 574.5,
+          "width": 39,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "未精进",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(161, 158, 128)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1112,
+          "y": 579,
+          "width": 42,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "text": "御风",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(91, 124, 80)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1263,
+          "y": 574.5,
+          "width": 44,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "0 / 2",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "color": "rgb(122, 142, 102)",
+      "alignment": "right",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1651,
+          "y": 574.5,
+          "width": 39,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "未精进",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(161, 158, 128)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1712,
+          "y": 579,
+          "width": 42,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "text": "聚灵",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(91, 124, 80)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 663,
+          "y": 630.5,
+          "width": 44,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "0 / 2",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "color": "rgb(122, 142, 102)",
+      "alignment": "right",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1051,
+          "y": 630.5,
+          "width": 39,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "未精进",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(161, 158, 128)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1112,
+          "y": 635,
+          "width": 42,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "text": "悟性",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(91, 124, 80)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1263,
+          "y": 630.5,
+          "width": 44,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "0 / 5",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "color": "rgb(122, 142, 102)",
+      "alignment": "right",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1651,
+          "y": 630.5,
+          "width": 39,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "未精进",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(161, 158, 128)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1712,
+          "y": 635,
+          "width": 42,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "text": "纳财",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(91, 124, 80)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 663,
+          "y": 686.5,
+          "width": 44,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "0 / 5",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "color": "rgb(122, 142, 102)",
+      "alignment": "right",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1051,
+          "y": 686.5,
+          "width": 39,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "未精进",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(161, 158, 128)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1112,
+          "y": 691,
+          "width": 42,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "text": "劫缘",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(91, 124, 80)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1263,
+          "y": 686.5,
+          "width": 44,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "0 / 5",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "color": "rgb(122, 142, 102)",
+      "alignment": "right",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1651,
+          "y": 686.5,
+          "width": 39,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "未精进",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(161, 158, 128)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1712,
+          "y": 691,
+          "width": 42,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "text": "此行道法",
+      "tag": "STRONG",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "17px",
+      "fontWeight": "500",
+      "color": "rgb(66, 109, 70)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 589,
+          "y": 767,
+          "width": 68,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "text": "主动 1 / 6",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "color": "rgb(110, 134, 92)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 932.02,
+          "y": 767,
+          "width": 70.97,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "text": "被动 0 / 6",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "color": "rgb(110, 134, 92)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1278,
+          "y": 767,
+          "width": 70.97,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "text": "局内领悟仅在本次历练生效",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(148, 151, 121)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1623.98,
+          "y": 771,
+          "width": 144,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "text": "返回山门",
+      "tag": "BUTTON",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "25px",
+      "fontWeight": "400",
+      "color": "rgb(62, 83, 55)",
+      "alignment": "center",
+      "lineHeight": "32.5px",
+      "rects": [
+        {
+          "x": 226,
+          "y": 837.75,
+          "width": 112,
+          "height": 36
+        }
+      ]
+    },
+    {
+      "text": "前往温养根基",
+      "tag": "BUTTON",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "25px",
+      "fontWeight": "400",
+      "color": "rgb(255, 241, 196)",
+      "alignment": "center",
+      "lineHeight": "32.5px",
+      "rects": [
+        {
+          "x": 1481.5,
+          "y": 837.75,
+          "width": 168,
+          "height": 36
+        }
+      ]
+    },
+    {
+      "text": "‹ 返回山门",
+      "tag": "BUTTON",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(243, 228, 183)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 86,
+          "y": 1015,
+          "width": 81.47,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "心有所守，道自长明。",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "color": "rgb(225, 230, 199)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 193.47,
+          "y": 1015.5,
+          "width": 170,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "text": "☯",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(225, 230, 199)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1824,
+          "y": 1018,
+          "width": 16,
+          "height": 20
+        }
+      ]
+    }
+  ],
+  "imageLayers": [
+    {
+      "asset": "art/illustrations/lobby-v1.png",
+      "naturalSize": [
+        1672,
+        941
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/gold.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/characters/hero.png",
+      "naturalSize": [
+        1024,
+        1024
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/skill-nearest.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-might.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-armor.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-hpmax.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-recovery.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-cooldown.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-area.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-skillspeed.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-duration.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-amount.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-movespeed.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-magnet.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-growth.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-greed.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/attr-curse.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    }
+  ],
+  "overflowText": [],
+  "renderOperation": "Browser DOM layout and compositing; not AI image generation or Unity runtime.",
+  "artSources": [
+    "art/illustrations/lobby-v1.png",
+    "art/icons/gold.png",
+    "art/characters/hero.png",
+    "art/icons/skill-nearest.png",
+    "art/icons/attr-might.png",
+    "art/icons/attr-armor.png",
+    "art/icons/attr-hpmax.png",
+    "art/icons/attr-recovery.png",
+    "art/icons/attr-cooldown.png",
+    "art/icons/attr-area.png",
+    "art/icons/attr-skillspeed.png",
+    "art/icons/attr-duration.png",
+    "art/icons/attr-amount.png",
+    "art/icons/attr-movespeed.png",
+    "art/icons/attr-magnet.png",
+    "art/icons/attr-growth.png",
+    "art/icons/attr-greed.png",
+    "art/icons/attr-curse.png",
+    "art/common/main_frame.png",
+    "art/common/title_plate.png",
+    "art/common/button_primary.png",
+    "art/common/button_secondary.png"
+  ],
+  "screenSha256": "97c39eb7546f0f0bd38e07062e13d5bf246a4840e9bfc49426548166e8df756e"
+}

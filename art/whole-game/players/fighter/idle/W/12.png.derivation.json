@@ -1,0 +1,9 @@
+{
+  "file": "art/whole-game/players/fighter/idle/W/12.png",
+  "sha256": "7a895d5b59ec73ddc3a8b13f3a9152fcaaadf3c003ab0daf0f9457f3c571c216",
+  "derivedFrom": {
+    "file": "art/whole-game/players/fighter/idle/E/12.png",
+    "sha256": "16f1c0bc3a1a907817675b47a4164a8a70fd49dbf5f8c136162e43f5f61b28ed"
+  },
+  "operation": "exact horizontal reflection; fixed512x512 canvas; chronological frame retained"
+}

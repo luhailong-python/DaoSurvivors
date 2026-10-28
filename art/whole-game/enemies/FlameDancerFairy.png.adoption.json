@@ -1,0 +1,136 @@
+{
+  "sourceKey": "FlameDancerFairy",
+  "displayName": "赤砂魁幻身",
+  "sourceIdentity": "赤砂魁",
+  "role": "Boss远程",
+  "identity": "陶塑窑炉小守卫；朱红弹体",
+  "artSource": "existing",
+  "adoptionType": "reskin; direct byte copy",
+  "sourceArtRepository": {
+    "path": "F:\\work\\image",
+    "remote": "https://luyuacpp.visualstudio.com/image/_git/image"
+  },
+  "sourceArtPath": "designs/creature-combat-20261005/pets/09-chishakui/runtime/attack/E/01.png",
+  "destination": "art/whole-game/enemies/FlameDancerFairy.png",
+  "sourceSHA256": "10b94f4410a51204629340ea423b1b33c36d04a01eb4df1c672e6b0b3db70bd8",
+  "sha256": "10b94f4410a51204629340ea423b1b33c36d04a01eb4df1c672e6b0b3db70bd8",
+  "copyVerified": true,
+  "canvas": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "realAlpha": true,
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "zeroPixels": 608967,
+    "partialPixels": 438421,
+    "opaquePixels": 1188,
+    "visibleBBoxAlphaAtLeast16": [
+      177,
+      68,
+      901,
+      979
+    ],
+    "visibleEdgePixelsAlphaAtLeast16": 0,
+    "edgePixelsAnyAlpha": 7
+  },
+  "pivotBottomLeft": [
+    0.5,
+    0.08
+  ],
+  "anchorTopLeftPx": [
+    512,
+    942
+  ],
+  "anchorKind": "source logical ground anchor; not exact every-foot contact",
+  "facing": "three-quarter front, down-right; x mirror allowed for source movement",
+  "suggestedVisibleHeightAt1080": 170,
+  "spriteType": "Single",
+  "meshType": "FullRect",
+  "borderLTRB": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "filterMode": "Bilinear",
+  "wrapMode": "Clamp",
+  "mipmaps": false,
+  "colourSpace": "sRGB",
+  "generationModel": null,
+  "generationQuality": null,
+  "generationEvidenceNote": "Historical source generation evidence is preserved. No generation or AI edit occurred during this adoption. Configuration targets never establish actual model/quality.",
+  "sourceRecords": [
+    {
+      "source": "designs/creature-combat-20261005/pets/09-chishakui/runtime/attack/E/01.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/09-chishakui/01-source-record-01.json",
+      "sha256": "9711dcc31aa67460945cbbabe6ddd3eb6ee03f5b3a43a9d650b5bdd13983081a"
+    }
+  ],
+  "selectedManifestSnapshot": "docs/whole-game/enemy-source-evidence/09-chishakui/selected-manifest-frame.json",
+  "sourceGamePrefab": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/FlameDancerFairy.prefab",
+  "sourceGameSpritePaths": [
+    "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/FlameDancerFairy.png"
+  ],
+  "review": {
+    "fullSourceImageViewed": true,
+    "adoptedDate": "2026-10-28",
+    "visibleClippingCheck": "pass",
+    "identityCheck": "pass; distinct existing Daoist chibi identity",
+    "engineValidation": "not-run; Unity import and motion integration remain next phase",
+    "finalLightDarkLineup": "accepted; identity, anatomy, implements and tails/wings intact, distinct readable silhouettes"
+  },
+  "historicalNativeSize": [
+    1254,
+    1254
+  ],
+  "historicalNativeSizeBasis": "Source README and selected source record; final1024PNG was an earlier full-canvas export, this adoption does not resample.",
+  "sourceEvidenceDependencies": [
+    {
+      "source": "designs/creature-combat-20261005/pets/09-chishakui/runtime/attack/E/01.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/09-chishakui/dependencies/runtime/attack/E/01.png.generation.json",
+      "sha256": "9711dcc31aa67460945cbbabe6ddd3eb6ee03f5b3a43a9d650b5bdd13983081a"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/09-chishakui/prompts/attack-E-01.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/09-chishakui/dependencies/prompts/attack-E-01.txt",
+      "sha256": "5efb5d713aa430fa1a91a21406193ae7791b1ae21bb6c0d52d114b34138b3faf"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/09-chishakui/records/attack-E-01.receipt.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/09-chishakui/dependencies/records/attack-E-01.receipt.json",
+      "sha256": "b7895838fefe8dfe7b8a0be234479e92bb62718d58edaba5b47285c3387df417"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/09-chishakui/records/final-visual-review.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/09-chishakui/dependencies/records/final-visual-review.json",
+      "sha256": "b2df5ab1d4fc6b9d1fb8ede3da9d65113e4905507b132d15b1467b0998874bf9"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/09-chishakui/VISUAL_REVIEW.md",
+      "snapshot": "docs/whole-game/enemy-source-evidence/09-chishakui/dependencies/VISUAL_REVIEW.md",
+      "sha256": "eada841101d159d03030b3565f48eb89b0e27c54be70adfc975ee08c49e9a3db"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/09-chishakui/records/preview-policy-error.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/09-chishakui/dependencies/records/preview-policy-error.json",
+      "sha256": "564e13cd363032308371712fdc23b0c603a360c67f1aa933de47af92c42908c3"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/09-chishakui/records/cast-W-support-repair-20261008.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/09-chishakui/dependencies/records/cast-W-support-repair-20261008.json",
+      "sha256": "f1b75165ec492eb08ab9d5c37e82873f6be74bcae69ba4ab3f279f995064e158"
+    }
+  ],
+  "sourceFrameWarnings": [],
+  "generationConfigTarget": {
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "basis": "Historical source configuration, not actual returned metadata and not a new generation."
+  },
+  "sourceManifestSHAMatches": true
+}

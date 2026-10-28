@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "file": "art/whole-game/sheets/world-terrain-v1.png",
+  "sha256": "2e37ca24373d4c683bacdddb3674aaec5b2369b04d612e1271ed8cf8a60e60b5",
+  "generatedAt": "2026-10-28T09:18:51.024000+00:00",
+  "generationStartedAt": "2026-10-28T09:13:17.649Z",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGB",
+  "alphaExtrema": null,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "operation": "native model output; byte-for-byte copy from host generated_images directory",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "promptFile": "docs/production/world-terrain-v1.prompt.txt",
+    "referenced_image_paths": [
+      "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "estimateUsd": null,
+  "unverifiedReason": "宿主管理；image_gen工具没有model/quality选择器，结果没有可靠的实际型号/质量元数据；不能以配置或提示词作为证明。内置入口未披露逐图成本。",
+  "evidence": {
+    "receipt": "docs/production/world-terrain-v1.receipt.json",
+    "returnedOutputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17784-7bd6-7ee0-b3b0-353fcf2e1606 as C:\\Users\\luyua\\.codex\\generated_images\\01a17784-7bd6-7ee0-b3b0-353fcf2e1606\\exec-e4cb92d3-d54a-4112-ab9d-4439e6fa62c2.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "sourceToolResultKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "prompt": "docs/production/world-terrain-v1.prompt.txt",
+  "references": [
+    {
+      "file": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "dimensions": [
+        1931,
+        814
+      ],
+      "role": "identity and/or art style reference actually attached"
+    },
+    {
+      "file": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "dimensions": [
+        1931,
+        814
+      ],
+      "role": "identity and/or art style reference actually attached"
+    }
+  ],
+  "unityIntegration": "not-performed"
+}

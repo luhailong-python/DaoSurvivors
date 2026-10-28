@@ -1,0 +1,1086 @@
+{
+  "schemaVersion": 1,
+  "verifiedDate": "2026-10-26",
+  "project": {
+    "workingTitle": "道途幸存者",
+    "titleStatus": "暂定名",
+    "absolutePath": "E:\\work\\image\\DaoSurvivors",
+    "userProvidedGithubUrl": "https://github.com/Roo-Roo-Roo/survivors-roguelike-kit",
+    "githubUrlRole": "用户给定玩法/项目来源地址；本目录尚无已核实 Git 远端",
+    "gitRemoteBindingConfirmed": false,
+    "platform": "Unity"
+  },
+  "referenceRepository": {
+    "absolutePath": "F:\\work\\image",
+    "verifiedRemoteUrl": "https://luyuacpp.visualstudio.com/image/_git/image",
+    "githubUrl": null,
+    "githubStatus": "待确认；未把历史文档 GitHub 链接当作当前远端"
+  },
+  "scope": "18 existing RGBA PNG assets copied byte-for-byte, 2 native RGB images (lobby key art and battle HUD scene plate) generated through host builtin imagegen, and official Noto font/OFL. Each operation and provenance is recorded separately.",
+  "historicalEvidencePolicy": "Original dimensions and model/quality goals derive only from cited historical records. Missing or unreturned actual model/quality remains null; current image configuration is not backfilled. Old D:/ or E:/ paths in historical evidence are preserved as historical text.",
+  "styleReferences": [
+    {
+      "referenceRepositoryRelativePath": "designs/mail-ui-v1/01-mail-event.png",
+      "referenceAbsolutePath": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "relationship": "风格参考",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "dimensions": [
+        1931,
+        814
+      ],
+      "mode": "RGB",
+      "copiedIntoRuntimeAssets": false,
+      "visuallyInspected": true
+    },
+    {
+      "referenceRepositoryRelativePath": "designs/team-ui-v2/team-ui-v2.png",
+      "referenceAbsolutePath": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "relationship": "风格参考",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "dimensions": [
+        1931,
+        814
+      ],
+      "mode": "RGB",
+      "copiedIntoRuntimeAssets": false,
+      "visuallyInspected": true
+    }
+  ],
+  "assets": [
+    {
+      "output": "Assets/DaoSurvivor/Resources/DaoArt/main_frame.png",
+      "referenceRepositoryRelativePath": "designs/team-ui-v2/unity-slices/png/main_frame.png",
+      "referenceAbsolutePath": "F:\\work\\image\\designs\\team-ui-v2\\unity-slices\\png\\main_frame.png",
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no crop, resize or AI edit in this project",
+      "copiedAtUtc": "2026-10-26T09:30:34.996717+00:00",
+      "sha256": "6a378f42223fe31a264837bbb48cf7612ec558edc3edab36a211360c4f243330",
+      "dimensions": [
+        1664,
+        705
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nineSliceBordersLeftBottomRightTop": [
+        76.0,
+        79.0,
+        76.0,
+        79.0
+      ],
+      "originalNativeGenerationSize": [
+        1931,
+        814
+      ],
+      "generationInThisProject": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "actualModelQualityStatus": "未确认；未把历史目标或当前配置当成返回证据",
+      "sourceEvidence": [
+        "designs/team-ui-v2/unity-slices/README.md",
+        "designs/team-ui-v2/unity-slices/manifest.json",
+        "designs/team-ui-v2/source/generation.json"
+      ],
+      "historicalGenerationEvidence": {
+        "configuredModelGoal": "gpt-image-2 per historical source/generation.json",
+        "configuredQualityGoal": "highest visual quality",
+        "submittedModel": null,
+        "submittedQuality": null,
+        "returnedModel": null,
+        "returnedQuality": null,
+        "sourceGeneratedDate": "2026-09-13"
+      },
+      "role": "UI skin",
+      "notes": "Existing approved UI crop/reconstruction. Original source Nine-part frame reconstructed from original clean paper, edges and corners.",
+      "unityResourceKey": "DaoArt/main_frame"
+    },
+    {
+      "output": "Assets/DaoSurvivor/Resources/DaoArt/title_plate.png",
+      "referenceRepositoryRelativePath": "designs/team-ui-v2/unity-slices/png/title_plate.png",
+      "referenceAbsolutePath": "F:\\work\\image\\designs\\team-ui-v2\\unity-slices\\png\\title_plate.png",
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no crop, resize or AI edit in this project",
+      "copiedAtUtc": "2026-10-26T09:30:34.996717+00:00",
+      "sha256": "7b81c7b17fa7d219f181c3edc1fa40412fe34a39e0bbe0e77b25088c83707871",
+      "dimensions": [
+        716,
+        145
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nineSliceBordersLeftBottomRightTop": [
+        142.0,
+        29.0,
+        142.0,
+        35.0
+      ],
+      "originalNativeGenerationSize": [
+        1931,
+        814
+      ],
+      "generationInThisProject": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "actualModelQualityStatus": "未确认；未把历史目标或当前配置当成返回证据",
+      "sourceEvidence": [
+        "designs/team-ui-v2/unity-slices/README.md",
+        "designs/team-ui-v2/unity-slices/manifest.json",
+        "designs/team-ui-v2/source/generation.json"
+      ],
+      "historicalGenerationEvidence": {
+        "configuredModelGoal": "gpt-image-2 per historical source/generation.json",
+        "configuredQualityGoal": "highest visual quality",
+        "submittedModel": null,
+        "submittedQuality": null,
+        "returnedModel": null,
+        "returnedQuality": null,
+        "sourceGeneratedDate": "2026-09-13"
+      },
+      "role": "UI skin",
+      "notes": "Existing approved UI crop/reconstruction. Original source Original cloud plaque silhouette; baked title/subtitle replaced with adjacent jade; boundary-connected pale sky removed through official MCP.",
+      "unityResourceKey": "DaoArt/title_plate"
+    },
+    {
+      "output": "Assets/DaoSurvivor/Resources/DaoArt/section_plate.png",
+      "referenceRepositoryRelativePath": "designs/team-ui-v2/unity-slices/png/section_plate.png",
+      "referenceAbsolutePath": "F:\\work\\image\\designs\\team-ui-v2\\unity-slices\\png\\section_plate.png",
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no crop, resize or AI edit in this project",
+      "copiedAtUtc": "2026-10-26T09:30:34.996717+00:00",
+      "sha256": "0233d6e1ba16bd2b4b7c11a5a4680ef61fae9b1c6b161c3f3d28f047d23c305f",
+      "dimensions": [
+        433,
+        72
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nineSliceBordersLeftBottomRightTop": [
+        76.0,
+        16.0,
+        72.0,
+        21.0
+      ],
+      "originalNativeGenerationSize": [
+        1931,
+        814
+      ],
+      "generationInThisProject": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "actualModelQualityStatus": "未确认；未把历史目标或当前配置当成返回证据",
+      "sourceEvidence": [
+        "designs/team-ui-v2/unity-slices/README.md",
+        "designs/team-ui-v2/unity-slices/manifest.json",
+        "designs/team-ui-v2/source/generation.json"
+      ],
+      "historicalGenerationEvidence": {
+        "configuredModelGoal": "gpt-image-2 per historical source/generation.json",
+        "configuredQualityGoal": "highest visual quality",
+        "submittedModel": null,
+        "submittedQuality": null,
+        "returnedModel": null,
+        "returnedQuality": null,
+        "sourceGeneratedDate": "2026-09-13"
+      },
+      "role": "UI skin",
+      "notes": "Existing approved UI crop/reconstruction. Original source Original jade section plaque, text cleared with original jade.",
+      "unityResourceKey": "DaoArt/section_plate"
+    },
+    {
+      "output": "Assets/DaoSurvivor/Resources/DaoArt/member_row.png",
+      "referenceRepositoryRelativePath": "designs/team-ui-v2/unity-slices/png/member_row.png",
+      "referenceAbsolutePath": "F:\\work\\image\\designs\\team-ui-v2\\unity-slices\\png\\member_row.png",
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no crop, resize or AI edit in this project",
+      "copiedAtUtc": "2026-10-26T09:30:34.996717+00:00",
+      "sha256": "706797419d8d1d8daa67b3915af7b53a01f760ae5590ed5214655985a79a155b",
+      "dimensions": [
+        851,
+        97
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nineSliceBordersLeftBottomRightTop": [
+        24.0,
+        19.0,
+        24.0,
+        19.0
+      ],
+      "originalNativeGenerationSize": [
+        1931,
+        814
+      ],
+      "generationInThisProject": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "actualModelQualityStatus": "未确认；未把历史目标或当前配置当成返回证据",
+      "sourceEvidence": [
+        "designs/team-ui-v2/unity-slices/README.md",
+        "designs/team-ui-v2/unity-slices/manifest.json",
+        "designs/team-ui-v2/source/generation.json"
+      ],
+      "historicalGenerationEvidence": {
+        "configuredModelGoal": "gpt-image-2 per historical source/generation.json",
+        "configuredQualityGoal": "highest visual quality",
+        "submittedModel": null,
+        "submittedQuality": null,
+        "returnedModel": null,
+        "returnedQuality": null,
+        "sourceGeneratedDate": "2026-09-13"
+      },
+      "role": "UI skin",
+      "notes": "Existing approved UI crop/reconstruction. Original source Original empty-member border, clean source paper replaces plus/text.",
+      "unityResourceKey": "DaoArt/member_row"
+    },
+    {
+      "output": "Assets/DaoSurvivor/Resources/DaoArt/application_card.png",
+      "referenceRepositoryRelativePath": "designs/team-ui-v2/unity-slices/png/application_card.png",
+      "referenceAbsolutePath": "F:\\work\\image\\designs\\team-ui-v2\\unity-slices\\png\\application_card.png",
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no crop, resize or AI edit in this project",
+      "copiedAtUtc": "2026-10-26T09:30:34.996717+00:00",
+      "sha256": "3296c51cee62208be6f4af16d5009999384edb2dacaa6ef88f52eda2192e6d2e",
+      "dimensions": [
+        631,
+        198
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nineSliceBordersLeftBottomRightTop": [
+        27.0,
+        24.0,
+        27.0,
+        24.0
+      ],
+      "originalNativeGenerationSize": [
+        1931,
+        814
+      ],
+      "generationInThisProject": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "actualModelQualityStatus": "未确认；未把历史目标或当前配置当成返回证据",
+      "sourceEvidence": [
+        "designs/team-ui-v2/unity-slices/README.md",
+        "designs/team-ui-v2/unity-slices/manifest.json",
+        "designs/team-ui-v2/source/generation.json"
+      ],
+      "historicalGenerationEvidence": {
+        "configuredModelGoal": "gpt-image-2 per historical source/generation.json",
+        "configuredQualityGoal": "highest visual quality",
+        "submittedModel": null,
+        "submittedQuality": null,
+        "returnedModel": null,
+        "returnedQuality": null,
+        "sourceGeneratedDate": "2026-09-13"
+      },
+      "role": "UI skin",
+      "notes": "Existing approved UI crop/reconstruction. Original source Original application card border and source paper, portrait/text removed.",
+      "unityResourceKey": "DaoArt/application_card"
+    },
+    {
+      "output": "Assets/DaoSurvivor/Resources/DaoArt/button_primary.png",
+      "referenceRepositoryRelativePath": "designs/team-ui-v2/unity-slices/png/button_primary.png",
+      "referenceAbsolutePath": "F:\\work\\image\\designs\\team-ui-v2\\unity-slices\\png\\button_primary.png",
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no crop, resize or AI edit in this project",
+      "copiedAtUtc": "2026-10-26T09:30:34.996717+00:00",
+      "sha256": "601439876422eb7cc1375b40960702c46e16728025d979d8d30b9b3dd4e1c4ea",
+      "dimensions": [
+        225,
+        66
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nineSliceBordersLeftBottomRightTop": [
+        45.0,
+        16.0,
+        45.0,
+        16.0
+      ],
+      "originalNativeGenerationSize": [
+        1931,
+        814
+      ],
+      "generationInThisProject": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "actualModelQualityStatus": "未确认；未把历史目标或当前配置当成返回证据",
+      "sourceEvidence": [
+        "designs/team-ui-v2/unity-slices/README.md",
+        "designs/team-ui-v2/unity-slices/manifest.json",
+        "designs/team-ui-v2/source/generation.json"
+      ],
+      "historicalGenerationEvidence": {
+        "configuredModelGoal": "gpt-image-2 per historical source/generation.json",
+        "configuredQualityGoal": "highest visual quality",
+        "submittedModel": null,
+        "submittedQuality": null,
+        "returnedModel": null,
+        "returnedQuality": null,
+        "sourceGeneratedDate": "2026-09-13"
+      },
+      "role": "UI skin",
+      "notes": "Existing approved UI crop/reconstruction. Original source Original jade action skin with text removed and silhouette alpha.",
+      "unityResourceKey": "DaoArt/button_primary"
+    },
+    {
+      "output": "Assets/DaoSurvivor/Resources/DaoArt/button_secondary.png",
+      "referenceRepositoryRelativePath": "designs/team-ui-v2/unity-slices/png/button_secondary.png",
+      "referenceAbsolutePath": "F:\\work\\image\\designs\\team-ui-v2\\unity-slices\\png\\button_secondary.png",
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no crop, resize or AI edit in this project",
+      "copiedAtUtc": "2026-10-26T09:30:34.996717+00:00",
+      "sha256": "d1703b1c9ea3bb659addd4682a76d7955d045ddd6652e9312769352dc2fcdecc",
+      "dimensions": [
+        220,
+        66
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nineSliceBordersLeftBottomRightTop": [
+        45.0,
+        16.0,
+        45.0,
+        16.0
+      ],
+      "originalNativeGenerationSize": [
+        1931,
+        814
+      ],
+      "generationInThisProject": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "actualModelQualityStatus": "未确认；未把历史目标或当前配置当成返回证据",
+      "sourceEvidence": [
+        "designs/team-ui-v2/unity-slices/README.md",
+        "designs/team-ui-v2/unity-slices/manifest.json",
+        "designs/team-ui-v2/source/generation.json"
+      ],
+      "historicalGenerationEvidence": {
+        "configuredModelGoal": "gpt-image-2 per historical source/generation.json",
+        "configuredQualityGoal": "highest visual quality",
+        "submittedModel": null,
+        "submittedQuality": null,
+        "returnedModel": null,
+        "returnedQuality": null,
+        "sourceGeneratedDate": "2026-09-13"
+      },
+      "role": "UI skin",
+      "notes": "Existing approved UI crop/reconstruction. Original source Original paper action skin with text removed and silhouette alpha.",
+      "unityResourceKey": "DaoArt/button_secondary"
+    },
+    {
+      "output": "Assets/DaoSurvivor/Resources/DaoArt/close.png",
+      "referenceRepositoryRelativePath": "designs/team-ui-v2/unity-slices/png/close.png",
+      "referenceAbsolutePath": "F:\\work\\image\\designs\\team-ui-v2\\unity-slices\\png\\close.png",
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no crop, resize or AI edit in this project",
+      "copiedAtUtc": "2026-10-26T09:30:34.996717+00:00",
+      "sha256": "26b3ccd040e44df84573174ab22bbfe72bceacc35dd96f5538c879ccfb8df3cc",
+      "dimensions": [
+        82,
+        82
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nineSliceBordersLeftBottomRightTop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "originalNativeGenerationSize": [
+        1931,
+        814
+      ],
+      "generationInThisProject": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "actualModelQualityStatus": "未确认；未把历史目标或当前配置当成返回证据",
+      "sourceEvidence": [
+        "designs/team-ui-v2/unity-slices/README.md",
+        "designs/team-ui-v2/unity-slices/manifest.json",
+        "designs/team-ui-v2/source/generation.json"
+      ],
+      "historicalGenerationEvidence": {
+        "configuredModelGoal": "gpt-image-2 per historical source/generation.json",
+        "configuredQualityGoal": "highest visual quality",
+        "submittedModel": null,
+        "submittedQuality": null,
+        "returnedModel": null,
+        "returnedQuality": null,
+        "sourceGeneratedDate": "2026-09-13"
+      },
+      "role": "UI skin",
+      "notes": "Existing approved UI crop/reconstruction. Original source Original fixed X button with circular alpha.",
+      "unityResourceKey": "DaoArt/close"
+    },
+    {
+      "output": "Assets/DaoSurvivor/Resources/DaoArt/portrait_frame.png",
+      "referenceRepositoryRelativePath": "designs/team-ui-v2/unity-slices/png/portrait_frame.png",
+      "referenceAbsolutePath": "F:\\work\\image\\designs\\team-ui-v2\\unity-slices\\png\\portrait_frame.png",
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no crop, resize or AI edit in this project",
+      "copiedAtUtc": "2026-10-26T09:30:34.996717+00:00",
+      "sha256": "920d271ede006157ef337f2467f666d5189f5ee9d7ec4d0cde9ac5626a35d945",
+      "dimensions": [
+        91,
+        91
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nineSliceBordersLeftBottomRightTop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "originalNativeGenerationSize": [
+        1931,
+        814
+      ],
+      "generationInThisProject": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "actualModelQualityStatus": "未确认；未把历史目标或当前配置当成返回证据",
+      "sourceEvidence": [
+        "designs/team-ui-v2/unity-slices/README.md",
+        "designs/team-ui-v2/unity-slices/manifest.json",
+        "designs/team-ui-v2/source/generation.json"
+      ],
+      "historicalGenerationEvidence": {
+        "configuredModelGoal": "gpt-image-2 per historical source/generation.json",
+        "configuredQualityGoal": "highest visual quality",
+        "submittedModel": null,
+        "submittedQuality": null,
+        "returnedModel": null,
+        "returnedQuality": null,
+        "sourceGeneratedDate": "2026-09-13"
+      },
+      "role": "UI skin",
+      "notes": "Existing approved UI crop/reconstruction. Original source Gold rim from the empty-slot circle; inner pixels removed, transparent ring.",
+      "unityResourceKey": "DaoArt/portrait_frame"
+    },
+    {
+      "output": "Assets/DaoSurvivor/Resources/DaoArt/hero.png",
+      "referenceRepositoryRelativePath": "designs/team-ui-v2/assets/hero-headband.png",
+      "referenceAbsolutePath": "F:\\work\\image\\designs\\team-ui-v2\\assets\\hero-headband.png",
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no crop, resize or AI edit in this project",
+      "copiedAtUtc": "2026-10-26T09:30:34.996717+00:00",
+      "sha256": "de0c3e6d71d7c3dbbfed313e7971b2b8220e27d3e79aafa617b225d3e322706d",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nineSliceBordersLeftBottomRightTop": null,
+      "originalNativeGenerationSize": null,
+      "generationInThisProject": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "actualModelQualityStatus": "未确认；未把历史目标或当前配置当成返回证据",
+      "sourceEvidence": [
+        "designs/team-ui-v2/asset-manifest.json",
+        "qdao_chibi_game_pack_v4/manifest.json",
+        "docs/QDAO_ART_DIRECTION.md"
+      ],
+      "historicalGenerationEvidence": {
+        "historicalManifestModelLabel": "gpt-image-2",
+        "returnedModel": null,
+        "returnedQuality": null
+      },
+      "role": "道童静态角色",
+      "notes": "Static transparent full-body sprite. Current preserved 1024x1024 export; no new native-detail claim. Historical source qdao_chibi_game_pack_v4/hero-transparent_1024.png.",
+      "unityResourceKey": "DaoArt/hero"
+    },
+    {
+      "output": "Assets/DaoSurvivor/Resources/DaoArt/sword.png",
+      "referenceRepositoryRelativePath": "designs/team-ui-v2/assets/24_lu_dongbin.png",
+      "referenceAbsolutePath": "F:\\work\\image\\designs\\team-ui-v2\\assets\\24_lu_dongbin.png",
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no crop, resize or AI edit in this project",
+      "copiedAtUtc": "2026-10-26T09:30:34.996717+00:00",
+      "sha256": "ea2228db505fbc057da4b4056d08e9bd00ddc0832921e1b37b148ac703b43989",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nineSliceBordersLeftBottomRightTop": null,
+      "originalNativeGenerationSize": null,
+      "generationInThisProject": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "actualModelQualityStatus": "未确认；未把历史目标或当前配置当成返回证据",
+      "sourceEvidence": [
+        "designs/team-ui-v2/asset-manifest.json"
+      ],
+      "historicalGenerationEvidence": null,
+      "role": "剑修静态角色",
+      "notes": "Static transparent full-body sprite; no animation. Historical origin qdao_chibi_roster_v11/24_lu_dongbin/portrait.png is absent; current preserved copy verified directly. Original generation dimensions/model/quality unknown.",
+      "unityResourceKey": "DaoArt/sword"
+    },
+    {
+      "output": "Assets/DaoSurvivor/Resources/DaoArt/healer.png",
+      "referenceRepositoryRelativePath": "designs/team-ui-v2/assets/29_he_xiangu.png",
+      "referenceAbsolutePath": "F:\\work\\image\\designs\\team-ui-v2\\assets\\29_he_xiangu.png",
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no crop, resize or AI edit in this project",
+      "copiedAtUtc": "2026-10-26T09:30:34.996717+00:00",
+      "sha256": "ad13960429287eaba81d33a8af49845150cd7619bb9a02bf00894af63b3c032e",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nineSliceBordersLeftBottomRightTop": null,
+      "originalNativeGenerationSize": null,
+      "generationInThisProject": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "actualModelQualityStatus": "未确认；未把历史目标或当前配置当成返回证据",
+      "sourceEvidence": [
+        "designs/team-ui-v2/asset-manifest.json"
+      ],
+      "historicalGenerationEvidence": null,
+      "role": "莲修静态角色",
+      "notes": "Static transparent full-body sprite; no animation. Historical origin qdao_chibi_roster_v11/29_he_xiangu/portrait.png is absent; current preserved copy verified directly. Original generation dimensions/model/quality unknown.",
+      "unityResourceKey": "DaoArt/healer"
+    },
+    {
+      "output": "Assets/DaoSurvivor/Resources/DaoArt/enemy-tiger.png",
+      "referenceRepositoryRelativePath": "designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/runtime/attack/E/01.png",
+      "referenceAbsolutePath": "F:\\work\\image\\designs\\creature-combat-20261005\\pets\\legacy-fu-xiao-hu\\runtime\\attack\\E\\01.png",
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no crop, resize or AI edit in this project",
+      "copiedAtUtc": "2026-10-26T09:30:34.996717+00:00",
+      "sha256": "3f4e0639c59e43ff3bd50bd26e903a5977a5e68910eff6a43d13a4454252a3ce",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nineSliceBordersLeftBottomRightTop": null,
+      "originalNativeGenerationSize": [
+        1254,
+        1254
+      ],
+      "generationInThisProject": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "actualModelQualityStatus": "未确认；未把历史目标或当前配置当成返回证据",
+      "sourceEvidence": [
+        "designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/README.md",
+        "designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/manifest.json",
+        "designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/runtime/attack/E/01.png.generation.json",
+        "designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/records/attack-E-01.generation.json"
+      ],
+      "historicalGenerationEvidence": {
+        "generatedAt": "2026-10-05T11:35:37.272500+00:00",
+        "tool": "image_gen.imagegen",
+        "route": "builtin",
+        "configSnapshot": {
+          "schema_version": 1,
+          "model": "gpt-image-2.5-sunburst",
+          "quality": "max",
+          "builtin_product": "ChatGPT Images 2.5",
+          "selection": "latest_verified",
+          "preferred_route": "builtin",
+          "verified_on": "2026-10-04",
+          "sources": {
+            "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+            "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+          }
+        },
+        "submittedParameters": {
+          "model": null,
+          "quality": null,
+          "transparent_background": true,
+          "referenced_image_paths": [
+            "D:/work/image/qdao_chibi_pets_v1/02_fu_xiao_hu-transparent_1254.png",
+            "D:/work/image/designs/attribute-panels/v2-painted/01-character-ui-no-affinity.png",
+            "D:\\work\\image\\designs\\creature-combat-20261005\\pets\\legacy-fu-xiao-hu\\design\\E-reference.png"
+          ]
+        },
+        "actualModel": null,
+        "actualQuality": null,
+        "unverifiedReason": "宿主管理，工具未披露 model/quality，无可核实元数据。"
+      },
+      "role": "符虎静态敌人显示",
+      "notes": "Only attack/E/01 copied; this project does not include or claim an animation set. Source is existing full-canvas 1254→1024 export plus fixed direction translation [0,-15].",
+      "unityResourceKey": "DaoArt/enemy-tiger"
+    },
+    {
+      "output": "Assets/DaoSurvivor/Resources/DaoArt/enemy-lantern.png",
+      "referenceRepositoryRelativePath": "designs/creature-combat-20261005/pets/04-guideng/runtime/attack/E/01.png",
+      "referenceAbsolutePath": "F:\\work\\image\\designs\\creature-combat-20261005\\pets\\04-guideng\\runtime\\attack\\E\\01.png",
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no crop, resize or AI edit in this project",
+      "copiedAtUtc": "2026-10-26T09:30:34.996717+00:00",
+      "sha256": "cb9fd0d4187c8fc654cceb388c0672d465d1373e47ed17aa1acd7b9a75b66341",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nineSliceBordersLeftBottomRightTop": null,
+      "originalNativeGenerationSize": [
+        1254,
+        1254
+      ],
+      "generationInThisProject": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "actualModelQualityStatus": "未确认；未把历史目标或当前配置当成返回证据",
+      "sourceEvidence": [
+        "designs/creature-combat-20261005/pets/04-guideng/README.md",
+        "designs/creature-combat-20261005/pets/04-guideng/manifest.json",
+        "designs/creature-combat-20261005/pets/04-guideng/records/E-attack/01.generation.json"
+      ],
+      "historicalGenerationEvidence": {
+        "generatedAt": "2026-10-05T17:26:23.182Z",
+        "tool": "image_gen.imagegen",
+        "route": "builtin",
+        "configSnapshot": {
+          "schema_version": 1,
+          "model": "gpt-image-2.5-sunburst",
+          "quality": "max",
+          "builtin_product": "ChatGPT Images 2.5",
+          "selection": "latest_verified",
+          "preferred_route": "builtin",
+          "verified_on": "2026-10-04",
+          "sources": {
+            "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+            "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+          }
+        },
+        "submittedParameters": {
+          "model": null,
+          "quality": null,
+          "transparent_background": true,
+          "referenced_image_paths": [
+            "D:/work/image/designs/pets-xianling-20260924/source/04-guideng-E.png",
+            "D:/work/image/designs/pets-xianling-20260924/source/04-guideng-W.png",
+            "D:/work/image/designs/attribute-panels/v2-painted/01-character-ui-no-affinity.png",
+            "D:/work/image/designs/creature-combat-20261005/pets/04-guideng/runtime/hit/E/06.png"
+          ]
+        },
+        "actualModel": null,
+        "actualQuality": null,
+        "unverifiedReason": "宿主管理，工具未披露／无可核实元数据"
+      },
+      "role": "灯灵静态敌人显示",
+      "notes": "Only attack/E/01 copied; no animation set. Historical export scales full native canvas to 922 and pads at [51,51] in 1024 transparent canvas.",
+      "unityResourceKey": "DaoArt/enemy-lantern"
+    },
+    {
+      "output": "Assets/DaoSurvivor/Resources/DaoArt/fox.png",
+      "referenceRepositoryRelativePath": "qdao_ui_redesign_v5/pet/ling_yue_nine_tailed_fox-transparent_1254.png",
+      "referenceAbsolutePath": "F:\\work\\image\\qdao_ui_redesign_v5\\pet\\ling_yue_nine_tailed_fox-transparent_1254.png",
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no crop, resize or AI edit in this project",
+      "copiedAtUtc": "2026-10-26T09:30:34.996717+00:00",
+      "sha256": "eb55d459871737d1c49ff49097d1c7612cf60a35095c60bfca0198e425c04b11",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nineSliceBordersLeftBottomRightTop": null,
+      "originalNativeGenerationSize": [
+        1254,
+        1254
+      ],
+      "generationInThisProject": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "actualModelQualityStatus": "未确认；未把历史目标或当前配置当成返回证据",
+      "sourceEvidence": [
+        "qdao_ui_redesign_v5/pet/README.md",
+        "qdao_ui_redesign_v5/pet/manifest.json"
+      ],
+      "historicalGenerationEvidence": null,
+      "role": "九尾狐静态灵宠",
+      "notes": "Static transparent nine-tailed fox; no animation. Manifest reports original transparent native 1254 square; some historical linked records under qdao_asset_refresh_v6 are absent, not restored.",
+      "unityResourceKey": "DaoArt/fox"
+    },
+    {
+      "output": "Assets/DaoSurvivor/Resources/DaoArt/icon-sword.png",
+      "referenceRepositoryRelativePath": "designs/equipment-ui-20261008/sprites/icon_sword.png",
+      "referenceAbsolutePath": "F:\\work\\image\\designs\\equipment-ui-20261008\\sprites\\icon_sword.png",
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no crop, resize or AI edit in this project",
+      "copiedAtUtc": "2026-10-26T09:30:34.996717+00:00",
+      "sha256": "4f10322dbfced9be6135fb37b07e20ee101df3b05a8954d448aeecd488be2c7f",
+      "dimensions": [
+        600,
+        600
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nineSliceBordersLeftBottomRightTop": null,
+      "originalNativeGenerationSize": [
+        1536,
+        1024
+      ],
+      "generationInThisProject": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "actualModelQualityStatus": "未确认；未把历史目标或当前配置当成返回证据",
+      "sourceEvidence": [
+        "designs/equipment-ui-20261008/README.md",
+        "designs/equipment-ui-20261008/sprites/icon_sword.png.generation.json",
+        "designs/equipment-ui-20261008/equipment-icons.png.generation.json"
+      ],
+      "historicalGenerationEvidence": {
+        "generatedAt": "2026-10-08T11:15:04.822Z",
+        "tool": "image_gen.imagegen",
+        "route": "builtin",
+        "configSnapshot": {
+          "schema_version": 1,
+          "model": "gpt-image-2.5-sunburst",
+          "quality": "max",
+          "builtin_product": "ChatGPT Images 2.5",
+          "selection": "latest_verified",
+          "preferred_route": "builtin",
+          "verified_on": "2026-09-29",
+          "sources": {
+            "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+            "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+          }
+        },
+        "submittedParameters": {
+          "model": null,
+          "quality": null,
+          "transparent_background": true
+        },
+        "actualModel": null,
+        "actualQuality": null,
+        "unverifiedReason": "宿主管理，工具未披露可核实型号及质量。"
+      },
+      "role": "灵剑图标",
+      "notes": "600x600 is existing crop/aspect-preserving resize/transparent-pad export from a shared 1536x1024 generated atlas; not native 600 detail.",
+      "unityResourceKey": "DaoArt/icon-sword"
+    },
+    {
+      "output": "Assets/DaoSurvivor/Resources/DaoArt/icon-boots.png",
+      "referenceRepositoryRelativePath": "designs/equipment-ui-20261008/sprites/icon_boots.png",
+      "referenceAbsolutePath": "F:\\work\\image\\designs\\equipment-ui-20261008\\sprites\\icon_boots.png",
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no crop, resize or AI edit in this project",
+      "copiedAtUtc": "2026-10-26T09:30:34.996717+00:00",
+      "sha256": "b980fcec5f8e7307174d45f8f74ef432dfbbbf5f3343c2067976af1a9cdbe2f5",
+      "dimensions": [
+        600,
+        600
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nineSliceBordersLeftBottomRightTop": null,
+      "originalNativeGenerationSize": [
+        1536,
+        1024
+      ],
+      "generationInThisProject": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "actualModelQualityStatus": "未确认；未把历史目标或当前配置当成返回证据",
+      "sourceEvidence": [
+        "designs/equipment-ui-20261008/README.md",
+        "designs/equipment-ui-20261008/sprites/icon_boots.png.generation.json",
+        "designs/equipment-ui-20261008/equipment-icons.png.generation.json"
+      ],
+      "historicalGenerationEvidence": {
+        "generatedAt": "2026-10-08T11:15:04.822Z",
+        "tool": "image_gen.imagegen",
+        "route": "builtin",
+        "configSnapshot": {
+          "schema_version": 1,
+          "model": "gpt-image-2.5-sunburst",
+          "quality": "max",
+          "builtin_product": "ChatGPT Images 2.5",
+          "selection": "latest_verified",
+          "preferred_route": "builtin",
+          "verified_on": "2026-09-29",
+          "sources": {
+            "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+            "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+          }
+        },
+        "submittedParameters": {
+          "model": null,
+          "quality": null,
+          "transparent_background": true
+        },
+        "actualModel": null,
+        "actualQuality": null,
+        "unverifiedReason": "宿主管理，工具未披露可核实型号及质量。"
+      },
+      "role": "踏云靴图标",
+      "notes": "600x600 is existing crop/aspect-preserving resize/transparent-pad export from a shared 1536x1024 generated atlas; not native 600 detail.",
+      "unityResourceKey": "DaoArt/icon-boots"
+    },
+    {
+      "output": "Assets/DaoSurvivor/Resources/DaoArt/icon-taiji.png",
+      "referenceRepositoryRelativePath": "qdao_ui_redesign_v5/components/png/round_badge_taiji.png",
+      "referenceAbsolutePath": "F:\\work\\image\\qdao_ui_redesign_v5\\components\\png\\round_badge_taiji.png",
+      "relationship": "直接复用",
+      "operation": "byte-for-byte copy; no crop, resize or AI edit in this project",
+      "copiedAtUtc": "2026-10-26T09:30:34.996717+00:00",
+      "sha256": "c652c5f8377541bed5c8d6c3d23ef32fe1677b9a406f80f6805e44f70846feac",
+      "dimensions": [
+        120,
+        120
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nineSliceBordersLeftBottomRightTop": null,
+      "originalNativeGenerationSize": [
+        1254,
+        1254
+      ],
+      "generationInThisProject": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "actualModelQualityStatus": "未确认；未把历史目标或当前配置当成返回证据",
+      "sourceEvidence": [
+        "qdao_ui_redesign_v5/components/manifest.json",
+        "qdao_ui_style_recut_v10/source-map.common.json",
+        "qdao_ui_style_recut_v10/artwork/index.json"
+      ],
+      "historicalGenerationEvidence": {
+        "configuredModelGoal": "gpt-image-2",
+        "configuredQualityGoal": "highest available; tool has no exposed quality parameter",
+        "submittedModel": null,
+        "submittedQuality": null,
+        "returnedModel": null,
+        "returnedQuality": null
+      },
+      "role": "太极图标",
+      "notes": "Existing 120x120 transparent derivative from 260x257 emblem crop in source/04-emblems.png. Round badge must preserve aspect ratio; no nine-slice.",
+      "unityResourceKey": "DaoArt/icon-taiji"
+    }
+  ],
+  "validation": {
+    "pngDecode": "passed",
+    "copySha256MatchesSource": true,
+    "count": 18,
+    "allHaveRealAlpha": true,
+    "unityResourceCopiesSha256MatchesSource": true,
+    "postRelocationAbsolutePath": "E:\\work\\image\\DaoSurvivors",
+    "postRelocationVerifiedFiles": 20,
+    "postRelocationSha256AndDecode": "passed",
+    "scope": "18 imported RGBA PNGs; generated RGB lobby is validated separately"
+  },
+  "fonts": {
+    "family": "Noto Sans CJK SC",
+    "style": "Regular",
+    "license": "SIL Open Font License 1.1",
+    "licenseSource": "https://github.com/notofonts/noto-cjk/blob/main/Sans/LICENSE",
+    "fontResourceKey": "Fonts/NotoSansSC-Regular",
+    "files": [
+      {
+        "output": "Assets/DaoSurvivor/Resources/Fonts/NotoSansSC-Regular.otf",
+        "sourceUrl": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+        "verifiedAtUtc": "2026-10-26T09:34:40.412971+00:00",
+        "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+        "bytes": 16437364,
+        "relationship": "直接复用",
+        "operation": "download official unmodified bytes; project filename only"
+      },
+      {
+        "output": "Assets/DaoSurvivor/Resources/Fonts/NotoSansSC-OFL.txt",
+        "sourceUrl": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/LICENSE",
+        "verifiedAtUtc": "2026-10-26T09:34:40.425363+00:00",
+        "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+        "bytes": 4301,
+        "relationship": "直接复用",
+        "operation": "download official unmodified bytes; project filename only"
+      }
+    ],
+    "validation": {
+      "openTypeParse": "passed via Pillow/FreeType and Unicode cmap format12",
+      "requiredChineseGlyphs": "passed",
+      "unicodeMappedCodepoints": 44810,
+      "commercialSystemFontsUsed": false
+    },
+    "notes": "Reference repository contains only historical font references and no current font bytes. Downloaded from official upstream; no font conversion or outline edits. This font is not AI-generated or copied from a historical reference-repository font."
+  },
+  "generatedAssets": [
+    {
+      "output": "Assets/DaoSurvivor/Resources/DaoArt/lobby-v1.png",
+      "unityResourceKey": "DaoArt/lobby-v1",
+      "relationship": "本轮内置模型新生成",
+      "sha256": "c1d4031e9e6185855ce4d938a0d28b804a4edc0c88655dc52f735fedfe8a35a4",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "generationInThisProject": true,
+      "nativeOutputPreserved": true,
+      "operation": "native generation output byte copy; no crop or resize",
+      "generatedAt": "2026-10-26T05:29:12.8440388-04:00",
+      "generationRecord": "Assets/DaoSurvivor/Resources/DaoArt/lobby-v1.png.generation.json",
+      "receipt": "docs/production/lobby-v1.receipt.json",
+      "prompt": "docs/production/lobby-v1.prompt.txt",
+      "configTarget": {
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "max",
+        "builtin_product": "ChatGPT Images 2.5"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "unverifiedReason": "宿主管理；工具返回未披露具体后端型号和画质。C2PA仅有通用软件标签gpt-image，不能据此确认API分支、模型快照或实际质量。",
+      "references": [
+        {
+          "file": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+          "repositoryRelativePath": "designs/mail-ui-v1/01-mail-event.png",
+          "purpose": "风格参考：道家Q版高清手绘、玉绿/象牙纸面/暖金、圆润云纹和人物比例；不复制原界面业务文案或布局",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+          "width": 1931,
+          "height": 814
+        },
+        {
+          "file": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+          "repositoryRelativePath": "designs/team-ui-v2/team-ui-v2.png",
+          "purpose": "风格参考：道家Q版高清手绘、玉绿/象牙纸面/暖金、圆润云纹和人物比例；不复制原界面业务文案或布局",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+          "width": 1931,
+          "height": 814
+        }
+      ]
+    },
+    {
+      "output": "Assets/DaoSurvivor/Resources/DaoArt/arena-v1.png",
+      "unityResourceKey": "DaoArt/arena-v1",
+      "relationship": "本轮内置模型新生成",
+      "sha256": "0e4fe4c8d1c0a7ad3e0d59d9d12979ed77a94d1d93b22b3e652fa7fe1e6ae442",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "generationInThisProject": true,
+      "nativeOutputPreserved": true,
+      "operation": "native generation output byte copy; no crop or resize",
+      "generatedAt": "2026-10-26T05:49:43.7971852-04:00",
+      "generationRecord": "Assets/DaoSurvivor/Resources/DaoArt/arena-v1.png.generation.json",
+      "receipt": "docs/production/arena-v1.receipt.json",
+      "prompt": "docs/production/arena-v1.prompt.txt",
+      "sceneContract": "docs/production/arena-v1.contract.json",
+      "sceneScope": "战斗HUD场景底图；非可导航地图和原城市分块交付",
+      "configTarget": {
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "max",
+        "builtin_product": "ChatGPT Images 2.5"
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "unverifiedReason": "宿主管理；工具返回未披露具体后端型号和画质。C2PA仅有通用软件标签gpt-image，不能据此确认API分支、模型快照或实际质量。",
+      "references": [
+        {
+          "file": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+          "repositoryRelativePath": "designs/mail-ui-v1/01-mail-event.png",
+          "purpose": "风格参考：道家Q版高清手绘、玉绿/象牙纸面/暖金、圆润云纹和人物比例；不复制原界面业务文案或布局",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+          "width": 1931,
+          "height": 814
+        },
+        {
+          "file": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+          "repositoryRelativePath": "designs/team-ui-v2/team-ui-v2.png",
+          "purpose": "风格参考：道家Q版高清手绘、玉绿/象牙纸面/暖金、圆润云纹和人物比例；不复制原界面业务文案或布局",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+          "width": 1931,
+          "height": 814
+        }
+      ]
+    }
+  ],
+  "generatedAssetsValidation": {
+    "count": 2,
+    "nativeLobbyDecoded": true,
+    "sourceBytesEqualOutput": true,
+    "lobbySize": [
+      1672,
+      941
+    ],
+    "pngMode": "RGB",
+    "c2paManifestPresent": true,
+    "c2paCryptographicSignatureValidated": false,
+    "noBase64Saved": true,
+    "nativeArenaDecoded": true,
+    "arenaSourceBytesEqualOutput": true,
+    "arenaSize": [
+      1672,
+      941
+    ],
+    "arenaPngMode": "RGB",
+    "arenaC2paManifestPresent": true,
+    "arenaC2paCryptographicSignatureValidated": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "file": "art/whole-game/support/contact-shadow.png",
+  "source": "E:\\work\\image\\DaoSurvivors\\art\\whole-game\\enemies\\Slime.png",
+  "sourceSha256": "48759c74ac39cf77fc2bf657fab4af56aef1089f0fe588469cdb43fd04059017",
+  "operation": "approved Slime Alpha bbox -> resize256x64 -> centre512x256 -> GaussianBlur10; RGB black; no painted pixels or generation",
+  "newGeneration": false,
+  "newAIEdit": false,
+  "canvas": [
+    512,
+    256
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    253
+  ],
+  "zeroAlphaPixels": 108167,
+  "sha256": "49024b5852620246a80ab46b1d0b0cea6824098e9bea693885db24df4993b46d"
+}

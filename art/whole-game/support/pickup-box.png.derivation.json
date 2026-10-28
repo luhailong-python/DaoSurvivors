@@ -1,0 +1,19 @@
+{
+  "file": "art/whole-game/support/pickup-box.png",
+  "source": "E:\\work\\image\\DaoSurvivors\\art\\icons\\treasure-closed.png",
+  "sourceSha256": "ad5cc72fa0992ac253d8cea99efbcab82944eb86bb78794063e475e4cd1579c5",
+  "operation": "byte-copy",
+  "newGeneration": false,
+  "newAIEdit": false,
+  "canvas": [
+    512,
+    512
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "zeroAlphaPixels": 208948,
+  "sha256": "ad5cc72fa0992ac253d8cea99efbcab82944eb86bb78794063e475e4cd1579c5"
+}

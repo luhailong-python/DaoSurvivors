@@ -1,0 +1,124 @@
+{
+  "originalManifest": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/manifest.json",
+  "originalManifestSHA256": "cb1989837f7a7cc210d30a00a30c2a3663f514c1cc61c6fba65ada37c2ddcd6d",
+  "selection": "runtime/attack/E/01.png",
+  "selectedFrameRecord": {
+    "id": "attack/E/01",
+    "action": "attack",
+    "direction": "E",
+    "frame": 1,
+    "file": "runtime/attack/E/01.png",
+    "width": 1024,
+    "height": 1024,
+    "durationMs": 30,
+    "pivot": {
+      "topLeftPixels": [
+        512,
+        942
+      ],
+      "bottomLeftNormalized": [
+        0.5,
+        0.08
+      ]
+    },
+    "event": null,
+    "sha256": "ade00aacc1ae356dadea6883a17787dc81c69d9f00c0f344f122ab5b32edf880",
+    "source": {
+      "file": "source/attack-E-01.png",
+      "sha256": "63cddf6da0e9320e6dc612f97d9ea60542e7f89a19ad78d8eb135ab1f00c8a8f",
+      "generationRecord": "records/attack-E-01.json",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "retained": false,
+      "actualModel": null,
+      "actualQuality": null
+    },
+    "derivedRecord": "runtime/attack/E/01.png.generation.json",
+    "operation": "uniform-scale-and-canvas-placement",
+    "exportTransform": {
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "scale": 0.74,
+      "offsetPixels": [
+        48,
+        35
+      ],
+      "scaledSize": [
+        928,
+        928
+      ],
+      "method": "uniform-direction-canvas-transform",
+      "footRealignment": false
+    },
+    "visualStatus": "passed",
+    "metrics": {
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "transparentPixels": 784814,
+      "semitransparentPixels": 262765,
+      "opaquePixels": 997,
+      "alphaBBox": [
+        93,
+        50,
+        944,
+        963
+      ],
+      "alphaBBoxAbove16": [
+        248,
+        88,
+        795,
+        947
+      ],
+      "alphaBBoxAbove128": [
+        249,
+        88,
+        794,
+        946
+      ],
+      "edgeContact": false,
+      "edgeContactAbove16": false,
+      "edgeContactAbove128": false,
+      "visiblePixelSha256": "37d45e67a8e97a22221cd8636e7a067efc96533e117bc81709bea8cebe73b19e",
+      "translationInvariantSha256": "3c93942b39d59b12fd5080d3c3789d9c2c3dc897c5e7b283fa07bfb970433067",
+      "mirroredCropSha256": "44bad2542afdc527d66c522442409531fbba8c3536676291ebf2754c9103038e"
+    }
+  },
+  "sourcePackageMetadata": {
+    "schemaVersion": 1,
+    "pet": "legacy-yun-jiu-jiu",
+    "name": "云啾啾",
+    "builtAt": "2026-10-08T09:43:30+00:00",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pivot": {
+      "topLeftPixels": [
+        512,
+        942
+      ],
+      "bottomLeftNormalized": [
+        0.5,
+        0.08
+      ]
+    },
+    "expectedFrames": 68,
+    "availableFrames": 68,
+    "coordinatePolicy": "One native canvas and one uniform export transform per direction across all actions; no per-frame foot alignment.",
+    "transforms": {},
+    "missingFrames": [],
+    "technicalStatus": "passed",
+    "artAndMotionApproval": "not-implied",
+    "clientIntegration": "not-performed"
+  },
+  "snapshotPurpose": "Only selected single frame is adopted; metadata of 68-frame original is historical context, not a claim this task copies or validates all 68."
+}

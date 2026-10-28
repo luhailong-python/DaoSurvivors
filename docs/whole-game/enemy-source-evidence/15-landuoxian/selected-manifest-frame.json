@@ -1,0 +1,66 @@
+{
+  "originalManifest": "designs/creature-combat-20261005/pets/15-landuoxian/manifest.json",
+  "originalManifestSHA256": "770ad62779897558fa630e503400222b1577a05358c4f682a15ee27a56648ed4",
+  "selection": "runtime/attack/E/01.png",
+  "selectedFrameRecord": {
+    "file": "runtime/attack/E/01.png",
+    "action": "attack",
+    "direction": "E",
+    "index": 1,
+    "width": 1024,
+    "height": 1024,
+    "durationMs": 30,
+    "pivot": [
+      0.5,
+      0.08
+    ],
+    "anchorTopLeft": [
+      512,
+      942
+    ],
+    "event": null,
+    "sha256": "33fdac90c217111d5b57bead28417d6074523acb8305fd9237c981ccc6ae21d5",
+    "pixelSHA256": "0e0c8d0c72e9a0067e7283cbbe2cb06b3d40748ee9d48bbd1df03fc964bb8b92",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBBox": [
+      52,
+      98,
+      950,
+      945
+    ],
+    "generationRecord": "runtime/attack/E/01.png.generation.json",
+    "visualStatus": "inspected_static_and_preview"
+  },
+  "sourcePackageMetadata": {
+    "schemaVersion": 1,
+    "character": "岚铎仙",
+    "slug": "15-landuoxian",
+    "expectedFrameCount": 68,
+    "frameCount": 68,
+    "generatedAt": "2026-10-08T06:34:59.321621+00:00",
+    "directions": {
+      "E": "front three-quarter southeast",
+      "W": "true back three-quarter northwest"
+    },
+    "exportTransform": {
+      "wholeCanvasResizedTo": [
+        920,
+        920
+      ],
+      "offset": [
+        52,
+        37
+      ],
+      "outputSize": [
+        1024,
+        1024
+      ],
+      "perFrameAlignment": false
+    },
+    "clientIntegration": "not_performed"
+  },
+  "snapshotPurpose": "Only selected single frame is adopted; metadata of 68-frame original is historical context, not a claim this task copies or validates all 68."
+}

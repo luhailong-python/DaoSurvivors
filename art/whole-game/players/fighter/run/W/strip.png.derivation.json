@@ -1,0 +1,9 @@
+{
+  "file": "art/whole-game/players/fighter/run/W/strip.png",
+  "sha256": "4a6a00f74f57c863c92fcfc6d1fbd028d270740a862bb2dd3d4a6129ba891f42",
+  "derivedFrom": {
+    "file": "art/whole-game/players/fighter/run/E/strip.png",
+    "sha256": "3a282fe532175b50d1310b466d92bae866ca8869890808d9d477a8e4bdead59e"
+  },
+  "operation": "each of16 chronological cells reflected horizontally; frame order unchanged"
+}

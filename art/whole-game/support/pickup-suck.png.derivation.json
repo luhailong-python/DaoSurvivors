@@ -1,0 +1,19 @@
+{
+  "file": "art/whole-game/support/pickup-suck.png",
+  "source": "E:\\work\\image\\DaoSurvivors\\art\\whole-game\\fx\\pickup-suck.png",
+  "sourceSha256": "0830830256ab903087a4e3aa3fb40bd1daa266244abedc74317d64b2a212693b",
+  "operation": "byte-copy",
+  "newGeneration": false,
+  "newAIEdit": false,
+  "canvas": [
+    512,
+    512
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    253
+  ],
+  "zeroAlphaPixels": 208187,
+  "sha256": "0830830256ab903087a4e3aa3fb40bd1daa266244abedc74317d64b2a212693b"
+}

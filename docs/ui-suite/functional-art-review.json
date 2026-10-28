@@ -1,0 +1,1113 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "kit_system_audit",
+  "reviewedAtUtc": "2026-10-26T11:26:46.238179+00:00",
+  "phase": "art-only",
+  "reviewType": "static functional content and design-state consistency; not game implementation or runtime testing",
+  "scope": "Read master inventory and preview layout JS against actual reference C#/ScriptableObject/scene/prefab evidence. Only this review document is written.",
+  "result": "resolved_in_final_ui_art_review",
+  "unityExecuted": false,
+  "gameRuntimeTested": false,
+  "browserPreviewExecutedByThisReview": false,
+  "gitMutated": false,
+  "reference": {
+    "url": "https://github.com/Roo-Roo-Roo/survivors-roguelike-kit",
+    "commit": "3f905381d73a34b516030528b8ef6743868b9e52",
+    "localPath": "E:\\work\\image\\DaoSurvivors\\.reference\\survivors-roguelike-kit"
+  },
+  "reviewedFiles": [
+    {
+      "path": "docs/ui-suite/UI_COVERAGE.json",
+      "sha256": "9c0ee4f0501b8cd0760b27532d768744d2dbbfe6fc2689218085bc909dd333d6"
+    },
+    {
+      "path": "designs/ui-suite/preview/suite.js",
+      "sha256": "3a80bf5e61411e92dcf7e6baa8a5d1384a1efff4ebb61e0049cfb1cd85ec65b9"
+    },
+    {
+      "path": "designs/ui-suite/preview/menu.js",
+      "sha256": "4eeda177e612104db36e95822c7c4565d485850ecbabeb99377517931cf84968"
+    }
+  ],
+  "sourceEvidenceRecords": [
+    "docs/reference-gameplay-evidence.json",
+    "docs/reference-ui-evidence.json"
+  ],
+  "checkedSourceHashesMatchEarlierAudit": true,
+  "masterReferenceEvidenceMissing": [],
+  "checks": [
+    {
+      "id": "wave-victory",
+      "status": "pass_art_content",
+      "expectation": "末波720秒开始，全部波次已启动且存活敌人清零才胜利",
+      "observed": "sourceFacts胜利条件准确；guide约十二分钟末波现身，result为清空末波；胜利示例12:35，不使用到时即胜。",
+      "evidence": [
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Stage/StageManager.cs",
+          "startLine": 74,
+          "endLine": 95,
+          "sha256": "8628819f97d2b77726da218854dade6aa1702895faaa35c21a6af6ec57fe6bfc",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Stage/StageManager.cs",
+          "startLine": 99,
+          "endLine": 118,
+          "sha256": "8628819f97d2b77726da218854dade6aa1702895faaa35c21a6af6ec57fe6bfc",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Stage/StageManager.cs",
+          "startLine": 170,
+          "endLine": 178,
+          "sha256": "8628819f97d2b77726da218854dade6aa1702895faaa35c21a6af6ec57fe6bfc",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Stage/SpawnSet.cs",
+          "startLine": 17,
+          "endLine": 21,
+          "sha256": "4ff20d4a0c32018ce16d06b794d88737a70ad43be0416c79aac22336ced9e6b1",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Fairy.asset",
+          "startLine": 19,
+          "endLine": 24,
+          "sha256": "e1ecb5a0ea6a28cc9998869f1e2ccb86bc2768668e0333a8064197de640ae17d",
+          "recordHashMatchesCurrentFile": true
+        }
+      ],
+      "designLines": [
+        39,
+        38
+      ]
+    },
+    {
+      "id": "characters",
+      "status": "pass_art_content",
+      "expectation": "三预设角色，baseHP100，后两名500金币解锁，起始技能对应Fighter/Assassin/Mage",
+      "observed": "menu三名角色及起始技能ToNearest/BothSide/Bouncing正确；共享基础气血100，解锁500。中文人物与描述为本次道家改造。",
+      "evidence": [
+        {
+          "path": "Assets/RGame/RoguelikeKit/Prefabs/Player/Fighter.prefab",
+          "startLine": 538,
+          "endLine": 538,
+          "sha256": "c815b3b50132c7e2264c7efed0eef5c098c75d45b972815dc4d42761d130c173",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Prefabs/Player/Assassin.prefab",
+          "startLine": 571,
+          "endLine": 571,
+          "sha256": "f3d8cd040ae8802e82017bd82a020d1440f682dfe9f3a7e6e8a14161a5bc1f9e",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Prefabs/Player/Mage.prefab",
+          "startLine": 610,
+          "endLine": 610,
+          "sha256": "e10eb766e6b29295c792399cebdffbfd66ed5902b76433c7196c60cf53d3e067",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Player/PlayerStat.asset",
+          "startLine": 17,
+          "endLine": 20,
+          "sha256": "b275cce1273bc806cfb10fdf3d3d80fc27968cc930c11fbfa931ff6c3999153d",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/SelectCharacter/Assassin.asset",
+          "exists": true,
+          "sha256": "6605e6ef870fcabf12ced69f27145b2b6941cc0d46880803f77fa1353c0fb588",
+          "startLine": 13,
+          "endLine": 20
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/SelectCharacter/Mage.asset",
+          "exists": true,
+          "sha256": "e1e783c40a2c5e85343c2dc0e34ffd9bce3d10fc74d363846eb7d67a027cdc46",
+          "startLine": 13,
+          "endLine": 20
+        }
+      ]
+    },
+    {
+      "id": "permanent-growth",
+      "status": "pass_art_content",
+      "expectation": "14项局外成长的cap/cost逐项准确",
+      "observed": "14项全部匹配原Prefab；overview/detail/insufficient/maxed/success区分，成功金币4999对应第一阶1金币。",
+      "details": "permanentAttributeComparisons",
+      "evidence": [
+        {
+          "path": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+          "exists": true,
+          "sha256": "b7aa29dfb2b43ca12c73d18b1c86a921f15f0832b0cdf5651aa83ba579064926",
+          "startLine": null,
+          "endLine": null
+        }
+      ]
+    },
+    {
+      "id": "six-plus-six",
+      "status": "pass_art_content_after_correction",
+      "expectation": "6主动+6被动，各类槽独立",
+      "observed": "槽数量正确；等级标记问题见F01。",
+      "evidence": [
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/SkillIconPanel.cs",
+          "startLine": 13,
+          "endLine": 19,
+          "sha256": "518030bd1f3924f7373e83a196b1dff00eddc86baba2a9891585cc9d8c25a7b6",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/SkillIconPanel.cs",
+          "startLine": 32,
+          "endLine": 58,
+          "sha256": "518030bd1f3924f7373e83a196b1dff00eddc86baba2a9891585cc9d8c25a7b6",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/LevelUI.cs",
+          "startLine": 30,
+          "endLine": 40,
+          "sha256": "9806ae0b1cb1d6aa588fe511b928ef3b658eaa52a31a91414d037856c1fc68d9",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scenes/Managers/GamePlay.unity",
+          "startLine": 4608,
+          "endLine": 4634,
+          "sha256": "50a81eb5689c9a3748a24aa9c405c9dd56999a83035ac44c30d026847154486d",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs",
+          "startLine": 193,
+          "endLine": 227,
+          "sha256": "5e35d14bd6079e8fcf845b78c08f234bb60a32ad4500998274480b9d24a74a60",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillPanel.cs",
+          "startLine": 25,
+          "endLine": 68,
+          "sha256": "c9b076789d359f63d295a06dc38ae2f0ad5ad73ea92c81da940835a3007f99d4",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillItem.cs",
+          "startLine": 19,
+          "endLine": 77,
+          "sha256": "ac62a6bf581c570ef23f1e4e2aa237b88d3aed89633b2a9436fad385df263608",
+          "recordHashMatchesCurrentFile": true
+        }
+      ],
+      "originalStatus": "needs_art_correction"
+    },
+    {
+      "id": "nine-actives-and-recipes",
+      "status": "pass_art_content",
+      "expectation": "9主动与各自兼容被动，主动上限11",
+      "observed": "9条source路径均存在，serialized Key与filename一致；MixAttributeSkillKey及maxReferenceLevel11全部匹配。",
+      "details": "activeSkillComparisons",
+      "evidence": [
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/SOData/Skill/SkillDataSO.cs",
+          "exists": true,
+          "sha256": "bc5966f742599bbe63afa9ccaba5f109ff2051f1c6b24f008ad146225783203b",
+          "startLine": 94,
+          "endLine": 105
+        }
+      ]
+    },
+    {
+      "id": "upgrade-choice",
+      "status": "pass_art_content_after_correction",
+      "expectation": "三选一、已有升级、新技能、各类槽满仍可升级持有项",
+      "observed": "三选一及暂停文案正确；具体升级文案和新卡背景见F02/F04。",
+      "evidence": [
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs",
+          "startLine": 193,
+          "endLine": 227,
+          "sha256": "5e35d14bd6079e8fcf845b78c08f234bb60a32ad4500998274480b9d24a74a60",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillPanel.cs",
+          "startLine": 25,
+          "endLine": 68,
+          "sha256": "c9b076789d359f63d295a06dc38ae2f0ad5ad73ea92c81da940835a3007f99d4",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillItem.cs",
+          "startLine": 19,
+          "endLine": 77,
+          "sha256": "ac62a6bf581c570ef23f1e4e2aa237b88d3aed89633b2a9436fad385df263608",
+          "recordHashMatchesCurrentFile": true
+        }
+      ],
+      "originalStatus": "needs_art_correction"
+    },
+    {
+      "id": "moneybag",
+      "status": "pass_art_content_after_correction",
+      "expectation": "不足3个有效候选时50金币钱袋补位，无候选全钱袋仍择一",
+      "observed": "全钱袋显示3张50金币，按钮仍只选一项；背景状态见F03。",
+      "evidence": [
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs",
+          "startLine": 193,
+          "endLine": 227,
+          "sha256": "5e35d14bd6079e8fcf845b78c08f234bb60a32ad4500998274480b9d24a74a60",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillPanel.cs",
+          "startLine": 25,
+          "endLine": 68,
+          "sha256": "c9b076789d359f63d295a06dc38ae2f0ad5ad73ea92c81da940835a3007f99d4",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillItem.cs",
+          "startLine": 19,
+          "endLine": 77,
+          "sha256": "ac62a6bf581c570ef23f1e4e2aa237b88d3aed89633b2a9436fad385df263608",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs",
+          "exists": true,
+          "sha256": "5e35d14bd6079e8fcf845b78c08f234bb60a32ad4500998274480b9d24a74a60",
+          "startLine": 53,
+          "endLine": 61
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/SOData/Skill/SkillDataSO.cs",
+          "exists": true,
+          "sha256": "bc5966f742599bbe63afa9ccaba5f109ff2051f1c6b24f008ad146225783203b",
+          "startLine": 119,
+          "endLine": 127
+        }
+      ],
+      "originalStatus": "pass_rule_with_state_correction"
+    },
+    {
+      "id": "treasure-all-rewards",
+      "status": "pass_art_content_after_correction",
+      "expectation": "1/3/5奖励；揭晓约3秒后启用确认；奖励全收而非三选一",
+      "observed": "整屏状态1/3揭晓禁用、5可领取、进化及钱袋均有；按钮及页脚明确全部领取。master写3秒；前景金币样例与背景问题见F03/F05。",
+      "evidence": [
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/Game/DropOut/TreasureBox.cs",
+          "startLine": 14,
+          "endLine": 19,
+          "sha256": "97e2139095bd0c16edd86b53478de469a934171314a3f6aea590266a173f76bd",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs",
+          "startLine": 230,
+          "endLine": 347,
+          "sha256": "5e35d14bd6079e8fcf845b78c08f234bb60a32ad4500998274480b9d24a74a60",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/TreasurePanel.cs",
+          "startLine": 38,
+          "endLine": 110,
+          "sha256": "118fc45e261f7b8dbf04b370f1ea3ea559558dc8cff2d28e753e5d31a18475a0",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scenes/Managers/GamePlay.unity",
+          "startLine": 2033,
+          "endLine": 2061,
+          "sha256": "50a81eb5689c9a3748a24aa9c405c9dd56999a83035ac44c30d026847154486d",
+          "recordHashMatchesCurrentFile": true
+        }
+      ],
+      "originalStatus": "pass_rule_with_sample_corrections"
+    },
+    {
+      "id": "evolution-condition",
+      "status": "pass_art_content_after_correction",
+      "expectation": "主动11级+持有兼容被动，不要求被动满级，必须宝箱领取触发",
+      "observed": "47/48明确11级、持有不要求满级、待宝匣；9配方codex都准确。宝箱状态背景见F03。",
+      "evidence": [
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs",
+          "startLine": 87,
+          "endLine": 112,
+          "sha256": "5e35d14bd6079e8fcf845b78c08f234bb60a32ad4500998274480b9d24a74a60",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs",
+          "startLine": 249,
+          "endLine": 266,
+          "sha256": "5e35d14bd6079e8fcf845b78c08f234bb60a32ad4500998274480b9d24a74a60",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillCast/SkillCast.cs",
+          "startLine": 24,
+          "endLine": 27,
+          "sha256": "1b3414d3c29d926bc5a85e0aa6dfd2487876aa493381202b6666185fc94caba8",
+          "recordHashMatchesCurrentFile": true
+        }
+      ],
+      "originalStatus": "pass_rule_with_state_correction"
+    },
+    {
+      "id": "enemy-buffs",
+      "status": "pass_art_content",
+      "expectation": "灼烧/冰冻/减速作用敌人",
+      "observed": "状态区明确妖灵身受法术影响，未称玩家负面状态；倒计时数值是排版样例。",
+      "evidence": [
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Buff/BaseBuff.cs",
+          "startLine": 9,
+          "endLine": 16,
+          "sha256": "b44c8f9ab98151e49a9653e0c38b5568909d7e111a4ac7378bd85729edfc6409",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Buff/BurnBuff.cs",
+          "startLine": 12,
+          "endLine": 38,
+          "sha256": "1c8e2af9fba5704def20ce479baef35da5bfa6ba8528fefea80586d5e7db9bb2",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Buff/FreezingBuff.cs",
+          "startLine": 17,
+          "endLine": 39,
+          "sha256": "b4b895d389dfda21957ec0437d0051d66c054247d0d8cde272f9ec87e633c873",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Buff/SlowBuff.cs",
+          "startLine": 18,
+          "endLine": 23,
+          "sha256": "7cb22e0448b61f8046fcb353593d44100fa8647e39beb52f4d16404b3b666459",
+          "recordHashMatchesCurrentFile": true
+        }
+      ]
+    },
+    {
+      "id": "two-shared-levels",
+      "status": "pass_art_content",
+      "expectation": "两关共用Map1/Stage1/PreviewImage",
+      "observed": "两个列表项均用同一arena-v1；master明确共享，不宣称参考已实现独立第二地图。中文境名/文案为本次改造。",
+      "evidence": [
+        {
+          "path": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/SelectLevel/FirstLevel.asset",
+          "startLine": 13,
+          "endLine": 20,
+          "sha256": "0054619cd78d9a7e900137643ba3970ced4796588e76210a7acdc2b982b3327f",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/SelectLevel/SecondLevel.asset",
+          "startLine": 13,
+          "endLine": 20,
+          "sha256": "eba503b03ed274c137248b23480dd6f166ae65f496ee7763a1e125f0680e9170",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Map/Map1.asset",
+          "startLine": 13,
+          "endLine": 30,
+          "sha256": "bfd98805952459df1ccdc4366098d16f99b55f371356e2f6be0fe07c2adf7674",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/SOData/MapConfigSO.cs",
+          "startLine": 1,
+          "endLine": 42,
+          "sha256": "6919a6a6434ff8efa2469a918ab3ea100a028bc6825b09101c62bca2dbd83994",
+          "recordHashMatchesCurrentFile": true
+        }
+      ]
+    },
+    {
+      "id": "curse-random-pool",
+      "status": "pass_art_content",
+      "expectation": "14被动资产但场景随机池仅13被动，Curse未挂入",
+      "observed": "sourceFacts明确13和Curse排除；Curse只在14永久成长中可见，当前升级候选未错误加入Curse。",
+      "evidence": [
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scenes/Managers/GamePlay.unity",
+          "exists": true,
+          "sha256": "50a81eb5689c9a3748a24aa9c405c9dd56999a83035ac44c30d026847154486d",
+          "startLine": 5060,
+          "endLine": 5098
+        }
+      ]
+    },
+    {
+      "id": "reference-path-integrity",
+      "status": "pass_art_content",
+      "expectation": "master referenceEvidence全部真实路径",
+      "observed": {
+        "missing": [],
+        "screenCount": 52
+      }
+    }
+  ],
+  "permanentAttributeComparisons": [
+    {
+      "key": "Might",
+      "name": "剑意",
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "sourceLine": 2235,
+      "maxLevel": 5,
+      "costs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "changeValues": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "masterCapAndCostsMatch": true,
+      "masterDescription": "每阶伤害 +5%"
+    },
+    {
+      "key": "Armor",
+      "name": "护体",
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "sourceLine": 2097,
+      "maxLevel": 3,
+      "costs": [
+        1,
+        2,
+        3
+      ],
+      "changeValues": [
+        -10,
+        -10,
+        -10
+      ],
+      "masterCapAndCostsMatch": true,
+      "masterDescription": "每阶承伤降低 10%"
+    },
+    {
+      "key": "HPMax",
+      "name": "养元",
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "sourceLine": 4095,
+      "maxLevel": 3,
+      "costs": [
+        1,
+        2,
+        3
+      ],
+      "changeValues": [
+        10,
+        10,
+        10
+      ],
+      "masterCapAndCostsMatch": true,
+      "masterDescription": "每阶气血上限 +10%"
+    },
+    {
+      "key": "Recovery",
+      "name": "回春",
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "sourceLine": 11838,
+      "maxLevel": 5,
+      "costs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "changeValues": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "masterCapAndCostsMatch": true,
+      "masterDescription": "每阶每秒回复 1 气血"
+    },
+    {
+      "key": "Cooldown",
+      "name": "凝神",
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "sourceLine": 5576,
+      "maxLevel": 2,
+      "costs": [
+        1,
+        2
+      ],
+      "changeValues": [
+        -10,
+        -10
+      ],
+      "masterCapAndCostsMatch": true,
+      "masterDescription": "每阶施法间隔 -10%"
+    },
+    {
+      "key": "Area",
+      "name": "法域",
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "sourceLine": 1433,
+      "maxLevel": 2,
+      "costs": [
+        1,
+        2
+      ],
+      "changeValues": [
+        10,
+        10
+      ],
+      "masterCapAndCostsMatch": true,
+      "masterDescription": "每阶法术范围 +10%"
+    },
+    {
+      "key": "SkillSpeed",
+      "name": "疾符",
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "sourceLine": 5677,
+      "maxLevel": 2,
+      "costs": [
+        10,
+        15
+      ],
+      "changeValues": [
+        10,
+        10
+      ],
+      "masterCapAndCostsMatch": true,
+      "masterDescription": "每阶投射速度 +10%"
+    },
+    {
+      "key": "Duration",
+      "name": "绵长",
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "sourceLine": 10538,
+      "maxLevel": 2,
+      "costs": [
+        5,
+        10
+      ],
+      "changeValues": [
+        15,
+        15
+      ],
+      "masterCapAndCostsMatch": true,
+      "masterDescription": "每阶法术持续 +15%"
+    },
+    {
+      "key": "Amount",
+      "name": "分光",
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "sourceLine": 4516,
+      "maxLevel": 1,
+      "costs": [
+        5
+      ],
+      "changeValues": [
+        1
+      ],
+      "masterCapAndCostsMatch": true,
+      "masterDescription": "额外发射 1 枚投射物"
+    },
+    {
+      "key": "MoveSpeed",
+      "name": "御风",
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "sourceLine": 5150,
+      "maxLevel": 2,
+      "costs": [
+        5,
+        5
+      ],
+      "changeValues": [
+        10,
+        10
+      ],
+      "masterCapAndCostsMatch": true,
+      "masterDescription": "每阶移速 +10%"
+    },
+    {
+      "key": "Magnet",
+      "name": "聚灵",
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "sourceLine": 7713,
+      "maxLevel": 2,
+      "costs": [
+        25,
+        25
+      ],
+      "changeValues": [
+        25,
+        25
+      ],
+      "masterCapAndCostsMatch": true,
+      "masterDescription": "每阶拾取范围 +25%"
+    },
+    {
+      "key": "Growth",
+      "name": "悟性",
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "sourceLine": 641,
+      "maxLevel": 5,
+      "costs": [
+        5,
+        10,
+        15,
+        20,
+        25
+      ],
+      "changeValues": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "masterCapAndCostsMatch": true,
+      "masterDescription": "每阶经验收益 +10%"
+    },
+    {
+      "key": "Greed",
+      "name": "纳财",
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "sourceLine": 5363,
+      "maxLevel": 5,
+      "costs": [
+        20,
+        25,
+        30,
+        35,
+        55
+      ],
+      "changeValues": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "masterCapAndCostsMatch": true,
+      "masterDescription": "每阶金币收益 +10%"
+    },
+    {
+      "key": "Curse",
+      "name": "劫缘",
+      "source": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "sourceLine": 10336,
+      "maxLevel": 5,
+      "costs": [
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "changeValues": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "masterCapAndCostsMatch": true,
+      "masterDescription": "每阶妖灵速度、气血、数量与频率 +10%"
+    }
+  ],
+  "activeSkillComparisons": [
+    {
+      "key": "ToNearestSkill",
+      "filename": "ToNearestSkill.asset",
+      "source": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/ToNearestSkill.asset",
+      "sha256": "c8e43fb74545e3bbab9c9184a65a7c422070c4d255e2ec45a9a2aa86726f8654",
+      "serializedKey": "ToNearestSkill",
+      "serializedMixAttributeSkillKey": "Cooldown",
+      "computedMaxLevel": 11,
+      "sourceFilenameExists": true,
+      "allMasterFieldsMatch": true
+    },
+    {
+      "key": "BothSideSkill",
+      "filename": "BothSideSkill.asset",
+      "source": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/BothSideSkill.asset",
+      "sha256": "91d44c70a3304d26a9499bbdfd1998c4177c624c479884762744c02761abb9fd",
+      "serializedKey": "BothSideSkill",
+      "serializedMixAttributeSkillKey": "Armor",
+      "computedMaxLevel": 11,
+      "sourceFilenameExists": true,
+      "allMasterFieldsMatch": true
+    },
+    {
+      "key": "BouncingSkill",
+      "filename": "BouncingSkill.asset",
+      "source": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/BouncingSkill.asset",
+      "sha256": "d987009690d0964ce663f14eb49a9ab5d3a6f232b7598d091e6d69c770296c25",
+      "serializedKey": "BouncingSkill",
+      "serializedMixAttributeSkillKey": "HPMax",
+      "computedMaxLevel": 11,
+      "sourceFilenameExists": true,
+      "allMasterFieldsMatch": true
+    },
+    {
+      "key": "ChainSkill",
+      "filename": "ChainSkill.asset",
+      "source": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/ChainSkill.asset",
+      "sha256": "d5fc5c4f77d29e7d78116c359b75ae047e2aba79dbdfce30236d3070e1eb4e3d",
+      "serializedKey": "ChainSkill",
+      "serializedMixAttributeSkillKey": "MoveSpeed",
+      "computedMaxLevel": 11,
+      "sourceFilenameExists": true,
+      "allMasterFieldsMatch": true
+    },
+    {
+      "key": "CircularAttackSkill",
+      "filename": "CircularAttackSkill.asset",
+      "source": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/CircularAttackSkill.asset",
+      "sha256": "98dff22c6ff169bdcb2ec74631d020248843cd310f948fc4126030144435ab30",
+      "serializedKey": "CircularAttackSkill",
+      "serializedMixAttributeSkillKey": "Area",
+      "computedMaxLevel": 11,
+      "sourceFilenameExists": true,
+      "allMasterFieldsMatch": true
+    },
+    {
+      "key": "CircularMotionSkill",
+      "filename": "CircularMotionSkill.asset",
+      "source": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/CircularMotionSkill.asset",
+      "sha256": "159312baa1a7196ec141f14e73c5871c93ef75a8d4499763cd2bb95a10a1d0ba",
+      "serializedKey": "CircularMotionSkill",
+      "serializedMixAttributeSkillKey": "Duration",
+      "computedMaxLevel": 11,
+      "sourceFilenameExists": true,
+      "allMasterFieldsMatch": true
+    },
+    {
+      "key": "FourCornerSkill",
+      "filename": "FourCornerSkill.asset",
+      "source": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/FourCornerSkill.asset",
+      "sha256": "63541d772cfc78cfb8275aebd14bb9310e583bf7e5bfcef7e684bd4fcec9e695",
+      "serializedKey": "FourCornerSkill",
+      "serializedMixAttributeSkillKey": "Might",
+      "computedMaxLevel": 11,
+      "sourceFilenameExists": true,
+      "allMasterFieldsMatch": true
+    },
+    {
+      "key": "InsideScopeSkill",
+      "filename": "InsideScopeSkill.asset",
+      "source": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/InsideScopeSkill.asset",
+      "sha256": "e24ffba4ddb8a65e10a975ed7482606e711a2f69ae1619caf83c836ad8982d92",
+      "serializedKey": "InsideScopeSkill",
+      "serializedMixAttributeSkillKey": "SkillSpeed",
+      "computedMaxLevel": 11,
+      "sourceFilenameExists": true,
+      "allMasterFieldsMatch": true
+    },
+    {
+      "key": "RandomSkill",
+      "filename": "RandomSkill.asset",
+      "source": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/RandomSkill.asset",
+      "sha256": "73a73f3516295d4c2691f255543783b9918f8b755f96b63d550bc414c56835a2",
+      "serializedKey": "RandomSkill",
+      "serializedMixAttributeSkillKey": "Amount",
+      "computedMaxLevel": 11,
+      "sourceFilenameExists": true,
+      "allMasterFieldsMatch": true
+    }
+  ],
+  "findings": [
+    {
+      "id": "F01",
+      "priority": "high",
+      "status": "resolved_in_final_ui_art",
+      "category": "art_state_content",
+      "title": "满槽HUD把被动画成化境及6—10级",
+      "detail": "主动/被动循环共用等级表达式，被动首格显示化境，余下Lv.10/9/8/7/6。源被动本组均5级封顶，进化仅用于主动。",
+      "screenIds": [
+        "26-battle-build-full",
+        "28-boss-arrival",
+        "40-victory"
+      ],
+      "designEvidence": {
+        "path": "designs/ui-suite/preview/suite.js",
+        "line": 32
+      },
+      "referenceEvidence": [
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/SOData/Skill/SkillDataSO.cs",
+          "startLine": 91,
+          "endLine": 105,
+          "sha256": "bc5966f742599bbe63afa9ccaba5f109ff2051f1c6b24f008ad146225783203b",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs",
+          "startLine": 145,
+          "endLine": 169,
+          "sha256": "5e35d14bd6079e8fcf845b78c08f234bb60a32ad4500998274480b9d24a74a60",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillItem.cs",
+          "startLine": 49,
+          "endLine": 68,
+          "sha256": "ac62a6bf581c570ef23f1e4e2aa237b88d3aed89633b2a9436fad385df263608",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs",
+          "startLine": 87,
+          "endLine": 112,
+          "sha256": "5e35d14bd6079e8fcf845b78c08f234bb60a32ad4500998274480b9d24a74a60",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs",
+          "startLine": 249,
+          "endLine": 266,
+          "sha256": "5e35d14bd6079e8fcf845b78c08f234bb60a32ad4500998274480b9d24a74a60",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillCast/SkillCast.cs",
+          "startLine": 24,
+          "endLine": 27,
+          "sha256": "1b3414d3c29d926bc5a85e0aa6dfd2487876aa493381202b6666185fc94caba8",
+          "recordHashMatchesCurrentFile": true
+        }
+      ],
+      "recommendation": "被动单独显示Lv.1—5；化境仅主动使用。",
+      "originalStatus": "open",
+      "resolution": "Separate active/passive badges; passives maximum5."
+    },
+    {
+      "id": "F02",
+      "priority": "medium",
+      "status": "resolved_in_final_ui_art",
+      "category": "art_state_content",
+      "title": "两仪斩Lv.2→3升级效果不符",
+      "detail": "BothSideSkill第二条升级为DamageAdd 10；该资产10条升级不含ProjectilesCountAdd。",
+      "screenIds": [
+        "30-upgrade-existing"
+      ],
+      "designEvidence": {
+        "path": "designs/ui-suite/preview/suite.js",
+        "line": 35
+      },
+      "referenceEvidence": [
+        {
+          "path": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/BothSideSkill.asset",
+          "exists": true,
+          "sha256": "91d44c70a3304d26a9499bbdfd1998c4177c624c479884762744c02761abb9fd",
+          "startLine": 29,
+          "endLine": 50
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs",
+          "exists": true,
+          "sha256": "5e35d14bd6079e8fcf845b78c08f234bb60a32ad4500998274480b9d24a74a60",
+          "startLine": 141,
+          "endLine": 170
+        }
+      ],
+      "recommendation": "将该张卡文案改为伤害+10，或选择真实含投射数量提升的技能及等级。",
+      "originalStatus": "open",
+      "resolution": "BothSide2→3 now damage+10."
+    },
+    {
+      "id": "F03",
+      "priority": "medium",
+      "status": "resolved_in_final_ui_art",
+      "category": "art_state_content",
+      "title": "全钱袋和进化奖励的背景HUD与条件冲突",
+      "detail": "31/36在空槽低级背景上显示无可升级技能；35进化奖励背景中的追星御剑仅Lv.1且未持凝神。前景文案的前置条件正确，但同一状态的背景表示冲突。",
+      "screenIds": [
+        "31-upgrade-moneybag",
+        "35-treasure-evolution",
+        "36-treasure-moneybag"
+      ],
+      "designEvidence": {
+        "path": "designs/ui-suite/preview/suite.js",
+        "line": 31
+      },
+      "referenceEvidence": [
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs",
+          "startLine": 193,
+          "endLine": 227,
+          "sha256": "5e35d14bd6079e8fcf845b78c08f234bb60a32ad4500998274480b9d24a74a60",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillPanel.cs",
+          "startLine": 25,
+          "endLine": 68,
+          "sha256": "c9b076789d359f63d295a06dc38ae2f0ad5ad73ea92c81da940835a3007f99d4",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillItem.cs",
+          "startLine": 19,
+          "endLine": 77,
+          "sha256": "ac62a6bf581c570ef23f1e4e2aa237b88d3aed89633b2a9436fad385df263608",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs",
+          "startLine": 87,
+          "endLine": 112,
+          "sha256": "5e35d14bd6079e8fcf845b78c08f234bb60a32ad4500998274480b9d24a74a60",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs",
+          "startLine": 249,
+          "endLine": 266,
+          "sha256": "5e35d14bd6079e8fcf845b78c08f234bb60a32ad4500998274480b9d24a74a60",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillCast/SkillCast.cs",
+          "startLine": 24,
+          "endLine": 27,
+          "sha256": "1b3414d3c29d926bc5a85e0aa6dfd2487876aa493381202b6666185fc94caba8",
+          "recordHashMatchesCurrentFile": true
+        }
+      ],
+      "recommendation": "为这些状态使用相容的道法组合及等级；或者遮住该示例HUD，避免把相互矛盾状态组合成同一画面。",
+      "originalStatus": "open",
+      "resolution": "Moneybag full/maxed backgrounds and evolution-compatible pendingMix background."
+    },
+    {
+      "id": "F04",
+      "priority": "medium",
+      "status": "resolved_in_final_ui_art",
+      "category": "art_state_content",
+      "title": "新道法卡与背景已持有技能重复",
+      "detail": "29新学追星御剑、流珠引及护体的背景，普通HUD已显示这两项主动及护体；源已持有技能应显示升级。",
+      "screenIds": [
+        "29-upgrade-new"
+      ],
+      "designEvidence": {
+        "path": "designs/ui-suite/preview/suite.js",
+        "line": 35
+      },
+      "referenceEvidence": [
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs",
+          "startLine": 193,
+          "endLine": 227,
+          "sha256": "5e35d14bd6079e8fcf845b78c08f234bb60a32ad4500998274480b9d24a74a60",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillPanel.cs",
+          "startLine": 25,
+          "endLine": 68,
+          "sha256": "c9b076789d359f63d295a06dc38ae2f0ad5ad73ea92c81da940835a3007f99d4",
+          "recordHashMatchesCurrentFile": true
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillItem.cs",
+          "startLine": 19,
+          "endLine": 77,
+          "sha256": "ac62a6bf581c570ef23f1e4e2aa237b88d3aed89633b2a9436fad385df263608",
+          "recordHashMatchesCurrentFile": true
+        }
+      ],
+      "recommendation": "用未持有的主动和被动作为新卡，或为该状态准备相容背景道法槽。",
+      "originalStatus": "open",
+      "resolution": "New cards changed to Chain/FourCorner/HPMax; existing card HUD nowLv4."
+    },
+    {
+      "id": "F05",
+      "priority": "medium",
+      "status": "resolved_in_final_ui_art",
+      "category": "art_state_content",
+      "title": "五奖宝箱金币示例超出参考区间",
+      "detail": "TreasurePanel的5奖额外金币基底900—1000，再乘Greed/100；默认Greed=100且强化只增益，因此820不匹配该场景。",
+      "screenIds": [
+        "34-treasure-five",
+        "35-treasure-evolution",
+        "36-treasure-moneybag"
+      ],
+      "designEvidence": {
+        "path": "designs/ui-suite/preview/suite.js",
+        "line": 36
+      },
+      "referenceEvidence": [
+        {
+          "path": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/TreasurePanel.cs",
+          "exists": true,
+          "sha256": "118fc45e261f7b8dbf04b370f1ea3ea559558dc8cff2d28e753e5d31a18475a0",
+          "startLine": 96,
+          "endLine": 107
+        },
+        {
+          "path": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Player/PlayerStat.asset",
+          "exists": true,
+          "sha256": "b275cce1273bc806cfb10fdf3d3d80fc27968cc930c11fbfa931ff6c3999153d",
+          "startLine": 66,
+          "endLine": 68
+        }
+      ],
+      "recommendation": "可改用950一类符合默认参考配置的排版示例，仍注明其为设计数据。",
+      "originalStatus": "open",
+      "resolution": "Five-reward extra gold now950."
+    }
+  ],
+  "staticPreviewLimitations": [
+    {
+      "status": "non_blocking_preview_limitation",
+      "description": "Menu hero choices and codex links select pre-authored design states rather than dynamically updating game state; the codex links currently open generic ToNearest recipe panels. All nine actual recipes remain explicit on the codex cards and master. This is not a Unity/game interaction validation."
+    }
+  ],
+  "acceptanceBoundary": "This record evaluates art content semantics. It does not approve visual layout, generated asset quality, Unity import, C# gameplay, saves, input or resolution behavior. Final screen re-export after content corrections remains root responsibility.",
+  "originalResult": "needs_art_content_corrections",
+  "followupAtUtc": "2026-10-28T07:51:32.702327+00:00",
+  "followupEvidence": [
+    "docs/ui-suite/final-visual-review.json",
+    "docs/ui-suite/render-verification.json"
+  ],
+  "finalArtifactHashes": [
+    {
+      "file": "designs/ui-suite/preview/index.html",
+      "sha256": "dade60d8b5af92760aeae2e6e770787dfde25d5e769153d82c07328082cb680a"
+    },
+    {
+      "file": "designs/ui-suite/preview/style.css",
+      "sha256": "87c6edb03eccfe3e5f2ab91bdc7485ddc28f590be7758e159543c1265337f899"
+    },
+    {
+      "file": "designs/ui-suite/preview/menu.css",
+      "sha256": "d535c68a40adcc913513fb7fbdb01405ed94625c8a0684b0f7340ac55243d643"
+    },
+    {
+      "file": "designs/ui-suite/preview/suite.js",
+      "sha256": "91f7d0102d95465c86013bff526ea148a5ac038960681af1f77fafa0896a3dd0"
+    },
+    {
+      "file": "designs/ui-suite/preview/menu.js",
+      "sha256": "4eeda177e612104db36e95822c7c4565d485850ecbabeb99377517931cf84968"
+    }
+  ]
+}

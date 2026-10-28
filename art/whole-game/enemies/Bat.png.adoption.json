@@ -1,0 +1,1071 @@
+{
+  "sourceKey": "Bat",
+  "displayName": "云啾啾幻身",
+  "sourceIdentity": "云啾啾",
+  "role": "普通远程",
+  "identity": "云垫幼鹤；青蓝弹体",
+  "artSource": "existing",
+  "adoptionType": "reskin; direct byte copy",
+  "sourceArtRepository": {
+    "path": "F:\\work\\image",
+    "remote": "https://luyuacpp.visualstudio.com/image/_git/image"
+  },
+  "sourceArtPath": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/runtime/attack/E/01.png",
+  "destination": "art/whole-game/enemies/Bat.png",
+  "sourceSHA256": "ade00aacc1ae356dadea6883a17787dc81c69d9f00c0f344f122ab5b32edf880",
+  "sha256": "ade00aacc1ae356dadea6883a17787dc81c69d9f00c0f344f122ab5b32edf880",
+  "copyVerified": true,
+  "canvas": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "realAlpha": true,
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "zeroPixels": 784814,
+    "partialPixels": 262765,
+    "opaquePixels": 997,
+    "visibleBBoxAlphaAtLeast16": [
+      248,
+      88,
+      795,
+      947
+    ],
+    "visibleEdgePixelsAlphaAtLeast16": 0,
+    "edgePixelsAnyAlpha": 0
+  },
+  "pivotBottomLeft": [
+    0.5,
+    0.08
+  ],
+  "anchorTopLeftPx": [
+    512,
+    942
+  ],
+  "anchorKind": "source logical ground anchor; not exact every-foot contact",
+  "facing": "three-quarter front, down-right; x mirror allowed for source movement",
+  "suggestedVisibleHeightAt1080": 110,
+  "spriteType": "Single",
+  "meshType": "FullRect",
+  "borderLTRB": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "filterMode": "Bilinear",
+  "wrapMode": "Clamp",
+  "mipmaps": false,
+  "colourSpace": "sRGB",
+  "generationModel": null,
+  "generationQuality": null,
+  "generationEvidenceNote": "Historical source generation evidence is preserved. No generation or AI edit occurred during this adoption. Configuration targets never establish actual model/quality.",
+  "sourceRecords": [
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/runtime/attack/E/01.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/01-source-record-01.json",
+      "sha256": "c6b68279ad5d79f1212520d3e0366efbfa95e7ab5ff0e5c4993fd6fdf82f9be1"
+    }
+  ],
+  "selectedManifestSnapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/selected-manifest-frame.json",
+  "sourceGamePrefab": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/Bat/Bat.prefab",
+  "sourceGameSpritePaths": [
+    "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Bat.png"
+  ],
+  "review": {
+    "fullSourceImageViewed": true,
+    "adoptedDate": "2026-10-28",
+    "visibleClippingCheck": "pass",
+    "identityCheck": "pass; distinct existing Daoist chibi identity",
+    "engineValidation": "not-run; Unity import and motion integration remain next phase",
+    "finalLightDarkLineup": "accepted; identity, anatomy, implements and tails/wings intact, distinct readable silhouettes"
+  },
+  "historicalNativeSize": [
+    1254,
+    1254
+  ],
+  "historicalNativeSizeBasis": "Source README and selected source record; final1024PNG was an earlier full-canvas export, this adoption does not resample.",
+  "sourceEvidenceDependencies": [
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/runtime/attack/E/01.png.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/runtime/attack/E/01.png.generation.json",
+      "sha256": "c6b68279ad5d79f1212520d3e0366efbfa95e7ab5ff0e5c4993fd6fdf82f9be1"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-E-01.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-E-01.json",
+      "sha256": "c561615aee2a271a00963198a5fe1a2c9042c2ff6d5fbfc39a989cd3cb683ec7"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-E-01.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-E-01.txt",
+      "sha256": "c15ef1dc08996be3c50c157a5adc39148cf406a712f919701538629564901896"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/design-E.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/design-E.json",
+      "sha256": "5375b2e1231bd6f4bb21b0579fcfa22167f2c8c3135586cf33aabfbf2181659e"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/cleanup.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/cleanup.json",
+      "sha256": "f900927ca2bcd6f8316b9785144989ed60e1977aea49615b2024cd16d4ff3956"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/design-E.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/design-E.txt",
+      "sha256": "398c2c659d79a58c739d02e06c47487cc7d85142bbe9bce2e7414c2b88896e14"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/design-W.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/design-W.json",
+      "sha256": "9e950af2ef80100ec109b2c1e1fb4c5889418cf14b355279874a56f277651513"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-E-02.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-E-02.json",
+      "sha256": "ace5d9eb8758fc37cd137d77c5d79770754f7c03662836858fd41625f48b586b"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-E-03.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-E-03.json",
+      "sha256": "bd58aeb3720e21b93df12379cb26cb8cf4210c34e763de0f6d88edac7106025b"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-E-04-r2.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-E-04-r2.json",
+      "sha256": "c9f30cdfff593af02e672bbd2cc7fc40fe98af1a5bd7f2dcee5facc3d070c4c7"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-E-04.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-E-04.json",
+      "sha256": "92b7a528e3e670aa8a07a7e22b70ebaa891499c8cb335241665c7cb4e6b62074"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-E-05-r2.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-E-05-r2.json",
+      "sha256": "ea85808b66c66eecd1d72ea5937d36144e3b2379e22d99db4d7ad61f0ed4618c"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-E-05-r3.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-E-05-r3.json",
+      "sha256": "6a741efab2653d52e90dc8e2cfbe542be53b19bd00273e6ad47717bf9b8befa0"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-E-05.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-E-05.json",
+      "sha256": "3116be7b4f21f4f963deb4284ed276a9b96c07128acdae4525f471ff42e9d37c"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-E-06-r1.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-E-06-r1.json",
+      "sha256": "b08483da623c144fed95d5013f5b986eb717b1cdd991d3598d5482c8153ddab7"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-E-06-r2.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-E-06-r2.json",
+      "sha256": "b89467b1ebbfebecac8f55494d4054b5306e8d434e817c6f045c433f84c08b8c"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-E-06.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-E-06.json",
+      "sha256": "b415bdfaa30d147cb821fbbc8a08ba6e7764f3120d2057eeb33f0ea00f03277b"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-E-07-r2.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-E-07-r2.json",
+      "sha256": "5f9660d4299ae3ada34049f666a6b962519ddc4fbfa473c9e4f2edd5102abb80"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-E-07.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-E-07.json",
+      "sha256": "208d2b95a5f0e232dc47603463fad325e9d05d742f6a46b69f5065a47c5e74c8"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-E-08-r2.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-E-08-r2.json",
+      "sha256": "7a768db58c5d0285ba82e415afaaa0d3a8a4bceef09c73b2a3115e6643c29b69"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-E-08.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-E-08.json",
+      "sha256": "e0ba21eb9ce5aa3a00a81e612982eb7edf7770c3a6e3b69d3c948bd846365fa7"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-E-09-r3.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-E-09-r3.json",
+      "sha256": "38dd2391bf5606fef0f3b15c555f61fa1695c82d987e71a016527280920ffe79"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-E-09.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-E-09.json",
+      "sha256": "debbae9e1855fb2c0a922f7c0a573598e09a6615c481210a41680c3f3c41d134"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-E-10.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-E-10.json",
+      "sha256": "1510ea4947b1a59f687be70b57c4075c8a2eba54638f3f6f60694d75e6c94754"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-E-11.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-E-11.json",
+      "sha256": "f59709fd6fbd3983fcb3f7f4a450ab04db60b2d8b68a102a4294cc06096eacf3"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-E-12.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-E-12.json",
+      "sha256": "4a1e4b297112263e32c79bf31883adda8479c8161f542c3ec117846d74731bde"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-W-01.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-W-01.json",
+      "sha256": "3a348e3c0d3a1ed3ef97f0b596e9e19339bb5c345c0906289fa4136f54f797a3"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-W-02.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-W-02.json",
+      "sha256": "1637e86f794143d3a11194ec84e4ec2f13d06d2dc57a0ebd6f21b5fd7884b759"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-W-03.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-W-03.json",
+      "sha256": "dcba31af9fbbedaab2077fc5dfe3d380374a69bd3d100853c4e4ea47a3c3126b"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-W-04-r2.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-W-04-r2.json",
+      "sha256": "532a6da434abf81cb5cb8e53895bc59e7c9dcd112daad4481992d13d0f1becc8"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-W-04-r3.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-W-04-r3.json",
+      "sha256": "001530082caa41e4faa20dec0968a7d1755baa5912be749385fa5e38f09bb886"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-W-04.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-W-04.json",
+      "sha256": "b57a1f90a2b8aaf21e85fe4e0e1b9844021b8464ed1e50809e9ec1d8916398f9"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-W-05.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-W-05.json",
+      "sha256": "90d9e0454a695046b5b86e0dda179b9f022c2d2a3159cd15190070e830e54910"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-W-06.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-W-06.json",
+      "sha256": "ac6388ea6379e07cc4c1a32f19c0f3e673a70108324175720cff428da7d8a3e9"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-W-07-r1.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-W-07-r1.json",
+      "sha256": "f4db62eeefcfd12c52df6e82519afbfc0b66e866cbe731083deef14a9b39c640"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-W-07.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-W-07.json",
+      "sha256": "c4913d22044370b50cd78570a58b7b4700dccd3d7a938ad115fe7ad14da68890"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-W-08.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-W-08.json",
+      "sha256": "40612c5a5cfeb5165ac3543bdd307214d9b528aedcefa80184a96422a3030b77"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-W-09.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-W-09.json",
+      "sha256": "93f1090e504f2b8a6356293ff738ed33892841094a967909e0a436e695deea30"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-W-10.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-W-10.json",
+      "sha256": "5662c78ffeea8f0cd12b5a4ec153de19b09f92abf5bae3df57c6920d611ed960"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-W-11.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-W-11.json",
+      "sha256": "d79900c8f3c87e76a70fb033c805c928b1c179d6af39cd42c01ce0f5ec4d24a4"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/attack-W-12.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/attack-W-12.json",
+      "sha256": "f82cf179580a6de6bd3cf98443a36a8e52113597dffac386c48e5418a0f7b098"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-E-01.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-E-01.json",
+      "sha256": "8d100292c7ceea373b63ad83dfc9a867b46a81aec97c8391ea3cdfee88ddc308"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-E-02.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-E-02.json",
+      "sha256": "24be11fca3c0b85e6bce71054973c14d1aa947dec07e178ca5dc3eb51b86a9f2"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-E-03.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-E-03.json",
+      "sha256": "b4be4e8fa0b0c481943fb9b2ca359ef6ad49076b4691e1085a47ae87ff3d0cc5"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-E-04.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-E-04.json",
+      "sha256": "0e31c839da23c86bb41dabf5781161eb5ad2ccb14de06a5841529189b8a12177"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-E-05.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-E-05.json",
+      "sha256": "97835a27d9054bd8e89fa5bccc55efe345a8f4e8e59d1ccbd99b786dce8cfda3"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-E-06-r1.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-E-06-r1.json",
+      "sha256": "c184929a292c601c8e9669d38de5458eccf1adb0cbc038736c55da99dc45743a"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-E-06.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-E-06.json",
+      "sha256": "240fa1c9168a5983e6508bd1a6cb8981b07e36a8272a2c04e2b788de9696d07e"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-E-07.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-E-07.json",
+      "sha256": "ad76885397a9492bf9aa068570f11145adf9bbc04db4b20e8d9e3ff0b3635d41"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-E-08.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-E-08.json",
+      "sha256": "1212bb97569d9da3053785d7681ee6330ba9c0bc706aa25edcb93718bee91aa6"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-E-09.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-E-09.json",
+      "sha256": "75d89d4ca6e5ab6bb27ba6e469d2f7d11978029bf8948b2f45b5a376a1706428"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-E-10-r0.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-E-10-r0.json",
+      "sha256": "9e059455668d4e5ee57527607a5aaa1645a8c3dc0b14a84dc07540dbfbb17129"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-E-10-r1.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-E-10-r1.json",
+      "sha256": "b159ca20afefb385066a9504a06041d3c7628a89a995567df9ab6be9633c30ef"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-E-10.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-E-10.json",
+      "sha256": "a4f3008be6dd685d91fe24c5711465ab64d6807a9b3b399fb59ad69fa130fb9c"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-E-11-r0.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-E-11-r0.json",
+      "sha256": "e2e303fe1565d3582032fa196d98e23e8cd5d41eb10ccffd39f230799cb40288"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-E-11-r1.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-E-11-r1.json",
+      "sha256": "048f4ccf478bc011cb7639b024c20d0f6c9546adb51b22d31f34c20fb0dd7cae"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-E-12-r1.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-E-12-r1.json",
+      "sha256": "1f66f72aa981b2db0d2eefd40a16a52714e9e6ce8a05b49a377acacfb5c9c085"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-E-13.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-E-13.json",
+      "sha256": "efe5478703bbd16545d069730e8128d32e17bda9e58c6d0ac73f948ebff415cf"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-E-14.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-E-14.json",
+      "sha256": "280bee7b5845e3f353e65fef2cb72a6ec26f98d6a633718c4c1516dbd94679e4"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-E-15.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-E-15.json",
+      "sha256": "c831909523f16c10a64e748c446bb8b89b7becbffcb14da17e19422505299de1"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-E-16.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-E-16.json",
+      "sha256": "3fb7deed87ea9084c98ccccb6eb2b91c786449182322fc0db9b3de68b8c23a7b"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-01.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-01.json",
+      "sha256": "637797fdb7e22ab50c13c3c6b77765ce507622c656e5fa17e4ea1e5ab3d09cd7"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-02.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-02.json",
+      "sha256": "a88aa505e1b54611a8630207a1153a7d654419793a6b6bd6fcd9578834302218"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-03.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-03.json",
+      "sha256": "6b1b2948ff55a8ea71b1a86e57a20474186a02cfbdb35b36450e754a18c74f96"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-04.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-04.json",
+      "sha256": "3a6c71502987cee1632209f870a85f147f87a81d609b2e1f6b7cb2e5e2545fb6"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-05.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-05.json",
+      "sha256": "32a0375f7e946442892e4e61d2d9ad880d7b7ea1500f301f27627d8f1cccfeba"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-06.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-06.json",
+      "sha256": "e2a5500cbedeabf2d53bf04a2d7e1cb8a19353fefca221770fb165e140268c50"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-07.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-07.json",
+      "sha256": "b0f6a2ebddd1de4f14b089b5ae21eacb2ba1d535cc3c3c5b8efe197959e991df"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-08.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-08.json",
+      "sha256": "8eac92044b57191ec46970cbbd23106ff7ed368c9e1e0063b389491b82c95727"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-09.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-09.json",
+      "sha256": "4701cc102bdb88a6619ade78ff6f107c3bc5e19eafd301e011d0df3e10aedfe7"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-10-r0.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-10-r0.json",
+      "sha256": "b3d2f6373c9e215b1930eea25c6d13a35a221c0552b72112a18bac7d6311208a"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-10-r2.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-10-r2.json",
+      "sha256": "36f252c48b66b62801cf2b89bf2cf415545ca29b5c61b66f77e5e4e8025dab43"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-10.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-10.json",
+      "sha256": "94e189be017698855e93e53bb3ea6d5b6efb682bc10195bc28af9e4c119bfd17"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-11-r0.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-11-r0.json",
+      "sha256": "34b69d8cd8a8829fabf7e37189dcebafa18bd39a38c36cf824c4702caaafff18"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-11-r1.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-11-r1.json",
+      "sha256": "cdb4c3ba8719656c15f03975a7b7fc3a4f5eb4c3169598202b81547fadb93d17"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-11-r2.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-11-r2.json",
+      "sha256": "62ca81ef6f97340071540c39fb3ff8b5900b1628eabb11c06ccd81e4b0991894"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-11.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-11.json",
+      "sha256": "ee983983c40538dd0c7524601f940382ac57533ca7317539afd66d6e80d543dd"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-12-r0.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-12-r0.json",
+      "sha256": "c7a2f5494fdcda83a44e7b62cfcb66134a9e3a4d12fbb6cd8e12868802ccb279"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-12.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-12.json",
+      "sha256": "ab0eae40f892c0a304c7a66cd1790fe1904267a73bc33e70702fc8d4d49b02a3"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-13.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-13.json",
+      "sha256": "1e45e0e1c6148fd38aff427720194a3c3627e61f3f454a9f9fa92bc394ec8069"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-14-r0.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-14-r0.json",
+      "sha256": "2f04e735dc3f25795b4c77531528e31d8d57ea067b46f73564a89e817421ac44"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-14.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-14.json",
+      "sha256": "433366c3350ad0a780cf575071bfd09ee67bf9411a1f7f0f7ef9e575167ea063"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-15.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-15.json",
+      "sha256": "809513f25ba70e18cc8cfc8de6bc737f2217223ea041c3440744ad2ff713cd1d"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/cast-W-16.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/cast-W-16.json",
+      "sha256": "0e5646fbeb454385e407950a1b7ac49328fd0681dc6429e37f14ce062047e357"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/hit-E-01.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/hit-E-01.json",
+      "sha256": "70c0d75828fc11167d6d803f67c26539eec7c4d217514088f38105803fb0f168"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/hit-E-02.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/hit-E-02.json",
+      "sha256": "2ca081d06433555f4fabbd687065f1d205461d3c5b1ba9b8e7c8cdf4525cb524"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/hit-E-03.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/hit-E-03.json",
+      "sha256": "6fb89eb2c2dce19855c4cf9cf4fa6981944f258a76a342e039ce459f4f0e9d19"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/hit-E-04-r2.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/hit-E-04-r2.json",
+      "sha256": "5e4fdcf012ed8a27911b32dd32f3aba5632a46525d68fe7f00605790797e7966"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/hit-E-04.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/hit-E-04.json",
+      "sha256": "29f7b31c27a8a940c46f42e4e6387308bd5987ac7cbbe9f44faa9e84ab6717b3"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/hit-E-05.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/hit-E-05.json",
+      "sha256": "62716d164496134c641d37ea0dbb3063d98ec0f9c374dac70717fb847905cab7"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/hit-E-06.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/hit-E-06.json",
+      "sha256": "74f6ce3fe1cf05b85e6a6ca502007e84176b9f95267534f62df04ef891552031"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/hit-W-01-r2.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/hit-W-01-r2.json",
+      "sha256": "b39363c066cbe6ecfb4540f8c4e020ff50d7f8191163dee4c24b26790e484382"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/hit-W-01.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/hit-W-01.json",
+      "sha256": "686f0381a0298b7552443946d88dac97d582290cfee64eb061dcc1dd5bc2f261"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/hit-W-02-r2.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/hit-W-02-r2.json",
+      "sha256": "1182e107c84f534cb0da5b930a505eb2c749ef852ba5756d1d1a56882fbbbfae"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/hit-W-02.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/hit-W-02.json",
+      "sha256": "75a3467d9e220230947a3d7fa52e7ed86bc85921db075630e58801a0072b20db"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/hit-W-03.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/hit-W-03.json",
+      "sha256": "237e878e5a82e9c3ce7a6ca4d68e3c1cb5cf06993a94d8ecbfaa1359034a29b0"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/hit-W-04.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/hit-W-04.json",
+      "sha256": "51bc551ecf6b8f42bd3104d6b09758b193b1719f3aeeabcc7077d13321b3a4d0"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/hit-W-05.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/hit-W-05.json",
+      "sha256": "27b94680ae81cc78e27804ec388858153bb120062ed0f5f788b952f509e16b38"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/records/hit-W-06.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/records/hit-W-06.json",
+      "sha256": "123c6c0846297b9ff0e9cc922ba2a404928d13a03357b70925068f1ebda75828"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/design-W.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/design-W.txt",
+      "sha256": "8563638b71261beefa1aa25c5c26caae27da0240092da3d9490b9b61594690f9"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-E-02.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-E-02.txt",
+      "sha256": "d2ae71fc76c9c85986fc8c920f68b4c3c2aa4c2a700e1b12fe64c7c183a07626"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-E-03.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-E-03.txt",
+      "sha256": "84c3eaa90b09d8b0ae285e5712734baacf6ccff8e9cb7a1d36ac7655dc785ff3"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-E-04-r2.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-E-04-r2.txt",
+      "sha256": "c1f5b1008b70f8829cbb9272e0ba32d044734281c441dd962a73fb198e77e827"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-E-04.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-E-04.txt",
+      "sha256": "41022636b3e0bac27e882d742c56eeb60671fd21a9e6ce0b5eb399613f1374d6"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-E-05-r2.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-E-05-r2.txt",
+      "sha256": "14e2c490be7a47ab83e83a02c3c4436fc0f52df5647471db334906afdf330bb4"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-E-05-r3.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-E-05-r3.txt",
+      "sha256": "25e4ca74f825b2d0ab5aa7d2b52e28e062df1dfc5ba678028a67671dfb30fc95"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-E-05.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-E-05.txt",
+      "sha256": "55e8fb0576ddcbcf750892f97d954bf388b13dac5c022d113f1db9dccc2a6a06"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-E-06-r1.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-E-06-r1.txt",
+      "sha256": "fdc31daf1d29124bc2552bf3d09f6924676a67de0331cfe671bde4653eaab57b"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-E-06-r2.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-E-06-r2.txt",
+      "sha256": "c2fa5ff47d7778317dc23c29439a2b6f25140f5732dd63496355a43d3e215b18"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-E-06.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-E-06.txt",
+      "sha256": "a39b5625381e82786cd1f994be0662a3083388785ce6babfad79a641eb59a32b"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-E-07-r2.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-E-07-r2.txt",
+      "sha256": "50d54d0fec0f3eaebd7a07b1e5d06099b32b296c4a7a7f98045e4685a93df847"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-E-07.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-E-07.txt",
+      "sha256": "53b8a1222121bdc6ffb9081e450e4cc3dac84326fb83d84fc7a168f3134aa328"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-E-08-r2.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-E-08-r2.txt",
+      "sha256": "f094367d12cc147af6c5475de643f5f9b43dd554c5d4033b823aba93a4c963e2"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-E-08.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-E-08.txt",
+      "sha256": "65bbb84e25236f5c55e4359f254796a4d3b8549d9fc28e78266b973c0c5dec9d"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-E-09-r3.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-E-09-r3.txt",
+      "sha256": "1a9a72e903afddb3e858921241e3f474f51a24956cf03fa8be997d797bc04e64"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-E-09.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-E-09.txt",
+      "sha256": "cc9e17b59240cf3bbc455e7880388763d08ccb875bf0d6fab72463b6e6d9bbfa"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-E-10.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-E-10.txt",
+      "sha256": "0a3984f99414706058e3fdff1847508075ecacb94646f9228b8727fa8e63cce8"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-E-11.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-E-11.txt",
+      "sha256": "78e2cbfb0f87b4b0cf7a22542a201741e368bbd22265042eae97b059292e6203"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-E-12.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-E-12.txt",
+      "sha256": "cf266a991413334127bfdcc6e4a40db11dc948c3a1726b3c84460bf445d9f012"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-W-01.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-W-01.txt",
+      "sha256": "38de505270412273880043650ab99d90c83c5fb9fa1a23984c9bd426f2082853"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-W-02.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-W-02.txt",
+      "sha256": "8d0bcd1cd59a10528ef0566b23f911d947f2d453c1e2becce8f65b7f797ba863"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-W-03.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-W-03.txt",
+      "sha256": "ee5096daeba8a87b39e938ce271ac8ce30adce1e44c19f8541f8533ab27f3939"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-W-04-r2.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-W-04-r2.txt",
+      "sha256": "12a59b4f495e8ee7f05550b8a1c43f68fad3efa841af6d035ce9ab7794cc6116"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-W-04-r3.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-W-04-r3.txt",
+      "sha256": "5a7acdb66342b12ad248c57a780f1aff8a500d62d2f76ceaf28bb94bbce66218"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-W-04.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-W-04.txt",
+      "sha256": "abdf8118759b9b17b2d25b8168b53201b4df52e8e4354ce707e8097f573ef535"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-W-05.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-W-05.txt",
+      "sha256": "c25a419203951dc9ac7a0440c02cdc233da0690344e94727efb956928d5aa08d"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-W-06.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-W-06.txt",
+      "sha256": "dc12bac0b207d7e6a4e103a7766f5283be79baae68aaceac6764bffffd33b019"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-W-07-r1.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-W-07-r1.txt",
+      "sha256": "4be224d4b9c2f6ae940e25a62c24f792ed6ef3035633139e36cb58657d2e2ef1"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-W-07.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-W-07.txt",
+      "sha256": "0795626f3b94fcafd3face3dedbccf66be265a937f07195e19391dd31a642526"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-W-08.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-W-08.txt",
+      "sha256": "8d456b5eb97e98358b513dc4f767635612e8dab1c7e61e441c033ff8619dae26"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-W-09.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-W-09.txt",
+      "sha256": "ed102927a34d8fb85d8aa2c04b3ab64345cc4e785fcfa169d729812522fe77da"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-W-10.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-W-10.txt",
+      "sha256": "318ba212e46e4d35534b7b77b1ab5def7514b6a61382fce5171960167d13a360"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-W-11.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-W-11.txt",
+      "sha256": "59ee43df94b94f10f668147828a34e84cf16a4a923b3420e0c12bc61388d9912"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/attack-W-12.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/attack-W-12.txt",
+      "sha256": "96a82725defe5bf9c8e84a49cea6248e656a95627347b4ad1375a4a868dbcf68"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-E-01.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-E-01.txt",
+      "sha256": "33e04e7b1cdcd67fbbbcad2cb28e006a6bb6d8f92b37a3362a7532dfa9cfe95a"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-E-02.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-E-02.txt",
+      "sha256": "368e7442c58044846987b291c9bcfe77948d82132942a34bac6e42a18260e375"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-E-03.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-E-03.txt",
+      "sha256": "9aefaf16e0b97a47f9838177b4b94a28f7803561c9b79113e25ef1c18bdcf277"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-E-04.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-E-04.txt",
+      "sha256": "91fc841306a7a7616df3d28e39c665d69894339892060fe9003610378bed1b21"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-E-05.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-E-05.txt",
+      "sha256": "6f00332188e326ebfbd0c20ee71a0d322c1a05d8ca20068e82953c5555f400fb"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-E-06-r1.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-E-06-r1.txt",
+      "sha256": "8b92aa028f6dfefd190a6315a03d8a6fbc45e4d4e0a3fafdcb627a1aaa83c82a"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-E-06.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-E-06.txt",
+      "sha256": "47325d8dd61f2695c620b803a40aed3592aa0047ac15127b2bb126ea79d90f18"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-E-07.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-E-07.txt",
+      "sha256": "1095bb80163b428a0646b17218ee3b6dee46e9401574f446a461ab3bddbfa06c"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-E-08.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-E-08.txt",
+      "sha256": "ffee5a24a682b637071acebda97841c3e2c2cc15b1a08c3b4996419dd5f600e1"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-E-09.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-E-09.txt",
+      "sha256": "9b6492048aaafbecef0d1610c432e538146fbd372e1f726270a39d3df7663c7c"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/qa/cast-E-09-16-visual.md",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/qa/cast-E-09-16-visual.md",
+      "sha256": "968c49976dd96bf8d8b9a485d37fd3b531e0af7f407b9becabadb2c30a3a573a"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-E-10-r0.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-E-10-r0.txt",
+      "sha256": "2dcd82beb94ee1bde955618c015277ddaa01a09565c75ebb0840d9db0623d45d"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-E-10-r1.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-E-10-r1.txt",
+      "sha256": "ee9d199efa60106bc05750f530527c7e6166a6545fbf9df199ae120eca61d59b"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-E-10.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-E-10.txt",
+      "sha256": "49475bf27d06d27dd5f4c43209ddd990abb26db61ed51496c990efc79aafc87c"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-E-11-r0.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-E-11-r0.txt",
+      "sha256": "dd9ec747026a10dda06b2b17dd66cbe060b1f261c05695b7ecbca833981d24d6"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-E-11-r1.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-E-11-r1.txt",
+      "sha256": "abc5d8d6bf7b418c563886be610d37390398531f0952f4dd8e10fa6ea0e939fb"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-E-12-r1.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-E-12-r1.txt",
+      "sha256": "82e015f0817316cf5760d3e42fef86e73f34d35c78344ff4bd3144035d6c47f4"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-E-13.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-E-13.txt",
+      "sha256": "75432ad9f218234bbbed1c5c458ce349f96dab5c3336875ac58c202cf9775e6c"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-E-14.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-E-14.txt",
+      "sha256": "49591c7346b18d03a1c8a9cbde0b6fc974adda18371f0b9765862e019e6a0821"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-E-15.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-E-15.txt",
+      "sha256": "87245817d71ed3845f94a56a91bc4d8a08f7a7a1131fdb7375f5d0e843e9a9fa"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-E-16.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-E-16.txt",
+      "sha256": "3daf8c55a8ba581204ded6e29eb82f060d53ac3c0cb99c7c594014297173c01a"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-01.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-01.txt",
+      "sha256": "c59474ddeacdcabbd2e715bfc0ce06498da93b744e89452e16831c06080dd839"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/qa/cast-W-visual.md",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/qa/cast-W-visual.md",
+      "sha256": "f265b8448b9101a01cdbd4a0eebdab5d298bdf4ba4ae50f79eebd3bc831178b2"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-02.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-02.txt",
+      "sha256": "b5309925d5c5c17c76319564700e54c8342bf27fe7cac7da8ff8fb3344ad4a8a"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-03.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-03.txt",
+      "sha256": "7f84096a28ab4db17201f5e61b64df6a511da8dc921ee10846dffc980fcff407"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-04.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-04.txt",
+      "sha256": "ec690de9b9f34b00251b3136813299bd2c23275ae73c05c06023286f2756a2c6"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-05.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-05.txt",
+      "sha256": "15c270b7b2d7769346cc306bab7d4a187d53adc9c410b638a8b5914407731235"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-06.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-06.txt",
+      "sha256": "4f41ff1067ed78d677116c258d06a3760d7a32cdd0987ffb049551249af36046"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-07.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-07.txt",
+      "sha256": "4b57470a49b31f79612aae516da779424e4f97514a6902c175b95493fcf8b7cb"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-08.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-08.txt",
+      "sha256": "7db45711601ee3a9e8d4005e8966178afa4eb31e45b002c9f303cfa4619fdd72"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-09.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-09.txt",
+      "sha256": "901f90161ec7db387700cf94344cbf80778b645574c0e2a451e3c36f686db583"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-10-r0.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-10-r0.txt",
+      "sha256": "9e021932b78b5b8e3a719674e123752ed7199d780a7b53fb161ff6c3dcb3dc32"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-10-r2.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-10-r2.txt",
+      "sha256": "c65bea193c0fd5c243ba3e9324ad94c8e9c25bde81149f6b8a2ab3c6a92627c5"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-10.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-10.txt",
+      "sha256": "a79dc2121ee0cf594d6d4e4e232142abe43c7abd115dee9df95786597680ab5e"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-11-r0.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-11-r0.txt",
+      "sha256": "0354ab21297748f81cb9e5daf4f73622faffeee7d59f624daed6ba06c59a4cdf"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-11-r1.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-11-r1.txt",
+      "sha256": "200b16376471e2050ec614012cf2253e39ba6a18af4eb6e8c1611199d7966e94"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-11-r2.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-11-r2.txt",
+      "sha256": "fa0c685ebe371890d991a8017c64957a53bf53fed69fd433e83e0b2e5a1b1ef0"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-11.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-11.txt",
+      "sha256": "51fbd3780b95b3939ccc568175b37de6530a92fc2b0e463c906de9ee5cff1540"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-12-r0.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-12-r0.txt",
+      "sha256": "bc0eae055de0ad884e738389f6a3a399717a35940799aa0069e6e34820f4d325"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-12.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-12.txt",
+      "sha256": "7633b914ab8b30905fd70d379dbcac9445935f302a277dea579862d8f05756fd"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-13.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-13.txt",
+      "sha256": "af80812cbd7e05c012e5b3d293cc22160617916d16ed63a45eab20dfaaf90eea"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-14-r0.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-14-r0.txt",
+      "sha256": "aab272412f776eef0c7d7b79013f7d59743e0294275d12dbc91b38f8df7ea22f"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-14.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-14.txt",
+      "sha256": "bcb0fab9cdfde9b0c16918eaed87161af80b4efa847b8ee4ec862fb15d1bf9a8"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-15.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-15.txt",
+      "sha256": "236dfdba3234c465209d424088bdff033ecb91b05b4aa52acfaeb00699dd0a6a"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/cast-W-16.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/cast-W-16.txt",
+      "sha256": "71e719ee815ffbacd0b5b7c7fc162333bab77f7d5c423a63f06b51cc9525d64f"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/hit-E-01.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/hit-E-01.txt",
+      "sha256": "6f4adda09d7d88c7b8406c452b2deb127df4cc0219c67b8fe11cf1ff0f870801"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/hit-E-02.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/hit-E-02.txt",
+      "sha256": "4026c5f9f2fd9b976cbdacc5b87dd79af2d3224ce12fb2e11f498a92ca1d6e51"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/hit-E-03.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/hit-E-03.txt",
+      "sha256": "c455da49da35b9c128b69f086b75f1c0da162fe34d66a30c795d09fa5a02484c"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/hit-E-04-r2.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/hit-E-04-r2.txt",
+      "sha256": "2ec205ca9cbcbed62f10cf30f7728ca3836bbb9003fb7c23fb3a57568617dec0"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/hit-E-04.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/hit-E-04.txt",
+      "sha256": "4f71e197ae3b8a45e09f983f3d51cdb1c0089938f3af0c77171f92e9f3996808"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/hit-E-05.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/hit-E-05.txt",
+      "sha256": "08dede950b33acd19ac40eabb4a33a2e68e2519a19b20cb582b466571f15a273"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/hit-E-06.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/hit-E-06.txt",
+      "sha256": "50d681f20072203a0afc01c1c800221bd9fe464c09025123f85d6bb5f8d61159"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/hit-W-01-r2.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/hit-W-01-r2.txt",
+      "sha256": "19a0eb3190a795e0a069b99cd0cb39b9cf6b5c7e17d074f0a193fba410744731"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/hit-W-01.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/hit-W-01.txt",
+      "sha256": "d00bacabb083feed11ff8261e61ca7216015874a3156e1c208907ab7cfa40a17"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/hit-W-02-r2.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/hit-W-02-r2.txt",
+      "sha256": "ccc7e6000268d468626aae7da5b8fd46084f585e6924a146a73213e8d605ce6f"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/hit-W-02.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/hit-W-02.txt",
+      "sha256": "98c4022e37d656e2ce6c275208f252c8036a8d1486773bfbc21857dad499300e"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/hit-W-03.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/hit-W-03.txt",
+      "sha256": "6cf4d586b736ffec1c49d5f82dc6a3d0319f676ee0d57a788d51e9608e3d36cf"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/hit-W-04.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/hit-W-04.txt",
+      "sha256": "5dc679f90f2e0fd78cc40cdd8c36ae4647d6fe8c2e8bf23ebf2a97c7dd8a2c84"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/hit-W-05.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/hit-W-05.txt",
+      "sha256": "3a6fb02d647161cab1020f7e60c12a993878a80c26ecade854c768b85fe0d8cb"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/legacy-yun-jiu-jiu/prompts/hit-W-06.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/legacy-yun-jiu-jiu/dependencies/prompts/hit-W-06.txt",
+      "sha256": "b65a14bb9a712b4b9d6ed9b1f8867115ee5348956002e0c180d73cbfa2d076c2"
+    }
+  ],
+  "sourceFrameWarnings": [],
+  "generationConfigTarget": {
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "basis": "Historical source configuration, not actual returned metadata and not a new generation."
+  },
+  "sourceManifestSHAMatches": true
+}

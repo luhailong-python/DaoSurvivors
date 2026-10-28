@@ -1,0 +1,19 @@
+{
+  "file": "art/whole-game/support/pickup-heal.png",
+  "source": "E:\\work\\image\\DaoSurvivors\\art\\icons\\healing.png",
+  "sourceSha256": "5707d2f448176aec89aabe4c6f3a77bdd1bace967f18404cdb748c195827021d",
+  "operation": "byte-copy",
+  "newGeneration": false,
+  "newAIEdit": false,
+  "canvas": [
+    512,
+    512
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "zeroAlphaPixels": 210143,
+  "sha256": "5707d2f448176aec89aabe4c6f3a77bdd1bace967f18404cdb748c195827021d"
+}

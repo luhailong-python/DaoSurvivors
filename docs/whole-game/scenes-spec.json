@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "workingTitle": "道途幸存者（临时名称）",
+  "sceneName": "清竹道场（美术临时名）",
+  "status": "terrain_art_complete_prop_composition_pending",
+  "referenceGame": {
+    "url": "https://github.com/Roo-Roo-Roo/survivors-roguelike-kit",
+    "commit": "3f905381d73a34b516030528b8ef6743868b9e52"
+  },
+  "sceneMode": "tile_mode / repeated top-down open arena",
+  "phase": "art only; Unity integration deferred",
+  "viewport": {
+    "reference": [
+      1920,
+      1080
+    ],
+    "projection": "orthographic",
+    "sourceCameraSize": 8.5,
+    "visibleHeightWorld": 17,
+    "visibleWidthWorldAt16by9": 30.22222222222222,
+    "tileDisplayPxAtReference": 63.529411764705884,
+    "cameraSourceClampMarginWorld": 5
+  },
+  "world": {
+    "mapCount": 1,
+    "sourceMapKey": "Map1",
+    "levelConfigsSharingMap": [
+      "First",
+      "Second"
+    ],
+    "widthTiles": 100,
+    "heightTiles": 100,
+    "tileWorldSize": [
+      1,
+      1
+    ],
+    "tileCenterOriginWorld": [
+      -50,
+      -50
+    ],
+    "occupiedBoundsWorld": [
+      -50.5,
+      -50.5,
+      49.5,
+      49.5
+    ],
+    "terrainCollision": "open ground; not an authored collision map",
+    "portals": [],
+    "authoredRoutes": [],
+    "spawnSuggestionWorld": [
+      0,
+      0
+    ],
+    "spawnSuggestionStatus": "preview assumption, not a new source mechanic"
+  },
+  "tiles": [
+    {
+      "key": "Map_1",
+      "weight": 200,
+      "label": "plain-stone",
+      "file": "art/whole-game/terrain/v1/ground-01.png",
+      "nativeCropSize": [
+        512,
+        512
+      ],
+      "deliveredSize": [
+        512,
+        512
+      ],
+      "sha256": "97a4aece38aad00cf7ce64ba570ca3d4d5700f9e3f63ad6231aa24ba21c683b4"
+    },
+    {
+      "key": "Map_2",
+      "weight": 3,
+      "label": "moss-stone",
+      "file": "art/whole-game/terrain/v1/ground-02.png",
+      "nativeCropSize": [
+        512,
+        512
+      ],
+      "deliveredSize": [
+        512,
+        512
+      ],
+      "sha256": "abc62329e79ffda15b145606e898962b258709e19f62a4a00844a5a1fa915e19"
+    },
+    {
+      "key": "Map_3",
+      "weight": 3,
+      "label": "bamboo-leaves",
+      "file": "art/whole-game/terrain/v1/ground-03.png",
+      "nativeCropSize": [
+        512,
+        512
+      ],
+      "deliveredSize": [
+        512,
+        512
+      ],
+      "sha256": "6ca198c3fd818518cd76945e676e3710c2f743e5c9609cff6ff97989ea442d33"
+    },
+    {
+      "key": "Map_4",
+      "weight": 1,
+      "label": "wildflower",
+      "file": "art/whole-game/terrain/v1/ground-04.png",
+      "nativeCropSize": [
+        512,
+        512
+      ],
+      "deliveredSize": [
+        512,
+        512
+      ],
+      "sha256": "0e66d19179106823521c889ec54f1a892baabf0e049c622e56390552666b7aec"
+    },
+    {
+      "key": "Map_5",
+      "weight": 1,
+      "label": "lichen",
+      "file": "art/whole-game/terrain/v1/ground-05.png",
+      "nativeCropSize": [
+        512,
+        512
+      ],
+      "deliveredSize": [
+        512,
+        512
+      ],
+      "sha256": "f50da2adfd8a0e25200720cb8b05bc658064b27e52944c53456e027eab340b8c"
+    },
+    {
+      "key": "Map_6",
+      "weight": 3,
+      "label": "stone-cluster",
+      "file": "art/whole-game/terrain/v1/ground-06.png",
+      "nativeCropSize": [
+        512,
+        512
+      ],
+      "deliveredSize": [
+        512,
+        512
+      ],
+      "sha256": "42695c736eaaab3294b656c057d87973d2e30d767c44bb982e33e6ec3231736b"
+    }
+  ],
+  "sourceTileNativeSize": [
+    2048,
+    2048
+  ],
+  "inputAtlas": {
+    "file": "art/whole-game/sheets/world-terrain-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "2e37ca24373d4c683bacdddb3674aaec5b2369b04d612e1271ed8cf8a60e60b5",
+    "generationRecord": "art/whole-game/sheets/world-terrain-v1.png.generation.json",
+    "grid": [
+      3,
+      2
+    ],
+    "cellSize": [
+      512,
+      512
+    ],
+    "cropConvention": "left-top-right-bottom exclusive; left-to-right, top-to-bottom",
+    "opaqueRequired": true,
+    "upscalingAllowed": false
+  },
+  "edgeContract": {
+    "sourceArt": "generated hand-painted raster; no program-painted terrain",
+    "processing": "native crop then deterministic common edge quilting by source pixel copy",
+    "downscale": "none for this 512px atlas; future larger sources may use explicit Lanczos downsizing",
+    "blurOrBlend": false,
+    "canonicalReferenceTileIndex": 0,
+    "canonicalReferenceOperation": "toroidal half-offset; boundary pixels are naturally adjacent source-centre pixels",
+    "mandatoryGuardPx": 16,
+    "maximumQuiltingExtentPx": 48,
+    "minErrorCut": "deterministic ±1px dynamic programming path; preserve original inner pixels",
+    "joinProof": "each of all 36 horizontal and all 36 vertical pairs matches the exact reference adjacency; zero mismatch is not a claim of zero natural RGB step",
+    "seamQA": "art/whole-game/terrain/v1/seam-qa.json"
+  },
+  "props": {
+    "sourceTypes": 1,
+    "sourceCount": 20,
+    "placement": "5 rows x 4 columns; x=-30,-10,10,30; y=-33.333333,-16.666667,0,16.666667,33.333333",
+    "spriteFile": null,
+    "status": "pending root world FX destructible prop resource binding",
+    "castShadow": "separate transparent shadow resource, pending binding",
+    "sourceHasCollider2D": false,
+    "doNotInventObstacle": true,
+    "artAnchor": "foot contact; actual PNG anchor to be measured when bound"
+  },
+  "renderOrder": [
+    "Map (source short.MinValue)",
+    "Prop/shadows and actors according to foot anchors",
+    "Combat FX",
+    "HUD"
+  ],
+  "unityAdvice": {
+    "status": "suggested_not_validated_in_Unity",
+    "spriteType": "Sprite 2D and UI / Single",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "pixelsPerUnit": 512,
+    "textureSize": [
+      512,
+      512
+    ],
+    "scaleForSource1x1WorldTile": [
+      1,
+      1
+    ],
+    "filter": "Bilinear",
+    "wrap": "Clamp",
+    "mipMaps": false,
+    "sourceMapMaterialBrightness": 3,
+    "artPreviewBrightness": 1,
+    "materialAction": "At integration stage compare with preview using brightness1; source multiplier3 would overexpose pale ground. No material changed now."
+  },
+  "artAccepted": [
+    "six native 512 ground variants",
+    "source weights and 100x100 reproducible art-assembly data",
+    "20 exact source-formula prop position records",
+    "all 72 pair joins numerical and visual review",
+    "mixed/before-after/world-overview/camera-scale previews"
+  ],
+  "pending": [
+    "Bind transparent destructible Prop and shadow, compose representative actors at source camera scale",
+    "Unity import/material/collision/runtime validation (next phase)"
+  ],
+  "sources": [
+    {
+      "referenceGameRelativePath": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Map/Map1.asset",
+      "sha256": "bfd98805952459df1ccdc4366098d16f99b55f371356e2f6be0fe07c2adf7674"
+    },
+    {
+      "referenceGameRelativePath": "Assets/RGame/RoguelikeKit/Scripts/System/Map/MapManager.cs",
+      "sha256": "ad4f35addce92d945b77c63a7526ab98640d8b5a573cf84494a3f7e2bc4927dd"
+    },
+    {
+      "referenceGameRelativePath": "Assets/RGame/RoguelikeKit/Scripts/SOData/MapConfigSO.cs",
+      "sha256": "6919a6a6434ff8efa2469a918ab3ea100a028bc6825b09101c62bca2dbd83994"
+    },
+    {
+      "referenceGameRelativePath": "Assets/RGame/RoguelikeKit/Scenes/GameLevel/Game.unity",
+      "sha256": "990d1bd1c3dedee8531b1fc92b85e320e133caa1b1e76a5482645e899c429787"
+    },
+    {
+      "referenceGameRelativePath": "Assets/RGame/RoguelikeKit/Scripts/Game/Camera/CameraFollow.cs",
+      "sha256": "01859d214b876b50568043b0e528f9c37ca2ed4944ffbd37cdedeea4cfdc413b"
+    },
+    {
+      "referenceGameRelativePath": "Assets/RGame/RoguelikeKit/Scripts/Shader/Map.shader",
+      "sha256": "7324b234ddb8873da39913d12c4c37a5c19a7148929d4318be76461a1a7e7622"
+    },
+    {
+      "referenceGameRelativePath": "Assets/RGame/RoguelikeKit/Art/Matrials/Map.mat",
+      "sha256": "d3bf8ed7d2cfe3c03bc4effbcc9acc0a694cc1098373fa50a017812250b5ec80"
+    },
+    {
+      "referenceGameRelativePath": "Assets/RGame/RoguelikeKit/Prefabs/DropOut/Prop.prefab",
+      "sha256": "41edb66860b496b41eba8a94987ed40491a587bad628ad7347209d634f8d439f"
+    }
+  ],
+  "skill": "C:/Users/luyua/.codex/skills/generate2dmap/SKILL.md",
+  "doctor": "docs/whole-game/scene-doctor.json",
+  "outputDirectory": "art/whole-game/terrain/v1",
+  "previewDirectory": "designs/whole-game/scenes/v1",
+  "assembly": "art/whole-game/terrain/v1/map1-assembly.json"
+}

@@ -1,0 +1,120 @@
+{
+  "file": "art/whole-game/players/fighter/run/E/03.png",
+  "sha256": "849434ac87d794aef2edf927f9ec96d190185464eb40b2dcd0962c3a4ed75237",
+  "bbox": [
+    125,
+    57,
+    399,
+    471
+  ],
+  "durationMs": 60,
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "derivedFrom": [
+    {
+      "file": "art/whole-game/players/fighter/parts/head.png",
+      "sha256": "d0dbfb5b00ab472e5e6fea3cb40eb2265810bc0ff9e0f5122e0c945bf7d28f6f"
+    },
+    {
+      "file": "art/whole-game/players/fighter/parts/torso.png",
+      "sha256": "4133cbd086e4d885ca4790523387f28b2d2dc3bc0875ebba27c9195f89563420"
+    },
+    {
+      "file": "art/whole-game/players/fighter/parts/far_arm.png",
+      "sha256": "25a969a65eb7766662d4acaa01255f3d36240dce76f09a1d4718bc639637555b"
+    },
+    {
+      "file": "art/whole-game/players/fighter/parts/near_arm.png",
+      "sha256": "63a41afab4151c4dd44c1154866f0d0581bebd9b55980cd83ee2100f780ffee3"
+    },
+    {
+      "file": "art/whole-game/players/fighter/parts/far_leg.png",
+      "sha256": "f2b12f1074fca4587e5d85bbd4e090abb3ff1f5ff79d58c5dbc87511a87ea96a"
+    },
+    {
+      "file": "art/whole-game/players/fighter/parts/near_leg.png",
+      "sha256": "133122923e1602ae52160a704e97710ee4aa711bc31d596c22eace98867d5292"
+    }
+  ],
+  "operation": "premultiplied-alpha affine cutout composite of6 existing painted parts",
+  "pose": {
+    "head": {
+      "joint": [
+        249.04,
+        241.213
+      ],
+      "angle": -0.311,
+      "stretch": [
+        1,
+        1
+      ]
+    },
+    "torso": {
+      "joint": [
+        248.796,
+        237.22
+      ],
+      "angle": -3.5,
+      "stretch": [
+        1,
+        1.006
+      ]
+    },
+    "far_arm": {
+      "joint": [
+        217.955,
+        257.14
+      ],
+      "angle": 12.763,
+      "stretch": [
+        1,
+        1
+      ]
+    },
+    "near_arm": {
+      "joint": [
+        280.837,
+        253.294
+      ],
+      "angle": -19.763,
+      "stretch": [
+        1,
+        1
+      ]
+    },
+    "far_leg": {
+      "joint": [
+        240.396,
+        361.966
+      ],
+      "angle": -19.763,
+      "stretch": [
+        1,
+        1.0791809408061657
+      ],
+      "contact": "support",
+      "soleY": 471
+    },
+    "near_leg": {
+      "joint": [
+        278.447,
+        353.864
+      ],
+      "angle": 12.763,
+      "stretch": [
+        1,
+        0.8992999828150924
+      ],
+      "contact": "swing",
+      "soleY": 453
+    }
+  },
+  "root": [
+    256,
+    471
+  ],
+  "actualModel": null,
+  "actualQuality": null
+}

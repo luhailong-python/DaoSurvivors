@@ -1,0 +1,9 @@
+{
+  "file": "art/whole-game/players/mage/run/W/strip.png",
+  "sha256": "8dc45fc1bcd1ae41139dfe56c0bf757c7ddb7bd8fb1acf0b9194d7a777c4a9b5",
+  "derivedFrom": {
+    "file": "art/whole-game/players/mage/run/E/strip.png",
+    "sha256": "abc4d50c6e6636cde171382aad6356c5bc5f6684d09875f01f79aed282c6da05"
+  },
+  "operation": "each of16 chronological cells reflected horizontally; frame order unchanged"
+}

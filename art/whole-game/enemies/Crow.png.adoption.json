@@ -1,0 +1,116 @@
+{
+  "sourceKey": "Crow",
+  "displayName": "烛翎幻身",
+  "sourceIdentity": "烛翎",
+  "role": "Boss近战",
+  "identity": "靛蓝灵鸦铜红翼斑；冲刺状态机",
+  "artSource": "existing",
+  "adoptionType": "reskin; direct byte copy",
+  "sourceArtRepository": {
+    "path": "F:\\work\\image",
+    "remote": "https://luyuacpp.visualstudio.com/image/_git/image"
+  },
+  "sourceArtPath": "designs/creature-combat-20261005/pets/01-zhuling/runtime/attack/E/01.png",
+  "destination": "art/whole-game/enemies/Crow.png",
+  "sourceSHA256": "71394dfde1688709a9e94d8a9d22ffcb2186710f30890bfe781aa6949c585ca9",
+  "sha256": "71394dfde1688709a9e94d8a9d22ffcb2186710f30890bfe781aa6949c585ca9",
+  "copyVerified": true,
+  "canvas": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "realAlpha": true,
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "zeroPixels": 709268,
+    "partialPixels": 338354,
+    "opaquePixels": 954,
+    "visibleBBoxAlphaAtLeast16": [
+      114,
+      114,
+      922,
+      883
+    ],
+    "visibleEdgePixelsAlphaAtLeast16": 0,
+    "edgePixelsAnyAlpha": 0
+  },
+  "pivotBottomLeft": [
+    0.5,
+    0.08
+  ],
+  "anchorTopLeftPx": [
+    512,
+    942
+  ],
+  "anchorKind": "virtual hover anchor",
+  "facing": "three-quarter front, down-right; x mirror allowed for source movement",
+  "suggestedVisibleHeightAt1080": 170,
+  "spriteType": "Single",
+  "meshType": "FullRect",
+  "borderLTRB": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "filterMode": "Bilinear",
+  "wrapMode": "Clamp",
+  "mipmaps": false,
+  "colourSpace": "sRGB",
+  "generationModel": null,
+  "generationQuality": null,
+  "generationEvidenceNote": "Historical source generation evidence is preserved. No generation or AI edit occurred during this adoption. Configuration targets never establish actual model/quality.",
+  "sourceRecords": [
+    {
+      "source": "designs/creature-combat-20261005/pets/01-zhuling/records/attack/E/01.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/01-zhuling/01-source-record-01.json",
+      "sha256": "51c01e5f236bb667fb40393880f8d2b8f05ed8368e677b1a0c1cbbc36976498a"
+    }
+  ],
+  "selectedManifestSnapshot": "docs/whole-game/enemy-source-evidence/01-zhuling/selected-manifest-frame.json",
+  "sourceGamePrefab": "Assets/RGame/RoguelikeKit/Prefabs/Enemy/NewMonster/Crow.prefab",
+  "sourceGameSpritePaths": [
+    "Assets/RGame/RoguelikeKit/Art/Sprites/Monster/NewMonster/Ghost.png"
+  ],
+  "review": {
+    "fullSourceImageViewed": true,
+    "adoptedDate": "2026-10-28",
+    "visibleClippingCheck": "pass",
+    "identityCheck": "pass; distinct existing Daoist chibi identity",
+    "engineValidation": "not-run; Unity import and motion integration remain next phase",
+    "finalLightDarkLineup": "accepted; identity, anatomy, implements and tails/wings intact, distinct readable silhouettes"
+  },
+  "historicalNativeSize": [
+    1254,
+    1254
+  ],
+  "historicalNativeSizeBasis": "Source README and selected source record; final1024PNG was an earlier full-canvas export, this adoption does not resample.",
+  "sourceEvidenceDependencies": [
+    {
+      "source": "designs/creature-combat-20261005/pets/01-zhuling/records/attack/E/01.generation.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/01-zhuling/dependencies/records/attack/E/01.generation.json",
+      "sha256": "51c01e5f236bb667fb40393880f8d2b8f05ed8368e677b1a0c1cbbc36976498a"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/01-zhuling/prompts/attack/E/01.txt",
+      "snapshot": "docs/whole-game/enemy-source-evidence/01-zhuling/dependencies/prompts/attack/E/01.txt",
+      "sha256": "84f8615ef2f14791c0ecd897249d97316968c263ec39724e9080b7b9241f2e68"
+    },
+    {
+      "source": "designs/creature-combat-20261005/pets/01-zhuling/qa/visual-review.json",
+      "snapshot": "docs/whole-game/enemy-source-evidence/01-zhuling/dependencies/qa/visual-review.json",
+      "sha256": "d87eb987b15cfc15a7cf36ce1f30b92fc783c29282903639e67177c92c197def"
+    }
+  ],
+  "sourceFrameWarnings": [],
+  "generationConfigTarget": {
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "basis": "Historical source configuration, not actual returned metadata and not a new generation."
+  },
+  "sourceManifestSHAMatches": true
+}

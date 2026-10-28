@@ -1,0 +1,39 @@
+{
+  "part": "far_leg",
+  "file": "art/whole-game/players/fighter/parts/far_leg.png",
+  "sha256": "f2b12f1074fca4587e5d85bbd4e090abb3ff1f5ff79d58c5dbc87511a87ea96a",
+  "nativeSize": [
+    231,
+    408
+  ],
+  "sourceCrop": [
+    676,
+    545,
+    907,
+    953
+  ],
+  "nativePivot": [
+    98,
+    34
+  ],
+  "pivotAtlas": [
+    774,
+    579
+  ],
+  "displayScale": 0.29,
+  "bindJoint": [
+    240,
+    364
+  ],
+  "mirrorAroundJoint": false,
+  "parent": "torso",
+  "derivedFrom": {
+    "file": "art/whole-game/sheets/player-fighter-rig-v2.png",
+    "sha256": "025aa1fdefb5b54d190a3ceedd30be4dfd6022af41301394478f909838403ee0",
+    "generationRecord": "art/whole-game/sheets/player-fighter-rig-v2.png.generation.json"
+  },
+  "operation": "component-ownership crop; native RGBA retained; alpha hygiene removes disconnected <=16 haze outside3px contour",
+  "removedAlphaPixels": 534094,
+  "actualModel": null,
+  "actualQuality": null
+}

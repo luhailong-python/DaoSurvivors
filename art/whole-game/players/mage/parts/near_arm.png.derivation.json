@@ -1,0 +1,39 @@
+{
+  "part": "near_arm",
+  "file": "art/whole-game/players/mage/parts/near_arm.png",
+  "sha256": "ec966e20672b3657a025997d71a3c67cf7d675a40063af60486342c4869c6e86",
+  "nativeSize": [
+    336,
+    374
+  ],
+  "sourceCrop": [
+    115,
+    569,
+    451,
+    943
+  ],
+  "nativePivot": [
+    255,
+    70
+  ],
+  "pivotAtlas": [
+    370,
+    639
+  ],
+  "displayScale": 0.31,
+  "bindJoint": [
+    285,
+    265
+  ],
+  "mirrorAroundJoint": true,
+  "parent": "torso",
+  "derivedFrom": {
+    "file": "art/whole-game/sheets/player-mage-rig-v2.png",
+    "sha256": "096aa9994985de2d067d66bb62179d515e9ed2707cb67bde24e39a50d4599c97",
+    "generationRecord": "art/whole-game/sheets/player-mage-rig-v2.png.generation.json"
+  },
+  "operation": "component-ownership crop; native RGBA retained; alpha hygiene removes disconnected <=16 haze outside3px contour",
+  "removedAlphaPixels": 566428,
+  "actualModel": null,
+  "actualQuality": null
+}

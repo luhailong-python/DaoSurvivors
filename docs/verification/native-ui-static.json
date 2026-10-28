@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-26T05:54:40.2303965-04:00",
+  "projectRoot": "E:\\work\\image\\DaoSurvivors",
+  "status": "static_review_only",
+  "unityCompilation": "not_run",
+  "unityExecution": "not_run",
+  "visualAcceptance": "not_claimed",
+  "syntax": {
+    "tool": "Existing .NET 8 SDK Roslyn CSharpSyntaxTree.ParseText",
+    "filesParsed": 5,
+    "errors": 0,
+    "semanticCompilation": false
+  },
+  "sources": [
+    {
+      "file": "Assets/DaoSurvivor/Scripts/UI/DaoGameApp.cs",
+      "sha256": "940a9ef03aa65d76ecd0c82c068a986eaa210980f425186c0c5203965664102e"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Scripts/UI/DaoUi.cs",
+      "sha256": "2040799447d14eb0ac5a3ef37804cb0700840f33835de11f15a6097a0a7c3b89"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Scripts/UI/PlayerProgress.cs",
+      "sha256": "bbb091c40f8814c4b9f4bfd2681fa0dadf64a464232c552bc8a3c9e05b382700"
+    }
+  ],
+  "nativeUi": {
+    "bootstrap": "RuntimeInitializeOnLoadMethod AfterSceneLoad",
+    "canvas": "ScreenSpaceOverlay; 1920x1080 reference; CanvasScaler Expand",
+    "font": "Resources/Fonts/NotoSansSC-Regular.otf",
+    "fontLayout": "Estimated line boxes >=1.7*fontSize, lineSpacing 1, vertical overflow enabled to avoid Noto ascent/descent truncation; actual Unity glyph/layout still pending",
+    "artwork": "Real DaoArt PNGs; permitted skins use manifest nine-slice borders; portraits preserve aspect",
+    "lobbyBackground": "Centered AspectRatioFitter.EnvelopeParent; uniform cover, no nonuniform image stretch",
+    "screens": [
+      "character and stage selection",
+      "permanent training",
+      "codex",
+      "settings",
+      "help",
+      "battle HUD",
+      "three-choice upgrade",
+      "pause",
+      "abandon confirmation",
+      "result reward claim"
+    ],
+    "publicApi": [
+      "BeginRun",
+      "PauseRun",
+      "ResumeRun",
+      "ReturnHome",
+      "OpenSettings",
+      "ShowTab",
+      "Combat"
+    ],
+    "requiredButtonNames": [
+      "start-run",
+      "pause",
+      "resume",
+      "return-home"
+    ],
+    "persistence": {
+      "key": "DaoSurvivors.v1.profile",
+      "initialGift": 120,
+      "maximumTrainingLevel": 5,
+      "trainingCost": "40 + 25 * current level",
+      "attackPerLevel": "+5%",
+      "healthPerLevel": "+10",
+      "speedPerLevel": "+3%",
+      "statistics": "Completed runs, wins, best kills and best time use actual RunResult",
+      "rewardGuard": "Model end event emitted once, UI result identity deduplication, claim flag; abandonment grants no coins"
+    },
+    "pauseBehavior": "Opening settings while running first pauses; settings close restores upgrade/pause/result origin; no automatic unpause",
+    "sound": "Synthesized native UI button confirmation tone; AudioListener created only if no listener exists",
+    "effects": "Toggle updates SurvivorCombat.EffectsEnabled"
+  },
+  "pendingUnityChecks": [
+    "Full assembly/UGUI/font compilation in Unity 6",
+    "Actual dynamic CJK glyph rendering and multi-line layout",
+    "1920x1080, 1280x720 and wide-screen scene rendering",
+    "EventSystem pointer, keyboard navigation and physical touch",
+    "Native settings/pause/upgrade/claim interaction and PlayerPrefs persistence",
+    "Audio playback and focus/application-pause lifecycle"
+  ],
+  "notes": [
+    "HTML/PNG previews are reviewed separately by the parent; they are not evidence of native Unity rendering.",
+    "Native training and codex use expanded paper windows to fit permanent upgrade details and the 3 hero / 2 monster / 3 artifact catalog.",
+    "No Unity editor or additional runtime was installed for these checks."
+  ]
+}

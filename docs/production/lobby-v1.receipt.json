@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "kind": "metadata-only receipt reconstruction",
+  "recordedAtUtc": "2026-10-26T09:47:23.052729+00:00",
+  "tool": "image_gen__imagegen",
+  "toolAlias": "image_gen.imagegen",
+  "route": "builtin",
+  "provenance": "Call arguments and exact output_hint supplied by the root generation agent; referenced files, image bytes, PNG metadata and timestamps independently verified from disk by this record writer.",
+  "requestArguments": {
+    "prompt": "Use case: ui-mockup.\nAsset type: original illustrated lobby backdrop for a new playable Chinese Daoist chibi survivors game, landscape 16:9, target 1920x1080 or highest native landscape detail available.\nInput image 1 and input image 2 are visual STYLE references only: adopt their premium hand-painted jade greens, ivory silk-paper warmth, fine warm gold, rounded auspicious cloud motifs and charming big-head short-body character drawing. Do not reproduce their interface text, layout, or characters exactly.\nCreate a beautiful daylight adventure key illustration: on the left half a joyful ORIGINAL little Daoist apprentice with a pure golden headband, short brown hair, huge expressive brown eyes, jade green short vest over ivory robes, rounded little shoes, a gold-and-jade gourd tied to the belt, holding a glowing paper talisman; a tiny white fox spirit beside him. Keep full figures within the left 52%, about 65% canvas height, three-quarter view. Their faces should have the delicate lively rendering of the reference.\nBehind them: luminous layered jade mountains, pale waterfalls and cloud sea, small distant rounded Daoist tiled roofs, a blossoming peach branch at upper left, just one subtle red hanging tassel or lantern attached to a roof, a few softly drifting peach petals. Late-morning clear light. Foreground smooth warm gray stone with a restrained engraved taiji circle. Do not fill the ground with red/gold ornaments.\nThe RIGHT 40% is calm soft pale teal mist and distant mountains, sparse detail, suitable behind a readable UI panel. Keep lower 12% uncluttered for navigation overlay. Clear focal hierarchy, tasteful brush texture and exquisite soft shading, polished hand-drawn Chinese fantasy game art. Rounded full forms, no plastic gloss, no pixel art, no realism, no muddy grunge, no dense speckle noise.\nCRITICAL: This is an illustration layer only. NO text, NO letters, NO numbers, NO UI frames, NO buttons, NO logo, NO watermark. Avoid cropping heads, limbs or the gourd. Preserve the specified Daoist chibi aesthetic.\r\n",
+    "referenced_image_paths": [
+      "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "requestArgumentKeys": [
+    "prompt",
+    "referenced_image_paths",
+    "transparent_background"
+  ],
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false,
+  "toolReturn": {
+    "returnedFieldNames": [
+      "image_url",
+      "output_hint"
+    ],
+    "image_url": {
+      "type": "PNG Data URL",
+      "base64Stored": false,
+      "decodedBytesNativeArtifact": "C:\\Users\\luyua\\.codex\\generated_images\\01a17784-7bd6-7ee0-b3b0-353fcf2e1606\\exec-18876fb3-d43a-472c-b78f-f6556eec0c2c.png",
+      "decodedBytesSha256": "c1d4031e9e6185855ce4d938a0d28b804a4edc0c88655dc52f735fedfe8a35a4"
+    },
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17784-7bd6-7ee0-b3b0-353fcf2e1606 as C:\\Users\\luyua\\.codex\\generated_images\\01a17784-7bd6-7ee0-b3b0-353fcf2e1606\\exec-18876fb3-d43a-472c-b78f-f6556eec0c2c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "actualModelFieldReturned": false,
+    "actualQualityFieldReturned": false
+  },
+  "sourceArtifactFileTimes": {
+    "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a17784-7bd6-7ee0-b3b0-353fcf2e1606\\exec-18876fb3-d43a-472c-b78f-f6556eec0c2c.png",
+    "creationTimeUtc": "2026-10-26T09:29:12.8429818Z",
+    "lastWriteTimeUtc": "2026-10-26T09:29:12.8440388Z",
+    "creationTimeNewYork": "2026-10-26T05:29:12.8429818-04:00",
+    "lastWriteTimeNewYork": "2026-10-26T05:29:12.8440388-04:00",
+    "timeZone": "America/New_York",
+    "method": "PowerShell Get-Item CreationTimeUtc/LastWriteTimeUtc; DateTimeOffset converted with TimeZoneInfo.FindSystemTimeZoneById('America/New_York')",
+    "limitation": "Filesystem timestamps establish source persistence time, not an independently verified backend job start/end. C2PA declared action times are recorded separately."
+  },
+  "pngInspection": {
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "format": "PNG",
+    "pillowInfo": {},
+    "chunks": [
+      {
+        "type": "IHDR",
+        "length": 13
+      },
+      {
+        "type": "caBX",
+        "length": 21881
+      },
+      {
+        "type": "IDAT",
+        "length": 2607689
+      },
+      {
+        "type": "IEND",
+        "length": 0
+      }
+    ],
+    "c2pa": {
+      "present": true,
+      "container": "PNG caBX / JUMBF",
+      "chunkBytes": 21881,
+      "chunkSha256": "3f46854741838d789a9982488b5ce5424e5fd21914d716b409500c0043d04c05",
+      "parseMethod": "Read PNG chunk table and JUMBF boxes; decode c2pa.actions.v2 / c2pa.claim.v2 CBOR without modifying the PNG",
+      "cryptographicSignatureValidated": false,
+      "signatureValidationStatus": "未执行C2PA签名及信任链验证；以下为读取到的声明字段",
+      "manifestLabel": "urn:c2pa:40b33ed2-ee63-41c1-b776-8a2b1d75d515",
+      "claimInstanceId": "xmp:iid:7e077323-e0b5-4dcf-96e8-2a51685ca3c2",
+      "claimGeneratorInfo": {
+        "name": "OpenAI Media Service API",
+        "specVersion": "2.2.0",
+        "org.contentauth.c2pa_rs": "0.79.2"
+      },
+      "actions": [
+        {
+          "action": "c2pa.created",
+          "when": "2026-10-26T09:29:07.247737606Z",
+          "softwareAgent": {
+            "name": "ChatGPT",
+            "version": "gpt-image"
+          },
+          "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia"
+        },
+        {
+          "action": "c2pa.converted",
+          "when": "2026-10-26T09:29:07.247750461Z"
+        },
+        {
+          "action": "c2pa.watermarked.unbound",
+          "when": "2026-10-26T09:29:07.237463919Z"
+        }
+      ],
+      "allActionsIncluded": false,
+      "backendModelDisclosed": false,
+      "qualityDisclosed": false,
+      "note": "Pillow info is empty but the PNG contains an actual C2PA caBX manifest. Generic softwareAgent.version gpt-image does not establish Sunburst/Flare, a model snapshot, or a quality setting."
+    }
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具返回未披露具体后端型号和画质。C2PA仅有通用软件标签gpt-image，不能据此确认API分支、模型快照或实际质量。",
+  "promptFileEncodingEvidence": {
+    "encoding": "UTF-8",
+    "rawFileSha256": "66eb99fb6c9a655613de4da662dc159f9f1eae4116cb12cbda8b9ee9a960189e",
+    "CRLFCount": 1,
+    "newlinePreserved": true,
+    "note": "Prompt decoded from original UTF-8 file bytes without universal-newline normalization."
+  }
+}

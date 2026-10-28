@@ -1,0 +1,174 @@
+{
+  "originalManifest": "designs/creature-combat-20261005/pets/03-shuangtuan/manifest.json",
+  "originalManifestSHA256": "31207e321d4e26fd67b1a638bfaaf83ff2fc88c5cb8583f6b74c9a90dc137841",
+  "selection": "runtime/attack/E/01.png",
+  "selectedFrameRecord": {
+    "action": "attack",
+    "direction": "E",
+    "frame": 1,
+    "path": "runtime/attack/E/01.png",
+    "exists": true,
+    "width": 1024,
+    "height": 1024,
+    "durationMs": 30,
+    "pivot": [
+      0.5,
+      0.08
+    ],
+    "anchor": [
+      512,
+      942
+    ],
+    "event": null,
+    "sha256": "25c43f49c0361358b2ac0b162c0a3e8cdc54d4047ebb180ada5f6142133383df",
+    "sourceRecord": "records/attack/E/01.generation.json",
+    "visualStatus": "static-reviewed",
+    "technicalStatus": "pass",
+    "errors": [],
+    "warnings": [
+      "visible-alpha-touches-canvas-edge-review-crop"
+    ],
+    "visualEvidence": [
+      "qa/attack/final-static-review-20261008.json",
+      "qa/attack/final-static-review-20261008.md"
+    ],
+    "image": {
+      "width": 1024,
+      "height": 1024,
+      "bitDepth": 8,
+      "colorType": 6,
+      "mode": "RGBA",
+      "hasAlphaChannel": true,
+      "interlace": 0,
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "transparentPixels": 568532,
+      "visiblePixels": 480044,
+      "hasTransparency": true,
+      "alphaBounds": [
+        0,
+        17,
+        1009,
+        977
+      ]
+    },
+    "sourceReferences": [
+      {
+        "field": "file",
+        "path": "runtime/attack/E/01.png",
+        "resolved": "D:/work/image/designs/creature-combat-20261005/pets/03-shuangtuan/runtime/attack/E/01.png",
+        "exists": true,
+        "retiredWithSha256": false
+      },
+      {
+        "field": "prompt",
+        "path": "prompts/attack/E-01.txt",
+        "resolved": "D:/work/image/designs/creature-combat-20261005/pets/03-shuangtuan/prompts/attack/E-01.txt",
+        "exists": true,
+        "retiredWithSha256": false
+      },
+      {
+        "field": "references[0].path",
+        "path": "D:/work/image/designs/pets-xianling-20260924/source/03-shuangtuan-E.png",
+        "resolved": "D:/work/image/designs/pets-xianling-20260924/source/03-shuangtuan-E.png",
+        "exists": true,
+        "retiredWithSha256": false
+      },
+      {
+        "field": "references[1].path",
+        "path": "D:/work/image/designs/pets-xianling-20260924/source/03-shuangtuan-W.png",
+        "resolved": "D:/work/image/designs/pets-xianling-20260924/source/03-shuangtuan-W.png",
+        "exists": true,
+        "retiredWithSha256": false
+      },
+      {
+        "field": "references[2].path",
+        "path": "D:/work/image/designs/attribute-panels/v2-painted/01-character-ui-no-affinity.png",
+        "resolved": "D:/work/image/designs/attribute-panels/v2-painted/01-character-ui-no-affinity.png",
+        "exists": true,
+        "retiredWithSha256": false
+      },
+      {
+        "field": "native.file",
+        "path": "source/attack/E/01.png",
+        "resolved": "D:/work/image/designs/creature-combat-20261005/pets/03-shuangtuan/source/attack/E/01.png",
+        "exists": false,
+        "retiredWithSha256": true
+      },
+      {
+        "field": "derivedFrom.file",
+        "path": "source/attack/E/01.png",
+        "resolved": "D:/work/image/designs/creature-combat-20261005/pets/03-shuangtuan/source/attack/E/01.png",
+        "exists": false,
+        "retiredWithSha256": true
+      }
+    ],
+    "provenance": {
+      "generatedAt": "2026-10-05T10:58:57.392Z",
+      "tool": "image_gen.imagegen",
+      "route": "builtin",
+      "configSnapshot": {
+        "schema_version": 1,
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "max",
+        "builtin_product": "ChatGPT Images 2.5",
+        "selection": "latest_verified",
+        "preferred_route": "builtin",
+        "verified_on": "2026-10-04",
+        "sources": {
+          "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+          "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+        }
+      },
+      "submittedParameters": {
+        "model": null,
+        "quality": null,
+        "transparent_background": true,
+        "referenced_image_paths": [
+          "D:/work/image/designs/pets-xianling-20260924/source/03-shuangtuan-E.png",
+          "D:/work/image/designs/pets-xianling-20260924/source/03-shuangtuan-W.png",
+          "D:/work/image/designs/attribute-panels/v2-painted/01-character-ui-no-affinity.png"
+        ]
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "unverifiedReason": "宿主管理，工具未披露 model / quality；无可核实元数据。"
+    }
+  },
+  "sourcePackageMetadata": {
+    "schemaVersion": 1,
+    "id": "03-shuangtuan",
+    "name": "霜团貂",
+    "builtAt": "2026-10-08T13:37:06+00:00",
+    "status": "complete",
+    "counts": {
+      "expected": 68,
+      "present": 68,
+      "missing": 0,
+      "technicalPass": 68,
+      "invalid": 0,
+      "duplicateSets": 0,
+      "extraPng": 0
+    },
+    "coordinateOrigin": "top-left",
+    "pivotOrigin": "bottom-left",
+    "pivot": [
+      0.5,
+      0.08
+    ],
+    "anchor": [
+      512,
+      942
+    ],
+    "eventSource": "POSES.md",
+    "framePathsRelativeTo": "pet-root",
+    "visualReview": {
+      "report": "qa/final-visual-review.json",
+      "shaMatchedStaticFrames": 68,
+      "scope": "Actual static visual-inspection evidence bound to the current image SHA; builder does not perform visual review.",
+      "playbackReport": "qa/playback-status.json"
+    },
+    "clientIntegration": "not-tested"
+  },
+  "snapshotPurpose": "Only selected single frame is adopted; metadata of 68-frame original is historical context, not a claim this task copies or validates all 68."
+}

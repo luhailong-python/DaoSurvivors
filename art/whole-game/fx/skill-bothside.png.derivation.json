@@ -1,0 +1,85 @@
+{
+  "file": "art/whole-game/fx/skill-bothside.png",
+  "key": "BothSideSkill",
+  "label": "两仪斩",
+  "sha256": "5b4e2b13245ea25d6db6272224e4af40fb8c7fcb0925dbca50b979dc2e187df5",
+  "canvas": [
+    512,
+    512
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    253
+  ],
+  "alphaPixels": {
+    "zero": 201771,
+    "nonzero": 60373,
+    "visibleGreaterThan8": 31455
+  },
+  "derivedFrom": {
+    "file": "art/whole-game/sheets/world-combat-v1.png",
+    "sha256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+    "generationRecord": "art/whole-game/sheets/world-combat-v1.png.generation.json"
+  },
+  "operation": {
+    "kind": "native ownership crop + transparent padding",
+    "cropRectXYXY": [
+      438,
+      0,
+      803,
+      256
+    ],
+    "placementXY": [
+      82,
+      110
+    ],
+    "nativeCropSize": [
+      365,
+      256
+    ],
+    "visibleAlphaGreaterThan8BBoxInCrop": [
+      12,
+      63,
+      335,
+      228
+    ],
+    "resampled": false,
+    "alphaModified": false,
+    "sourcePixelsPreserved": true,
+    "componentFiltering": "none; all source alpha pixels retained including faint native halo/specks"
+  },
+  "pivotBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "spriteType": "Single",
+  "meshType": "FullRect",
+  "filterMode": "Bilinear",
+  "wrapMode": "Clamp",
+  "mipmaps": false,
+  "colourSpace": "sRGB",
+  "borderLTRB": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "defaultDirection": "+X (right)",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow native atlas generation record; this slicing did not call an image model.",
+  "validation": {
+    "pixelCopyMatchesSource": true,
+    "ownershipComponentCrossings": 0,
+    "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+    "visibleBBox": [
+      94,
+      173,
+      417,
+      338
+    ],
+    "visualReview": "accepted; complete subject, no neighbour contamination, clean visible margins, readable on reviewed light/dark backgrounds",
+    "Unity": "not-tested"
+  }
+}

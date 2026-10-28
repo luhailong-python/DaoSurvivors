@@ -1,0 +1,968 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-28T10:18:22.036537+00:00",
+  "status": "accepted-support-art-offline",
+  "referenceCommit": "3f905381d73a34b516030528b8ef6743868b9e52",
+  "artGenerationCount": 0,
+  "aiEditCount": 0,
+  "operations": "byte copies; one HSV recolour; preview-only resize/rotate/multiply/alpha threshold and typography",
+  "loot": [
+    {
+      "file": "art/whole-game/support/exp-40.png",
+      "source": "E:\\work\\image\\DaoSurvivors\\art\\icons\\exp.png",
+      "sourceSha256": "e613158afd46563bfa0e3536ed1c798e0e3b3a66d1a37a228382e40fc1c56b37",
+      "operation": "byte-copy",
+      "newGeneration": false,
+      "newAIEdit": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "zeroAlphaPixels": 217494,
+      "sha256": "e613158afd46563bfa0e3536ed1c798e0e3b3a66d1a37a228382e40fc1c56b37",
+      "key": "Exp40",
+      "label": "青玉经验晶",
+      "effect": "经验40，按Growth乘算",
+      "baseValue": 40,
+      "suggestedVisibleHeight1080": 24,
+      "pivotBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "spriteMode": "Single",
+      "filterMode": "Bilinear",
+      "wrapMode": "Clamp",
+      "sourceGamePrefab": "Assets/RGame/RoguelikeKit/Prefabs/DropOut/Exp40.prefab",
+      "tintForNewArt": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "sourcePrefabTint": [
+        0,
+        0.82521486,
+        1,
+        1
+      ],
+      "tintNote": "Source blue/orange meaning preserved with a teal/amber art redesign; do not reapply source tint to already coloured PNG."
+    },
+    {
+      "file": "art/whole-game/support/exp-80.png",
+      "source": "E:\\work\\image\\DaoSurvivors\\art\\icons\\exp.png",
+      "sourceSha256": "e613158afd46563bfa0e3536ed1c798e0e3b3a66d1a37a228382e40fc1c56b37",
+      "operation": "HSV hue recolour to amber; original Alpha/value preserved",
+      "newGeneration": false,
+      "newAIEdit": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "zeroAlphaPixels": 217494,
+      "sha256": "89ea5d926fcc770cf80f45ca49ade65ef7faa5e432aacb4008ce442bf61f77b1",
+      "key": "Exp80",
+      "label": "琥珀经验晶",
+      "effect": "经验80，按Growth乘算",
+      "baseValue": 80,
+      "suggestedVisibleHeight1080": 28,
+      "pivotBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "spriteMode": "Single",
+      "filterMode": "Bilinear",
+      "wrapMode": "Clamp",
+      "sourceGamePrefab": "Assets/RGame/RoguelikeKit/Prefabs/DropOut/Exp80.prefab",
+      "tintForNewArt": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "sourcePrefabTint": [
+        1,
+        0.33965534,
+        0,
+        1
+      ],
+      "tintNote": "Source blue/orange meaning preserved with a teal/amber art redesign; do not reapply source tint to already coloured PNG."
+    },
+    {
+      "file": "art/whole-game/support/pickup-heal.png",
+      "source": "E:\\work\\image\\DaoSurvivors\\art\\icons\\healing.png",
+      "sourceSha256": "5707d2f448176aec89aabe4c6f3a77bdd1bace967f18404cdb748c195827021d",
+      "operation": "byte-copy",
+      "newGeneration": false,
+      "newAIEdit": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "zeroAlphaPixels": 210143,
+      "sha256": "5707d2f448176aec89aabe4c6f3a77bdd1bace967f18404cdb748c195827021d",
+      "key": "ReplyHP",
+      "label": "灵果汤",
+      "effect": "回复20HP",
+      "baseValue": 20,
+      "suggestedVisibleHeight1080": 34,
+      "pivotBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "spriteMode": "Single",
+      "filterMode": "Bilinear",
+      "wrapMode": "Clamp",
+      "sourceGamePrefab": "Assets/RGame/RoguelikeKit/Prefabs/DropOut/ReplyHp.prefab",
+      "tintForNewArt": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "sourcePrefabTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "tintNote": "New art already coloured; source behaviour remains unchanged."
+    },
+    {
+      "file": "art/whole-game/support/pickup-suck.png",
+      "source": "E:\\work\\image\\DaoSurvivors\\art\\whole-game\\fx\\pickup-suck.png",
+      "sourceSha256": "0830830256ab903087a4e3aa3fb40bd1daa266244abedc74317d64b2a212693b",
+      "operation": "byte-copy",
+      "newGeneration": false,
+      "newAIEdit": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        253
+      ],
+      "zeroAlphaPixels": 208187,
+      "sha256": "0830830256ab903087a4e3aa3fb40bd1daa266244abedc74317d64b2a212693b",
+      "key": "Suck",
+      "label": "吸灵玉环",
+      "effect": "全场经验吸取",
+      "baseValue": null,
+      "suggestedVisibleHeight1080": 40,
+      "pivotBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "spriteMode": "Single",
+      "filterMode": "Bilinear",
+      "wrapMode": "Clamp",
+      "sourceGamePrefab": "Assets/RGame/RoguelikeKit/Prefabs/DropOut/Suck.prefab",
+      "tintForNewArt": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "sourcePrefabTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "tintNote": "New art already coloured; source behaviour remains unchanged."
+    },
+    {
+      "file": "art/whole-game/support/pickup-purse.png",
+      "source": "E:\\work\\image\\DaoSurvivors\\art\\icons\\moneybag.png",
+      "sourceSha256": "89344076398a52130d3a6cc9d86231fa92a9580c2750e9e651da1a2826c05dfe",
+      "operation": "byte-copy",
+      "newGeneration": false,
+      "newAIEdit": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "zeroAlphaPixels": 209941,
+      "sha256": "89344076398a52130d3a6cc9d86231fa92a9580c2750e9e651da1a2826c05dfe",
+      "key": "Purse",
+      "label": "灵石钱袋",
+      "effect": "当前金币+50",
+      "baseValue": 50,
+      "suggestedVisibleHeight1080": 34,
+      "pivotBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "spriteMode": "Single",
+      "filterMode": "Bilinear",
+      "wrapMode": "Clamp",
+      "sourceGamePrefab": "Assets/RGame/RoguelikeKit/Prefabs/DropOut/Purse.prefab",
+      "tintForNewArt": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "sourcePrefabTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "tintNote": "New art already coloured; source behaviour remains unchanged."
+    },
+    {
+      "file": "art/whole-game/support/pickup-box.png",
+      "source": "E:\\work\\image\\DaoSurvivors\\art\\icons\\treasure-closed.png",
+      "sourceSha256": "ad5cc72fa0992ac253d8cea99efbcab82944eb86bb78794063e475e4cd1579c5",
+      "operation": "byte-copy",
+      "newGeneration": false,
+      "newAIEdit": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "zeroAlphaPixels": 208948,
+      "sha256": "ad5cc72fa0992ac253d8cea99efbcab82944eb86bb78794063e475e4cd1579c5",
+      "key": "Box",
+      "label": "试炼宝箱",
+      "effect": "进入宝箱奖励流程",
+      "baseValue": null,
+      "suggestedVisibleHeight1080": 48,
+      "pivotBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "spriteMode": "Single",
+      "filterMode": "Bilinear",
+      "wrapMode": "Clamp",
+      "sourceGamePrefab": "Assets/RGame/RoguelikeKit/Prefabs/DropOut/TreasureBox.prefab",
+      "tintForNewArt": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "sourcePrefabTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "tintNote": "New art already coloured; source behaviour remains unchanged."
+    }
+  ],
+  "noise": {
+    "file": "art/whole-game/support/dissolve-noise.png",
+    "source": "E:\\work\\image\\DaoSurvivors\\.reference\\survivors-roguelike-kit\\Assets\\RGame\\RoguelikeKit\\Art\\Teture\\dissolveTex.png",
+    "sourceSha256": "efc5ea12aa941992cfa4e8ba2dfedf892a750660f17e74503e8fde8ef7007e42",
+    "operation": "byte-copy",
+    "newGeneration": false,
+    "newAIEdit": false,
+    "canvas": [
+      1024,
+      1024
+    ],
+    "mode": "RGB",
+    "alphaRange": [
+      255,
+      255
+    ],
+    "zeroAlphaPixels": 0,
+    "sha256": "efc5ea12aa941992cfa4e8ba2dfedf892a750660f17e74503e8fde8ef7007e42",
+    "usage": "Enemy/Prop _NoiseTex",
+    "colourSpace": "Linear (sRGB off)",
+    "textureType": "Default",
+    "wrapMode": "Repeat",
+    "filterMode": "Bilinear",
+    "mipmaps": false,
+    "channel": "red/greyscale; source RGB equal",
+    "sourceMaterialGuid": "6e75b6128bb492846857bf4a52a2d076",
+    "licenseFile": "art/whole-game/support/SOURCE_GAME_MIT_LICENSE.txt"
+  },
+  "sharedStatusRing": {
+    "file": "art/whole-game/support/status-ring.png",
+    "source": "E:\\work\\image\\DaoSurvivors\\art\\whole-game\\fx\\skill-scope.png",
+    "sourceSha256": "3b9601d31060e850e7a681ba633bc3ffcfa77f45d8ae6693e36813740c2eec8f",
+    "operation": "byte-copy",
+    "newGeneration": false,
+    "newAIEdit": false,
+    "canvas": [
+      512,
+      512
+    ],
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      253
+    ],
+    "zeroAlphaPixels": 191776,
+    "sha256": "3b9601d31060e850e7a681ba633bc3ffcfa77f45d8ae6693e36813740c2eec8f",
+    "usage": "shared SlowBuff/FreezingBuff world ring; documented Daoist reskin",
+    "pivotBottomLeft": [
+      0.5,
+      0.5
+    ],
+    "sourceGamePrefab": "Assets/RGame/RoguelikeKit/Prefabs/Buff/SlowBuff.prefab",
+    "tint": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "sourceMatch": "Source both requests SlowBuff and positions at owner+Vector3.down*0.5; proposed new ring retains shared identity."
+  },
+  "shadow": {
+    "file": "art/whole-game/support/contact-shadow.png",
+    "source": "E:\\work\\image\\DaoSurvivors\\art\\whole-game\\enemies\\Slime.png",
+    "sourceSha256": "48759c74ac39cf77fc2bf657fab4af56aef1089f0fe588469cdb43fd04059017",
+    "operation": "approved Slime Alpha bbox -> resize256x64 -> centre512x256 -> GaussianBlur10; RGB black; no painted pixels or generation",
+    "newGeneration": false,
+    "newAIEdit": false,
+    "canvas": [
+      512,
+      256
+    ],
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      253
+    ],
+    "zeroAlphaPixels": 108167,
+    "sha256": "49024b5852620246a80ab46b1d0b0cea6824098e9bea693885db24df4993b46d",
+    "status": "accepted-alpha-derived-mask-offline",
+    "usage": "contact shadow; new-game derived mask replacing unresolved source GUID a86470a33a6bf42c4b3595704624658b",
+    "sourceAlphaOnly": true,
+    "pivotBottomLeft": [
+      0.5,
+      0.5
+    ],
+    "recommendedRendererColour": [
+      1,
+      1,
+      1,
+      0.35
+    ],
+    "suggestedVisibleWidth1080": {
+      "player": 95,
+      "ordinaryEnemy": 80,
+      "boss": 130,
+      "prop": 65
+    },
+    "filterMode": "Bilinear",
+    "wrapMode": "Clamp",
+    "colourSpace": "sRGB",
+    "spriteMode": "Single",
+    "mipmaps": false,
+    "note": "Source GUID was not decoded; this is a documented mask derivative, not a copied source shadow and not a new original painting."
+  },
+  "evolutions": [
+    {
+      "key": "ToNearestSkill",
+      "name": "追星御剑",
+      "texture": "art/whole-game/fx/skill-nearest.png",
+      "sameTextureAfterEvolution": true,
+      "maxLevelBeforeMix": 11,
+      "beforeMixedAtMaxLevel": {
+        "Velocity": 10.0,
+        "Duration": 2.0,
+        "CD": 0.7290000000000001,
+        "Damage": 45.0,
+        "Amount": 5.0,
+        "Area": 0.0
+      },
+      "afterMixedAtMaxLevel": {
+        "Velocity": 10.0,
+        "Duration": 2.0,
+        "CD": 0.15,
+        "Damage": 5,
+        "Amount": 5.0,
+        "Area": 0.0
+      },
+      "MixAttributeSkillKey": "Cooldown",
+      "sourceData": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/ToNearestSkill.asset",
+      "sourceDataSha256": "c8e43fb74545e3bbab9c9184a65a7c422070c4d255e2ec45a9a2aa86726f8654",
+      "sourceCast": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillCast/ToNearestSkillCast.cs",
+      "sourceCastSha256": "cdb00a7f3973db49b1b365cbf485600a08690707aa94ae81b69d49b12052bf2c",
+      "sourcePrefab": "Assets/RGame/RoguelikeKit/Prefabs/Skill/ToNearestSkill.prefab",
+      "description": "CD设为0.15秒；Damage设为5；弹体乘红色。",
+      "evolvedSpriteMultiply": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "trail": null,
+      "previewNormalization": {
+        "globalArea": 100,
+        "globalAmount": 0,
+        "globalSkillSpeed": 100,
+        "scope": "Comparison isolates skill evolution; not an integrated player build or game screenshot."
+      },
+      "beforeRendererScaleFactor": 1.0,
+      "afterRendererScaleFactor": 1.0,
+      "comparisonPreview": "designs/whole-game/support/evolution-ToNearestSkill.png"
+    },
+    {
+      "key": "BothSideSkill",
+      "name": "两仪斩",
+      "texture": "art/whole-game/fx/skill-bothside.png",
+      "sameTextureAfterEvolution": true,
+      "maxLevelBeforeMix": 11,
+      "beforeMixedAtMaxLevel": {
+        "Velocity": 20.0,
+        "Duration": 1.0,
+        "CD": 1.8225,
+        "Damage": 45.0,
+        "Amount": 1.0,
+        "Area": 80.0
+      },
+      "afterMixedAtMaxLevel": {
+        "Velocity": 20.0,
+        "Duration": 1.0,
+        "CD": 0.54675,
+        "Damage": 45.0,
+        "Amount": 1.0,
+        "Area": 160.0
+      },
+      "MixAttributeSkillKey": "Armor",
+      "sourceData": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/BothSideSkill.asset",
+      "sourceDataSha256": "91d44c70a3304d26a9499bbdfd1998c4177c624c479884762744c02761abb9fd",
+      "sourceCast": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillCast/BothSideSkillCast.cs",
+      "sourceCastSha256": "4d647d2479c76a36ca9d1787330a09815c32aa2a99bf40bb48c7999b4387002d",
+      "sourcePrefab": "Assets/RGame/RoguelikeKit/Prefabs/Skill/BothSideSkill.prefab",
+      "description": "CD×0.3；技能Area×2；仍然左右各投射一次。",
+      "evolvedSpriteMultiply": null,
+      "trail": {
+        "source": "Unity built-in TrailRenderer geometry; no additional artwork texture",
+        "durationSeconds": 0.5,
+        "material": "Unity builtin, fileID10308, GUID0000000000000000f000000000000000",
+        "gradientKeys": [
+          "r: 0.84339625, g: 0.9866571, b: 1, a: 1",
+          "r: 0.5630687, g: 0.9489644, b: 0.98490566, a: 1"
+        ],
+        "evolvedTint": null,
+        "nextPhase": "Use source widthCurve/colourGradient and existing builtin material; actual trail sorting/blend remains Unity validation."
+      },
+      "previewNormalization": {
+        "globalArea": 100,
+        "globalAmount": 0,
+        "globalSkillSpeed": 100,
+        "scope": "Comparison isolates skill evolution; not an integrated player build or game screenshot."
+      },
+      "beforeRendererScaleFactor": 1.8,
+      "afterRendererScaleFactor": 2.6,
+      "comparisonPreview": "designs/whole-game/support/evolution-BothSideSkill.png"
+    },
+    {
+      "key": "BouncingSkill",
+      "name": "流珠引",
+      "texture": "art/whole-game/fx/skill-bouncing.png",
+      "sameTextureAfterEvolution": true,
+      "maxLevelBeforeMix": 11,
+      "beforeMixedAtMaxLevel": {
+        "Velocity": 7.2121070000000005,
+        "Duration": 7.0,
+        "CD": 7.29,
+        "Damage": 30.0,
+        "Amount": 4.0,
+        "Area": 0.0
+      },
+      "afterMixedAtMaxLevel": {
+        "Velocity": 10.818160500000001,
+        "Duration": 7.0,
+        "CD": 7.29,
+        "Damage": 30.0,
+        "Amount": 7.0,
+        "Area": 0.0
+      },
+      "MixAttributeSkillKey": "HPMax",
+      "sourceData": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/BouncingSkill.asset",
+      "sourceDataSha256": "d987009690d0964ce663f14eb49a9ab5d3a6f232b7598d091e6d69c770296c25",
+      "sourceCast": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillCast/BouncingSkillCast.cs",
+      "sourceCastSha256": "63a0f013e429b91bf2cb5f42d8ec71cf7cc93d0597f3bdb3eadcdcb2ba65a4ca",
+      "sourcePrefab": "Assets/RGame/RoguelikeKit/Prefabs/Skill/BouncingSkill.prefab",
+      "description": "Velocity×1.5；Amount+3；弹体乘(1,0.5,0.5)。",
+      "evolvedSpriteMultiply": [
+        1,
+        0.5,
+        0.5,
+        1
+      ],
+      "trail": {
+        "source": "Unity built-in TrailRenderer geometry; no additional artwork texture",
+        "durationSeconds": 0.5,
+        "material": "Unity builtin, fileID10308, GUID0000000000000000f000000000000000",
+        "gradientKeys": [
+          "r: 0.4156863, g: 0.23529413, b: 0.16078432, a: 1",
+          "r: 0.1273585, g: 0.9267696, b: 1, a: 1"
+        ],
+        "evolvedTint": null,
+        "nextPhase": "Use source widthCurve/colourGradient and existing builtin material; actual trail sorting/blend remains Unity validation."
+      },
+      "previewNormalization": {
+        "globalArea": 100,
+        "globalAmount": 0,
+        "globalSkillSpeed": 100,
+        "scope": "Comparison isolates skill evolution; not an integrated player build or game screenshot."
+      },
+      "beforeRendererScaleFactor": 1.0,
+      "afterRendererScaleFactor": 1.0,
+      "comparisonPreview": "designs/whole-game/support/evolution-BouncingSkill.png"
+    },
+    {
+      "key": "ChainSkill",
+      "name": "连星诀",
+      "texture": "art/whole-game/fx/skill-chain.png",
+      "sameTextureAfterEvolution": true,
+      "maxLevelBeforeMix": 11,
+      "beforeMixedAtMaxLevel": {
+        "Velocity": 10.0,
+        "Duration": 1.0,
+        "CD": 3.645,
+        "Damage": 35.0,
+        "Amount": 5.0,
+        "Area": 0.0
+      },
+      "afterMixedAtMaxLevel": {
+        "Velocity": 10.0,
+        "Duration": 1.0,
+        "CD": 1.0935,
+        "Damage": 35.0,
+        "Amount": 5.0,
+        "Area": 0.0
+      },
+      "MixAttributeSkillKey": "MoveSpeed",
+      "sourceData": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/ChainSkill.asset",
+      "sourceDataSha256": "d5fc5c4f77d29e7d78116c359b75ae047e2aba79dbdfce30236d3070e1eb4e3d",
+      "sourceCast": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillCast/ChainSkillCast.cs",
+      "sourceCastSha256": "27d656ec608249c10470c4279f714b32fa9b46bcf2adc6cb8b33e5c2eab9ec05",
+      "sourcePrefab": "Assets/RGame/RoguelikeKit/Prefabs/Skill/ChainSkill.prefab",
+      "description": "CD×0.3；仍用同一寻敌连锁纹理。",
+      "evolvedSpriteMultiply": null,
+      "trail": {
+        "source": "Unity built-in TrailRenderer geometry; no additional artwork texture",
+        "durationSeconds": 0.1,
+        "material": "Unity builtin, fileID10308, GUID0000000000000000f000000000000000",
+        "gradientKeys": [
+          "r: 0, g: 0.17254902, b: 0.49411768, a: 1",
+          "r: 0.1254902, g: 0.6901961, b: 0.8862746, a: 1"
+        ],
+        "evolvedTint": null,
+        "nextPhase": "Use source widthCurve/colourGradient and existing builtin material; actual trail sorting/blend remains Unity validation."
+      },
+      "previewNormalization": {
+        "globalArea": 100,
+        "globalAmount": 0,
+        "globalSkillSpeed": 100,
+        "scope": "Comparison isolates skill evolution; not an integrated player build or game screenshot."
+      },
+      "beforeRendererScaleFactor": 1.0,
+      "afterRendererScaleFactor": 1.0,
+      "comparisonPreview": "designs/whole-game/support/evolution-ChainSkill.png"
+    },
+    {
+      "key": "CircularAttackSkill",
+      "name": "太极震",
+      "texture": "art/whole-game/fx/skill-circle.png",
+      "sameTextureAfterEvolution": true,
+      "maxLevelBeforeMix": 11,
+      "beforeMixedAtMaxLevel": {
+        "Velocity": 10.0,
+        "Duration": 1.0,
+        "CD": 1.4580000000000002,
+        "Damage": 40.0,
+        "Amount": 1.0,
+        "Area": 80.0
+      },
+      "afterMixedAtMaxLevel": {
+        "Velocity": 10.0,
+        "Duration": 1.0,
+        "CD": 1.4580000000000002,
+        "Damage": 40.0,
+        "Amount": 1.0,
+        "Area": 80.0
+      },
+      "MixAttributeSkillKey": "Area",
+      "sourceData": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/CircularAttackSkill.asset",
+      "sourceDataSha256": "98dff22c6ff169bdcb2ec74631d020248843cd310f948fc4126030144435ab30",
+      "sourceCast": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillCast/CircularAttackSkillCast.cs",
+      "sourceCastSha256": "009a0f786656674534d4cb1488319be4db354cc558609e5460fb44636e25ea89",
+      "sourcePrefab": "Assets/RGame/RoguelikeKit/Prefabs/Skill/CircularAttackSkill.prefab",
+      "description": "改为16方向、间隔22.5°；额外尺寸×2。",
+      "evolvedSpriteMultiply": null,
+      "trail": {
+        "source": "Unity built-in TrailRenderer geometry; no additional artwork texture",
+        "durationSeconds": 0.5,
+        "material": "Unity builtin, fileID10308, GUID0000000000000000f000000000000000",
+        "gradientKeys": [
+          "r: 0.47450984, g: 0.35686275, b: 0.19607845, a: 1",
+          "r: 0.6156863, g: 0.89019614, b: 0.3254902, a: 1"
+        ],
+        "evolvedTint": null,
+        "nextPhase": "Use source widthCurve/colourGradient and existing builtin material; actual trail sorting/blend remains Unity validation."
+      },
+      "previewNormalization": {
+        "globalArea": 100,
+        "globalAmount": 0,
+        "globalSkillSpeed": 100,
+        "scope": "Comparison isolates skill evolution; not an integrated player build or game screenshot."
+      },
+      "beforeRendererScaleFactor": 1.8,
+      "afterRendererScaleFactor": 3.6,
+      "beforeAngleStepDegrees": 45,
+      "afterCastCount": 16,
+      "afterAngleStepDegrees": 22.5,
+      "comparisonPreview": "designs/whole-game/support/evolution-CircularAttackSkill.png"
+    },
+    {
+      "key": "CircularMotionSkill",
+      "name": "葫芦巡天",
+      "texture": "art/whole-game/fx/skill-orbit.png",
+      "sameTextureAfterEvolution": true,
+      "maxLevelBeforeMix": 11,
+      "beforeMixedAtMaxLevel": {
+        "Velocity": 360.0,
+        "Duration": 3.0,
+        "CD": 3.645,
+        "Damage": 40.0,
+        "Amount": 1.0,
+        "Area": 80.0
+      },
+      "afterMixedAtMaxLevel": {
+        "Velocity": 361.0,
+        "Duration": 3.0,
+        "CD": 3.645,
+        "Damage": 40.0,
+        "Amount": 4.0,
+        "Area": 80.0
+      },
+      "MixAttributeSkillKey": "Duration",
+      "sourceData": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/CircularMotionSkill.asset",
+      "sourceDataSha256": "159312baa1a7196ec141f14e73c5871c93ef75a8d4499763cd2bb95a10a1d0ba",
+      "sourceCast": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillCast/CircularMotionSkillCast.cs",
+      "sourceCastSha256": "78462ff47b914def6073bd498d3c2af47c9b33b6ad179513bcb61b84883c7ac6",
+      "sourcePrefab": "Assets/RGame/RoguelikeKit/Prefabs/Skill/CircularMotionSkill.prefab",
+      "description": "Velocity+1；Amount+3；弹体及程序拖尾乘黄色。",
+      "evolvedSpriteMultiply": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "trail": {
+        "source": "Unity built-in TrailRenderer geometry; no additional artwork texture",
+        "durationSeconds": 0.1,
+        "material": "Unity builtin, fileID10308, GUID0000000000000000f000000000000000",
+        "gradientKeys": [
+          "r: 0.1273585, g: 0.9267696, b: 1, a: 1",
+          "r: 0.1273585, g: 0.9267696, b: 1, a: 1"
+        ],
+        "evolvedTint": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "nextPhase": "Use source widthCurve/colourGradient and existing builtin material; actual trail sorting/blend remains Unity validation."
+      },
+      "previewNormalization": {
+        "globalArea": 100,
+        "globalAmount": 0,
+        "globalSkillSpeed": 100,
+        "scope": "Comparison isolates skill evolution; not an integrated player build or game screenshot."
+      },
+      "beforeRendererScaleFactor": 1.8,
+      "afterRendererScaleFactor": 1.8,
+      "comparisonPreview": "designs/whole-game/support/evolution-CircularMotionSkill.png"
+    },
+    {
+      "key": "FourCornerSkill",
+      "name": "四象符",
+      "texture": "art/whole-game/fx/skill-fourcorner.png",
+      "sameTextureAfterEvolution": true,
+      "maxLevelBeforeMix": 11,
+      "beforeMixedAtMaxLevel": {
+        "Velocity": 10.0,
+        "Duration": 1.0,
+        "CD": 3.645,
+        "Damage": 40.0,
+        "Amount": 1.0,
+        "Area": 40.0
+      },
+      "afterMixedAtMaxLevel": {
+        "Velocity": 10.0,
+        "Duration": 1.0,
+        "CD": 3.645,
+        "Damage": 40.0,
+        "Amount": 1.0,
+        "Area": 80.0
+      },
+      "MixAttributeSkillKey": "Might",
+      "sourceData": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/FourCornerSkill.asset",
+      "sourceDataSha256": "63541d772cfc78cfb8275aebd14bb9310e583bf7e5bfcef7e684bd4fcec9e695",
+      "sourceCast": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillCast/FourCornerSkillCast.cs",
+      "sourceCastSha256": "ca6140301855f48aa6493661094eda39067fa77246b780d5e92ae4411e74579b",
+      "sourcePrefab": "Assets/RGame/RoguelikeKit/Prefabs/Skill/FourCornerSkill.prefab",
+      "description": "四对角方向变为八方向；技能Area×2。",
+      "evolvedSpriteMultiply": null,
+      "trail": null,
+      "previewNormalization": {
+        "globalArea": 100,
+        "globalAmount": 0,
+        "globalSkillSpeed": 100,
+        "scope": "Comparison isolates skill evolution; not an integrated player build or game screenshot."
+      },
+      "beforeRendererScaleFactor": 1.4,
+      "afterRendererScaleFactor": 1.8,
+      "beforeCastAngles": [
+        45,
+        135,
+        225,
+        315
+      ],
+      "afterCastAngles": [
+        0,
+        45,
+        90,
+        135,
+        180,
+        225,
+        270,
+        315
+      ],
+      "comparisonPreview": "designs/whole-game/support/evolution-FourCornerSkill.png"
+    },
+    {
+      "key": "InsideScopeSkill",
+      "name": "八卦阵",
+      "texture": "art/whole-game/fx/skill-scope.png",
+      "sameTextureAfterEvolution": true,
+      "maxLevelBeforeMix": 11,
+      "beforeMixedAtMaxLevel": {
+        "Velocity": 0.0,
+        "Duration": 5.0,
+        "CD": 5.0,
+        "Damage": 30.0,
+        "Amount": 1.0,
+        "Area": 100.0
+      },
+      "afterMixedAtMaxLevel": {
+        "Velocity": 0.0,
+        "Duration": 5.0,
+        "CD": 5.0,
+        "Damage": 30.0,
+        "Amount": 1.0,
+        "Area": 200.0
+      },
+      "MixAttributeSkillKey": "SkillSpeed",
+      "sourceData": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/InsideScopeSkill.asset",
+      "sourceDataSha256": "e24ffba4ddb8a65e10a975ed7482606e711a2f69ae1619caf83c836ad8982d92",
+      "sourceCast": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillCast/InsideScopeSkillCast.cs",
+      "sourceCastSha256": "733616e413aa6e7c7653d8301e3d5b2b34c6b42991a02b65f1ba4fb2cbc60ea2",
+      "sourcePrefab": "Assets/RGame/RoguelikeKit/Prefabs/Skill/InsideScopeSkill.prefab",
+      "description": "技能Area×2；生成时AttackTimer设0.5，后续仍按阈值1触发。",
+      "evolvedSpriteMultiply": null,
+      "trail": null,
+      "previewNormalization": {
+        "globalArea": 100,
+        "globalAmount": 0,
+        "globalSkillSpeed": 100,
+        "scope": "Comparison isolates skill evolution; not an integrated player build or game screenshot."
+      },
+      "beforeRendererScaleFactor": 2.0,
+      "afterRendererScaleFactor": 3.0,
+      "timerSemantics": "Mixed Cast writes AttackTimer=0.5. FixedUpdate tests >=1 and resets to0, so do not describe a sustained0.5s interval.",
+      "comparisonPreview": "designs/whole-game/support/evolution-InsideScopeSkill.png"
+    },
+    {
+      "key": "RandomSkill",
+      "name": "落花令",
+      "texture": "art/whole-game/fx/skill-random.png",
+      "sameTextureAfterEvolution": true,
+      "maxLevelBeforeMix": 11,
+      "beforeMixedAtMaxLevel": {
+        "Velocity": 10.0,
+        "Duration": 1.0,
+        "CD": 5.248800000000001,
+        "Damage": 50.0,
+        "Amount": 5.0,
+        "Area": 0.0
+      },
+      "afterMixedAtMaxLevel": {
+        "Velocity": 10.0,
+        "Duration": 1.0,
+        "CD": 1.5746400000000003,
+        "Damage": 50.0,
+        "Amount": 5.0,
+        "Area": 0.0
+      },
+      "MixAttributeSkillKey": "Amount",
+      "sourceData": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/RandomSkill.asset",
+      "sourceDataSha256": "73a73f3516295d4c2691f255543783b9918f8b755f96b63d550bc414c56835a2",
+      "sourceCast": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillCast/RandomSkillCast.cs",
+      "sourceCastSha256": "1545d250da8cddd4c3532175e8485d4d53e779a844f436b8f357d2111e1adc82",
+      "sourcePrefab": "Assets/RGame/RoguelikeKit/Prefabs/Skill/RandomSkill.prefab",
+      "description": "CD×0.3；目标印记保持0.5秒淡出。",
+      "evolvedSpriteMultiply": null,
+      "trail": null,
+      "previewNormalization": {
+        "globalArea": 100,
+        "globalAmount": 0,
+        "globalSkillSpeed": 100,
+        "scope": "Comparison isolates skill evolution; not an integrated player build or game screenshot."
+      },
+      "beforeRendererScaleFactor": 1.0,
+      "afterRendererScaleFactor": 1.0,
+      "comparisonPreview": "designs/whole-game/support/evolution-RandomSkill.png"
+    }
+  ],
+  "enemyWorldStatuses": [
+    {
+      "key": "Burn",
+      "source": "Assets/RGame/RoguelikeKit/Scripts/System/Buff/BurnBuff.cs",
+      "durationSeconds": 3.1,
+      "tickSeconds": 1,
+      "damagePerTick": 3,
+      "rendererProperty": "_FlameRedBlend",
+      "sourceValue": "Color.red",
+      "ring": null,
+      "artPreviewTintApproximation": [
+        1,
+        0.35,
+        0.25,
+        1
+      ]
+    },
+    {
+      "key": "Freezing",
+      "source": "Assets/RGame/RoguelikeKit/Scripts/System/Buff/FreezingBuff.cs",
+      "durationSeconds": 2,
+      "speed": "zero",
+      "shaderTimeSpeed": 0,
+      "ring": "art/whole-game/support/status-ring.png",
+      "ringTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ringOwnerOffsetWorld": [
+        0,
+        -0.5,
+        0
+      ]
+    },
+    {
+      "key": "Slow",
+      "source": "Assets/RGame/RoguelikeKit/Scripts/System/Buff/SlowBuff.cs",
+      "durationSeconds": 3,
+      "speedReductionPercent": 50,
+      "shaderTimeSpeed": "original*0.5",
+      "ring": "art/whole-game/support/status-ring.png",
+      "ringTint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ringOwnerOffsetWorld": [
+        0,
+        -0.5,
+        0
+      ]
+    }
+  ],
+  "previews": [
+    "designs/whole-game/support/evolution-ToNearestSkill.png",
+    "designs/whole-game/support/evolution-BothSideSkill.png",
+    "designs/whole-game/support/evolution-BouncingSkill.png",
+    "designs/whole-game/support/evolution-ChainSkill.png",
+    "designs/whole-game/support/evolution-CircularAttackSkill.png",
+    "designs/whole-game/support/evolution-CircularMotionSkill.png",
+    "designs/whole-game/support/evolution-FourCornerSkill.png",
+    "designs/whole-game/support/evolution-InsideScopeSkill.png",
+    "designs/whole-game/support/evolution-RandomSkill.png",
+    "designs/whole-game/support/world-pickups-scale.png",
+    "designs/whole-game/support/world-status-dissolve.png",
+    "designs/whole-game/support/world-camera-composite.png"
+  ],
+  "sourceEvidence": [
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs",
+      "sha256": "5e35d14bd6079e8fcf845b78c08f234bb60a32ad4500998274480b9d24a74a60"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/SOData/Skill/Enum/UpgradeSkillAttributeType.cs",
+      "sha256": "d5738bdf6582aa20e5c2a333b6876ddeb0c539ad37b88f370a0eb7894a475bb8"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Art/Matrials/Prop.mat",
+      "sha256": "ba4e63e1905aad714051c5fbb99ea9fd0a5d0b702ce212fc688660f5bf2b4cbb"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Art/Matrials/Enemy/WoodMonster.mat",
+      "sha256": "c0f5dab848132e3712007e3772de6f10dadea2a914ae6a8355b5f6dd6b2f5979"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/Skill/Sport/InsideScopeSkill.cs",
+      "sha256": "a7e6e9bed6cb422a9b1f9147395407560e3f4ecf5398f84c133d449f4fa442d3"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/Game/DropOut/Exp/Exp.cs",
+      "sha256": "071cc9a36931b4fae7f095520f834e819505b033569b08b08022243c7238a341"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/Game/DropOut/Reply/ReplyHp.cs",
+      "sha256": "4534a114b735be4513050f900462c5fb0194a90cff7f404bef111251019f9dfe"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/Game/DropOut/Purse/Purse.cs",
+      "sha256": "775028fec6269aa7d28187cfb1d8b409709f719f27667edff12cd4409b5734aa"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Buff/BurnBuff.asset",
+      "sha256": "b81d2b47cb71b1f13684ece0360b3ce7208a4fdef6fbdace333d1a0b90cf1c72"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Buff/FreezingBuff.asset",
+      "sha256": "f3c00a8afaf0bf52d506a33fe3e9d505a9f6e3694210ab2b4f3908e366280746"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Buff/SlowBuff.asset",
+      "sha256": "39823e9d4f8c741bc2ce85a5f975339ed3f17722fd714b7f7772a99c7bfe0f27"
+    }
+  ],
+  "visualReview": {
+    "status": "accepted-support-art-offline",
+    "record": "docs/whole-game/world-support-visual-review.json",
+    "reviewRecordSha256": "2651f1c0b82c5f2de93fa7e74d006b0feac9bd5acc3ec3690fe09118a9492c2b"
+  },
+  "unityValidation": "not-run; import, shader, scale, trail blend, collision and exact runtime remain next phase"
+}

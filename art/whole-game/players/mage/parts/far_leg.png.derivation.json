@@ -1,0 +1,39 @@
+{
+  "part": "far_leg",
+  "file": "art/whole-game/players/mage/parts/far_leg.png",
+  "sha256": "d43108e3f1eb02aa7346a7cc4a120fde082f73f630a1d44ac02d37f10b0c73a4",
+  "nativeSize": [
+    255,
+    415
+  ],
+  "sourceCrop": [
+    702,
+    566,
+    957,
+    981
+  ],
+  "nativePivot": [
+    90,
+    59
+  ],
+  "pivotAtlas": [
+    792,
+    625
+  ],
+  "displayScale": 0.3,
+  "bindJoint": [
+    242,
+    370
+  ],
+  "mirrorAroundJoint": false,
+  "parent": "torso",
+  "derivedFrom": {
+    "file": "art/whole-game/sheets/player-mage-rig-v2.png",
+    "sha256": "096aa9994985de2d067d66bb62179d515e9ed2707cb67bde24e39a50d4599c97",
+    "generationRecord": "art/whole-game/sheets/player-mage-rig-v2.png.generation.json"
+  },
+  "operation": "component-ownership crop; native RGBA retained; alpha hygiene removes disconnected <=16 haze outside3px contour",
+  "removedAlphaPixels": 572427,
+  "actualModel": null,
+  "actualQuality": null
+}

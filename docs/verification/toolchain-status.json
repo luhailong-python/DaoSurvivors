@@ -1,0 +1,30 @@
+{
+  "checkedOn": "2026-10-26",
+  "timezone": "America/New_York",
+  "projectPath": "E:\\work\\image\\DaoSurvivors",
+  "scope": "Toolchain availability only; no Unity compilation, build, PlayMode test or runtime screenshot has been completed.",
+  "unityVersionTarget": "6000.4.5f1",
+  "editorExecutable": null,
+  "editorStatus": "unavailable",
+  "evidence": [
+    "E:\\u3d\\6000.4.5f1 contains metadata.hub.json and modules.json only; Editor\\Unity.exe does not exist.",
+    "No running Unity.exe process or another installed Editor was found in the checked Unity Hub and Program Files locations.",
+    "The existing unrelated client cache contains UnityEngine.UI.dll but no usable UnityEngine.CoreModule.dll or UnityEditor.CoreModule.dll; it cannot establish a Unity 6 compilation result.",
+    "The official 3,772,758,632-byte Windows installer was reachable, but the single connection was approximately 0.5-1 MB/s and parallel byte-range requests failed with connection resets.",
+    "The incomplete download was stopped. No installer was executed, no Editor was installed, and no account, credential or license setting was changed."
+  ],
+  "officialEditorSource": "https://unity.com/releases/editor/whats-new/6000.4.5f1",
+  "reproducibleEntry": "tools/Verify-Unity.ps1",
+  "editorMethods": [
+    "DaoSurvivor.Editor.BuildTools.PrepareProject",
+    "DaoSurvivor.Editor.BuildTools.VerifyAndBuild"
+  ],
+  "unityCompilation": "not_run",
+  "windowsBuild": "not_run",
+  "runtimeUiScreenshots": "not_run",
+  "cacheCleanup": {
+    "path": ".local/tools",
+    "status": "not_completed",
+    "reason": "Automatic approval review rejected removal of owned incomplete installer/range downloads, including a narrower file-level attempt, with the message blocked by policy. The ignored cache is not a deliverable."
+  }
+}

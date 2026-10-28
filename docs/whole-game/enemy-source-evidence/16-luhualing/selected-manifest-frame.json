@@ -1,0 +1,60 @@
+{
+  "originalManifest": "designs/creature-combat-20261005/pets/16-luhualing/manifest.json",
+  "originalManifestSHA256": "20df38a7923a4a80d2b86092dd2a58fae6eb93d0bdee8044e929e6b0489700a0",
+  "selection": "runtime/attack/E/01.png",
+  "selectedFrameRecord": {
+    "file": "runtime/attack/E/01.png",
+    "action": "attack",
+    "direction": "E",
+    "frame": 1,
+    "durationMs": 30,
+    "pivot": [
+      0.5,
+      0.08
+    ],
+    "anchorTopLeft": [
+      512,
+      942
+    ],
+    "event": null,
+    "visualStatus": "passed_local_review",
+    "clientStatus": "not_integrated",
+    "status": "present",
+    "sha256": "16a0dc0215aa1cf5b65c19da842204c27d64793d51cdfe678606eccb984378b2",
+    "pixelSHA256": "eb9f2610f5ec9f2683c3aa44b6d2d7896f478782d235dbfad72f8416b079156a",
+    "width": 1024,
+    "height": 1024,
+    "mode": "RGBA",
+    "alpha": {
+      "min": 0,
+      "max": 255,
+      "zeroPixels": 747907,
+      "partialPixels": 299228,
+      "opaquePixels": 1441,
+      "bbox": [
+        125,
+        87,
+        916,
+        946
+      ]
+    },
+    "format": "PNG",
+    "generationRecord": "runtime/attack/E/01.png.generation.json",
+    "generationRecordSHA256": "b83f854fc3fdee8548a3cfa6c74422dd4435cc2cf39862b6b8dac64d9a35ee91",
+    "actualModel": null,
+    "actualQuality": null,
+    "visualReview": {
+      "sha256": "16a0dc0215aa1cf5b65c19da842204c27d64793d51cdfe678606eccb984378b2",
+      "status": "passed_local_review",
+      "note": "E02持物换手及E05–08过量特效已修复，E07–08释放沿右下方向衔接。"
+    }
+  },
+  "sourcePackageMetadata": {
+    "schemaVersion": 1,
+    "character": "露华灵",
+    "characterId": "16-luhualing",
+    "coordinateSystem": "1024x1024 top-left",
+    "transformPolicy": "one shared transform per direction; no per-frame bottom alignment"
+  },
+  "snapshotPurpose": "Only selected single frame is adopted; metadata of 68-frame original is historical context, not a claim this task copies or validates all 68."
+}

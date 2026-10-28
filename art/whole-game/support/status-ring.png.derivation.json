@@ -1,0 +1,19 @@
+{
+  "file": "art/whole-game/support/status-ring.png",
+  "source": "E:\\work\\image\\DaoSurvivors\\art\\whole-game\\fx\\skill-scope.png",
+  "sourceSha256": "3b9601d31060e850e7a681ba633bc3ffcfa77f45d8ae6693e36813740c2eec8f",
+  "operation": "byte-copy",
+  "newGeneration": false,
+  "newAIEdit": false,
+  "canvas": [
+    512,
+    512
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    253
+  ],
+  "zeroAlphaPixels": 191776,
+  "sha256": "3b9601d31060e850e7a681ba633bc3ffcfa77f45d8ae6693e36813740c2eec8f"
+}

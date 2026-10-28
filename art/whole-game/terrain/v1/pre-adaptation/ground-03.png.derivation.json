@@ -1,0 +1,36 @@
+{
+  "file": "art/whole-game/terrain/v1/pre-adaptation/ground-03.png",
+  "sha256": "1e82f1d86fe064460de3049655b529148d48fe33b8b72129ebb63f3fe4b5dcee",
+  "deliveryRole": "production_support_pre_adaptation",
+  "derivedFrom": {
+    "file": "art/whole-game/terrain/v1/native/ground-03.png",
+    "sha256": "1e82f1d86fe064460de3049655b529148d48fe33b8b72129ebb63f3fe4b5dcee",
+    "generationRecord": "art/whole-game/sheets/world-terrain-v1.png.generation.json"
+  },
+  "operation": {
+    "kind": "byte-equivalent pixels on new PNG encoding",
+    "from": [
+      512,
+      512
+    ],
+    "to": [
+      512,
+      512
+    ],
+    "resampled": false,
+    "generatedByAi": false,
+    "newPaintedDetailCreated": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "borderLTRB": [
+    0,
+    0,
+    0,
+    0
+  ]
+}

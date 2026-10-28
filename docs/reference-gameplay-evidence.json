@@ -1,0 +1,1406 @@
+{
+  "schemaVersion": 1,
+  "verifiedDate": "2026-10-26",
+  "projectRoot": "E:\\work\\image\\DaoSurvivors",
+  "reference": {
+    "github": "https://github.com/Roo-Roo-Roo/survivors-roguelike-kit",
+    "localRoot": "E:\\work\\image\\DaoSurvivors\\.reference\\survivors-roguelike-kit",
+    "commit": "3f905381d73a34b516030528b8ef6743868b9e52",
+    "use": "功能与流程参考，不是成果远端"
+  },
+  "method": "Read actual C#, ScriptableObject YAML, serialized scene components and two gameplay screenshots; no Unity runtime execution",
+  "docsRead": [
+    "README.md",
+    "Media/README.md"
+  ],
+  "rules": {
+    "AGENTSFound": [],
+    "extraLocalRequirementsDocs": "未发现除README与Media/README以外的项目Markdown需求/交接/验收合同"
+  },
+  "lfs": {
+    "gitattributesPresent": false,
+    "gitLfsLsFiles": "empty",
+    "necessaryMedia": "Media/Fight.png and Media/SkillUpgrede.png decoded and visually viewed; all 8 media images/GIF decode, none pointer"
+  },
+  "features": [
+    {
+      "id": "loop",
+      "original": "UIMenuManager/LevelGenerator",
+      "title": "菜单到历练流程",
+      "status": "source_confirmed",
+      "facts": [
+        "主菜单打开选角，确认再选关，确认发起场景加载",
+        "选择角色Prefab、MapConfig与StageConfig进入战斗"
+      ],
+      "states": [
+        "主菜单",
+        "选角列表/详情/选择",
+        "选关列表/详情/选择",
+        "加载中",
+        "返回"
+      ],
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/UIMenuManager.cs",
+          "startLine": 43,
+          "endLine": 77,
+          "sha256": "a9a12fbc5f0ebea81a0ecff46b3b3d8cd0f8d2c7efa2b96c9843aaa64a678646",
+          "excerpt": "        private void OpenCharacterSelectScreen()\n        {\n            mCharacterSelectPanel.gameObject.SetActive(true);\n            mCharacterSelectPanel.Confirm += OpenLevelSelectScreen;\n            mCharacterSelectPanel.Closed += CloseCharacterSelectScreen;\n        }\n\n        private void CloseCharacterSelectScreen()\n        {\n            mCharacterSelectPanel.Confirm -= OpenLevelSelectScreen;\n            mCharacterSelectPanel.Closed -= CloseCharacterSelectScreen;\n            mCharacterSelectPanel.gameObject.SetActive(false);\n        }\n\n        #endregion\n\n        #region LevelSelect\n\n        private void OpenLevelSelectScreen()\n        {\n            mLevelSelectPanel.gameObject.SetActive(true);\n            mLevelSelectPanel.Closed += CloseLevelSelectScreen;\n            mLevelSelectPanel.Confirm += LoadGame;\n        }\n\n        private void CloseLevelSelectScreen()\n        {\n            mLevelSelectPanel.Closed -= CloseLevelSelectScreen;\n            mLevelSelectPanel.Confirm -= LoadGame;\n            mLevelSelectPanel.gameObject.SetActive(false);\n        }\n\n        private void LoadGame()\n        {\n            mGameLoad.RaiseEvent(mGameScene);",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/Level/LevelGenerator.cs",
+          "startLine": 18,
+          "endLine": 37,
+          "sha256": "34f051e67c3def305778013881433bd133f5363501029590eea1507ed30a19d8",
+          "excerpt": "        private IEnumerator Start()\n        {\n            yield return new WaitForSeconds(0.5f);\n\n            mInputReader.EnableGameplayInput();\n\n            var map = new GameObject(\"Map\");\n            mGeneratorMapChannelSO.RaiseEvent(mLevelAndCharacterSO.SelectLevelSO.MapConfig, map.transform);\n\n            //Generate Player\n            var player = Instantiate(mLevelAndCharacterSO.SelectCharacterSo.CharacterPrefab, transform.position, transform.rotation);\n\n            mGlobalConfigSO.GlobalPlayer = player.GetComponent<Player>();\n            \n            var enemies = new GameObject(\"Enemies\");\n            var waveConfig = ScriptableObject.CreateInstance<RuntimeStageConfigSO>();\n            waveConfig.SelectStageConfig = mLevelAndCharacterSO.SelectLevelSO.StageConfig;\n            waveConfig.EnemyParent = enemies.transform;\n\n            mStartStageEventChannelSo.RaiseEvent(waveConfig);",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "characters",
+      "original": "Fighter / Assassin / Mage",
+      "title": "三名预设角色与起始技能",
+      "status": "source_and_assets_confirmed",
+      "facts": [
+        "Fighter起始ToNearestSkill",
+        "Assassin起始BothSideSkill",
+        "Mage起始BouncingSkill",
+        "共同PlayerStat默认HP100，不能从旧设计样例推定不同角色HP"
+      ],
+      "states": [
+        "可用",
+        "已选",
+        "详情",
+        "起始技能图标",
+        "未解锁/购买（见另份菜单审计）"
+      ],
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Prefabs/Player/Fighter.prefab",
+          "startLine": 538,
+          "endLine": 538,
+          "sha256": "c815b3b50132c7e2264c7efed0eef5c098c75d45b972815dc4d42761d130c173",
+          "excerpt": "  _beginSkillKey: ToNearestSkill",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Prefabs/Player/Assassin.prefab",
+          "startLine": 571,
+          "endLine": 571,
+          "sha256": "f3d8cd040ae8802e82017bd82a020d1440f682dfe9f3a7e6e8a14161a5bc1f9e",
+          "excerpt": "  _beginSkillKey: BothSideSkill",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Prefabs/Player/Mage.prefab",
+          "startLine": 610,
+          "endLine": 610,
+          "sha256": "e10eb766e6b29295c792399cebdffbfd66ed5902b76433c7196c60cf53d3e067",
+          "excerpt": "  _beginSkillKey: BouncingSkill",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Player/PlayerStat.asset",
+          "startLine": 17,
+          "endLine": 20,
+          "sha256": "b275cce1273bc806cfb10fdf3d3d80fc27968cc930c11fbfa931ff6c3999153d",
+          "excerpt": "  - ValueName: HP\n    DefaultValue: 100\n    HasMaxValue: 1\n    MaxValue: 100",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "levels",
+      "original": "FirstLevel / SecondLevel / Map1 / Stage1",
+      "title": "两关卡与共用关卡数据",
+      "status": "source_and_assets_confirmed",
+      "facts": [
+        "两个LevelConfig均引用同一Map1与Stage1",
+        "Map1为100×100逻辑格、20个Prop",
+        "SecondLevel Description称略难但实际两关StageConfig相同，不能宣称独立平衡或地图"
+      ],
+      "states": [
+        "列表",
+        "预览/说明",
+        "已选",
+        "进入",
+        "资源缺失提示（建议）"
+      ],
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/SelectLevel/FirstLevel.asset",
+          "startLine": 13,
+          "endLine": 20,
+          "sha256": "0054619cd78d9a7e900137643ba3970ced4796588e76210a7acdc2b982b3327f",
+          "excerpt": "  m_Name: FirstLevel\n  m_EditorClassIdentifier: \n  Description: First level scenario for demo\n  LevelDescription: First level scenario for demo\n  PreviewImage: {fileID: -2727198992545312515, guid: 335ce65e7c7fa7a429de08d3e2dc8d3c, type: 3}\n  MapConfig: {fileID: 11400000, guid: f39e076b3d455154792c3d56dc397057, type: 2}\n  StageConfig: {fileID: 11400000, guid: d545bc68714582d45bae37a87c71c046, type: 2}",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/SelectLevel/SecondLevel.asset",
+          "startLine": 13,
+          "endLine": 20,
+          "sha256": "eba503b03ed274c137248b23480dd6f166ae65f496ee7763a1e125f0680e9170",
+          "excerpt": "  m_Name: SecondLevel\n  m_EditorClassIdentifier: \n  Description: Slightly harder than the first level\n  LevelDescription: First level scenario for demo\n  PreviewImage: {fileID: -2727198992545312515, guid: 335ce65e7c7fa7a429de08d3e2dc8d3c, type: 3}\n  MapConfig: {fileID: 11400000, guid: f39e076b3d455154792c3d56dc397057, type: 2}\n  StageConfig: {fileID: 11400000, guid: d545bc68714582d45bae37a87c71c046, type: 2}",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Map/Map1.asset",
+          "startLine": 13,
+          "endLine": 30,
+          "sha256": "bfd98805952459df1ccdc4366098d16f99b55f371356e2f6be0fe07c2adf7674",
+          "excerpt": "  m_Name: Map1\n  m_EditorClassIdentifier: \n  tiles:\n  - sprite: {fileID: 21300000, guid: 38bd61ab9c2a803408f7c482c1c2ba76, type: 3}\n    weight: 200\n  - sprite: {fileID: 21300000, guid: 4e55075aef72cef4a80e5b7156ed518b, type: 3}\n    weight: 3\n  - sprite: {fileID: 21300000, guid: 85ff866d5759077469adabb9f0e9afd6, type: 3}\n    weight: 3\n  - sprite: {fileID: 21300000, guid: de85cd1ad0db2734687aa1a1b6b7d61e, type: 3}\n    weight: 1\n  - sprite: {fileID: 21300000, guid: 42342579b41b4414fa287b79dd35e703, type: 3}\n    weight: 1\n  - sprite: {fileID: 21300000, guid: 5129cdb478bb26d41a78aac517d146c4, type: 3}\n    weight: 3\n  Width: 100\n  Height: 100\n  PropCount: 20",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/SOData/MapConfigSO.cs",
+          "startLine": 1,
+          "endLine": 42,
+          "sha256": "6919a6a6434ff8efa2469a918ab3ea100a028bc6825b09101c62bca2dbd83994",
+          "excerpt": "#region\n\nusing System;\nusing UnityEngine;\n\n#endregion\n\nnamespace RGame.RoguelikeKit\n{\n    [CreateAssetMenu(fileName = \"WaveConfig\", menuName = \"RGame/RoguelikeKit/Map Config\")]\n    public class MapConfigSO : ScriptableObject\n    {\n        [Tooltip(\"Array of tiles used to generate the map. Each tile has a sprite and a weight.\")]\n        public TileData[] tiles;\n\n        public int Width = 50;\n        public int Height = 50;\n\n        [Range(0, 100)] public int PropCount = 15;\n    }\n\n    [Serializable]\n    public class TileData\n    {\n        [Tooltip(\"The sprite used for this tile.\")]\n        public Sprite sprite;\n\n        [Tooltip(\"The weight of this tile for random generation. Higher weight means higher probability of being chosen.\")]\n        public int weight;\n    }\n}",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "movement",
+      "original": "PlayerMovement / InputReader",
+      "title": "移动与自动战斗",
+      "status": "source_confirmed",
+      "facts": [
+        "键鼠/输入系统移动，零键盘输入时取虚拟摇杆",
+        "移动向量归一化",
+        "技能通过循环计时器自动Cast，不是手动冷却技能按钮"
+      ],
+      "states": [
+        "键鼠提示",
+        "摇杆中立/拖动",
+        "移动/受击反馈",
+        "暂停输入阻断"
+      ],
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/Game/Player/Movement/PlayerMovement.cs",
+          "startLine": 31,
+          "endLine": 48,
+          "sha256": "bac8491d4cf5d321c30e64f2d26fa15ec7094e611e98ebb524a134a002eefa06",
+          "excerpt": "        private void FixedUpdate()\n        {\n            if (_isDie) return;\n            \n            Vector2 move = _inputMove;\n            \n            if (move == Vector2.zero) move = joystickInputWrapperSo.Value;\n            \n            move.Normalize();\n            \n            if (move.x != 0 || move.y != 0)\n            {\n                _player.MoveDirection = move;\n            }\n            \n            _myRigidbody.linearVelocity = move * (stat.GetValue(\"MoveSpeed\") * globalConfigSO.MoveSpeedBalanceFactor * 0.5f);\n            \n            if (move.x != 0) transform.localScale = new Vector3(Mathf.Sign(move.x), 1, 1);",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/Input/InputReader.cs",
+          "startLine": 33,
+          "endLine": 45,
+          "sha256": "bb3316e0991d1b5f6409f62b8054c1994226a56cad057c3fa5565b1ff2ba9dc3",
+          "excerpt": "        public void OnMove(InputAction.CallbackContext context)\n        {\n            if (context.phase == InputActionPhase.Performed)\n                MoveEvent.Invoke(context.ReadValue<Vector2>());\n            if (context.phase == InputActionPhase.Canceled)\n                MoveEvent.Invoke(Vector2.zero);\n        }\n\n        public void OnPause(InputAction.CallbackContext context)\n        {\n            if (context.phase == InputActionPhase.Performed)\n                MenuPauseEvent.Invoke();\n        }",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs",
+          "startLine": 79,
+          "endLine": 84,
+          "sha256": "5e35d14bd6079e8fcf845b78c08f234bb60a32ad4500998274480b9d24a74a60",
+          "excerpt": "                if (skillData.SkillType is SkillType.AttackSkill)\n                {\n                    _pool.Register(new PoolDefinition(skillData.Key, new SolePool(skillData.SkillPrefab, 1)));\n                    skillData.CurrentCD = ScriptableObject.CreateInstance<FloatWrapper>();\n                    UpdateSkillEndTime(key);\n                    _addTimerChannel.RaiseEvent(skillData.CurrentCD, () => { CreateSkill(skillData.Key);});",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/TimeStep/TimeStepManager.cs",
+          "startLine": 39,
+          "endLine": 50,
+          "sha256": "2e970be8f57ce179b16b49d5efc4e3d420fa38dc9a4fbb9ffb88267bdbfea84d",
+          "excerpt": "        private void FixedUpdate()\n        {\n            mFixedUpdateChannel.RaiseEvent();\n\n            for (int i = 0; i < _activeTimers.Count; i++)\n            {\n                _activeTimers[i].Timer += Time.fixedDeltaTime;\n\n                if (_activeTimers[i].Timer > _activeTimers[i].EndTime.Value)\n                {\n                    _activeTimers[i].Timer -= _activeTimers[i].EndTime.Value;\n                    _activeTimers[i].Callback?.Invoke();",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "hud",
+      "original": "HealthUI / LevelUI / SkillIconPanel",
+      "title": "战斗HUD与十二技能槽",
+      "status": "source_and_scene_confirmed",
+      "facts": [
+        "气血、经验等级、击败数和本局金币有UI",
+        "主动6槽、被动6槽，各自累加",
+        "时长/波次/Boss血条是合理设计补充，未在原HUD找到相应显示器"
+      ],
+      "states": [
+        "满血/受伤/低血/死亡",
+        "经验不足/升级",
+        "技能空槽/已持有/满槽",
+        "金币/击败数变化"
+      ],
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/SkillIconPanel.cs",
+          "startLine": 13,
+          "endLine": 19,
+          "sha256": "518030bd1f3924f7373e83a196b1dff00eddc86baba2a9891585cc9d8c25a7b6",
+          "excerpt": "        private int _attackSkillIconIndex = 0;\n        private int _attributeSkillIndex;\n        private const int ATTRIBUTE_INDEX_START = 6;\n\n        private void Awake()\n        {\n            _attributeSkillIndex = ATTRIBUTE_INDEX_START;",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/SkillIconPanel.cs",
+          "startLine": 32,
+          "endLine": 58,
+          "sha256": "518030bd1f3924f7373e83a196b1dff00eddc86baba2a9891585cc9d8c25a7b6",
+          "excerpt": "        private void AddIcon(SkillDataSO skillData)\n        {\n            switch (skillData.SkillType)\n            {\n                case SkillType.AttackSkill:\n                    SetSkillIcon(ref _attackSkillIconIndex, skillData);\n                    break;\n                case SkillType.AttributeSkill:\n                    SetSkillIcon(ref _attributeSkillIndex, skillData);\n                    break;\n            }\n        }\n\n        private void SetSkillIcon(ref int index, SkillDataSO skillData)\n        {\n            if (index >= _skillIcons.Length)\n            {\n                Debug.LogWarning(\"SkillIconPanel: Not enough skill icon slots!\");\n                return;\n            }\n\n            Image image = _skillIcons[index].GetComponent<Image>();\n            if (image != null)\n            {\n                image.sprite = skillData.SkillIcon;\n                image.color = Color.white;\n                index++;",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/LevelUI.cs",
+          "startLine": 30,
+          "endLine": 40,
+          "sha256": "9806ae0b1cb1d6aa588fe511b928ef3b658eaa52a31a91414d037856c1fc68d9",
+          "excerpt": "        private void UpdateUI()\n        {\n            int currentLevel = _stat.GetValue(\"Level\");\n\n            float currentExp = _stat.GetValue(\"Exp\");\n            float requiredExp = expConfig.GetExperienceForLevel(currentLevel);\n            float line = currentExp / requiredExp;\n            \n            mLevelBar.fillAmount = line;\n\n            _levelText.text = \"Level \" + currentLevel;",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scenes/Managers/GamePlay.unity",
+          "startLine": 4608,
+          "endLine": 4634,
+          "sha256": "50a81eb5689c9a3748a24aa9c405c9dd56999a83035ac44c30d026847154486d",
+          "excerpt": "--- !u!114 &1187669951\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 1187669948}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: dc88335a323386447b09bbd67effb72f, type: 3}\n  m_Name: \n  m_EditorClassIdentifier: \n  _addIconEventChannel: {fileID: 11400000, guid: d2e689fe2f2848c4dac66e184375d4eb, type: 2}\n  _skillIcons:\n  - {fileID: 2001635978}\n  - {fileID: 236369210}\n  - {fileID: 1494382120}\n  - {fileID: 4650199}\n  - {fileID: 1532471882}\n  - {fileID: 3786898}\n  - {fileID: 251132283}\n  - {fileID: 691086794}\n  - {fileID: 1880244974}\n  - {fileID: 657965440}\n  - {fileID: 1659116886}\n  - {fileID: 852162306}\n--- !u!1 &1257053175",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "levelup",
+      "original": "OnCharacterUpgrade / UpgradeSkillPanel",
+      "title": "升级三选一",
+      "status": "source_and_scene_confirmed",
+      "facts": [
+        "从未满级且有槽位或已持有技能中无重复抽取至多3项",
+        "主动/被动分别最多6个新技能",
+        "不足3选时以50金币钱袋补齐",
+        "展示期间timeScale=0，选择后恢复"
+      ],
+      "states": [
+        "新技能",
+        "已持有可升级",
+        "剩1/2项+钱袋",
+        "全部满级三钱袋",
+        "选中/确认/返回战斗"
+      ],
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs",
+          "startLine": 193,
+          "endLine": 227,
+          "sha256": "5e35d14bd6079e8fcf845b78c08f234bb60a32ad4500998274480b9d24a74a60",
+          "excerpt": "        private void OnCharacterUpgrade()\n        {\n            List<SkillDataSO> skillDataList = new List<SkillDataSO>(3);\n            List<SkillDataSO> availableSkills = new List<SkillDataSO>();\n            \n            // Collect available skills\n            foreach (var skill in _skillDataDictionary.Values)\n            {\n                if (skill.CheckLevelToMax()) continue;\n                if(skill.SkillType is SkillType.AttributeSkill && _activeAttributeSkill == 6 && !_activeSkills.Contains(skill.Key)) continue;\n                if(skill.SkillType is SkillType.AttackSkill && _activeAttackSkill == 6 && !_activeSkills.Contains(skill.Key)) continue;\n                \n                availableSkills.Add(skill);\n            }\n            \n            // Add random skills up to available skills count\n            int count = Mathf.Min(3, availableSkills.Count);\n            while (skillDataList.Count < count)\n            {\n                SkillDataSO randomSkill = availableSkills[UnityEngine.Random.Range(0, availableSkills.Count)];\n\n                if (!skillDataList.Contains(randomSkill))\n                {\n                    skillDataList.Add(randomSkill);\n                }\n            }\n\n            // Fill remaining slots with money bags if needed\n            while (skillDataList.Count < 3)\n            {\n                SkillDataSO moneyBag = SkillDataSO.CreateMoneyBag(_moneyBagIcon);\n                skillDataList.Add(moneyBag);\n            }\n\n            _upgradeSkillUIChannel.RaiseEvent(skillDataList);",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillPanel.cs",
+          "startLine": 25,
+          "endLine": 68,
+          "sha256": "c9b076789d359f63d295a06dc38ae2f0ad5ad73ea92c81da940835a3007f99d4",
+          "excerpt": "        private void SkillUI(List<SkillDataSO> skills)\n        {\n            Show();\n\n            for (int i = 0; i < skills.Count; i++)\n            {\n                _upgradeSkillPrefab[i].UpgradeSkillAction += UpgradeSkill;\n                \n                // Set UI for skill or money bag\n                _upgradeSkillPrefab[i].SetUI(skills[i]);\n            }\n        }\n        \n        public void Show()\n        {\n            Time.timeScale = 0;\n            \n            _canvasGroup.alpha = 1f;\n            _canvasGroup.interactable = true; \n            _canvasGroup.blocksRaycasts = true; \n        }\n\n        public void UpgradeSkill(SkillDataSO skill)\n        {\n            Time.timeScale = 1;\n            \n            // Handle money bag selection or regular skill upgrade\n            if (skill.IsMoneyBag())\n            {\n                _upgradeSkillChannel.RaiseEvent(\"MoneyBag\");\n            }\n            else\n            {\n                _upgradeSkillChannel.RaiseEvent(skill.Key);\n            }\n            \n            _canvasGroup.alpha = 0f;\n            _canvasGroup.interactable = false; \n            _canvasGroup.blocksRaycasts = false; \n            \n            for (int i = 0; i < _upgradeSkillPrefab.Length; i++)\n            {\n                _upgradeSkillPrefab[i].UpgradeSkillAction -= UpgradeSkill;\n            }",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillItem.cs",
+          "startLine": 19,
+          "endLine": 77,
+          "sha256": "ac62a6bf581c570ef23f1e4e2aa237b88d3aed89633b2a9436fad385df263608",
+          "excerpt": "        public void SetUI(SkillDataSO skillData)\n        {\n            _icon.sprite = skillData.SkillIcon;\n            _name.text = skillData.Key;\n            \n            _level.text = \"Level:\" + skillData.Level;\n            _skillData = skillData;\n            \n            switch (skillData.SkillType)\n            {\n                case SkillType.AttackSkill:\n                    AttackSkillUI(skillData);\n                    break;\n                case SkillType.AttributeSkill:\n                    _description.text = $\"Increases {skillData.AttributeType.ToString()} by {skillData.UpgradeAttributeModValue[skillData.Level]}\";\n                    break;\n                case SkillType.MoneyBag:\n                    MoneyBagUI(skillData);\n                    break;\n            }\n        }\n\n        private void AttackSkillUI(SkillDataSO skillData)\n        {\n            if (skillData.Level == 0)\n            {\n                _description.text = \"Activate Skill\";\n                return;\n            }\n            \n            switch (skillData.UpgradeAttribute[skillData.Level - 1].skillAttributeType)\n            {\n                case UpgradeSkillAttributeType.DamageAdd:\n                    _description.text = $\"Increases skill damage by {skillData.UpgradeAttribute[skillData.Level - 1].IntValue}%. Crush your enemies!\";\n                    break;\n\n                case UpgradeSkillAttributeType.CDLessPercent:\n                    _description.text = $\"Reduces cooldown by {skillData.UpgradeAttribute[skillData.Level - 1].IntValue}%. Attack faster!\";\n                    break;\n\n                case UpgradeSkillAttributeType.ProjectilesCountAdd:\n                    _description.text = $\"Fires {skillData.UpgradeAttribute[skillData.Level - 1].IntValue} more projectiles. More is always better!\";\n                    break;\n\n                case UpgradeSkillAttributeType.VelocityAddPercent:\n                    _description.text = $\"Increases projectile speed by {skillData.UpgradeAttribute[skillData.Level - 1].IntValue}%. Reach enemies quicker!\";\n                    break;\n\n                case UpgradeSkillAttributeType.AreaAddPercent:\n                    _description.text = $\"Expands attack area by {skillData.UpgradeAttribute[skillData.Level - 1].IntValue}%. Hit more enemies at once!\";\n                    break;\n            }\n        }\n\n        private void MoneyBagUI(SkillDataSO skillData)\n        {\n            _name.text = \"Money Bag\";\n            _level.text = \"\"; \n            _description.text = $\"Contains {skillData.MoneyAmount} coins. Instant wealth!\";",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "skilllevels",
+      "original": "SkillDataSO / UpgradeSkillAttributeType",
+      "title": "道法等级和效果说明",
+      "status": "source_and_assets_confirmed",
+      "facts": [
+        "9主动资产各10条UpgradeAttribute，CheckLevelToMax为Count+1，即本配置11级",
+        "14被动资产各5个UpgradeAttributeModValue，即5级",
+        "原英文UI伤害百分比描述与实际DamageAdd整数相加不同，中文按效果字段解释"
+      ],
+      "states": [
+        "未获得0级",
+        "1级新获得",
+        "可升级",
+        "满级",
+        "变化前后数值"
+      ],
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/SOData/Skill/SkillDataSO.cs",
+          "startLine": 91,
+          "endLine": 105,
+          "sha256": "bc5966f742599bbe63afa9ccaba5f109ff2051f1c6b24f008ad146225783203b",
+          "excerpt": "        public bool CheckLevelToMax()         \n        {             \n            switch (SkillType)             \n            {                 \n                case SkillType.AttackSkill:                     \n                    return Level == UpgradeAttribute.Count + 1;                                   \n\n                case SkillType.AttributeSkill:                     \n                    return Level == UpgradeAttributeModValue.Count;\n\n                case SkillType.MoneyBag:\n                    return true; \n            }                          \n\n            return false;         ",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs",
+          "startLine": 145,
+          "endLine": 169,
+          "sha256": "5e35d14bd6079e8fcf845b78c08f234bb60a32ad4500998274480b9d24a74a60",
+          "excerpt": "        private void UpgradeAttackSkillAttribute(string key)\n        {\n            var skillData = _skillDataDictionary[key];\n\n            if (skillData.SkillType is SkillType.AttackSkill)\n            {\n                var attributeMod = skillData.UpgradeAttribute[skillData.Level - 1];\n                \n                switch (attributeMod.skillAttributeType)\n                {\n                    case UpgradeSkillAttributeType.DamageAdd:\n                        skillData.Damage += attributeMod.IntValue;\n                        break;\n                    case UpgradeSkillAttributeType.CDLessPercent:\n                        skillData.CD -= skillData.CD * attributeMod.IntValue * 0.01f;\n                        break;\n                    case UpgradeSkillAttributeType.ProjectilesCountAdd:\n                        skillData.Amount += attributeMod.IntValue;\n                        break;\n                    case UpgradeSkillAttributeType.VelocityAddPercent:\n                        skillData.Velocity += skillData.Velocity * attributeMod.IntValue * 0.01f;\n                        break;\n                    case UpgradeSkillAttributeType.AreaAddPercent:\n                        skillData.Area += attributeMod.IntValue;\n                        break;",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillItem.cs",
+          "startLine": 49,
+          "endLine": 68,
+          "sha256": "ac62a6bf581c570ef23f1e4e2aa237b88d3aed89633b2a9436fad385df263608",
+          "excerpt": "            switch (skillData.UpgradeAttribute[skillData.Level - 1].skillAttributeType)\n            {\n                case UpgradeSkillAttributeType.DamageAdd:\n                    _description.text = $\"Increases skill damage by {skillData.UpgradeAttribute[skillData.Level - 1].IntValue}%. Crush your enemies!\";\n                    break;\n\n                case UpgradeSkillAttributeType.CDLessPercent:\n                    _description.text = $\"Reduces cooldown by {skillData.UpgradeAttribute[skillData.Level - 1].IntValue}%. Attack faster!\";\n                    break;\n\n                case UpgradeSkillAttributeType.ProjectilesCountAdd:\n                    _description.text = $\"Fires {skillData.UpgradeAttribute[skillData.Level - 1].IntValue} more projectiles. More is always better!\";\n                    break;\n\n                case UpgradeSkillAttributeType.VelocityAddPercent:\n                    _description.text = $\"Increases projectile speed by {skillData.UpgradeAttribute[skillData.Level - 1].IntValue}%. Reach enemies quicker!\";\n                    break;\n\n                case UpgradeSkillAttributeType.AreaAddPercent:\n                    _description.text = $\"Expands attack area by {skillData.UpgradeAttribute[skillData.Level - 1].IntValue}%. Hit more enemies at once!\";",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "evolution",
+      "original": "Normal / WaitMix / Mixed",
+      "title": "法宝进化",
+      "status": "source_and_assets_confirmed",
+      "facts": [
+        "主动技能满级且持有兼容被动（无需被动满级）后置WaitMix",
+        "宝箱优先将WaitMix技能作为奖励",
+        "确认奖励时对满级技能调用MixSkill，进入Mixed",
+        "CircularAttackSkillCast没有额外MixSkill覆盖，只继承状态变化；进化独立新形象/名称属美术设计补充"
+      ],
+      "states": [
+        "配方未满足",
+        "主动满级/被动未得",
+        "持有被动/主动未满",
+        "待进化",
+        "宝箱进化奖励",
+        "已进化"
+      ],
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs",
+          "startLine": 87,
+          "endLine": 112,
+          "sha256": "5e35d14bd6079e8fcf845b78c08f234bb60a32ad4500998274480b9d24a74a60",
+          "excerpt": "            else\n            {\n                if (_skillDataDictionary[key].CheckLevelToMax())\n                {\n                    _skillCastDictionary[key].MixSkill();\n                    return;\n                }\n                \n                UpgradeAttackSkillAttribute(key);\n            }\n            \n            UpgradeAttributeSkillAttribute(key);\n            UpdateSkillEndTime(key);\n            skillData.Level++;\n            \n            foreach (var activeSkillKey in _activeSkills)\n            {\n                if (_skillDataDictionary[activeSkillKey].SkillType is SkillType.AttackSkill &&\n                    _skillDataDictionary[activeSkillKey].CheckLevelToMax() &&\n                    _activeSkills.Contains(_skillDataDictionary[activeSkillKey].MixAttributeSkillKey))\n                {\n                    Debug.Log(\"key:\" + activeSkillKey + \",\" + \n                              _skillDataDictionary[activeSkillKey].Level \n                              + \",\" + skillData.MixAttributeSkillKey);\n                    _skillDataDictionary[activeSkillKey].CurrentState = SkillCurrentState.WaitMix;\n                }",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs",
+          "startLine": 249,
+          "endLine": 266,
+          "sha256": "5e35d14bd6079e8fcf845b78c08f234bb60a32ad4500998274480b9d24a74a60",
+          "excerpt": "            List<SkillDataSO> skillDataList = new List<SkillDataSO>(count);\n            \n            foreach (var skill in _skillDataDictionary.Values)\n            {\n                if (skill.CurrentState is SkillCurrentState.WaitMix)\n                {\n                    count--;\n                    skillDataList.Add(skill);\n\n                    if (count == 0) break;\n                }\n            }\n\n            // 如果所有位置都被 WaitMix 技能占满，直接返回\n            if (count == 0)\n            {\n                _openTreasurePanelChannel.RaiseEvent(skillDataList);\n                return;",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillCast/SkillCast.cs",
+          "startLine": 24,
+          "endLine": 27,
+          "sha256": "1b3414d3c29d926bc5a85e0aa6dfd2487876aa493381202b6666185fc94caba8",
+          "excerpt": "        public virtual void MixSkill()\n        {\n            _mySkillData.CurrentState = SkillCurrentState.Mixed;\n        }",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "treasure",
+      "original": "TreasureBox / TreasurePanel",
+      "title": "宝箱一/三/五奖励",
+      "status": "source_and_scene_confirmed",
+      "facts": [
+        "碰到宝箱打开宝箱界面并回收场上宝箱",
+        "奖励数1/3/5；优先进化，再升级已持有技能至各自上限，空缺钱袋补位",
+        "当前所有奖励一起领取，不是再三选一",
+        "暂停并揭晓3秒，金币受Greed倍率，揭晓后确认才恢复"
+      ],
+      "states": [
+        "拾取",
+        "揭晓中确认禁用",
+        "1/3/5项",
+        "进化混排",
+        "钱袋补位",
+        "可领取",
+        "领取后恢复"
+      ],
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/Game/DropOut/TreasureBox.cs",
+          "startLine": 14,
+          "endLine": 19,
+          "sha256": "97e2139095bd0c16edd86b53478de469a934171314a3f6aea590266a173f76bd",
+          "excerpt": "        private void OnTriggerEnter2D(Collider2D other)\n        {\n            if (other.CompareTag(\"PlayerHit\"))\n            {\n                _openTreasureChannel.RaiseEvent();\n                _poolRuntime.Return(this.gameObject);",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs",
+          "startLine": 230,
+          "endLine": 347,
+          "sha256": "5e35d14bd6079e8fcf845b78c08f234bb60a32ad4500998274480b9d24a74a60",
+          "excerpt": "        private void OpenTreasurePanel()\n        {\n            int random = Random.Range(0, 6);\n\n            int count = 0;\n\n            if (random > 3)\n            {\n                count = 1;\n            }\n            else if (random > 0)\n            {\n                count = 3;\n            }\n            else\n            {\n                count = 5;\n            }\n\n            List<SkillDataSO> skillDataList = new List<SkillDataSO>(count);\n            \n            foreach (var skill in _skillDataDictionary.Values)\n            {\n                if (skill.CurrentState is SkillCurrentState.WaitMix)\n                {\n                    count--;\n                    skillDataList.Add(skill);\n\n                    if (count == 0) break;\n                }\n            }\n\n            // 如果所有位置都被 WaitMix 技能占满，直接返回\n            if (count == 0)\n            {\n                _openTreasurePanelChannel.RaiseEvent(skillDataList);\n                return;\n            }\n\n            List<SkillDataSO> availableSkills = new List<SkillDataSO>();\n            Dictionary<string, int> maxUpgradePossible = new Dictionary<string, int>();\n            \n            foreach (var skill in _skillDataDictionary.Values)\n            {\n                if (skill.CheckLevelToMax())\n                {\n                    continue;\n                }\n                \n                if (skill.SkillType is SkillType.AttributeSkill && _activeAttributeSkill == 6 && !_activeSkills.Contains(skill.Key)) continue;\n                if (skill.SkillType is SkillType.AttackSkill && _activeAttackSkill == 6 && !_activeSkills.Contains(skill.Key)) continue;\n\n                if (_activeSkills.Contains(skill.Key))\n                {\n                    availableSkills.Add(skill);\n\n                    // Calculate how many times this skill can still be upgraded\n                    int maxLevel = 0;\n                    if (skill.SkillType == SkillType.AttackSkill)\n                    {\n                        maxLevel = skill.UpgradeAttribute.Count + 1;\n                    }\n                    else if (skill.SkillType == SkillType.AttributeSkill)\n                    {\n                        maxLevel = skill.UpgradeAttributeModValue.Count;\n                    }\n\n                    int remainingUpgrades = maxLevel - skill.Level;\n                    maxUpgradePossible[skill.Key] = remainingUpgrades;\n                }\n            }\n\n            // Track how many times each skill has been selected\n            Dictionary<string, int> skillSelectionCount = new Dictionary<string, int>();\n\n            // 如果没有可用技能，用钱袋填充剩余位置\n            if (availableSkills.Count == 0)\n            {\n                while (count > 0)\n                {\n                    count--;\n                    SkillDataSO moneyBag = SkillDataSO.CreateMoneyBag(_moneyBagIcon);\n                    skillDataList.Add(moneyBag);\n                }\n            }\n            else\n            {\n                // Fill treasure panel with skills first, then money bags if needed\n                while (count > 0 && availableSkills.Count > 0)\n                {\n                    count--;\n\n                    // Select random skill from available list\n                    SkillDataSO randomSkill = availableSkills[UnityEngine.Random.Range(0, availableSkills.Count)];\n                    skillDataList.Add(randomSkill);\n\n                    // Track how many times this skill has been selected\n                    if (!skillSelectionCount.ContainsKey(randomSkill.Key))\n                        skillSelectionCount[randomSkill.Key] = 0;\n                    skillSelectionCount[randomSkill.Key]++;\n\n                    // Check if this skill has reached its maximum possible upgrades\n                    if (skillSelectionCount[randomSkill.Key] >= maxUpgradePossible[randomSkill.Key])\n                    {\n                        availableSkills.Remove(randomSkill);\n                    }\n                }\n\n                // Fill remaining slots with money bags if no more skills available\n                while (count > 0)\n                {\n                    count--;\n                    SkillDataSO moneyBag = SkillDataSO.CreateMoneyBag(_moneyBagIcon);\n                    skillDataList.Add(moneyBag);\n                }\n            }\n\n            _openTreasurePanelChannel.RaiseEvent(skillDataList);",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/TreasurePanel.cs",
+          "startLine": 38,
+          "endLine": 110,
+          "sha256": "118fc45e261f7b8dbf04b370f1ea3ea559558dc8cff2d28e753e5d31a18475a0",
+          "excerpt": "        public void Show(List<SkillDataSO> skillDataSos)\n        {\n            Time.timeScale = 0;\n            \n            canvasGroup.alpha = 1f;\n            canvasGroup.interactable = true; \n            canvasGroup.blocksRaycasts = true;\n\n            currentSkills = skillDataSos;\n\n            for (int i = 0; i < skillDataSos.Capacity; i++)\n            {\n\n                imageList[i].transform.parent.gameObject.SetActive(true);\n\n                // Check if it's a money bag or regular skill\n                imageList[i].sprite = skillDataSos[i].SkillIcon; // Money bag icon\n            }\n\n            StartCoroutine(IconAddAnimation(skillDataSos.Capacity));\n        }\n\n        public void EnterSkill()\n        {\n            // Apply all skill upgrades when user confirms\n            foreach (var skill in currentSkills)\n            {\n                if (skill.IsMoneyBag())\n                {\n                    upgradeSkillChannel.RaiseEvent(\"MoneyBag\");\n                }\n                else\n                {\n                    upgradeSkillChannel.RaiseEvent(skill.Key);\n                }\n            }\n            \n            Time.timeScale = 1;\n            \n            canvasGroup.alpha = 0f;\n            canvasGroup.interactable = false; \n            canvasGroup.blocksRaycasts = false;\n            \n            for (int i = 0; i < imageList.Count; i++)\n            {\n                imageList[i].transform.parent.gameObject.SetActive(false);\n            }\n            \n            enterBtn.gameObject.SetActive(false);\n        }\n\n        private IEnumerator IconAddAnimation(int count)\n        {\n            float timer = 0;\n\n            float randomGold = Random.Range(100 + (count-1) * 200, 200 * count);\n\n            randomGold *= statSO.GetValue(\"Greed\") * 0.01f;\n\n            int getGold = (int)randomGold;\n            \n            globalConfig.CurrentGetGold += getGold;\n            \n            while (timer < 3)\n            {\n                timer += Time.unscaledDeltaTime;\n                \n                goldText.text = ((int)(getGold * timer/3)).ToString();\n                \n                yield return null;\n            }\n            \n            enterBtn.gameObject.SetActive(true);",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scenes/Managers/GamePlay.unity",
+          "startLine": 2033,
+          "endLine": 2061,
+          "sha256": "50a81eb5689c9a3748a24aa9c405c9dd56999a83035ac44c30d026847154486d",
+          "excerpt": "--- !u!114 &537986787\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 537986785}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 66e5ad4fb6bf80046ba7f38664be3f4a, type: 3}\n  m_Name: \n  m_EditorClassIdentifier: \n  attributeSO: {fileID: 11400000, guid: 3fe8cc45f33e15d4ab9b49289c6376a4, type: 2}\n  statSO: {fileID: 11400000, guid: 4bc339572b7f1f8408c52327ccd34d22, type: 2}\n  globalConfig: {fileID: 11400000, guid: 055b856c9b45e18459c288223c3025c1, type: 2}\n  openTreasurePanelChannel: {fileID: 11400000, guid: e54b2fad46db06c4490daf7833fd8c44, type: 2}\n  upgradeSkillChannel: {fileID: 11400000, guid: 53df30f32aa480a4e86da9316c710b15, type: 2}\n  goldText: {fileID: 1945329519}\n  enterBtn: {fileID: 1662198307}\n  canvasGroup: {fileID: 537986788}\n  imageList:\n  - {fileID: 1001831530}\n  - {fileID: 1819577121}\n  - {fileID: 1902276469}\n  - {fileID: 348164450}\n  - {fileID: 2066875402}\n  goldSprite: {fileID: -6159277369411641441, guid: 5c84ede5c82388b4591bc6bcebd20092, type: 3}\n--- !u!225 &537986788\nCanvasGroup:",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "drops",
+      "original": "Exp / Purse / ReplyHp / SuckExp / DropBox",
+      "title": "掉落与拾取",
+      "status": "source_confirmed",
+      "facts": [
+        "距离小于Magnet×0.015后自动吸向玩家并触发Do",
+        "经验乘Growth倍率；钱袋默认50金币；回复物默认20HP；吸经验道具吸全场Exp",
+        "可破坏Prop按权重掉落道具；敌人按dropKeys生成掉落",
+        "Coin.cs当前仅Destroy没有加币，不能将其类名当作已实现奖励"
+      ],
+      "states": [
+        "场上经验/钱袋/回复/吸取图标",
+        "拾取反馈",
+        "满血回复说明（建议）",
+        "无可吸取经验说明（建议）"
+      ],
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/Game/DropOut/IDropOut.cs",
+          "startLine": 31,
+          "endLine": 51,
+          "sha256": "c2a86189c74faaddb14a053cfcbca2e829fa9eb1cabde874e7e647c4a230e287",
+          "excerpt": "        private void FixedUpdate()\n        {\n            if (mPlayerTransform == null)\n            {\n                if (_globalConfig.GlobalPlayer == null) return;\n                mPlayerTransform = _globalConfig.GlobalPlayer.transform;\n            }\n            \n            if (Vector3.Distance(mPlayerTransform.position, transform.position) < _stat.GetValue(\"Magnet\") * 0.015f) IsMove = true;\n\n            if (IsMove)\n            {\n                var dir = (mPlayerTransform.position - transform.position).normalized;\n\n                transform.position += dir * (Time.deltaTime * 5.5f);\n\n                if (Vector3.Distance(mPlayerTransform.position, transform.position) < 0.1f)\n                {\n                    Do();\n                    \n                    _pool.Return(this.gameObject);",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/Game/DropOut/Exp/Exp.cs",
+          "startLine": 8,
+          "endLine": 12,
+          "sha256": "071cc9a36931b4fae7f095520f834e819505b033569b08b08022243c7238a341",
+          "excerpt": "        [SerializeField] private int _exp = 1;\n        \n        public override void Do()\n        {\n            _stat.ModifyValue(\"Exp\", (int)Mathf.Round(_exp * _stat.GetValue(\"Growth\") * 0.01f));",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/Game/DropOut/Purse/Purse.cs",
+          "startLine": 7,
+          "endLine": 11,
+          "sha256": "775028fec6269aa7d28187cfb1d8b409709f719f27667edff12cd4409b5734aa",
+          "excerpt": "        [SerializeField] private int GoldCount = 50;\n        \n        public override void Do()\n        {\n            _globalConfig.CurrentGetGold += GoldCount;",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/Game/DropOut/Reply/ReplyHp.cs",
+          "startLine": 7,
+          "endLine": 12,
+          "sha256": "4534a114b735be4513050f900462c5fb0194a90cff7f404bef111251019f9dfe",
+          "excerpt": "        [SerializeField]\n        private int _replyHP = 20;\n        \n        public override void Do()\n        {\n            _stat.ModifyValue(\"HP\",_replyHP);",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/Game/DropOut/SuckExp/SuckExp.cs",
+          "startLine": 11,
+          "endLine": 15,
+          "sha256": "dda7cbf7923d5a715c67d47c8e4409143d6e4445e059e60de98b1ee92840d7d8",
+          "excerpt": "        public override void Do()\n        {\n            var exps = GameObject.FindGameObjectsWithTag(\"Exp\");\n\n            foreach (var item in exps) item.GetComponent<IDropOut>().IsMove = true;",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/Game/DropOut/Coin/Coin.cs",
+          "startLine": 3,
+          "endLine": 9,
+          "sha256": "f9759d07f5978a00e8167b1af9caa345ab4ce6683e8a40ee13a00b781c5f4059",
+          "excerpt": "    public class Coin : IDropOut\n    {\n        public override void Do()\n        {\n            //AudioKit.PlaySound(\"Coin\");\n\n            Destroy(gameObject);",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/Game/DropOut/DropBox.cs",
+          "startLine": 52,
+          "endLine": 73,
+          "sha256": "93ffc254a0b8ca8dd96aff5a24ca3302cb55531403db664783f7362f316d8f08",
+          "excerpt": "        private void CreateDropOutGoes()\n        {\n            if (_dropOutGoes == null || _dropOutGoes.Count == 0) return;\n\n            int totalPercent = 0;\n            foreach (var drop in _dropOutGoes)\n            {\n                totalPercent += drop.Percent;\n            }\n\n            int randomValue = Random.Range(0, totalPercent);\n            int accumulated = 0;\n\n            foreach (var drop in _dropOutGoes)\n            {\n                accumulated += drop.Percent;\n                if (randomValue < accumulated)\n                {\n                    var go = _poolRuntimeSO.Request(drop.Key);\n                    go.transform.position = transform.position;\n                    return;\n                }",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "enemytypes",
+      "original": "MeleeEnemy / RangeEnemy / ChargeEnemy / StateNode",
+      "title": "近战远程冲锋及Boss弹幕",
+      "status": "source_confirmed",
+      "facts": [
+        "追踪近战，远程在射程内停步，冲锋前2.5秒调整方向而后沿向前冲",
+        "Boss相关状态含Rush/Teleport及Single/Burst/Circle/Spread/Spiral射击模式",
+        "宽Boss血条/预警箭头/目标详情是UI设计补充，不是当前原UI已实现"
+      ],
+      "states": [
+        "普通妖灵",
+        "精英区别",
+        "Boss出现",
+        "危险预警（建议）",
+        "受击/伤害浮字",
+        "击败"
+      ],
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/MeleeEnemy.cs",
+          "startLine": 30,
+          "endLine": 64,
+          "sha256": "1acc83b1f005a1cca0dcfe9745fb633c606d08bac3e0c56ddf50928760d50482",
+          "excerpt": "        protected override void Move()\n        {\n            // Update cooldown timer\n            if (_teleportCooldownTimer > 0f)\n            {\n                _teleportCooldownTimer -= Time.deltaTime;\n            }\n            \n            Vector3 playerPosition = _playerTransform.position;\n            Vector3 currentPosition = transform.position;\n            float distanceToPlayer = Vector3.Distance(currentPosition, playerPosition);\n            \n            // Check if should teleport (distance > 16 and cooldown finished)\n            if (distanceToPlayer > TRIGGER_DISTANCE && _teleportCooldownTimer <= 0f)\n            {\n                TeleportToPlayer();\n                _teleportCooldownTimer = teleportCooldown; // Start cooldown\n            }\n            else\n            {\n                // Normal movement behavior\n                NormalMovement(playerPosition, currentPosition);\n            }\n        }\n        \n        private void NormalMovement(Vector3 playerPosition, Vector3 currentPosition)\n        {\n            Vector3 direction = (playerPosition - currentPosition).normalized;\n            float speed = StatRuntime.GetValue(\"Speed\") * _globalConfig.MoveSpeedBalanceFactor;\n\n            MyRigidbody2D.linearVelocity = direction * speed;\n            \n            // Flip sprite based on movement direction\n            if (direction.x != 0)\n                transform.localScale = new Vector3(Mathf.Sign(direction.x) * Mathf.Abs(transform.localScale.x), transform.localScale.y, 1);",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/RangeEnemy.cs",
+          "startLine": 14,
+          "endLine": 31,
+          "sha256": "0c0c75a8bba091fcc38b04d278b70450a932418761915461ca9872d43f110e25",
+          "excerpt": "        protected override void Move()\n        {\n            float range = StatRuntime.GetValue(\"AttackRange\") - 0.5f;\n            float distance = Vector3.Distance(_playerTransform.position, transform.position);\n            Vector3 direction = (_playerTransform.position - transform.position).normalized;\n            \n            if (distance > range)\n            {\n                float speed = StatRuntime.GetValue(\"Speed\") * _globalConfig.MoveSpeedBalanceFactor;\n\n                MyRigidbody2D.linearVelocity = direction * speed;\n            }\n            else\n            {\n                MyRigidbody2D.linearVelocity = Vector2.zero;\n            }\n            if (direction.x != 0)\n                transform.localScale = new Vector3(Mathf.Sign(direction.x) * Mathf.Abs(transform.localScale.x), transform.localScale.y, 1);",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/ChargeEnemy.cs",
+          "startLine": 16,
+          "endLine": 29,
+          "sha256": "3fed74cefb69260b40e0b8afc1fe6170d1b700c64a7518d77830ff0c36ce324f",
+          "excerpt": "        protected override void FixedUpdate()\n        {\n            base.FixedUpdate();\n            \n            if (_globalConfig.GlobalPlayer != null && _timer < 2.5f)\n            {\n                Vector3 playerPos = _globalConfig.GlobalPlayer.transform.position;\n                _moveDir = (playerPos - transform.position).normalized;\n            }\n            \n            _timer += Time.fixedDeltaTime;\n            if (_timer >= returnTime)\n            {\n                _poolRuntime.Return(gameObject);",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/ChargeEnemy.cs",
+          "startLine": 52,
+          "endLine": 58,
+          "sha256": "3fed74cefb69260b40e0b8afc1fe6170d1b700c64a7518d77830ff0c36ce324f",
+          "excerpt": "        protected override void Move()\n        {\n            float speed = StatRuntime.GetValue(\"Speed\") * _globalConfig.MoveSpeedBalanceFactor;\n            MyRigidbody2D.linearVelocity = _moveDir * speed;\n            \n            if (_moveDir.x != 0)\n                transform.localScale = new Vector3(Mathf.Sign(_moveDir.x), 1, 1);",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/Game/Enemy/Hit/EnemyHit.cs",
+          "startLine": 41,
+          "endLine": 59,
+          "sha256": "009cb93b026e998eb5e3113f858f976bf96cdf9963030c9d8466120defcece71",
+          "excerpt": "        public void Hit(int damage)\n        {\n            if(_isDead) return;\n            \n            _selfStat.ModifyValue(\"HP\",damage * -1);\n\n            var go = poolRuntimeSo.Request(\"DamagePopup\");\n            go.GetComponent<DamagePopup>().Show(transform.position,damage);\n            \n            if (_selfStat.GetValue(\"HP\") <= 0)\n            {\n                _isDead = true;\n                OnDeath?.Invoke();\n                \n                _dissolveAnimationSO.Play(_spriteRenderers, OnDeathEnd);\n            }\n            else\n            {\n                _hitAnimationSO.Play(_spriteRenderers);",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "buffs",
+      "original": "BurnBuff / FreezingBuff / SlowBuff",
+      "title": "敌方灼烧冰冻减速",
+      "status": "source_and_assets_confirmed",
+      "facts": [
+        "Buff挂在BaseEnemy，烧伤定时伤害；冰冻速度归零；减速按百分比扣速度",
+        "材质变色和附着效果是当前反馈；图标/剩余时间标记是可用UI设计补充",
+        "不能把这三项误当玩家自身现有Debuff UI"
+      ],
+      "states": [
+        "灼烧",
+        "冰冻",
+        "减速",
+        "剩余时长",
+        "状态结束/目标死亡"
+      ],
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/Buff/BaseBuff.cs",
+          "startLine": 9,
+          "endLine": 16,
+          "sha256": "b44c8f9ab98151e49a9653e0c38b5568909d7e111a4ac7378bd85729edfc6409",
+          "excerpt": "        public float Duration;\n        \n        public float TickInterval = 999;\n\n        public RemoveAllBuffEvent RemoveAllBuff;\n        \n        [HideInInspector] public string BuffName;\n        [HideInInspector] public BaseEnemy Owner;",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/Buff/BurnBuff.cs",
+          "startLine": 12,
+          "endLine": 38,
+          "sha256": "1c8e2af9fba5704def20ce479baef35da5bfa6ba8528fefea80586d5e7db9bb2",
+          "excerpt": "        public override void Activate()\n        {\n            BuffName = \"BurnBuff\";\n            \n            var mat =  Owner.MySpriteRenderer.material;\n            \n            mat.SetColor(\"_FlameRedBlend\", Color.red);\n            \n            Owner.OnDeath += OnOwnerDestroy;\n\n            _ownerHit = Owner.GetComponentInChildren<EnemyHit>();\n        }\n\n        public override void DeActivate()\n        {\n            var mat =  Owner.MySpriteRenderer.material;\n            \n            mat.SetColor(\"_FlameRedBlend\", Color.white);\n            \n            Owner.OnDeath -= OnOwnerDestroy;\n        }\n\n        public override void TickEffect()\n        {\n            base.TickEffect();\n            \n            _ownerHit.Hit(Damage);",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/Buff/FreezingBuff.cs",
+          "startLine": 17,
+          "endLine": 39,
+          "sha256": "b4b895d389dfda21957ec0437d0051d66c054247d0d8cde272f9ec87e633c873",
+          "excerpt": "        public override void Activate()\n        {\n            BuffName = \"FreezingBuff\";\n            _originalSpeed = Owner.StatRuntime.GetValue(\"Speed\");\n            \n            Owner.StatRuntime.ModifyValue(\"Speed\", -1 * _originalSpeed);\n            \n            SpriteRenderer renderer = Owner.MySpriteRenderer;\n            \n            if (renderer != null)\n            {\n                _material = renderer.material;\n                \n                _originalShadowOffset = _material.GetVector(\"_ShadowOffset\");\n                _originalTimeSpeed = _material.GetFloat(\"_TimeSpeed\");\n                \n                _material.SetVector(\"_ShadowOffset\", new Vector4(999f, _originalShadowOffset.y, 0f, 0f));\n                _material.SetFloat(\"_TimeSpeed\", 0);\n            }\n            \n            _slowBuff = PoolRuntimeSo.Request(\"SlowBuff\");\n            _slowBuff.transform.position = Owner.transform.position + Vector3.down * 0.5f;\n            _slowBuff.transform.SetParent(Owner.transform);",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/Buff/SlowBuff.cs",
+          "startLine": 18,
+          "endLine": 23,
+          "sha256": "7cb22e0448b61f8046fcb353593d44100fa8647e39beb52f4d16404b3b666459",
+          "excerpt": "        public override void Activate()\n        {\n            BuffName = \"SlowBuff\";\n            int value = Owner.StatRuntime.GetValue(\"Speed\");\n            _deltaValue = (int)(value * SlowPercentage * 0.01f);\n            Owner.StatRuntime.ModifyValue(\"Speed\", -1 * _deltaValue);",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "stagewaves",
+      "original": "StageManager / SpawnSet",
+      "title": "波次与胜利条件",
+      "status": "source_and_assets_confirmed",
+      "facts": [
+        "Random/Circle/Dense三种刷怪方式；Random受Curse倍率影响",
+        "Stage1引用31组SpawnSet，最后Fairy在720秒开始，不是90秒模式",
+        "胜利是在全部spawnSet已启动且现存怪物计数归零时发事件，不能宣称12:00自动获胜",
+        "EndTime仅Random连续段使用；Circle/Dense的结束值小于开始值不表示其不刷"
+      ],
+      "states": [
+        "波次进行",
+        "精英/Boss到来（设计补充）",
+        "最后一波",
+        "清敌完成",
+        "胜利"
+      ],
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/Stage/StageManager.cs",
+          "startLine": 74,
+          "endLine": 95,
+          "sha256": "8628819f97d2b77726da218854dade6aa1702895faaa35c21a6af6ec57fe6bfc",
+          "excerpt": "        private void Update()\n        {\n            if (_spawnSets == null || _spawnSets.Count == 0) return;\n            _elapsed += Time.deltaTime;\n\n            while (_spawnSetIndex < _spawnSets.Count &&\n                   _elapsed >= _spawnSets[_spawnSetIndex].StartTime)\n            {\n                switch (_spawnSets[_spawnSetIndex].Pattern)\n                {\n                    case SpawnPatternType.Random:\n                        StartCoroutine(RunSegment(_spawnSets[_spawnSetIndex]));\n                        break;\n                    case SpawnPatternType.Circle:\n                        CircleSpawnEnemy(_spawnSets[_spawnSetIndex],_spawnSets[_spawnSetIndex].Count);\n                        break;\n                    case SpawnPatternType.Dense:\n                        DenseSpawnEnemy(_spawnSets[_spawnSetIndex],_spawnSets[_spawnSetIndex].Count);\n                        break;\n                }\n\n                _spawnSetIndex++;",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/Stage/StageManager.cs",
+          "startLine": 99,
+          "endLine": 118,
+          "sha256": "8628819f97d2b77726da218854dade6aa1702895faaa35c21a6af6ec57fe6bfc",
+          "excerpt": "        private IEnumerator RunSegment(SpawnSet spawnSet)\n        {\n            SpawnSet set = spawnSet;\n            if (!_accumulators.ContainsKey(set)) _accumulators[set] = 0f;\n\n            while (_elapsed < spawnSet.EndTime)\n            {\n                float t01 = Mathf.InverseLerp(spawnSet.StartTime, spawnSet.EndTime, _elapsed);\n                float intensity = spawnSet.IntensityCurve.Evaluate(t01);\n                float curseMul = statRuntime != null ? statRuntime.GetValue(\"Curse\") * 0.01f : 1f;\n\n                float addBudget = set.BaseRatePerSecond * intensity * curseMul * Time.deltaTime;\n                _accumulators[set] += addBudget;\n                \n                while (_accumulators[set] >= 1f)\n                {\n                    RandomSpawnEnemy(set);\n                    _accumulators[set] -= 1f;\n                }\n",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/Stage/StageManager.cs",
+          "startLine": 170,
+          "endLine": 178,
+          "sha256": "8628819f97d2b77726da218854dade6aa1702895faaa35c21a6af6ec57fe6bfc",
+          "excerpt": "        private void HandleEnemyDeath(BaseEnemy enemy)\n        {\n            if (!enemy) return;\n            enemy.OnDeath -= HandleEnemyDeath;\n            enemySystem.RemoveEnemy(enemy);\n            _aliveCount--;\n            poolRuntime.Return(enemy.gameObject);\n            if (_aliveCount <= 0 && _spawnSetIndex >= _spawnSets.Count)\n                gameWinChannelSO.RaiseEvent();",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/Stage/SpawnSet.cs",
+          "startLine": 17,
+          "endLine": 21,
+          "sha256": "4ff20d4a0c32018ce16d06b794d88737a70ad43be0416c79aac22336ced9e6b1",
+          "excerpt": "        public enum SpawnPatternType\n        {\n            Random, // scattered random positions just outside camera view\n            Circle, // Circular spawn, forming a surrounding circle\n            Dense    // Dense spawn, Each spawn will always be concentrated around a single point.",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Fairy.asset",
+          "startLine": 19,
+          "endLine": 24,
+          "sha256": "e1ecb5a0ea6a28cc9998869f1e2ccb86bc2768668e0333a8064197de640ae17d",
+          "excerpt": "  Pattern: 2\n  BaseRatePerSecond: 0.3\n  Count: 1\n  CircleRadius: 8\n  StartTime: 720\n  EndTime: 120",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "deathsettlement",
+      "original": "PlayerHit / GameEndPanel",
+      "title": "死亡及胜败结算",
+      "status": "source_and_scene_confirmed",
+      "facts": [
+        "HP<=0后停止角色并淡出，发GameOver事件",
+        "场景中GameWin和GameOver各一个GameEndPanel",
+        "结算Exit把本局金币加入永久GoldCount并存档，回主菜单",
+        "结算时间/最终等级/伤害统计扩展字段是设计补充；没有复活功能"
+      ],
+      "states": [
+        "死亡",
+        "胜利",
+        "失败",
+        "奖励待入库",
+        "确认返回",
+        "存档失败提示（建议）"
+      ],
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/Game/Player/Hit/PlayerHit.cs",
+          "startLine": 27,
+          "endLine": 58,
+          "sha256": "48bf0db2d68455777067043169822eb253c7a7adde77df254a66b5bda6d6384d",
+          "excerpt": "        public void OnHit(int damage)\n        {\n            if (_isDie) return;\n            \n            damage = (int)(damage * mStat.GetValue(\"Armor\") * 0.01f);\n\n            if (damage == 0)\n            {\n                damage = 1;\n            }\n            \n            mStat.ModifyValue(\"HP\",damage * -1);\n\n            if (mStat.GetValue(\"HP\") <= 0)\n            {\n                OnDie?.Invoke();\n                _isDie = true;\n                \n                foreach (var spriteRenderer in mSpriteRenderers)\n                {\n                    var material = spriteRenderer.material;\n                    \n                    material.DOFloat(0f, \"_Alpha\", 0.2f)\n                        .SetEase(Ease.Linear);\n                }\n\n                _shadowSpriteRenderer.DOFade(0, 0.8f).OnComplete(() =>\n                {\n                    _onGameOverEventChannel.RaiseEvent();\n                });\n\n                _playerDieEventChannel.RaiseEvent();",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/GameEndPanel.cs",
+          "startLine": 30,
+          "endLine": 52,
+          "sha256": "8d54759e08fbe0cf3c10c1e111753842ed8e6e2c3879a93df14bc46ba265d6a4",
+          "excerpt": "        private void Show()\n        {\n            Time.timeScale = 0;\n            poolRuntime.RecycleAll();\n            _clearAllBuffs.RaiseEvent();\n            _canvasGroup.alpha = 1f;\n            _canvasGroup.blocksRaycasts = true;\n\n            StartCoroutine(DelayInteractable());\n        }\n        \n        public void Exit()\n        {\n            Time.timeScale = 1;\n            _attributeSO.SetAttribute(\"GoldCount\",_attributeSO.GoldCount + _globalConfig.CurrentGetGold);\n            _saveGame.RaiseEvent();\n            _sceneLoader.RaiseEvent(_mainMenuScene);\n        }\n\n        private IEnumerator DelayInteractable()\n        {\n            yield return new WaitForSeconds(0.5f);\n            _canvasGroup.interactable = true; ",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scenes/Managers/GamePlay.unity",
+          "startLine": 4290,
+          "endLine": 4290,
+          "sha256": "50a81eb5689c9a3748a24aa9c405c9dd56999a83035ac44c30d026847154486d",
+          "excerpt": "  m_Name: GameWin",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scenes/Managers/GamePlay.unity",
+          "startLine": 5989,
+          "endLine": 5989,
+          "sha256": "50a81eb5689c9a3748a24aa9c405c9dd56999a83035ac44c30d026847154486d",
+          "excerpt": "  m_Name: GameOver",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "permanentstats",
+      "original": "AttributeSO / AttributeManager",
+      "title": "局外成长与局内属性的关系",
+      "status": "source_confirmed",
+      "facts": [
+        "14项属性可永久成长，并由AttributeManager带入下一局",
+        "HPMax扩容并补充HP；Cooldown采用负向加成",
+        "本局技能成长与永久PowerUp分开显示"
+      ],
+      "states": [
+        "永久属性列表/说明",
+        "当前阶数/已满",
+        "价格/金币足够或不足",
+        "购买结果",
+        "局内属性汇总（建议）"
+      ],
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/PowerUp/AttributeSO.cs",
+          "startLine": 12,
+          "endLine": 28,
+          "sha256": "557a8e71805ba6ed7341408c8c59954a91a23a191468ebe7b7b800bb653feb3e",
+          "excerpt": "    public class AttributeConfig\n    {\n        public int Might;\n        public int HPMax;\n        public int Recovery;\n        public int Armor;\n        public int MoveSpeed;\n        public int SkillSpeed;\n        public int Amount;\n        public int Cooldown;\n        public int Area;\n        public int Duration;\n        public int Magnet;\n        public int Curse;\n        public int Growth;\n        public int Greed;\n        public int GoldCount;",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/AttributeSkill/AttributeManager.cs",
+          "startLine": 23,
+          "endLine": 45,
+          "sha256": "59a8c3b966bcb1b04cf120ddabd7a77331a58e860a1972597e0b70ae81718317",
+          "excerpt": "        private void InitAttribute()\n        {\n            _playerStat.ModifyValue(\"HP\",_powerUpStat.GetValue(\"HPMax\"),true);\n            _playerStat.ModifyValue(\"HP\",_powerUpStat.GetValue(\"HPMax\"));\n            \n            AttributeAddToPlayerStat(\"Might\");\n            AttributeAddToPlayerStat(\"Armor\");\n            AttributeAddToPlayerStat(\"Recovery\");\n            AttributeAddToPlayerStat(\"Cooldown\",-1);\n            AttributeAddToPlayerStat(\"Area\");\n            AttributeAddToPlayerStat(\"SkillSpeed\");\n            AttributeAddToPlayerStat(\"Duration\");\n            AttributeAddToPlayerStat(\"Amount\");\n            AttributeAddToPlayerStat(\"Magnet\");\n            AttributeAddToPlayerStat(\"MoveSpeed\");\n            AttributeAddToPlayerStat(\"Growth\");\n            AttributeAddToPlayerStat(\"Greed\");\n            AttributeAddToPlayerStat(\"Curse\");\n        }\n        \n        private void AttributeAddToPlayerStat(string attributeName, int multiplier = 1)\n        {\n            _playerStat.ModifyValue(attributeName, _powerUpStat.GetValue(attributeName) * multiplier);",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "save",
+      "original": "SaveGame / SaveSystemSO",
+      "title": "本地存档",
+      "status": "source_confirmed",
+      "facts": [
+        "保存设置、14项永久属性、金币、第二/第三角色购买状态",
+        "初始SaveGame GoldCount=5000；不是旧美术原型的120",
+        "没有本局存档/中途继续字段；存档错误目前仅Debug.LogError"
+      ],
+      "states": [
+        "初始存档",
+        "本地读取",
+        "保存提示",
+        "读取/写入失败与安全返回（建议）"
+      ],
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/Save/SaveGame.cs",
+          "startLine": 15,
+          "endLine": 40,
+          "sha256": "f28b2e6303c1de7fd8a725fa73b391e2f7cfdaae690564cb9f52d784b3485da5",
+          "excerpt": "        public float MasterVolume;\n        public float MusicVolume;\n        public float SfxVolume;\n        public int ResolutionsIndex;\n        public bool IsFullscreen;\n        public Locale LanguageLocale;\n        public bool IsShowDamage;\n\n        public int Might;\n        public int HPMax;\n        public int Recovery;\n        public int Armor;\n        public int MoveSpeed;\n        public int SkillSpeed;\n        public int Amount;\n        public int Cooldown;\n        public int Area;\n        public int Duration;\n        public int Magnet;\n        public int Curse;\n        public int Growth;\n        public int Greed;\n        public int GoldCount = 5000;\n\n        public bool CharacterTwo;\n        public bool CharacterThree;",
+          "note": ""
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/Save/SaveSystemSO.cs",
+          "startLine": 32,
+          "endLine": 53,
+          "sha256": "412d19937a2705a6c3c6ef2e09f4cbe9848355919ea93668598fbc3765918050",
+          "excerpt": "        public void LoadSaveDataFromDisk()\n        {\n            if (FileManager.LoadFromFile(saveFilename, out var json))\n            {\n                Save.LoadFromJson(json);\n                LoadSettings();\n                LoadPowerUp();\n                LoadCharacter();\n            }\n            else\n                Debug.LogError(\"Load Save Error\");\n        }\n\n        public void SaveDataToDisk()\n        {\n            SaveSettings();\n            SavePowerUp();\n            SaveCharacter();\n            \n            if (FileManager.MoveFile(saveFilename, backupSaveFilename))\n                if (!FileManager.WriteToFile(saveFilename, Save.ToJson()))\n                    Debug.LogError(\"Save Error\");",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "activeSkills": [
+    {
+      "key": "BothSideSkill",
+      "pairedPassive": "Armor",
+      "maximumLevelByCurrentRule": 11,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/BothSideSkill.asset",
+      "evidenceLines": [
+        17,
+        18
+      ],
+      "sha256": "91d44c70a3304d26a9499bbdfd1998c4177c624c479884762744c02761abb9fd"
+    },
+    {
+      "key": "BouncingSkill",
+      "pairedPassive": "HPMax",
+      "maximumLevelByCurrentRule": 11,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/BouncingSkill.asset",
+      "evidenceLines": [
+        17,
+        18
+      ],
+      "sha256": "d987009690d0964ce663f14eb49a9ab5d3a6f232b7598d091e6d69c770296c25"
+    },
+    {
+      "key": "ChainSkill",
+      "pairedPassive": "MoveSpeed",
+      "maximumLevelByCurrentRule": 11,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/ChainSkill.asset",
+      "evidenceLines": [
+        17,
+        18
+      ],
+      "sha256": "d5fc5c4f77d29e7d78116c359b75ae047e2aba79dbdfce30236d3070e1eb4e3d"
+    },
+    {
+      "key": "CircularAttackSkill",
+      "pairedPassive": "Area",
+      "maximumLevelByCurrentRule": 11,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/CircularAttackSkill.asset",
+      "evidenceLines": [
+        17,
+        18
+      ],
+      "sha256": "98dff22c6ff169bdcb2ec74631d020248843cd310f948fc4126030144435ab30"
+    },
+    {
+      "key": "CircularMotionSkill",
+      "pairedPassive": "Duration",
+      "maximumLevelByCurrentRule": 11,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/CircularMotionSkill.asset",
+      "evidenceLines": [
+        17,
+        18
+      ],
+      "sha256": "159312baa1a7196ec141f14e73c5871c93ef75a8d4499763cd2bb95a10a1d0ba"
+    },
+    {
+      "key": "FourCornerSkill",
+      "pairedPassive": "Might",
+      "maximumLevelByCurrentRule": 11,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/FourCornerSkill.asset",
+      "evidenceLines": [
+        17,
+        18
+      ],
+      "sha256": "63541d772cfc78cfb8275aebd14bb9310e583bf7e5bfcef7e684bd4fcec9e695"
+    },
+    {
+      "key": "InsideScopeSkill",
+      "pairedPassive": "SkillSpeed",
+      "maximumLevelByCurrentRule": 11,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/InsideScopeSkill.asset",
+      "evidenceLines": [
+        17,
+        18
+      ],
+      "sha256": "e24ffba4ddb8a65e10a975ed7482606e711a2f69ae1619caf83c836ad8982d92"
+    },
+    {
+      "key": "RandomSkill",
+      "pairedPassive": "Amount",
+      "maximumLevelByCurrentRule": 11,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/RandomSkill.asset",
+      "evidenceLines": [
+        17,
+        18
+      ],
+      "sha256": "73a73f3516295d4c2691f255543783b9918f8b755f96b63d550bc414c56835a2"
+    },
+    {
+      "key": "ToNearestSkill",
+      "pairedPassive": "Cooldown",
+      "maximumLevelByCurrentRule": 11,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/ToNearestSkill.asset",
+      "evidenceLines": [
+        17,
+        18
+      ],
+      "sha256": "c8e43fb74545e3bbab9c9184a65a7c422070c4d255e2ec45a9a2aa86726f8654"
+    }
+  ],
+  "passiveSkills": [
+    {
+      "key": "Amount",
+      "attributeEnum": 8,
+      "upgradeValues": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "maximumLevel": 5,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/Amount.asset",
+      "sha256": "03752f737277fe4ee8b926028b3b0fe04b22bd4878bd14475f57c61bd3fc1616"
+    },
+    {
+      "key": "Area",
+      "attributeEnum": 5,
+      "upgradeValues": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "maximumLevel": 5,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/Area.asset",
+      "sha256": "8f37ebdc9b7dfd7e8f258ba58bfce38313d08d379895bdce56907a08f0f0bab6"
+    },
+    {
+      "key": "Armor",
+      "attributeEnum": 1,
+      "upgradeValues": [
+        -10,
+        -10,
+        -10,
+        -10,
+        -10
+      ],
+      "maximumLevel": 5,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/Armor.asset",
+      "sha256": "d96f925ee265b70c035a16cb04627b8937072223e350f424c3de6fc954af1aa8"
+    },
+    {
+      "key": "Cooldown",
+      "attributeEnum": 4,
+      "upgradeValues": [
+        -10,
+        -10,
+        -10,
+        -10,
+        -10
+      ],
+      "maximumLevel": 5,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/Cooldown.asset",
+      "sha256": "f157ecae6703fdd1dadb172c7511be6a92cb51065607f68ef48c75adbe6aa839"
+    },
+    {
+      "key": "Curse",
+      "attributeEnum": 13,
+      "upgradeValues": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "maximumLevel": 5,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/Curse.asset",
+      "sha256": "57deeef5cdf205319b6422264c0fe07d29c001821380b01131a0b345055fc02f"
+    },
+    {
+      "key": "Duration",
+      "attributeEnum": 7,
+      "upgradeValues": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "maximumLevel": 5,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/Duration.asset",
+      "sha256": "ee2e36670ab23fda3e6f129287ab2fd93ae2aea010000e9a33509fa38214a949"
+    },
+    {
+      "key": "Greed",
+      "attributeEnum": 12,
+      "upgradeValues": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "maximumLevel": 5,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/Greed.asset",
+      "sha256": "0a54839949241782c83184c6d2d24abae12b119000b821a26c141d5755532d6c"
+    },
+    {
+      "key": "Growth",
+      "attributeEnum": 11,
+      "upgradeValues": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "maximumLevel": 5,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/Growth.asset",
+      "sha256": "9338d8b240d829f6e12dfee57631829c10d14003d221a5f0013dfa2084e3710f"
+    },
+    {
+      "key": "HPMax",
+      "attributeEnum": 2,
+      "upgradeValues": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "maximumLevel": 5,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/HPMax.asset",
+      "sha256": "02d9eccc7fcb133dc818234897cdba39cda3bad38256bd2169617de7c99ffc73"
+    },
+    {
+      "key": "Magnet",
+      "attributeEnum": 10,
+      "upgradeValues": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "maximumLevel": 5,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/Magnet.asset",
+      "sha256": "8e99b9af80ec714e0d8ae2864ebee7ed3f08e732a944909332166a9f005038ae"
+    },
+    {
+      "key": "Might",
+      "attributeEnum": 0,
+      "upgradeValues": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "maximumLevel": 5,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/Might.asset",
+      "sha256": "aba0c4432755dd8cac5a81618ca79be48cf56b04729e42785a2420b4a670895c"
+    },
+    {
+      "key": "MoveSpeed",
+      "attributeEnum": 9,
+      "upgradeValues": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "maximumLevel": 5,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/MoveSpeed.asset",
+      "sha256": "8003e303ffa95c1253b15a392b1dc2406bfe522cb1843279661b42a50e4295c6"
+    },
+    {
+      "key": "Recovery",
+      "attributeEnum": 3,
+      "upgradeValues": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "maximumLevel": 5,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/Recovery.asset",
+      "sha256": "3930007a261253bf4ba3bd7a84b7caa1091b84bd1f2b948780497d8ddbc08da7"
+    },
+    {
+      "key": "SkillSpeed",
+      "attributeEnum": 6,
+      "upgradeValues": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "maximumLevel": 5,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/SkillSpeed.asset",
+      "sha256": "6b506096f68f9b7f4ff82ae58c390f7aa9f13a841cd3bd019432ea9852a87f65"
+    }
+  ],
+  "sceneSkillPool": {
+    "scene": "Assets/RGame/RoguelikeKit/Scenes/Managers/GamePlay.unity",
+    "componentObjectID": "1373949327",
+    "startLine": 5060,
+    "entries": [
+      "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/ToNearestSkill.asset",
+      "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/BouncingSkill.asset",
+      "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/CircularMotionSkill.asset",
+      "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/CircularAttackSkill.asset",
+      "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/BothSideSkill.asset",
+      "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/InsideScopeSkill.asset",
+      "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/FourCornerSkill.asset",
+      "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/ChainSkill.asset",
+      "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/RandomSkill.asset",
+      "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/Amount.asset",
+      "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/Area.asset",
+      "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/Armor.asset",
+      "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/Cooldown.asset",
+      "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/Duration.asset",
+      "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/Greed.asset",
+      "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/Growth.asset",
+      "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/HPMax.asset",
+      "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/Magnet.asset",
+      "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/Might.asset",
+      "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/MoveSpeed.asset",
+      "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/Recovery.asset",
+      "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttributeSkill/SkillSpeed.asset"
+    ],
+    "activeCount": 9,
+    "passiveCount": 13,
+    "missingPassiveFromScene": [
+      "Curse"
+    ],
+    "note": "Curse exists in source, attribute config and permanent growth; not in current random pool"
+  },
+  "stageSpawnSets": [
+    {
+      "name": "Bat",
+      "pattern": "Random",
+      "startTime": 60.0,
+      "endTime": 360.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Bat/Bat.asset"
+    },
+    {
+      "name": "Bat 1",
+      "pattern": "Random",
+      "startTime": 60.0,
+      "endTime": 720.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Bat/Bat 1.asset"
+    },
+    {
+      "name": "BoyFairy",
+      "pattern": "Circle",
+      "startTime": 120.0,
+      "endTime": 180.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/BoyFairy/BoyFairy.asset"
+    },
+    {
+      "name": "BoyFairy1",
+      "pattern": "Circle",
+      "startTime": 180.0,
+      "endTime": 180.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/BoyFairy/BoyFairy1.asset"
+    },
+    {
+      "name": "BoyFairy2",
+      "pattern": "Circle",
+      "startTime": 240.0,
+      "endTime": 180.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/BoyFairy/BoyFairy2.asset"
+    },
+    {
+      "name": "BoyFairy3",
+      "pattern": "Circle",
+      "startTime": 300.0,
+      "endTime": 180.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/BoyFairy/BoyFairy3.asset"
+    },
+    {
+      "name": "BoyFairy4",
+      "pattern": "Circle",
+      "startTime": 360.0,
+      "endTime": 180.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/BoyFairy/BoyFairy4.asset"
+    },
+    {
+      "name": "BoyFairy5",
+      "pattern": "Circle",
+      "startTime": 420.0,
+      "endTime": 180.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/BoyFairy/BoyFairy5.asset"
+    },
+    {
+      "name": "Crow",
+      "pattern": "Dense",
+      "startTime": 1.0,
+      "endTime": 120.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Crow.asset"
+    },
+    {
+      "name": "CrystalHealerFairy",
+      "pattern": "Dense",
+      "startTime": 240.0,
+      "endTime": 120.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/CrystalHealerFairy.asset"
+    },
+    {
+      "name": "EyeBall",
+      "pattern": "Random",
+      "startTime": 90.0,
+      "endTime": 360.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/EyeBall/EyeBall.asset"
+    },
+    {
+      "name": "EyeBall 1",
+      "pattern": "Random",
+      "startTime": 360.0,
+      "endTime": 720.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/EyeBall/EyeBall 1.asset"
+    },
+    {
+      "name": "Fairy",
+      "pattern": "Dense",
+      "startTime": 720.0,
+      "endTime": 120.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Fairy.asset"
+    },
+    {
+      "name": "FlameDancerFairy",
+      "pattern": "Dense",
+      "startTime": 600.0,
+      "endTime": 120.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/FlameDancerFairy.asset"
+    },
+    {
+      "name": "FlySkull",
+      "pattern": "Random",
+      "startTime": 60.0,
+      "endTime": 120.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/FlySkull/FlySkull.asset"
+    },
+    {
+      "name": "FlySkull 1",
+      "pattern": "Random",
+      "startTime": 360.0,
+      "endTime": 720.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/FlySkull/FlySkull 1.asset"
+    },
+    {
+      "name": "ForestGuardianFairy",
+      "pattern": "Random",
+      "startTime": 180.0,
+      "endTime": 360.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/ForestGuardianFairy/ForestGuardianFairy.asset"
+    },
+    {
+      "name": "ForestGuardianFairy 1",
+      "pattern": "Random",
+      "startTime": 360.0,
+      "endTime": 720.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/ForestGuardianFairy/ForestGuardianFairy 1.asset"
+    },
+    {
+      "name": "FrostCrystalFairy",
+      "pattern": "Dense",
+      "startTime": 480.0,
+      "endTime": 120.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/FrostCrystalFairy.asset"
+    },
+    {
+      "name": "Gear",
+      "pattern": "Random",
+      "startTime": 30.0,
+      "endTime": 90.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Gear/Gear.asset"
+    },
+    {
+      "name": "Gear 1",
+      "pattern": "Random",
+      "startTime": 360.0,
+      "endTime": 720.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Gear/Gear 1.asset"
+    },
+    {
+      "name": "Ghost",
+      "pattern": "Dense",
+      "startTime": 60.0,
+      "endTime": 60.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Ghost/Ghost.asset"
+    },
+    {
+      "name": "Ghost 1",
+      "pattern": "Dense",
+      "startTime": 90.0,
+      "endTime": 60.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Ghost/Ghost 1.asset"
+    },
+    {
+      "name": "Ghost 2",
+      "pattern": "Dense",
+      "startTime": 120.0,
+      "endTime": 60.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Ghost/Ghost 2.asset"
+    },
+    {
+      "name": "Ghost 3",
+      "pattern": "Dense",
+      "startTime": 150.0,
+      "endTime": 60.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Ghost/Ghost 3.asset"
+    },
+    {
+      "name": "Ghost 4",
+      "pattern": "Dense",
+      "startTime": 180.0,
+      "endTime": 60.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Ghost/Ghost 4.asset"
+    },
+    {
+      "name": "Ghost 5",
+      "pattern": "Dense",
+      "startTime": 210.0,
+      "endTime": 60.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Ghost/Ghost 5.asset"
+    },
+    {
+      "name": "Ghost 6",
+      "pattern": "Dense",
+      "startTime": 240.0,
+      "endTime": 60.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Ghost/Ghost 6.asset"
+    },
+    {
+      "name": "PinkFairy",
+      "pattern": "Dense",
+      "startTime": 360.0,
+      "endTime": 120.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/PinkFairy.asset"
+    },
+    {
+      "name": "Slime",
+      "pattern": "Random",
+      "startTime": 0.0,
+      "endTime": 10.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Slime/Slime.asset"
+    },
+    {
+      "name": "Slime1",
+      "pattern": "Random",
+      "startTime": 360.0,
+      "endTime": 720.0,
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/Stages/StageSet/Slime/Slime1.asset"
+    }
+  ],
+  "notFoundApplicableFeatures": [
+    "在线登录/服务器/角色创建",
+    "背包/仓库/物品交易/装备穿戴",
+    "任务/成就/签到/活动/排行榜",
+    "好友/聊天/邮件/组队/帮会",
+    "抽卡/宠物/坐骑/打造",
+    "复活/广告复活/付费复活",
+    "自动更新/公告服务/云同步/本局中途继续"
+  ],
+  "negativeEvidenceMethod": "Searched runtime RoguelikeKit scripts for quest/achievement/leaderboard/mail/friends/login/server/gacha/inventory/warehouse/shop/revive/resurrect/battlepass/daily/offline; only inventory input stubs found, no gameplay implementation or UI",
+  "importantLimits": [
+    "No complete-game runtime or code correctness claim",
+    "Old 90-second/three-stage/120 initial currency and per-hero HP values came from earlier new design prototype, not source game",
+    "Both LevelConfig assets point to identical map/stage and preview image; independent difficulty is not established",
+    "Coin.cs has no coin increment; Pickup.cs is a stub; do not infer a full inventory/pickup system from class names",
+    "SkillDataSO enum has 14 passives but scene enables 13, excluding Curse",
+    "Not all proposed HUD, skill-detail or codex screens exist in reference; mark them as design additions",
+    "Frontend strings, timings and rewards must distinguish source facts from new Daoist labels/design examples"
+  ]
+}

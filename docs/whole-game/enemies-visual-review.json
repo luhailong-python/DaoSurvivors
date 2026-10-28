@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-28",
+  "result": "accepted static enemy art delivery with retained provenance/weak-alpha warnings",
+  "reviewMethod": "Actually viewed every adopted 1024 PNG at full size, plus light and dark final 14-identity montages. No inherited animation acceptance.",
+  "assets": [
+    {
+      "file": "art/whole-game/enemies/Bat.png",
+      "sha256": "ade00aacc1ae356dadea6883a17787dc81c69d9f00c0f344f122ab5b32edf880",
+      "status": "accepted",
+      "sourceFullSizeViewed": true
+    },
+    {
+      "file": "art/whole-game/enemies/BoyFairy.png",
+      "sha256": "9d0dc0c7c0225769c58f35c50aecf8cb209afa01018030a680fda5a1baaafa26",
+      "status": "accepted",
+      "sourceFullSizeViewed": true
+    },
+    {
+      "file": "art/whole-game/enemies/EyeBall.png",
+      "sha256": "3f4e0639c59e43ff3bd50bd26e903a5977a5e68910eff6a43d13a4454252a3ce",
+      "status": "accepted",
+      "sourceFullSizeViewed": true
+    },
+    {
+      "file": "art/whole-game/enemies/FlySkull.png",
+      "sha256": "cb9fd0d4187c8fc654cceb388c0672d465d1373e47ed17aa1acd7b9a75b66341",
+      "status": "accepted",
+      "sourceFullSizeViewed": true
+    },
+    {
+      "file": "art/whole-game/enemies/ForestGuardianFairy.png",
+      "sha256": "7bd3d64c12e40764a506d9515fbf60c5fd7ad7a331738510fb5938d7d1f2759b",
+      "status": "accepted",
+      "sourceFullSizeViewed": true
+    },
+    {
+      "file": "art/whole-game/enemies/Gear.png",
+      "sha256": "769af0716b00653e4fdacafbb076a078a118d3f48f8299c1ce2d8806aa89d793",
+      "status": "accepted",
+      "sourceFullSizeViewed": true
+    },
+    {
+      "file": "art/whole-game/enemies/Ghost.png",
+      "sha256": "25c43f49c0361358b2ac0b162c0a3e8cdc54d4047ebb180ada5f6142133383df",
+      "status": "accepted",
+      "sourceFullSizeViewed": true
+    },
+    {
+      "file": "art/whole-game/enemies/Slime.png",
+      "sha256": "48759c74ac39cf77fc2bf657fab4af56aef1089f0fe588469cdb43fd04059017",
+      "status": "accepted",
+      "sourceFullSizeViewed": true
+    },
+    {
+      "file": "art/whole-game/enemies/Crow.png",
+      "sha256": "71394dfde1688709a9e94d8a9d22ffcb2186710f30890bfe781aa6949c585ca9",
+      "status": "accepted",
+      "sourceFullSizeViewed": true
+    },
+    {
+      "file": "art/whole-game/enemies/CrystalHealerFairy.png",
+      "sha256": "16a0dc0215aa1cf5b65c19da842204c27d64793d51cdfe678606eccb984378b2",
+      "status": "accepted",
+      "sourceFullSizeViewed": true
+    },
+    {
+      "file": "art/whole-game/enemies/Fairy.png",
+      "sha256": "33fdac90c217111d5b57bead28417d6074523acb8305fd9237c981ccc6ae21d5",
+      "status": "accepted",
+      "sourceFullSizeViewed": true
+    },
+    {
+      "file": "art/whole-game/enemies/FlameDancerFairy.png",
+      "sha256": "10b94f4410a51204629340ea423b1b33c36d04a01eb4df1c672e6b0b3db70bd8",
+      "status": "accepted",
+      "sourceFullSizeViewed": true
+    },
+    {
+      "file": "art/whole-game/enemies/FrostCrystalFairy.png",
+      "sha256": "15069725e57c876838aa41dfbe19a65d53fb740a1df695f2abab5c34d0ab535c",
+      "status": "accepted",
+      "sourceFullSizeViewed": true
+    },
+    {
+      "file": "art/whole-game/enemies/PinkFairy.png",
+      "sha256": "0d532a7961ad2440de5054e013048bbe38e5025b05094079e45d7ac28fb23b0a",
+      "status": "accepted",
+      "sourceFullSizeViewed": true
+    }
+  ],
+  "previews": [
+    {
+      "file": "designs/whole-game/enemy-lineup-light.png",
+      "sha256": "fcb1af150c824840beb7b61b6f2ac2a482ecdce1203c27c63e9a8d73bb45e4e8"
+    },
+    {
+      "file": "designs/whole-game/enemy-lineup-dark.png",
+      "sha256": "1c2d60ed9eb0f975eae159b6b37155ee1a26fbd08c9777fa935a17d7b6de4e01"
+    }
+  ]
+}

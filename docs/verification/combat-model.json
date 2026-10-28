@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "verifiedDate": "2026-10-26",
+  "recordedAt": "2026-10-26T05:41:39.3843351-04:00",
+  "projectRoot": "E:\\work\\image\\DaoSurvivors",
+  "scope": "Pure combat model checks and static Unity adapter review; no visual/UI acceptance claim",
+  "initialChecksPassed": 19,
+  "finalChecksPassed": 21,
+  "failed": 0,
+  "command": "dotnet run --project Assets/DaoSurvivor/Scripts/Combat/Tests~/CombatChecks.csproj --configuration Release",
+  "runtime": "Existing .NET 8 SDK; console harness links the actual RunModel.cs; no new tool installation",
+  "checks": [
+    "new run has expected initial state",
+    "pause freezes movement and timer",
+    "resume advances simulation and input",
+    "diagonal movement has no speed advantage",
+    "player stays below reserved top HUD and sprite head extent",
+    "player stays above bottom HUD and sprite foot extent",
+    "EXP produces three distinct upgrade choices",
+    "invalid upgrade cannot resume run",
+    "selected upgrade applies once and resumes",
+    "duplicate selection is ignored",
+    "surplus EXP survives chained level-ups",
+    "character and permanent bonuses affect actual combat values",
+    "contact invulnerability prevents repeated damage in one frame",
+    "lethal damage ends run",
+    "defeat emits exactly one settlement event",
+    "duration completion produces victory rewards",
+    "victory emits exactly one settlement event",
+    "automatic spell collides and defeats an enemy",
+    "defeated enemy drops collectable EXP",
+    "abandon clears pending callbacks and choices",
+    "restarting never inherits prior run state"
+  ],
+  "sources": [
+    {
+      "file": "Assets/DaoSurvivor/Scripts/Combat/RunModel.cs",
+      "sha256": "fd1a68d6c478f5f3b2172e9ee6324c2af7bf4b8b0be6c697a401164b42601212"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Scripts/Combat/SurvivorCombat.cs",
+      "sha256": "2b1d6be7ca5175baca54f52211b7756fc2d2e25006beef87320a7da3a05ff2b2"
+    },
+    {
+      "file": "Assets/DaoSurvivor/Scripts/Combat/Tests~/Program.cs",
+      "sha256": "14d4e14b5c01347aa3a4048b4197546bf8d24f4ae0b33d8e42f72b0f3fa76f48"
+    }
+  ],
+  "camera": {
+    "projection": "orthographic",
+    "absolutePosition": [
+      9,
+      -5.75,
+      -10
+    ],
+    "rotationEuler": [
+      0,
+      0,
+      0
+    ],
+    "orthoSize": "max(6.35, 9.5 / max(0.3, camera.aspect))",
+    "coordinateMapping": "world=(modelX/100,-modelY/100,0)",
+    "worldModelSize": [
+      1800,
+      1150
+    ],
+    "hudReservedFraction": {
+      "top": 0.18,
+      "bottom": 0.1
+    },
+    "playerSpriteHeightWorld": 1.13,
+    "spritePivotNormalized": [
+      0.5,
+      0.1
+    ],
+    "desktopPlayerYBoundsApprox": [
+      270.3,
+      1071.7
+    ],
+    "notes": "Movement bounds recompute from camera and HUD fractions. Sprite head (90% height) and foot (10% height) remain outside HUD lanes."
+  },
+  "pauseStaticReview": {
+    "focusLoss": "running -> paused; sends Updated(snapshot); clears input",
+    "applicationPause": "running -> paused; sends Updated(snapshot)",
+    "componentDisable": "running -> paused; sends Updated(snapshot)",
+    "focusReturn": "does not auto-resume; explicit UI continue required",
+    "upgradeState": "external pause does not replace upgrade state or discard choices",
+    "timeScale": "No global Unity Time.timeScale changes"
+  },
+  "input": {
+    "desktop": "WASD/arrows; click and drag outside interactive UI",
+    "mobile": "touch drag outside interactive UI",
+    "uiContract": "Large decorative Images must set raycastTarget=false; buttons/modal blockers may retain true",
+    "inputBackend": "Legacy Input or Both required"
+  },
+  "limitations": [
+    "Unity editor compilation and actual engine execution have not been verified by this report.",
+    "Camera/rendering/physical touch and focus lifecycle checks are static review, not engine acceptance.",
+    "Character and enemy PNGs are static single frames with transform/flash feedback, not authored frame animations.",
+    "Battle background is the hand-painted arena-v1 UI scene plate with aspect-preserving camera cover; no navigable map or collision acceptance is claimed.",
+    "This report does not certify UI styling, screenshots, layout, or image generation."
+  ],
+  "testArtifacts": {
+    "location": "Assets/DaoSurvivor/Scripts/Combat/Tests~/",
+    "unityImport": "Folder suffix ~ excludes the .NET harness from Unity imports",
+    "ignored": [
+      "bin/",
+      "obj/"
+    ],
+    "cleanupNote": "Earlier recursive removal of generated test bin/obj was rejected by automatic approval review (blocked by policy, no finer reason); artifacts retained ignored."
+  },
+  "arenaPlate": {
+    "file": "Assets/DaoSurvivor/Resources/DaoArt/arena-v1.png",
+    "operation": "Direct texture reuse via centered Sprite.Create using decoded texture width/height; sortingOrder -100; uniform cover scaling to orthographic camera",
+    "sha256": "0e4fe4c8d1c0a7ad3e0d59d9d12979ed77a94d1d93b22b3e652fa7fe1e6ae442",
+    "fallback": "Explicit error and solid camera color only if the required plate is missing",
+    "scope": "UI demonstration scene plate; edge scenery has no new collision contract"
+  }
+}

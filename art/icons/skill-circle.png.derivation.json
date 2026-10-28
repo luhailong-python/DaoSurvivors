@@ -1,0 +1,68 @@
+{
+  "file": "art/icons/skill-circle.png",
+  "key": "CircularAttackSkill",
+  "label": "环形攻击",
+  "sha256": "05793c758a93af6cf6e9efe49c7a62bab1dc87f89f0aba06034edbcec0737142",
+  "canvas": [
+    512,
+    512
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    253
+  ],
+  "derivedFrom": {
+    "file": "art/sheets/combat-icons-v2.png",
+    "sha256": "05d581937553a9f835792500253073a01335bc29ab6efa45f5851de59ac0ea9d",
+    "generationRecord": "art/sheets/combat-icons-v2.png.generation.json"
+  },
+  "operation": {
+    "kind": "native crop + transparent padding",
+    "cropRectXYXY": [
+      915,
+      0,
+      1254,
+      323
+    ],
+    "placementXY": [
+      94,
+      71
+    ],
+    "nativeCropSize": [
+      339,
+      323
+    ],
+    "visibleAlphaGreaterThan8BBoxInCrop": [
+      12,
+      59,
+      313,
+      311
+    ],
+    "resampled": false,
+    "alphaModified": false,
+    "sourcePixelsPreserved": true,
+    "componentFiltering": "none; all source alpha pixels retained"
+  },
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "spriteTypeRecommendation": "Single",
+  "borderLTRB": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+  "validation": {
+    "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+    "pixelCopyMatchesSource": true,
+    "ownershipComponentCrossings": 0,
+    "visualReviewed": true,
+    "visualReviewRecord": "docs/icon-atlas2-slices.json"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "file": "art/whole-game/players/mage/run/E/strip.png",
+  "sha256": "abc4d50c6e6636cde171382aad6356c5bc5f6684d09875f01f79aed282c6da05",
+  "derivedFrom": [
+    {
+      "file": "art/whole-game/players/mage/run/E/01.png",
+      "sha256": "38dd2886c3a63eb307173f6418faab2e87131dc44cbfdb419b2b7fa3a7fea6e6"
+    },
+    {
+      "file": "art/whole-game/players/mage/run/E/02.png",
+      "sha256": "f02691ca595a61d95249cd43d13eab8dd227ed2a95f0ba3d3f2c6dcbf6a602bb"
+    },
+    {
+      "file": "art/whole-game/players/mage/run/E/03.png",
+      "sha256": "76af8cb1f61093710da887e12b0ae59b68fc957bca79b3508d295c23d66ab62a"
+    },
+    {
+      "file": "art/whole-game/players/mage/run/E/04.png",
+      "sha256": "2178c0217c926b9647b03a3e4bc15fae53669acba488bbe8d4320d77b2328d41"
+    },
+    {
+      "file": "art/whole-game/players/mage/run/E/05.png",
+      "sha256": "5e819112ab2c2dbd3bd703fc8a89892e8ef641e6a0cae6ae73865af611a47c31"
+    },
+    {
+      "file": "art/whole-game/players/mage/run/E/06.png",
+      "sha256": "f3cde0926ad62e7e9600b070f93d8ed0f2acb1eaea57854f9b6c6ae134ebe7f1"
+    },
+    {
+      "file": "art/whole-game/players/mage/run/E/07.png",
+      "sha256": "6e1de0d986f46559973e6d5a278490e081cab4afb9c5b39053cfc28505aeed53"
+    },
+    {
+      "file": "art/whole-game/players/mage/run/E/08.png",
+      "sha256": "c4c928a4da7607bcf980aaf19c1712a1a5c388bce8446e20bd7decdf1d9758ef"
+    },
+    {
+      "file": "art/whole-game/players/mage/run/E/09.png",
+      "sha256": "9161b2a23ce58d0b40f437d3aa7698044ee80667caa736b9283ea7f949fb408d"
+    },
+    {
+      "file": "art/whole-game/players/mage/run/E/10.png",
+      "sha256": "213d036a11402710b4b6e68bb4be14806de642398e822d103ea9ddaf6803e583"
+    },
+    {
+      "file": "art/whole-game/players/mage/run/E/11.png",
+      "sha256": "0570c1b50e479c53331288f606efc73c33042f35d7e94474b0d14eeb32b97140"
+    },
+    {
+      "file": "art/whole-game/players/mage/run/E/12.png",
+      "sha256": "79d5be2965b62656a4924672b287346597984cff4744e396aafce2f9258e88b8"
+    },
+    {
+      "file": "art/whole-game/players/mage/run/E/13.png",
+      "sha256": "7ddbc9c6b1544f14f93309fe0fbec33759858f54df4b83e837c432f7ad4f596b"
+    },
+    {
+      "file": "art/whole-game/players/mage/run/E/14.png",
+      "sha256": "2a5648e60f7dc4cec47fb5dad2a314ed7f7cac29e54c439aa4d6620ba63f0a20"
+    },
+    {
+      "file": "art/whole-game/players/mage/run/E/15.png",
+      "sha256": "cbbb4e962562acdb5b1ea6de7cebfef97b60fe43f5ade6804df1827cfb959b15"
+    },
+    {
+      "file": "art/whole-game/players/mage/run/E/16.png",
+      "sha256": "e87fdb12c69b27f7c8788681bba4eb2c830502e666cf04e8022b022a4df3c54d"
+    }
+  ],
+  "operation": "horizontal chronological concatenation;16 cells512x512; no resampling"
+}

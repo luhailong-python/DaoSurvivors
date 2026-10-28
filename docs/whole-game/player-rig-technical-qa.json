@@ -1,0 +1,44 @@
+{
+  "characters": [
+    {
+      "character": "fighter",
+      "qa": [
+        {
+          "action": "idle",
+          "analyticLoopSeamMaxChannelDifference": 0,
+          "adjacentLastFirstMeanChannelDifference": 4.9281,
+          "distinctFrames": 16,
+          "artAcceptance": "pending visual and playback review"
+        },
+        {
+          "action": "run",
+          "analyticLoopSeamMaxChannelDifference": 0,
+          "adjacentLastFirstMeanChannelDifference": 9.9007,
+          "distinctFrames": 16,
+          "artAcceptance": "pending visual and playback review"
+        }
+      ]
+    },
+    {
+      "character": "mage",
+      "qa": [
+        {
+          "action": "idle",
+          "analyticLoopSeamMaxChannelDifference": 0,
+          "adjacentLastFirstMeanChannelDifference": 3.5711,
+          "distinctFrames": 16,
+          "artAcceptance": "pending visual and playback review"
+        },
+        {
+          "action": "run",
+          "analyticLoopSeamMaxChannelDifference": 0,
+          "adjacentLastFirstMeanChannelDifference": 7.9781,
+          "distinctFrames": 16,
+          "artAcceptance": "pending visual and playback review"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-28T10:24:41.230004+00:00",
+  "status": "technical-only; visual approval required"
+}

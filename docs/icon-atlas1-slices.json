@@ -1,0 +1,1348 @@
+{
+  "schemaVersion": 1,
+  "sheet": "art/sheets/attribute-icons-v2.png",
+  "sheetSha256": "cfdf30c000bf9e3243734f45376188b472eb95beeb9b9abce851ab82223ae521",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "art_source": "host_image",
+  "route": "builtin image_gen",
+  "gridRounding": "Generated icons overflow nominal 4x4; row-specific ownership rectangles used instead of equal-grid cuts.",
+  "rawSheetQC": {
+    "status": "fail",
+    "record": "docs/production/attribute-icons-v2-qc/sheet-qc.json",
+    "reportedChecks": [
+      {
+        "id": "cross_cell_components",
+        "status": "fail",
+        "value": 10,
+        "threshold": 0,
+        "files": [
+          "art/sheets/attribute-icons-v2.png"
+        ]
+      },
+      {
+        "id": "cross_cell_visible",
+        "status": "fail",
+        "value": 11,
+        "threshold": 0,
+        "files": [
+          "art/sheets/attribute-icons-v2.png"
+        ]
+      },
+      {
+        "id": "boundary_band",
+        "status": "warn",
+        "value": 2929,
+        "threshold": 0,
+        "files": [
+          "art/sheets/attribute-icons-v2.png"
+        ]
+      },
+      {
+        "id": "safe_frame",
+        "status": "warn",
+        "value": 16,
+        "threshold": 0,
+        "files": [
+          "art/sheets/attribute-icons-v2.png"
+        ]
+      },
+      {
+        "id": "faint_specks",
+        "status": "warn",
+        "value": {
+          "floor_px": 138655,
+          "detached_components": 40
+        },
+        "threshold": 0,
+        "files": [
+          "art/sheets/attribute-icons-v2.png"
+        ]
+      }
+    ]
+  },
+  "slicedAssetQC": {
+    "status": "passed_pixel_ownership_and_visual_review",
+    "componentAlphaThreshold": 8,
+    "componentMinArea": 64,
+    "componentCrossings": [],
+    "allSourceAlphaPixelsAssignedExactlyOnce": true,
+    "sumAlphaSource": 158550184,
+    "sumAlphaOutputs": 158550184,
+    "resampling": "none",
+    "matteCleaning": "none; faint native alpha is preserved",
+    "remainingLimit": "Unity import/device rendering remains unverified; native faint alpha specks are intentionally retained."
+  },
+  "files": [
+    {
+      "file": "art/icons/attr-might.png",
+      "key": "Might",
+      "label": "道法",
+      "sha256": "7ac734897e38521b12d31cadf358c614132eac0eb1e7ca5c520c1e64efd50368",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/attribute-icons-v2.png",
+        "sha256": "cfdf30c000bf9e3243734f45376188b472eb95beeb9b9abce851ab82223ae521",
+        "generationRecord": "art/sheets/attribute-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          0,
+          0,
+          339,
+          319
+        ],
+        "placementXY": [
+          68,
+          96
+        ],
+        "nativeCropSize": [
+          339,
+          319
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          51,
+          24,
+          324,
+          297
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/attr-armor.png",
+      "key": "Armor",
+      "label": "护甲",
+      "sha256": "c804cbf05c0662a15073a71af1843d0ecc849df5dc85bb4ff36a5ed83f079291",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/attribute-icons-v2.png",
+        "sha256": "cfdf30c000bf9e3243734f45376188b472eb95beeb9b9abce851ab82223ae521",
+        "generationRecord": "art/sheets/attribute-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          339,
+          0,
+          658,
+          319
+        ],
+        "placementXY": [
+          102,
+          86
+        ],
+        "nativeCropSize": [
+          319,
+          319
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          15,
+          34,
+          294,
+          306
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/attr-hpmax.png",
+      "key": "HPMax",
+      "label": "气血上限",
+      "sha256": "b366e3580e549f7146a95c495c3c0692957d3e1521a2cfce36a2b1f3d4d81301",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/attribute-icons-v2.png",
+        "sha256": "cfdf30c000bf9e3243734f45376188b472eb95beeb9b9abce851ab82223ae521",
+        "generationRecord": "art/sheets/attribute-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          658,
+          0,
+          949,
+          319
+        ],
+        "placementXY": [
+          102,
+          90
+        ],
+        "nativeCropSize": [
+          291,
+          319
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          28,
+          23,
+          280,
+          309
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/attr-recovery.png",
+      "key": "Recovery",
+      "label": "回复",
+      "sha256": "234a44ec4c888e3c5e18039d534488dcaf58e5402fc2efe1be9cf5e5f33ede95",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/attribute-icons-v2.png",
+        "sha256": "cfdf30c000bf9e3243734f45376188b472eb95beeb9b9abce851ab82223ae521",
+        "generationRecord": "art/sheets/attribute-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          949,
+          0,
+          1254,
+          319
+        ],
+        "placementXY": [
+          106,
+          75
+        ],
+        "nativeCropSize": [
+          305,
+          319
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          14,
+          66,
+          286,
+          296
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/attr-cooldown.png",
+      "key": "Cooldown",
+      "label": "冷却",
+      "sha256": "f6519f266d827237ad475cf7285188b6be6152716e71406c70c01906ba8fb4b7",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/attribute-icons-v2.png",
+        "sha256": "cfdf30c000bf9e3243734f45376188b472eb95beeb9b9abce851ab82223ae521",
+        "generationRecord": "art/sheets/attribute-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          0,
+          319,
+          324,
+          632
+        ],
+        "placementXY": [
+          82,
+          100
+        ],
+        "nativeCropSize": [
+          324,
+          313
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          42,
+          14,
+          307,
+          299
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/attr-area.png",
+      "key": "Area",
+      "label": "范围",
+      "sha256": "fdc04491a23ddc58d7f7d355ac05b51f90839dad3ba69dee7f30d608908068d6",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/attribute-icons-v2.png",
+        "sha256": "cfdf30c000bf9e3243734f45376188b472eb95beeb9b9abce851ab82223ae521",
+        "generationRecord": "art/sheets/attribute-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          324,
+          319,
+          653,
+          632
+        ],
+        "placementXY": [
+          86,
+          88
+        ],
+        "nativeCropSize": [
+          329,
+          313
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          17,
+          61,
+          322,
+          275
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/attr-skillspeed.png",
+      "key": "SkillSpeed",
+      "label": "弹速",
+      "sha256": "39cb2c0d232cfbeb41fabb4afa9dd29b17d6098d78cd5615b4e64ac82cc89b2c",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/attribute-icons-v2.png",
+        "sha256": "cfdf30c000bf9e3243734f45376188b472eb95beeb9b9abce851ab82223ae521",
+        "generationRecord": "art/sheets/attribute-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          653,
+          319,
+          970,
+          632
+        ],
+        "placementXY": [
+          106,
+          84
+        ],
+        "nativeCropSize": [
+          317,
+          313
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          8,
+          51,
+          293,
+          294
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/attr-duration.png",
+      "key": "Duration",
+      "label": "持续",
+      "sha256": "1b19700840a51613a58c984a792bcbd664ff48a1aca43d340a191ba617b6d086",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/attribute-icons-v2.png",
+        "sha256": "cfdf30c000bf9e3243734f45376188b472eb95beeb9b9abce851ab82223ae521",
+        "generationRecord": "art/sheets/attribute-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          970,
+          319,
+          1254,
+          632
+        ],
+        "placementXY": [
+          114,
+          102
+        ],
+        "nativeCropSize": [
+          284,
+          313
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          36,
+          11,
+          248,
+          296
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/attr-amount.png",
+      "key": "Amount",
+      "label": "数量",
+      "sha256": "0f172b62af41b85550a38ac492116d1875653fe6ce177bda8f86b61970c15d8d",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/attribute-icons-v2.png",
+        "sha256": "cfdf30c000bf9e3243734f45376188b472eb95beeb9b9abce851ab82223ae521",
+        "generationRecord": "art/sheets/attribute-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          0,
+          632,
+          327,
+          928
+        ],
+        "placementXY": [
+          80,
+          110
+        ],
+        "nativeCropSize": [
+          327,
+          296
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          45,
+          18,
+          308,
+          274
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/attr-movespeed.png",
+      "key": "MoveSpeed",
+      "label": "身法",
+      "sha256": "30597ac9e1e710a410e557a9a276c3367f776abda1230975b32c900b7cb82598",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/attribute-icons-v2.png",
+        "sha256": "cfdf30c000bf9e3243734f45376188b472eb95beeb9b9abce851ab82223ae521",
+        "generationRecord": "art/sheets/attribute-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          327,
+          632,
+          645,
+          928
+        ],
+        "placementXY": [
+          93,
+          107
+        ],
+        "nativeCropSize": [
+          318,
+          296
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          20,
+          21,
+          306,
+          277
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/attr-magnet.png",
+      "key": "Magnet",
+      "label": "拾取范围",
+      "sha256": "1b1a21fd76432d82b7512b819863a6dd79a9c08acb7de7e7e4dc61684006752f",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/attribute-icons-v2.png",
+        "sha256": "cfdf30c000bf9e3243734f45376188b472eb95beeb9b9abce851ab82223ae521",
+        "generationRecord": "art/sheets/attribute-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          645,
+          632,
+          964,
+          928
+        ],
+        "placementXY": [
+          97,
+          92
+        ],
+        "nativeCropSize": [
+          319,
+          296
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          13,
+          35,
+          305,
+          294
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/attr-growth.png",
+      "key": "Growth",
+      "label": "经验增益",
+      "sha256": "0142e60c1ed494e9b779ea3738cfc13adda715037f676c166f52e0bafded2091",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/attribute-icons-v2.png",
+        "sha256": "cfdf30c000bf9e3243734f45376188b472eb95beeb9b9abce851ab82223ae521",
+        "generationRecord": "art/sheets/attribute-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          964,
+          632,
+          1254,
+          928
+        ],
+        "placementXY": [
+          115,
+          105
+        ],
+        "nativeCropSize": [
+          290,
+          296
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          14,
+          12,
+          268,
+          290
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/attr-greed.png",
+      "key": "Greed",
+      "label": "金币增益",
+      "sha256": "89e4d8aee79cb8918b90f55f77bb9f6e50343957f2421a8df6351ea38f91fb1c",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/attribute-icons-v2.png",
+        "sha256": "cfdf30c000bf9e3243734f45376188b472eb95beeb9b9abce851ab82223ae521",
+        "generationRecord": "art/sheets/attribute-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          0,
+          928,
+          354,
+          1254
+        ],
+        "placementXY": [
+          68,
+          84
+        ],
+        "nativeCropSize": [
+          354,
+          326
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          25,
+          41,
+          350,
+          303
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/attr-curse.png",
+      "key": "Curse",
+      "label": "诅咒",
+      "sha256": "06b179a6728fe46f3c1da5e2525cfe463add6f3fc6fefd2e009d29c37d9f6cfa",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/attribute-icons-v2.png",
+        "sha256": "cfdf30c000bf9e3243734f45376188b472eb95beeb9b9abce851ab82223ae521",
+        "generationRecord": "art/sheets/attribute-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          354,
+          928,
+          659,
+          1254
+        ],
+        "placementXY": [
+          106,
+          104
+        ],
+        "nativeCropSize": [
+          305,
+          326
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          4,
+          3,
+          297,
+          302
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/gold.png",
+      "key": "Gold",
+      "label": "金币",
+      "sha256": "e6823525295ab33fb63720c48027dd658d1755ed906841ecafe4150c346fcbb4",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/attribute-icons-v2.png",
+        "sha256": "cfdf30c000bf9e3243734f45376188b472eb95beeb9b9abce851ab82223ae521",
+        "generationRecord": "art/sheets/attribute-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          659,
+          928,
+          961,
+          1254
+        ],
+        "placementXY": [
+          107,
+          90
+        ],
+        "nativeCropSize": [
+          302,
+          326
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          9,
+          55,
+          289,
+          276
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    },
+    {
+      "file": "art/icons/exp.png",
+      "key": "Exp",
+      "label": "经验",
+      "sha256": "e613158afd46563bfa0e3536ed1c798e0e3b3a66d1a37a228382e40fc1c56b37",
+      "canvas": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "derivedFrom": {
+        "file": "art/sheets/attribute-icons-v2.png",
+        "sha256": "cfdf30c000bf9e3243734f45376188b472eb95beeb9b9abce851ab82223ae521",
+        "generationRecord": "art/sheets/attribute-icons-v2.png.generation.json"
+      },
+      "operation": {
+        "kind": "native crop + transparent padding",
+        "cropRectXYXY": [
+          961,
+          928,
+          1254,
+          1254
+        ],
+        "placementXY": [
+          118,
+          96
+        ],
+        "nativeCropSize": [
+          293,
+          326
+        ],
+        "visibleAlphaGreaterThan8BBoxInCrop": [
+          14,
+          30,
+          262,
+          291
+        ],
+        "resampled": false,
+        "alphaModified": false,
+        "sourcePixelsPreserved": true,
+        "componentFiltering": "none; all source alpha pixels retained"
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "spriteTypeRecommendation": "Single",
+      "borderLTRB": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "modelEvidence": "Follow source atlas generation record; this derivative did not call an image model.",
+      "validation": {
+        "canvasEdgePixelsWithAlphaGreaterThan8": 0,
+        "pixelCopyMatchesSource": true,
+        "ownershipComponentCrossings": 0,
+        "visualReviewed": true
+      }
+    }
+  ],
+  "visualReview": {
+    "reviewed": true,
+    "reviewer": "kit_system_audit",
+    "method": "Actual view_image inspection of 16-icon contact sheets over light ivory and dark jade, plus original 512x512 Might/SkillSpeed/Curse outputs",
+    "contactSheets": [
+      "art/sheets/attribute-icons-v2-review-light.png",
+      "art/sheets/attribute-icons-v2-review-dark.png"
+    ],
+    "visibleNeighborFragments": false,
+    "visibleClippedTrailsOrExtremities": false,
+    "retainedSoftGlowAndSmoke": true,
+    "nativeTransparentPixelsPreserved": true,
+    "notes": "All sixteen requested semantic icons are identifiable, with uniform centered framing. The generated native alpha includes extremely faint haze/specks; those pixels are preserved instead of removed. Raw sheet equal-grid QC remains failed and must not be reused for equal cuts."
+  },
+  "reviewCompositions": [
+    {
+      "file": "art/sheets/attribute-icons-v2-review-light.png",
+      "sha256": "cf258bf5a392a2d9e3420e608413cafc8534845d3c121da72970340c34b5012d",
+      "size": [
+        1024,
+        1120
+      ],
+      "mode": "RGB",
+      "kind": "QA contact sheet, not runtime icon",
+      "derivedFrom": [
+        {
+          "file": "art/icons/attr-might.png",
+          "sha256": "7ac734897e38521b12d31cadf358c614132eac0eb1e7ca5c520c1e64efd50368"
+        },
+        {
+          "file": "art/icons/attr-armor.png",
+          "sha256": "c804cbf05c0662a15073a71af1843d0ecc849df5dc85bb4ff36a5ed83f079291"
+        },
+        {
+          "file": "art/icons/attr-hpmax.png",
+          "sha256": "b366e3580e549f7146a95c495c3c0692957d3e1521a2cfce36a2b1f3d4d81301"
+        },
+        {
+          "file": "art/icons/attr-recovery.png",
+          "sha256": "234a44ec4c888e3c5e18039d534488dcaf58e5402fc2efe1be9cf5e5f33ede95"
+        },
+        {
+          "file": "art/icons/attr-cooldown.png",
+          "sha256": "f6519f266d827237ad475cf7285188b6be6152716e71406c70c01906ba8fb4b7"
+        },
+        {
+          "file": "art/icons/attr-area.png",
+          "sha256": "fdc04491a23ddc58d7f7d355ac05b51f90839dad3ba69dee7f30d608908068d6"
+        },
+        {
+          "file": "art/icons/attr-skillspeed.png",
+          "sha256": "39cb2c0d232cfbeb41fabb4afa9dd29b17d6098d78cd5615b4e64ac82cc89b2c"
+        },
+        {
+          "file": "art/icons/attr-duration.png",
+          "sha256": "1b19700840a51613a58c984a792bcbd664ff48a1aca43d340a191ba617b6d086"
+        },
+        {
+          "file": "art/icons/attr-amount.png",
+          "sha256": "0f172b62af41b85550a38ac492116d1875653fe6ce177bda8f86b61970c15d8d"
+        },
+        {
+          "file": "art/icons/attr-movespeed.png",
+          "sha256": "30597ac9e1e710a410e557a9a276c3367f776abda1230975b32c900b7cb82598"
+        },
+        {
+          "file": "art/icons/attr-magnet.png",
+          "sha256": "1b1a21fd76432d82b7512b819863a6dd79a9c08acb7de7e7e4dc61684006752f"
+        },
+        {
+          "file": "art/icons/attr-growth.png",
+          "sha256": "0142e60c1ed494e9b779ea3738cfc13adda715037f676c166f52e0bafded2091"
+        },
+        {
+          "file": "art/icons/attr-greed.png",
+          "sha256": "89e4d8aee79cb8918b90f55f77bb9f6e50343957f2421a8df6351ea38f91fb1c"
+        },
+        {
+          "file": "art/icons/attr-curse.png",
+          "sha256": "06b179a6728fe46f3c1da5e2525cfe463add6f3fc6fefd2e009d29c37d9f6cfa"
+        },
+        {
+          "file": "art/icons/gold.png",
+          "sha256": "e6823525295ab33fb63720c48027dd658d1755ed906841ecafe4150c346fcbb4"
+        },
+        {
+          "file": "art/icons/exp.png",
+          "sha256": "e613158afd46563bfa0e3536ed1c798e0e3b3a66d1a37a228382e40fc1c56b37"
+        }
+      ],
+      "operation": {
+        "layout": "4x4, 256x280 display cells with native font labels",
+        "iconPreviewResizeFrom": [
+          512,
+          512
+        ],
+        "iconPreviewResizeTo": [
+          256,
+          256
+        ],
+        "resampler": "LANCZOS",
+        "background": "light",
+        "newModelCall": false
+      }
+    },
+    {
+      "file": "art/sheets/attribute-icons-v2-review-dark.png",
+      "sha256": "21f7d8b9843b0c5fa2bc12bf436c348bc150463647218677006cdfeef8f20518",
+      "size": [
+        1024,
+        1120
+      ],
+      "mode": "RGB",
+      "kind": "QA contact sheet, not runtime icon",
+      "derivedFrom": [
+        {
+          "file": "art/icons/attr-might.png",
+          "sha256": "7ac734897e38521b12d31cadf358c614132eac0eb1e7ca5c520c1e64efd50368"
+        },
+        {
+          "file": "art/icons/attr-armor.png",
+          "sha256": "c804cbf05c0662a15073a71af1843d0ecc849df5dc85bb4ff36a5ed83f079291"
+        },
+        {
+          "file": "art/icons/attr-hpmax.png",
+          "sha256": "b366e3580e549f7146a95c495c3c0692957d3e1521a2cfce36a2b1f3d4d81301"
+        },
+        {
+          "file": "art/icons/attr-recovery.png",
+          "sha256": "234a44ec4c888e3c5e18039d534488dcaf58e5402fc2efe1be9cf5e5f33ede95"
+        },
+        {
+          "file": "art/icons/attr-cooldown.png",
+          "sha256": "f6519f266d827237ad475cf7285188b6be6152716e71406c70c01906ba8fb4b7"
+        },
+        {
+          "file": "art/icons/attr-area.png",
+          "sha256": "fdc04491a23ddc58d7f7d355ac05b51f90839dad3ba69dee7f30d608908068d6"
+        },
+        {
+          "file": "art/icons/attr-skillspeed.png",
+          "sha256": "39cb2c0d232cfbeb41fabb4afa9dd29b17d6098d78cd5615b4e64ac82cc89b2c"
+        },
+        {
+          "file": "art/icons/attr-duration.png",
+          "sha256": "1b19700840a51613a58c984a792bcbd664ff48a1aca43d340a191ba617b6d086"
+        },
+        {
+          "file": "art/icons/attr-amount.png",
+          "sha256": "0f172b62af41b85550a38ac492116d1875653fe6ce177bda8f86b61970c15d8d"
+        },
+        {
+          "file": "art/icons/attr-movespeed.png",
+          "sha256": "30597ac9e1e710a410e557a9a276c3367f776abda1230975b32c900b7cb82598"
+        },
+        {
+          "file": "art/icons/attr-magnet.png",
+          "sha256": "1b1a21fd76432d82b7512b819863a6dd79a9c08acb7de7e7e4dc61684006752f"
+        },
+        {
+          "file": "art/icons/attr-growth.png",
+          "sha256": "0142e60c1ed494e9b779ea3738cfc13adda715037f676c166f52e0bafded2091"
+        },
+        {
+          "file": "art/icons/attr-greed.png",
+          "sha256": "89e4d8aee79cb8918b90f55f77bb9f6e50343957f2421a8df6351ea38f91fb1c"
+        },
+        {
+          "file": "art/icons/attr-curse.png",
+          "sha256": "06b179a6728fe46f3c1da5e2525cfe463add6f3fc6fefd2e009d29c37d9f6cfa"
+        },
+        {
+          "file": "art/icons/gold.png",
+          "sha256": "e6823525295ab33fb63720c48027dd658d1755ed906841ecafe4150c346fcbb4"
+        },
+        {
+          "file": "art/icons/exp.png",
+          "sha256": "e613158afd46563bfa0e3536ed1c798e0e3b3a66d1a37a228382e40fc1c56b37"
+        }
+      ],
+      "operation": {
+        "layout": "4x4, 256x280 display cells with native font labels",
+        "iconPreviewResizeFrom": [
+          512,
+          512
+        ],
+        "iconPreviewResizeTo": [
+          256,
+          256
+        ],
+        "resampler": "LANCZOS",
+        "background": "dark",
+        "newModelCall": false
+      }
+    }
+  ]
+}

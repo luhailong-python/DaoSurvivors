@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-28",
+  "reviewMethod": "Actual viewed native atlas followed by both full 16-asset light/dark review montages. No Unity engine execution.",
+  "sourceSheetSHA256": "87d2ca1039c09fa653a3db2e822e2dae614806203c27a4125bbc5fedbc68b5b8",
+  "result": "accepted for art delivery with retained raw nominal-grid QC findings",
+  "previews": [
+    {
+      "file": "designs/whole-game/world-combat-review-light.png",
+      "sha256": "0e882c201cf3e688f584f8e76ed6ba5a34756c3ff9b13e7a203fda405cb887f5"
+    },
+    {
+      "file": "designs/whole-game/world-combat-review-dark.png",
+      "sha256": "ada1518e348a186fa97a9301eb82ac177ed47cfa4daaf4349463fea200079d4a"
+    }
+  ],
+  "assets": [
+    {
+      "file": "art/whole-game/fx/skill-nearest.png",
+      "sha256": "a1e48a787a3ee7e1e873432de3e93cc2d4ec2fa5083196fc6fe63f066b45ea5f",
+      "status": "accepted",
+      "notes": "Native silhouette and translucent glow preserved; no upscaling or alpha cleaning."
+    },
+    {
+      "file": "art/whole-game/fx/skill-bothside.png",
+      "sha256": "5b4e2b13245ea25d6db6272224e4af40fb8c7fcb0925dbca50b979dc2e187df5",
+      "status": "accepted",
+      "notes": "Native silhouette and translucent glow preserved; no upscaling or alpha cleaning."
+    },
+    {
+      "file": "art/whole-game/fx/skill-bouncing.png",
+      "sha256": "4e8b14c762c502c3852b4a1a50612aad7d08fa1aba82226d2d183ba7a696433d",
+      "status": "accepted",
+      "notes": "Native silhouette and translucent glow preserved; no upscaling or alpha cleaning."
+    },
+    {
+      "file": "art/whole-game/fx/skill-chain.png",
+      "sha256": "52018c65a9fd6de5293c4877db341570d25d5025a7f51b5d1f959b6477f668c5",
+      "status": "accepted",
+      "notes": "Native silhouette and translucent glow preserved; no upscaling or alpha cleaning."
+    },
+    {
+      "file": "art/whole-game/fx/skill-circle.png",
+      "sha256": "0b429861f4ab49585b08bd7ad23343bce9e088ea5aa2abc17e49ca2cb050286f",
+      "status": "accepted",
+      "notes": "Native silhouette and translucent glow preserved; no upscaling or alpha cleaning."
+    },
+    {
+      "file": "art/whole-game/fx/skill-orbit.png",
+      "sha256": "b59e0911638920a23fc6d44c73f1719e407fe43b586bbcf079db0de98abcbaeb",
+      "status": "accepted",
+      "notes": "Native silhouette and translucent glow preserved; no upscaling or alpha cleaning."
+    },
+    {
+      "file": "art/whole-game/fx/skill-fourcorner.png",
+      "sha256": "301860babb9dd6e3f583d641b24cb65588330bd3aff3218daba289e765fd9307",
+      "status": "accepted",
+      "notes": "Native silhouette and translucent glow preserved; no upscaling or alpha cleaning."
+    },
+    {
+      "file": "art/whole-game/fx/skill-scope.png",
+      "sha256": "3b9601d31060e850e7a681ba633bc3ffcfa77f45d8ae6693e36813740c2eec8f",
+      "status": "accepted",
+      "notes": "Native silhouette and translucent glow preserved; no upscaling or alpha cleaning."
+    },
+    {
+      "file": "art/whole-game/fx/skill-random.png",
+      "sha256": "5f39fc1e2f138e88da0198c9555c20eeb5b7199d3a4eb10d35db0301d0dcb0dc",
+      "status": "accepted",
+      "notes": "Native silhouette and translucent glow preserved; no upscaling or alpha cleaning."
+    },
+    {
+      "file": "art/whole-game/fx/enemy-blue.png",
+      "sha256": "15d19ee1965e2d7779fbeea7cc0510f60577f7624d05c74db1e47b5169a4fdcf",
+      "status": "accepted",
+      "notes": "Native silhouette and translucent glow preserved; no upscaling or alpha cleaning."
+    },
+    {
+      "file": "art/whole-game/fx/enemy-pink.png",
+      "sha256": "efb24955e1c4e79d5c09194eb714a1dc2f9734945fa9ca0b18b7c24b80270957",
+      "status": "accepted",
+      "notes": "Native silhouette and translucent glow preserved; no upscaling or alpha cleaning."
+    },
+    {
+      "file": "art/whole-game/fx/enemy-red.png",
+      "sha256": "4cfe0ae900c47f2ccb9b5708b57617a3763bda893a7bfcbc7985a43ca3473f79",
+      "status": "accepted",
+      "notes": "Native silhouette and translucent glow preserved; no upscaling or alpha cleaning."
+    },
+    {
+      "file": "art/whole-game/fx/enemy-green.png",
+      "sha256": "0497964c043cdcf737f5671b5530c1ee960158dd87f6b8acb5b35e258793339c",
+      "status": "accepted",
+      "notes": "Native silhouette and translucent glow preserved; no upscaling or alpha cleaning."
+    },
+    {
+      "file": "art/whole-game/fx/enemy-snow.png",
+      "sha256": "df485a87482a809a315efa2f960bfeacb9528bd6843d954832edc80b867fe5fe",
+      "status": "accepted",
+      "notes": "Native silhouette and translucent glow preserved; no upscaling or alpha cleaning."
+    },
+    {
+      "file": "art/whole-game/fx/pickup-suck.png",
+      "sha256": "0830830256ab903087a4e3aa3fb40bd1daa266244abedc74317d64b2a212693b",
+      "status": "accepted",
+      "notes": "Native silhouette and translucent glow preserved; no upscaling or alpha cleaning."
+    },
+    {
+      "file": "art/whole-game/fx/prop-urn.png",
+      "sha256": "950408cf8436d4d09ad1fe4e42b4e59de7326f7d935655170462df2bab2df819",
+      "status": "accepted",
+      "notes": "Native silhouette and translucent glow preserved; no upscaling or alpha cleaning."
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+[
+  {
+    "referenceRepositoryRelativePath": "designs/attribute-panels/v2-painted/unity-slices/README.md",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/attribute-panels/v2-painted/unity-slices/README.md",
+    "sha256": "d1087fe65814b5672627352633426006da582ccdaaf7750d2f6700cea1ec492e"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/attribute-panels/v2-painted/unity-slices/manifest.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/attribute-panels/v2-painted/unity-slices/manifest.json",
+    "sha256": "01a41b75b4cb53dd2e6c7673e63a1f436703241b387c18606150d4fc24cbb708"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/class-skills-20260928/DESIGN.md",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/class-skills-20260928/DESIGN.md",
+    "sha256": "e27cdbb5d96be529ceea168fba0827d750058175a0051c963b41c1aa377f076f"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/class-skills-20260928/catalog.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/class-skills-20260928/catalog.json",
+    "sha256": "f76cab8b1dcce527e56cc205ff4a8a292263fce8dbdff4a6de02d7a3b28b57ae"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/class-skills-20260928/icons-style-20261021/README.md",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/class-skills-20260928/icons-style-20261021/README.md",
+    "sha256": "ee1d750a697f012708e550293cabe0c459c11c6969314ad876d5d7b9b3cfba57"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/class-skills-20260928/icons-style-20261021/icons/1102.png.generation.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/class-skills-20260928/icons-style-20261021/icons/1102.png.generation.json",
+    "sha256": "77d49198f84d1eaf2d89936787739d0b790ff54e4b286becaa75411cb9f07fac"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/class-skills-20260928/icons-style-20261021/icons/1106.png.generation.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/class-skills-20260928/icons-style-20261021/icons/1106.png.generation.json",
+    "sha256": "92424a53134aa1512354ffe817f628a82a0d49f4b6d2a714a925495b59daf67b"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/class-skills-20260928/icons-style-20261021/icons/1107.png.generation.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/class-skills-20260928/icons-style-20261021/icons/1107.png.generation.json",
+    "sha256": "b32af67d95334e4c4beaf91246143f36b85411ea554761fdf93d81ba387971dc"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/class-skills-20260928/icons-style-20261021/icons/1108.png.generation.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/class-skills-20260928/icons-style-20261021/icons/1108.png.generation.json",
+    "sha256": "7d1ade305236ce012d989b7dcfac4bacde639dbf7f285880f61f46b4e81c4ce1"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/class-skills-20260928/icons-style-20261021/icons/1202.png.generation.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/class-skills-20260928/icons-style-20261021/icons/1202.png.generation.json",
+    "sha256": "43aad3e501cbd3a11c78ee449e2356118dd802cd58ab5d2dc5602a153da61521"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/class-skills-20260928/icons-style-20261021/icons/1203.png.generation.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/class-skills-20260928/icons-style-20261021/icons/1203.png.generation.json",
+    "sha256": "b9da919ac1fb5507251e1662bf4178c0caea5795dca9afdad115c3768e25f2d9"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/class-skills-20260928/icons-style-20261021/icons/1205.png.generation.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/class-skills-20260928/icons-style-20261021/icons/1205.png.generation.json",
+    "sha256": "336039d60cf6ce4d96e100792b8ab9238de8b01cf9d2b1a9b81859ca8b494311"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/class-skills-20260928/icons-style-20261021/icons/1401.png.generation.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/class-skills-20260928/icons-style-20261021/icons/1401.png.generation.json",
+    "sha256": "25ffa632a83e282e553d1ba083649b97b96f923ac728936548d84e080f2d83f0"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/class-skills-20260928/icons-style-20261021/icons/1404.png.generation.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/class-skills-20260928/icons-style-20261021/icons/1404.png.generation.json",
+    "sha256": "5ad5452774dcdde130b8ec8b1377083f163944c9337aab5283580559f79474cb"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/class-skills-20260928/icons-style-20261021/manifest.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/class-skills-20260928/icons-style-20261021/manifest.json",
+    "sha256": "cd3fdc6c0a2964d409a1e38f424c7e2c1fe42ce81049a5c989128df139591c17"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/creature-combat-20261005/pets/04-guideng/README.md",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/creature-combat-20261005/pets/04-guideng/README.md",
+    "sha256": "af593af1e07d035935a1b93f7b8fcc75478ac74b311b34aa133a6a7f48a49615"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/creature-combat-20261005/pets/04-guideng/manifest.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/creature-combat-20261005/pets/04-guideng/manifest.json",
+    "sha256": "88c2438a5477561bdac18c800ba65cea632fc3ccdb974943a54ea4270b5b9fe1"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/creature-combat-20261005/pets/04-guideng/records/E-attack/01.generation.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/creature-combat-20261005/pets/04-guideng/records/E-attack/01.generation.json",
+    "sha256": "be8149242fb63f093e39ab1470a4835e95c6ac5035ed763cf8638206161667d3"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/README.md",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/README.md",
+    "sha256": "51d2a3da9a6a062c8f499f947d0379a1a4c27e0450326ff8880e9fdc1fa11b15"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/manifest.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/manifest.json",
+    "sha256": "4035ffebcced69aa0e8418d3c2cd0e11bb17c58cbaaf5ac9dea17e16667719f7"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/records/attack-E-01.generation.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/records/attack-E-01.generation.json",
+    "sha256": "7ba737f7cc9b29ae1047cefd81f4ab4c1d4800680a5bd6a79877df2b33769070"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/runtime/attack/E/01.png.generation.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/runtime/attack/E/01.png.generation.json",
+    "sha256": "660efa4818359b240a385c43d6bc3c614031c220df946f8468cfa7b8a40f2215"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/equipment-ui-20261008/README.md",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/equipment-ui-20261008/README.md",
+    "sha256": "9cefd1a12e682c93b138346becad1d3079967ab0f3c56f8054ad62c6e94daa3f"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/equipment-ui-20261008/equipment-icons.png.generation.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/equipment-ui-20261008/equipment-icons.png.generation.json",
+    "sha256": "6c9c4faafc3a69fb50dd6fce09a392e256f6390f193337f115f01e4523803fb5"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/equipment-ui-20261008/sprite-manifest.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/equipment-ui-20261008/sprite-manifest.json",
+    "sha256": "3b900390c58efcc2fb4505805b05ed4f44a4769ac8d6923a0861cf1fb11356ab"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/equipment-ui-20261008/sprites/checkbox_off.png.generation.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/equipment-ui-20261008/sprites/checkbox_off.png.generation.json",
+    "sha256": "ff0abe671fe7ca79af016b2cf1d668cfe221c7323df3ee95ef33a21e48aaadc7"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/equipment-ui-20261008/sprites/checkbox_on.png.generation.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/equipment-ui-20261008/sprites/checkbox_on.png.generation.json",
+    "sha256": "fccf1157396e037dfe129563711b5f0314a36a7d915f967f37b155814cdac2b2"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/equipment-ui-20261008/sprites/icon_boots.png.generation.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/equipment-ui-20261008/sprites/icon_boots.png.generation.json",
+    "sha256": "14a3fd24015e871bfa91749d73a6ae9b01bd9a8131cd9354a077a6a9a26d8c15"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/equipment-ui-20261008/sprites/icon_sword.png.generation.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/equipment-ui-20261008/sprites/icon_sword.png.generation.json",
+    "sha256": "504183d0c98c2adaf4297747f97e32d8451540d456a727933d1533319b3d96f3"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/guild-ui-v2/README.md",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/guild-ui-v2/README.md",
+    "sha256": "511d77fee42b73a3d92d323fe07067c973528cf8d32d5567c2b8b3d2fdd8b3a1"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/guild-ui-v2/asset-manifest.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/guild-ui-v2/asset-manifest.json",
+    "sha256": "d59fb2109edc91ad0e730eed56371b1ba231f299131b7121a84df1eb5ac4de2a"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/team-ui-v2/asset-manifest.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/team-ui-v2/asset-manifest.json",
+    "sha256": "6c3293d10687ee0d04e5bb66ee854f60a2d1a6f214df6402f78ab5128b294aa2"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/team-ui-v2/source/generation.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/team-ui-v2/source/generation.json",
+    "sha256": "679834302194a35f217e358a3a7ee2beffa32e48077ac14769c7dc044eaa72cc"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/team-ui-v2/unity-slices/README.md",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/team-ui-v2/unity-slices/README.md",
+    "sha256": "d5288d50941bd26d47e8438a419c3f8d29f78fa7ed07c4efb8ba144ef436ff96"
+  },
+  {
+    "referenceRepositoryRelativePath": "designs/team-ui-v2/unity-slices/manifest.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/designs/team-ui-v2/unity-slices/manifest.json",
+    "sha256": "9879fabf14dfc0f1b475534459081ce1ec43d135de6656710ffd026531578354"
+  },
+  {
+    "referenceRepositoryRelativePath": "docs/QDAO_ART_DIRECTION.md",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/docs/QDAO_ART_DIRECTION.md",
+    "sha256": "6a0a53a7e59c7043dbd1ad3d0f8a6b752d0e9f03096906c6bf2db59250dc38c3"
+  },
+  {
+    "referenceRepositoryRelativePath": "qdao_chibi_game_pack_v4/manifest.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/qdao_chibi_game_pack_v4/manifest.json",
+    "sha256": "7f4e658dde8fbcd113e9ae3d2fd7c5f36dc6dcb13633bcfcb897cf21ef2d0564"
+  },
+  {
+    "referenceRepositoryRelativePath": "qdao_ui_redesign_v5/components/README.md",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/qdao_ui_redesign_v5/components/README.md",
+    "sha256": "b048039b57ae1d78ea6694c2030611b2ea5f99ad0df0b63f9494b452abea4e1c"
+  },
+  {
+    "referenceRepositoryRelativePath": "qdao_ui_redesign_v5/components/manifest.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/qdao_ui_redesign_v5/components/manifest.json",
+    "sha256": "28a2db9f009b2ff854526dd40888ab1d1cfcdfcbba9d15b02427ae1d952f84c9"
+  },
+  {
+    "referenceRepositoryRelativePath": "qdao_ui_redesign_v5/pet/README.md",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/qdao_ui_redesign_v5/pet/README.md",
+    "sha256": "d7f1016111d76c53edb813e61eefc764ec4713730347bee297d3dbf0ad786543"
+  },
+  {
+    "referenceRepositoryRelativePath": "qdao_ui_redesign_v5/pet/manifest.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/qdao_ui_redesign_v5/pet/manifest.json",
+    "sha256": "cbf93b4ea8daff64210aadffbad7071d0ccfcc41720c9646d8f699e80ba1f61f"
+  },
+  {
+    "referenceRepositoryRelativePath": "qdao_ui_style_recut_v10/artwork/index.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/qdao_ui_style_recut_v10/artwork/index.json",
+    "sha256": "34d5aba2776874eff2347e6c8df5cf958dbfcf1edd0a41e16036b551a5583b7b"
+  },
+  {
+    "referenceRepositoryRelativePath": "qdao_ui_style_recut_v10/source-map.attributes.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/qdao_ui_style_recut_v10/source-map.attributes.json",
+    "sha256": "a294b60cf43cea0ba4a40807503d0ce4d84edf1962bfd901872242b057b52a84"
+  },
+  {
+    "referenceRepositoryRelativePath": "qdao_ui_style_recut_v10/source-map.common.json",
+    "status": "snapshot_available",
+    "snapshot": "docs/provenance/art-reference/qdao_ui_style_recut_v10/source-map.common.json",
+    "sha256": "f40c696663bd51bc9e1f03e26114a63f230faf456fa248387f2bcff98f3515af"
+  }
+]

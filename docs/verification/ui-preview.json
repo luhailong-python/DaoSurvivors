@@ -1,0 +1,526 @@
+{
+  "verifiedAt": "2026-10-26T09:56:52.869Z",
+  "kind": "UI design rendering, not Unity execution",
+  "browser": "134.0.3124.83",
+  "records": [
+    {
+      "view": "home",
+      "file": "designs/ui-v1/previews/01-home-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "09f9b630b2df7b5fc33e53b66c797d36001b506c6a537f287cd6f4c78f97197d",
+      "operation": "DOM layout rendered by Chromium; composited existing PNGs and native font text. Not Unity runtime and not a new AI generation."
+    },
+    {
+      "view": "cultivation",
+      "file": "designs/ui-v1/previews/02-cultivation-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "ee58977271ebcb7908b464b9ce89a0c26707cf935e828821a78d3ddf39ee4d4b",
+      "operation": "DOM layout rendered by Chromium; composited existing PNGs and native font text. Not Unity runtime and not a new AI generation."
+    },
+    {
+      "view": "codex",
+      "file": "designs/ui-v1/previews/03-codex-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "e6d13a275372aff205ea09e6090f92fe52393461eed7e658d075013988b60ba9",
+      "operation": "DOM layout rendered by Chromium; composited existing PNGs and native font text. Not Unity runtime and not a new AI generation."
+    },
+    {
+      "view": "battle",
+      "file": "designs/ui-v1/previews/04-battle-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "b9c37b06fceb277fb30703d030fc3def385915e7a6d426c685e0bb13cbc53635",
+      "operation": "DOM layout rendered by Chromium; composited existing PNGs and native font text. Not Unity runtime and not a new AI generation."
+    },
+    {
+      "view": "upgrade",
+      "file": "designs/ui-v1/previews/05-upgrade-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f9b51afea019a66aa19aa2368131a3da3ee12cf77360ad1d0280ed30f7ed9977",
+      "operation": "DOM layout rendered by Chromium; composited existing PNGs and native font text. Not Unity runtime and not a new AI generation."
+    },
+    {
+      "view": "pause",
+      "file": "designs/ui-v1/previews/06-pause-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "c65991cf816ff5c2b88922edf442aff8461f7976f8c02b6d36d3f2ad6ada103a",
+      "operation": "DOM layout rendered by Chromium; composited existing PNGs and native font text. Not Unity runtime and not a new AI generation."
+    },
+    {
+      "view": "settings",
+      "file": "designs/ui-v1/previews/07-settings-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "49c6f95216c00d5ee3f35ec1e90b8551ca8c2090f3857d5744119af4b87a527f",
+      "operation": "DOM layout rendered by Chromium; composited existing PNGs and native font text. Not Unity runtime and not a new AI generation."
+    },
+    {
+      "view": "result",
+      "file": "designs/ui-v1/previews/08-result-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1766ee435e672d824624abe60401c8ebe49f4f011b350e53758c9a27a696a78b",
+      "operation": "DOM layout rendered by Chromium; composited existing PNGs and native font text. Not Unity runtime and not a new AI generation."
+    },
+    {
+      "view": "defeat",
+      "file": "designs/ui-v1/previews/09-defeat-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1d9a72b0e8c70f5f638a9aa1a4da261bc7db7dbad35a8cfa352137dd8380956a",
+      "operation": "DOM layout rendered by Chromium; composited existing PNGs and native font text. Not Unity runtime and not a new AI generation."
+    }
+  ],
+  "responsive": [
+    {
+      "view": "home",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "bodyScrollWidth": 1280,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "cultivation",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "bodyScrollWidth": 1280,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "codex",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "bodyScrollWidth": 1280,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "battle",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "bodyScrollWidth": 1280,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "upgrade",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "bodyScrollWidth": 1280,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "pause",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "bodyScrollWidth": 1280,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "settings",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "bodyScrollWidth": 1280,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "result",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "bodyScrollWidth": 1280,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "defeat",
+      "viewport": [
+        1280,
+        720
+      ],
+      "frame": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "bodyScrollWidth": 1280,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "home",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "bodyScrollWidth": 2560,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "cultivation",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "bodyScrollWidth": 2560,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "codex",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "bodyScrollWidth": 2560,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "battle",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "bodyScrollWidth": 2560,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "upgrade",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "bodyScrollWidth": 2560,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "pause",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "bodyScrollWidth": 2560,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "settings",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "bodyScrollWidth": 2560,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "result",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "bodyScrollWidth": 2560,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "defeat",
+      "viewport": [
+        2560,
+        1080
+      ],
+      "frame": [
+        320,
+        0,
+        1920,
+        1080
+      ],
+      "bodyScrollWidth": 2560,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "home",
+      "viewport": [
+        390,
+        844
+      ],
+      "frame": [
+        0,
+        312.3125,
+        390,
+        219.375
+      ],
+      "bodyScrollWidth": 390,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "cultivation",
+      "viewport": [
+        390,
+        844
+      ],
+      "frame": [
+        0,
+        312.3125,
+        390,
+        219.375
+      ],
+      "bodyScrollWidth": 390,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "codex",
+      "viewport": [
+        390,
+        844
+      ],
+      "frame": [
+        0,
+        312.3125,
+        390,
+        219.375
+      ],
+      "bodyScrollWidth": 390,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "battle",
+      "viewport": [
+        390,
+        844
+      ],
+      "frame": [
+        0,
+        312.3125,
+        390,
+        219.375
+      ],
+      "bodyScrollWidth": 390,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "upgrade",
+      "viewport": [
+        390,
+        844
+      ],
+      "frame": [
+        0,
+        312.3125,
+        390,
+        219.375
+      ],
+      "bodyScrollWidth": 390,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "pause",
+      "viewport": [
+        390,
+        844
+      ],
+      "frame": [
+        0,
+        312.3125,
+        390,
+        219.375
+      ],
+      "bodyScrollWidth": 390,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "settings",
+      "viewport": [
+        390,
+        844
+      ],
+      "frame": [
+        0,
+        312.3125,
+        390,
+        219.375
+      ],
+      "bodyScrollWidth": 390,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "result",
+      "viewport": [
+        390,
+        844
+      ],
+      "frame": [
+        0,
+        312.3125,
+        390,
+        219.375
+      ],
+      "bodyScrollWidth": 390,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    },
+    {
+      "view": "defeat",
+      "viewport": [
+        390,
+        844
+      ],
+      "frame": [
+        0,
+        312.3125,
+        390,
+        219.375
+      ],
+      "bodyScrollWidth": 390,
+      "missingImages": 0,
+      "frameAspect": 1.7777777777777777
+    }
+  ],
+  "interactions": {
+    "selection": {
+      "hero": 1,
+      "stage": 2
+    },
+    "training": {
+      "coins": 80,
+      "attack": 1
+    },
+    "soundToggle": true
+  },
+  "errors": [],
+  "status": "passed"
+}

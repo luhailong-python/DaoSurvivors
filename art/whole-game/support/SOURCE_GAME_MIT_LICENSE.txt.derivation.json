@@ -1,0 +1,12 @@
+{
+  "file": "art/whole-game/support/SOURCE_GAME_MIT_LICENSE.txt",
+  "sha256": "97bfe3513bf6a104ba4e616d1d3db310453cb86cc8f304bfb5fd5c6b8bf6f207",
+  "derivedFrom": {
+    "file": ".reference/survivors-roguelike-kit/LICENSE",
+    "sha256": "97bfe3513bf6a104ba4e616d1d3db310453cb86cc8f304bfb5fd5c6b8bf6f207",
+    "repository": "https://github.com/Roo-Roo-Roo/survivors-roguelike-kit",
+    "commit": "3f905381d73a34b516030528b8ef6743868b9e52"
+  },
+  "operation": "verbatim MIT license byte copy accompanying reused dissolve-noise.png",
+  "deliveryRole": "license"
+}

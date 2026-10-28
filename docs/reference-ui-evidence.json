@@ -1,0 +1,966 @@
+{
+  "auditedOn": "2026-10-26",
+  "timezone": "America/New_York",
+  "referenceUrl": "https://github.com/Roo-Roo-Roo/survivors-roguelike-kit",
+  "sourceCommit": "3f905381d73a34b516030528b8ef6743868b9e52",
+  "referenceLocalPath": "E:/work/image/DaoSurvivors/.reference/survivors-roguelike-kit",
+  "referenceRole": "functional reference, not deliverable remote",
+  "method": "read source, prefab/scene YAML, configuration and six actual media images; no Unity execution",
+  "unityExecuted": false,
+  "uiCsInventoryCount": 28,
+  "repoAgentFilesFound": 0,
+  "repoMarkdown": [
+    "README.md",
+    "Media/README.md"
+  ],
+  "lfsFilesReported": 0,
+  "facts": [
+    {
+      "id": "menu",
+      "title": "主菜单四入口",
+      "evidenceStatus": "confirmed",
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/UIMainMenu.cs",
+          "lineStart": 12,
+          "lineEnd": 34
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/MainMenu_Panel.prefab",
+          "lineStart": 924,
+          "lineEnd": 1035
+        }
+      ],
+      "requiredArtStates": [
+        "normal",
+        "hover",
+        "pressed",
+        "focus"
+      ],
+      "notes": "New Game / PowerUp / Settings / Exit；Exit事件未在菜单管理器找到订阅，退出运行完成度未验证。"
+    },
+    {
+      "id": "character-select",
+      "title": "三角色选择与返回",
+      "evidenceStatus": "confirmed",
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/UIMenuManager.cs",
+          "lineStart": 43,
+          "lineEnd": 65
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/CharacterSelect/CharacterSelectPanel.cs",
+          "lineStart": 31,
+          "lineEnd": 59
+        }
+      ],
+      "requiredArtStates": [
+        "unselected",
+        "selected",
+        "confirm",
+        "back"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "character-unlock",
+      "title": "第二和第三角色金币解锁",
+      "evidenceStatus": "confirmed",
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/CharacterSelect/CharacterSelectPanel.cs",
+          "lineStart": 73,
+          "lineEnd": 104
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/SelectCharacter/Assassin.asset",
+          "lineStart": 16,
+          "lineEnd": 20
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/SelectCharacter/Mage.asset",
+          "lineStart": 16,
+          "lineEnd": 20
+        }
+      ],
+      "requiredArtStates": [
+        "locked-price",
+        "can-afford",
+        "insufficient",
+        "unlocked"
+      ],
+      "notes": "Fighter默认可用，Assassin与Mage配置SellingPrice均500。购买确认弹窗为本次补充而非源已有。"
+    },
+    {
+      "id": "level-select",
+      "title": "两关卡选择",
+      "evidenceStatus": "confirmed",
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/LevelSelect/LevelSelectPanel.cs",
+          "lineStart": 25,
+          "lineEnd": 69
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/LevelSelect_Panel .prefab",
+          "lineStart": 641,
+          "lineEnd": 643
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/SelectLevel/FirstLevel.asset",
+          "lineStart": 15,
+          "lineEnd": 19
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/SelectLevel/SecondLevel.asset",
+          "lineStart": 15,
+          "lineEnd": 19
+        }
+      ],
+      "requiredArtStates": [
+        "list",
+        "selected",
+        "confirm",
+        "back"
+      ],
+      "notes": "两个LevelConfig当前共享Map/Stage，第二关LevelDescription仍重复首关。无关卡锁定代码证据。"
+    },
+    {
+      "id": "loading",
+      "title": "加载和淡入淡出",
+      "evidenceStatus": "confirmed",
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/LoadingInterfaceController.cs",
+          "lineStart": 13,
+          "lineEnd": 43
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/FadeController.cs",
+          "lineStart": 34,
+          "lineEnd": 48
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scenes/Managers/PersistentManagers.unity",
+          "lineStart": 381,
+          "lineEnd": 435
+        }
+      ],
+      "requiredArtStates": [
+        "loading",
+        "enter-complete"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "powerup",
+      "title": "14项永久成长",
+      "evidenceStatus": "confirmed",
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/PowerUp/PowerUpAttributeUpgrade.cs",
+          "lineStart": 84,
+          "lineEnd": 120
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/PowerUp/PowerUpDescription.cs",
+          "lineStart": 15,
+          "lineEnd": 27
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+          "lineStart": 641,
+          "lineEnd": 648
+        }
+      ],
+      "requiredArtStates": [
+        "grid",
+        "selected-detail",
+        "buyable",
+        "insufficient",
+        "max-rank",
+        "upgraded",
+        "back"
+      ],
+      "notes": "不足和满阶由代码静默return，清楚反馈为本次UI补齐。数值源是demo配置。"
+    },
+    {
+      "id": "settings",
+      "title": "7项设置",
+      "evidenceStatus": "confirmed",
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Setting/SettingPanel.cs",
+          "lineStart": 20,
+          "lineEnd": 28
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Setting/SettingPanel.cs",
+          "lineStart": 64,
+          "lineEnd": 100
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Setting/SettingItem.cs",
+          "lineStart": 53,
+          "lineEnd": 90
+        }
+      ],
+      "requiredArtStates": [
+        "volume-0",
+        "volume-10",
+        "volume-mid",
+        "fullscreen-on",
+        "fullscreen-off",
+        "resolution-selected",
+        "language-selected",
+        "damage-on",
+        "damage-off",
+        "back"
+      ],
+      "notes": "主音量/音乐/音效/分辨率/全屏/语言/伤害浮字；源实际只有English(en) locale资源。"
+    },
+    {
+      "id": "hud-hp",
+      "title": "HP与伤害过渡",
+      "evidenceStatus": "confirmed",
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/HealthUI.cs",
+          "lineStart": 12,
+          "lineEnd": 24
+        }
+      ],
+      "requiredArtStates": [
+        "full",
+        "hurt-transition",
+        "low",
+        "zero"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "hud-exp",
+      "title": "经验与等级",
+      "evidenceStatus": "confirmed",
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/LevelUI.cs",
+          "lineStart": 30,
+          "lineEnd": 40
+        }
+      ],
+      "requiredArtStates": [
+        "initial",
+        "partial",
+        "level-up"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "hud-skills",
+      "title": "6攻击+6属性技能槽",
+      "evidenceStatus": "confirmed",
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/SkillIconPanel.cs",
+          "lineStart": 13,
+          "lineEnd": 58
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scenes/Managers/GamePlay.unity",
+          "lineStart": 4621,
+          "lineEnd": 4633
+        }
+      ],
+      "requiredArtStates": [
+        "empty-slot",
+        "acquired",
+        "six-per-category-full"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "hud-counters",
+      "title": "当局金币和击败",
+      "evidenceStatus": "confirmed",
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/CoinCountInGame.cs",
+          "lineStart": 14,
+          "lineEnd": 16
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/KillCountInGame.cs",
+          "lineStart": 13,
+          "lineEnd": 15
+        }
+      ],
+      "requiredArtStates": [
+        "zero",
+        "accumulating",
+        "settled"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "upgrade",
+      "title": "3选1新技能/攻击升级/属性升级/钱袋",
+      "evidenceStatus": "confirmed",
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillPanel.cs",
+          "lineStart": 25,
+          "lineEnd": 68
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillItem.cs",
+          "lineStart": 19,
+          "lineEnd": 77
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scenes/Managers/GamePlay.unity",
+          "lineStart": 8787,
+          "lineEnd": 8790
+        }
+      ],
+      "requiredArtStates": [
+        "new-attack",
+        "attack-upgrade",
+        "attribute-upgrade",
+        "money-bag",
+        "focus",
+        "paused-background"
+      ],
+      "notes": "未发现重抽/跳过/放逐UI。"
+    },
+    {
+      "id": "treasure",
+      "title": "宝箱揭示和多奖励确认",
+      "evidenceStatus": "confirmed",
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/TreasurePanel.cs",
+          "lineStart": 38,
+          "lineEnd": 110
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scenes/Managers/GamePlay.unity",
+          "lineStart": 2048,
+          "lineEnd": 2059
+        }
+      ],
+      "requiredArtStates": [
+        "reveal-disabled-confirm",
+        "one-reward",
+        "multiple-rewards",
+        "money-bag",
+        "confirm-all"
+      ],
+      "notes": "场景5槽，约3秒揭示后显示确认，确认应用全部奖励；Capacity遍历实现有待接入核验。"
+    },
+    {
+      "id": "results",
+      "title": "胜负结算回主菜单",
+      "evidenceStatus": "confirmed",
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scenes/Managers/GamePlay.unity",
+          "lineStart": 4290,
+          "lineEnd": 4290
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scenes/Managers/GamePlay.unity",
+          "lineStart": 5989,
+          "lineEnd": 5989
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/GameEndPanel.cs",
+          "lineStart": 30,
+          "lineEnd": 52
+        }
+      ],
+      "requiredArtStates": [
+        "win",
+        "lose",
+        "rewards",
+        "back"
+      ],
+      "notes": "结算退出把当局金币加存档；timeScale=0后的WaitForSeconds确认可用时机未运行验证。"
+    },
+    {
+      "id": "save",
+      "title": "本地设置/金币/成长/解锁保存",
+      "evidenceStatus": "confirmed",
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/Save/SaveGame.cs",
+          "lineStart": 15,
+          "lineEnd": 40
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/Save/SaveSystemSO.cs",
+          "lineStart": 32,
+          "lineEnd": 53
+        }
+      ],
+      "requiredArtStates": [
+        "existing-local-profile"
+      ],
+      "notes": "源失败主要写日志，首档/保存提示/失败恢复属于本次补齐。"
+    },
+    {
+      "id": "pause",
+      "title": "暂停/继续菜单",
+      "evidenceStatus": "design-supplement",
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/Input/InputReader.cs",
+          "lineStart": 41,
+          "lineEnd": 68
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/Input/InputReader.cs",
+          "lineStart": 141,
+          "lineEnd": 145
+        }
+      ],
+      "requiredArtStates": [
+        "paused",
+        "resume",
+        "settings-return",
+        "abandon-confirm"
+      ],
+      "notes": "只有Pause/Unpause输入事件，未发现窗口订阅；依据幸存者单机类型基础补齐。"
+    },
+    {
+      "id": "startup",
+      "title": "启动和本地资源检查",
+      "evidenceStatus": "design-supplement",
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scenes/Initialization.unity",
+          "lineStart": 133,
+          "lineEnd": 149
+        }
+      ],
+      "requiredArtStates": [
+        "splash",
+        "local-check",
+        "ready"
+      ],
+      "notes": "源初始化场景有入口，未发现完整启动/本地检查界面；不加入联网更新/登录。"
+    },
+    {
+      "id": "errors",
+      "title": "加载/存档/配置异常",
+      "evidenceStatus": "design-supplement",
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/System/Save/SaveSystemSO.cs",
+          "lineStart": 32,
+          "lineEnd": 53
+        },
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/LoadingInterfaceController.cs",
+          "lineStart": 29,
+          "lineEnd": 43
+        }
+      ],
+      "requiredArtStates": [
+        "load-failed",
+        "retry",
+        "save-failed",
+        "missing-selection",
+        "missing-data"
+      ],
+      "notes": "异常艺术状态，不宣称源已实现。"
+    },
+    {
+      "id": "help",
+      "title": "移动和自动攻击引导",
+      "evidenceStatus": "design-supplement",
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/Input/InputReader.cs",
+          "lineStart": 33,
+          "lineEnd": 38
+        }
+      ],
+      "requiredArtStates": [
+        "first-help",
+        "keyboard",
+        "controller",
+        "dismiss"
+      ],
+      "notes": "操作说明与返回为类型基础补充。"
+    },
+    {
+      "id": "quit-confirm",
+      "title": "确认退出和取消",
+      "evidenceStatus": "design-supplement",
+      "evidence": [
+        {
+          "file": "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/UIMainMenu.cs",
+          "lineStart": 32,
+          "lineEnd": 34
+        }
+      ],
+      "requiredArtStates": [
+        "confirm",
+        "cancel"
+      ],
+      "notes": "主菜单源有Exit入口，未见完整确认/退出回调。"
+    }
+  ],
+  "powerUpAttributes": [
+    {
+      "field": "Growth",
+      "sourceFile": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "objectStartLine": 628,
+      "sourceDescription": "Gains 10% more experience per rank",
+      "maximumRank": 5,
+      "goldByRank": [
+        5,
+        10,
+        15,
+        20,
+        25
+      ],
+      "attributeChangeByRank": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "field": "Area",
+      "sourceFile": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "objectStartLine": 1420,
+      "sourceDescription": "Augments area of attacks by 10% per rank",
+      "maximumRank": 2,
+      "goldByRank": [
+        1,
+        2
+      ],
+      "attributeChangeByRank": [
+        10,
+        10
+      ]
+    },
+    {
+      "field": "Armor",
+      "sourceFile": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "objectStartLine": 2084,
+      "sourceDescription": "Reduces incoming Damage by 10% per rank",
+      "maximumRank": 3,
+      "goldByRank": [
+        1,
+        2,
+        3
+      ],
+      "attributeChangeByRank": [
+        -10,
+        -10,
+        -10
+      ]
+    },
+    {
+      "field": "Might",
+      "sourceFile": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "objectStartLine": 2222,
+      "sourceDescription": "Raises inflicted Damage by 5% per rank",
+      "maximumRank": 5,
+      "goldByRank": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "attributeChangeByRank": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "field": "HPMax",
+      "sourceFile": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "objectStartLine": 4082,
+      "sourceDescription": "Augments Max Health by 10% per rank",
+      "maximumRank": 3,
+      "goldByRank": [
+        1,
+        2,
+        3
+      ],
+      "attributeChangeByRank": [
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "field": "Amount",
+      "sourceFile": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "objectStartLine": 4503,
+      "sourceDescription": "Fires 1 more projectile",
+      "maximumRank": 1,
+      "goldByRank": [
+        5
+      ],
+      "attributeChangeByRank": [
+        1
+      ]
+    },
+    {
+      "field": "MoveSpeed",
+      "sourceFile": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "objectStartLine": 5137,
+      "sourceDescription": "Character moves 10% faster per rank",
+      "maximumRank": 2,
+      "goldByRank": [
+        5,
+        5
+      ],
+      "attributeChangeByRank": [
+        10,
+        10
+      ]
+    },
+    {
+      "field": "Greed",
+      "sourceFile": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "objectStartLine": 5350,
+      "sourceDescription": "Gains 10% more Gold per rank",
+      "maximumRank": 5,
+      "goldByRank": [
+        20,
+        25,
+        30,
+        35,
+        55
+      ],
+      "attributeChangeByRank": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "field": "Cooldown",
+      "sourceFile": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "objectStartLine": 5563,
+      "sourceDescription": "Uses weapons 10% faster per rank",
+      "maximumRank": 2,
+      "goldByRank": [
+        1,
+        2
+      ],
+      "attributeChangeByRank": [
+        -10,
+        -10
+      ]
+    },
+    {
+      "field": "SkillSpeed",
+      "sourceFile": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "objectStartLine": 5664,
+      "sourceDescription": "Projectiles move 10% faster per rank",
+      "maximumRank": 2,
+      "goldByRank": [
+        10,
+        15
+      ],
+      "attributeChangeByRank": [
+        10,
+        10
+      ]
+    },
+    {
+      "field": "Magnet",
+      "sourceFile": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "objectStartLine": 7700,
+      "sourceDescription": "'Items Pickup range +25% per rank '",
+      "maximumRank": 2,
+      "goldByRank": [
+        25,
+        25
+      ],
+      "attributeChangeByRank": [
+        25,
+        25
+      ]
+    },
+    {
+      "field": "Curse",
+      "sourceFile": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "objectStartLine": 10323,
+      "sourceDescription": "Increases enemy speed, health, quantity, and frequency by 10% per",
+      "maximumRank": 5,
+      "goldByRank": [
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "attributeChangeByRank": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "field": "Duration",
+      "sourceFile": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "objectStartLine": 10525,
+      "sourceDescription": "Effects from weapons last 15% longer per rank",
+      "maximumRank": 2,
+      "goldByRank": [
+        5,
+        10
+      ],
+      "attributeChangeByRank": [
+        15,
+        15
+      ]
+    },
+    {
+      "field": "Recovery",
+      "sourceFile": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "objectStartLine": 11825,
+      "sourceDescription": "Recovers 1 HP per rank per second",
+      "maximumRank": 5,
+      "goldByRank": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "attributeChangeByRank": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "media": [
+    {
+      "file": "Media/CharacterSelect.png",
+      "width": 1922,
+      "height": 1119,
+      "sha256": "99c5d09408daff394cc4edbc011aca96c2bef5343569a7a2930fa802b1b7d0a5",
+      "visuallyViewed": true,
+      "isLfsPointer": false
+    },
+    {
+      "file": "Media/LevelSelect.png",
+      "width": 1922,
+      "height": 1119,
+      "sha256": "965baca6489121efc3d6b4238514387e02543bbdcddc66daee82895d710e632f",
+      "visuallyViewed": true,
+      "isLfsPointer": false
+    },
+    {
+      "file": "Media/PowerUp.png",
+      "width": 1890,
+      "height": 1064,
+      "sha256": "6daac32d6c3a656103984efb6eec775f023808cf4e384380edf08c48d702a299",
+      "visuallyViewed": true,
+      "isLfsPointer": false
+    },
+    {
+      "file": "Media/Setting.png",
+      "width": 1922,
+      "height": 1119,
+      "sha256": "a69be86eb614f0787e17b758ae3d41eed7ba9376082831671bbf484dfd155c35",
+      "visuallyViewed": true,
+      "isLfsPointer": false
+    },
+    {
+      "file": "Media/SkillUpgrede.png",
+      "width": 2389,
+      "height": 1267,
+      "sha256": "f961ef3304dd8be454781525e69ce5f097082589e4d499654e8a405947bb5aee",
+      "visuallyViewed": true,
+      "isLfsPointer": false
+    },
+    {
+      "file": "Media/Fight.png",
+      "width": 2371,
+      "height": 1241,
+      "sha256": "7a0674eba4fabaf81bde2030d264ac68e9c2eace23a1333deaf24714ecc3c270",
+      "visuallyViewed": true,
+      "isLfsPointer": false
+    }
+  ],
+  "sourceFiles": [
+    {
+      "file": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/LevelSelect_Panel .prefab",
+      "sha256": "504039ac88877395b30f3540a4b9a5e150c86be7b60bb94b7606c2f5be09507d"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/MainMenu_Panel.prefab",
+      "sha256": "a1c019f2b04e05ef92ae3a239cda97fc0e348aaa3580a1d4581d39265e8f54b2"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "sha256": "b7aa29dfb2b43ca12c73d18b1c86a921f15f0832b0cdf5651aa83ba579064926"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scenes/Initialization.unity",
+      "sha256": "71c1fa254313fb5c9065e1ec8fa1ebfafb942b6825adb93cb3601e8f996638e0"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scenes/Managers/GamePlay.unity",
+      "sha256": "50a81eb5689c9a3748a24aa9c405c9dd56999a83035ac44c30d026847154486d"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scenes/Managers/PersistentManagers.unity",
+      "sha256": "95aacb51a617b80b437982ede41d2b8fa026ed35546cedc34d026fd0cc749729"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/SelectCharacter/Assassin.asset",
+      "sha256": "6605e6ef870fcabf12ced69f27145b2b6941cc0d46880803f77fa1353c0fb588"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/SelectCharacter/Mage.asset",
+      "sha256": "e1e783c40a2c5e85343c2dc0e34ffd9bce3d10fc74d363846eb7d67a027cdc46"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/SelectLevel/FirstLevel.asset",
+      "sha256": "0054619cd78d9a7e900137643ba3970ced4796588e76210a7acdc2b982b3327f"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Level/SelectLevel/SecondLevel.asset",
+      "sha256": "eba503b03ed274c137248b23480dd6f166ae65f496ee7763a1e125f0680e9170"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/Input/InputReader.cs",
+      "sha256": "bb3316e0991d1b5f6409f62b8054c1994226a56cad057c3fa5565b1ff2ba9dc3"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/System/Save/SaveGame.cs",
+      "sha256": "f28b2e6303c1de7fd8a725fa73b391e2f7cfdaae690564cb9f52d784b3485da5"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/System/Save/SaveSystemSO.cs",
+      "sha256": "412d19937a2705a6c3c6ef2e09f4cbe9848355919ea93668598fbc3765918050"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/UI/FadeController.cs",
+      "sha256": "750c3c0210fd1fe23c73d08247c99e4d04ab1584e8f6d9f58db853371e64f3e6"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/HealthUI.cs",
+      "sha256": "45076d752353e5affc1c85c7b4f14dfa1334688229d80ea4a86fe79b0e49bd22"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/LevelUI.cs",
+      "sha256": "9806ae0b1cb1d6aa588fe511b928ef3b658eaa52a31a91414d037856c1fc68d9"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/SkillIconPanel.cs",
+      "sha256": "518030bd1f3924f7373e83a196b1dff00eddc86baba2a9891585cc9d8c25a7b6"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/TreasurePanel.cs",
+      "sha256": "118fc45e261f7b8dbf04b370f1ea3ea559558dc8cff2d28e753e5d31a18475a0"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillItem.cs",
+      "sha256": "ac62a6bf581c570ef23f1e4e2aa237b88d3aed89633b2a9436fad385df263608"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillPanel.cs",
+      "sha256": "c9b076789d359f63d295a06dc38ae2f0ad5ad73ea92c81da940835a3007f99d4"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/UI/LoadingInterfaceController.cs",
+      "sha256": "996d60452a8b4241067a57cd7cc81c4ef1d645dacd607766710a44f61e9d4845"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/CharacterSelect/CharacterSelectPanel.cs",
+      "sha256": "a61bc42d73b7a9e458852009eaa18ee27882ef55764dfbcb84ac333d3640671a"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/CoinCountInGame.cs",
+      "sha256": "9e1da7acea56d854675cb51a56738a005374dba539a17967922dd9c545964ab8"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/GameEndPanel.cs",
+      "sha256": "8d54759e08fbe0cf3c10c1e111753842ed8e6e2c3879a93df14bc46ba265d6a4"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/KillCountInGame.cs",
+      "sha256": "110646d838cde87b9aa481f54c2bdeee143c865728e41ca252619b36b7ab6cc8"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/LevelSelect/LevelSelectPanel.cs",
+      "sha256": "74a8fc2faff11bd0edb879a553b0a3ec868eb6a01dde60c55880e7ff15e281e7"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/PowerUp/PowerUpAttributeUpgrade.cs",
+      "sha256": "44557f141779858c9b7c303c9368780213263153695f34706c7c67864dd28c6c"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/PowerUp/PowerUpDescription.cs",
+      "sha256": "afc11204037352b13b38c57e146489371d037afd2c39a7b1499c32a6d9bad7a6"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/UIMainMenu.cs",
+      "sha256": "5f0b229a095ab39136e258c84a6db931db0758477b9084bcf065a06f075fde3c"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/UIMenuManager.cs",
+      "sha256": "a9a12fbc5f0ebea81a0ecff46b3b3d8cd0f8d2c7efa2b96c9843aaa64a678646"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Setting/SettingItem.cs",
+      "sha256": "a7840aee8836d0eb87dcd8b4f843ff520188a99a54315527165ee0317b311e54"
+    },
+    {
+      "file": "Assets/RGame/RoguelikeKit/Scripts/UI/Setting/SettingPanel.cs",
+      "sha256": "246b7a8bb0d081d3ed56e5030da701ade6f4a98d19a40c04d2bcf2df1a71444a"
+    }
+  ],
+  "noEvidenceWithinGameKit": [
+    "login/account/server selection/network patcher",
+    "full inventory/warehouse/equipment/forge/trade",
+    "friends/chat/mail/party/guild/mounts",
+    "shop/purchase-sell-currency exchange distinct from PowerUp and unlock",
+    "daily check-in/events/achievement/leaderboard",
+    "reroll/skip/banish/revive/refund"
+  ],
+  "negativeSearchScope": [
+    "Assets/RGame/RoguelikeKit/Scripts",
+    "Assets/RGame/RoguelikeKit/Prefabs/UI",
+    "Assets/RGame/RoguelikeKit/Scenes"
+  ],
+  "negativeEvidenceLimit": "No evidence in this commit and inspected scope; framework/TMP/editor examples and orphan Inventory event names are not production feature evidence",
+  "oldNineScreenGaps": [
+    "separate main menu -> character -> level flow",
+    "locked characters / 500 coin unlock / insufficient feedback",
+    "2 real configured levels, old 3 levels and 90 seconds are not source facts",
+    "14 PowerUp entries with 1/2/3/5 ranks rather than 3 sample entries",
+    "seven settings instead of two toggles",
+    "12 skill slots and in-run coins",
+    "new skill, passive and MoneyBag upgrade variants",
+    "treasure reveal and multi-reward confirmation",
+    "loading, save/load error and quit confirmation",
+    "codex is suggested addition, not source-confirmed UI"
+  ]
+}

@@ -1,0 +1,589 @@
+{
+  "id": "13-level-detail",
+  "viewport": [
+    1920,
+    1080
+  ],
+  "designSize": [
+    1920,
+    1080
+  ],
+  "textRegions": [
+    {
+      "text": "☯",
+      "tag": "DIV",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "48px",
+      "fontWeight": "400",
+      "color": "rgb(255, 240, 199)",
+      "alignment": "start",
+      "lineHeight": "48px",
+      "rects": [
+        {
+          "x": 63,
+          "y": 22,
+          "width": 48,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "text": "道途幸存者",
+      "tag": "H1",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "33px",
+      "fontWeight": "600",
+      "color": "rgb(255, 240, 199)",
+      "alignment": "start",
+      "lineHeight": "44.55px",
+      "rects": [
+        {
+          "x": 137,
+          "y": 23,
+          "width": 200,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "text": "一 念 入 道 · 万 妖 退 散",
+      "tag": "P",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(209, 202, 161)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 137,
+          "y": 74.55,
+          "width": 214.52,
+          "height": 17
+        }
+      ]
+    },
+    {
+      "text": "秘境选择",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "color": "rgb(213, 213, 172)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 420.52,
+          "y": 46.5,
+          "width": 76,
+          "height": 27
+        }
+      ]
+    },
+    {
+      "text": "金币",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(223, 221, 186)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1657.53,
+          "y": 43,
+          "width": 32,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "text": "5,000",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "23px",
+      "fontWeight": "700",
+      "color": "rgb(250, 227, 168)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1701.53,
+          "y": 38,
+          "width": 57.47,
+          "height": 34
+        }
+      ]
+    },
+    {
+      "text": "山门",
+      "tag": "BUTTON",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "color": "rgb(244, 230, 187)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1809.5,
+          "y": 41.5,
+          "width": 46,
+          "height": 32
+        }
+      ]
+    },
+    {
+      "text": "选择秘境",
+      "tag": "DIV",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "38px",
+      "fontWeight": "400",
+      "color": "rgb(255, 241, 192)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 870,
+          "y": 150,
+          "width": 180,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "text": "择一处秘境，开启此番历练",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "21px",
+      "fontWeight": "400",
+      "color": "rgb(101, 120, 91)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 152,
+          "y": 273,
+          "width": 276,
+          "height": 30
+        }
+      ]
+    },
+    {
+      "text": "壹境 · 贰境",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(141, 140, 108)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1662.92,
+          "y": 275,
+          "width": 105.08,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "壹",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "23px",
+      "fontWeight": "400",
+      "color": "rgb(244, 228, 181)",
+      "alignment": "left",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 189,
+          "y": 365,
+          "width": 23,
+          "height": 34
+        }
+      ]
+    },
+    {
+      "text": "初入山门 · 妖潮历练",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(143, 148, 119)",
+      "alignment": "left",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 414,
+          "y": 379,
+          "width": 173.17,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "text": "翠竹初境",
+      "tag": "H3",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "32px",
+      "fontWeight": "700",
+      "color": "rgb(58, 96, 63)",
+      "alignment": "left",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 414,
+          "y": 413,
+          "width": 144,
+          "height": 46
+        }
+      ]
+    },
+    {
+      "text": "翠竹掩古道，灵气引妖来。",
+      "tag": "P",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(137, 145, 115)",
+      "alignment": "left",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 414,
+          "y": 473,
+          "width": 240,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "选择",
+      "tag": "DIV",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(125, 143, 104)",
+      "alignment": "left",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1155,
+          "y": 418,
+          "width": 36,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "贰",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "23px",
+      "fontWeight": "400",
+      "color": "rgb(244, 228, 181)",
+      "alignment": "left",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 190,
+          "y": 600,
+          "width": 23,
+          "height": 34
+        }
+      ]
+    },
+    {
+      "text": "再探幽谷 · 深入历练",
+      "tag": "SMALL",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(143, 148, 119)",
+      "alignment": "left",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 415,
+          "y": 614,
+          "width": 173.17,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "text": "翠竹深境",
+      "tag": "H3",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "32px",
+      "fontWeight": "700",
+      "color": "rgb(58, 96, 63)",
+      "alignment": "left",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 415,
+          "y": 648,
+          "width": 144,
+          "height": 46
+        }
+      ]
+    },
+    {
+      "text": "沿着竹径深处，继续问道之行。",
+      "tag": "P",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(137, 145, 115)",
+      "alignment": "left",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 415,
+          "y": 708,
+          "width": 280,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "已选",
+      "tag": "DIV",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(255, 240, 195)",
+      "alignment": "left",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1143,
+          "y": 658,
+          "width": 36,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "本次历练",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "color": "rgb(90, 121, 88)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1296,
+          "y": 574,
+          "width": 76,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "text": "翠竹深境",
+      "tag": "H3",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "31px",
+      "fontWeight": "700",
+      "color": "rgb(59, 101, 67)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1278,
+          "y": 616,
+          "width": 140,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "text": "妖灵随波而来，道法由心而生。",
+      "tag": "P",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(132, 145, 113)",
+      "alignment": "start",
+      "lineHeight": "38px",
+      "rects": [
+        {
+          "x": 1278,
+          "y": 676,
+          "width": 280,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "清尽此境诸妖，方可道成归来。",
+      "tag": "P",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(132, 145, 113)",
+      "alignment": "start",
+      "lineHeight": "38px",
+      "rects": [
+        {
+          "x": 1278,
+          "y": 714,
+          "width": 280,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "text": "返回选择道友",
+      "tag": "BUTTON",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "25px",
+      "fontWeight": "400",
+      "color": "rgb(62, 83, 55)",
+      "alignment": "center",
+      "lineHeight": "32.5px",
+      "rects": [
+        {
+          "x": 198,
+          "y": 837.75,
+          "width": 168,
+          "height": 36
+        }
+      ]
+    },
+    {
+      "text": "确认秘境 · 开始历练",
+      "tag": "BUTTON",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "25px",
+      "fontWeight": "400",
+      "color": "rgb(255, 241, 196)",
+      "alignment": "center",
+      "lineHeight": "32.5px",
+      "rects": [
+        {
+          "x": 1430.89,
+          "y": 837.75,
+          "width": 269.2,
+          "height": 36
+        }
+      ]
+    },
+    {
+      "text": "‹ 返回山门",
+      "tag": "BUTTON",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(243, 228, 183)",
+      "alignment": "center",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 86,
+          "y": 1015,
+          "width": 81.47,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "text": "心有所守，道自长明。",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "color": "rgb(225, 230, 199)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 193.47,
+          "y": 1015.5,
+          "width": 170,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "text": "☯",
+      "tag": "SPAN",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(225, 230, 199)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 1824,
+          "y": 1018,
+          "width": 16,
+          "height": 20
+        }
+      ]
+    }
+  ],
+  "imageLayers": [
+    {
+      "asset": "art/illustrations/lobby-v1.png",
+      "naturalSize": [
+        1672,
+        941
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/icons/gold.png",
+      "naturalSize": [
+        512,
+        512
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/illustrations/arena-v1.png",
+      "naturalSize": [
+        1672,
+        941
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/illustrations/arena-v1.png",
+      "naturalSize": [
+        1672,
+        941
+      ],
+      "broken": false
+    },
+    {
+      "asset": "art/illustrations/arena-v1.png",
+      "naturalSize": [
+        1672,
+        941
+      ],
+      "broken": false
+    }
+  ],
+  "overflowText": [],
+  "renderOperation": "Browser DOM layout and compositing; not AI image generation or Unity runtime.",
+  "artSources": [
+    "art/illustrations/lobby-v1.png",
+    "art/icons/gold.png",
+    "art/illustrations/arena-v1.png",
+    "art/common/main_frame.png",
+    "art/common/title_plate.png",
+    "art/common/button_primary.png",
+    "art/common/button_secondary.png"
+  ],
+  "screenSha256": "a4654d7ce539efe8b35310dcd9e893acd8a452b0ac8fa765e7b745bdb2dd7a58"
+}

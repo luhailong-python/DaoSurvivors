@@ -1,0 +1,19 @@
+{
+  "file": "art/whole-game/support/exp-80.png",
+  "source": "E:\\work\\image\\DaoSurvivors\\art\\icons\\exp.png",
+  "sourceSha256": "e613158afd46563bfa0e3536ed1c798e0e3b3a66d1a37a228382e40fc1c56b37",
+  "operation": "HSV hue recolour to amber; original Alpha/value preserved",
+  "newGeneration": false,
+  "newAIEdit": false,
+  "canvas": [
+    512,
+    512
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "zeroAlphaPixels": 217494,
+  "sha256": "89ea5d926fcc770cf80f45ca49ade65ef7faa5e432aacb4008ce442bf61f77b1"
+}

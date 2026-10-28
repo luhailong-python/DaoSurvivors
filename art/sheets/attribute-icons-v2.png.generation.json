@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "file": "attribute-icons-v2.png",
+  "projectRelativeOutput": "art/sheets/attribute-icons-v2.png",
+  "absoluteOutput": "E:\\work\\image\\DaoSurvivors\\art\\sheets\\attribute-icons-v2.png",
+  "sha256": "cfdf30c000bf9e3243734f45376188b472eb95beeb9b9abce851ab82223ae521",
+  "bytes": 2286724,
+  "generatedAt": "2026-10-26T06:31:18.7019763-04:00",
+  "generatedAtUtc": "2026-10-26T10:31:18.7019763Z",
+  "generatedAtBasis": "Original host output LastWriteTimeUtc converted to America/New_York; file persistence evidence, not verified backend job duration.",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "transparent": true,
+  "tool": "image_gen__imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "configSnapshotEvidence": {
+    "file": "F:\\work\\image\\config\\image-generation.json",
+    "sha256": "9d8a6972715aedfe56438cdbb34c375d94f06709a69cd2c1284dfba35fec66d1"
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "promptFile": "docs/production/attribute-icons-v2.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露具体型号与质量；通用C2PA gpt-image标签不能证明Sunburst分支或max。",
+  "prompt": "docs/production/attribute-icons-v2.prompt.txt",
+  "promptSha256": "592962170b3230cf33b27a02255ef4a45a2db1b35bcd6afc3d9d3bab7c624fae",
+  "references": [
+    {
+      "file": "F:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "道家Q版高清手绘风格参考"
+    },
+    {
+      "file": "F:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "道家Q版高清手绘风格参考"
+    }
+  ],
+  "evidence": {
+    "receipt": "docs/production/attribute-icons-v2.receipt.json",
+    "receiptSha256": "fcf859c8990c5e6386eb379ad233997373a2826e932a37c1090e2f84facaa714",
+    "sourceArtifact": "C:\\Users\\luyua\\.codex\\generated_images\\01a17784-7bd6-7ee0-b3b0-353fcf2e1606\\exec-cdcbf1d9-d1db-47a9-a704-76f9b7795cb7.png",
+    "sourceArtifactSha256": "cfdf30c000bf9e3243734f45376188b472eb95beeb9b9abce851ab82223ae521",
+    "toolReturnFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "c2pa": {
+      "present": true,
+      "manifests": [
+        {
+          "container": "PNG caBX/JUMBF",
+          "bytes": 23654,
+          "sha256": "9179ff08a85d9252b0b07f441682f38629738c5b59f7d16554ab5c621cf0f758",
+          "actions": [
+            {
+              "action": "c2pa.created",
+              "when": "2026-10-26T10:31:12.312415279Z",
+              "softwareAgent": {
+                "name": "ChatGPT",
+                "version": "gpt-image"
+              },
+              "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia"
+            },
+            {
+              "action": "c2pa.converted",
+              "when": "2026-10-26T10:31:12.312418941Z"
+            },
+            {
+              "action": "c2pa.watermarked.unbound",
+              "when": "2026-10-26T10:31:12.310544550Z"
+            }
+          ],
+          "cryptographicSignatureValidated": false,
+          "note": "Read embedded assertion fields only; generic gpt-image does not identify a backend snapshot or quality."
+        }
+      ],
+      "backendModelDisclosed": false,
+      "qualityDisclosed": false,
+      "signatureValidationStatus": "未执行签名及信任链验证"
+    }
+  },
+  "officialVerification": {
+    "verifiedOn": "2026-10-26",
+    "performedBy": "parent/root before generation",
+    "modelTarget": "gpt-image-2.5-sunburst",
+    "qualityTarget": "max",
+    "sources": [
+      "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    ],
+    "scope": "Configuration capability only, not this call's actual model/quality evidence"
+  },
+  "operation": {
+    "kind": "byte-for-byte adoption",
+    "sourceBytesEqualOutput": true,
+    "crop": null,
+    "resize": null,
+    "nativeOutputPreserved": true
+  },
+  "qc": {
+    "rawNominalGrid": "failed; do not cut equal 4x4 cells",
+    "rawQCRecord": "docs/production/attribute-icons-v2-qc/sheet-qc.json",
+    "adoptedSlicing": "row-specific native ownership rectangles; all source pixels conserved",
+    "sliceManifest": "docs/icon-atlas1-slices.json"
+  },
+  "visualReview": {
+    "reviewed": true,
+    "reviewedOutput": "docs/icon-atlas1-slices.json",
+    "rawAtlasNominalGrid": "not accepted for equal-cell cuts",
+    "adoptedOwnershipSlices": "16 icons inspected on light/dark; no visible clipping or neighbor intrusions",
+    "nativeAlpha": "preserved including very faint haze/specks; no matte cleaning"
+  }
+}
