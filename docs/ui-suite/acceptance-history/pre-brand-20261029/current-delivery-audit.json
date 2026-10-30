@@ -1,0 +1,3119 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-28T10:25:45.437001+00:00",
+  "clientDate": "2026-10-28",
+  "scope": "Accepted UI-only subset from docs/ui-suite/accepted-ui-resource-receipt.json, checked against disk and current art/manifest.json. Does not certify non-UI art, player animation or Unity execution.",
+  "status": "accepted_ui_art_unchanged",
+  "summary": {
+    "screens": 52,
+    "layoutFiles": 52,
+    "acceptedScreenHashesMatched": 52,
+    "manifestFiles": 88,
+    "uiSubsetReceipt": "docs/ui-suite/accepted-ui-resource-receipt.json",
+    "currentWholeArtManifestFileCount": 321,
+    "manifestHashesMatched": 88,
+    "deliveryRoles": {
+      "independent_art_resource": 68,
+      "source_support_for_formal_controls": 13,
+      "license": 1,
+      "review_only": 4,
+      "production_source_sheet_do_not_equal_grid_slice": 2
+    },
+    "stateFamilies": 3,
+    "stateFiles": 15,
+    "provenanceSnapshots": 44,
+    "provenanceSnapshotHashesMatched": 44,
+    "missingFilesOrTechnicalIssues": 0
+  },
+  "visualReview": {
+    "method": "Viewed all seven existing contact sheets in this continuation; retained approved screen originals.",
+    "contactSheets": [
+      "designs/ui-suite/review/contact-01-08.jpg",
+      "designs/ui-suite/review/contact-09-16.jpg",
+      "designs/ui-suite/review/contact-17-24.jpg",
+      "designs/ui-suite/review/contact-25-32.jpg",
+      "designs/ui-suite/review/contact-33-40.jpg",
+      "designs/ui-suite/review/contact-41-48.jpg",
+      "designs/ui-suite/review/contact-49-52.jpg"
+    ],
+    "finding": "Consistent jade/ivory/gold frames, readable state hierarchy and aligned controls; no new layout defect observed at contact-sheet scale. Existing original-resolution reviews remain applicable because all accepted screen and preview-source hashes match.",
+    "notRepeated": "No rerendering, no new responsive or Unity execution tests, no per-screen original-resolution re-review in this continuation."
+  },
+  "limitations": [
+    "Raw icon sheets retain recorded fail/warn results; approved ownership slicing is the formal resource route. Do not equal-grid slice originals.",
+    "Native faint alpha specks remain; no cleaning or claimed new 512-pixel detail.",
+    "Model and quality remain unconfirmed wherever the native image endpoint did not disclose them.",
+    "UI acceptance uses an immutable 88-file resource receipt; the current art/manifest.json may also contain non-UI whole-game resources that this audit does not certify.",
+    "Unity import, font atlases, nine-slice rendering, actual interactions and device execution are deferred by user instruction."
+  ],
+  "recommendedDeliveryLinks": [
+    "designs/ui-suite/preview/index.html",
+    "designs/ui-suite/screens/",
+    "designs/ui-suite/layouts/",
+    "docs/ui-suite/UI_COVERAGE.md",
+    "docs/ui-suite/ACCEPTANCE.md",
+    "docs/ui-suite/UNITY_ART_IMPORT.md",
+    "art/manifest.json",
+    "docs/image-reference-associations.md"
+  ],
+  "issues": [],
+  "controlFamilies": {
+    "list_row": [
+      {
+        "file": "art/common/controls/list_row_disabled.png",
+        "state": "disabled",
+        "dimensions": [
+          360,
+          96
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          82,
+          31,
+          82,
+          27
+        ]
+      },
+      {
+        "file": "art/common/controls/list_row_locked.png",
+        "state": "locked",
+        "dimensions": [
+          360,
+          96
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          82,
+          31,
+          82,
+          27
+        ]
+      },
+      {
+        "file": "art/common/controls/list_row_normal.png",
+        "state": "normal",
+        "dimensions": [
+          360,
+          96
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          82,
+          31,
+          82,
+          27
+        ]
+      },
+      {
+        "file": "art/common/controls/list_row_pressed.png",
+        "state": "pressed",
+        "dimensions": [
+          360,
+          96
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          82,
+          31,
+          82,
+          27
+        ]
+      },
+      {
+        "file": "art/common/controls/list_row_selected.png",
+        "state": "selected",
+        "dimensions": [
+          360,
+          96
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          82,
+          31,
+          82,
+          27
+        ]
+      }
+    ],
+    "primary_button": [
+      {
+        "file": "art/common/controls/primary_button_disabled.png",
+        "state": "disabled",
+        "dimensions": [
+          460,
+          112
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          82,
+          34,
+          82,
+          30
+        ]
+      },
+      {
+        "file": "art/common/controls/primary_button_locked.png",
+        "state": "locked",
+        "dimensions": [
+          460,
+          112
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          82,
+          34,
+          82,
+          30
+        ]
+      },
+      {
+        "file": "art/common/controls/primary_button_normal.png",
+        "state": "normal",
+        "dimensions": [
+          460,
+          112
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          82,
+          34,
+          82,
+          30
+        ]
+      },
+      {
+        "file": "art/common/controls/primary_button_pressed.png",
+        "state": "pressed",
+        "dimensions": [
+          460,
+          112
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          82,
+          34,
+          82,
+          30
+        ]
+      },
+      {
+        "file": "art/common/controls/primary_button_selected.png",
+        "state": "selected",
+        "dimensions": [
+          460,
+          112
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          82,
+          34,
+          82,
+          30
+        ]
+      }
+    ],
+    "tab": [
+      {
+        "file": "art/common/controls/tab_disabled.png",
+        "state": "disabled",
+        "dimensions": [
+          360,
+          114
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          82,
+          34,
+          82,
+          30
+        ]
+      },
+      {
+        "file": "art/common/controls/tab_locked.png",
+        "state": "locked",
+        "dimensions": [
+          360,
+          114
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          82,
+          34,
+          82,
+          30
+        ]
+      },
+      {
+        "file": "art/common/controls/tab_normal.png",
+        "state": "normal",
+        "dimensions": [
+          360,
+          114
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          82,
+          34,
+          82,
+          30
+        ]
+      },
+      {
+        "file": "art/common/controls/tab_pressed.png",
+        "state": "pressed",
+        "dimensions": [
+          360,
+          114
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          82,
+          34,
+          82,
+          30
+        ]
+      },
+      {
+        "file": "art/common/controls/tab_selected.png",
+        "state": "selected",
+        "dimensions": [
+          360,
+          114
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          82,
+          34,
+          82,
+          30
+        ]
+      }
+    ]
+  },
+  "sourceFiles": [
+    {
+      "file": "designs/ui-suite/preview/index.html",
+      "exists": true,
+      "matchesAcceptedReview": true
+    },
+    {
+      "file": "designs/ui-suite/preview/style.css",
+      "exists": true,
+      "matchesAcceptedReview": true
+    },
+    {
+      "file": "designs/ui-suite/preview/menu.css",
+      "exists": true,
+      "matchesAcceptedReview": true
+    },
+    {
+      "file": "designs/ui-suite/preview/suite.js",
+      "exists": true,
+      "matchesAcceptedReview": true
+    },
+    {
+      "file": "designs/ui-suite/preview/menu.js",
+      "exists": true,
+      "matchesAcceptedReview": true
+    }
+  ],
+  "provenanceSnapshots": [
+    {
+      "file": "docs/provenance/art-reference/designs/attribute-panels/v2-painted/unity-slices/README.md",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/attribute-panels/v2-painted/unity-slices/manifest.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/class-skills-20260928/DESIGN.md",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/class-skills-20260928/catalog.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/class-skills-20260928/icons-style-20261021/README.md",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/class-skills-20260928/icons-style-20261021/icons/1102.png.generation.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/class-skills-20260928/icons-style-20261021/icons/1106.png.generation.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/class-skills-20260928/icons-style-20261021/icons/1107.png.generation.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/class-skills-20260928/icons-style-20261021/icons/1108.png.generation.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/class-skills-20260928/icons-style-20261021/icons/1202.png.generation.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/class-skills-20260928/icons-style-20261021/icons/1203.png.generation.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/class-skills-20260928/icons-style-20261021/icons/1205.png.generation.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/class-skills-20260928/icons-style-20261021/icons/1401.png.generation.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/class-skills-20260928/icons-style-20261021/icons/1404.png.generation.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/class-skills-20260928/icons-style-20261021/manifest.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/creature-combat-20261005/pets/04-guideng/README.md",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/creature-combat-20261005/pets/04-guideng/manifest.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/creature-combat-20261005/pets/04-guideng/records/E-attack/01.generation.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/README.md",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/manifest.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/records/attack-E-01.generation.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/creature-combat-20261005/pets/legacy-fu-xiao-hu/runtime/attack/E/01.png.generation.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/equipment-ui-20261008/README.md",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/equipment-ui-20261008/equipment-icons.png.generation.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/equipment-ui-20261008/sprite-manifest.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/equipment-ui-20261008/sprites/checkbox_off.png.generation.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/equipment-ui-20261008/sprites/checkbox_on.png.generation.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/equipment-ui-20261008/sprites/icon_boots.png.generation.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/equipment-ui-20261008/sprites/icon_sword.png.generation.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/guild-ui-v2/README.md",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/guild-ui-v2/asset-manifest.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/team-ui-v2/asset-manifest.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/team-ui-v2/source/generation.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/team-ui-v2/unity-slices/README.md",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/designs/team-ui-v2/unity-slices/manifest.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/docs/QDAO_ART_DIRECTION.md",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/qdao_chibi_game_pack_v4/manifest.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/qdao_ui_redesign_v5/components/README.md",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/qdao_ui_redesign_v5/components/manifest.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/qdao_ui_redesign_v5/pet/README.md",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/qdao_ui_redesign_v5/pet/manifest.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/qdao_ui_style_recut_v10/artwork/index.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/qdao_ui_style_recut_v10/source-map.attributes.json",
+      "matchesAcceptedManifest": true
+    },
+    {
+      "file": "docs/provenance/art-reference/qdao_ui_style_recut_v10/source-map.common.json",
+      "matchesAcceptedManifest": true
+    }
+  ],
+  "files": [
+    {
+      "file": "art/characters/enemy-lantern.png",
+      "exists": true,
+      "sha256": "cb9fd0d4187c8fc654cceb388c0672d465d1373e47ed17aa1acd7b9a75b66341",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/ASSET_SOURCES.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/characters/enemy-tiger.png",
+      "exists": true,
+      "sha256": "3f4e0639c59e43ff3bd50bd26e903a5977a5e68910eff6a43d13a4454252a3ce",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/ASSET_SOURCES.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/characters/fox.png",
+      "exists": true,
+      "sha256": "eb55d459871737d1c49ff49097d1c7612cf60a35095c60bfca0198e425c04b11",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/ASSET_SOURCES.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/characters/healer.png",
+      "exists": true,
+      "sha256": "ad13960429287eaba81d33a8af49845150cd7619bb9a02bf00894af63b3c032e",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/ASSET_SOURCES.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/characters/hero.png",
+      "exists": true,
+      "sha256": "de0c3e6d71d7c3dbbfed313e7971b2b8220e27d3e79aafa617b225d3e322706d",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/ASSET_SOURCES.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/characters/sword.png",
+      "exists": true,
+      "sha256": "ea2228db505fbc057da4b4056d08e9bd00ddc0832921e1b37b148ac703b43989",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/ASSET_SOURCES.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/application_card.png",
+      "exists": true,
+      "sha256": "3296c51cee62208be6f4af16d5009999384edb2dacaa6ef88f52eda2192e6d2e",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        631,
+        198
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/ASSET_SOURCES.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/button_primary.png",
+      "exists": true,
+      "sha256": "601439876422eb7cc1375b40960702c46e16728025d979d8d30b9b3dd4e1c4ea",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        225,
+        66
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/ASSET_SOURCES.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/button_secondary.png",
+      "exists": true,
+      "sha256": "d1703b1c9ea3bb659addd4682a76d7955d045ddd6652e9312769352dc2fcdecc",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        220,
+        66
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/ASSET_SOURCES.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/close.png",
+      "exists": true,
+      "sha256": "26b3ccd040e44df84573174ab22bbfe72bceacc35dd96f5538c879ccfb8df3cc",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        82,
+        82
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/ASSET_SOURCES.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/controls/list_row_disabled.png",
+      "exists": true,
+      "sha256": "eaea89ec3a4a646b503f5f723f13affec30b3e38d3000b3e3e85bf23cb7b13b9",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        360,
+        96
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        122
+      ],
+      "provenanceRecord": "docs/control-state-derivations.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/controls/list_row_locked.png",
+      "exists": true,
+      "sha256": "e392bb4bc9180cd9c3eb99d8b67aeb961cbc739dc02500c19474d4d3317b6ed1",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        360,
+        96
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/control-state-derivations.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/controls/list_row_normal.png",
+      "exists": true,
+      "sha256": "cd8415446563f7b0b2f7583fc77f6467c0e04b3b4cd68856adb8d0d1f6500892",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        360,
+        96
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/control-state-derivations.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/controls/list_row_pressed.png",
+      "exists": true,
+      "sha256": "d9975c8e10717e1de37c8f3336260041036e1c624abf6bfa77cf9ad52a51b3d4",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        360,
+        96
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/control-state-derivations.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/controls/list_row_selected.png",
+      "exists": true,
+      "sha256": "841a8bba5c31946986af399ddfe5abf1d2c9879467e8a2cfe98e6cd7babee925",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        360,
+        96
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/control-state-derivations.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/controls/primary_button_disabled.png",
+      "exists": true,
+      "sha256": "9609c84fe40c1cd5baed94da74ef79fc1b1687bf6925df295bf5e08ccceadaa6",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        460,
+        112
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        122
+      ],
+      "provenanceRecord": "docs/control-state-derivations.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/controls/primary_button_locked.png",
+      "exists": true,
+      "sha256": "25a53724f4a5c20efa3bb9b7e885478c92cc475775ac42f430fcc0c685351f8e",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        460,
+        112
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/control-state-derivations.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/controls/primary_button_normal.png",
+      "exists": true,
+      "sha256": "6f352d7c3b21ae2d1b5d2d0cce08ab5f0d31b951362ce6f7d8f93547b5080777",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        460,
+        112
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/control-state-derivations.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/controls/primary_button_pressed.png",
+      "exists": true,
+      "sha256": "6b2953e8451adbbb1189074a8a1593bbfc26d6bb5e4fc67c11e9a461639c8e26",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        460,
+        112
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/control-state-derivations.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/controls/primary_button_selected.png",
+      "exists": true,
+      "sha256": "48c2336c9c4ca74f389a0c58752e111a1161cfe67e9539ace39ce51694f39d26",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        460,
+        112
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/control-state-derivations.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/controls/tab_disabled.png",
+      "exists": true,
+      "sha256": "495bb8847313791f0aff2cf4b5b5df22ec41b7cfa10416f5b41e1bd74d36a510",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        360,
+        114
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        122
+      ],
+      "provenanceRecord": "docs/control-state-derivations.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/controls/tab_locked.png",
+      "exists": true,
+      "sha256": "46ee8527d434fe48c31c93cb7ea835e226ec61188b762de1bfb5a38a94ce694c",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        360,
+        114
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/control-state-derivations.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/controls/tab_normal.png",
+      "exists": true,
+      "sha256": "739afbf15673e6818831744e3d17223597a5340db81f758f769dbca5ad834c50",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        360,
+        114
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/control-state-derivations.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/controls/tab_pressed.png",
+      "exists": true,
+      "sha256": "885db2e57837989c9fc6a1a55346b2428083f538b4e31b55cf70dd7009dce68b",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        360,
+        114
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/control-state-derivations.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/controls/tab_selected.png",
+      "exists": true,
+      "sha256": "e6a73b3841ba899b9599ce7790b52edbfb5993a0e63897afc8b61742b1f49e5a",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        360,
+        114
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/control-state-derivations.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/main_frame.png",
+      "exists": true,
+      "sha256": "7aba0f0d6834a5f70eeb29c4308d57f171594e3e9894921569fdd6a602720663",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        1546,
+        743
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/art-extension-sources.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/member_row.png",
+      "exists": true,
+      "sha256": "706797419d8d1d8daa67b3915af7b53a01f760ae5590ed5214655985a79a155b",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        851,
+        97
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/ASSET_SOURCES.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/portrait_frame.png",
+      "exists": true,
+      "sha256": "920d271ede006157ef337f2467f666d5189f5ee9d7ec4d0cde9ac5626a35d945",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        91,
+        91
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/ASSET_SOURCES.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/section_plate.png",
+      "exists": true,
+      "sha256": "0233d6e1ba16bd2b4b7c11a5a4680ef61fae9b1c6b161c3f3d28f047d23c305f",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        433,
+        72
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/ASSET_SOURCES.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/states/check.png",
+      "exists": true,
+      "sha256": "9d3796e4bae844c78be1b8717946f2f9fef965029ca02bc298f291fe893bc41e",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        48,
+        48
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/art-extension-sources.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/states/checkbox_off.png",
+      "exists": true,
+      "sha256": "76b6c9f4246d3e979010fe65002dc5566f816f4008892e2a6ef541a747f49407",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        98,
+        98
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "provenanceRecord": "docs/art-extension-sources.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/states/checkbox_on.png",
+      "exists": true,
+      "sha256": "35cf5de473b3a6273b1e81113bf4f26852950f9057d1e15382ced690e6af250c",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        98,
+        98
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "provenanceRecord": "docs/art-extension-sources.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/states/list_row_disabled.png",
+      "exists": true,
+      "sha256": "e392bb4bc9180cd9c3eb99d8b67aeb961cbc739dc02500c19474d4d3317b6ed1",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        360,
+        96
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/art-extension-sources.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/states/list_row_normal.png",
+      "exists": true,
+      "sha256": "cd8415446563f7b0b2f7583fc77f6467c0e04b3b4cd68856adb8d0d1f6500892",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        360,
+        96
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/art-extension-sources.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/states/list_row_selected.png",
+      "exists": true,
+      "sha256": "841a8bba5c31946986af399ddfe5abf1d2c9879467e8a2cfe98e6cd7babee925",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        360,
+        96
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/art-extension-sources.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/states/lock.png",
+      "exists": true,
+      "sha256": "b758762e66962d782062318c3ce98290547a431779cfe3d26188f432c0a73149",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        48,
+        48
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/art-extension-sources.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/states/primary_button_disabled.png",
+      "exists": true,
+      "sha256": "25a53724f4a5c20efa3bb9b7e885478c92cc475775ac42f430fcc0c685351f8e",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        460,
+        112
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/art-extension-sources.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/states/primary_button_normal.png",
+      "exists": true,
+      "sha256": "6f352d7c3b21ae2d1b5d2d0cce08ab5f0d31b951362ce6f7d8f93547b5080777",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        460,
+        112
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/art-extension-sources.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/states/primary_button_selected.png",
+      "exists": true,
+      "sha256": "48c2336c9c4ca74f389a0c58752e111a1161cfe67e9539ace39ce51694f39d26",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        460,
+        112
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/art-extension-sources.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/states/tab_disabled.png",
+      "exists": true,
+      "sha256": "46ee8527d434fe48c31c93cb7ea835e226ec61188b762de1bfb5a38a94ce694c",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        360,
+        114
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/art-extension-sources.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/states/tab_normal.png",
+      "exists": true,
+      "sha256": "739afbf15673e6818831744e3d17223597a5340db81f758f769dbca5ad834c50",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        360,
+        114
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/art-extension-sources.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/states/tab_selected.png",
+      "exists": true,
+      "sha256": "e6a73b3841ba899b9599ce7790b52edbfb5993a0e63897afc8b61742b1f49e5a",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        360,
+        114
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/art-extension-sources.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/common/title_plate.png",
+      "exists": true,
+      "sha256": "b9a01536ef28813328ea538341925106c0b7fe84fe910af49e9b93abef8c96a8",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        655,
+        110
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/art-extension-sources.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/fonts/NotoSansSC-OFL.txt",
+      "exists": true,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "provenanceRecord": "docs/ASSET_SOURCES.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/fonts/NotoSansSC-Regular.otf",
+      "exists": true,
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "provenanceRecord": "docs/ASSET_SOURCES.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/attr-amount.png",
+      "exists": true,
+      "sha256": "0f172b62af41b85550a38ac492116d1875653fe6ce177bda8f86b61970c15d8d",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/attr-amount.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/attr-area.png",
+      "exists": true,
+      "sha256": "fdc04491a23ddc58d7f7d355ac05b51f90839dad3ba69dee7f30d608908068d6",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/attr-area.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/attr-armor.png",
+      "exists": true,
+      "sha256": "c804cbf05c0662a15073a71af1843d0ecc849df5dc85bb4ff36a5ed83f079291",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/attr-armor.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/attr-cooldown.png",
+      "exists": true,
+      "sha256": "f6519f266d827237ad475cf7285188b6be6152716e71406c70c01906ba8fb4b7",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/attr-cooldown.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/attr-curse.png",
+      "exists": true,
+      "sha256": "06b179a6728fe46f3c1da5e2525cfe463add6f3fc6fefd2e009d29c37d9f6cfa",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/attr-curse.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/attr-duration.png",
+      "exists": true,
+      "sha256": "1b19700840a51613a58c984a792bcbd664ff48a1aca43d340a191ba617b6d086",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/attr-duration.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/attr-greed.png",
+      "exists": true,
+      "sha256": "89e4d8aee79cb8918b90f55f77bb9f6e50343957f2421a8df6351ea38f91fb1c",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/attr-greed.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/attr-growth.png",
+      "exists": true,
+      "sha256": "0142e60c1ed494e9b779ea3738cfc13adda715037f676c166f52e0bafded2091",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/attr-growth.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/attr-hpmax.png",
+      "exists": true,
+      "sha256": "b366e3580e549f7146a95c495c3c0692957d3e1521a2cfce36a2b1f3d4d81301",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/attr-hpmax.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/attr-magnet.png",
+      "exists": true,
+      "sha256": "1b1a21fd76432d82b7512b819863a6dd79a9c08acb7de7e7e4dc61684006752f",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/attr-magnet.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/attr-might.png",
+      "exists": true,
+      "sha256": "7ac734897e38521b12d31cadf358c614132eac0eb1e7ca5c520c1e64efd50368",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/attr-might.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/attr-movespeed.png",
+      "exists": true,
+      "sha256": "30597ac9e1e710a410e557a9a276c3367f776abda1230975b32c900b7cb82598",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/attr-movespeed.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/attr-recovery.png",
+      "exists": true,
+      "sha256": "234a44ec4c888e3c5e18039d534488dcaf58e5402fc2efe1be9cf5e5f33ede95",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/attr-recovery.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/attr-skillspeed.png",
+      "exists": true,
+      "sha256": "39cb2c0d232cfbeb41fabb4afa9dd29b17d6098d78cd5615b4e64ac82cc89b2c",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/attr-skillspeed.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/buff-burn.png",
+      "exists": true,
+      "sha256": "65552ddf260a259cdd61fd3cb6dd5934ff48bf30ed73daf4353f462da0ae6280",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "provenanceRecord": "art/icons/buff-burn.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/buff-freeze.png",
+      "exists": true,
+      "sha256": "e8652e912bd4def6532102dbed7b86ceb31f1cfb300e4b157efe8b00b9ae05ce",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "provenanceRecord": "art/icons/buff-freeze.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/buff-slow.png",
+      "exists": true,
+      "sha256": "a8e662f3fed3367ac6fb9c73cb5d6d3c1e4dae96cb427b562542caa166620a98",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/buff-slow.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/exp.png",
+      "exists": true,
+      "sha256": "e613158afd46563bfa0e3536ed1c798e0e3b3a66d1a37a228382e40fc1c56b37",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/exp.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/gold.png",
+      "exists": true,
+      "sha256": "e6823525295ab33fb63720c48027dd658d1755ed906841ecafe4150c346fcbb4",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/gold.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/healing.png",
+      "exists": true,
+      "sha256": "5707d2f448176aec89aabe4c6f3a77bdd1bace967f18404cdb748c195827021d",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/healing.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/icon-boots.png",
+      "exists": true,
+      "sha256": "b980fcec5f8e7307174d45f8f74ef432dfbbbf5f3343c2067976af1a9cdbe2f5",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        600,
+        600
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/ASSET_SOURCES.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/icon-sword.png",
+      "exists": true,
+      "sha256": "4f10322dbfced9be6135fb37b07e20ee101df3b05a8954d448aeecd488be2c7f",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        600,
+        600
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/ASSET_SOURCES.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/icon-taiji.png",
+      "exists": true,
+      "sha256": "c652c5f8377541bed5c8d6c3d23ef32fe1677b9a406f80f6805e44f70846feac",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        120,
+        120
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "docs/ASSET_SOURCES.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/moneybag.png",
+      "exists": true,
+      "sha256": "89344076398a52130d3a6cc9d86231fa92a9580c2750e9e651da1a2826c05dfe",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/moneybag.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/skill-bothside.png",
+      "exists": true,
+      "sha256": "9ab746013985416372a7ba184a92f3feaccfaf5ceeb6271c385ec248dba21e19",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "provenanceRecord": "art/icons/skill-bothside.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/skill-bouncing.png",
+      "exists": true,
+      "sha256": "321aa70a2fa954f041030cbb1e49cc7d9472d5bca63274c0d695bbdb99329883",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "provenanceRecord": "art/icons/skill-bouncing.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/skill-chain.png",
+      "exists": true,
+      "sha256": "9875f453f7a4ab6c11edb5e9c9368d4620c084c361f3eb056e57c13201d85dd3",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "provenanceRecord": "art/icons/skill-chain.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/skill-circle.png",
+      "exists": true,
+      "sha256": "05793c758a93af6cf6e9efe49c7a62bab1dc87f89f0aba06034edbcec0737142",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "provenanceRecord": "art/icons/skill-circle.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/skill-fourcorner.png",
+      "exists": true,
+      "sha256": "f992585b2cb4dc2d33db9266e867fbcb6b442b8603647d3ced1a521eee58a4e5",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/skill-fourcorner.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/skill-nearest.png",
+      "exists": true,
+      "sha256": "f3fd73c4d6cdd82f85e3663e032b34d07402737f8c96efb817a3987dadd1fbae",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "provenanceRecord": "art/icons/skill-nearest.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/skill-orbit.png",
+      "exists": true,
+      "sha256": "fe90465466c6166945f74561c9b5bef2279541547d3c3bd5c58cdff56f80d446",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/skill-orbit.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/skill-random.png",
+      "exists": true,
+      "sha256": "b4009fdaf1f1c1ab3ca3cd89c7de657c42b5bfe5d70d15f45ab1731d823c4139",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "provenanceRecord": "art/icons/skill-random.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/skill-scope.png",
+      "exists": true,
+      "sha256": "f0939925d1ae99b5db2992372ee05c80fd9653e98717bb7db08992773a84d9d7",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "provenanceRecord": "art/icons/skill-scope.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/treasure-closed.png",
+      "exists": true,
+      "sha256": "ad5cc72fa0992ac253d8cea99efbcab82944eb86bb78794063e475e4cd1579c5",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/treasure-closed.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/icons/treasure-open.png",
+      "exists": true,
+      "sha256": "d6f46aac63551e0a8a3f70362eceafb641d96186ebf8a7e170e214644685531f",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/icons/treasure-open.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/illustrations/arena-v1.png",
+      "exists": true,
+      "sha256": "0e4fe4c8d1c0a7ad3e0d59d9d12979ed77a94d1d93b22b3e652fa7fe1e6ae442",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "provenanceRecord": "art/illustrations/arena-v1.png.generation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/illustrations/lobby-v1.png",
+      "exists": true,
+      "sha256": "c1d4031e9e6185855ce4d938a0d28b804a4edc0c88655dc52f735fedfe8a35a4",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "provenanceRecord": "art/illustrations/lobby-v1.png.generation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/sheets/attribute-icons-v2-review-dark.png",
+      "exists": true,
+      "sha256": "21f7d8b9843b0c5fa2bc12bf436c348bc150463647218677006cdfeef8f20518",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        1024,
+        1120
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "provenanceRecord": "docs/icon-atlas1-slices.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/sheets/attribute-icons-v2-review-light.png",
+      "exists": true,
+      "sha256": "cf258bf5a392a2d9e3420e608413cafc8534845d3c121da72970340c34b5012d",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        1024,
+        1120
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "provenanceRecord": "docs/icon-atlas1-slices.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/sheets/attribute-icons-v2.png",
+      "exists": true,
+      "sha256": "cfdf30c000bf9e3243734f45376188b472eb95beeb9b9abce851ab82223ae521",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/sheets/attribute-icons-v2.png.generation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/sheets/combat-icons-v2-review-dark.png",
+      "exists": true,
+      "sha256": "321bd172343d43cc710991fe22b94e8fc8b568296e212137c4ebff82882dfa7b",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        1024,
+        1120
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "provenanceRecord": "docs/icon-atlas2-slices.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/sheets/combat-icons-v2-review-light.png",
+      "exists": true,
+      "sha256": "f12d73554d5b249ca4f143688312dbf5c5c573bae97097b41286652687d1ad4a",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        1024,
+        1120
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "provenanceRecord": "docs/icon-atlas2-slices.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/sheets/combat-icons-v2.png",
+      "exists": true,
+      "sha256": "05d581937553a9f835792500253073a01335bc29ab6efa45f5851de59ac0ea9d",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/sheets/combat-icons-v2.png.generation.json",
+      "provenanceRecordExists": true
+    }
+  ],
+  "screens": [
+    {
+      "id": "01-startup",
+      "screen": "designs/ui-suite/screens/01-startup.png",
+      "layout": "designs/ui-suite/layouts/01-startup.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "9d278e73e39c3a2d151cc0bc90e27b3906b39ad2897adeafd1239a0c9536379f",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "02-loading",
+      "screen": "designs/ui-suite/screens/02-loading.png",
+      "layout": "designs/ui-suite/layouts/02-loading.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "47b9b1ee3773f98b5b650ffd0984ce566e0081883bb5071c6bcb77360b7f6ce3",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "03-loading-error",
+      "screen": "designs/ui-suite/screens/03-loading-error.png",
+      "layout": "designs/ui-suite/layouts/03-loading-error.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "36b8921c0ba1b9dd13648ba35d710589b5f9fd71f811af2986cfbbef21f01af2",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "04-main-menu",
+      "screen": "designs/ui-suite/screens/04-main-menu.png",
+      "layout": "designs/ui-suite/layouts/04-main-menu.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "2b75018349da7e4afc44ca2d7a8624164efe79e8e3101f8cc4819706738851b9",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "05-character-select",
+      "screen": "designs/ui-suite/screens/05-character-select.png",
+      "layout": "designs/ui-suite/layouts/05-character-select.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "5d57181219b4b726e0787b8e6ff1f1820b614d0e2395ed67ead9bf19e215bd4d",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "06-character-owned",
+      "screen": "designs/ui-suite/screens/06-character-owned.png",
+      "layout": "designs/ui-suite/layouts/06-character-owned.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "f200d969a34c75f152134d00cf4e52fa7c879851a88592f00be626e7e990fd85",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "07-character-detail",
+      "screen": "designs/ui-suite/screens/07-character-detail.png",
+      "layout": "designs/ui-suite/layouts/07-character-detail.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "09a189055844b852b338525caecc1f72cf57d2cabf5ad8a27423c07183a8f13f",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "08-unlock-confirm",
+      "screen": "designs/ui-suite/screens/08-unlock-confirm.png",
+      "layout": "designs/ui-suite/layouts/08-unlock-confirm.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "ab4ea8e86b7cd66b03febc8904c6798e84cee6e5b54c91eddd172286705f3af2",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "09-unlock-insufficient",
+      "screen": "designs/ui-suite/screens/09-unlock-insufficient.png",
+      "layout": "designs/ui-suite/layouts/09-unlock-insufficient.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "629eed9bdc26979192a98a4129272d09eb0c15425254cf0b1a50491ccac0c228",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "10-unlock-success",
+      "screen": "designs/ui-suite/screens/10-unlock-success.png",
+      "layout": "designs/ui-suite/layouts/10-unlock-success.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "e2ef2d47e4a6311fc82ebe9aeb5f66f33d126b999861cc7ddaf7b8b6328df98a",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "11-character-empty",
+      "screen": "designs/ui-suite/screens/11-character-empty.png",
+      "layout": "designs/ui-suite/layouts/11-character-empty.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "84e4d59ce7be87789bd05655ad42add6d3a4513b17c1c8c1570114ec4afa31fa",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "12-level-select",
+      "screen": "designs/ui-suite/screens/12-level-select.png",
+      "layout": "designs/ui-suite/layouts/12-level-select.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "83879e4597a8147fa1e757bdefbf41afff5e4dfebaf3623cbc067a02997ad46b",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "13-level-detail",
+      "screen": "designs/ui-suite/screens/13-level-detail.png",
+      "layout": "designs/ui-suite/layouts/13-level-detail.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "a4654d7ce539efe8b35310dcd9e893acd8a452b0ac8fa765e7b745bdb2dd7a58",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "14-level-unselected",
+      "screen": "designs/ui-suite/screens/14-level-unselected.png",
+      "layout": "designs/ui-suite/layouts/14-level-unselected.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "cc4a30cc7aca90b4080e898e888cc02c93087f256a8bb3431a8831300da9716f",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "15-level-empty",
+      "screen": "designs/ui-suite/screens/15-level-empty.png",
+      "layout": "designs/ui-suite/layouts/15-level-empty.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "1efbf85ee72a398ed3e695a00e93a803fea1d2fff5abbff5ada36f84ce551290",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "16-powerup-overview",
+      "screen": "designs/ui-suite/screens/16-powerup-overview.png",
+      "layout": "designs/ui-suite/layouts/16-powerup-overview.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "e4466fb8e00945636d508224e3f3aa0891c64e8ef26ac7e93b178c83c400a3aa",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "17-powerup-detail",
+      "screen": "designs/ui-suite/screens/17-powerup-detail.png",
+      "layout": "designs/ui-suite/layouts/17-powerup-detail.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "e4466fb8e00945636d508224e3f3aa0891c64e8ef26ac7e93b178c83c400a3aa",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "18-powerup-insufficient",
+      "screen": "designs/ui-suite/screens/18-powerup-insufficient.png",
+      "layout": "designs/ui-suite/layouts/18-powerup-insufficient.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "651d65f0f15237d625d023c178f97d889c241ce831ebf4d107bb9d4540fee912",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "19-powerup-maxed",
+      "screen": "designs/ui-suite/screens/19-powerup-maxed.png",
+      "layout": "designs/ui-suite/layouts/19-powerup-maxed.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "8b81c0c8d1ae2afb7eaaa5425e307fcd3e01f080005c0a1d0e736ad7a8e30284",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "20-powerup-success",
+      "screen": "designs/ui-suite/screens/20-powerup-success.png",
+      "layout": "designs/ui-suite/layouts/20-powerup-success.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "80e9499822bfb66b12fbc1db9960df8713b1abe1e58acce807be92be49aa8a9c",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "21-settings-audio",
+      "screen": "designs/ui-suite/screens/21-settings-audio.png",
+      "layout": "designs/ui-suite/layouts/21-settings-audio.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "bbe348097dd2efe13a3e7be5d0a211748214affbac41f30cbd543c2d95613464",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "22-settings-display",
+      "screen": "designs/ui-suite/screens/22-settings-display.png",
+      "layout": "designs/ui-suite/layouts/22-settings-display.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "97ae548725b20110e5fa54a46d38958e0d02940d3b2a784f683b114efe3d26e3",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "23-settings-language",
+      "screen": "designs/ui-suite/screens/23-settings-language.png",
+      "layout": "designs/ui-suite/layouts/23-settings-language.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "167d5b8eed88047d6c70cf8a1782095fc36ee3424342f9d8ebfc4070809ff497",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "24-display-confirm",
+      "screen": "designs/ui-suite/screens/24-display-confirm.png",
+      "layout": "designs/ui-suite/layouts/24-display-confirm.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "1e1316b7668e4b38c3e88566ae9a31e7af00294e28156dc6ac49b6e3fcb23f0b",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "25-battle-hud",
+      "screen": "designs/ui-suite/screens/25-battle-hud.png",
+      "layout": "designs/ui-suite/layouts/25-battle-hud.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "0a950fd9ec670516c7dd0c79e92c9259f66fabef545e5c8356664221b248606f",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "26-battle-build-full",
+      "screen": "designs/ui-suite/screens/26-battle-build-full.png",
+      "layout": "designs/ui-suite/layouts/26-battle-build-full.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "20b539bdb4fd776e7c414e094c5710fd4d9a75e97a6989b23907a56376ee76bc",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "27-battle-buffs",
+      "screen": "designs/ui-suite/screens/27-battle-buffs.png",
+      "layout": "designs/ui-suite/layouts/27-battle-buffs.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "7e4a7571e215d5f7ceb0c92c4ff5151dc3cdb8e299f55a572f43aff572a01c17",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "28-boss-arrival",
+      "screen": "designs/ui-suite/screens/28-boss-arrival.png",
+      "layout": "designs/ui-suite/layouts/28-boss-arrival.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "b8ceac91274b661d5d0506a0baecd4348e9e41c7e0e95f9b3662c6056f0515b9",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "29-upgrade-new",
+      "screen": "designs/ui-suite/screens/29-upgrade-new.png",
+      "layout": "designs/ui-suite/layouts/29-upgrade-new.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "018b02ecee1966af3694a7f40b1e3f7c901197e892841a1df6c855a6705870c1",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "30-upgrade-existing",
+      "screen": "designs/ui-suite/screens/30-upgrade-existing.png",
+      "layout": "designs/ui-suite/layouts/30-upgrade-existing.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "5f60d18a27dd671e976a2549f58069a9a616fb2f69bf698b38e606b2f616dc26",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "31-upgrade-moneybag",
+      "screen": "designs/ui-suite/screens/31-upgrade-moneybag.png",
+      "layout": "designs/ui-suite/layouts/31-upgrade-moneybag.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "1be7255812165feafec3c0591b845010d03c43d376c424ad0f017a44da12665f",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "32-treasure-one",
+      "screen": "designs/ui-suite/screens/32-treasure-one.png",
+      "layout": "designs/ui-suite/layouts/32-treasure-one.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "d38313e522c29ea39e6f234804684d7c5cfe45ece42d729288142847c719d5ed",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "33-treasure-three",
+      "screen": "designs/ui-suite/screens/33-treasure-three.png",
+      "layout": "designs/ui-suite/layouts/33-treasure-three.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "1ba9dcd99d0d89adaa594bec2bb5aa47c31142df86ab39631dae1920d1b2281d",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "34-treasure-five",
+      "screen": "designs/ui-suite/screens/34-treasure-five.png",
+      "layout": "designs/ui-suite/layouts/34-treasure-five.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "3c34767a622b94ba2d582b9a9bb5f1a777e89edcef6f4c1ffbe867e8277328bf",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "35-treasure-evolution",
+      "screen": "designs/ui-suite/screens/35-treasure-evolution.png",
+      "layout": "designs/ui-suite/layouts/35-treasure-evolution.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "ff4bdfba4ddade5d0512fb11cd5fb5fc4e590096954ff9ba9d270ae549cae53d",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "36-treasure-moneybag",
+      "screen": "designs/ui-suite/screens/36-treasure-moneybag.png",
+      "layout": "designs/ui-suite/layouts/36-treasure-moneybag.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "232bbb88a337ddc81d239f380a32866cde8c3b269bef66a444f8c9e0d86d03b5",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "37-pause",
+      "screen": "designs/ui-suite/screens/37-pause.png",
+      "layout": "designs/ui-suite/layouts/37-pause.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "3a5207caef39e248f0480103bcb4d6ce7d7fb266e568bfcbcb509300c3e9a237",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "38-abandon-confirm",
+      "screen": "designs/ui-suite/screens/38-abandon-confirm.png",
+      "layout": "designs/ui-suite/layouts/38-abandon-confirm.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "77935bab11a9a800f6e054b433f3401a18d6fa3ab5559e8466c088e0c2bbb00d",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "39-exit-confirm",
+      "screen": "designs/ui-suite/screens/39-exit-confirm.png",
+      "layout": "designs/ui-suite/layouts/39-exit-confirm.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "ef616287521e8496b5f9c728d64f3c5b22da1744c37b2bf80e5a37392e23e6c9",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "40-victory",
+      "screen": "designs/ui-suite/screens/40-victory.png",
+      "layout": "designs/ui-suite/layouts/40-victory.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "05a32a6b2a8bbf8b574100a6527ff08b3195e7e43083f466fcb05d7cb60ea5ee",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "41-defeat",
+      "screen": "designs/ui-suite/screens/41-defeat.png",
+      "layout": "designs/ui-suite/layouts/41-defeat.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "4972eb2ce40246f82fdebac1ea5cd54ebba0b2dfc9c3e4fad3d992df90711ce9",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "42-save-pending",
+      "screen": "designs/ui-suite/screens/42-save-pending.png",
+      "layout": "designs/ui-suite/layouts/42-save-pending.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "0d481a153978f289dda04e1499b1fcd5ab40241ed56d2fa4f6f2ef21e7cc3d11",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "43-save-error",
+      "screen": "designs/ui-suite/screens/43-save-error.png",
+      "layout": "designs/ui-suite/layouts/43-save-error.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "f2ae57f55ab1c9eb352c35c3ca73af4055d609e9fa1bb021a065a372f62a9374",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "44-guide-controls",
+      "screen": "designs/ui-suite/screens/44-guide-controls.png",
+      "layout": "designs/ui-suite/layouts/44-guide-controls.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "45230f90779131f878598b1d38efd7e057115f7e74ee4f0ee7ce8719967513be",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "45-guide-growth",
+      "screen": "designs/ui-suite/screens/45-guide-growth.png",
+      "layout": "designs/ui-suite/layouts/45-guide-growth.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "b65d9ebabaabb79c49196e7737aeb5ff47c39bfc1773d829825da891ec25e811",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "46-skill-codex",
+      "screen": "designs/ui-suite/screens/46-skill-codex.png",
+      "layout": "designs/ui-suite/layouts/46-skill-codex.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "5005c3968b57159f5b81facf61e1a9e72707dbbd8d8a67ff140a79acb90a6d1d",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "47-evolution-locked",
+      "screen": "designs/ui-suite/screens/47-evolution-locked.png",
+      "layout": "designs/ui-suite/layouts/47-evolution-locked.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "f25b693ac05c103c5c8edd93ef71902cd2939ba793b69cf5e6da83553b5cee73",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "48-evolution-ready",
+      "screen": "designs/ui-suite/screens/48-evolution-ready.png",
+      "layout": "designs/ui-suite/layouts/48-evolution-ready.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "3bd8b6acaceae5173d365a71dd9c8a378ee06bf7fcff72c91adee6a36b3120ff",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "49-character-stats",
+      "screen": "designs/ui-suite/screens/49-character-stats.png",
+      "layout": "designs/ui-suite/layouts/49-character-stats.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "97c39eb7546f0f0bd38e07062e13d5bf246a4840e9bfc49426548166e8df756e",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "50-notice-states",
+      "screen": "designs/ui-suite/screens/50-notice-states.png",
+      "layout": "designs/ui-suite/layouts/50-notice-states.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "b1e613f9a24c3232dba2fee2f3d871d405f605675569ac8e33164c4c97c6079a",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "51-control-states",
+      "screen": "designs/ui-suite/screens/51-control-states.png",
+      "layout": "designs/ui-suite/layouts/51-control-states.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "6bf35ad81d1b122d761e976956fbb629b874c3965d0735b3045d317d79737ecf",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    },
+    {
+      "id": "52-flow-map",
+      "screen": "designs/ui-suite/screens/52-flow-map.png",
+      "layout": "designs/ui-suite/layouts/52-flow-map.json",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "351a98b9fed88eab539f46dae8dda3c63cd08f208bdce0aa97d83cf9a6fae69c",
+      "matchesAcceptedReview": true,
+      "matchesLayoutHash": true,
+      "missingAssets": [],
+      "assetsOutsideUiManifest": [],
+      "mappedAssetsEqualLayout": true,
+      "brokenLayers": [],
+      "overflowText": [],
+      "acceptanceStatus": "accepted_ui_art"
+    }
+  ]
+}

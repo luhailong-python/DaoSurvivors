@@ -9,10 +9,16 @@ def read(rel): return json.loads((ROOT/rel).read_text(encoding='utf-8-sig'))
 def sha(rel): return hashlib.sha256((ROOT/rel).read_bytes()).hexdigest()
 def write(rel,obj): (ROOT/rel).write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 now=datetime.now(timezone.utc).isoformat()
+client_date='2026-10-29'
 coverage=read('docs/ui-suite/UI_COVERAGE.json')
 render=read('docs/ui-suite/render-verification.json')
 assert render['status']=='passed' and len(render['records'])==52 and len(render['responsive'])==104
 assert not render['failures'] and not render['scriptErrors']
+independent=read('docs/ui-suite/brand-visual-independent-review.json')
+assert independent['status']=='accepted_brand_ui_review' and not independent['issues']
+assert len(independent['contactSheets'])==7
+for evidence in independent['screens']+independent['contactSheets']:
+    assert sha(evidence['file'])==evidence['sha256'], evidence['file']
 layouts={r['id']:read(r['layoutPath']) for r in coverage['screens']}
 texts={k:[t['text'] for t in v['textRegions']] for k,v in layouts.items()}
 all_text=''.join(s for seq in texts.values() for s in seq)
@@ -53,12 +59,18 @@ check('passives-not-evolved',texts['26-battle-build-full'].count('化境')==1 an
 check('evolution-prerequisites','Lv.11' in texts['35-treasure-evolution'] and 'art/icons/attr-cooldown.png' in [i['asset'] for i in layouts['35-treasure-evolution']['imageLayers']],'35 pendingMix background includes active Lv11 and matching held Cooldown.')
 check('treasure-gold-range',all('+ 950' in texts[k] for k in ['34-treasure-five','35-treasure-evolution','36-treasure-moneybag']),'Five-reward chest samples use950, within source900–1000 at baseGreed100.')
 check('insufficient-wallet','180' in texts['09-unlock-insufficient'],'09 header and confirmation both show current180, required500, shortage320.')
+check('formal-brand-on-all52',all('一炁当千' in texts[key] and not any('道途幸存者' in text for text in texts[key]) for key in texts),'All52 screens use the formal game name; old working title is absent from live screen text.')
+check('brand-assets-on-all52',all(layout['brandAudit']['brandAssets'] and layout['brandAudit']['hasCurrentName'] and not layout['brandAudit']['hasPreviousWorkingTitle'] for layout in layouts.values()),'Every screen maps a formal emblem or wordmark resource; original actors/world art remains unchanged.')
 
-full_views={'01-startup','04-main-menu','26-battle-build-full','29-upgrade-new','30-upgrade-existing','47-evolution-locked','48-evolution-ready','51-control-states'}
+full_views={'01-startup','02-loading','04-main-menu','05-character-select','25-battle-hud','40-victory','51-control-states','52-flow-map'}
 notes={
- '01-startup':'Left copy now has its own ivory backing; main title and entry remain clear.',
- '02-loading':'Ivory copy backing matches startup; distinct loading indicator and no enabled entry action.',
- '04-main-menu':'Main quote uses a separate paper backing and does not obscure main actions.',
+ '01-startup':'Formal primary wordmark uses contain scaling inside the startup panel; tagline, entry and footer remain clear.',
+ '02-loading':'Formal wordmark and title fit above the separate loading indicator; header emblem and text remain clear.',
+ '04-main-menu':'Formal name/emblem in header and authorized tagline on paper backing; main actions remain unobscured.',
+ '05-character-select':'Header uses formal emblem plus independent title text; character identities, prices and selection controls are unchanged.',
+ '25-battle-hud':'Compact emblem/title in bottom strip leaves movement instructions and combat HUD unobscured.',
+ '40-victory':'Result values/actions remain aligned; formal brand continues in the underlying battle footer.',
+ '52-flow-map':'Formal emblem/title stay inside the header; flow grid, labels and returns remain readable.',
  '26-battle-build-full':'Six active and six passive slots; active evolution and passive Lv1–5 labels separated.',
  '29-upgrade-new':'Three new choices are unheld; buttons fit inside cards with consistent alignment.',
  '30-upgrade-existing':'Owned upgrade values match source; first HUD skill Lv4 matches card4→5.',
@@ -84,17 +96,36 @@ for i,row in enumerate(coverage['screens']):
     records.append(record)
     row.update(productionStatus='complete',acceptanceStatus='accepted_ui_art',acceptanceEvidence=['docs/ui-suite/final-visual-review.json','docs/ui-suite/render-verification.json'])
 coverage['status']='ui_art_complete_unity_integration_pending'
-coverage['uiAcceptedOn']='2026-10-28'
-coverage['wholeGameArtStatus']='UI is one completed art subset; non-UI replacement and animation tracked separately.'
+coverage['uiAcceptedOn']=client_date
+coverage['brandingStatus']='formal_brand_synchronized_all52'
+coverage['wholeGameArtStatus']='UI subset accepted with formal brand refresh; full art acceptance is recorded separately in docs/whole-game/ACCEPTANCE.json.'
 write('docs/ui-suite/UI_COVERAGE.json',coverage)
-review={'schemaVersion':1,'reviewer':'finish_ui_qa','reviewedOnClientDate':'2026-10-28','recordedAtUtc':now,
+review={'schemaVersion':1,'reviewer':'ui_brand_refresh_with_independent_visual_qa','reviewedOnClientDate':client_date,'recordedAtUtc':now,
  'scope':'52 UI full-screen/state/flow images; not full non-UI game art or Unity integration',
- 'method':'Viewed all7 contact sheets; opened original-resolution01/04/26/29/30/47/48/51. Checked exported text and asset mappings for all52. Earlier independent01–26 review remains historical and is superseded for revised images by this batch.',
+ 'method':'Independent reviewer viewed all7 contact sheets and original-resolution01/04/05/25/40/51/52. Implementing reviewer also viewed01/02/04/05/25/40/51/52. Checked exported text and asset mappings for all52. Authorized formal-brand rerender supersedes previous screen hashes; pre-brand evidence remains archived.',
+ 'gameName':'一炁当千','displayTagline':'一人成阵，万妖退散','independentReview':'docs/ui-suite/brand-visual-independent-review.json','preBrandEvidence':'docs/ui-suite/acceptance-history/pre-brand-20261029/snapshot-index.json',
  'sourceFiles':render['sourceFiles'],'summary':{'accepted':52,'needsRevision':0,'missingResources':0,'baseRenderChecks':52,'responsiveChecks':104},
  'font':{'file':'art/fonts/NotoSansSC-Regular.otf','method':'OpenType cmap formats4/12 read using standard-library struct','uniqueTextCharacters':len(set(all_text)),'missingGlyphs':missing},
  'semanticChecks':semantic,'screens':records,
  'limitations':['Browser compositing and state navigation are visual review only; no game logic or saves are exercised.','Unity import, nine-slice rendering, Prefabs, input and gameplay integration remain next phase.','Combat screen actor stills and the arena plate are layout art; this report does not claim full enemy/character animation or map replacement completion.']}
 write('docs/ui-suite/final-visual-review.json',review)
+
+original_receipt=read('docs/ui-suite/accepted-ui-resource-receipt.json')
+manifest=read('art/manifest.json')
+current_assets={item['file']:item for item in manifest['assets']}
+for item in original_receipt['assets']:
+    assert current_assets[item['file']]['sha256']==item['sha256']==sha(item['file'])
+ui_paths={item['file'] for item in original_receipt['assets']}
+ui_paths.update(item['file'] for item in manifest['assets'] if item.get('brandingStatus')=='formal_branding_resource')
+receipt_assets=[current_assets[path] for path in sorted(ui_paths)]
+write('docs/ui-suite/accepted-ui-branded-resource-receipt.json',{
+    'schemaVersion':1,'scope':'Accepted UI resource subset: unchanged original88 resource files plus8 formal branding resources. Old unselected wordmark is production source only.',
+    'gameName':'一炁当千','recordedAtUtc':now,'clientDate':client_date,
+    'originalReceipt':'docs/ui-suite/accepted-ui-resource-receipt.json','originalReceiptSha256':sha('docs/ui-suite/accepted-ui-resource-receipt.json'),
+    'sourceManifest':'art/manifest.json','sourceManifestSha256AtExtraction':sha('art/manifest.json'),
+    'sourceTextSnapshots':manifest['sourceTextSnapshots'],'assets':receipt_assets,
+    'counts':{'files':len(receipt_assets),'originalResources':len(original_receipt['assets']),'formalBrandResources':len(receipt_assets)-len(original_receipt['assets'])},
+    'unityIntegration':'not-performed; import values remain advice only'})
 
 functional=read('docs/ui-suite/functional-art-review.json')
 functional.setdefault('originalResult',functional['result']);functional['result']='resolved_in_final_ui_art_review';functional['followupAtUtc']=now
@@ -108,7 +139,7 @@ for check_row in functional['checks']:
 functional['finalArtifactHashes']=render['sourceFiles']
 write('docs/ui-suite/functional-art-review.json',functional)
 
-md=['# UI 功能与资源总清单','','2026-10-28，UI 子集已完成美术验收：52 张整屏／状态／流程画面，52 份文字与图层映射。不是52种独立游戏系统，也不代表整款游戏非UI素材已全部完成。',
+md=['# 一炁当千 · UI 功能与资源总清单','',f'{client_date}，正式品牌已同步并验收：52 张整屏／状态／流程画面，52 份文字与图层映射。不是52种独立游戏系统；整款非UI素材与动作验收见另行总账。',
     '',f"功能参考固定版本 `{coverage['referenceGame']['commit']}`。已有功能、展示状态补齐与建议补充分别标明；Unity接入待下一阶段。",'','| ID | 系统 | 界面／状态 | 依据 | 制作／验收 | 整屏 |','| --- | --- | --- | --- | --- | --- |']
 for row in coverage['screens']:
     md.append(f"| {row['id']} | {row['system']} | {row['interface']} · {row['state']} | {row['basis']} | 完成／UI美术通过 | [{row['id']}](../../{row['screenPath']}) |")
@@ -119,11 +150,12 @@ md.extend(['','每屏独立资源与参考依据见同名JSON；字号、文案�
 (ROOT/'docs/ui-suite/UI_COVERAGE.md').write_text('\n'.join(md)+'\n',encoding='utf-8')
 
 qc=[read(f'docs/icon-atlas{i}-slices.json') for i in [1,2]]
-accept=['# UI 美术验收记录','','2026-10-28。本记录只验收 UI 整屏、控件、图标与排版；整款游戏角色、敌人、场景和动画资源须按另行总账逐项完成。',
+accept=['# 一炁当千 · UI 美术验收记录','',f'{client_date}。本记录验收正式品牌同步后的 UI 整屏、控件、图标与排版；整款游戏角色、敌人、场景和动画资源验收见另行总账。',
  '', '## 本批结果','',
  '- 52/52张1920×1080整屏／状态／流程画面及相应布局JSON已导出；0缺图、0脚本异常、0文字出画布。',
  '- 全52屏分别检查1280×720及2560×1080视口，共104次等比安全区检查；与52次基准合计156次。通过的是浏览器美术预览适配，不是Unity适配。',
- '- 查看全部7张汇总；另查看01、04、26、29、30、47、48、51原尺寸图。所有52屏比对文字与资源映射。修复启动/主页背景对比、升级卡按钮外溢、化境卡脚注压边、浅色控件文字对比。',
+ '- 查看全部7张汇总；本批另查看01、02、04、05、25、40、51、52原尺寸图。52屏正式名称和Logo资源映射一致，中文无缺字，页眉、启动卡片和战斗页脚未遮挡控件。独立视觉记录绑定当前哈希；旧屏哈希保存在pre-brand历史目录。',
+ '- 原88项UI资源字节不变，另纳入8项正式品牌资源；旧未选用Logo仅保留为来源，不作为正式UI。当前UI资源回执为accepted-ui-branded-resource-receipt.json。',
  '- 15张控件状态PNG哈希、画布及Alpha核验通过；三类控件各普通/按下/选中/禁用/锁定画布与Pivot一致。',
  '- Noto字体OpenType cmap覆盖本批全部非空白字符，无缺字。动态文字单独排版，不烘焙在控件底图。',
  '- 源业务审查F01–F05已修复；新道法与已持有HUD不再重复，30御剑背景等级与4→5一致。被动上限5、主动11、宝箱全收与待宝箱进化条件保持准确。',

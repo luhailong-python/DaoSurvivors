@@ -1,19 +1,20 @@
 {
   "schemaVersion": 1,
-  "recordedAtUtc": "2026-10-28T10:37:40.128887+00:00",
-  "clientDate": "2026-10-28",
+  "recordedAtUtc": "2026-10-30T02:42:37.143553+00:00",
+  "clientDate": "2026-10-29",
   "clientTimezone": "America/New_York",
+  "gameName": "一炁当千",
   "status": "accepted_art_only",
   "scope": "Complete actual-source-required local game art; offline visual/action/technical acceptance only",
   "missingRequiredArt": [],
   "evidence": [
     {
       "file": "art/manifest.json",
-      "sha256": "571e4ae6d3f02d0b6d1590ba9907b43c274a0f346dd249eea96d7176ef57530f"
+      "sha256": "533f1be2f75c52a3a716ba0fcbb2921be4bb9ed7c1305e874f2be56b17bdcc74"
     },
     {
       "file": "docs/ui-suite/current-delivery-audit.json",
-      "sha256": "0af7f8d8e9a46d673a02b0260ec1f581fdfe2a13da9f2335c9023d37b9bbbd18"
+      "sha256": "bad279c64e6016a37a1d3673f560e5d297cc8e71adfbc018e805e463df531671"
     },
     {
       "file": "docs/whole-game/player-actions-final-review.json",
@@ -44,28 +45,44 @@
       "sha256": "c7c3dc372a60354873f852df8187c24e251aa658bfe3fe118f49fdb6d65095e4"
     },
     {
+      "file": "docs/branding/BRAND.json",
+      "sha256": "cb6627a8238d5068749fcddf3a55aabb913a13bdc52c5790f7e949bd2f872cdd"
+    },
+    {
+      "file": "docs/branding/visual-review.json",
+      "sha256": "21959bb8938a4812286ac112201f08eeeed0e3051e7e8ea78cb3a4e89f33f881"
+    },
+    {
+      "file": "docs/branding/integration-review.json",
+      "sha256": "cb879c2437cde019bef830311096a7f742f61973a2ec8e8542fc187502ff1ce3"
+    },
+    {
+      "file": "docs/whole-game/final-non-ui-recheck-20261029.json",
+      "sha256": "7b03821b3e1c2e815e1bebf4ddf23da0351e81f27f4b05144c0015255aea543a"
+    },
+    {
       "file": "docs/whole-game/ART_COVERAGE.json",
-      "sha256": "e8fc730dfe1ee13c041191ec8b6d4193bf027fe0a8f1dfb2d6c518dd335c2446"
+      "sha256": "d7513ae2778ba96e48fc2561672748fa27a691d87eccf2c8e3c4bc14d1a148a8"
     },
     {
       "file": "docs/whole-game/ART_COVERAGE.md",
-      "sha256": "f138e4e0d4eb5ba40df51988adf5f5bc8b83232836508f879caa9e646d4828cf"
+      "sha256": "35c5edd8d88640546ceff1b882aa003f385969232a7487e9754d85ee3871d366"
     },
     {
       "file": "docs/whole-game/ACCEPTANCE.md",
-      "sha256": "0f3350d19243542b93a5918f0d426555a068ddc84ff7671ba6db7e059fdace11"
+      "sha256": "d59f9327d6f7f9c066804a7fc310649157b45c624b936fc873739f796d5b13c7"
     },
     {
       "file": "docs/whole-game/UNITY_ART_IMPORT.md",
-      "sha256": "0d5f3e7c8dda8cc4c39ffe6af915e4a2efaa88e88336f754eafa68c9b2829f50"
+      "sha256": "8e5084e3160ac7400f6f91e07e4c598aebbbee51b9cf7972c5306371f0c36b59"
     },
     {
       "file": "docs/whole-game/index.html",
-      "sha256": "a45b94ec422e6fcd7ba4a3a20865d9af688c144835d87a11bc619d3823a87acd"
+      "sha256": "a8f917ddcc661fed464ed41a411ec512567fa8c6d1bdf76f695000b0fff4070e"
     },
     {
       "file": "README.md",
-      "sha256": "a0e104eae8712cdb745fa9eb3f639f1f13fd105fa6ecd9723e539b17a5f57754"
+      "sha256": "f337977385a2055bd840c2cc24625be295bd2d2583a278317b91ace9aec42d7a"
     }
   ],
   "summary": {
@@ -84,7 +101,14 @@
     "evolvedRelations": 9,
     "enemyProjectiles": 5,
     "debuffs": 3,
-    "artManifestFiles": 321
+    "artManifestFiles": 330,
+    "brandFormalExports": 8,
+    "brandingUnifiedAcrossUI": true
+  },
+  "metricClarifications": {
+    "playerMirrorPairs": 64,
+    "mirrorComparisonImages": 128,
+    "explanation": "Prior player report generatedWestExactMirrors=128 counted bothE/W images; actual mirror comparison is64pairs."
   },
   "retainedSourceFindings": [
     "Original nominal-grid icon/FX sheet FAIL/WARN records retained; ownership crops replace the rejected equal-grid slicing method.",
@@ -93,8 +117,10 @@
   ],
   "sourceFindingsNotSuppressed": true,
   "unityIntegration": "not-performed; deferred by explicit user scope",
-  "submittedToGit": false,
-  "published": false,
+  "gitDelivery": {
+    "repository": null,
+    "authorization": "User explicitly authorized commit and push after final art verification. Actual result is recorded independently in Git and .local/release/receipt.json."
+  },
   "artReferenceWritesInThisContinuation": false,
   "deliveryArchiveReceipt": ".local/delivery/LATEST.json"
 }

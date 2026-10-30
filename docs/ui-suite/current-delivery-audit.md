@@ -1,30 +1,31 @@
-# UI 已验收批次的当前磁盘核对
+# 一炁当千 · UI 当前交付核对
 
-2026-10-28（America/New_York）。沿用当前项目 `E:\work\image\DaoSurvivors`；本次不改原图、不重新生图、不操作 Git。
-
-当前结论：**UI 批次保留验收，未发现需要返修的新增问题。** 本记录不代表整款非 UI 美术、角色动作或 Unity 接入验收。
+2026-10-29（America/New_York）。正式名称《一炁当千》与宣传短句“一人成阵，万妖退散”已同步至全部52屏。当前状态：**accepted_ui_art_branded**，新增问题0。
 
 ## 本次实际核对
 
-- 52 张整屏 PNG 全部存在，均为 1920×1080；52/52 SHA-256 与 `final-visual-review.json` 及对应布局记录一致。
-- 52 份布局与覆盖清单中的独立资源集合一致；没有缺图、清单外资源、已记录的破损图层或文字出画布。
-- [UI 原批次资源回执](accepted-ui-resource-receipt.json) 所列 88 文件全部存在、哈希一致；其中 68 个独立资源、13 个控件来源支持、1 个授权文件、4 张审查底图、2 张生产源图集。此回执从扩充整款清单前的 `art/manifest.json` 提取，保存原清单哈希；当前 `art/manifest.json` 可继续收录非 UI 资源。此处仅验收 UI 子集。
-- 15 张正式控件状态 PNG 覆盖主按钮、页签、列表行各五态；各组画布、Pivot 与 Border 一致。原画尺寸与 Alpha 和已验收清单一致。
-- 每项资源指定的来源记录均存在；44 份本地美术来源文本快照哈希一致。Noto 字体及 OFL 授权文件存在且哈希一致。
-- 五个浏览器预览源文件哈希与已验收记录一致。本次查看全部七张现有汇总图，确认框板风格、状态层级与控件排布没有新增可见问题。未重新导出画面，也未重复原尺寸逐屏与响应式运行测试。
+- 52张1920×1080整屏、状态及流程图已按正式品牌重新导出，52份布局记录同步更新；52/52当前哈希与最新视觉验收及布局记录一致。
+- 新52屏全部含正式名称及徽记／Logo映射，没有旧临时名称。启动页使用完整Logo，页眉和战斗页脚使用徽记加独立文字，图片保持等比Contain。
+- 本批52次基准渲染、104次额外视口检查通过；脚本异常、缺图和文字出画布均为0。OpenType cmap核对全部中文等非空白字符，无缺字。
+- 独立复核实际查看全部7张汇总，并以原尺寸查看01、04、05、25、40、51、52；制作复核另查看02加载页。未见品牌新增遮挡、控件挤压或中文问题。检查记录绑定当前52屏与7张汇总的哈希。
+- 原88项UI资源、44份来源快照保持原字节，15张正式控件状态的画布、Pivot、Border及Alpha保持验收版本。新增8项正式品牌资源，当前UI子集回执为96文件，96/96哈希匹配。
+- 当前全美术清单为330文件，含8项正式品牌与1项旧未采用Logo来源；旧Logo只作生产来源，不作为正式UI。
 
-可复现命令：`python tools/audit-ui-delivery.py`。逐文件结果见 [current-delivery-audit.json](current-delivery-audit.json)。
+重跑核对：`python tools/audit-ui-delivery.py`。逐文件结果见 [current-delivery-audit.json](current-delivery-audit.json)。
 
-## 必须保留的交付说明
+## 验收版本与限制
 
-原始两张图标图集的等格切片 QC 失败／警告仍然有效，具体值保留在 [ACCEPTANCE.md](ACCEPTANCE.md)。正式图标使用已验收的 Alpha 归属切片；不得把原图改称等格切片通过。原生细微 Alpha 散点仍保留，512×512 为补透明画布，不是新增原生细节。
+当前画面使用新哈希验收。旧屏验收记录已保存到 [pre-brand历史索引](acceptance-history/pre-brand-20261029/snapshot-index.json)，不把授权重渲产生的哈希变化当作资源缺口。原88项来源回执继续保留；品牌后的96项回执单独记录。
 
-内置生图入口未披露的实际型号和质量继续标为未确认。现有整屏是浏览器 DOM/CSS、PNG 与独立文字的设计合成图。Unity 导入、九宫格、字体图集、业务交互、设备渲染均留待下一阶段；没有以此批次的静态战斗人物推断动作验收。
+原始两张图标图集的等格切片QC失败／警告仍保留在 [ACCEPTANCE.md](ACCEPTANCE.md)。正式图标使用已验收的Alpha归属切片，原生细微Alpha散点仍保留，512×512补透明画布不代表新增原生细节。未披露的实际图像型号与质量仍为未确认。
+
+本次只修改UI合成排版、文字、资源引用和验收记录，没有重新生成或改动角色、怪物、世界等原图。浏览器状态预览不构成游戏逻辑或Unity运行；Unity导入、九宫格、字体图集、交互和设备渲染仍留待下一阶段。
 
 ## 交付索引
 
-- [52 张整屏](../../designs/ui-suite/screens/) · [对应布局与文字区域](../../designs/ui-suite/layouts/) · [预览入口](../../designs/ui-suite/preview/index.html)
-- [UI 功能覆盖](UI_COVERAGE.md) · [原批次验收及限制](ACCEPTANCE.md) · [逐屏视觉验收](final-visual-review.json)
-- [当前全美术清单](../../art/manifest.json) · [UI 原批次资源回执](accepted-ui-resource-receipt.json) · [Unity 导入建议](UNITY_ART_IMPORT.md) · [来源关联](../image-reference-associations.md)
+- [品牌后52屏图库](../../designs/ui-suite/gallery.html) · [状态预览](../../designs/ui-suite/preview/index.html) · [屏幕目录](../../designs/ui-suite/screens/) · [布局与文字区域](../../designs/ui-suite/layouts/)
+- [UI覆盖](UI_COVERAGE.md) · [UI验收](ACCEPTANCE.md) · [最新逐屏记录](final-visual-review.json) · [独立品牌视觉核验](brand-visual-independent-review.json)
+- [96项品牌后UI资源回执](accepted-ui-branded-resource-receipt.json) · [原88项资源回执](accepted-ui-resource-receipt.json) · [当前全美术清单](../../art/manifest.json)
+- [品牌合同](../branding/BRAND.json) · [Unity导入建议](UNITY_ART_IMPORT.md) · [来源关联](../image-reference-associations.md)
 
-全套交付应另附最新非 UI 生产清单及角色实际动作验收；冻结的早期 `Assets/` 样稿不属于本批正式美术。
+本记录只验收UI子集；整款游戏美术与角色动作的统一结论见整款验收总账。

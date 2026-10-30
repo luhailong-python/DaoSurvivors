@@ -1,19 +1,22 @@
 {
   "schemaVersion": 1,
-  "recordedAtUtc": "2026-10-28T10:25:45.437001+00:00",
-  "clientDate": "2026-10-28",
-  "scope": "Accepted UI-only subset from docs/ui-suite/accepted-ui-resource-receipt.json, checked against disk and current art/manifest.json. Does not certify non-UI art, player animation or Unity execution.",
-  "status": "accepted_ui_art_unchanged",
+  "recordedAtUtc": "2026-10-30T02:42:36.450873+00:00",
+  "clientDate": "2026-10-29",
+  "scope": "Accepted UI subset from docs/ui-suite/accepted-ui-branded-resource-receipt.json, checked against disk and current art/manifest.json. Does not certify non-UI art, player animation or Unity execution.",
+  "status": "accepted_ui_art_branded",
   "summary": {
     "screens": 52,
     "layoutFiles": 52,
     "acceptedScreenHashesMatched": 52,
-    "manifestFiles": 88,
-    "uiSubsetReceipt": "docs/ui-suite/accepted-ui-resource-receipt.json",
-    "currentWholeArtManifestFileCount": 321,
-    "manifestHashesMatched": 88,
+    "manifestFiles": 96,
+    "uiSubsetReceipt": "docs/ui-suite/accepted-ui-branded-resource-receipt.json",
+    "gameName": "一炁当千",
+    "formalBrandResources": 8,
+    "brandSynchronizedScreens": 52,
+    "currentWholeArtManifestFileCount": 330,
+    "manifestHashesMatched": 96,
     "deliveryRoles": {
-      "independent_art_resource": 68,
+      "independent_art_resource": 76,
       "source_support_for_formal_controls": 13,
       "license": 1,
       "review_only": 4,
@@ -26,7 +29,7 @@
     "missingFilesOrTechnicalIssues": 0
   },
   "visualReview": {
-    "method": "Viewed all seven existing contact sheets in this continuation; retained approved screen originals.",
+    "method": "Independent reviewer viewed all7 contact sheets and original-resolution01/04/05/25/40/51/52. Implementing reviewer also viewed01/02/04/05/25/40/51/52. Checked exported text and asset mappings for all52. Authorized formal-brand rerender supersedes previous screen hashes; pre-brand evidence remains archived.",
     "contactSheets": [
       "designs/ui-suite/review/contact-01-08.jpg",
       "designs/ui-suite/review/contact-09-16.jpg",
@@ -36,14 +39,14 @@
       "designs/ui-suite/review/contact-41-48.jpg",
       "designs/ui-suite/review/contact-49-52.jpg"
     ],
-    "finding": "Consistent jade/ivory/gold frames, readable state hierarchy and aligned controls; no new layout defect observed at contact-sheet scale. Existing original-resolution reviews remain applicable because all accepted screen and preview-source hashes match.",
-    "notRepeated": "No rerendering, no new responsive or Unity execution tests, no per-screen original-resolution re-review in this continuation."
+    "finding": "Formal brand is synchronized across all52 screens with current hash-bound visual and browser-render evidence; no new overlap, missing glyph or resource issue.",
+    "notRepeated": "No Unity execution tests; formal-brand changes are browser art compositions. Original painted UI, actors and world resources are retained."
   },
   "limitations": [
     "Raw icon sheets retain recorded fail/warn results; approved ownership slicing is the formal resource route. Do not equal-grid slice originals.",
     "Native faint alpha specks remain; no cleaning or claimed new 512-pixel detail.",
     "Model and quality remain unconfirmed wherever the native image endpoint did not disclose them.",
-    "UI acceptance uses an immutable 88-file resource receipt; the current art/manifest.json may also contain non-UI whole-game resources that this audit does not certify.",
+    "Original88-file UI resource receipt remains immutable; authorized brand refresh adds8 formal resources in its own receipt and supersedes prior screen-render hashes. This audit does not certify non-UI resources in art/manifest.json.",
     "Unity import, font atlases, nine-slice rendering, actual interactions and device execution are deferred by user instruction."
   ],
   "recommendedDeliveryLinks": [
@@ -541,6 +544,158 @@
     }
   ],
   "files": [
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
+      "exists": true,
+      "sha256": "90577bf1d14db8ab984d48aef89cda80b29497d19bb11864724e997ef319b524",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/branding/yiqi-dangqian-v1/logo-emblem-128.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-emblem-256.png",
+      "exists": true,
+      "sha256": "27277b838f6b30b87d677c9fc65230015b5ec6867ca9a38661c67b3bdc79beee",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/branding/yiqi-dangqian-v1/logo-emblem-256.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-emblem-512.png",
+      "exists": true,
+      "sha256": "5fe2a267a84d00e2dd817138a433dc712872ae2dc2f2f1360d5b3b3a701bcfe0",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/branding/yiqi-dangqian-v1/logo-emblem-512.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-emblem.png",
+      "exists": true,
+      "sha256": "a7aaa7c83dfa0efebca203739a1b5977c547b9a9ba5b96f92a6fb2efe1a353a0",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/branding/yiqi-dangqian-v1/logo-emblem.png.generation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-primary-v2-1536.png",
+      "exists": true,
+      "sha256": "eb427884e15928d318b940a3285889882746cef4fa667ff0c4c6b53cf2b1235c",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        1536,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/branding/yiqi-dangqian-v1/logo-primary-v2-1536.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-primary-v2-384.png",
+      "exists": true,
+      "sha256": "3796b658f6fc86fec4a2f64e84da31e56444206099a725a0d5b32862772f7608",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        384,
+        128
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/branding/yiqi-dangqian-v1/logo-primary-v2-384.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-primary-v2-768.png",
+      "exists": true,
+      "sha256": "ff2491d97f5bf371c03497064c95e59d6aaade7da0029cad63df313832ecb3ec",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        768,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/branding/yiqi-dangqian-v1/logo-primary-v2-768.png.derivation.json",
+      "provenanceRecordExists": true
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-primary-v2.png",
+      "exists": true,
+      "sha256": "748f16948e9b9209ca8758c8e26ba597d130a5a6f9ffa32692a8764efedb3233",
+      "matchesAcceptedManifest": true,
+      "representedInCurrentManifest": true,
+      "currentManifestHashMatchesReceipt": true,
+      "dimensions": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "provenanceRecord": "art/branding/yiqi-dangqian-v1/logo-primary-v2.png.generation.json",
+      "provenanceRecordExists": true
+    },
     {
       "file": "art/characters/enemy-lantern.png",
       "exists": true,
@@ -2187,7 +2342,7 @@
         1920,
         1080
       ],
-      "sha256": "9d278e73e39c3a2d151cc0bc90e27b3906b39ad2897adeafd1239a0c9536379f",
+      "sha256": "e19deb9070c6177cf44cf4dabd48144fb5b832e1f39746724a96983d60459a07",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2195,7 +2350,16 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
+          "art/branding/yiqi-dangqian-v1/logo-primary-v2-768.png"
+        ]
+      }
     },
     {
       "id": "02-loading",
@@ -2205,7 +2369,7 @@
         1920,
         1080
       ],
-      "sha256": "47b9b1ee3773f98b5b650ffd0984ce566e0081883bb5071c6bcb77360b7f6ce3",
+      "sha256": "cc5150451d7015491e716c122bbe0bb5c4232db4e021fe32af81453e7c50479b",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2213,7 +2377,16 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
+          "art/branding/yiqi-dangqian-v1/logo-primary-v2-768.png"
+        ]
+      }
     },
     {
       "id": "03-loading-error",
@@ -2223,7 +2396,7 @@
         1920,
         1080
       ],
-      "sha256": "36b8921c0ba1b9dd13648ba35d710589b5f9fd71f811af2986cfbbef21f01af2",
+      "sha256": "c56daf3d05db523fb00d53ce4f48b20b46c3eb9b8791f022cf1375280f36f16f",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2231,7 +2404,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "04-main-menu",
@@ -2241,7 +2422,7 @@
         1920,
         1080
       ],
-      "sha256": "2b75018349da7e4afc44ca2d7a8624164efe79e8e3101f8cc4819706738851b9",
+      "sha256": "4248bd6336a825600d5bb2b707797f919a4e14b3b989b836e4dd77749a42d2ec",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2249,7 +2430,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "05-character-select",
@@ -2259,7 +2448,7 @@
         1920,
         1080
       ],
-      "sha256": "5d57181219b4b726e0787b8e6ff1f1820b614d0e2395ed67ead9bf19e215bd4d",
+      "sha256": "1e5651be936a98c648086d5c7c5d7c29298c830b43a01ac86b638e2df90c2568",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2267,7 +2456,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "06-character-owned",
@@ -2277,7 +2474,7 @@
         1920,
         1080
       ],
-      "sha256": "f200d969a34c75f152134d00cf4e52fa7c879851a88592f00be626e7e990fd85",
+      "sha256": "d994d9577cd89c4834370f7e3f5b457e495c816aa8f07e36310e0bf88d0a9133",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2285,7 +2482,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "07-character-detail",
@@ -2295,7 +2500,7 @@
         1920,
         1080
       ],
-      "sha256": "09a189055844b852b338525caecc1f72cf57d2cabf5ad8a27423c07183a8f13f",
+      "sha256": "1734c6b67d949e06e964abea461c01ba25402f64fa648adcaa2aba60f5e37bf8",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2303,7 +2508,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "08-unlock-confirm",
@@ -2313,7 +2526,7 @@
         1920,
         1080
       ],
-      "sha256": "ab4ea8e86b7cd66b03febc8904c6798e84cee6e5b54c91eddd172286705f3af2",
+      "sha256": "878511fa5abeceae3a5e147c01bf2a3fe1219165238dda85e95e6a7dbeb226fd",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2321,7 +2534,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "09-unlock-insufficient",
@@ -2331,7 +2552,7 @@
         1920,
         1080
       ],
-      "sha256": "629eed9bdc26979192a98a4129272d09eb0c15425254cf0b1a50491ccac0c228",
+      "sha256": "935b97fa6a22795b90ff3a2dc27dadbc0497591a034916be549547d48f91fabd",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2339,7 +2560,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "10-unlock-success",
@@ -2349,7 +2578,7 @@
         1920,
         1080
       ],
-      "sha256": "e2ef2d47e4a6311fc82ebe9aeb5f66f33d126b999861cc7ddaf7b8b6328df98a",
+      "sha256": "48949b545389f4735be6ed6a8c4981f297afff9582619e0273e8a6c6cbf4706d",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2357,7 +2586,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "11-character-empty",
@@ -2367,7 +2604,7 @@
         1920,
         1080
       ],
-      "sha256": "84e4d59ce7be87789bd05655ad42add6d3a4513b17c1c8c1570114ec4afa31fa",
+      "sha256": "1c5ade15a8c7c13f8977521e0a7b5754b9ed656630f336992f3ae961c9320e85",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2375,7 +2612,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "12-level-select",
@@ -2385,7 +2630,7 @@
         1920,
         1080
       ],
-      "sha256": "83879e4597a8147fa1e757bdefbf41afff5e4dfebaf3623cbc067a02997ad46b",
+      "sha256": "e502aca78e4671a160d7afa2c2b7e437571db2358102bf16711685653939cd78",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2393,7 +2638,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "13-level-detail",
@@ -2403,7 +2656,7 @@
         1920,
         1080
       ],
-      "sha256": "a4654d7ce539efe8b35310dcd9e893acd8a452b0ac8fa765e7b745bdb2dd7a58",
+      "sha256": "6eedc167edbfb94786ababbc024333420518768ef53b8c4a2f75c1102d37df67",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2411,7 +2664,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "14-level-unselected",
@@ -2421,7 +2682,7 @@
         1920,
         1080
       ],
-      "sha256": "cc4a30cc7aca90b4080e898e888cc02c93087f256a8bb3431a8831300da9716f",
+      "sha256": "34b70330536031ff5081b80013131e7e084a82edf22b76c8411abc1c62921f19",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2429,7 +2690,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "15-level-empty",
@@ -2439,7 +2708,7 @@
         1920,
         1080
       ],
-      "sha256": "1efbf85ee72a398ed3e695a00e93a803fea1d2fff5abbff5ada36f84ce551290",
+      "sha256": "c7522ca3184c2b50fbb7e3eaacaa13d2ab0d9fd7ab4bb24a488805f461842631",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2447,7 +2716,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "16-powerup-overview",
@@ -2457,7 +2734,7 @@
         1920,
         1080
       ],
-      "sha256": "e4466fb8e00945636d508224e3f3aa0891c64e8ef26ac7e93b178c83c400a3aa",
+      "sha256": "66222ff3f020ae75da13787a044f010cf03684e83c245f099be4ad173e42c19a",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2465,7 +2742,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "17-powerup-detail",
@@ -2475,7 +2760,7 @@
         1920,
         1080
       ],
-      "sha256": "e4466fb8e00945636d508224e3f3aa0891c64e8ef26ac7e93b178c83c400a3aa",
+      "sha256": "66222ff3f020ae75da13787a044f010cf03684e83c245f099be4ad173e42c19a",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2483,7 +2768,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "18-powerup-insufficient",
@@ -2493,7 +2786,7 @@
         1920,
         1080
       ],
-      "sha256": "651d65f0f15237d625d023c178f97d889c241ce831ebf4d107bb9d4540fee912",
+      "sha256": "96d4397be4223fdc7cdf7f38f15fffbd2fdf1950ffb9a17f1d4bdb80be74306f",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2501,7 +2794,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "19-powerup-maxed",
@@ -2511,7 +2812,7 @@
         1920,
         1080
       ],
-      "sha256": "8b81c0c8d1ae2afb7eaaa5425e307fcd3e01f080005c0a1d0e736ad7a8e30284",
+      "sha256": "e8acd9136f42b9d4b59beeaf7593dc24817edb295742c8671c3ecf84efcf8462",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2519,7 +2820,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "20-powerup-success",
@@ -2529,7 +2838,7 @@
         1920,
         1080
       ],
-      "sha256": "80e9499822bfb66b12fbc1db9960df8713b1abe1e58acce807be92be49aa8a9c",
+      "sha256": "e7b0bc80840df0322dc8ff628e334857a37b462a3dd58479a536ac3047060c5b",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2537,7 +2846,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "21-settings-audio",
@@ -2547,7 +2864,7 @@
         1920,
         1080
       ],
-      "sha256": "bbe348097dd2efe13a3e7be5d0a211748214affbac41f30cbd543c2d95613464",
+      "sha256": "b8eb7dbd5e032a3886c5bfd13f3b2406f116950c7dc746af3b3e9f479807c16c",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2555,7 +2872,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "22-settings-display",
@@ -2565,7 +2890,7 @@
         1920,
         1080
       ],
-      "sha256": "97ae548725b20110e5fa54a46d38958e0d02940d3b2a784f683b114efe3d26e3",
+      "sha256": "0ae63e2c7db4beb4abf1e7de872d5fc691f837f72d864fa715acb90fad021abb",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2573,7 +2898,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "23-settings-language",
@@ -2583,7 +2916,7 @@
         1920,
         1080
       ],
-      "sha256": "167d5b8eed88047d6c70cf8a1782095fc36ee3424342f9d8ebfc4070809ff497",
+      "sha256": "fc48cea890f8fd06cb29052a692a062f85731d554b3ad77436390da741d53c11",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2591,7 +2924,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "24-display-confirm",
@@ -2601,7 +2942,7 @@
         1920,
         1080
       ],
-      "sha256": "1e1316b7668e4b38c3e88566ae9a31e7af00294e28156dc6ac49b6e3fcb23f0b",
+      "sha256": "0a504abd01ba1738454fa95035d7d701fea00137346619342060d69519e86db9",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2609,7 +2950,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "25-battle-hud",
@@ -2619,7 +2968,7 @@
         1920,
         1080
       ],
-      "sha256": "0a950fd9ec670516c7dd0c79e92c9259f66fabef545e5c8356664221b248606f",
+      "sha256": "1ed090f408659604deb757233b22a091ec96142e28e2d6f45addf83a36b022a6",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2627,7 +2976,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "26-battle-build-full",
@@ -2637,7 +2994,7 @@
         1920,
         1080
       ],
-      "sha256": "20b539bdb4fd776e7c414e094c5710fd4d9a75e97a6989b23907a56376ee76bc",
+      "sha256": "106af090c95e2b1ac8b854951c68615c16858b0bcf5aaa616132a7998663d6e8",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2645,7 +3002,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "27-battle-buffs",
@@ -2655,7 +3020,7 @@
         1920,
         1080
       ],
-      "sha256": "7e4a7571e215d5f7ceb0c92c4ff5151dc3cdb8e299f55a572f43aff572a01c17",
+      "sha256": "de7caa98a7f4a4212b9038e4da14f21b900956d9c2d3c0e8516cc40cab921507",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2663,7 +3028,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "28-boss-arrival",
@@ -2673,7 +3046,7 @@
         1920,
         1080
       ],
-      "sha256": "b8ceac91274b661d5d0506a0baecd4348e9e41c7e0e95f9b3662c6056f0515b9",
+      "sha256": "2f33e0107bae56f8caca7a8f1efa5624bd48152cd3f9d96a8bc37729a81c61ae",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2681,7 +3054,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "29-upgrade-new",
@@ -2691,7 +3072,7 @@
         1920,
         1080
       ],
-      "sha256": "018b02ecee1966af3694a7f40b1e3f7c901197e892841a1df6c855a6705870c1",
+      "sha256": "2b9aea29dd496eaa9d76422077c94f4ef6177a214e8a75dbc34c1bee8ba727d2",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2699,7 +3080,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "30-upgrade-existing",
@@ -2709,7 +3098,7 @@
         1920,
         1080
       ],
-      "sha256": "5f60d18a27dd671e976a2549f58069a9a616fb2f69bf698b38e606b2f616dc26",
+      "sha256": "665b578833be0ba4dd1730e20e1933838c5efee714884a5793081767d57eab4d",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2717,7 +3106,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "31-upgrade-moneybag",
@@ -2727,7 +3124,7 @@
         1920,
         1080
       ],
-      "sha256": "1be7255812165feafec3c0591b845010d03c43d376c424ad0f017a44da12665f",
+      "sha256": "faa572b7c4af82704901c7f86e9882c7a8b21b318d9948981472df58e7147bb7",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2735,7 +3132,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "32-treasure-one",
@@ -2745,7 +3150,7 @@
         1920,
         1080
       ],
-      "sha256": "d38313e522c29ea39e6f234804684d7c5cfe45ece42d729288142847c719d5ed",
+      "sha256": "5b1a80c99f2672bf8396060d60494d3fd5cfc652a55054f7968977f074e57c1a",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2753,7 +3158,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "33-treasure-three",
@@ -2763,7 +3176,7 @@
         1920,
         1080
       ],
-      "sha256": "1ba9dcd99d0d89adaa594bec2bb5aa47c31142df86ab39631dae1920d1b2281d",
+      "sha256": "3e284e33d5276130c3b267a7c84a074513a1ea68c3f2e519860796de5970a494",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2771,7 +3184,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "34-treasure-five",
@@ -2781,7 +3202,7 @@
         1920,
         1080
       ],
-      "sha256": "3c34767a622b94ba2d582b9a9bb5f1a777e89edcef6f4c1ffbe867e8277328bf",
+      "sha256": "c1fe3694c4a5c4a6b2894cd8c5cce918bb131693c20fba9a2f936d41959d8ddb",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2789,7 +3210,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "35-treasure-evolution",
@@ -2799,7 +3228,7 @@
         1920,
         1080
       ],
-      "sha256": "ff4bdfba4ddade5d0512fb11cd5fb5fc4e590096954ff9ba9d270ae549cae53d",
+      "sha256": "0637eb45e3e51e225525236715f66d2abc924f13f9abb3f54a71a6874b9c14c8",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2807,7 +3236,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "36-treasure-moneybag",
@@ -2817,7 +3254,7 @@
         1920,
         1080
       ],
-      "sha256": "232bbb88a337ddc81d239f380a32866cde8c3b269bef66a444f8c9e0d86d03b5",
+      "sha256": "177af3023cd7ebe4773be8f0b1b6632f8008a22b2d5e1ded83b43a5211492271",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2825,7 +3262,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "37-pause",
@@ -2835,7 +3280,7 @@
         1920,
         1080
       ],
-      "sha256": "3a5207caef39e248f0480103bcb4d6ce7d7fb266e568bfcbcb509300c3e9a237",
+      "sha256": "94faa75c3d2619a493508bfbcb5501ac23ed439933a1e0f4f25b084cf67d92b3",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2843,7 +3288,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "38-abandon-confirm",
@@ -2853,7 +3306,7 @@
         1920,
         1080
       ],
-      "sha256": "77935bab11a9a800f6e054b433f3401a18d6fa3ab5559e8466c088e0c2bbb00d",
+      "sha256": "b02a5680db86addcecedcd02d4c14a8c36c222f6f8358111c2e4af13005d0052",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2861,7 +3314,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "39-exit-confirm",
@@ -2871,7 +3332,7 @@
         1920,
         1080
       ],
-      "sha256": "ef616287521e8496b5f9c728d64f3c5b22da1744c37b2bf80e5a37392e23e6c9",
+      "sha256": "35f15bfbc5db222fe046cede0f5053e141cb53ca316e6422701a88f5119eec61",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2879,7 +3340,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "40-victory",
@@ -2889,7 +3358,7 @@
         1920,
         1080
       ],
-      "sha256": "05a32a6b2a8bbf8b574100a6527ff08b3195e7e43083f466fcb05d7cb60ea5ee",
+      "sha256": "7b4c22ea36500a3d1a8f9ac79ad33999aa754b867fa7b5bc1085e513bd527e55",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2897,7 +3366,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "41-defeat",
@@ -2907,7 +3384,7 @@
         1920,
         1080
       ],
-      "sha256": "4972eb2ce40246f82fdebac1ea5cd54ebba0b2dfc9c3e4fad3d992df90711ce9",
+      "sha256": "b7324b49337d32c8f893ec2cad526815ca3a85196bf758affbc0bcc6f00b2892",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2915,7 +3392,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "42-save-pending",
@@ -2925,7 +3410,7 @@
         1920,
         1080
       ],
-      "sha256": "0d481a153978f289dda04e1499b1fcd5ab40241ed56d2fa4f6f2ef21e7cc3d11",
+      "sha256": "e54f70bba4e20f9db2d41094793c1e39233bea9299c21b5d0b9875137113f6b3",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2933,7 +3418,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "43-save-error",
@@ -2943,7 +3436,7 @@
         1920,
         1080
       ],
-      "sha256": "f2ae57f55ab1c9eb352c35c3ca73af4055d609e9fa1bb021a065a372f62a9374",
+      "sha256": "9f52024b53a3c40f9fdf2be4f2245057fc09878fc3f42b410aa4f2e38896404d",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2951,7 +3444,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "44-guide-controls",
@@ -2961,7 +3462,7 @@
         1920,
         1080
       ],
-      "sha256": "45230f90779131f878598b1d38efd7e057115f7e74ee4f0ee7ce8719967513be",
+      "sha256": "cfb1a19e9d1fc269a4d18d207683a6d49ed26ef0f744f836e6c97a9e704add2d",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2969,7 +3470,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "45-guide-growth",
@@ -2979,7 +3488,7 @@
         1920,
         1080
       ],
-      "sha256": "b65d9ebabaabb79c49196e7737aeb5ff47c39bfc1773d829825da891ec25e811",
+      "sha256": "88705b40f4e21d3ca9070027e1e5b01535ad0f09d54e3b2f61c704d9884bb5d3",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -2987,7 +3496,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "46-skill-codex",
@@ -2997,7 +3514,7 @@
         1920,
         1080
       ],
-      "sha256": "5005c3968b57159f5b81facf61e1a9e72707dbbd8d8a67ff140a79acb90a6d1d",
+      "sha256": "aeaa2e13d4399bbedae975e4ae8ffcc9d78714d20ec0471fbb4324ed779079c4",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -3005,7 +3522,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "47-evolution-locked",
@@ -3015,7 +3540,7 @@
         1920,
         1080
       ],
-      "sha256": "f25b693ac05c103c5c8edd93ef71902cd2939ba793b69cf5e6da83553b5cee73",
+      "sha256": "951dc6c52c11bac6e1f73e03475ec953b6c3ec5edcc22886e32c40c10c6f6da2",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -3023,7 +3548,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "48-evolution-ready",
@@ -3033,7 +3566,7 @@
         1920,
         1080
       ],
-      "sha256": "3bd8b6acaceae5173d365a71dd9c8a378ee06bf7fcff72c91adee6a36b3120ff",
+      "sha256": "d62deb726bb757bca286fa1fb10458e39133b85ddee6c176ab63e77fc4772e05",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -3041,7 +3574,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "49-character-stats",
@@ -3051,7 +3592,7 @@
         1920,
         1080
       ],
-      "sha256": "97c39eb7546f0f0bd38e07062e13d5bf246a4840e9bfc49426548166e8df756e",
+      "sha256": "4d9f656ba4c3e20b49194d147a0258681822de371496b8e4c84b2ed3cc7541cd",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -3059,7 +3600,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "50-notice-states",
@@ -3069,7 +3618,7 @@
         1920,
         1080
       ],
-      "sha256": "b1e613f9a24c3232dba2fee2f3d871d405f605675569ac8e33164c4c97c6079a",
+      "sha256": "5dd3cd953df659ff3ba013f23d5846b917680be584314c4a6191fe27b140b514",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -3077,7 +3626,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "51-control-states",
@@ -3087,7 +3644,7 @@
         1920,
         1080
       ],
-      "sha256": "6bf35ad81d1b122d761e976956fbb629b874c3965d0735b3045d317d79737ecf",
+      "sha256": "900981dc0a344ecfe8181c850d78c0e382a7e1baa4fed103aa65d72ab33c61aa",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -3095,7 +3652,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     },
     {
       "id": "52-flow-map",
@@ -3105,7 +3670,7 @@
         1920,
         1080
       ],
-      "sha256": "351a98b9fed88eab539f46dae8dda3c63cd08f208bdce0aa97d83cf9a6fae69c",
+      "sha256": "0a1cbfcf9946c05bd23099635fb3995ef47876d1baa5e5ce35f089282b202969",
       "matchesAcceptedReview": true,
       "matchesLayoutHash": true,
       "missingAssets": [],
@@ -3113,7 +3678,15 @@
       "mappedAssetsEqualLayout": true,
       "brokenLayers": [],
       "overflowText": [],
-      "acceptanceStatus": "accepted_ui_art"
+      "acceptanceStatus": "accepted_ui_art",
+      "branding": {
+        "gameName": "一炁当千",
+        "hasCurrentName": true,
+        "hasPreviousWorkingTitle": false,
+        "brandAssets": [
+          "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+        ]
+      }
     }
   ]
 }

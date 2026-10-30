@@ -496,6 +496,24 @@
       ]
     },
     {
+      "text": "一炁当千",
+      "tag": "B",
+      "font": "Noto, \"Microsoft YaHei\", sans-serif",
+      "fontSize": "21px",
+      "fontWeight": "500",
+      "color": "rgb(49, 93, 64)",
+      "alignment": "start",
+      "lineHeight": "normal",
+      "rects": [
+        {
+          "x": 126,
+          "y": 1002,
+          "width": 96,
+          "height": 30
+        }
+      ]
+    },
+    {
       "text": "道法齐备，清剿余敌。",
       "tag": "SPAN",
       "font": "Noto, \"Microsoft YaHei\", sans-serif",
@@ -506,8 +524,8 @@
       "lineHeight": "normal",
       "rects": [
         {
-          "x": 70,
-          "y": 1007,
+          "x": 259,
+          "y": 1004.5,
           "width": 170,
           "height": 25
         }
@@ -525,7 +543,7 @@
       "rects": [
         {
           "x": 1577,
-          "y": 1007,
+          "y": 1004.5,
           "width": 273,
           "height": 25
         }
@@ -539,6 +557,12 @@
         1672,
         941
       ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
       "broken": false
     },
     {
@@ -547,6 +571,12 @@
         1024,
         1024
       ],
+      "rect": {
+        "x": 475,
+        "y": 415,
+        "width": 120,
+        "height": 110
+      },
       "broken": false
     },
     {
@@ -555,6 +585,12 @@
         1024,
         1024
       ],
+      "rect": {
+        "x": 1260,
+        "y": 350,
+        "width": 120,
+        "height": 110
+      },
       "broken": false
     },
     {
@@ -563,6 +599,12 @@
         1024,
         1024
       ],
+      "rect": {
+        "x": 1150,
+        "y": 740,
+        "width": 120,
+        "height": 110
+      },
       "broken": false
     },
     {
@@ -571,6 +613,12 @@
         1024,
         1024
       ],
+      "rect": {
+        "x": 620,
+        "y": 730,
+        "width": 120,
+        "height": 110
+      },
       "broken": false
     },
     {
@@ -579,6 +627,12 @@
         1024,
         1024
       ],
+      "rect": {
+        "x": 1480,
+        "y": 660,
+        "width": 120,
+        "height": 110
+      },
       "broken": false
     },
     {
@@ -587,6 +641,12 @@
         1024,
         1024
       ],
+      "rect": {
+        "x": 310,
+        "y": 620,
+        "width": 120,
+        "height": 110
+      },
       "broken": false
     },
     {
@@ -595,6 +655,12 @@
         1024,
         1024
       ],
+      "rect": {
+        "x": 875,
+        "y": 455,
+        "width": 175,
+        "height": 175
+      },
       "broken": false
     },
     {
@@ -603,6 +669,12 @@
         512,
         512
       ],
+      "rect": {
+        "x": 1061.6,
+        "y": 431.6,
+        "width": 126.79,
+        "height": 126.79
+      },
       "broken": false
     },
     {
@@ -611,6 +683,12 @@
         512,
         512
       ],
+      "rect": {
+        "x": 760,
+        "y": 420,
+        "width": 35,
+        "height": 35
+      },
       "broken": false
     },
     {
@@ -619,6 +697,12 @@
         512,
         512
       ],
+      "rect": {
+        "x": 1110,
+        "y": 635,
+        "width": 35,
+        "height": 35
+      },
       "broken": false
     },
     {
@@ -627,6 +711,12 @@
         512,
         512
       ],
+      "rect": {
+        "x": 730,
+        "y": 735,
+        "width": 35,
+        "height": 35
+      },
       "broken": false
     },
     {
@@ -635,6 +725,12 @@
         512,
         512
       ],
+      "rect": {
+        "x": 1210,
+        "y": 580,
+        "width": 35,
+        "height": 35
+      },
       "broken": false
     },
     {
@@ -643,6 +739,12 @@
         512,
         512
       ],
+      "rect": {
+        "x": 990,
+        "y": 740,
+        "width": 35,
+        "height": 35
+      },
       "broken": false
     },
     {
@@ -651,6 +753,12 @@
         1024,
         1024
       ],
+      "rect": {
+        "x": 62,
+        "y": 43,
+        "width": 95,
+        "height": 100
+      },
       "broken": false
     },
     {
@@ -659,6 +767,12 @@
         512,
         512
       ],
+      "rect": {
+        "x": 101,
+        "y": 200,
+        "width": 63,
+        "height": 63
+      },
       "broken": false
     },
     {
@@ -667,6 +781,12 @@
         512,
         512
       ],
+      "rect": {
+        "x": 177,
+        "y": 200,
+        "width": 63,
+        "height": 63
+      },
       "broken": false
     },
     {
@@ -675,6 +795,12 @@
         512,
         512
       ],
+      "rect": {
+        "x": 253,
+        "y": 200,
+        "width": 63,
+        "height": 63
+      },
       "broken": false
     },
     {
@@ -683,6 +809,12 @@
         512,
         512
       ],
+      "rect": {
+        "x": 329,
+        "y": 200,
+        "width": 63,
+        "height": 63
+      },
       "broken": false
     },
     {
@@ -691,6 +823,12 @@
         512,
         512
       ],
+      "rect": {
+        "x": 405,
+        "y": 200,
+        "width": 63,
+        "height": 63
+      },
       "broken": false
     },
     {
@@ -699,6 +837,12 @@
         512,
         512
       ],
+      "rect": {
+        "x": 481,
+        "y": 200,
+        "width": 63,
+        "height": 63
+      },
       "broken": false
     },
     {
@@ -707,6 +851,12 @@
         512,
         512
       ],
+      "rect": {
+        "x": 101,
+        "y": 278,
+        "width": 63,
+        "height": 63
+      },
       "broken": false
     },
     {
@@ -715,6 +865,12 @@
         512,
         512
       ],
+      "rect": {
+        "x": 177,
+        "y": 278,
+        "width": 63,
+        "height": 63
+      },
       "broken": false
     },
     {
@@ -723,6 +879,12 @@
         512,
         512
       ],
+      "rect": {
+        "x": 253,
+        "y": 278,
+        "width": 63,
+        "height": 63
+      },
       "broken": false
     },
     {
@@ -731,6 +893,12 @@
         512,
         512
       ],
+      "rect": {
+        "x": 329,
+        "y": 278,
+        "width": 63,
+        "height": 63
+      },
       "broken": false
     },
     {
@@ -739,6 +907,12 @@
         512,
         512
       ],
+      "rect": {
+        "x": 405,
+        "y": 278,
+        "width": 63,
+        "height": 63
+      },
       "broken": false
     },
     {
@@ -747,6 +921,12 @@
         512,
         512
       ],
+      "rect": {
+        "x": 481,
+        "y": 278,
+        "width": 63,
+        "height": 63
+      },
       "broken": false
     },
     {
@@ -755,9 +935,37 @@
         512,
         512
       ],
+      "rect": {
+        "x": 699.83,
+        "y": 242,
+        "width": 77,
+        "height": 77
+      },
+      "broken": false
+    },
+    {
+      "asset": "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
+      "naturalSize": [
+        128,
+        128
+      ],
+      "rect": {
+        "x": 70,
+        "y": 993,
+        "width": 48,
+        "height": 48
+      },
       "broken": false
     }
   ],
+  "brandAudit": {
+    "gameName": "一炁当千",
+    "hasCurrentName": true,
+    "hasPreviousWorkingTitle": false,
+    "brandAssets": [
+      "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+    ]
+  },
   "overflowText": [],
   "renderOperation": "Browser DOM layout and compositing; not AI image generation or Unity runtime.",
   "artSources": [
@@ -779,10 +987,11 @@
     "art/icons/attr-cooldown.png",
     "art/icons/attr-area.png",
     "art/icons/attr-curse.png",
+    "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
     "art/common/main_frame.png",
     "art/common/title_plate.png",
     "art/common/button_primary.png",
     "art/common/button_secondary.png"
   ],
-  "screenSha256": "b8ceac91274b661d5d0506a0baecd4348e9e41c7e0e95f9b3662c6056f0515b9"
+  "screenSha256": "2f33e0107bae56f8caca7a8f1efa5624bd48152cd3f9d96a8bc37729a81c61ae"
 }

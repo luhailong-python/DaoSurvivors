@@ -30,11 +30,13 @@ const hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex
       text.push({text:value,tag:parent.tagName,font:style.fontFamily,fontSize:style.fontSize,fontWeight:style.fontWeight,color:style.color,alignment:style.textAlign,lineHeight:style.lineHeight,rects});
     }
     return {id:window.daoSuite.row.id,viewport:[innerWidth,innerHeight],designSize:[1920,1080],textRegions:text,
-      imageLayers:[...screen.querySelectorAll('img')].map(im=>({asset:im.dataset.asset,naturalSize:[im.naturalWidth,im.naturalHeight],broken:!im.complete||!im.naturalWidth})),
+      imageLayers:[...screen.querySelectorAll('img')].map(im=>{const r=im.getBoundingClientRect();return {asset:im.dataset.asset,naturalSize:[im.naturalWidth,im.naturalHeight],rect:{x:+(r.x-bounds.x).toFixed(2),y:+(r.y-bounds.y).toFixed(2),width:+r.width.toFixed(2),height:+r.height.toFixed(2)},broken:!im.complete||!im.naturalWidth}}),
+      brandAudit:{gameName:'一炁当千',hasCurrentName:screen.textContent.includes('一炁当千'),hasPreviousWorkingTitle:screen.textContent.includes('道途幸存者'),brandAssets:[...screen.querySelectorAll('img[data-asset*="art/branding/"]')].map(im=>im.dataset.asset)},
       overflowText:text.flatMap(t=>t.rects.some(r=>r.x<-.6||r.y<-.6||r.x+r.width>1920.6||r.y+r.height>1080.6)?[t.text]:[])};
   });
   const broken=mapping.imageLayers.filter(i=>i.broken).map(i=>i.asset);
   if(broken.length||mapping.overflowText.length)failures.push({id:row.id,broken,overflowText:mapping.overflowText});
+  if(!mapping.brandAudit.hasCurrentName||mapping.brandAudit.hasPreviousWorkingTitle||!mapping.brandAudit.brandAssets.length)failures.push({id:row.id,error:'brand synchronization',branding:mapping.brandAudit});
   const shot=path.join(root,row.screenPath),layout=path.join(root,row.layoutPath);
   fs.mkdirSync(path.dirname(shot),{recursive:true});fs.mkdirSync(path.dirname(layout),{recursive:true});
   await page.screenshot({path:shot});

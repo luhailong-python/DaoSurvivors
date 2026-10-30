@@ -1,0 +1,2310 @@
+{
+  "schemaVersion": 2,
+  "workingTitle": "道途幸存者",
+  "titleStatus": "临时名称",
+  "phase": "art-only",
+  "referenceGame": {
+    "url": "https://github.com/Roo-Roo-Roo/survivors-roguelike-kit",
+    "commit": "3f905381d73a34b516030528b8ef6743868b9e52",
+    "localPath": "E:\\work\\image\\DaoSurvivors\\.reference\\survivors-roguelike-kit"
+  },
+  "artReference": {
+    "path": "F:/work/image",
+    "remote": "https://luyuacpp.visualstudio.com/image/_git/image"
+  },
+  "outputRoot": "E:\\work\\image\\DaoSurvivors",
+  "deliveryGithub": null,
+  "deliveryGithubStatus": "待用户提供，不提交、不推送、不发布",
+  "designResolution": [
+    1920,
+    1080
+  ],
+  "screens": [
+    {
+      "id": "01-startup",
+      "system": "启动与加载",
+      "interface": "启动画面",
+      "state": "初次进入",
+      "kind": "startup",
+      "variant": "start",
+      "basis": "supporting_state",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scenes/Initialization.unity"
+      ],
+      "assumptionOrNote": "启动标识为基础美术补齐；没有制作在线登录。",
+      "screenPath": "designs/ui-suite/screens/01-startup.png",
+      "layoutPath": "designs/ui-suite/layouts/01-startup.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/icons/attr-hpmax.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "02-loading",
+      "system": "启动与加载",
+      "interface": "进入秘境",
+      "state": "加载中",
+      "kind": "loading",
+      "variant": "loading",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/LoadingInterfaceController.cs"
+      ],
+      "assumptionOrNote": "源无百分比进度契约，使用不定进度提示。",
+      "screenPath": "designs/ui-suite/screens/02-loading.png",
+      "layoutPath": "designs/ui-suite/layouts/02-loading.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/icons/attr-hpmax.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "03-loading-error",
+      "system": "启动与加载",
+      "interface": "加载异常",
+      "state": "读取失败",
+      "kind": "message",
+      "variant": "load-error",
+      "basis": "suggested",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/LoadingInterfaceController.cs"
+      ],
+      "assumptionOrNote": "本地资源异常的可恢复反馈设计。",
+      "screenPath": "designs/ui-suite/screens/03-loading-error.png",
+      "layoutPath": "designs/ui-suite/layouts/03-loading-error.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/icons/attr-cooldown.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "04-main-menu",
+      "system": "山门与导航",
+      "interface": "山门主界面",
+      "state": "默认",
+      "kind": "main",
+      "variant": "home",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/UIMainMenu.cs"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/04-main-menu.png",
+      "layoutPath": "designs/ui-suite/layouts/04-main-menu.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/common/title_plate.png",
+        "art/common/main_frame.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "05-character-select",
+      "system": "角色选择与解锁",
+      "interface": "选择道友",
+      "state": "首名可用／两名未解锁",
+      "kind": "characters",
+      "variant": "locked",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/CharacterSelect/CharacterSelectPanel.cs"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/05-character-select.png",
+      "layoutPath": "designs/ui-suite/layouts/05-character-select.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/characters/hero.png",
+        "art/icons/skill-nearest.png",
+        "art/characters/sword.png",
+        "art/icons/skill-bothside.png",
+        "art/common/states/lock.png",
+        "art/characters/healer.png",
+        "art/icons/skill-bouncing.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "06-character-owned",
+      "system": "角色选择与解锁",
+      "interface": "选择道友",
+      "state": "全角色已解锁／选中剑修",
+      "kind": "characters",
+      "variant": "owned",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/CharacterSelect/CharacterSelectPanel.cs"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/06-character-owned.png",
+      "layoutPath": "designs/ui-suite/layouts/06-character-owned.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/characters/hero.png",
+        "art/icons/skill-nearest.png",
+        "art/characters/sword.png",
+        "art/icons/skill-bothside.png",
+        "art/characters/healer.png",
+        "art/icons/skill-bouncing.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "07-character-detail",
+      "system": "角色选择与解锁",
+      "interface": "道友详情",
+      "state": "起始道法与说明",
+      "kind": "character-detail",
+      "variant": "detail",
+      "basis": "suggested",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/CharacterSelect/CharacterItem.cs"
+      ],
+      "assumptionOrNote": "整页详情是对已有角色与起始技能数据的美术补充。",
+      "screenPath": "designs/ui-suite/screens/07-character-detail.png",
+      "layoutPath": "designs/ui-suite/layouts/07-character-detail.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/characters/hero.png",
+        "art/icons/skill-nearest.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "08-unlock-confirm",
+      "system": "角色选择与解锁",
+      "interface": "结缘道友",
+      "state": "500 金币确认",
+      "kind": "message",
+      "variant": "unlock-confirm",
+      "basis": "suggested",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/CharacterSelect/CharacterSelectPanel.cs"
+      ],
+      "assumptionOrNote": "源点击直接购买；增加明确消费确认。",
+      "screenPath": "designs/ui-suite/screens/08-unlock-confirm.png",
+      "layoutPath": "designs/ui-suite/layouts/08-unlock-confirm.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "09-unlock-insufficient",
+      "system": "角色选择与解锁",
+      "interface": "结缘道友",
+      "state": "金币不足",
+      "kind": "message",
+      "variant": "unlock-insufficient",
+      "basis": "supporting_state",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/CharacterSelect/CharacterSelectPanel.cs"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/09-unlock-insufficient.png",
+      "layoutPath": "designs/ui-suite/layouts/09-unlock-insufficient.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/icons/moneybag.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "10-unlock-success",
+      "system": "角色选择与解锁",
+      "interface": "结缘道友",
+      "state": "已解锁",
+      "kind": "message",
+      "variant": "unlock-success",
+      "basis": "supporting_state",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/CharacterSelect/CharacterSelectPanel.cs"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/10-unlock-success.png",
+      "layoutPath": "designs/ui-suite/layouts/10-unlock-success.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/icons/skill-bothside.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "11-character-empty",
+      "system": "角色选择与解锁",
+      "interface": "选择道友",
+      "state": "配置为空",
+      "kind": "empty",
+      "variant": "character-empty",
+      "basis": "suggested",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/CharacterSelect/CharacterSelectPanel.cs"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/11-character-empty.png",
+      "layoutPath": "designs/ui-suite/layouts/11-character-empty.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/characters/hero.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "12-level-select",
+      "system": "秘境选择",
+      "interface": "选择秘境",
+      "state": "两关列表／第一关已选",
+      "kind": "levels",
+      "variant": "select",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/LevelSelect/LevelSelectPanel.cs"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/12-level-select.png",
+      "layoutPath": "designs/ui-suite/layouts/12-level-select.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/illustrations/arena-v1.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "13-level-detail",
+      "system": "秘境选择",
+      "interface": "秘境详情",
+      "state": "第二关说明",
+      "kind": "levels",
+      "variant": "detail",
+      "basis": "supporting_state",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/LevelSelect/LevelItem.cs"
+      ],
+      "assumptionOrNote": "两个配置实际共享Map1/Stage1；不伪称已有独立第二张地图。",
+      "screenPath": "designs/ui-suite/screens/13-level-detail.png",
+      "layoutPath": "designs/ui-suite/layouts/13-level-detail.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/illustrations/arena-v1.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "14-level-unselected",
+      "system": "秘境选择",
+      "interface": "选择秘境",
+      "state": "尚未选择",
+      "kind": "levels",
+      "variant": "unselected",
+      "basis": "suggested",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/LevelSelect/LevelSelectPanel.cs"
+      ],
+      "assumptionOrNote": "确认前置校验属于UI补齐。",
+      "screenPath": "designs/ui-suite/screens/14-level-unselected.png",
+      "layoutPath": "designs/ui-suite/layouts/14-level-unselected.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/illustrations/arena-v1.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "15-level-empty",
+      "system": "秘境选择",
+      "interface": "选择秘境",
+      "state": "无关卡配置",
+      "kind": "empty",
+      "variant": "level-empty",
+      "basis": "suggested",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/LevelSelect/LevelSelectPanel.cs"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/15-level-empty.png",
+      "layoutPath": "designs/ui-suite/layouts/15-level-empty.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/icons/attr-area.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "16-powerup-overview",
+      "system": "永久成长",
+      "interface": "温养根基",
+      "state": "14项属性总览",
+      "kind": "growth",
+      "variant": "overview",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/PowerUp/PowerUpAttributeUpgrade.cs",
+        "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/16-powerup-overview.png",
+      "layoutPath": "designs/ui-suite/layouts/16-powerup-overview.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/icons/attr-might.png",
+        "art/icons/attr-armor.png",
+        "art/icons/attr-hpmax.png",
+        "art/icons/attr-recovery.png",
+        "art/icons/attr-cooldown.png",
+        "art/icons/attr-area.png",
+        "art/icons/attr-skillspeed.png",
+        "art/icons/attr-duration.png",
+        "art/icons/attr-amount.png",
+        "art/icons/attr-movespeed.png",
+        "art/icons/attr-magnet.png",
+        "art/icons/attr-growth.png",
+        "art/icons/attr-greed.png",
+        "art/icons/attr-curse.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "17-powerup-detail",
+      "system": "永久成长",
+      "interface": "温养根基",
+      "state": "已选属性／可购买",
+      "kind": "growth",
+      "variant": "detail",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/PowerUp/PowerUpAttributeUpgrade.cs",
+        "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/17-powerup-detail.png",
+      "layoutPath": "designs/ui-suite/layouts/17-powerup-detail.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/icons/attr-might.png",
+        "art/icons/attr-armor.png",
+        "art/icons/attr-hpmax.png",
+        "art/icons/attr-recovery.png",
+        "art/icons/attr-cooldown.png",
+        "art/icons/attr-area.png",
+        "art/icons/attr-skillspeed.png",
+        "art/icons/attr-duration.png",
+        "art/icons/attr-amount.png",
+        "art/icons/attr-movespeed.png",
+        "art/icons/attr-magnet.png",
+        "art/icons/attr-growth.png",
+        "art/icons/attr-greed.png",
+        "art/icons/attr-curse.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "18-powerup-insufficient",
+      "system": "永久成长",
+      "interface": "温养根基",
+      "state": "金币不足",
+      "kind": "growth",
+      "variant": "insufficient",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/PowerUp/PowerUpAttributeUpgrade.cs",
+        "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/18-powerup-insufficient.png",
+      "layoutPath": "designs/ui-suite/layouts/18-powerup-insufficient.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/icons/attr-might.png",
+        "art/icons/attr-armor.png",
+        "art/icons/attr-hpmax.png",
+        "art/icons/attr-recovery.png",
+        "art/icons/attr-cooldown.png",
+        "art/icons/attr-area.png",
+        "art/icons/attr-skillspeed.png",
+        "art/icons/attr-duration.png",
+        "art/icons/attr-amount.png",
+        "art/icons/attr-movespeed.png",
+        "art/icons/attr-magnet.png",
+        "art/icons/attr-growth.png",
+        "art/icons/attr-greed.png",
+        "art/icons/attr-curse.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "19-powerup-maxed",
+      "system": "永久成长",
+      "interface": "温养根基",
+      "state": "已达各自最高阶",
+      "kind": "growth",
+      "variant": "maxed",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/PowerUp/PowerUpAttributeUpgrade.cs",
+        "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/19-powerup-maxed.png",
+      "layoutPath": "designs/ui-suite/layouts/19-powerup-maxed.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/icons/attr-might.png",
+        "art/icons/attr-armor.png",
+        "art/icons/attr-hpmax.png",
+        "art/icons/attr-recovery.png",
+        "art/icons/attr-cooldown.png",
+        "art/icons/attr-area.png",
+        "art/icons/attr-skillspeed.png",
+        "art/icons/attr-duration.png",
+        "art/icons/attr-amount.png",
+        "art/icons/attr-movespeed.png",
+        "art/icons/attr-magnet.png",
+        "art/icons/attr-growth.png",
+        "art/icons/attr-greed.png",
+        "art/icons/attr-curse.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "20-powerup-success",
+      "system": "永久成长",
+      "interface": "温养根基",
+      "state": "已购买／阶数更新",
+      "kind": "growth",
+      "variant": "success",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/PowerUp/PowerUpAttributeUpgrade.cs",
+        "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/20-powerup-success.png",
+      "layoutPath": "designs/ui-suite/layouts/20-powerup-success.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/icons/attr-might.png",
+        "art/icons/attr-armor.png",
+        "art/icons/attr-hpmax.png",
+        "art/icons/attr-recovery.png",
+        "art/icons/attr-cooldown.png",
+        "art/icons/attr-area.png",
+        "art/icons/attr-skillspeed.png",
+        "art/icons/attr-duration.png",
+        "art/icons/attr-amount.png",
+        "art/icons/attr-movespeed.png",
+        "art/icons/attr-magnet.png",
+        "art/icons/attr-growth.png",
+        "art/icons/attr-greed.png",
+        "art/icons/attr-curse.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "21-settings-audio",
+      "system": "设置",
+      "interface": "清心小筑",
+      "state": "总音量／音乐／音效",
+      "kind": "settings",
+      "variant": "audio",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/Setting/SettingPanel.cs"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/21-settings-audio.png",
+      "layoutPath": "designs/ui-suite/layouts/21-settings-audio.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "22-settings-display",
+      "system": "设置",
+      "interface": "清心小筑",
+      "state": "分辨率／全屏／伤害浮字",
+      "kind": "settings",
+      "variant": "display",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/Setting/SettingPanel.cs"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/22-settings-display.png",
+      "layoutPath": "designs/ui-suite/layouts/22-settings-display.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "23-settings-language",
+      "system": "设置",
+      "interface": "清心小筑",
+      "state": "语言选择",
+      "kind": "settings",
+      "variant": "language",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/Setting/SettingPanel.cs"
+      ],
+      "assumptionOrNote": "源仅配置English；中文为本次美术本地化，不宣称源已支持中文。",
+      "screenPath": "designs/ui-suite/screens/23-settings-language.png",
+      "layoutPath": "designs/ui-suite/layouts/23-settings-language.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "24-display-confirm",
+      "system": "设置",
+      "interface": "画面设置确认",
+      "state": "保留或还原",
+      "kind": "message",
+      "variant": "display-confirm",
+      "basis": "suggested",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/Setting/SettingPanel.cs"
+      ],
+      "assumptionOrNote": "分辨率变更的安全还原设计。",
+      "screenPath": "designs/ui-suite/screens/24-display-confirm.png",
+      "layoutPath": "designs/ui-suite/layouts/24-display-confirm.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/icons/attr-area.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "25-battle-hud",
+      "system": "核心战斗",
+      "interface": "战斗 HUD",
+      "state": "常规战斗／空技能槽",
+      "kind": "battle",
+      "variant": "normal",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/Game/SkillIconPanel.cs",
+        "Assets/RGame/RoguelikeKit/Scenes/Managers/GamePlay.unity"
+      ],
+      "assumptionOrNote": "数值为状态排版样例，非游戏运行截图。",
+      "screenPath": "designs/ui-suite/screens/25-battle-hud.png",
+      "layoutPath": "designs/ui-suite/layouts/25-battle-hud.json",
+      "independentAssets": [
+        "art/illustrations/arena-v1.png",
+        "art/characters/enemy-tiger.png",
+        "art/characters/enemy-lantern.png",
+        "art/characters/hero.png",
+        "art/icons/skill-nearest.png",
+        "art/icons/exp.png",
+        "art/icons/skill-bothside.png",
+        "art/icons/skill-bouncing.png",
+        "art/icons/attr-might.png",
+        "art/icons/attr-armor.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "26-battle-build-full",
+      "system": "核心战斗",
+      "interface": "战斗 HUD",
+      "state": "6主动＋6被动满槽",
+      "kind": "battle",
+      "variant": "full",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/Game/SkillIconPanel.cs",
+        "Assets/RGame/RoguelikeKit/Scenes/Managers/GamePlay.unity"
+      ],
+      "assumptionOrNote": "数值为状态排版样例，非游戏运行截图。",
+      "screenPath": "designs/ui-suite/screens/26-battle-build-full.png",
+      "layoutPath": "designs/ui-suite/layouts/26-battle-build-full.json",
+      "independentAssets": [
+        "art/illustrations/arena-v1.png",
+        "art/characters/enemy-tiger.png",
+        "art/characters/enemy-lantern.png",
+        "art/characters/hero.png",
+        "art/icons/skill-nearest.png",
+        "art/icons/exp.png",
+        "art/icons/skill-bothside.png",
+        "art/icons/skill-bouncing.png",
+        "art/icons/skill-chain.png",
+        "art/icons/skill-circle.png",
+        "art/icons/skill-orbit.png",
+        "art/icons/attr-might.png",
+        "art/icons/attr-armor.png",
+        "art/icons/attr-hpmax.png",
+        "art/icons/attr-recovery.png",
+        "art/icons/attr-cooldown.png",
+        "art/icons/attr-area.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "27-battle-buffs",
+      "system": "核心战斗",
+      "interface": "战斗 HUD",
+      "state": "燃烧／冰冻／减速状态",
+      "kind": "battle",
+      "variant": "buffs",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/Game/SkillIconPanel.cs",
+        "Assets/RGame/RoguelikeKit/Scenes/Managers/GamePlay.unity"
+      ],
+      "assumptionOrNote": "数值为状态排版样例，非游戏运行截图。",
+      "screenPath": "designs/ui-suite/screens/27-battle-buffs.png",
+      "layoutPath": "designs/ui-suite/layouts/27-battle-buffs.json",
+      "independentAssets": [
+        "art/illustrations/arena-v1.png",
+        "art/characters/enemy-tiger.png",
+        "art/characters/enemy-lantern.png",
+        "art/characters/hero.png",
+        "art/icons/skill-nearest.png",
+        "art/icons/exp.png",
+        "art/icons/skill-bothside.png",
+        "art/icons/skill-bouncing.png",
+        "art/icons/attr-might.png",
+        "art/icons/attr-armor.png",
+        "art/icons/buff-burn.png",
+        "art/icons/buff-freeze.png",
+        "art/icons/buff-slow.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "28-boss-arrival",
+      "system": "核心战斗",
+      "interface": "战斗 HUD",
+      "state": "末波首领预警",
+      "kind": "battle",
+      "variant": "boss",
+      "basis": "suggested",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/Game/SkillIconPanel.cs",
+        "Assets/RGame/RoguelikeKit/Scenes/Managers/GamePlay.unity"
+      ],
+      "assumptionOrNote": "首领存在；明显预警条为美术补齐。",
+      "screenPath": "designs/ui-suite/screens/28-boss-arrival.png",
+      "layoutPath": "designs/ui-suite/layouts/28-boss-arrival.json",
+      "independentAssets": [
+        "art/illustrations/arena-v1.png",
+        "art/characters/enemy-tiger.png",
+        "art/characters/enemy-lantern.png",
+        "art/characters/hero.png",
+        "art/icons/skill-nearest.png",
+        "art/icons/exp.png",
+        "art/icons/skill-bothside.png",
+        "art/icons/skill-bouncing.png",
+        "art/icons/skill-chain.png",
+        "art/icons/skill-circle.png",
+        "art/icons/skill-orbit.png",
+        "art/icons/attr-might.png",
+        "art/icons/attr-armor.png",
+        "art/icons/attr-hpmax.png",
+        "art/icons/attr-recovery.png",
+        "art/icons/attr-cooldown.png",
+        "art/icons/attr-area.png",
+        "art/icons/attr-curse.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "29-upgrade-new",
+      "system": "局内升级",
+      "interface": "灵光乍现",
+      "state": "新主动／新被动三选一",
+      "kind": "upgrade",
+      "variant": "new",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillPanel.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillItem.cs"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/29-upgrade-new.png",
+      "layoutPath": "designs/ui-suite/layouts/29-upgrade-new.json",
+      "independentAssets": [
+        "art/illustrations/arena-v1.png",
+        "art/characters/enemy-tiger.png",
+        "art/characters/enemy-lantern.png",
+        "art/characters/hero.png",
+        "art/icons/skill-nearest.png",
+        "art/icons/exp.png",
+        "art/icons/skill-bothside.png",
+        "art/icons/skill-bouncing.png",
+        "art/icons/attr-might.png",
+        "art/icons/attr-armor.png",
+        "art/icons/skill-chain.png",
+        "art/icons/attr-hpmax.png",
+        "art/icons/skill-fourcorner.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "30-upgrade-existing",
+      "system": "局内升级",
+      "interface": "灵光乍现",
+      "state": "持有道法升级",
+      "kind": "upgrade",
+      "variant": "existing",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillPanel.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillItem.cs"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/30-upgrade-existing.png",
+      "layoutPath": "designs/ui-suite/layouts/30-upgrade-existing.json",
+      "independentAssets": [
+        "art/illustrations/arena-v1.png",
+        "art/characters/enemy-tiger.png",
+        "art/characters/enemy-lantern.png",
+        "art/characters/hero.png",
+        "art/icons/skill-nearest.png",
+        "art/icons/exp.png",
+        "art/icons/skill-bothside.png",
+        "art/icons/skill-bouncing.png",
+        "art/icons/attr-might.png",
+        "art/icons/attr-armor.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "31-upgrade-moneybag",
+      "system": "局内升级",
+      "interface": "灵光乍现",
+      "state": "技能满级后金币补位",
+      "kind": "upgrade",
+      "variant": "moneybag",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillPanel.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillItem.cs"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/31-upgrade-moneybag.png",
+      "layoutPath": "designs/ui-suite/layouts/31-upgrade-moneybag.json",
+      "independentAssets": [
+        "art/illustrations/arena-v1.png",
+        "art/characters/enemy-tiger.png",
+        "art/characters/enemy-lantern.png",
+        "art/characters/hero.png",
+        "art/icons/skill-nearest.png",
+        "art/icons/exp.png",
+        "art/icons/skill-bothside.png",
+        "art/icons/skill-bouncing.png",
+        "art/icons/skill-chain.png",
+        "art/icons/skill-circle.png",
+        "art/icons/skill-orbit.png",
+        "art/icons/attr-might.png",
+        "art/icons/attr-armor.png",
+        "art/icons/attr-hpmax.png",
+        "art/icons/attr-recovery.png",
+        "art/icons/attr-cooldown.png",
+        "art/icons/attr-area.png",
+        "art/icons/moneybag.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "32-treasure-one",
+      "system": "宝箱与进化",
+      "interface": "机缘宝匣",
+      "state": "单件奖励／揭晓中",
+      "kind": "treasure",
+      "variant": "one",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/Game/TreasurePanel.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs"
+      ],
+      "assumptionOrNote": "宝箱揭晓约3秒后才可确认，奖励全部领取而非三选一。",
+      "screenPath": "designs/ui-suite/screens/32-treasure-one.png",
+      "layoutPath": "designs/ui-suite/layouts/32-treasure-one.json",
+      "independentAssets": [
+        "art/illustrations/arena-v1.png",
+        "art/characters/enemy-tiger.png",
+        "art/characters/enemy-lantern.png",
+        "art/characters/hero.png",
+        "art/icons/skill-nearest.png",
+        "art/icons/exp.png",
+        "art/icons/skill-bothside.png",
+        "art/icons/skill-bouncing.png",
+        "art/icons/attr-might.png",
+        "art/icons/attr-armor.png",
+        "art/icons/treasure-closed.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "33-treasure-three",
+      "system": "宝箱与进化",
+      "interface": "机缘宝匣",
+      "state": "三件奖励／揭晓中",
+      "kind": "treasure",
+      "variant": "three",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/Game/TreasurePanel.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs"
+      ],
+      "assumptionOrNote": "宝箱揭晓约3秒后才可确认，奖励全部领取而非三选一。",
+      "screenPath": "designs/ui-suite/screens/33-treasure-three.png",
+      "layoutPath": "designs/ui-suite/layouts/33-treasure-three.json",
+      "independentAssets": [
+        "art/illustrations/arena-v1.png",
+        "art/characters/enemy-tiger.png",
+        "art/characters/enemy-lantern.png",
+        "art/characters/hero.png",
+        "art/icons/skill-nearest.png",
+        "art/icons/exp.png",
+        "art/icons/skill-bothside.png",
+        "art/icons/skill-bouncing.png",
+        "art/icons/attr-might.png",
+        "art/icons/attr-armor.png",
+        "art/icons/treasure-closed.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "34-treasure-five",
+      "system": "宝箱与进化",
+      "interface": "机缘宝匣",
+      "state": "五件奖励／可领取",
+      "kind": "treasure",
+      "variant": "five",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/Game/TreasurePanel.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs"
+      ],
+      "assumptionOrNote": "宝箱揭晓约3秒后才可确认，奖励全部领取而非三选一。",
+      "screenPath": "designs/ui-suite/screens/34-treasure-five.png",
+      "layoutPath": "designs/ui-suite/layouts/34-treasure-five.json",
+      "independentAssets": [
+        "art/illustrations/arena-v1.png",
+        "art/characters/enemy-tiger.png",
+        "art/characters/enemy-lantern.png",
+        "art/characters/hero.png",
+        "art/icons/skill-nearest.png",
+        "art/icons/exp.png",
+        "art/icons/skill-bothside.png",
+        "art/icons/skill-bouncing.png",
+        "art/icons/attr-might.png",
+        "art/icons/attr-armor.png",
+        "art/icons/treasure-open.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "35-treasure-evolution",
+      "system": "宝箱与进化",
+      "interface": "机缘宝匣",
+      "state": "满足条件／法器进化",
+      "kind": "treasure",
+      "variant": "evolution",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/Game/TreasurePanel.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs"
+      ],
+      "assumptionOrNote": "宝箱揭晓约3秒后才可确认，奖励全部领取而非三选一。",
+      "screenPath": "designs/ui-suite/screens/35-treasure-evolution.png",
+      "layoutPath": "designs/ui-suite/layouts/35-treasure-evolution.json",
+      "independentAssets": [
+        "art/illustrations/arena-v1.png",
+        "art/characters/enemy-tiger.png",
+        "art/characters/enemy-lantern.png",
+        "art/characters/hero.png",
+        "art/icons/skill-nearest.png",
+        "art/icons/exp.png",
+        "art/icons/skill-bothside.png",
+        "art/icons/skill-bouncing.png",
+        "art/icons/skill-chain.png",
+        "art/icons/skill-circle.png",
+        "art/icons/skill-orbit.png",
+        "art/icons/attr-might.png",
+        "art/icons/attr-armor.png",
+        "art/icons/attr-hpmax.png",
+        "art/icons/attr-recovery.png",
+        "art/icons/attr-cooldown.png",
+        "art/icons/attr-area.png",
+        "art/icons/treasure-open.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "36-treasure-moneybag",
+      "system": "宝箱与进化",
+      "interface": "机缘宝匣",
+      "state": "无可升级技能／金币替代",
+      "kind": "treasure",
+      "variant": "moneybag",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/Game/TreasurePanel.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs"
+      ],
+      "assumptionOrNote": "宝箱揭晓约3秒后才可确认，奖励全部领取而非三选一。",
+      "screenPath": "designs/ui-suite/screens/36-treasure-moneybag.png",
+      "layoutPath": "designs/ui-suite/layouts/36-treasure-moneybag.json",
+      "independentAssets": [
+        "art/illustrations/arena-v1.png",
+        "art/characters/enemy-tiger.png",
+        "art/characters/enemy-lantern.png",
+        "art/characters/hero.png",
+        "art/icons/skill-nearest.png",
+        "art/icons/exp.png",
+        "art/icons/skill-bothside.png",
+        "art/icons/skill-bouncing.png",
+        "art/icons/skill-chain.png",
+        "art/icons/skill-circle.png",
+        "art/icons/skill-orbit.png",
+        "art/icons/attr-might.png",
+        "art/icons/attr-armor.png",
+        "art/icons/attr-hpmax.png",
+        "art/icons/attr-recovery.png",
+        "art/icons/attr-cooldown.png",
+        "art/icons/attr-area.png",
+        "art/icons/treasure-open.png",
+        "art/icons/moneybag.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "37-pause",
+      "system": "暂停与退出",
+      "interface": "稍作调息",
+      "state": "暂停",
+      "kind": "pause",
+      "variant": "pause",
+      "basis": "suggested",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/Input/InputReader.cs"
+      ],
+      "assumptionOrNote": "源有暂停事件但未见完整暂停窗口，按类型基础功能补齐。",
+      "screenPath": "designs/ui-suite/screens/37-pause.png",
+      "layoutPath": "designs/ui-suite/layouts/37-pause.json",
+      "independentAssets": [
+        "art/illustrations/arena-v1.png",
+        "art/characters/enemy-tiger.png",
+        "art/characters/enemy-lantern.png",
+        "art/characters/hero.png",
+        "art/icons/skill-nearest.png",
+        "art/icons/exp.png",
+        "art/icons/skill-bothside.png",
+        "art/icons/skill-bouncing.png",
+        "art/icons/attr-might.png",
+        "art/icons/attr-armor.png",
+        "art/icons/attr-cooldown.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "38-abandon-confirm",
+      "system": "暂停与退出",
+      "interface": "结束历练确认",
+      "state": "取消／返回山门",
+      "kind": "message",
+      "variant": "abandon",
+      "basis": "suggested",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/GameEndPanel.cs"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/38-abandon-confirm.png",
+      "layoutPath": "designs/ui-suite/layouts/38-abandon-confirm.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/icons/attr-cooldown.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "39-exit-confirm",
+      "system": "暂停与退出",
+      "interface": "离开游戏确认",
+      "state": "确认／取消",
+      "kind": "message",
+      "variant": "quit",
+      "basis": "suggested",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/UIMainMenu.cs"
+      ],
+      "assumptionOrNote": "源有退出按钮但未接通回调；美术提供确认状态，后续接入。",
+      "screenPath": "designs/ui-suite/screens/39-exit-confirm.png",
+      "layoutPath": "designs/ui-suite/layouts/39-exit-confirm.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/icons/attr-growth.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "40-victory",
+      "system": "历练结算",
+      "interface": "此境已平",
+      "state": "所有波次清空／胜利",
+      "kind": "result",
+      "variant": "victory",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/GameEndPanel.cs",
+        "Assets/RGame/RoguelikeKit/Scenes/Managers/GamePlay.unity"
+      ],
+      "assumptionOrNote": "不沿用旧稿90秒胜利；样例时长12:35。",
+      "screenPath": "designs/ui-suite/screens/40-victory.png",
+      "layoutPath": "designs/ui-suite/layouts/40-victory.json",
+      "independentAssets": [
+        "art/illustrations/arena-v1.png",
+        "art/characters/enemy-tiger.png",
+        "art/characters/enemy-lantern.png",
+        "art/characters/hero.png",
+        "art/icons/skill-nearest.png",
+        "art/icons/exp.png",
+        "art/icons/skill-bothside.png",
+        "art/icons/skill-bouncing.png",
+        "art/icons/skill-chain.png",
+        "art/icons/skill-circle.png",
+        "art/icons/skill-orbit.png",
+        "art/icons/attr-might.png",
+        "art/icons/attr-armor.png",
+        "art/icons/attr-hpmax.png",
+        "art/icons/attr-recovery.png",
+        "art/icons/attr-cooldown.png",
+        "art/icons/attr-area.png",
+        "art/icons/gold.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "41-defeat",
+      "system": "历练结算",
+      "interface": "道途未尽",
+      "state": "气血耗尽／失败",
+      "kind": "result",
+      "variant": "defeat",
+      "basis": "existing",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/GameEndPanel.cs"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/41-defeat.png",
+      "layoutPath": "designs/ui-suite/layouts/41-defeat.json",
+      "independentAssets": [
+        "art/illustrations/arena-v1.png",
+        "art/characters/enemy-tiger.png",
+        "art/characters/enemy-lantern.png",
+        "art/characters/hero.png",
+        "art/icons/skill-nearest.png",
+        "art/icons/exp.png",
+        "art/icons/skill-bothside.png",
+        "art/icons/skill-bouncing.png",
+        "art/icons/attr-might.png",
+        "art/icons/attr-armor.png",
+        "art/icons/gold.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "42-save-pending",
+      "system": "本地存档与反馈",
+      "interface": "本地保存提示",
+      "state": "保存中／避免重复领取",
+      "kind": "message",
+      "variant": "saving",
+      "basis": "suggested",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/GameEndPanel.cs"
+      ],
+      "assumptionOrNote": "原有保存系统；明确等待反馈为设计补齐。",
+      "screenPath": "designs/ui-suite/screens/42-save-pending.png",
+      "layoutPath": "designs/ui-suite/layouts/42-save-pending.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/icons/moneybag.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "43-save-error",
+      "system": "本地存档与反馈",
+      "interface": "本地保存异常",
+      "state": "重试／保留当前界面",
+      "kind": "message",
+      "variant": "save-error",
+      "basis": "suggested",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/GameEndPanel.cs"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/43-save-error.png",
+      "layoutPath": "designs/ui-suite/layouts/43-save-error.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/icons/attr-cooldown.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "44-guide-controls",
+      "system": "帮助与引导",
+      "interface": "入山指引",
+      "state": "移动与自动施法",
+      "kind": "guide",
+      "variant": "controls",
+      "basis": "suggested",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/Input/InputReader.cs"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/44-guide-controls.png",
+      "layoutPath": "designs/ui-suite/layouts/44-guide-controls.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/characters/hero.png",
+        "art/icons/skill-nearest.png",
+        "art/icons/attr-curse.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "45-guide-growth",
+      "system": "帮助与引导",
+      "interface": "悟道指引",
+      "state": "升级／满槽／宝箱",
+      "kind": "guide",
+      "variant": "growth",
+      "basis": "suggested",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/Game/UpgradeSkillPanel.cs",
+        "Assets/RGame/RoguelikeKit/Scripts/UI/Game/TreasurePanel.cs"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/45-guide-growth.png",
+      "layoutPath": "designs/ui-suite/layouts/45-guide-growth.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/icons/exp.png",
+        "art/icons/skill-nearest.png",
+        "art/icons/treasure-open.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "46-skill-codex",
+      "system": "道法资料",
+      "interface": "道法总览",
+      "state": "九主动／属性说明",
+      "kind": "codex",
+      "variant": "codex",
+      "basis": "suggested",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill"
+      ],
+      "assumptionOrNote": "资料面板为新增帮助UI；技能与配方来自源数据。",
+      "screenPath": "designs/ui-suite/screens/46-skill-codex.png",
+      "layoutPath": "designs/ui-suite/layouts/46-skill-codex.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/icons/skill-nearest.png",
+        "art/icons/skill-bothside.png",
+        "art/icons/skill-bouncing.png",
+        "art/icons/skill-chain.png",
+        "art/icons/skill-circle.png",
+        "art/icons/skill-orbit.png",
+        "art/icons/skill-fourcorner.png",
+        "art/icons/skill-scope.png",
+        "art/icons/skill-random.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "47-evolution-locked",
+      "system": "道法资料",
+      "interface": "法器化境",
+      "state": "条件未满足",
+      "kind": "evolution",
+      "variant": "locked",
+      "basis": "suggested",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs"
+      ],
+      "assumptionOrNote": "进化资料页为美术补齐，进化逻辑来自源系统。",
+      "screenPath": "designs/ui-suite/screens/47-evolution-locked.png",
+      "layoutPath": "designs/ui-suite/layouts/47-evolution-locked.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/icons/skill-nearest.png",
+        "art/icons/attr-cooldown.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "48-evolution-ready",
+      "system": "道法资料",
+      "interface": "法器化境",
+      "state": "条件已满足／待宝箱触发",
+      "kind": "evolution",
+      "variant": "ready",
+      "basis": "suggested",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/System/Skill/SkillManager.cs"
+      ],
+      "assumptionOrNote": "不提供绕过宝箱的立即进化按钮。",
+      "screenPath": "designs/ui-suite/screens/48-evolution-ready.png",
+      "layoutPath": "designs/ui-suite/layouts/48-evolution-ready.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/icons/skill-nearest.png",
+        "art/icons/attr-cooldown.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "49-character-stats",
+      "system": "道法资料",
+      "interface": "道友属性",
+      "state": "局内与永久成长分区",
+      "kind": "stats",
+      "variant": "stats",
+      "basis": "suggested",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/ScriptableObjects/RuntimeDataSO/PowerUp/PowerUpStat.asset"
+      ],
+      "assumptionOrNote": "资料页为美术补齐；不虚构装备穿戴系统。",
+      "screenPath": "designs/ui-suite/screens/49-character-stats.png",
+      "layoutPath": "designs/ui-suite/layouts/49-character-stats.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/characters/hero.png",
+        "art/icons/skill-nearest.png",
+        "art/icons/attr-might.png",
+        "art/icons/attr-armor.png",
+        "art/icons/attr-hpmax.png",
+        "art/icons/attr-recovery.png",
+        "art/icons/attr-cooldown.png",
+        "art/icons/attr-area.png",
+        "art/icons/attr-skillspeed.png",
+        "art/icons/attr-duration.png",
+        "art/icons/attr-amount.png",
+        "art/icons/attr-movespeed.png",
+        "art/icons/attr-magnet.png",
+        "art/icons/attr-growth.png",
+        "art/icons/attr-greed.png",
+        "art/icons/attr-curse.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "50-notice-states",
+      "system": "通用控件",
+      "interface": "消息反馈",
+      "state": "成功／不足／异常／空态",
+      "kind": "notice",
+      "variant": "notices",
+      "basis": "supporting_state",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/PowerUp/PowerUpAttributeUpgrade.cs"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/50-notice-states.png",
+      "layoutPath": "designs/ui-suite/layouts/50-notice-states.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/icons/attr-growth.png",
+        "art/icons/moneybag.png",
+        "art/icons/attr-cooldown.png",
+        "art/icons/treasure-closed.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "51-control-states",
+      "system": "通用控件",
+      "interface": "统一控件",
+      "state": "普通／按下／选中／禁用／锁定",
+      "kind": "components",
+      "variant": "components",
+      "basis": "supporting_state",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/CharacterSelect/CharacterSelectPanel.cs"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/51-control-states.png",
+      "layoutPath": "designs/ui-suite/layouts/51-control-states.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/common/controls/primary_button_normal.png",
+        "art/common/controls/primary_button_pressed.png",
+        "art/common/controls/primary_button_selected.png",
+        "art/common/controls/primary_button_disabled.png",
+        "art/common/controls/primary_button_locked.png",
+        "art/common/controls/tab_normal.png",
+        "art/common/controls/tab_pressed.png",
+        "art/common/controls/tab_selected.png",
+        "art/common/controls/tab_disabled.png",
+        "art/common/controls/tab_locked.png",
+        "art/common/controls/list_row_normal.png",
+        "art/common/controls/list_row_pressed.png",
+        "art/common/controls/list_row_selected.png",
+        "art/common/controls/list_row_disabled.png",
+        "art/common/controls/list_row_locked.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    },
+    {
+      "id": "52-flow-map",
+      "system": "流程说明",
+      "interface": "整套界面关系",
+      "state": "入口与返回路径",
+      "kind": "flow",
+      "variant": "flow",
+      "basis": "supporting_state",
+      "referenceEvidence": [
+        "Assets/RGame/RoguelikeKit/Scripts/UI/MainMenu/UIMenuManager.cs"
+      ],
+      "assumptionOrNote": "",
+      "screenPath": "designs/ui-suite/screens/52-flow-map.png",
+      "layoutPath": "designs/ui-suite/layouts/52-flow-map.json",
+      "independentAssets": [
+        "art/illustrations/lobby-v1.png",
+        "art/icons/gold.png",
+        "art/common/main_frame.png",
+        "art/common/title_plate.png",
+        "art/common/button_primary.png",
+        "art/common/button_secondary.png"
+      ],
+      "productionStatus": "complete",
+      "acceptanceStatus": "accepted_ui_art",
+      "unityStatus": "待下一阶段接入验证",
+      "acceptanceEvidence": [
+        "docs/ui-suite/final-visual-review.json",
+        "docs/ui-suite/render-verification.json"
+      ]
+    }
+  ],
+  "permanentAttributes": [
+    {
+      "key": "Might",
+      "name": "剑意",
+      "description": "每阶伤害 +5%",
+      "maxLevel": 5,
+      "costs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "icon": "art/icons/attr-might.png",
+      "evidence": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "evidenceLine": 2235,
+      "numericPolicy": "Costs and caps are reference demo config, not a proposed live balance table."
+    },
+    {
+      "key": "Armor",
+      "name": "护体",
+      "description": "每阶承伤降低 10%",
+      "maxLevel": 3,
+      "costs": [
+        1,
+        2,
+        3
+      ],
+      "icon": "art/icons/attr-armor.png",
+      "evidence": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "evidenceLine": 2097,
+      "numericPolicy": "Costs and caps are reference demo config, not a proposed live balance table."
+    },
+    {
+      "key": "HPMax",
+      "name": "养元",
+      "description": "每阶气血上限 +10%",
+      "maxLevel": 3,
+      "costs": [
+        1,
+        2,
+        3
+      ],
+      "icon": "art/icons/attr-hpmax.png",
+      "evidence": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "evidenceLine": 4095,
+      "numericPolicy": "Costs and caps are reference demo config, not a proposed live balance table."
+    },
+    {
+      "key": "Recovery",
+      "name": "回春",
+      "description": "每阶每秒回复 1 气血",
+      "maxLevel": 5,
+      "costs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "icon": "art/icons/attr-recovery.png",
+      "evidence": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "evidenceLine": 11838,
+      "numericPolicy": "Costs and caps are reference demo config, not a proposed live balance table."
+    },
+    {
+      "key": "Cooldown",
+      "name": "凝神",
+      "description": "每阶施法间隔 -10%",
+      "maxLevel": 2,
+      "costs": [
+        1,
+        2
+      ],
+      "icon": "art/icons/attr-cooldown.png",
+      "evidence": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "evidenceLine": 5576,
+      "numericPolicy": "Costs and caps are reference demo config, not a proposed live balance table."
+    },
+    {
+      "key": "Area",
+      "name": "法域",
+      "description": "每阶法术范围 +10%",
+      "maxLevel": 2,
+      "costs": [
+        1,
+        2
+      ],
+      "icon": "art/icons/attr-area.png",
+      "evidence": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "evidenceLine": 1433,
+      "numericPolicy": "Costs and caps are reference demo config, not a proposed live balance table."
+    },
+    {
+      "key": "SkillSpeed",
+      "name": "疾符",
+      "description": "每阶投射速度 +10%",
+      "maxLevel": 2,
+      "costs": [
+        10,
+        15
+      ],
+      "icon": "art/icons/attr-skillspeed.png",
+      "evidence": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "evidenceLine": 5677,
+      "numericPolicy": "Costs and caps are reference demo config, not a proposed live balance table."
+    },
+    {
+      "key": "Duration",
+      "name": "绵长",
+      "description": "每阶法术持续 +15%",
+      "maxLevel": 2,
+      "costs": [
+        5,
+        10
+      ],
+      "icon": "art/icons/attr-duration.png",
+      "evidence": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "evidenceLine": 10538,
+      "numericPolicy": "Costs and caps are reference demo config, not a proposed live balance table."
+    },
+    {
+      "key": "Amount",
+      "name": "分光",
+      "description": "额外发射 1 枚投射物",
+      "maxLevel": 1,
+      "costs": [
+        5
+      ],
+      "icon": "art/icons/attr-amount.png",
+      "evidence": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "evidenceLine": 4516,
+      "numericPolicy": "Costs and caps are reference demo config, not a proposed live balance table."
+    },
+    {
+      "key": "MoveSpeed",
+      "name": "御风",
+      "description": "每阶移速 +10%",
+      "maxLevel": 2,
+      "costs": [
+        5,
+        5
+      ],
+      "icon": "art/icons/attr-movespeed.png",
+      "evidence": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "evidenceLine": 5150,
+      "numericPolicy": "Costs and caps are reference demo config, not a proposed live balance table."
+    },
+    {
+      "key": "Magnet",
+      "name": "聚灵",
+      "description": "每阶拾取范围 +25%",
+      "maxLevel": 2,
+      "costs": [
+        25,
+        25
+      ],
+      "icon": "art/icons/attr-magnet.png",
+      "evidence": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "evidenceLine": 7713,
+      "numericPolicy": "Costs and caps are reference demo config, not a proposed live balance table."
+    },
+    {
+      "key": "Growth",
+      "name": "悟性",
+      "description": "每阶经验收益 +10%",
+      "maxLevel": 5,
+      "costs": [
+        5,
+        10,
+        15,
+        20,
+        25
+      ],
+      "icon": "art/icons/attr-growth.png",
+      "evidence": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "evidenceLine": 641,
+      "numericPolicy": "Costs and caps are reference demo config, not a proposed live balance table."
+    },
+    {
+      "key": "Greed",
+      "name": "纳财",
+      "description": "每阶金币收益 +10%",
+      "maxLevel": 5,
+      "costs": [
+        20,
+        25,
+        30,
+        35,
+        55
+      ],
+      "icon": "art/icons/attr-greed.png",
+      "evidence": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "evidenceLine": 5363,
+      "numericPolicy": "Costs and caps are reference demo config, not a proposed live balance table."
+    },
+    {
+      "key": "Curse",
+      "name": "劫缘",
+      "description": "每阶妖灵速度、气血、数量与频率 +10%",
+      "maxLevel": 5,
+      "costs": [
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "icon": "art/icons/attr-curse.png",
+      "evidence": "Assets/RGame/RoguelikeKit/Prefabs/UI/MainMenu/PowerUp_Panel.prefab",
+      "evidenceLine": 10336,
+      "numericPolicy": "Costs and caps are reference demo config, not a proposed live balance table."
+    }
+  ],
+  "activeSkills": [
+    {
+      "key": "ToNearestSkill",
+      "name": "追星御剑",
+      "description": "自动锁定近处妖灵",
+      "evolutionRequires": "Cooldown",
+      "icon": "art/icons/skill-nearest.png",
+      "evolvedDisplayName": "追星御剑 · 化境",
+      "nameSource": "本次道家化临时中文名，源资产Description为空",
+      "maxReferenceLevel": 11,
+      "source": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/ToNearestSkill.asset"
+    },
+    {
+      "key": "BothSideSkill",
+      "name": "两仪斩",
+      "description": "向两侧释放法刃",
+      "evolutionRequires": "Armor",
+      "icon": "art/icons/skill-bothside.png",
+      "evolvedDisplayName": "两仪斩 · 化境",
+      "nameSource": "本次道家化临时中文名，源资产Description为空",
+      "maxReferenceLevel": 11,
+      "source": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/BothSideSkill.asset"
+    },
+    {
+      "key": "BouncingSkill",
+      "name": "流珠引",
+      "description": "灵珠弹跳攻击",
+      "evolutionRequires": "HPMax",
+      "icon": "art/icons/skill-bouncing.png",
+      "evolvedDisplayName": "流珠引 · 化境",
+      "nameSource": "本次道家化临时中文名，源资产Description为空",
+      "maxReferenceLevel": 11,
+      "source": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/BouncingSkill.asset"
+    },
+    {
+      "key": "ChainSkill",
+      "name": "连星诀",
+      "description": "法力在妖灵之间连锁",
+      "evolutionRequires": "MoveSpeed",
+      "icon": "art/icons/skill-chain.png",
+      "evolvedDisplayName": "连星诀 · 化境",
+      "nameSource": "本次道家化临时中文名，源资产Description为空",
+      "maxReferenceLevel": 11,
+      "source": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/ChainSkill.asset"
+    },
+    {
+      "key": "CircularAttackSkill",
+      "name": "太极震",
+      "description": "围绕自身释放范围法术",
+      "evolutionRequires": "Area",
+      "icon": "art/icons/skill-circle.png",
+      "evolvedDisplayName": "太极震 · 化境",
+      "nameSource": "本次道家化临时中文名，源资产Description为空",
+      "maxReferenceLevel": 11,
+      "source": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/CircularAttackSkill.asset"
+    },
+    {
+      "key": "CircularMotionSkill",
+      "name": "葫芦巡天",
+      "description": "法器环绕自身运转",
+      "evolutionRequires": "Duration",
+      "icon": "art/icons/skill-orbit.png",
+      "evolvedDisplayName": "葫芦巡天 · 化境",
+      "nameSource": "本次道家化临时中文名，源资产Description为空",
+      "maxReferenceLevel": 11,
+      "source": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/CircularMotionSkill.asset"
+    },
+    {
+      "key": "FourCornerSkill",
+      "name": "四象符",
+      "description": "向四角释放投射物",
+      "evolutionRequires": "Might",
+      "icon": "art/icons/skill-fourcorner.png",
+      "evolvedDisplayName": "四象符 · 化境",
+      "nameSource": "本次道家化临时中文名，源资产Description为空",
+      "maxReferenceLevel": 11,
+      "source": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/FourCornerSkill.asset"
+    },
+    {
+      "key": "InsideScopeSkill",
+      "name": "八卦阵",
+      "description": "在区域内生成法术攻击",
+      "evolutionRequires": "SkillSpeed",
+      "icon": "art/icons/skill-scope.png",
+      "evolvedDisplayName": "八卦阵 · 化境",
+      "nameSource": "本次道家化临时中文名，源资产Description为空",
+      "maxReferenceLevel": 11,
+      "source": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/InsideScopeSkill.asset"
+    },
+    {
+      "key": "RandomSkill",
+      "name": "落花令",
+      "description": "随机方向释放投射物",
+      "evolutionRequires": "Amount",
+      "icon": "art/icons/skill-random.png",
+      "evolvedDisplayName": "落花令 · 化境",
+      "nameSource": "本次道家化临时中文名，源资产Description为空",
+      "maxReferenceLevel": 11,
+      "source": "Assets/RGame/RoguelikeKit/ScriptableObjects/DataSO/Skill/AttackSkill/RandomSkill.asset"
+    }
+  ],
+  "sourceFacts": {
+    "defaultSaveGold": 5000,
+    "baseCharacterHp": 100,
+    "characterCount": 3,
+    "lockedCharacterPrices": [
+      500,
+      500
+    ],
+    "levelConfigCount": 2,
+    "activeSlotCount": 6,
+    "passiveSlotCount": 6,
+    "upgradeChoices": 3,
+    "treasureRewardCounts": [
+      1,
+      3,
+      5
+    ],
+    "treasureRevealSeconds": 3,
+    "lastSpawnSeconds": 720,
+    "victory": "全部波次已启动且存活敌人归零",
+    "passiveSkillAssets": 14,
+    "runtimePassivePool": 13,
+    "notInCurrentRuntimePool": [
+      "Curse"
+    ]
+  },
+  "excludedSystems": [
+    {
+      "system": "更新器／在线公告／登录／选服／创建账号角色",
+      "reason": "单机模板，未发现在线账号、补丁或区服系统；启动与3名预设角色选择已覆盖。"
+    },
+    {
+      "system": "背包／仓库／物品整理／使用数量",
+      "reason": "源为即时拾取和道法槽，未发现持有物品库存；以拾取和宝箱语义表达。"
+    },
+    {
+      "system": "装备穿戴／强化／打造／交易",
+      "reason": "Armor是被动属性，不是穿戴装备；永久成长与道法进化已覆盖。"
+    },
+    {
+      "system": "任务／活动／签到／成就／排行榜",
+      "reason": "未发现对应数据或业务入口；波次进度及胜败目标已覆盖，不机械增设运营功能。"
+    },
+    {
+      "system": "好友／聊天／邮件／组队／帮会／宠物／坐骑",
+      "reason": "未见游戏内对应业务，F风格图不能作为功能需求；狐图只作美术展示。"
+    },
+    {
+      "system": "一般物品商店／出售／兑换／抽卡",
+      "reason": "经济入口仅角色解锁与PowerUp购买；未见其他商城逻辑。"
+    },
+    {
+      "system": "重抽／跳过／禁用道法／复活",
+      "reason": "未发现reroll/skip/banish/revive实现，不画成已支持操作。"
+    }
+  ],
+  "status": "ui_art_complete_unity_integration_pending",
+  "uiAcceptedOn": "2026-10-28",
+  "wholeGameArtStatus": "UI is one completed art subset; non-UI replacement and animation tracked separately."
+}

@@ -1,6 +1,6 @@
 # Unity 美术资源导入建议
 
-2026-10-28。此文档服务于本次**图片与 UI 美术交付**，不是 Unity 导入、Prefab、场景或运行验证回执。本阶段不新建 Unity 接入代码，不执行业务联调。既有 `Assets/`、`Packages/`、`ProjectSettings/` 是此前阶段的冻结样稿，**不在当前美术交付包内**；不能拿其中的示例规则替代本次功能参考。
+2026-10-29。此文档服务于本次**图片与 UI 美术交付**，不是 Unity 导入、Prefab、场景或运行验证回执。本阶段不新建 Unity 接入代码，不执行业务联调。既有 `Assets/`、`Packages/`、`ProjectSettings/` 是此前阶段的冻结样稿，**不在当前美术交付包内**；不能拿其中的示例规则替代本次功能参考。
 
 ## 三类仓库与本地目录
 
@@ -10,7 +10,9 @@
 | 美术参考 | `F:\work\image`；实际远端 `https://luyuacpp.visualstudio.com/image/_git/image` | 道家Q版风格和明确复用的素材来源；现已只读；关联记录集中于本项目 docs/image-reference-associations.md，不随成果提交 |
 | 本次成果 | `E:\work\image\DaoSurvivors`；成果 GitHub 地址待用户提供 | 当前只本地制作、验收与交付，未绑定成果远端，不提交、推送或发布 |
 
-同一对话继续使用当前目录。`道途幸存者`为临时名称，中文道法名为本次道家化设计；参考游戏的内部字段和数量关系保留在 `UI_COVERAGE.json`。
+同一任务继续使用当前目录。正式名称为《一炁当千》，宣传短句为“一人成阵，万妖退散”；原临时名称仅留在历史来源记录。中文道法名为本次道家化设计，参考游戏的内部字段和数量关系保留在 `UI_COVERAGE.json`。
+
+正式品牌资源见 `docs/branding/BRAND.json`：主Logo与徽记共8个正式文件；启动页使用完整Logo，页眉及战斗页脚使用徽记配独立文字，均等比Contain。旧 `logo-primary.png` 仅作未采用来源，不作为正式Logo。52屏已同步品牌并重新验收；UI来源88项保持字节不变，品牌新增资源另记在 `accepted-ui-branded-resource-receipt.json`。以上均为美术预览和导入建议，没有执行Unity接入。
 
 ## 交付入口
 

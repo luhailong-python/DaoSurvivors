@@ -174,6 +174,8 @@ def player_source_index():
 
 
 def default_delivery_role(key, path):
+    if key == 'art/branding/yiqi-dangqian-v1/logo-primary.png':
+        return 'production_support_unselected_brand_source'
     if key.startswith('art/whole-game/players/'):
         if '/parts/' in key:
             return 'production_support_rig_part'
@@ -311,7 +313,7 @@ def main():
             item['relationship'] = record.get('relationship') or ('直接复用' if record.get('copyVerified') else None)
             item['source'] = portable_source(record.get('derivedFrom') or record.get('referenceRepositoryRelativePath') or record.get('sourceArtPath') or record.get('source') or record.get('sourceUrl') or record.get('evidence', {}).get('sourceArtifact'))
             item['sourceEvidence'] = record.get('sourceEvidence', [])
-            item['generationInThisProject'] = record.get('tool') == 'image_gen__imagegen'
+            item['generationInThisProject'] = record.get('tool') in ('image_gen__imagegen', 'image_gen.imagegen')
             for field in ('sourceKey', 'sourceIdentity', 'sourceArtRepository', 'sourceSHA256', 'sourceSha256', 'copyVerified', 'sourceRecords', 'selectedManifestSnapshot', 'artSource', 'animationClip'):
                 if field in record:
                     item[field] = record[field]
@@ -403,9 +405,15 @@ def main():
             item['licenseFile'] = 'art/fonts/NotoSansSC-OFL.txt'
             item['unityImportAdvice'] = {'validation': '建议；尚未在Unity导入验证', 'type': 'Font; create TextMeshPro SDF in integration stage if used', 'chineseGlyphs': 'Keep Simplified Chinese coverage; fallback and dynamic atlas memory to validate later'}
         assets.append(item)
+        if key.startswith('art/branding/'):
+            item['brandingStatus'] = 'source_only_unselected' if item['deliveryRole'] == 'production_support_unselected_brand_source' else 'formal_branding_resource'
+            item['brandSource'] = 'docs/branding/BRAND.json'
     manifest = {
         'schemaVersion': 1,
-        'workingTitle': '道途幸存者（临时名称）',
+        'workingTitle': master['workingTitle'],
+        'gameName': master.get('gameName', master['workingTitle']),
+        'titleStatus': master.get('titleStatus'),
+        'branding': {'record': 'docs/branding/BRAND.json', 'gameName': master.get('gameName', master['workingTitle']), 'displayTagline': master.get('displayTagline'), 'formalResources': sum(x.get('brandingStatus') == 'formal_branding_resource' for x in assets), 'sourceOnlyResources': sum(x.get('brandingStatus') == 'source_only_unselected' for x in assets)},
         'phase': 'art-only; Unity integration deferred',
         'generatedAtNewYork': new_york_time(),
         'projectDirectory': str(ROOT),

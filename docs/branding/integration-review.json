@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "clientDate": "2026-10-29",
+  "recordedAtUtc": "2026-10-29T05:46:11.346616+00:00",
+  "status": "accepted_brand_integration",
+  "gameName": "一炁当千",
+  "brandSynchronizedScreens": 52,
+  "basePlusResponsiveChecks": 156,
+  "missingImages": 0,
+  "overflowOrGlyphIssues": 0,
+  "reviewMethod": "UI producer actually viewed all7contact sheets and representative full-size states. Root independently viewed current native01startup,04mainmenu,40victory; title/logo and card content remain readable and aligned. Existing nonUI evidence reused only after independent hash/source-coverage recheck.",
+  "evidence": [
+    {
+      "file": "docs/ui-suite/UI_COVERAGE.json",
+      "sha256": "bd479925ceae85ed61d864253bf33cb8307d6bb4e5e1f6ba0ce444f45ac2cd09"
+    },
+    {
+      "file": "docs/ui-suite/render-verification.json",
+      "sha256": "f81fe06d2853495d58a8e34024d43f1a19a5ce7fa565fd11a59078f93121db15"
+    },
+    {
+      "file": "docs/ui-suite/final-visual-review.json",
+      "sha256": "5fbf276f4b9b40f57d3ec18eb1412633ae34fb72411c3add7d70b3a980733bdd"
+    },
+    {
+      "file": "docs/ui-suite/current-delivery-audit.json",
+      "sha256": "bad279c64e6016a37a1d3673f560e5d297cc8e71adfbc018e805e463df531671"
+    },
+    {
+      "file": "art/manifest.json",
+      "sha256": "533f1be2f75c52a3a716ba0fcbb2921be4bb9ed7c1305e874f2be56b17bdcc74"
+    },
+    {
+      "file": "designs/ui-suite/screens/01-startup.png",
+      "sha256": "e19deb9070c6177cf44cf4dabd48144fb5b832e1f39746724a96983d60459a07"
+    },
+    {
+      "file": "designs/ui-suite/screens/04-main-menu.png",
+      "sha256": "4248bd6336a825600d5bb2b707797f919a4e14b3b989b836e4dd77749a42d2ec"
+    },
+    {
+      "file": "designs/ui-suite/screens/40-victory.png",
+      "sha256": "7b4c22ea36500a3d1a8f9ac79ad33999aa754b867fa7b5bc1085e513bd527e55"
+    }
+  ],
+  "formalBrandResources": 8,
+  "priorWorkRetained": "NonUI pixels unchanged; earlier accepted pre-brand package retained as history. No new image generation in brand application.",
+  "unityIntegration": "not-performed",
+  "repositoryMetadataUpdate": {
+    "recordedAtUtc": "2026-10-30T02:42:36.668293+00:00",
+    "repository": "https://github.com/luhailong-python/DaoSurvivors",
+    "operation": "Verified destination and authorized Git submission metadata only; accepted rendered pixels and original visual review retained unchanged."
+  }
+}

@@ -1,3 +1,5 @@
+> 历史初稿合同（2026-10-26）。下方90秒/三关及早期Unity目标已被后续明确要求替代。当前为《一炁当千》完整美术交付：3角色、2关卡配置，末波约12分钟开始；美术/动作已验收，Unity接入未做。当前以 `whole-game/ART_COVERAGE.md`、`whole-game/ACCEPTANCE.md` 和 `branding/BRAND.json` 为准。
+
 # 道途幸存者 · 美术与 UI 设计合同
 
 2026-10-26。项目名为暂定名，当前交付目标是独立的 Unity 工程 `E:\work\image\DaoSurvivors`。本文件记录本轮设计要求与实际素材来源，运行是否通过以单独的验证报告为准。

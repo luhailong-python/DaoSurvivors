@@ -1,0 +1,12 @@
+# Preserve exact art/provenance bytes across platforms; SHA-256 records bind them.
+* -text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.otf binary
+*.ttf binary
+*.zip binary
+# Historical UI source snapshots retain their original final blank lines.
+docs/ui-suite/acceptance-history/** whitespace=-blank-at-eof,cr-at-eol

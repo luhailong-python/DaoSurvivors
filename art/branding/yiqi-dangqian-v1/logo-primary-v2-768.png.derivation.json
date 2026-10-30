@@ -1,0 +1,24 @@
+{
+  "file": "art/branding/yiqi-dangqian-v1/logo-primary-v2-768.png",
+  "sha256": "ff2491d97f5bf371c03497064c95e59d6aaade7da0029cad63df313832ecb3ec",
+  "derivedFrom": {
+    "file": "art/branding/yiqi-dangqian-v1/logo-primary-v2.png",
+    "sha256": "748f16948e9b9209ca8758c8e26ba597d130a5a6f9ffa32692a8764efedb3233",
+    "generationRecord": "art/branding/yiqi-dangqian-v1/logo-primary-v2.png.generation.json"
+  },
+  "operation": "premultiplied-alpha LANCZOS downscale only; no new art generation or painted edits",
+  "dimensions": [
+    768,
+    256
+  ],
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "borderLeftBottomRightTopPx": [
+    0,
+    0,
+    0,
+    0
+  ]
+}

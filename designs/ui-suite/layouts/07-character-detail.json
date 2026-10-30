@@ -10,25 +10,7 @@
   ],
   "textRegions": [
     {
-      "text": "☯",
-      "tag": "DIV",
-      "font": "Noto, \"Microsoft YaHei\", sans-serif",
-      "fontSize": "48px",
-      "fontWeight": "400",
-      "color": "rgb(255, 240, 199)",
-      "alignment": "start",
-      "lineHeight": "48px",
-      "rects": [
-        {
-          "x": 63,
-          "y": 22,
-          "width": 48,
-          "height": 70
-        }
-      ]
-    },
-    {
-      "text": "道途幸存者",
+      "text": "一炁当千",
       "tag": "H1",
       "font": "Noto, \"Microsoft YaHei\", sans-serif",
       "fontSize": "33px",
@@ -38,28 +20,28 @@
       "lineHeight": "44.55px",
       "rects": [
         {
-          "x": 137,
+          "x": 141,
           "y": 23,
-          "width": 200,
+          "width": 160,
           "height": 48
         }
       ]
     },
     {
-      "text": "一 念 入 道 · 万 妖 退 散",
+      "text": "一人成阵，万妖退散",
       "tag": "P",
       "font": "Noto, \"Microsoft YaHei\", sans-serif",
-      "fontSize": "12px",
+      "fontSize": "14px",
       "fontWeight": "400",
       "color": "rgb(209, 202, 161)",
       "alignment": "start",
       "lineHeight": "normal",
       "rects": [
         {
-          "x": 137,
-          "y": 74.55,
-          "width": 214.52,
-          "height": 17
+          "x": 141,
+          "y": 72.55,
+          "width": 144,
+          "height": 20
         }
       ]
     },
@@ -74,7 +56,7 @@
       "lineHeight": "normal",
       "rects": [
         {
-          "x": 420.52,
+          "x": 431,
           "y": 46.5,
           "width": 133,
           "height": 27
@@ -467,6 +449,26 @@
         1672,
         941
       ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "broken": false
+    },
+    {
+      "asset": "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
+      "naturalSize": [
+        128,
+        128
+      ],
+      "rect": {
+        "x": 55,
+        "y": 25,
+        "width": 68,
+        "height": 68
+      },
       "broken": false
     },
     {
@@ -475,6 +477,12 @@
         512,
         512
       ],
+      "rect": {
+        "x": 1598.53,
+        "y": 31.5,
+        "width": 47,
+        "height": 47
+      },
       "broken": false
     },
     {
@@ -483,6 +491,12 @@
         1024,
         1024
       ],
+      "rect": {
+        "x": 177,
+        "y": 277,
+        "width": 520,
+        "height": 520
+      },
       "broken": false
     },
     {
@@ -491,13 +505,28 @@
         512,
         512
       ],
+      "rect": {
+        "x": 822,
+        "y": 633.08,
+        "width": 105,
+        "height": 105
+      },
       "broken": false
     }
   ],
+  "brandAudit": {
+    "gameName": "一炁当千",
+    "hasCurrentName": true,
+    "hasPreviousWorkingTitle": false,
+    "brandAssets": [
+      "art/branding/yiqi-dangqian-v1/logo-emblem-128.png"
+    ]
+  },
   "overflowText": [],
   "renderOperation": "Browser DOM layout and compositing; not AI image generation or Unity runtime.",
   "artSources": [
     "art/illustrations/lobby-v1.png",
+    "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
     "art/icons/gold.png",
     "art/characters/hero.png",
     "art/icons/skill-nearest.png",
@@ -506,5 +535,5 @@
     "art/common/button_primary.png",
     "art/common/button_secondary.png"
   ],
-  "screenSha256": "09a189055844b852b338525caecc1f72cf57d2cabf5ad8a27423c07183a8f13f"
+  "screenSha256": "1734c6b67d949e06e964abea461c01ba25402f64fa648adcaa2aba60f5e37bf8"
 }

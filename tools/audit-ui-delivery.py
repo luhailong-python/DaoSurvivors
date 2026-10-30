@@ -22,10 +22,12 @@ def sha(path):
 
 
 def main():
-    manifest = read("docs/ui-suite/accepted-ui-resource-receipt.json")
+    coverage = read("docs/ui-suite/UI_COVERAGE.json")
+    branded = coverage.get("brandingStatus") == "formal_brand_synchronized_all52"
+    receipt_path = "docs/ui-suite/accepted-ui-branded-resource-receipt.json" if branded else "docs/ui-suite/accepted-ui-resource-receipt.json"
+    manifest = read(receipt_path)
     current_manifest = read("art/manifest.json")
     review = read("docs/ui-suite/final-visual-review.json")
-    coverage = read("docs/ui-suite/UI_COVERAGE.json")
     issues = []
     files = []
     screens = []
@@ -92,6 +94,10 @@ def main():
         result["brokenLayers"] = [x for x in layout["imageLayers"] if x.get("broken")]
         result["overflowText"] = layout["overflowText"]
         result["acceptanceStatus"] = item["acceptanceStatus"]
+        if branded:
+            result["branding"] = layout.get("brandAudit", {})
+            if not result["branding"].get("hasCurrentName") or result["branding"].get("hasPreviousWorkingTitle") or not result["branding"].get("brandAssets"):
+                issues.append({"id": "brand_not_synchronized", "screen": item["id"]})
         for key in ("matchesAcceptedReview", "matchesLayoutHash", "mappedAssetsEqualLayout"):
             if not result[key]:
                 issues.append({"id": key, "screen": item["id"], "value": False})
@@ -125,14 +131,17 @@ def main():
     result = {
         "schemaVersion": 1,
         "recordedAtUtc": datetime.now(timezone.utc).isoformat(),
-        "clientDate": "2026-10-28",
-        "scope": "Accepted UI-only subset from docs/ui-suite/accepted-ui-resource-receipt.json, checked against disk and current art/manifest.json. Does not certify non-UI art, player animation or Unity execution.",
-        "status": "accepted_ui_art_unchanged" if not issues else "requires_review",
+        "clientDate": review["reviewedOnClientDate"],
+        "scope": "Accepted UI subset from " + receipt_path + ", checked against disk and current art/manifest.json. Does not certify non-UI art, player animation or Unity execution.",
+        "status": ("accepted_ui_art_branded" if branded else "accepted_ui_art_unchanged") if not issues else "requires_review",
         "summary": {
             "screens": len(screens), "layoutFiles": len(screens),
             "acceptedScreenHashesMatched": sum(x.get("matchesAcceptedReview", False) for x in screens),
             "manifestFiles": len(files),
-            "uiSubsetReceipt": "docs/ui-suite/accepted-ui-resource-receipt.json",
+            "uiSubsetReceipt": receipt_path,
+            "gameName": coverage.get("gameName", coverage["workingTitle"]),
+            "formalBrandResources": manifest.get("counts", {}).get("formalBrandResources", 0),
+            "brandSynchronizedScreens": sum(bool(x.get("branding", {}).get("hasCurrentName")) for x in screens),
             "currentWholeArtManifestFileCount": len(current_assets),
             "manifestHashesMatched": sum(x.get("matchesAcceptedManifest", False) for x in files),
             "deliveryRoles": dict(Counter(x["deliveryRole"] for x in manifest["assets"])),
@@ -142,16 +151,16 @@ def main():
             "missingFilesOrTechnicalIssues": len(issues),
         },
         "visualReview": {
-            "method": "Viewed all seven existing contact sheets in this continuation; retained approved screen originals.",
+            "method": review["method"] if branded else "Viewed all seven existing contact sheets in this continuation; retained approved screen originals.",
             "contactSheets": contacts,
-            "finding": "Consistent jade/ivory/gold frames, readable state hierarchy and aligned controls; no new layout defect observed at contact-sheet scale. Existing original-resolution reviews remain applicable because all accepted screen and preview-source hashes match.",
-            "notRepeated": "No rerendering, no new responsive or Unity execution tests, no per-screen original-resolution re-review in this continuation.",
+            "finding": "Formal brand is synchronized across all52 screens with current hash-bound visual and browser-render evidence; no new overlap, missing glyph or resource issue." if branded else "Consistent jade/ivory/gold frames, readable state hierarchy and aligned controls; no new layout defect observed at contact-sheet scale. Existing original-resolution reviews remain applicable because all accepted screen and preview-source hashes match.",
+            "notRepeated": "No Unity execution tests; formal-brand changes are browser art compositions. Original painted UI, actors and world resources are retained." if branded else "No rerendering, no new responsive or Unity execution tests, no per-screen original-resolution re-review in this continuation.",
         },
         "limitations": [
             "Raw icon sheets retain recorded fail/warn results; approved ownership slicing is the formal resource route. Do not equal-grid slice originals.",
             "Native faint alpha specks remain; no cleaning or claimed new 512-pixel detail.",
             "Model and quality remain unconfirmed wherever the native image endpoint did not disclose them.",
-            "UI acceptance uses an immutable 88-file resource receipt; the current art/manifest.json may also contain non-UI whole-game resources that this audit does not certify.",
+            "Original88-file UI resource receipt remains immutable; authorized brand refresh adds8 formal resources in its own receipt and supersedes prior screen-render hashes. This audit does not certify non-UI resources in art/manifest.json.",
             "Unity import, font atlases, nine-slice rendering, actual interactions and device execution are deferred by user instruction.",
         ],
         "recommendedDeliveryLinks": [

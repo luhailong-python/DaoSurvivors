@@ -13,16 +13,17 @@ def main():
         'docs/whole-game/index.html','README.md']]
     for e in evidence:assert sha(ROOT/e['file'])==e['sha256']
     d={'schemaVersion':1,'recordedAtUtc':datetime.now(timezone.utc).isoformat(),
-        'clientDate':'2026-10-28','clientTimezone':'America/New_York',
+        'clientDate':'2026-10-29','clientTimezone':'America/New_York','gameName':'一炁当千',
         'status':'accepted_art_only','scope':'Complete actual-source-required local game art; offline visual/action/technical acceptance only',
         'missingRequiredArt':[],'evidence':evidence,
         'summary':{'uiScreens':52,'players':3,'actions':6,'formalPlayerFrames':146,'playerStrips':10,
             'enemyIdentities':14,'enemyPoolKeys':20,'eliteVariants':6,'terrainTiles':6,'breakableProp':1,
             'worldLootKeys':6,'playerSkillTextures':9,'evolvedRelations':9,'enemyProjectiles':5,'debuffs':3,
-            'artManifestFiles':inv['assetFileCount']},
+            'artManifestFiles':inv['assetFileCount'],'brandFormalExports':8,'brandingUnifiedAcrossUI':True},
+        'metricClarifications':inv['metricClarifications'],
         'retainedSourceFindings':inv['retainedFindings'],
         'sourceFindingsNotSuppressed':True,'unityIntegration':'not-performed; deferred by explicit user scope',
-        'submittedToGit':False,'published':False,'artReferenceWritesInThisContinuation':False,
+        'gitDelivery':inv['gitSubmission'],'artReferenceWritesInThisContinuation':False,
         'deliveryArchiveReceipt':'.local/delivery/LATEST.json'}
     (ROOT/'docs/whole-game/ACCEPTANCE.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps({'status':d['status'],'evidenceFiles':len(evidence),'missingRequiredArt':[]}))

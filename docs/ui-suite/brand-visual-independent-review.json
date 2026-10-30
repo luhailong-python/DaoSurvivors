@@ -1,0 +1,672 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-29T05:40:12.854959+00:00",
+  "clientDate": "2026-10-29",
+  "clientTimezone": "America/New_York",
+  "reviewer": "independent brand_ui_review subagent",
+  "status": "accepted_brand_ui_review",
+  "scope": "Formal title and logo adoption across52 UI art previews. Offline visual review only; not Unity, gameplay, device or full animation acceptance.",
+  "gameName": "一炁当千",
+  "displayTagline": "一人成阵，万妖退散",
+  "method": "Viewed all7 newly rebuilt contact sheets covering all52 screens, then opened01/04/05/25/40/51/52 at original1920x1080. Inspected the native main logo and secondary emblem separately before screen review.",
+  "summary": {
+    "screensCovered": 52,
+    "contactSheetsViewed": 7,
+    "originalResolutionScreensViewed": 7,
+    "issues": 0
+  },
+  "checks": [
+    {
+      "id": "formal-title-and-logo",
+      "status": "passed",
+      "detail": "Header emblem and independent 一炁当千 name are clear; full startup logo preserves aspect and 炁 identity."
+    },
+    {
+      "id": "tagline",
+      "status": "passed",
+      "detail": "一人成阵，万妖退散 is correct on startup/main and narrow header subtitle."
+    },
+    {
+      "id": "startup-and-main-spacing",
+      "status": "passed",
+      "detail": "Primary logo fits startup card; quote panel and buttons remain separate from character focal area and menu actions."
+    },
+    {
+      "id": "hud-brand-spacing",
+      "status": "passed",
+      "detail": "Battle footer brand is separated from instruction text and movement guidance; no overlap with gameplay HUD."
+    },
+    {
+      "id": "business-states-preserved",
+      "status": "passed",
+      "detail": "Character cards, result actions, control five-state examples and flow diagram retain readable hierarchy and spacing."
+    }
+  ],
+  "logoReferences": [
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-primary-v2.png",
+      "sha256": "748f16948e9b9209ca8758c8e26ba597d130a5a6f9ffa32692a8764efedb3233"
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-emblem.png",
+      "sha256": "a7aaa7c83dfa0efebca203739a1b5977c547b9a9ba5b96f92a6fb2efe1a353a0"
+    }
+  ],
+  "contactSheets": [
+    {
+      "file": "designs/ui-suite/review/contact-01-08.jpg",
+      "sha256": "8fcc254b178c5052860a1f6c11caf1d15e56aa056385fba34dff404fc4906df4",
+      "reviewMethod": "view_image contact sheet"
+    },
+    {
+      "file": "designs/ui-suite/review/contact-09-16.jpg",
+      "sha256": "e9f5d06dd60b0f86dce5a001bb25ab4aca3ad97a3a6e5a64809dab9082ed76cb",
+      "reviewMethod": "view_image contact sheet"
+    },
+    {
+      "file": "designs/ui-suite/review/contact-17-24.jpg",
+      "sha256": "b7d8ef32f80045ab5f986d30745e1a357f46407b9748552fe1887b4c2c026ff1",
+      "reviewMethod": "view_image contact sheet"
+    },
+    {
+      "file": "designs/ui-suite/review/contact-25-32.jpg",
+      "sha256": "da0a4abd7dd3fc316a5b086644f3bf2e3cb7ab688e79706f9ad7a0524d1cb39d",
+      "reviewMethod": "view_image contact sheet"
+    },
+    {
+      "file": "designs/ui-suite/review/contact-33-40.jpg",
+      "sha256": "ed38800c4b50c44b5d5a49f417c295821a78ba4d91173f84f021e3c58edf7ff6",
+      "reviewMethod": "view_image contact sheet"
+    },
+    {
+      "file": "designs/ui-suite/review/contact-41-48.jpg",
+      "sha256": "79c6a27a3cd6a5f2ad00f5466ae5ecd993d9d5a5b7faff190fe7b61f14024ff7",
+      "reviewMethod": "view_image contact sheet"
+    },
+    {
+      "file": "designs/ui-suite/review/contact-49-52.jpg",
+      "sha256": "d2cd257e0a61486e95f17780df1e8a4931a43ce9559b4694db8757e18657747e",
+      "reviewMethod": "view_image contact sheet"
+    }
+  ],
+  "screens": [
+    {
+      "id": "01-startup",
+      "file": "designs/ui-suite/screens/01-startup.png",
+      "sha256": "e19deb9070c6177cf44cf4dabd48144fb5b832e1f39746724a96983d60459a07",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "original-resolution image + contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "02-loading",
+      "file": "designs/ui-suite/screens/02-loading.png",
+      "sha256": "cc5150451d7015491e716c122bbe0bb5c4232db4e021fe32af81453e7c50479b",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "03-loading-error",
+      "file": "designs/ui-suite/screens/03-loading-error.png",
+      "sha256": "c56daf3d05db523fb00d53ce4f48b20b46c3eb9b8791f022cf1375280f36f16f",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "04-main-menu",
+      "file": "designs/ui-suite/screens/04-main-menu.png",
+      "sha256": "4248bd6336a825600d5bb2b707797f919a4e14b3b989b836e4dd77749a42d2ec",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "original-resolution image + contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "05-character-select",
+      "file": "designs/ui-suite/screens/05-character-select.png",
+      "sha256": "1e5651be936a98c648086d5c7c5d7c29298c830b43a01ac86b638e2df90c2568",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "original-resolution image + contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "06-character-owned",
+      "file": "designs/ui-suite/screens/06-character-owned.png",
+      "sha256": "d994d9577cd89c4834370f7e3f5b457e495c816aa8f07e36310e0bf88d0a9133",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "07-character-detail",
+      "file": "designs/ui-suite/screens/07-character-detail.png",
+      "sha256": "1734c6b67d949e06e964abea461c01ba25402f64fa648adcaa2aba60f5e37bf8",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "08-unlock-confirm",
+      "file": "designs/ui-suite/screens/08-unlock-confirm.png",
+      "sha256": "878511fa5abeceae3a5e147c01bf2a3fe1219165238dda85e95e6a7dbeb226fd",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "09-unlock-insufficient",
+      "file": "designs/ui-suite/screens/09-unlock-insufficient.png",
+      "sha256": "935b97fa6a22795b90ff3a2dc27dadbc0497591a034916be549547d48f91fabd",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "10-unlock-success",
+      "file": "designs/ui-suite/screens/10-unlock-success.png",
+      "sha256": "48949b545389f4735be6ed6a8c4981f297afff9582619e0273e8a6c6cbf4706d",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "11-character-empty",
+      "file": "designs/ui-suite/screens/11-character-empty.png",
+      "sha256": "1c5ade15a8c7c13f8977521e0a7b5754b9ed656630f336992f3ae961c9320e85",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "12-level-select",
+      "file": "designs/ui-suite/screens/12-level-select.png",
+      "sha256": "e502aca78e4671a160d7afa2c2b7e437571db2358102bf16711685653939cd78",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "13-level-detail",
+      "file": "designs/ui-suite/screens/13-level-detail.png",
+      "sha256": "6eedc167edbfb94786ababbc024333420518768ef53b8c4a2f75c1102d37df67",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "14-level-unselected",
+      "file": "designs/ui-suite/screens/14-level-unselected.png",
+      "sha256": "34b70330536031ff5081b80013131e7e084a82edf22b76c8411abc1c62921f19",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "15-level-empty",
+      "file": "designs/ui-suite/screens/15-level-empty.png",
+      "sha256": "c7522ca3184c2b50fbb7e3eaacaa13d2ab0d9fd7ab4bb24a488805f461842631",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "16-powerup-overview",
+      "file": "designs/ui-suite/screens/16-powerup-overview.png",
+      "sha256": "66222ff3f020ae75da13787a044f010cf03684e83c245f099be4ad173e42c19a",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "17-powerup-detail",
+      "file": "designs/ui-suite/screens/17-powerup-detail.png",
+      "sha256": "66222ff3f020ae75da13787a044f010cf03684e83c245f099be4ad173e42c19a",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "18-powerup-insufficient",
+      "file": "designs/ui-suite/screens/18-powerup-insufficient.png",
+      "sha256": "96d4397be4223fdc7cdf7f38f15fffbd2fdf1950ffb9a17f1d4bdb80be74306f",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "19-powerup-maxed",
+      "file": "designs/ui-suite/screens/19-powerup-maxed.png",
+      "sha256": "e8acd9136f42b9d4b59beeaf7593dc24817edb295742c8671c3ecf84efcf8462",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "20-powerup-success",
+      "file": "designs/ui-suite/screens/20-powerup-success.png",
+      "sha256": "e7b0bc80840df0322dc8ff628e334857a37b462a3dd58479a536ac3047060c5b",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "21-settings-audio",
+      "file": "designs/ui-suite/screens/21-settings-audio.png",
+      "sha256": "b8eb7dbd5e032a3886c5bfd13f3b2406f116950c7dc746af3b3e9f479807c16c",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "22-settings-display",
+      "file": "designs/ui-suite/screens/22-settings-display.png",
+      "sha256": "0ae63e2c7db4beb4abf1e7de872d5fc691f837f72d864fa715acb90fad021abb",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "23-settings-language",
+      "file": "designs/ui-suite/screens/23-settings-language.png",
+      "sha256": "fc48cea890f8fd06cb29052a692a062f85731d554b3ad77436390da741d53c11",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "24-display-confirm",
+      "file": "designs/ui-suite/screens/24-display-confirm.png",
+      "sha256": "0a504abd01ba1738454fa95035d7d701fea00137346619342060d69519e86db9",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "25-battle-hud",
+      "file": "designs/ui-suite/screens/25-battle-hud.png",
+      "sha256": "1ed090f408659604deb757233b22a091ec96142e28e2d6f45addf83a36b022a6",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "original-resolution image + contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "26-battle-build-full",
+      "file": "designs/ui-suite/screens/26-battle-build-full.png",
+      "sha256": "106af090c95e2b1ac8b854951c68615c16858b0bcf5aaa616132a7998663d6e8",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "27-battle-buffs",
+      "file": "designs/ui-suite/screens/27-battle-buffs.png",
+      "sha256": "de7caa98a7f4a4212b9038e4da14f21b900956d9c2d3c0e8516cc40cab921507",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "28-boss-arrival",
+      "file": "designs/ui-suite/screens/28-boss-arrival.png",
+      "sha256": "2f33e0107bae56f8caca7a8f1efa5624bd48152cd3f9d96a8bc37729a81c61ae",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "29-upgrade-new",
+      "file": "designs/ui-suite/screens/29-upgrade-new.png",
+      "sha256": "2b9aea29dd496eaa9d76422077c94f4ef6177a214e8a75dbc34c1bee8ba727d2",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "30-upgrade-existing",
+      "file": "designs/ui-suite/screens/30-upgrade-existing.png",
+      "sha256": "665b578833be0ba4dd1730e20e1933838c5efee714884a5793081767d57eab4d",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "31-upgrade-moneybag",
+      "file": "designs/ui-suite/screens/31-upgrade-moneybag.png",
+      "sha256": "faa572b7c4af82704901c7f86e9882c7a8b21b318d9948981472df58e7147bb7",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "32-treasure-one",
+      "file": "designs/ui-suite/screens/32-treasure-one.png",
+      "sha256": "5b1a80c99f2672bf8396060d60494d3fd5cfc652a55054f7968977f074e57c1a",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "33-treasure-three",
+      "file": "designs/ui-suite/screens/33-treasure-three.png",
+      "sha256": "3e284e33d5276130c3b267a7c84a074513a1ea68c3f2e519860796de5970a494",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "34-treasure-five",
+      "file": "designs/ui-suite/screens/34-treasure-five.png",
+      "sha256": "c1fe3694c4a5c4a6b2894cd8c5cce918bb131693c20fba9a2f936d41959d8ddb",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "35-treasure-evolution",
+      "file": "designs/ui-suite/screens/35-treasure-evolution.png",
+      "sha256": "0637eb45e3e51e225525236715f66d2abc924f13f9abb3f54a71a6874b9c14c8",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "36-treasure-moneybag",
+      "file": "designs/ui-suite/screens/36-treasure-moneybag.png",
+      "sha256": "177af3023cd7ebe4773be8f0b1b6632f8008a22b2d5e1ded83b43a5211492271",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "37-pause",
+      "file": "designs/ui-suite/screens/37-pause.png",
+      "sha256": "94faa75c3d2619a493508bfbcb5501ac23ed439933a1e0f4f25b084cf67d92b3",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "38-abandon-confirm",
+      "file": "designs/ui-suite/screens/38-abandon-confirm.png",
+      "sha256": "b02a5680db86addcecedcd02d4c14a8c36c222f6f8358111c2e4af13005d0052",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "39-exit-confirm",
+      "file": "designs/ui-suite/screens/39-exit-confirm.png",
+      "sha256": "35f15bfbc5db222fe046cede0f5053e141cb53ca316e6422701a88f5119eec61",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "40-victory",
+      "file": "designs/ui-suite/screens/40-victory.png",
+      "sha256": "7b4c22ea36500a3d1a8f9ac79ad33999aa754b867fa7b5bc1085e513bd527e55",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "original-resolution image + contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "41-defeat",
+      "file": "designs/ui-suite/screens/41-defeat.png",
+      "sha256": "b7324b49337d32c8f893ec2cad526815ca3a85196bf758affbc0bcc6f00b2892",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "42-save-pending",
+      "file": "designs/ui-suite/screens/42-save-pending.png",
+      "sha256": "e54f70bba4e20f9db2d41094793c1e39233bea9299c21b5d0b9875137113f6b3",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "43-save-error",
+      "file": "designs/ui-suite/screens/43-save-error.png",
+      "sha256": "9f52024b53a3c40f9fdf2be4f2245057fc09878fc3f42b410aa4f2e38896404d",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "44-guide-controls",
+      "file": "designs/ui-suite/screens/44-guide-controls.png",
+      "sha256": "cfb1a19e9d1fc269a4d18d207683a6d49ed26ef0f744f836e6c97a9e704add2d",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "45-guide-growth",
+      "file": "designs/ui-suite/screens/45-guide-growth.png",
+      "sha256": "88705b40f4e21d3ca9070027e1e5b01535ad0f09d54e3b2f61c704d9884bb5d3",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "46-skill-codex",
+      "file": "designs/ui-suite/screens/46-skill-codex.png",
+      "sha256": "aeaa2e13d4399bbedae975e4ae8ffcc9d78714d20ec0471fbb4324ed779079c4",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "47-evolution-locked",
+      "file": "designs/ui-suite/screens/47-evolution-locked.png",
+      "sha256": "951dc6c52c11bac6e1f73e03475ec953b6c3ec5edcc22886e32c40c10c6f6da2",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "48-evolution-ready",
+      "file": "designs/ui-suite/screens/48-evolution-ready.png",
+      "sha256": "d62deb726bb757bca286fa1fb10458e39133b85ddee6c176ab63e77fc4772e05",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "49-character-stats",
+      "file": "designs/ui-suite/screens/49-character-stats.png",
+      "sha256": "4d9f656ba4c3e20b49194d147a0258681822de371496b8e4c84b2ed3cc7541cd",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "50-notice-states",
+      "file": "designs/ui-suite/screens/50-notice-states.png",
+      "sha256": "5dd3cd953df659ff3ba013f23d5846b917680be584314c4a6191fe27b140b514",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "51-control-states",
+      "file": "designs/ui-suite/screens/51-control-states.png",
+      "sha256": "900981dc0a344ecfe8181c850d78c0e382a7e1baa4fed103aa65d72ab33c61aa",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "original-resolution image + contact sheet",
+      "status": "accepted_brand_ui_review"
+    },
+    {
+      "id": "52-flow-map",
+      "file": "designs/ui-suite/screens/52-flow-map.png",
+      "sha256": "0a1cbfcf9946c05bd23099635fb3995ef47876d1baa5e5ce35f089282b202969",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "reviewMethod": "original-resolution image + contact sheet",
+      "status": "accepted_brand_ui_review"
+    }
+  ],
+  "issues": [],
+  "limitations": [
+    "Only7 representative screens were viewed at original resolution in this independent review; the remaining45 were visually inspected through contact sheets.",
+    "The layout/render exporter owns text-boundary and resource-link validation; visual review does not replace those checks.",
+    "No Unity import, font atlas, nine-slice, input or gameplay execution was performed."
+  ]
+}

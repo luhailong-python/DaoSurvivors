@@ -1,8 +1,17 @@
 {
   "schemaVersion": 1,
-  "workingTitle": "道途幸存者（临时名称）",
+  "workingTitle": "一炁当千",
+  "gameName": "一炁当千",
+  "titleStatus": "正式名称",
+  "branding": {
+    "record": "docs/branding/BRAND.json",
+    "gameName": "一炁当千",
+    "displayTagline": "一人成阵，万妖退散",
+    "formalResources": 8,
+    "sourceOnlyResources": 1
+  },
   "phase": "art-only; Unity integration deferred",
-  "generatedAtNewYork": "2026-10-28T06:25:37.1265815-04:00",
+  "generatedAtNewYork": "2026-10-29T22:42:35.1506158-04:00",
   "projectDirectory": "E:\\work\\image\\DaoSurvivors",
   "referenceGame": {
     "url": "https://github.com/Roo-Roo-Roo/survivors-roguelike-kit",
@@ -23,9 +32,10 @@
   },
   "unityValidation": "All listed settings are import advice; no Unity editor import, shader, atlas packing or Play Mode validation performed in this art-only phase.",
   "counts": {
-    "files": 321,
+    "files": 330,
     "byDeliveryRole": {
-      "independent_art_resource": 112,
+      "independent_art_resource": 120,
+      "production_support_unselected_brand_source": 1,
       "source_support_for_formal_controls": 13,
       "license": 2,
       "review_only": 4,
@@ -39,12 +49,799 @@
       "production_support_native_crop": 6,
       "production_support_pre_adaptation": 6
     },
-    "imageFiles": 318,
-    "imagesWithRealTransparency": 292,
-    "activeUiResourceFiles": 58
+    "imageFiles": 327,
+    "imagesWithRealTransparency": 301,
+    "activeUiResourceFiles": 60
   },
   "warnings": [],
   "assets": [
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
+      "bytes": 24696,
+      "sha256": "90577bf1d14db8ab984d48aef89cda80b29497d19bb11864724e997ef319b524",
+      "deliveryRole": "independent_art_resource",
+      "usedByScreens": [
+        "01-startup",
+        "02-loading",
+        "03-loading-error",
+        "04-main-menu",
+        "05-character-select",
+        "06-character-owned",
+        "07-character-detail",
+        "08-unlock-confirm",
+        "09-unlock-insufficient",
+        "10-unlock-success",
+        "11-character-empty",
+        "12-level-select",
+        "13-level-detail",
+        "14-level-unselected",
+        "15-level-empty",
+        "16-powerup-overview",
+        "17-powerup-detail",
+        "18-powerup-insufficient",
+        "19-powerup-maxed",
+        "20-powerup-success",
+        "21-settings-audio",
+        "22-settings-display",
+        "23-settings-language",
+        "24-display-confirm",
+        "25-battle-hud",
+        "26-battle-build-full",
+        "27-battle-buffs",
+        "28-boss-arrival",
+        "29-upgrade-new",
+        "30-upgrade-existing",
+        "31-upgrade-moneybag",
+        "32-treasure-one",
+        "33-treasure-three",
+        "34-treasure-five",
+        "35-treasure-evolution",
+        "36-treasure-moneybag",
+        "37-pause",
+        "38-abandon-confirm",
+        "39-exit-confirm",
+        "40-victory",
+        "41-defeat",
+        "42-save-pending",
+        "43-save-error",
+        "44-guide-controls",
+        "45-guide-growth",
+        "46-skill-codex",
+        "47-evolution-locked",
+        "48-evolution-ready",
+        "49-character-stats",
+        "50-notice-states",
+        "51-control-states",
+        "52-flow-map"
+      ],
+      "usageStatus": "active_ui_suite",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityEvidenceStatus": "Unconfirmed where not disclosed. Config/prompt/C2PA generic software labels are not actual model or quality proof.",
+      "provenanceRecord": "art/branding/yiqi-dangqian-v1/logo-emblem-128.png.derivation.json",
+      "provenanceEntry": "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
+      "provenanceSha256Matches": true,
+      "operation": "premultiplied-alpha LANCZOS downscale only; no new art generation or painted edits",
+      "relationship": null,
+      "source": {
+        "file": "art/branding/yiqi-dangqian-v1/logo-emblem.png",
+        "sha256": "a7aaa7c83dfa0efebca203739a1b5977c547b9a9ba5b96f92a6fb2efe1a353a0",
+        "generationRecord": "art/branding/yiqi-dangqian-v1/logo-emblem.png.generation.json"
+      },
+      "sourceEvidence": [],
+      "generationInThisProject": false,
+      "dimensions": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hasRealTransparency": true,
+      "alphaBoundsTopLeftExclusiveRightBottom": [
+        8,
+        8,
+        126,
+        121
+      ],
+      "unityImportAdvice": {
+        "validation": "建议；尚未在Unity导入或运行验证",
+        "textureType": "Sprite (2D and UI) / Single",
+        "spriteMode": "Single",
+        "imageType": "Simple / preserve aspect",
+        "pivotNormalizedBottomLeft": [
+          0.5,
+          0.5
+        ],
+        "borderLeftBottomRightTopPx": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderBasis": "Nonstretch artwork / zero border",
+        "filterMode": "Bilinear",
+        "wrapMode": "Clamp",
+        "sRGB": true,
+        "alphaIsTransparency": true,
+        "mipMaps": false,
+        "maxSizeAdvice": 128,
+        "compressionAdvice": "先用None核验；目标平台压缩在Unity阶段对照验收图决定"
+      },
+      "brandingStatus": "formal_branding_resource",
+      "brandSource": "docs/branding/BRAND.json"
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-emblem-256.png",
+      "bytes": 84299,
+      "sha256": "27277b838f6b30b87d677c9fc65230015b5ec6867ca9a38661c67b3bdc79beee",
+      "deliveryRole": "independent_art_resource",
+      "usedByScreens": [],
+      "usageStatus": "available_support_or_non_ui_resource",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityEvidenceStatus": "Unconfirmed where not disclosed. Config/prompt/C2PA generic software labels are not actual model or quality proof.",
+      "provenanceRecord": "art/branding/yiqi-dangqian-v1/logo-emblem-256.png.derivation.json",
+      "provenanceEntry": "art/branding/yiqi-dangqian-v1/logo-emblem-256.png",
+      "provenanceSha256Matches": true,
+      "operation": "premultiplied-alpha LANCZOS downscale only; no new art generation or painted edits",
+      "relationship": null,
+      "source": {
+        "file": "art/branding/yiqi-dangqian-v1/logo-emblem.png",
+        "sha256": "a7aaa7c83dfa0efebca203739a1b5977c547b9a9ba5b96f92a6fb2efe1a353a0",
+        "generationRecord": "art/branding/yiqi-dangqian-v1/logo-emblem.png.generation.json"
+      },
+      "sourceEvidence": [],
+      "generationInThisProject": false,
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hasRealTransparency": true,
+      "alphaBoundsTopLeftExclusiveRightBottom": [
+        19,
+        17,
+        252,
+        239
+      ],
+      "unityImportAdvice": {
+        "validation": "建议；尚未在Unity导入或运行验证",
+        "textureType": "Sprite (2D and UI) / Single",
+        "spriteMode": "Single",
+        "imageType": "Simple / preserve aspect",
+        "pivotNormalizedBottomLeft": [
+          0.5,
+          0.5
+        ],
+        "borderLeftBottomRightTopPx": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderBasis": "Nonstretch artwork / zero border",
+        "filterMode": "Bilinear",
+        "wrapMode": "Clamp",
+        "sRGB": true,
+        "alphaIsTransparency": true,
+        "mipMaps": false,
+        "maxSizeAdvice": 256,
+        "compressionAdvice": "先用None核验；目标平台压缩在Unity阶段对照验收图决定"
+      },
+      "brandingStatus": "formal_branding_resource",
+      "brandSource": "docs/branding/BRAND.json"
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-emblem-512.png",
+      "bytes": 294187,
+      "sha256": "5fe2a267a84d00e2dd817138a433dc712872ae2dc2f2f1360d5b3b3a701bcfe0",
+      "deliveryRole": "independent_art_resource",
+      "usedByScreens": [],
+      "usageStatus": "available_support_or_non_ui_resource",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityEvidenceStatus": "Unconfirmed where not disclosed. Config/prompt/C2PA generic software labels are not actual model or quality proof.",
+      "provenanceRecord": "art/branding/yiqi-dangqian-v1/logo-emblem-512.png.derivation.json",
+      "provenanceEntry": "art/branding/yiqi-dangqian-v1/logo-emblem-512.png",
+      "provenanceSha256Matches": true,
+      "operation": "premultiplied-alpha LANCZOS downscale only; no new art generation or painted edits",
+      "relationship": null,
+      "source": {
+        "file": "art/branding/yiqi-dangqian-v1/logo-emblem.png",
+        "sha256": "a7aaa7c83dfa0efebca203739a1b5977c547b9a9ba5b96f92a6fb2efe1a353a0",
+        "generationRecord": "art/branding/yiqi-dangqian-v1/logo-emblem.png.generation.json"
+      },
+      "sourceEvidence": [],
+      "generationInThisProject": false,
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hasRealTransparency": true,
+      "alphaBoundsTopLeftExclusiveRightBottom": [
+        41,
+        31,
+        506,
+        486
+      ],
+      "unityImportAdvice": {
+        "validation": "建议；尚未在Unity导入或运行验证",
+        "textureType": "Sprite (2D and UI) / Single",
+        "spriteMode": "Single",
+        "imageType": "Simple / preserve aspect",
+        "pivotNormalizedBottomLeft": [
+          0.5,
+          0.5
+        ],
+        "borderLeftBottomRightTopPx": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderBasis": "Nonstretch artwork / zero border",
+        "filterMode": "Bilinear",
+        "wrapMode": "Clamp",
+        "sRGB": true,
+        "alphaIsTransparency": true,
+        "mipMaps": false,
+        "maxSizeAdvice": 512,
+        "compressionAdvice": "先用None核验；目标平台压缩在Unity阶段对照验收图决定"
+      },
+      "brandingStatus": "formal_branding_resource",
+      "brandSource": "docs/branding/BRAND.json"
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-emblem.png",
+      "bytes": 1463728,
+      "sha256": "a7aaa7c83dfa0efebca203739a1b5977c547b9a9ba5b96f92a6fb2efe1a353a0",
+      "deliveryRole": "independent_art_resource",
+      "usedByScreens": [],
+      "usageStatus": "available_support_or_non_ui_resource",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityEvidenceStatus": "Unconfirmed where not disclosed. Config/prompt/C2PA generic software labels are not actual model or quality proof.",
+      "provenanceRecord": "art/branding/yiqi-dangqian-v1/logo-emblem.png.generation.json",
+      "provenanceEntry": "art/branding/yiqi-dangqian-v1/logo-emblem.png",
+      "provenanceSha256Matches": true,
+      "operation": "native model output; byte-for-byte copy from host generated_images directory",
+      "relationship": null,
+      "source": null,
+      "sourceEvidence": [],
+      "generationInThisProject": true,
+      "configTarget": {
+        "schema_version": 1,
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "max",
+        "builtin_product": "ChatGPT Images 2.5",
+        "selection": "latest_verified",
+        "preferred_route": "builtin",
+        "verified_on": "2026-10-22",
+        "sources": {
+          "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+          "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+          "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+        }
+      },
+      "submittedParameters": {
+        "promptFile": "docs/production/yiqi-dangqian-emblem-v1.prompt.txt",
+        "referenced_image_paths": [
+          "E:\\work\\image\\DaoSurvivors\\art\\branding\\yiqi-dangqian-v1\\logo-primary.png",
+          "E:\\work\\image\\DaoSurvivors\\docs\\provenance\\style-references\\mail-ui-approved.png",
+          "E:\\work\\image\\DaoSurvivors\\docs\\provenance\\style-references\\team-ui-approved.png"
+        ],
+        "transparent_background": true,
+        "model": null,
+        "quality": null
+      },
+      "generatedAt": "2026-10-29T03:06:18.469000+00:00",
+      "receipt": "docs/production/yiqi-dangqian-emblem-v1.receipt.json",
+      "references": [
+        {
+          "file": "E:\\work\\image\\DaoSurvivors\\art\\branding\\yiqi-dangqian-v1\\logo-primary.png",
+          "sha256": "5bb31112f18c24464b0f98b5fa5c94fda3b6eb28f860c28034395774b819b5c6",
+          "dimensions": [
+            2172,
+            724
+          ],
+          "role": "identity and/or art style reference actually attached"
+        },
+        {
+          "file": "E:\\work\\image\\DaoSurvivors\\docs\\provenance\\style-references\\mail-ui-approved.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+          "dimensions": [
+            1931,
+            814
+          ],
+          "role": "identity and/or art style reference actually attached"
+        },
+        {
+          "file": "E:\\work\\image\\DaoSurvivors\\docs\\provenance\\style-references\\team-ui-approved.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+          "dimensions": [
+            1931,
+            814
+          ],
+          "role": "identity and/or art style reference actually attached"
+        }
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hasRealTransparency": true,
+      "alphaBoundsTopLeftExclusiveRightBottom": [
+        0,
+        45,
+        1240,
+        1254
+      ],
+      "unityImportAdvice": {
+        "validation": "建议；尚未在Unity导入或运行验证",
+        "textureType": "Sprite (2D and UI) / Single",
+        "spriteMode": "Single",
+        "imageType": "Simple / preserve aspect",
+        "pivotNormalizedBottomLeft": [
+          0.5,
+          0.5
+        ],
+        "borderLeftBottomRightTopPx": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderBasis": "Nonstretch artwork / zero border",
+        "filterMode": "Bilinear",
+        "wrapMode": "Clamp",
+        "sRGB": true,
+        "alphaIsTransparency": true,
+        "mipMaps": false,
+        "maxSizeAdvice": 2048,
+        "compressionAdvice": "先用None核验；目标平台压缩在Unity阶段对照验收图决定"
+      },
+      "brandingStatus": "formal_branding_resource",
+      "brandSource": "docs/branding/BRAND.json"
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-primary-v2-1536.png",
+      "bytes": 917165,
+      "sha256": "eb427884e15928d318b940a3285889882746cef4fa667ff0c4c6b53cf2b1235c",
+      "deliveryRole": "independent_art_resource",
+      "usedByScreens": [],
+      "usageStatus": "available_support_or_non_ui_resource",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityEvidenceStatus": "Unconfirmed where not disclosed. Config/prompt/C2PA generic software labels are not actual model or quality proof.",
+      "provenanceRecord": "art/branding/yiqi-dangqian-v1/logo-primary-v2-1536.png.derivation.json",
+      "provenanceEntry": "art/branding/yiqi-dangqian-v1/logo-primary-v2-1536.png",
+      "provenanceSha256Matches": true,
+      "operation": "premultiplied-alpha LANCZOS downscale only; no new art generation or painted edits",
+      "relationship": null,
+      "source": {
+        "file": "art/branding/yiqi-dangqian-v1/logo-primary-v2.png",
+        "sha256": "748f16948e9b9209ca8758c8e26ba597d130a5a6f9ffa32692a8764efedb3233",
+        "generationRecord": "art/branding/yiqi-dangqian-v1/logo-primary-v2.png.generation.json"
+      },
+      "sourceEvidence": [],
+      "generationInThisProject": false,
+      "dimensions": [
+        1536,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hasRealTransparency": true,
+      "alphaBoundsTopLeftExclusiveRightBottom": [
+        0,
+        29,
+        1512,
+        495
+      ],
+      "unityImportAdvice": {
+        "validation": "建议；尚未在Unity导入或运行验证",
+        "textureType": "Sprite (2D and UI) / Single",
+        "spriteMode": "Single",
+        "imageType": "Simple / preserve aspect",
+        "pivotNormalizedBottomLeft": [
+          0.5,
+          0.5
+        ],
+        "borderLeftBottomRightTopPx": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderBasis": "Nonstretch artwork / zero border",
+        "filterMode": "Bilinear",
+        "wrapMode": "Clamp",
+        "sRGB": true,
+        "alphaIsTransparency": true,
+        "mipMaps": false,
+        "maxSizeAdvice": 2048,
+        "compressionAdvice": "先用None核验；目标平台压缩在Unity阶段对照验收图决定"
+      },
+      "brandingStatus": "formal_branding_resource",
+      "brandSource": "docs/branding/BRAND.json"
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-primary-v2-384.png",
+      "bytes": 78193,
+      "sha256": "3796b658f6fc86fec4a2f64e84da31e56444206099a725a0d5b32862772f7608",
+      "deliveryRole": "independent_art_resource",
+      "usedByScreens": [],
+      "usageStatus": "available_support_or_non_ui_resource",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityEvidenceStatus": "Unconfirmed where not disclosed. Config/prompt/C2PA generic software labels are not actual model or quality proof.",
+      "provenanceRecord": "art/branding/yiqi-dangqian-v1/logo-primary-v2-384.png.derivation.json",
+      "provenanceEntry": "art/branding/yiqi-dangqian-v1/logo-primary-v2-384.png",
+      "provenanceSha256Matches": true,
+      "operation": "premultiplied-alpha LANCZOS downscale only; no new art generation or painted edits",
+      "relationship": null,
+      "source": {
+        "file": "art/branding/yiqi-dangqian-v1/logo-primary-v2.png",
+        "sha256": "748f16948e9b9209ca8758c8e26ba597d130a5a6f9ffa32692a8764efedb3233",
+        "generationRecord": "art/branding/yiqi-dangqian-v1/logo-primary-v2.png.generation.json"
+      },
+      "sourceEvidence": [],
+      "generationInThisProject": false,
+      "dimensions": [
+        384,
+        128
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hasRealTransparency": true,
+      "alphaBoundsTopLeftExclusiveRightBottom": [
+        5,
+        10,
+        380,
+        117
+      ],
+      "unityImportAdvice": {
+        "validation": "建议；尚未在Unity导入或运行验证",
+        "textureType": "Sprite (2D and UI) / Single",
+        "spriteMode": "Single",
+        "imageType": "Simple / preserve aspect",
+        "pivotNormalizedBottomLeft": [
+          0.5,
+          0.5
+        ],
+        "borderLeftBottomRightTopPx": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderBasis": "Nonstretch artwork / zero border",
+        "filterMode": "Bilinear",
+        "wrapMode": "Clamp",
+        "sRGB": true,
+        "alphaIsTransparency": true,
+        "mipMaps": false,
+        "maxSizeAdvice": 512,
+        "compressionAdvice": "先用None核验；目标平台压缩在Unity阶段对照验收图决定"
+      },
+      "brandingStatus": "formal_branding_resource",
+      "brandSource": "docs/branding/BRAND.json"
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-primary-v2-768.png",
+      "bytes": 263365,
+      "sha256": "ff2491d97f5bf371c03497064c95e59d6aaade7da0029cad63df313832ecb3ec",
+      "deliveryRole": "independent_art_resource",
+      "usedByScreens": [
+        "01-startup",
+        "02-loading"
+      ],
+      "usageStatus": "active_ui_suite",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityEvidenceStatus": "Unconfirmed where not disclosed. Config/prompt/C2PA generic software labels are not actual model or quality proof.",
+      "provenanceRecord": "art/branding/yiqi-dangqian-v1/logo-primary-v2-768.png.derivation.json",
+      "provenanceEntry": "art/branding/yiqi-dangqian-v1/logo-primary-v2-768.png",
+      "provenanceSha256Matches": true,
+      "operation": "premultiplied-alpha LANCZOS downscale only; no new art generation or painted edits",
+      "relationship": null,
+      "source": {
+        "file": "art/branding/yiqi-dangqian-v1/logo-primary-v2.png",
+        "sha256": "748f16948e9b9209ca8758c8e26ba597d130a5a6f9ffa32692a8764efedb3233",
+        "generationRecord": "art/branding/yiqi-dangqian-v1/logo-primary-v2.png.generation.json"
+      },
+      "sourceEvidence": [],
+      "generationInThisProject": false,
+      "dimensions": [
+        768,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hasRealTransparency": true,
+      "alphaBoundsTopLeftExclusiveRightBottom": [
+        12,
+        22,
+        756,
+        247
+      ],
+      "unityImportAdvice": {
+        "validation": "建议；尚未在Unity导入或运行验证",
+        "textureType": "Sprite (2D and UI) / Single",
+        "spriteMode": "Single",
+        "imageType": "Simple / preserve aspect",
+        "pivotNormalizedBottomLeft": [
+          0.5,
+          0.5
+        ],
+        "borderLeftBottomRightTopPx": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderBasis": "Nonstretch artwork / zero border",
+        "filterMode": "Bilinear",
+        "wrapMode": "Clamp",
+        "sRGB": true,
+        "alphaIsTransparency": true,
+        "mipMaps": false,
+        "maxSizeAdvice": 1024,
+        "compressionAdvice": "先用None核验；目标平台压缩在Unity阶段对照验收图决定"
+      },
+      "brandingStatus": "formal_branding_resource",
+      "brandSource": "docs/branding/BRAND.json"
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-primary-v2.png",
+      "bytes": 1675937,
+      "sha256": "748f16948e9b9209ca8758c8e26ba597d130a5a6f9ffa32692a8764efedb3233",
+      "deliveryRole": "independent_art_resource",
+      "usedByScreens": [],
+      "usageStatus": "available_support_or_non_ui_resource",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityEvidenceStatus": "Unconfirmed where not disclosed. Config/prompt/C2PA generic software labels are not actual model or quality proof.",
+      "provenanceRecord": "art/branding/yiqi-dangqian-v1/logo-primary-v2.png.generation.json",
+      "provenanceEntry": "art/branding/yiqi-dangqian-v1/logo-primary-v2.png",
+      "provenanceSha256Matches": true,
+      "operation": "native model output; byte-for-byte copy from host generated_images directory",
+      "relationship": null,
+      "source": null,
+      "sourceEvidence": [],
+      "generationInThisProject": true,
+      "configTarget": {
+        "schema_version": 1,
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "max",
+        "builtin_product": "ChatGPT Images 2.5",
+        "selection": "latest_verified",
+        "preferred_route": "builtin",
+        "verified_on": "2026-10-22",
+        "sources": {
+          "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+          "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+          "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+        }
+      },
+      "submittedParameters": {
+        "promptFile": "docs/production/yiqi-dangqian-logo-v2.prompt.txt",
+        "referenced_image_paths": [
+          "E:\\work\\image\\DaoSurvivors\\art\\branding\\yiqi-dangqian-v1\\logo-primary.png",
+          "E:\\work\\image\\DaoSurvivors\\docs\\production\\yiqi-glyph-reference.png"
+        ],
+        "transparent_background": true,
+        "model": null,
+        "quality": null
+      },
+      "generatedAt": "2026-10-29T03:15:14.014000+00:00",
+      "receipt": "docs/production/yiqi-dangqian-logo-v2.receipt.json",
+      "references": [
+        {
+          "file": "E:\\work\\image\\DaoSurvivors\\art\\branding\\yiqi-dangqian-v1\\logo-primary.png",
+          "sha256": "5bb31112f18c24464b0f98b5fa5c94fda3b6eb28f860c28034395774b819b5c6",
+          "dimensions": [
+            2172,
+            724
+          ],
+          "role": "identity and/or art style reference actually attached"
+        },
+        {
+          "file": "E:\\work\\image\\DaoSurvivors\\docs\\production\\yiqi-glyph-reference.png",
+          "sha256": "63d8a47b815cfeb5fc5dcbd99ed607dfe5e3869399bbf8365b37d577e8bf503c",
+          "dimensions": [
+            1000,
+            600
+          ],
+          "role": "identity and/or art style reference actually attached"
+        }
+      ],
+      "dimensions": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hasRealTransparency": true,
+      "alphaBoundsTopLeftExclusiveRightBottom": [
+        0,
+        41,
+        2138,
+        700
+      ],
+      "unityImportAdvice": {
+        "validation": "建议；尚未在Unity导入或运行验证",
+        "textureType": "Sprite (2D and UI) / Single",
+        "spriteMode": "Single",
+        "imageType": "Simple / preserve aspect",
+        "pivotNormalizedBottomLeft": [
+          0.5,
+          0.5
+        ],
+        "borderLeftBottomRightTopPx": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderBasis": "Nonstretch artwork / zero border",
+        "filterMode": "Bilinear",
+        "wrapMode": "Clamp",
+        "sRGB": true,
+        "alphaIsTransparency": true,
+        "mipMaps": false,
+        "maxSizeAdvice": 4096,
+        "compressionAdvice": "先用None核验；目标平台压缩在Unity阶段对照验收图决定"
+      },
+      "brandingStatus": "formal_branding_resource",
+      "brandSource": "docs/branding/BRAND.json"
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-primary.png",
+      "bytes": 1784860,
+      "sha256": "5bb31112f18c24464b0f98b5fa5c94fda3b6eb28f860c28034395774b819b5c6",
+      "deliveryRole": "production_support_unselected_brand_source",
+      "usedByScreens": [],
+      "usageStatus": "available_support_or_non_ui_resource",
+      "actualModel": null,
+      "actualQuality": null,
+      "modelQualityEvidenceStatus": "Unconfirmed where not disclosed. Config/prompt/C2PA generic software labels are not actual model or quality proof.",
+      "provenanceRecord": "art/branding/yiqi-dangqian-v1/logo-primary.png.generation.json",
+      "provenanceEntry": "art/branding/yiqi-dangqian-v1/logo-primary.png",
+      "provenanceSha256Matches": true,
+      "operation": "native model output; byte-for-byte copy from host generated_images directory",
+      "relationship": null,
+      "source": null,
+      "sourceEvidence": [],
+      "generationInThisProject": true,
+      "configTarget": {
+        "schema_version": 1,
+        "model": "gpt-image-2.5-sunburst",
+        "quality": "max",
+        "builtin_product": "ChatGPT Images 2.5",
+        "selection": "latest_verified",
+        "preferred_route": "builtin",
+        "verified_on": "2026-10-22",
+        "sources": {
+          "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+          "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+          "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+        }
+      },
+      "submittedParameters": {
+        "promptFile": "docs/production/yiqi-dangqian-logo-v1.prompt.txt",
+        "referenced_image_paths": [
+          "E:\\work\\image\\DaoSurvivors\\docs\\provenance\\style-references\\mail-ui-approved.png",
+          "E:\\work\\image\\DaoSurvivors\\docs\\provenance\\style-references\\team-ui-approved.png",
+          "E:\\work\\image\\DaoSurvivors\\designs\\ui-suite\\screens\\04-main-menu.png"
+        ],
+        "transparent_background": true,
+        "model": null,
+        "quality": null
+      },
+      "generatedAt": "2026-10-29T03:01:43.194000+00:00",
+      "receipt": "docs/production/yiqi-dangqian-logo-v1.receipt.json",
+      "references": [
+        {
+          "file": "E:\\work\\image\\DaoSurvivors\\docs\\provenance\\style-references\\mail-ui-approved.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+          "dimensions": [
+            1931,
+            814
+          ],
+          "role": "identity and/or art style reference actually attached"
+        },
+        {
+          "file": "E:\\work\\image\\DaoSurvivors\\docs\\provenance\\style-references\\team-ui-approved.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+          "dimensions": [
+            1931,
+            814
+          ],
+          "role": "identity and/or art style reference actually attached"
+        },
+        {
+          "file": "E:\\work\\image\\DaoSurvivors\\designs\\ui-suite\\screens\\04-main-menu.png",
+          "sha256": "2b75018349da7e4afc44ca2d7a8624164efe79e8e3101f8cc4819706738851b9",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "role": "identity and/or art style reference actually attached"
+        }
+      ],
+      "dimensions": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hasRealTransparency": true,
+      "alphaBoundsTopLeftExclusiveRightBottom": [
+        0,
+        21,
+        2156,
+        702
+      ],
+      "unityImportAdvice": {
+        "validation": "建议；尚未在Unity导入或运行验证",
+        "textureType": "Not imported into runtime by default",
+        "spriteMode": null,
+        "imageType": "Simple / preserve aspect",
+        "pivotNormalizedBottomLeft": [
+          0.5,
+          0.5
+        ],
+        "borderLeftBottomRightTopPx": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderBasis": "Nonstretch artwork / zero border",
+        "filterMode": "Bilinear",
+        "wrapMode": "Clamp",
+        "sRGB": true,
+        "alphaIsTransparency": true,
+        "mipMaps": false,
+        "maxSizeAdvice": 4096,
+        "compressionAdvice": "先用None核验；目标平台压缩在Unity阶段对照验收图决定"
+      },
+      "brandingStatus": "source_only_unselected",
+      "brandSource": "docs/branding/BRAND.json"
+    },
     {
       "file": "art/characters/enemy-lantern.png",
       "bytes": 987516,
@@ -4452,8 +5249,6 @@
       "sha256": "b366e3580e549f7146a95c495c3c0692957d3e1521a2cfce36a2b1f3d4d81301",
       "deliveryRole": "independent_art_resource",
       "usedByScreens": [
-        "01-startup",
-        "02-loading",
         "16-powerup-overview",
         "17-powerup-detail",
         "18-powerup-insufficient",
@@ -24266,7 +25061,7 @@
       "relationship": null,
       "source": null,
       "sourceEvidence": [],
-      "generationInThisProject": false,
+      "generationInThisProject": true,
       "configTarget": {
         "schema_version": 1,
         "model": "gpt-image-2.5-sunburst",
@@ -24381,7 +25176,7 @@
       "relationship": null,
       "source": null,
       "sourceEvidence": [],
-      "generationInThisProject": false,
+      "generationInThisProject": true,
       "configTarget": {
         "schema_version": 1,
         "model": "gpt-image-2.5-sunburst",
@@ -24486,7 +25281,7 @@
       "relationship": null,
       "source": null,
       "sourceEvidence": [],
-      "generationInThisProject": false,
+      "generationInThisProject": true,
       "configTarget": {
         "schema_version": 1,
         "model": "gpt-image-2.5-sunburst",
@@ -24601,7 +25396,7 @@
       "relationship": null,
       "source": null,
       "sourceEvidence": [],
-      "generationInThisProject": false,
+      "generationInThisProject": true,
       "configTarget": {
         "schema_version": 1,
         "model": "gpt-image-2.5-sunburst",
@@ -24706,7 +25501,7 @@
       "relationship": null,
       "source": null,
       "sourceEvidence": [],
-      "generationInThisProject": false,
+      "generationInThisProject": true,
       "configTarget": {
         "schema_version": 1,
         "model": "gpt-image-2.5-sunburst",
@@ -24811,7 +25606,7 @@
       "relationship": null,
       "source": null,
       "sourceEvidence": [],
-      "generationInThisProject": false,
+      "generationInThisProject": true,
       "configTarget": {
         "schema_version": 1,
         "model": "gpt-image-2.5-sunburst",

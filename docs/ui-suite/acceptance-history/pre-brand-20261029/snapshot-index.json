@@ -1,0 +1,56 @@
+{
+  "recordedAtUtc": "2026-10-29T05:36:12.966153+00:00",
+  "purpose": "Historical pre-brand UI evidence retained; current52 screen hashes will be superseded by authorized brand refresh.",
+  "records": [
+    {
+      "file": "docs/ui-suite/final-visual-review.json",
+      "snapshot": "docs/ui-suite/acceptance-history/pre-brand-20261029/final-visual-review.json",
+      "sha256": "6cb3bed830a311a757fdc5eb2c9d858be81834d54b3beeb4f6cc17fa87480fe8"
+    },
+    {
+      "file": "docs/ui-suite/render-verification.json",
+      "snapshot": "docs/ui-suite/acceptance-history/pre-brand-20261029/render-verification.json",
+      "sha256": "4bc0a958e1469b1bd280f6cf5079dbd33bb9c4ef2787f5fb16819d6ce7e40efa"
+    },
+    {
+      "file": "docs/ui-suite/UI_COVERAGE.json",
+      "snapshot": "docs/ui-suite/acceptance-history/pre-brand-20261029/UI_COVERAGE.json",
+      "sha256": "a168c904d766a88fb09d459b8c2fa4783e67eef7be3fbc8308d83343150d5978"
+    },
+    {
+      "file": "docs/ui-suite/functional-art-review.json",
+      "snapshot": "docs/ui-suite/acceptance-history/pre-brand-20261029/functional-art-review.json",
+      "sha256": "615db8d56ff7baab1d452da9e73d5386e198cae4ee56547a8907eb8bdb47eba7"
+    },
+    {
+      "file": "docs/ui-suite/ACCEPTANCE.md",
+      "snapshot": "docs/ui-suite/acceptance-history/pre-brand-20261029/ACCEPTANCE.md",
+      "sha256": "e6bf7ce98f14942da0623fcfb57d33e9bfd9803429505dab47a5d7c5c26dd1f9"
+    },
+    {
+      "file": "docs/ui-suite/current-delivery-audit.json",
+      "snapshot": "docs/ui-suite/acceptance-history/pre-brand-20261029/current-delivery-audit.json",
+      "sha256": "0af7f8d8e9a46d673a02b0260ec1f581fdfe2a13da9f2335c9023d37b9bbbd18"
+    },
+    {
+      "file": "designs/ui-suite/preview/suite.js",
+      "snapshot": "docs/ui-suite/acceptance-history/pre-brand-20261029/suite.js",
+      "sha256": "91f7d0102d95465c86013bff526ea148a5ac038960681af1f77fafa0896a3dd0"
+    },
+    {
+      "file": "designs/ui-suite/preview/style.css",
+      "snapshot": "docs/ui-suite/acceptance-history/pre-brand-20261029/style.css",
+      "sha256": "87c6edb03eccfe3e5f2ab91bdc7485ddc28f590be7758e159543c1265337f899"
+    },
+    {
+      "file": "designs/ui-suite/preview/menu.js",
+      "snapshot": "docs/ui-suite/acceptance-history/pre-brand-20261029/menu.js",
+      "sha256": "4eeda177e612104db36e95822c7c4565d485850ecbabeb99377517931cf84968"
+    },
+    {
+      "file": "designs/ui-suite/preview/index.html",
+      "snapshot": "docs/ui-suite/acceptance-history/pre-brand-20261029/index.html",
+      "sha256": "dade60d8b5af92760aeae2e6e770787dfde25d5e769153d82c07328082cb680a"
+    }
+  ]
+}

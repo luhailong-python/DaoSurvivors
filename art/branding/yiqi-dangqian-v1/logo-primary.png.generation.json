@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "file": "art/branding/yiqi-dangqian-v1/logo-primary.png",
+  "sha256": "5bb31112f18c24464b0f98b5fa5c94fda3b6eb28f860c28034395774b819b5c6",
+  "generatedAt": "2026-10-29T03:01:43.194000+00:00",
+  "generationStartedAt": "2026-10-29T03:01:04.945Z",
+  "width": 2172,
+  "height": 724,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "operation": "native model output; byte-for-byte copy from host generated_images directory",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "promptFile": "docs/production/yiqi-dangqian-logo-v1.prompt.txt",
+    "referenced_image_paths": [
+      "E:\\work\\image\\DaoSurvivors\\docs\\provenance\\style-references\\mail-ui-approved.png",
+      "E:\\work\\image\\DaoSurvivors\\docs\\provenance\\style-references\\team-ui-approved.png",
+      "E:\\work\\image\\DaoSurvivors\\designs\\ui-suite\\screens\\04-main-menu.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "estimateUsd": null,
+  "unverifiedReason": "宿主管理；image_gen工具没有model/quality选择器，结果没有可靠的实际型号/质量元数据；不能以配置或提示词作为证明。内置入口未披露逐图成本。",
+  "evidence": {
+    "receipt": "docs/production/yiqi-dangqian-logo-v1.receipt.json",
+    "returnedOutputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-140f-7660-a5e9-192ba9fa8c08 as C:\\Users\\luyua\\.codex\\generated_images\\01a181fa-140f-7660-a5e9-192ba9fa8c08\\exec-205cceb0-912c-489b-a5f4-39e2bc8a0580.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "sourceToolResultKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "prompt": "docs/production/yiqi-dangqian-logo-v1.prompt.txt",
+  "references": [
+    {
+      "file": "E:\\work\\image\\DaoSurvivors\\docs\\provenance\\style-references\\mail-ui-approved.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "dimensions": [
+        1931,
+        814
+      ],
+      "role": "identity and/or art style reference actually attached"
+    },
+    {
+      "file": "E:\\work\\image\\DaoSurvivors\\docs\\provenance\\style-references\\team-ui-approved.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "dimensions": [
+        1931,
+        814
+      ],
+      "role": "identity and/or art style reference actually attached"
+    },
+    {
+      "file": "E:\\work\\image\\DaoSurvivors\\designs\\ui-suite\\screens\\04-main-menu.png",
+      "sha256": "2b75018349da7e4afc44ca2d7a8624164efe79e8e3101f8cc4819706738851b9",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "role": "identity and/or art style reference actually attached"
+    }
+  ],
+  "unityIntegration": "not-performed"
+}

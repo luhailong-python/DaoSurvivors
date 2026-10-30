@@ -15,3 +15,7 @@ Builds/
 
 .reference/
 art-delivery.zip
+
+# Local Python bytecode is never a delivered art source.
+__pycache__/
+*.py[cod]

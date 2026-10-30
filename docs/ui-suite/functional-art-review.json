@@ -1083,7 +1083,7 @@
   ],
   "acceptanceBoundary": "This record evaluates art content semantics. It does not approve visual layout, generated asset quality, Unity import, C# gameplay, saves, input or resolution behavior. Final screen re-export after content corrections remains root responsibility.",
   "originalResult": "needs_art_content_corrections",
-  "followupAtUtc": "2026-10-28T07:51:32.702327+00:00",
+  "followupAtUtc": "2026-10-29T05:41:28.587169+00:00",
   "followupEvidence": [
     "docs/ui-suite/final-visual-review.json",
     "docs/ui-suite/render-verification.json"
@@ -1091,11 +1091,11 @@
   "finalArtifactHashes": [
     {
       "file": "designs/ui-suite/preview/index.html",
-      "sha256": "dade60d8b5af92760aeae2e6e770787dfde25d5e769153d82c07328082cb680a"
+      "sha256": "9ec43047b9e12aca7da4bf86461c1f31cead7aeabcf4b5160c41d4cebff341d7"
     },
     {
       "file": "designs/ui-suite/preview/style.css",
-      "sha256": "87c6edb03eccfe3e5f2ab91bdc7485ddc28f590be7758e159543c1265337f899"
+      "sha256": "52fbfa44e6f1050f5d0827f2bc9f990e40b81b1605c498e47e1769ba965c1c40"
     },
     {
       "file": "designs/ui-suite/preview/menu.css",
@@ -1103,11 +1103,11 @@
     },
     {
       "file": "designs/ui-suite/preview/suite.js",
-      "sha256": "91f7d0102d95465c86013bff526ea148a5ac038960681af1f77fafa0896a3dd0"
+      "sha256": "291d11ca4dce8da47893643b0c4f52d55d65ed397616a6f3b13a763ac99c9569"
     },
     {
       "file": "designs/ui-suite/preview/menu.js",
-      "sha256": "4eeda177e612104db36e95822c7c4565d485850ecbabeb99377517931cf84968"
+      "sha256": "20e3ca5f96c06d3ca0a5e68190d7759f55599c5255351ae5abd3314179601493"
     }
   ]
 }

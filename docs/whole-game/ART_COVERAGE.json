@@ -1,12 +1,25 @@
 {
   "schemaVersion": 1,
-  "recordedAtUtc": "2026-10-28T10:33:10.027631+00:00",
-  "project": "道途幸存者（临时名称）",
+  "recordedAtUtc": "2026-10-30T02:42:37.030841+00:00",
+  "project": "一炁当千",
+  "previousWorkingTitle": "道途幸存者",
   "referenceCommit": "3f905381d73a34b516030528b8ef6743868b9e52",
   "scope": "complete art required by pinned survivors-roguelike-kit, no Unity implementation",
   "status": "complete_art_coverage_with_offline_visual_acceptance",
   "missingRequiredArt": [],
   "categories": [
+    {
+      "category": "Brand",
+      "required": "final game name and glyph-correct main logo, secondary emblem,8 formal sizes, allUI branding",
+      "delivered": 8,
+      "unit": "formal PNG exports",
+      "records": [
+        "docs/branding/BRAND.json",
+        "docs/branding/visual-review.json",
+        "docs/ui-suite/current-delivery-audit.json"
+      ],
+      "status": "accepted"
+    },
     {
       "category": "UI",
       "required": "52 screens/states/flows + independent controls/icons/font/layout",
@@ -105,19 +118,25 @@
       "status": "accepted"
     }
   ],
-  "assetFileCount": 321,
+  "assetFileCount": 330,
   "assetFileCountNote": "Includes runtime art, required source sheets/rig parts, licenses and production/review support.52UI screenshots/layouts are indexed separately.",
   "formalPlayerFrames": 146,
   "playerStrips": 10,
   "uiScreens": 52,
+  "brandFormalExports": 8,
+  "metricClarifications": {
+    "playerMirrorPairs": 64,
+    "mirrorComparisonImages": 128,
+    "explanation": "Prior player report generatedWestExactMirrors=128 counted bothE/W images; actual mirror comparison is64pairs."
+  },
   "assetManifest": {
     "file": "art/manifest.json",
-    "sha256": "571e4ae6d3f02d0b6d1590ba9907b43c274a0f346dd249eea96d7176ef57530f"
+    "sha256": "533f1be2f75c52a3a716ba0fcbb2921be4bb9ed7c1305e874f2be56b17bdcc74"
   },
   "hashBoundReviewRecords": [
     {
       "file": "docs/ui-suite/current-delivery-audit.json",
-      "sha256": "0af7f8d8e9a46d673a02b0260ec1f581fdfe2a13da9f2335c9023d37b9bbbd18"
+      "sha256": "bad279c64e6016a37a1d3673f560e5d297cc8e71adfbc018e805e463df531671"
     },
     {
       "file": "docs/whole-game/player-actions-final-review.json",
@@ -146,6 +165,22 @@
     {
       "file": "docs/whole-game/support-audit-current.json",
       "sha256": "c7c3dc372a60354873f852df8187c24e251aa658bfe3fe118f49fdb6d65095e4"
+    },
+    {
+      "file": "docs/branding/BRAND.json",
+      "sha256": "cb6627a8238d5068749fcddf3a55aabb913a13bdc52c5790f7e949bd2f872cdd"
+    },
+    {
+      "file": "docs/branding/visual-review.json",
+      "sha256": "21959bb8938a4812286ac112201f08eeeed0e3051e7e8ea78cb3a4e89f33f881"
+    },
+    {
+      "file": "docs/branding/integration-review.json",
+      "sha256": "cb879c2437cde019bef830311096a7f742f61973a2ec8e8542fc187502ff1ce3"
+    },
+    {
+      "file": "docs/whole-game/final-non-ui-recheck-20261029.json",
+      "sha256": "7b03821b3e1c2e815e1bebf4ddf23da0351e81f27f4b05144c0015255aea543a"
     }
   ],
   "retainedFindings": [
@@ -157,5 +192,8 @@
     "Unity import/Prefab/Animator/Shader/C# integration",
     "runtime/platform/resolution/performance validation"
   ],
-  "gitSubmission": "not requested; no commit/push/publish; destination repository not supplied"
+  "gitSubmission": {
+    "repository": null,
+    "authorization": "User explicitly authorized commit and push after final art verification. Actual result is recorded independently in Git and .local/release/receipt.json."
+  }
 }

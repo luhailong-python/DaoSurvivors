@@ -1,14 +1,16 @@
 """Package only this conversation's accepted art; never includes reference clone/Unity."""
 from pathlib import Path
-import hashlib,json,zipfile
+import argparse,hashlib,json,zipfile,re
 from datetime import datetime
 
 ROOT=Path(__file__).resolve().parents[1]
-DIRS=['art','designs/ui-suite','designs/whole-game','docs/ui-suite','docs/whole-game','docs/provenance','docs/production']
-FILES=['README.md','docs/ART_DIRECTION.md','docs/art-reference-extension.md','docs/image-reference-associations.md','docs/art-resource-guide.md','docs/ASSET_SOURCES.json','docs/art-extension-sources.json','docs/control-state-derivations.json','docs/icon-atlas1-slices.json','docs/icon-atlas2-slices.json','docs/reference-audit-gameplay.md','docs/reference-gameplay-evidence.json','docs/reference-audit-ui.md','docs/reference-ui-evidence.json','docs/whole-game-art-audit.md','docs/whole-game-art-audit.json']
-TOOLS=['build-art-manifest.py','build-world-tiles.py','build-player-rig.py','build-whole-game-inventory.py','render-suite.cjs','slice-suite-icons.py','slice-world-combat.py','export-sword-player-actions.py','build-world-support.py','audit-ui-delivery.py','audit-world-support.py','finalize-player-review.py','record-final-art-acceptance.py','record-builtin-art.py','package-art-delivery.py']
+DIRS=['art','designs/ui-suite','designs/whole-game','designs/branding','docs/ui-suite','docs/whole-game','docs/branding','docs/provenance','docs/production']
+FILES=['.gitignore','.gitattributes','README.md','docs/GIT_DELIVERY.md','docs/ART_DIRECTION.md','docs/art-reference-extension.md','docs/image-reference-associations.md','docs/art-resource-guide.md','docs/ASSET_SOURCES.json','docs/art-extension-sources.json','docs/control-state-derivations.json','docs/icon-atlas1-slices.json','docs/icon-atlas2-slices.json','docs/reference-audit-gameplay.md','docs/reference-gameplay-evidence.json','docs/reference-audit-ui.md','docs/reference-ui-evidence.json','docs/whole-game-art-audit.md','docs/whole-game-art-audit.json']
+TOOLS=['build-art-manifest.py','build-world-tiles.py','build-player-rig.py','build-whole-game-inventory.py','render-suite.cjs','slice-suite-icons.py','slice-world-combat.py','export-sword-player-actions.py','build-world-support.py','audit-ui-delivery.py','audit-world-support.py','finalize-player-review.py','record-final-art-acceptance.py','record-builtin-art.py','export-brand-yiqi.py','package-art-delivery.py']
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def main():
+    parser=argparse.ArgumentParser();parser.add_argument('--label',default='');args=parser.parse_args()
+    if args.label and not re.fullmatch(r'[a-z0-9-]+',args.label):raise SystemExit('Invalid package label')
     accepted=ROOT/'docs/whole-game/ACCEPTANCE.json'
     status=json.loads(accepted.read_text(encoding='utf-8'))
     if status.get('status')!='accepted_art_only':raise SystemExit('No final whole-game art acceptance; package withheld.')
@@ -34,12 +36,13 @@ def main():
         if '.git' in p.parts or p.suffix.lower() in {'.cs','.dll','.exe','.psb'}:raise SystemExit(f'Non-art payload: {rel}')
         files.append({'file':rel,'bytes':p.stat().st_size,'sha256':sha(p)})
     out=ROOT/'.local/delivery';out.mkdir(parents=True,exist_ok=True)
-    stamp=datetime.now().strftime('%Y%m%d-%H%M%S')
-    dest=out/f'DaoSurvivors-Art-{stamp}.zip'
+    stamp=status['clientDate'].replace('-','')
+    label='-'+args.label if args.label else ''
+    dest=out/f'YiQiDangQian-All-Art-{stamp}{label}.zip'
     if dest.exists():raise SystemExit('Refusing overwrite')
     with zipfile.ZipFile(dest,'x',compression=zipfile.ZIP_DEFLATED,compresslevel=6) as z:
         for d in files:z.write(ROOT/d['file'],d['file'])
-        z.writestr('DELIVERY_FILE_INDEX.json',json.dumps({'files':files,'unityIncluded':False,'referenceCloneIncluded':False},ensure_ascii=False,indent=2))
+        z.writestr('DELIVERY_FILE_INDEX.json',json.dumps({'gameName':'一炁当千','brandIncluded':True,'files':files,'unityIncluded':False,'referenceCloneIncluded':False},ensure_ascii=False,indent=2))
     with zipfile.ZipFile(dest) as z:
         bad=z.testzip()
         if bad:raise SystemExit(f'ZIP CRC mismatch: {bad}')

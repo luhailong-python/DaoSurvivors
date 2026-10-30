@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "workingTitle": "道途幸存者",
-  "titleStatus": "临时名称",
+  "workingTitle": "一炁当千",
+  "titleStatus": "正式名称",
   "phase": "art-only",
   "referenceGame": {
     "url": "https://github.com/Roo-Roo-Roo/survivors-roguelike-kit",
@@ -13,8 +13,8 @@
     "remote": "https://luyuacpp.visualstudio.com/image/_git/image"
   },
   "outputRoot": "E:\\work\\image\\DaoSurvivors",
-  "deliveryGithub": null,
-  "deliveryGithubStatus": "待用户提供，不提交、不推送、不发布",
+  "deliveryGithub": "https://github.com/luhailong-python/DaoSurvivors",
+  "deliveryGithubStatus": "已核实成果远端；用户2026-10-29授权核验完成后提交与Push。实际结果以Git和本地回执为准。",
   "designResolution": [
     1920,
     1080
@@ -36,8 +36,9 @@
       "layoutPath": "designs/ui-suite/layouts/01-startup.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
-        "art/icons/attr-hpmax.png",
+        "art/branding/yiqi-dangqian-v1/logo-primary-v2-768.png",
         "art/common/main_frame.png",
         "art/common/title_plate.png",
         "art/common/button_primary.png",
@@ -67,8 +68,9 @@
       "layoutPath": "designs/ui-suite/layouts/02-loading.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
-        "art/icons/attr-hpmax.png",
+        "art/branding/yiqi-dangqian-v1/logo-primary-v2-768.png",
         "art/common/main_frame.png",
         "art/common/title_plate.png",
         "art/common/button_primary.png",
@@ -98,6 +100,7 @@
       "layoutPath": "designs/ui-suite/layouts/03-loading-error.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/icons/attr-cooldown.png",
         "art/common/main_frame.png",
@@ -129,6 +132,7 @@
       "layoutPath": "designs/ui-suite/layouts/04-main-menu.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/common/title_plate.png",
         "art/common/main_frame.png",
@@ -159,6 +163,7 @@
       "layoutPath": "designs/ui-suite/layouts/05-character-select.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/characters/hero.png",
         "art/icons/skill-nearest.png",
@@ -196,6 +201,7 @@
       "layoutPath": "designs/ui-suite/layouts/06-character-owned.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/characters/hero.png",
         "art/icons/skill-nearest.png",
@@ -232,6 +238,7 @@
       "layoutPath": "designs/ui-suite/layouts/07-character-detail.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/characters/hero.png",
         "art/icons/skill-nearest.png",
@@ -264,6 +271,7 @@
       "layoutPath": "designs/ui-suite/layouts/08-unlock-confirm.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/common/main_frame.png",
         "art/common/title_plate.png",
@@ -294,6 +302,7 @@
       "layoutPath": "designs/ui-suite/layouts/09-unlock-insufficient.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/icons/moneybag.png",
         "art/common/main_frame.png",
@@ -325,6 +334,7 @@
       "layoutPath": "designs/ui-suite/layouts/10-unlock-success.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/icons/skill-bothside.png",
         "art/common/main_frame.png",
@@ -356,6 +366,7 @@
       "layoutPath": "designs/ui-suite/layouts/11-character-empty.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/characters/hero.png",
         "art/common/main_frame.png",
@@ -387,6 +398,7 @@
       "layoutPath": "designs/ui-suite/layouts/12-level-select.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/illustrations/arena-v1.png",
         "art/common/main_frame.png",
@@ -418,6 +430,7 @@
       "layoutPath": "designs/ui-suite/layouts/13-level-detail.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/illustrations/arena-v1.png",
         "art/common/main_frame.png",
@@ -449,6 +462,7 @@
       "layoutPath": "designs/ui-suite/layouts/14-level-unselected.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/illustrations/arena-v1.png",
         "art/common/main_frame.png",
@@ -480,6 +494,7 @@
       "layoutPath": "designs/ui-suite/layouts/15-level-empty.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/icons/attr-area.png",
         "art/common/main_frame.png",
@@ -512,6 +527,7 @@
       "layoutPath": "designs/ui-suite/layouts/16-powerup-overview.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/icons/attr-might.png",
         "art/icons/attr-armor.png",
@@ -557,6 +573,7 @@
       "layoutPath": "designs/ui-suite/layouts/17-powerup-detail.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/icons/attr-might.png",
         "art/icons/attr-armor.png",
@@ -602,6 +619,7 @@
       "layoutPath": "designs/ui-suite/layouts/18-powerup-insufficient.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/icons/attr-might.png",
         "art/icons/attr-armor.png",
@@ -647,6 +665,7 @@
       "layoutPath": "designs/ui-suite/layouts/19-powerup-maxed.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/icons/attr-might.png",
         "art/icons/attr-armor.png",
@@ -692,6 +711,7 @@
       "layoutPath": "designs/ui-suite/layouts/20-powerup-success.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/icons/attr-might.png",
         "art/icons/attr-armor.png",
@@ -736,6 +756,7 @@
       "layoutPath": "designs/ui-suite/layouts/21-settings-audio.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/common/main_frame.png",
         "art/common/title_plate.png",
@@ -766,6 +787,7 @@
       "layoutPath": "designs/ui-suite/layouts/22-settings-display.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/common/main_frame.png",
         "art/common/title_plate.png",
@@ -796,6 +818,7 @@
       "layoutPath": "designs/ui-suite/layouts/23-settings-language.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/common/main_frame.png",
         "art/common/title_plate.png",
@@ -826,6 +849,7 @@
       "layoutPath": "designs/ui-suite/layouts/24-display-confirm.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/icons/attr-area.png",
         "art/common/main_frame.png",
@@ -867,6 +891,7 @@
         "art/icons/skill-bouncing.png",
         "art/icons/attr-might.png",
         "art/icons/attr-armor.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/common/main_frame.png",
         "art/common/title_plate.png",
         "art/common/button_primary.png",
@@ -913,6 +938,7 @@
         "art/icons/attr-recovery.png",
         "art/icons/attr-cooldown.png",
         "art/icons/attr-area.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/common/main_frame.png",
         "art/common/title_plate.png",
         "art/common/button_primary.png",
@@ -955,6 +981,7 @@
         "art/icons/buff-burn.png",
         "art/icons/buff-freeze.png",
         "art/icons/buff-slow.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/common/main_frame.png",
         "art/common/title_plate.png",
         "art/common/button_primary.png",
@@ -1002,6 +1029,7 @@
         "art/icons/attr-cooldown.png",
         "art/icons/attr-area.png",
         "art/icons/attr-curse.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/common/main_frame.png",
         "art/common/title_plate.png",
         "art/common/button_primary.png",
@@ -1041,6 +1069,7 @@
         "art/icons/skill-bouncing.png",
         "art/icons/attr-might.png",
         "art/icons/attr-armor.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/skill-chain.png",
         "art/icons/attr-hpmax.png",
         "art/icons/skill-fourcorner.png",
@@ -1083,6 +1112,7 @@
         "art/icons/skill-bouncing.png",
         "art/icons/attr-might.png",
         "art/icons/attr-armor.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/common/main_frame.png",
         "art/common/title_plate.png",
         "art/common/button_primary.png",
@@ -1129,6 +1159,7 @@
         "art/icons/attr-recovery.png",
         "art/icons/attr-cooldown.png",
         "art/icons/attr-area.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/moneybag.png",
         "art/common/main_frame.png",
         "art/common/title_plate.png",
@@ -1169,6 +1200,7 @@
         "art/icons/skill-bouncing.png",
         "art/icons/attr-might.png",
         "art/icons/attr-armor.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/treasure-closed.png",
         "art/common/main_frame.png",
         "art/common/title_plate.png",
@@ -1209,6 +1241,7 @@
         "art/icons/skill-bouncing.png",
         "art/icons/attr-might.png",
         "art/icons/attr-armor.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/treasure-closed.png",
         "art/common/main_frame.png",
         "art/common/title_plate.png",
@@ -1249,6 +1282,7 @@
         "art/icons/skill-bouncing.png",
         "art/icons/attr-might.png",
         "art/icons/attr-armor.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/treasure-open.png",
         "art/common/main_frame.png",
         "art/common/title_plate.png",
@@ -1296,6 +1330,7 @@
         "art/icons/attr-recovery.png",
         "art/icons/attr-cooldown.png",
         "art/icons/attr-area.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/treasure-open.png",
         "art/common/main_frame.png",
         "art/common/title_plate.png",
@@ -1343,6 +1378,7 @@
         "art/icons/attr-recovery.png",
         "art/icons/attr-cooldown.png",
         "art/icons/attr-area.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/treasure-open.png",
         "art/icons/moneybag.png",
         "art/common/main_frame.png",
@@ -1383,6 +1419,7 @@
         "art/icons/skill-bouncing.png",
         "art/icons/attr-might.png",
         "art/icons/attr-armor.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/attr-cooldown.png",
         "art/common/main_frame.png",
         "art/common/title_plate.png",
@@ -1413,6 +1450,7 @@
       "layoutPath": "designs/ui-suite/layouts/38-abandon-confirm.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/icons/attr-cooldown.png",
         "art/common/main_frame.png",
@@ -1444,6 +1482,7 @@
       "layoutPath": "designs/ui-suite/layouts/39-exit-confirm.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/icons/attr-growth.png",
         "art/common/main_frame.png",
@@ -1492,6 +1531,7 @@
         "art/icons/attr-recovery.png",
         "art/icons/attr-cooldown.png",
         "art/icons/attr-area.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/common/main_frame.png",
         "art/common/title_plate.png",
@@ -1531,6 +1571,7 @@
         "art/icons/skill-bouncing.png",
         "art/icons/attr-might.png",
         "art/icons/attr-armor.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/common/main_frame.png",
         "art/common/title_plate.png",
@@ -1561,6 +1602,7 @@
       "layoutPath": "designs/ui-suite/layouts/42-save-pending.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/icons/moneybag.png",
         "art/common/main_frame.png",
@@ -1592,6 +1634,7 @@
       "layoutPath": "designs/ui-suite/layouts/43-save-error.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/icons/attr-cooldown.png",
         "art/common/main_frame.png",
@@ -1623,6 +1666,7 @@
       "layoutPath": "designs/ui-suite/layouts/44-guide-controls.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/characters/hero.png",
         "art/icons/skill-nearest.png",
@@ -1657,6 +1701,7 @@
       "layoutPath": "designs/ui-suite/layouts/45-guide-growth.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/icons/exp.png",
         "art/icons/skill-nearest.png",
@@ -1690,6 +1735,7 @@
       "layoutPath": "designs/ui-suite/layouts/46-skill-codex.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/icons/skill-nearest.png",
         "art/icons/skill-bothside.png",
@@ -1729,6 +1775,7 @@
       "layoutPath": "designs/ui-suite/layouts/47-evolution-locked.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/icons/skill-nearest.png",
         "art/icons/attr-cooldown.png",
@@ -1761,6 +1808,7 @@
       "layoutPath": "designs/ui-suite/layouts/48-evolution-ready.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/icons/skill-nearest.png",
         "art/icons/attr-cooldown.png",
@@ -1793,6 +1841,7 @@
       "layoutPath": "designs/ui-suite/layouts/49-character-stats.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/characters/hero.png",
         "art/icons/skill-nearest.png",
@@ -1839,6 +1888,7 @@
       "layoutPath": "designs/ui-suite/layouts/50-notice-states.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/icons/attr-growth.png",
         "art/icons/moneybag.png",
@@ -1873,6 +1923,7 @@
       "layoutPath": "designs/ui-suite/layouts/51-control-states.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/common/controls/primary_button_normal.png",
         "art/common/controls/primary_button_pressed.png",
@@ -1918,6 +1969,7 @@
       "layoutPath": "designs/ui-suite/layouts/52-flow-map.json",
       "independentAssets": [
         "art/illustrations/lobby-v1.png",
+        "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
         "art/icons/gold.png",
         "art/common/main_frame.png",
         "art/common/title_plate.png",
@@ -2305,6 +2357,10 @@
     }
   ],
   "status": "ui_art_complete_unity_integration_pending",
-  "uiAcceptedOn": "2026-10-28",
-  "wholeGameArtStatus": "UI is one completed art subset; non-UI replacement and animation tracked separately."
+  "uiAcceptedOn": "2026-10-29",
+  "wholeGameArtStatus": "UI subset accepted with formal brand refresh; full art acceptance is recorded separately in docs/whole-game/ACCEPTANCE.json.",
+  "gameName": "一炁当千",
+  "displayTagline": "一人成阵，万妖退散",
+  "brandingSource": "docs/branding/BRAND.json",
+  "brandingStatus": "formal_brand_synchronized_all52"
 }

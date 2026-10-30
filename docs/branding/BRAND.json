@@ -1,0 +1,389 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-29T03:16:27.329098+00:00",
+  "gameName": "一炁当千",
+  "pronunciation": "yī qì dāng qiān",
+  "previousWorkingTitle": "道途幸存者",
+  "displayTagline": "一人成阵，万妖退散",
+  "phase": "formal brand integrated into complete art delivery; Unity integration deferred",
+  "generationRoute": "native image_gen.imagegen",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host tool does not expose model/quality parameters or reliable result identifiers.",
+  "nativeImages": 2,
+  "downscaledExports": 6,
+  "assets": [
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-primary-v2.png",
+      "sha256": "748f16948e9b9209ca8758c8e26ba597d130a5a6f9ffa32692a8764efedb3233",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "format": "RGBA PNG",
+      "role": "main wordmark",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBoundsAlphaAbove16": [
+        41,
+        70,
+        2133,
+        646
+      ],
+      "hasRealTransparency": true,
+      "sourceType": "native builtin generation",
+      "record": "art/branding/yiqi-dangqian-v1/logo-primary-v2.png.generation.json",
+      "unityImportAdvice": {
+        "textureType": "Sprite(2D and UI)",
+        "spriteMode": "Single",
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "preserveAspect": true,
+        "filterMode": "Bilinear",
+        "wrapMode": "Clamp",
+        "alphaIsTransparency": true,
+        "mipMaps": false,
+        "compression": "None initially; test platform choice later",
+        "validatedInUnity": false
+      }
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-primary-v2-1536.png",
+      "sha256": "eb427884e15928d318b940a3285889882746cef4fa667ff0c4c6b53cf2b1235c",
+      "dimensions": [
+        1536,
+        512
+      ],
+      "format": "RGBA PNG",
+      "role": "main wordmark",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBoundsAlphaAbove16": [
+        29,
+        49,
+        1508,
+        457
+      ],
+      "hasRealTransparency": true,
+      "sourceType": "downscaled derivative",
+      "record": "art/branding/yiqi-dangqian-v1/logo-primary-v2-1536.png.derivation.json",
+      "unityImportAdvice": {
+        "textureType": "Sprite(2D and UI)",
+        "spriteMode": "Single",
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "preserveAspect": true,
+        "filterMode": "Bilinear",
+        "wrapMode": "Clamp",
+        "alphaIsTransparency": true,
+        "mipMaps": false,
+        "compression": "None initially; test platform choice later",
+        "validatedInUnity": false
+      }
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-primary-v2-768.png",
+      "sha256": "ff2491d97f5bf371c03497064c95e59d6aaade7da0029cad63df313832ecb3ec",
+      "dimensions": [
+        768,
+        256
+      ],
+      "format": "RGBA PNG",
+      "role": "main wordmark",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBoundsAlphaAbove16": [
+        14,
+        24,
+        754,
+        229
+      ],
+      "hasRealTransparency": true,
+      "sourceType": "downscaled derivative",
+      "record": "art/branding/yiqi-dangqian-v1/logo-primary-v2-768.png.derivation.json",
+      "unityImportAdvice": {
+        "textureType": "Sprite(2D and UI)",
+        "spriteMode": "Single",
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "preserveAspect": true,
+        "filterMode": "Bilinear",
+        "wrapMode": "Clamp",
+        "alphaIsTransparency": true,
+        "mipMaps": false,
+        "compression": "None initially; test platform choice later",
+        "validatedInUnity": false
+      }
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-primary-v2-384.png",
+      "sha256": "3796b658f6fc86fec4a2f64e84da31e56444206099a725a0d5b32862772f7608",
+      "dimensions": [
+        384,
+        128
+      ],
+      "format": "RGBA PNG",
+      "role": "main wordmark",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBoundsAlphaAbove16": [
+        7,
+        12,
+        377,
+        115
+      ],
+      "hasRealTransparency": true,
+      "sourceType": "downscaled derivative",
+      "record": "art/branding/yiqi-dangqian-v1/logo-primary-v2-384.png.derivation.json",
+      "unityImportAdvice": {
+        "textureType": "Sprite(2D and UI)",
+        "spriteMode": "Single",
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "preserveAspect": true,
+        "filterMode": "Bilinear",
+        "wrapMode": "Clamp",
+        "alphaIsTransparency": true,
+        "mipMaps": false,
+        "compression": "None initially; test platform choice later",
+        "validatedInUnity": false
+      }
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-emblem.png",
+      "sha256": "a7aaa7c83dfa0efebca203739a1b5977c547b9a9ba5b96f92a6fb2efe1a353a0",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "role": "standalone secondary emblem",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBoundsAlphaAbove16": [
+        107,
+        107,
+        1173,
+        1159
+      ],
+      "hasRealTransparency": true,
+      "sourceType": "native builtin generation",
+      "record": "art/branding/yiqi-dangqian-v1/logo-emblem.png.generation.json",
+      "unityImportAdvice": {
+        "textureType": "Sprite(2D and UI)",
+        "spriteMode": "Single",
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "preserveAspect": true,
+        "filterMode": "Bilinear",
+        "wrapMode": "Clamp",
+        "alphaIsTransparency": true,
+        "mipMaps": false,
+        "compression": "None initially; test platform choice later",
+        "validatedInUnity": false
+      }
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-emblem-512.png",
+      "sha256": "5fe2a267a84d00e2dd817138a433dc712872ae2dc2f2f1360d5b3b3a701bcfe0",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "RGBA PNG",
+      "role": "standalone secondary emblem",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBoundsAlphaAbove16": [
+        43,
+        44,
+        479,
+        473
+      ],
+      "hasRealTransparency": true,
+      "sourceType": "downscaled derivative",
+      "record": "art/branding/yiqi-dangqian-v1/logo-emblem-512.png.derivation.json",
+      "unityImportAdvice": {
+        "textureType": "Sprite(2D and UI)",
+        "spriteMode": "Single",
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "preserveAspect": true,
+        "filterMode": "Bilinear",
+        "wrapMode": "Clamp",
+        "alphaIsTransparency": true,
+        "mipMaps": false,
+        "compression": "None initially; test platform choice later",
+        "validatedInUnity": false
+      }
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-emblem-256.png",
+      "sha256": "27277b838f6b30b87d677c9fc65230015b5ec6867ca9a38661c67b3bdc79beee",
+      "dimensions": [
+        256,
+        256
+      ],
+      "format": "RGBA PNG",
+      "role": "standalone secondary emblem",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBoundsAlphaAbove16": [
+        21,
+        22,
+        240,
+        237
+      ],
+      "hasRealTransparency": true,
+      "sourceType": "downscaled derivative",
+      "record": "art/branding/yiqi-dangqian-v1/logo-emblem-256.png.derivation.json",
+      "unityImportAdvice": {
+        "textureType": "Sprite(2D and UI)",
+        "spriteMode": "Single",
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "preserveAspect": true,
+        "filterMode": "Bilinear",
+        "wrapMode": "Clamp",
+        "alphaIsTransparency": true,
+        "mipMaps": false,
+        "compression": "None initially; test platform choice later",
+        "validatedInUnity": false
+      }
+    },
+    {
+      "file": "art/branding/yiqi-dangqian-v1/logo-emblem-128.png",
+      "sha256": "90577bf1d14db8ab984d48aef89cda80b29497d19bb11864724e997ef319b524",
+      "dimensions": [
+        128,
+        128
+      ],
+      "format": "RGBA PNG",
+      "role": "standalone secondary emblem",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBoundsAlphaAbove16": [
+        11,
+        11,
+        120,
+        119
+      ],
+      "hasRealTransparency": true,
+      "sourceType": "downscaled derivative",
+      "record": "art/branding/yiqi-dangqian-v1/logo-emblem-128.png.derivation.json",
+      "unityImportAdvice": {
+        "textureType": "Sprite(2D and UI)",
+        "spriteMode": "Single",
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "preserveAspect": true,
+        "filterMode": "Bilinear",
+        "wrapMode": "Clamp",
+        "alphaIsTransparency": true,
+        "mipMaps": false,
+        "compression": "None initially; test platform choice later",
+        "validatedInUnity": false
+      }
+    }
+  ],
+  "promptFiles": [
+    "docs/production/yiqi-dangqian-logo-v2.prompt.txt",
+    "docs/production/yiqi-dangqian-emblem-v1.prompt.txt"
+  ],
+  "preview": "designs/branding/yiqi-dangqian-v1/index.html",
+  "originalGameArtAcceptance": "docs/whole-game/ACCEPTANCE.json",
+  "relationshipToPreviousDelivery": "Formal brand is now synchronized into52UI screens and the unified whole-game art package; the earlier separate logo package is historical.",
+  "visualStatus": "accepted_current_logo_and_emblem",
+  "clientDate": "2026-10-28",
+  "sourceReferenceOnly": {
+    "file": "art/branding/yiqi-dangqian-v1/logo-primary.png",
+    "role": "earlier unselected glyph-repair source; final title is logo-primary-v2.png"
+  },
+  "review": "docs/branding/visual-review.json",
+  "uiIntegration": {
+    "clientDate": "2026-10-29",
+    "status": "complete",
+    "screens": 52,
+    "review": "docs/branding/integration-review.json"
+  }
+}

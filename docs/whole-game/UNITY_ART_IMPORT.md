@@ -1,4 +1,4 @@
-# 全游戏美术的 Unity 导入建议
+# 一炁当千 · 全游戏美术的 Unity 导入建议
 
 本阶段只交付美术；未在 Unity 中导入或运行。原目录中的早期 Unity 工程冻结，不纳入本次美术包。先看 `art/manifest.json` 的逐文件尺寸、Alpha、角色、Pivot、Border 与来源，再按实际平台调整压缩、PPU 和图集。
 
@@ -25,3 +25,7 @@
 ## UI 与阶段边界
 
 52屏的布局、动态文字、字体、控件状态、九宫格参数见`docs/ui-suite/UNITY_ART_IMPORT.md`和`docs/art-resource-guide.md`。三类正式控件共15状态，各族画布/Pivot/Border一致。画面设计与离线状态预览已验收；Canvas Scaler、安全区、SDF字体、材质混合、拖尾、排序、性能、Collider、压缩和实际运行留待接入阶段。此文不是已执行导入的证明。
+
+## 正式名字与Logo
+
+正式名《一炁当千》；主Logo与葫芦徽记见`docs/branding/BRAND.json`。固定美术字已绘入透明PNG，保持等比，Border全0；小于384px宽的窄位用徽记加独立文字。52屏的页头、启动/主菜单已使用正式品牌。Unity中的应用名、启动图、PlayerSettings、Renderer和Prefab仍待下阶段设置。
